@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&subset=cyrillic');
+
+
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
+BODY{}
+
+::-webkit-scrollbar-track{
+	background-color: #FFF;
+}
+::-webkit-scrollbar{
+	width: 3px;
+	border: none;
+	background-color: #EEE;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #CCC;
+	border: none;
+}
+
+p { text-align:justify; }
+h1{ font-size: 4em !important; text-transform: uppercase; line-height: 1em; }
+h2{ max-width: 100%; }
+h3{ max-width: 100%; }
+
+.book .book-body .page-wrapper .page-inner section.normal h1{
+	padding-bottom: 0.2em; margin: 0 0 0.3em 0;
+}
+.book .book-body .page-wrapper .page-inner section.normal h2{
+	font-size: 2em;
+	line-height: 1.2em;
+	font-weight: bold !important;
+}
+.book .book-header h1{ display: none; }
+
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+/* menu */
+
+nav > ul > li > a{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+nav > ul > li > a b{ display: none; }
+
+nav > ul > li{
+	*border-bottom: 1px solid #CCC;
+}
+
+.book .book-summary ul.summary a{ font-weight: 500;}
+.book .book-summary ul.summary a b{ padding-right: 5px; }
+
+.book .book-summary ul.summary > li.chapter > a{
+	font-size: 1.2em;
+}
+.book .book-summary ul.summary > li.chapter:nth-child(1) > a{ color: #C54409; border-bottom: 2px solid #C54409; }
+.book .book-summary ul.summary > li.chapter:nth-child(2) > a{ color: #BC9417; border-bottom: 2px solid #BC9417; }
+.book .book-summary ul.summary > li.chapter:nth-child(3) > a{ color: #482683; border-bottom: 2px solid #482683; }
+.book .book-summary ul.summary > li.chapter:nth-child(4) > a{ color: #79AC2C; border-bottom: 2px solid #79AC2C; }
+.book .book-summary ul.summary > li.chapter:nth-child(5) > a{ color: #369B9E; border-bottom: 2px solid #369B9E; }
+.book .book-summary ul.summary > li.chapter:nth-child(6) > a{ color: #A01B17; border-bottom: 2px solid #A01B17; }
+
+.book .book-summary ul.summary > li.chapter:nth-child(1) > ul > li.active > a,
+.book .book-summary ul.summary > li.chapter:nth-child(1) > ul ul li.active > a,
+.book .book-summary ul.summary > li.chapter:nth-child(1) a:hover{ color: #C54409; }
+.book .book-summary ul.summary > li.chapter:nth-child(2) > ul > li.active > a,
+.book .book-summary ul.summary > li.chapter:nth-child(2) > ul ul li.active > a,
+.book .book-summary ul.summary > li.chapter:nth-child(2) a:hover{ color: #BC9417; }
+.book .book-summary ul.summary > li.chapter:nth-child(3) > ul > li.active > a,
+.book .book-summary ul.summary > li.chapter:nth-child(3) > ul ul li.active > a,
+.book .book-summary ul.summary > li.chapter:nth-child(3) a:hover{ color: #482683; }
+.book .book-summary ul.summary > li.chapter:nth-child(4) > ul > li.active > a,
+.book .book-summary ul.summary > li.chapter:nth-child(4) > ul ul li.active > a,
+.book .book-summary ul.summary > li.chapter:nth-child(4) a:hover{ color: #79AC2C; }
+.book .book-summary ul.summary > li.chapter:nth-child(5) > ul > li.active > a,
+.book .book-summary ul.summary > li.chapter:nth-child(5) > ul ul li.active > a,
+.book .book-summary ul.summary > li.chapter:nth-child(5) a:hover{ color: #369B9E; }
+.book .book-summary ul.summary > li.chapter:nth-child(6) > ul > li.active > a,
+.book .book-summary ul.summary > li.chapter:nth-child(6) > ul ul li.active > a,
+.book .book-summary ul.summary > li.chapter:nth-child(6) a:hover{ color: #A01B17; }
+
+
+
+.book .book-summary ul.summary > li.chapter:nth-child(1) a b{ color: #C54409; }
+.book .book-summary ul.summary > li.chapter:nth-child(2) a b{ color: #BC9417; }
+.book .book-summary ul.summary > li.chapter:nth-child(3) a b{ color: #482683; }
+.book .book-summary ul.summary > li.chapter:nth-child(4) a b{ color: #79AC2C; }
+.book .book-summary ul.summary > li.chapter:nth-child(5) a b{ color: #369B9E; }
+.book .book-summary ul.summary > li.chapter:nth-child(6) a b{ color: #A01B17; }
+
+
+.book .book-summary ul.summary > li > ul{ padding: 0; }
+.book .book-summary ul.summary > li > ul > li a{
+
+}
+
+
+
+h1 .header-section-number{ display: none; }
+
+#body1 .body-inner{}
+
+.book .book-summary{
+	background: none;
+}
+
+.page-wrapper:before{
+	content: "";
+	width: 100%;
+	display: block;
+	height: 55vh;
+	background-color: #BC9417;
+	*background-image: url(../images/chapter1.jpg);
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+
+
+h2 .header-section-number,
+h3 .header-section-number{
+	display: block;
+	color: #E6E3D9;
+	font-size: 3em;
+	line-height: 1em;
+}
+
+
+blockquote{
+	border-left: none !important;
+	margin: 10px 30px 10px 0 !important;
+	padding: 0 !important;
+	border-bottom: 5px solid #EEE !important;
+	width: 50%;
+	float: left;
+}
+blockquote p{ color: #BC9417; font-weight: bold; line-height: 1.3em; font-size: 1.2em;}
+
+
+
+/* Intro */
+
+#intro .page-wrapper:before{ background-color: #482683; }
+
+
+/* Big headers */
+mark{
+	background-color: #BC9417;
+	color: #FFF;
+	display: block;
+	padding: 3em;
+}
+
+
+/* 1 - #BC9417 */
+
+#chapter1{
+	*background-image: url(../images/chapter1.jpg);
+	*background-size: 100% auto;
+	*background-repeat: no-repeat;
+}
+
+#chapter1 h1{ border-bottom: 3px solid #BC9417; }
+
+#chapter1 h1,
+#chapter1 h2,
+#chapter1 h3,
+#chapter1_1 h2,
+#chapter1_2 h2{
+	color: #BC9417;
+}
+
+#body1 .page-wrapper:before{
+	background-color: #BC9417; }
+
+
+/* 2 - #482683 */
+
+#chapter2{
+	*background-image: url(../images/chapter1.jpg);
+	*background-size: 100% auto;
+	*background-repeat: no-repeat;
+}
+
+#chapter2 h1{ border-bottom: 3px solid #482683; }
+
+#chapter2 h1,
+#chapter2 h2,
+#chapter2 h3,
+#chapter2 h4,
+#chapter2 h5{
+	color: #482683;
+}
+
+#body2 .page-wrapper:before{ background-color: #482683; }
+
+
+/* 3 - #79AC2C */
+
+#chapter3{
+	*background-image: url(../images/chapter1.jpg);
+	*background-size: 100% auto;
+	*background-repeat: no-repeat;
+}
+
+#chapter3 h1{ border-bottom: 3px solid #79AC2C; }
+
+#chapter3 h1,
+#chapter3 h2,
+#chapter3 h3,
+#chapter3 h4,
+#chapter3 h5{
+	color: #79AC2C;
+}
+
+#body3 .page-wrapper:before{ background-color: #79AC2C; }
+
+/* 4 - #369B9E */
+
+#chapter4{
+	*background-image: url(../images/chapter1.jpg);
+	*background-size: 100% auto;
+	*background-repeat: no-repeat;
+}
+
+#chapter4 h1{ border-bottom: 3px solid #369B9E; }
+
+#chapter4 h1,
+#chapter4 h2,
+#chapter4 h3,
+#chapter4 h4,
+#chapter4 h5{
+	color: #369B9E;
+}
+
+#body4 .page-wrapper:before{ background-color: #369B9E; }
+
+/* 5 - #A01B17 */
+
+#chapter5:before{
+	background-image: url(../images/paabel.png);
+	border: 1px solid red;
+}
+
+#chapter5 h1{ border-bottom: 3px solid #A01B17; }
+
+#chapter5 h1,
+#chapter5 h2,
+#chapter5 h3,
+#chapter5 h4,
+#chapter5 h5{
+	color: #A01B17;
+}
+
+#body5 .page-wrapper:before{ background-color: #A01B17; }
+
