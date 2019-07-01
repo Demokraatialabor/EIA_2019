@@ -1,5 +1,9 @@
 book_filename: "EIA_2019_digi"
 language:
+  label:
+    fig: 'Joonis '
+    tab: 'Tabel '
+    eq: 'Valem '
   ui:
     chapter_name: ""
 delete_merged_file: true

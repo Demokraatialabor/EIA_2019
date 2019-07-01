@@ -1,11 +1,11 @@
-## Keskuse ja ääremaa kujunemine ja kujundamine viimase 30 aasta jooksul {#regionaal_2.4}
+## Keskuse ja ääremaa kujunemine ja kujundamine viimase 30 aasta jooksul {#chapter2_3}
 *Bianka Plüschke-Altof (Tallinna Ülikool), Bradley Loewen (Tartu Ülikool), Kadri Leetmaa (Tartu Ülikool)*
 
-**1. Viimase kolmekümne aasta jooksul on Eesti ääremaastumise tulemusel jagunenud suuremateks linnapiirkondadeks ja ülejäänud riigiks.**
+* **Viimase kolmekümne aasta jooksul on Eesti ääremaastumise tulemusel jagunenud suuremateks linnapiirkondadeks ja ülejäänud riigiks.**
 
-**2. Ääremaastumisel on objektiivne ja subjektiivne mõõde, mis vastastikku võimendavad teineteist.**
+* **Ääremaastumisel on objektiivne ja subjektiivne mõõde, mis vastastikku võimendavad teineteist.**
 
-**3. Eesti regionaalpoliitikas ELi suundumuste eeskujul piirkondade konkurentsivõimele keskendumine ei ole piisav ääremaastumise ümberpööramiseks, sest koha ääremaa-staatus seab oma piirid.**
+* **Eesti regionaalpoliitikas ELi suundumuste eeskujul piirkondade konkurentsivõimele keskendumine ei ole piisav ääremaastumise ümberpööramiseks, sest koha ääremaa-staatus seab oma piirid.**
 
 Viimastel kümnenditel on enamikus Kesk- ja Ida-Euroopa riikides süvenenud ühiskondlik ja ruumiline
 polariseerumine (Lang ja Görmar 2019). Eestis on kasvanud piirkondlik ebavõrdsus ning suur osa Eesti
@@ -27,16 +27,16 @@ Piirkondade süveneva ebavõrdsuse kõige selgem ilming on majandusliku ja inimk
 suurematesse linnapiirkondadesse. Kui Tallinna ümbritsev linnaline ala (Harjumaa) välja arvata, vaevas kõiki
 teisi maakondasid aastatel 1995–2016 rahvastikukadu. Sel ajavahemikul kasvas Harjumaa elanikkond 6% ja
 Tartumaa olukord oli suhteliselt stabiilne (rahvastikukadu 5%), samas kui ülejäänud maakondades vähenes
-rahvaarv märkimisväärselt – 11–26% (joonis 1). Lisaks suurematesse linnadesse elama asumisele on oluline
+rahvaarv märkimisväärselt – 11–26% (joonis \@ref(fig:joonis231)). Lisaks suurematesse linnadesse elama asumisele on oluline
 roll ka väljarändel teistesse riikidesse, mida lihtsustas Eesti liitumine Schengeni alaga 2004. aastal. 2011.
 aasta rahvaloenduse andmetel töötas välismaal 3% (Harjumaa) kuni 8% (Pärnumaa) Eesti maakondade
 elanikest (REL 2011). Käsikäes rahvastiku koondumisega toimus sisemajanduse kogutoodangu (SKT)
 piirkondlik polariseerumine. Aastatel 1995–2016 soosis majanduskasv Harjumaad, mille panus SKTsse
 suurenes 54%-lt 64%-le. Ka Tartumaa panus SKTsse suurenes, muude maakondade oma aga vähenes ning
 suurim oli langus Kirde-Eesti tööstuspiirkondades. Selle tulemusena on lisaks väljarändele laialt levinud ka
-maalt linna tööl käimine, mida teeb 28% elanikkonnast ehk 380 000 inimest (Ahas jt 2011).
+maalt linna tööl käimine, mida teeb 28% elanikkonnast ehk 380 000 inimest [@pendelranne].
 
-```{r echo=FALSE, message=FALSE}
+```{r, joonis231, fig.cap='Location of workplace in county of residence, elsewhere in Estonia and outside Estonia among the residents of Viljandi, Valga, Võru and Põlva county', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 library("tidyverse")
 ```
 **FIGURE 1 HERE**
@@ -64,7 +64,7 @@ Noorkõiv 2013), mida toetab suvel hooajaliselt maal elamise tendents (mis hõlm
 elanikest – Ahas jt 2011). Seni ei ole uued teenimisvõimalused ometi kaugeltki korvanud struktuurset
 tööhõive vähenemist põllumajanduses.
 
-```{r, echo=FALSE, message=FALSE}
+```{r, joonis232, fig.cap='Viljandi-, Valga-, Võru- ja Põlvamaa elanike töökohtade paiknemine elukoha maakonnas, mujal Eestis või väljaspool Eestit 2000. ja 2011.aastal', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
  library("tidyverse")
 
@@ -72,7 +72,7 @@ tööhõive vähenemist põllumajanduses.
   fig2plot <- ggplot(data = fig2) +
   geom_col(mapping = aes(x=county, y=value, fill=county)) +
   facet_wrap(~location, nrow=1) +
-  labs(y="number of workforce", x="", caption="Figure 2. Location of workplace in county of residence, elsewhere in Estonia and outside Estonia among the residents of Viljandi, Valga, Võru and Põlva county")
+  labs(y="number of workforce", x="")
   
  fig2theme <- theme(panel.background = element_rect(fill = "white", colour = "white"),
                      panel.grid.major = element_line(colour="grey", size = (0.2)),
@@ -87,7 +87,7 @@ tööhõive vähenemist põllumajanduses.
 Ehkki põllumajanduses toimusid peamised tööhõive muutused juba 1990. aastatel, ei ole hõive vähenemine
 siiani peatunud. Lõuna-Eesti nelja maakonna koguhõive on püsinud stabiilsena alates 2000. aastate algusest
 (63 000 töötajat 2001. aastal), kuid elukoha lähedal on vähem töökohti, mistõttu on kasvanud tööalane
-pendelränne (joonis 2). Kui 2000. aastal töötas enamik Lõuna-Eesti maakondade töötavast elanikkonnast
+pendelränne (joonis \@ref(fig:joonis232)). Kui 2000. aastal töötas enamik Lõuna-Eesti maakondade töötavast elanikkonnast
 oma kodumaakonnas, siis 2011. aastaks töötas 23% väljaspool maakonda ja 7% väljaspool Eestit. See
 tähendab, et paljud pendelrändajad viibivad kodupiirkonnas ainult nädalavahetustel või veelgi harvem,
 mistõttu pikemas perspektiivis võivad ka nende pered sealt lahkuda. Majanduse ümberkorraldumine ning
@@ -115,16 +115,16 @@ keda kuulatakse. Ehkki ajakirjandusvabadus tagab kõigile ühiskonnaliikmetele v
 väljendada ja Eesti on selle poolest rahvusvaheliselt kõrgelt hinnatud, näitab mõjukate Eesti ajalehtede ning
 arvamusliidrite ja ajalehetoimetajatega tehtud intervjuude diskursuseanalüüs (Plüschke-Altof 2017), et
 ääremaade kuvandit toodab arvamuseliit. See koosneb peamiselt ajakirjanikest, teadlastest, poliitikutest
-ning kultuuri- ja kunstiinimestest, kes esindavad linlikke institutsioone nagu meediaväljaanded, riigiasutused, ülikoolid või kultuuriasutused (umbes 86% autoritest, joonis 3). Ajalehtede suure lugejaskonna tõttu mõjutab eliidi arutelu[s regionaalarengu ja ääremaastumise üle esitatav maapiirkondade kuvand] ka otsustajaid ning maapiirkondade ja väikelinnade elanikke, kes aga ise on arutellu vähem kaasatud.
+ning kultuuri- ja kunstiinimestest, kes esindavad linlikke institutsioone nagu meediaväljaanded, riigiasutused, ülikoolid või kultuuriasutused (umbes 86% autoritest, joonis \@ref(fig:joonis233)). Ajalehtede suure lugejaskonna tõttu mõjutab eliidi arutelu[s regionaalarengu ja ääremaastumise üle esitatav maapiirkondade kuvand] ka otsustajaid ning maapiirkondade ja väikelinnade elanikke, kes aga ise on arutellu vähem kaasatud.
 
-```{r, echo=FALSE, message=FALSE}
+```{r, joonis233, fig.cap='Kes kujundavad maapiirkondade kuvandit Eesti trükimeedias?', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
  library("tidyverse")
   fig3 <- read.csv ("fig3_data.csv", header=TRUE)
 
   fig3plot <- ggplot(data = fig3) +
   geom_col(mapping = aes(x=reorder(body, proportion), y=proportion), fill="#482683", width=0.7, show.legend = NA) +
-    labs(y="%", x="", caption="Figure 3: Who shapes rural images in Estonian print media?") + 
+    labs(y="%", x="") + 
     coord_flip ()
   
   fig3theme <- theme(panel.background = element_rect(fill = "white", colour = "white"),
@@ -138,7 +138,7 @@ ning kultuuri- ja kunstiinimestest, kes esindavad linlikke institutsioone nagu m
 ```
 
 Meedias seostatakse ääremaad enamasti maapiirkondadega (52% juhtudest), viidates konkreetsetele
-maakohtadele või maapiirkondadele üldiselt, jättes konkreetsed kohad nimetamata (vt joonis 4).
+maakohtadele või maapiirkondadele üldiselt, jättes konkreetsed kohad nimetamata (vt joonis \@ref(fig:joonis234)).
 Piirkondade polariseerumist peegeldab asjaolu, et paljudes artiklites kirjeldatakse ääremaana kogu Eestit
 väljaspool Tallinnat ja selle ümbrust. Harvem käsitletakse ääremaad globaalses või ELi kontekstis (42%) ja
 veel palju vähem kõneldakse linnalisest ääremaast (3%). Maapiirkondade samastamine ääremaaga võib olla
@@ -153,7 +153,7 @@ mitte ainult seostatakse ääremaisusega, vaid pannakse neile ka vastutus, jätt
 head, nagu ütleb üks arvamusliider. Kordamise kaudu muutub seos lugejaskonna ja laiema üldsuse silmis
 iseenesestmõistetavaks.
 
-```{r, echo=FALSE, message=FALSE}
+```{r, joonis234, fig.cap='Mis kohti kirjeldatakse Eesti trükimeedias kui ääremaad?', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 library(ggwordcloud)
 library(dplyr)
 
@@ -165,8 +165,7 @@ fig4plot <- ggplot(fig4, aes(label = word, size = freq, color=freq)) +
   geom_text_wordcloud_area(area_corr_power = 1/.9, eccentricity = 0.3) +
   scale_size_area(max_size = 8) +
   theme_minimal() +
-  scale_color_gradient(low = "#a58ad5", high = "#482683") +
-  labs(caption="Figure 4. Where are peripheries located in Estonian print media?")
+  scale_color_gradient(low = "#a58ad5", high = "#482683")
 
 print(fig4plot)
 ```
@@ -266,4 +265,4 @@ kontekstis, kus kohaliku arengu jaoks vajalikud ressursid on ebaühtlaselt jaota
 
 Selgitasime, et Eestis on ääremaastumine mitmemõõtmeline ja -tasandiline protsess, mis mõjutab eriti maapiirkondi, aga ka riiki tervikuna. See hõlmab objektiivseid protsesse, sealhulgas valikulist väljarännet, majanduslangust ja osutatavate teenuste vähenemist. Lisaks aga mõjutab see ka maapiirkondade subjektiivset kuvandit, põhjustades regionaalse polariseerumise tõttu maapiirkondade vähest nähtavust ja territoriaalset häbimärgistamist. Selle vastu võitlemisel on Eesti regionaalpoliitikas järgitud neoliberaalseid suundumusi, püüdes kohalikku arengut edendada piirkondade konkurentsivõime ja innovatsiooni toetamise teel. Kuid riigi tasandil rakendatuna võib seesugune kohaneutraalne mittesekkumispoliitika maaelu arengut hoopis takistada, eelistades lõppkokkuvõttes linnapiirkondi. Kuna peagi tõenäoliselt muutub Eesti staatus ELi ühtekuuluvuspoliitikas, avaneb võimalus arutada, kuidas arenguressursid võiksid jõuda ääremaadele. Seda arutelu soosides on lootust katkestada nõiaring, mis taastoodab suurte linnapiirkondade ja ülejäänud riigi omavahelist polariseerumist.
 
-### References {-}
+### Viidatud allikad {-}

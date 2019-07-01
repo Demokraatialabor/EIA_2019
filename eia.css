@@ -125,18 +125,24 @@ h1 .header-section-number{ display: none; }
 	display: block;
 	height: 55vh;
 	background-color: #BC9417;
-	*background-image: url(../images/chapter1.jpg);
+	*background-image: url(../images/chapter1.png);
 	background-position: center left;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
 }
 
 
-h2 .header-section-number,
-h3 .header-section-number{
+h2 .header-section-number{
 	display: block;
 	color: #E6E3D9;
 	font-size: 3em;
+	line-height: 1em;
+}
+
+h3 .header-section-number{
+	display:;
+	color: inherit;
+	font-size: 1em;
 	line-height: 1em;
 }
 
@@ -170,7 +176,7 @@ mark{
 /* 1 - #BC9417 */
 
 #chapter1{
-	*background-image: url(../images/chapter1.jpg);
+	*background-image: url(../images/chapter1.png);
 	*background-size: 100% auto;
 	*background-repeat: no-repeat;
 }
@@ -192,7 +198,7 @@ mark{
 /* 2 - #482683 */
 
 #chapter2{
-	*background-image: url(../images/chapter1.jpg);
+	*background-image: url(../images/chapter1.png);
 	*background-size: 100% auto;
 	*background-repeat: no-repeat;
 }
@@ -207,13 +213,17 @@ mark{
 	color: #482683;
 }
 
+.section2 {
+	color: #482683;
+}
+
 #body2 .page-wrapper:before{ background-color: #482683; }
 
 
 /* 3 - #79AC2C */
 
 #chapter3{
-	*background-image: url(../images/chapter1.jpg);
+	*background-image: url(../images/chapter1.png);
 	*background-size: 100% auto;
 	*background-repeat: no-repeat;
 }
@@ -233,7 +243,7 @@ mark{
 /* 4 - #369B9E */
 
 #chapter4{
-	*background-image: url(../images/chapter1.jpg);
+	*background-image: url(../images/chapter1.png);
 	*background-size: 100% auto;
 	*background-repeat: no-repeat;
 }
