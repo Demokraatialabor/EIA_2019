@@ -5,18 +5,18 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [chapter23.bib, packages.bib]
-biblio-style:
+csl: keel-ja-kirjandus.csl
 link-citations: yes
 description: "Eesti inimarengu aruanne 2019"
 css: eia.css
 ---
 
-# Sissejuhatus {-}
+# Sissejuhatus {-#chapter0}
 
-## Eessõna {-}
+## Eessõna {-#chapter01}
 
-## Eessõna {-}
+## Eessõna {-#chapter02}
 
-## Demokraatia ruum {-}
+## Demokraatia ruum {-#chapter03}
 
-## Avatud valitsemise partnerlus {-}
+## Avatud valitsemise partnerlus {-#chapter04}

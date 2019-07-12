@@ -1,9 +1,9 @@
-body,proportion
-Media and Journalism,42.3
-Research and Academia,21.14
-Politics and Public Service,15.43
-Art and Culture,7.43
-Consultancy,3.71
-Entrepreneurship,3.71
-Interest Groups,3.14
-Readership,3.14
+body_eng,body_est,proportion
+Media and Journalism,Meedia ja ajakirjandus,42.3
+Research and Academia,Akadeemia,21.14
+Politics and Public Service,Poliitika ja avalik sektor,15.43
+Art and Culture,Kunst ja kultuur,7.43
+Consultancy,Konsultatsioonid,3.71
+Entrepreneurship,Ettevotlus,3.71
+Interest Groups,Huvigrupid,3.14
+Readership,Lugejaskond,3.14

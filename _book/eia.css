@@ -163,6 +163,20 @@ blockquote p{ color: #BC9417; font-weight: bold; line-height: 1.3em; font-size: 
 
 #intro .page-wrapper:before{ background-color: #482683; }
 
+#chapter0 h1,
+#chapter0 h2,
+#chapter01 h2,
+#chapter02 h2,
+#chapter03 h2,
+#chapter04 h2,
+#chapter01 h3,
+#chapter02 h3,
+#chapter03 h3,
+#chapter04 h3
+{
+	color: #C54409;
+}
+
 
 /* Big headers */
 mark{
@@ -186,8 +200,19 @@ mark{
 #chapter1 h1,
 #chapter1 h2,
 #chapter1 h3,
-#chapter1_1 h2,
-#chapter1_2 h2{
+#chapter10 h2,
+#chapter11 h2,
+#chapter12 h2,
+#chapter13 h2,
+#chapter14 h2,
+#chapter15 h2,
+#chapter10 h3,
+#chapter11 h3,
+#chapter12 h3,
+#chapter13 h3,
+#chapter14 h3,
+#chapter15 h3
+{
 	color: #BC9417;
 }
 
@@ -208,8 +233,17 @@ mark{
 #chapter2 h1,
 #chapter2 h2,
 #chapter2 h3,
-#chapter2 h4,
-#chapter2 h5{
+#chapter20 h2,
+#chapter21 h2,
+#chapter22 h2,
+#chapter23 h2,
+#chapter24 h2,
+#chapter20 h3,
+#chapter21 h3,
+#chapter22 h3,
+#chapter23 h3,
+#chapter24 h3
+{
 	color: #482683;
 }
 
@@ -233,8 +267,16 @@ mark{
 #chapter3 h1,
 #chapter3 h2,
 #chapter3 h3,
-#chapter3 h4,
-#chapter3 h5{
+#chapter30 h2,
+#chapter31 h2,
+#chapter32 h2,
+#chapter33 h2,
+#chapter34 h2,
+#chapter30 h3,
+#chapter31 h3,
+#chapter32 h3,
+#chapter33 h3,
+#chapter34 h3 {
 	color: #79AC2C;
 }
 
@@ -253,8 +295,16 @@ mark{
 #chapter4 h1,
 #chapter4 h2,
 #chapter4 h3,
-#chapter4 h4,
-#chapter4 h5{
+#chapter40 h2,
+#chapter41 h2,
+#chapter42 h2,
+#chapter43 h2,
+#chapter44 h2,
+#chapter40 h3,
+#chapter41 h3,
+#chapter42 h3,
+#chapter43 h3,
+#chapter44 h3{
 	color: #369B9E;
 }
 
@@ -272,8 +322,8 @@ mark{
 #chapter5 h1,
 #chapter5 h2,
 #chapter5 h3,
-#chapter5 h4,
-#chapter5 h5{
+#chapter51 h2,
+#chapter51 h3{
 	color: #A01B17;
 }
 
