@@ -11,7 +11,7 @@ BODY{}
 	background-color: #FFF;
 }
 ::-webkit-scrollbar{
-	width: 3px;
+	width: 7px;
 	border: none;
 	background-color: #EEE;
 }
@@ -67,6 +67,7 @@ nav > ul > li{
 
 .book .book-summary ul.summary > li.chapter > a{
 	font-size: 1.2em;
+	white-space: normal;
 }
 .book .book-summary ul.summary > li.chapter:nth-child(1) > a{ color: #C54409; border-bottom: 2px solid #C54409; }
 .book .book-summary ul.summary > li.chapter:nth-child(2) > a{ color: #BC9417; border-bottom: 2px solid #BC9417; }
@@ -106,7 +107,7 @@ nav > ul > li{
 
 .book .book-summary ul.summary > li > ul{ padding: 0; }
 .book .book-summary ul.summary > li > ul > li a{
-
+      white-space: normal;
 }
 
 
@@ -157,7 +158,12 @@ blockquote{
 }
 blockquote p{ color: #BC9417; font-weight: bold; line-height: 1.3em; font-size: 1.2em;}
 
-
+.authors {
+  font-size:1.1em;
+  color: #777777;
+  border-bottom: 3px solid #482683;
+  margin-bottom: 25px;
+}
 
 /* Intro */
 
@@ -197,23 +203,15 @@ mark{
 
 #chapter1 h1{ border-bottom: 3px solid #BC9417; }
 
-#chapter1 h1,
-#chapter1 h2,
-#chapter1 h3,
-#chapter10 h2,
-#chapter11 h2,
-#chapter12 h2,
-#chapter13 h2,
-#chapter14 h2,
-#chapter15 h2,
-#chapter10 h3,
-#chapter11 h3,
-#chapter12 h3,
-#chapter13 h3,
-#chapter14 h3,
-#chapter15 h3
+.chapter1_section h1,
+.chapter1_section h2,
+.chapter1_section h3
 {
-	color: #BC9417;
+	color: #BC9417 !important;
+}
+
+.chapter1_section a {
+	color: #BC9417 !important;
 }
 
 #body1 .page-wrapper:before{
@@ -223,28 +221,22 @@ mark{
 /* 2 - #482683 */
 
 #chapter2{
-	*background-image: url(../images/chapter1.png);
+	*background-image: url(/images/chapter1.png);
 	*background-size: 100% auto;
 	*background-repeat: no-repeat;
 }
 
 #chapter2 h1{ border-bottom: 3px solid #482683; }
 
-#chapter2 h1,
-#chapter2 h2,
-#chapter2 h3,
-#chapter20 h2,
-#chapter21 h2,
-#chapter22 h2,
-#chapter23 h2,
-#chapter24 h2,
-#chapter20 h3,
-#chapter21 h3,
-#chapter22 h3,
-#chapter23 h3,
-#chapter24 h3
+.chapter2_section h1,
+.chapter2_section h2,
+.chapter2_section h3
 {
-	color: #482683;
+	color: #482683 !important;
+}
+
+.chapter2_section a {
+	color: #482683 !important;
 }
 
 .section2 {
@@ -253,6 +245,24 @@ mark{
 
 #body2 .page-wrapper:before{ background-color: #482683; }
 
+.casebox {
+    border:solid;
+    border-width:3px;
+    padding: 0 20px 0 20px;
+    margin: 10px 0 10px 0;
+    color:  #482683;
+    background: 20px center/12em no-repeat;
+    background-image: url("images/tulemaale.png");
+}
+    
+.casebox a {
+    color:  black !important;}
+    
+.casebox p {
+    padding-left: 13em;}
+    
+.casebox h4 {
+    font-size: 1em;}
 
 /* 3 - #79AC2C */
 
@@ -264,20 +274,15 @@ mark{
 
 #chapter3 h1{ border-bottom: 3px solid #79AC2C; }
 
-#chapter3 h1,
-#chapter3 h2,
-#chapter3 h3,
-#chapter30 h2,
-#chapter31 h2,
-#chapter32 h2,
-#chapter33 h2,
-#chapter34 h2,
-#chapter30 h3,
-#chapter31 h3,
-#chapter32 h3,
-#chapter33 h3,
-#chapter34 h3 {
-	color: #79AC2C;
+.chapter3_section h1,
+.chapter3_section h2,
+.chapter3_section h3
+{
+	color: #79AC2C !important;
+}
+
+.chapter3_section a {
+	color: #79AC2C !important;
 }
 
 #body3 .page-wrapper:before{ background-color: #79AC2C; }
@@ -292,20 +297,15 @@ mark{
 
 #chapter4 h1{ border-bottom: 3px solid #369B9E; }
 
-#chapter4 h1,
-#chapter4 h2,
-#chapter4 h3,
-#chapter40 h2,
-#chapter41 h2,
-#chapter42 h2,
-#chapter43 h2,
-#chapter44 h2,
-#chapter40 h3,
-#chapter41 h3,
-#chapter42 h3,
-#chapter43 h3,
-#chapter44 h3{
-	color: #369B9E;
+.chapter4_section h1,
+.chapter4_section h2,
+.chapter4_section h3
+{
+	color: #369B9E !important;
+}
+
+.chapter4_section a {
+	color: #369B9E !important;
 }
 
 #body4 .page-wrapper:before{ background-color: #369B9E; }
@@ -319,12 +319,15 @@ mark{
 
 #chapter5 h1{ border-bottom: 3px solid #A01B17; }
 
-#chapter5 h1,
-#chapter5 h2,
-#chapter5 h3,
-#chapter51 h2,
-#chapter51 h3{
-	color: #A01B17;
+.chapter5_section h1,
+.chapter5_section h2,
+.chapter5_section h3
+{
+	color: #A01B17 !important;
+}
+
+.chapter5_section a {
+	color: #A01B17 !important;
 }
 
 #body5 .page-wrapper:before{ background-color: #A01B17; }

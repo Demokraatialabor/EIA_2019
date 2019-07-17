@@ -1,1 +1,1 @@
-## Looduskeskkonna kujundamine avalikuks kasutuseks {#chapter33}
+## Looduskeskkonna kujundamine avalikuks kasutuseks {#chapter33 .chapter3_section}

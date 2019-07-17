@@ -1,5 +1,8 @@
-## Keskuse ja ääremaa kujunemine ja kujundamine viimase 30 aasta jooksul {#chapter23}
-*Bianka Plüschke-Altof (Tallinna Ülikool), Bradley Loewen (Tartu Ülikool), Kadri Leetmaa (Tartu Ülikool)*
+## Keskuse ja ääremaa kujunemine ja kujundamine viimase 30 aasta jooksul {#chapter23 .chapter2_section}
+```{block, type='authors'}
+**Bianka Plüschke-Altof (Tallinna Ülikool), Bradley Loewen (Tartu Ülikool), Kadri Leetmaa (Tartu Ülikool)**
+```
+
 
 * **Viimase kolmekümne aasta jooksul on Eesti ääremaastumise tulemusel jagunenud suuremateks linnapiirkondadeks ja ülejäänud riigiks.**
 
@@ -21,7 +24,7 @@ keskenduv regionaalpoliitika, mis ei ole aidanud piirkondlikku ebavõrdsust väh
 ääremaa-staatus ja -kuvand piiravad kohtade konkurentsivõimet ning protsess üha süveneb iseeneslikult.
 
 
-### Rahvastiku vähenemise ja ääremaastumise tsükkel taastoodab iseennast
+### Rahvastiku vähenemise ja ääremaastumise tsükkel taastoodab iseennast {.chapter2_section}
 
 Piirkondade süveneva ebavõrdsuse kõige selgem ilming on majandusliku ja inimkapitali koondumine Eesti
 suurematesse linnapiirkondadesse. Kui Tallinna ümbritsev linnaline ala (Harjumaa) välja arvata, vaevas kõiki
@@ -68,14 +71,15 @@ tööhõive vähenemist põllumajanduses.
 
  library("tidyverse")
 
-  fig2 <- read.csv ("fig2_data_2000.csv", header=TRUE)
+  fig2 <- read.csv ("data/23_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
   fig2plot <- ggplot(data = fig2) +
-  geom_col(mapping = aes(x=county, y=value), fill="#482683") +
-  facet_wrap(~location_est, nrow=1) +
-  labs(y="tööjõu arv", x="maakonnad")
+  geom_col(mapping = aes(x=county, y=value, fill=location_est), width=0.7) +
+  facet_wrap(~year, nrow=1) +
+  labs(y="töökohtade arv", x="", fill="Töökoha paiknemine") +
+  scale_fill_manual(values=c("#482683", "#79AC2C", "#369B9E"))
   
  fig2theme <- theme(
-                    text = element_text(color = "#777777", size = 15),
+                    text = element_text(color = "#777777", size = 13),
                     panel.background = element_rect(fill = "white", colour = "white"),
                     panel.grid.major = element_line(colour="#cccccc", size = (0.2)),
                     panel.grid.minor = element_line(size = (0.2), colour="#cccccc"),
@@ -96,7 +100,7 @@ mistõttu pikemas perspektiivis võivad ka nende pered sealt lahkuda. Majanduse 
 uued elukorralduslikud ja pendelrände mustrid toetavad rahvastiku vähenemise nõiaringi, viies oluliste
 avalike teenuste, sealhulgas koolide kadumiseni, mis omakorda süvendab rahvastiku vähenemist.
 
-### Maapiirkondade ja väikelinnade häbimärgistamine süvendab veelgi nende ääremaastumist
+### Maapiirkondade ja väikelinnade häbimärgistamine süvendab veelgi nende ääremaastumist {.chapter2_section}
 
 Inimkapitali kaoga seotud objektiivsete näitajate kõrval on ääremaastumisel ka selgelt subjektiivne mõõde.
 Eesti maapiirkondade ja väikelinnade sotsialismijärgse rahvastikukaoga käsikäes halveneb maapiirkondade
@@ -123,15 +127,16 @@ ning kultuuri- ja kunstiinimestest, kes esindavad linlikke institutsioone nagu m
 
 library("tidyverse")
   
- fig3 <- read.csv ("fig3_data.csv", header=TRUE)
+ fig3 <- read.csv ("data/23_fig3_data.csv", header=TRUE, fileEncoding="utf-8")
 
   fig3plot <- ggplot(data = fig3) +
-  geom_col(mapping = aes(x=reorder(body_est, proportion), y=proportion), fill="#482683", width=0.7, show.legend = NA) +
+    geom_col(mapping = aes(x=reorder(body_est, proportion), y=proportion), fill="#482683", width=0.7, show.legend = NA) +
+    geom_text(aes(label = proportion, x=body_est, y=proportion), nudge_x = 0, nudge_y = 3, color="#777777") +
     labs(y="%", x="") + 
     coord_flip ()
   
   fig3theme <- theme(aspect.ratio = 0.8,
-                     text = element_text(color = "#777777", size = 15),
+                     text = element_text(color = "#777777", size = 14),
                      panel.background = element_rect(fill = "white", colour = "white"),
                      panel.grid.major = element_line(colour="#cccccc", size = (0.2)),
                      panel.grid.minor = element_line(size = (0.2), colour="#cccccc"),
@@ -148,9 +153,7 @@ Piirkondade polariseerumist peegeldab asjaolu, et paljudes artiklites kirjeldata
 väljaspool Tallinnat ja selle ümbrust. Harvem käsitletakse ääremaad globaalses või ELi kontekstis (42%) ja
 veel palju vähem kõneldakse linnalisest ääremaast (3%). Maapiirkondade samastamine ääremaaga võib olla
 nende jaoks häbimärk, sest ääremaad ei kirjeldata neutraalselt, vaid majanduslikult mahajäänu,
-geograafiliselt kauge, poliitiliselt sõltuva, institutsiooniliselt hõreda ja sotsiaalselt probleemsena. Mõnel juhul
-
-võimendab maapiirkondade – või õieti mittelinnaliste piirkondade – ääremaakuvandit ka narratiiv, mis
+geograafiliselt kauge, poliitiliselt sõltuva, institutsiooniliselt hõreda ja sotsiaalselt probleemsena. Mõnel juhul võimendab maapiirkondade – või õieti mittelinnaliste piirkondade – ääremaakuvandit ka narratiiv, mis
 rõhutab ääremaa kogukondade vastutust kohaliku arengu (ja ühtlasi mahajäämuse) eest või kujutab neid
 omal süül läbikukkumise näidetena. Ajalehtede arvamusartiklites viidatakse näiteks kohalikule
 „kolhoosimentaliteedile“ või irratsionaalsele vastuseisule „tänapäevase“ arengu suhtes. Seega maapiirkondi
@@ -162,13 +165,13 @@ iseenesestmõistetavaks.
 library(ggwordcloud)
 library(dplyr)
 
-fig4 <- read.csv ("fig4_data.csv", header=TRUE)
+fig4 <- read.csv ("data/23_fig4_data.csv", header=TRUE)
 fig4 <- sample_frac(fig4, 1L) ##randomizing order of data frame to keep the words shuffled
 
 set.seed(42)
-fig4plot <- ggplot(fig4, aes(label = word, size = freq, color=freq)) +
-  geom_text_wordcloud_area(area_corr_power = 1/.9, eccentricity = 0.3) +
-  scale_size_area(max_size = 8) +
+fig4plot <- ggplot(fig4, aes(label = location_est, size = freq, color=freq)) +
+  geom_text_wordcloud_area(area_corr_power = 1/.9, eccentricity = 0.4) +
+  scale_size_area(max_size = 10) +
   theme_minimal() +
   scale_color_gradient(low = "#a58ad5", high = "#482683")
 
@@ -197,7 +200,7 @@ samastatakse üha enam ääremaaga. Järgnev Eesti regionaalpoliitika ja kohalik
 kohaneutraalne, Euroopa piirkondliku konkurentsivõime trende järgiv regionaalpoliitika, mis ei ole
 piirkondlikku ebavõrdsust vähendanud.
 
-### Konkurentsivõimel põhinev regionaalpoliitika ei ole piirkondade polariseerumist vähendanud
+### Konkurentsivõimel põhinev regionaalpoliitika ei ole piirkondade polariseerumist vähendanud {.chapter2_section}
 
 ELi ühtekuuluvuspoliitikas nihkus 2000. aastatel rõhk heaolu jaotavalt lähenemisviisilt konkurentsivõimel ja
 innovatsioonil põhinevale poliitikale ning samal ajal ehitati uutes liikmesriikides üles institutsioone ja
@@ -224,7 +227,7 @@ tõenäoliselt Eesti kaotab senise vähem arenenud riigi staatuse. Kuna välisva
 regionaalarengu peamine ressurss, tuleb luua uusi võimalusi piirkondlikku arengusse sekkumiseks,
 ühtlustades regionaalpoliitikat ja muud valdkondlikku poliitikat.
 
-### Ääremaa-staatus ja -kuvand piiravad koha konkurentsivõimet
+### Ääremaa-staatus ja -kuvand piiravad koha konkurentsivõimet {.chapter2_section}
 
 Ääremaastumise objektiivsete ja subjektiivsete protsesside taustal, mida võimendab konkurentsivõimel ja
 innovatsioonil põhinev regionaalpoliitika, on paljud Eesti maapiirkonnad ja väikelinnad asunud otsima
@@ -235,9 +238,15 @@ strateegiaid (nt kohaturundust ja -brändimist). Kohalike arengukavade järgi lo
 seisuga 83%) Eesti valdasid mainekujundust üheks oma arengustrateegiaks. See hõlmab
 mainekujundusürituste korraldamist, omavalitsuse kuvandi jälgimist ja aktiivset kohaturundust. Ka riigi
 tasandil leidub maaelu positiivseid külgi esile tõstvaid laiemale avalikkusele suunatud
-mainekujundusalgatusi, teiste seas näiteks „Tule maale“ ja „Maale elama“ (Case Box 1).
+mainekujundusalgatusi, teiste seas näiteks „Tule maale“ ja „Maale elama“ (Juhtumikast 1).
 
-**CASE BOX 1 HERE**
+```{block, type='casebox'}
+#### Juhtumikast 1. Maaelu edendamine ääremaastumise vastu võitlemiseks: maapiirkondade mainekujunduse algatused. {-}
+
+Mõlemad algatused sündisid 2012. aastal veendumusest, et on aeg hakata süstemaatiliselt mõtlema maapiirkondade kuvandi rollile. Ehkki liikumiste juhid Tiit Niilo (Tule maale) ja Ivika Nõgel (Maale elama) ei teadnud enne tegutsema asumist teineteise sarnastest algatustest, ajendas mõlemat sama mõte: maapiirkondade elu tuleb edendada, et peatada elanikkonna ja teenuste kadu. Algatused tegutsevad kahel suunal: 1) aidatakse maale elama asumisest huvitatuid ning 2) reklaamitakse ja turundatakse maakohti laiemale avalikkusele, näiteks korraldades laatasid.
+
+Allikas: http://www.tulemaale.ee/ ja http://maale-elama.ee/.
+```
 
 Kuid katseid parandada piirkondade konkurentsivõimet mainekujunduse abil pärsib seesama ääremaa-
 staatus ja -kuvand, millest maapiirkonnad püüavad vabaneda, nagu viitavad näiteks Kihnu saarel, Järvamaal,
@@ -266,7 +275,7 @@ see lähenemine kuvandikasutusele pakub võimalust avatult tegeleda kohalike pro
 kontekstis, kus kohaliku arengu jaoks vajalikud ressursid on ebaühtlaselt jaotatud, ning nõuab ulatuslikumal
 ümberjaotamisel põhinevat poliitikat.
 
-### Regionaalpoliitika edendamine objektiivse ja subjektiivse ääremaastumisega võitlemise teel 
+### Regionaalpoliitika edendamine objektiivse ja subjektiivse ääremaastumisega võitlemise teel {.chapter2_section}
 
 Selgitasime, et Eestis on ääremaastumine mitmemõõtmeline ja -tasandiline protsess, mis mõjutab eriti maapiirkondi, aga ka riiki tervikuna. See hõlmab objektiivseid protsesse, sealhulgas valikulist väljarännet, majanduslangust ja osutatavate teenuste vähenemist. Lisaks aga mõjutab see ka maapiirkondade subjektiivset kuvandit, põhjustades regionaalse polariseerumise tõttu maapiirkondade vähest nähtavust ja territoriaalset häbimärgistamist. Selle vastu võitlemisel on Eesti regionaalpoliitikas järgitud neoliberaalseid suundumusi, püüdes kohalikku arengut edendada piirkondade konkurentsivõime ja innovatsiooni toetamise teel. Kuid riigi tasandil rakendatuna võib seesugune kohaneutraalne mittesekkumispoliitika maaelu arengut hoopis takistada, eelistades lõppkokkuvõttes linnapiirkondi. Kuna peagi tõenäoliselt muutub Eesti staatus ELi ühtekuuluvuspoliitikas, avaneb võimalus arutada, kuidas arenguressursid võiksid jõuda ääremaadele. Seda arutelu soosides on lootust katkestada nõiaring, mis taastoodab suurte linnapiirkondade ja ülejäänud riigi omavahelist polariseerumist.
 
