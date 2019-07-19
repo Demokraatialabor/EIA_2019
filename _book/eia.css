@@ -38,6 +38,7 @@ h3{ max-width: 100%; }
 p.caption {
   color: #777;
   margin-top: 10px;
+  font-weight:bold;
 }
 p code {
   white-space: inherit;
@@ -263,6 +264,19 @@ mark{
     
 .casebox h4 {
     font-size: 1em;}
+    
+.extract {
+  border-bottom: solid 10px #a7aca5;
+  color:#482683;
+  font-size:1.4em;
+  margin:40px 0 30px 0;
+  padding: 0 130px 10px 0;
+}
+
+.extract p {
+  text-align: left !important;
+  line-height: normal;
+}
 
 /* 3 - #79AC2C */
 

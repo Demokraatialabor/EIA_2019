@@ -84,7 +84,9 @@ tööhõive vähenemist põllumajanduses.
                     panel.grid.major = element_line(colour="#cccccc", size = (0.2)),
                     panel.grid.minor = element_line(size = (0.2), colour="#cccccc"),
                     axis.line = element_line(size = 0.2, colour = "#cccccc"),
-                    axis.ticks = element_line(colour = "#cccccc", size=(0.2))
+                    axis.ticks = element_line(colour = "#cccccc", size=(0.2)),
+                    strip.background =element_rect(fill="white"),
+                    strip.text = element_text(colour = "#777777", size = 14),
                  )
   
   print(fig2plot + fig2theme)
@@ -209,6 +211,10 @@ nende rakendamiseks piisavalt raha. Seepärast olid 2000. aastatel suured ootuse
 riikide ja piirkondade majandusse lisarahastuse saabumisega. Siiski ei ole enneolematult suur välisrahastus
 olnud piisav riigisisese piirkondlikku ebavõrdsuse leevendamiseks. Seda enam et kui Eesti 2004. aastal ELi
 astus, asuti ühtekuuluvuspoliitika eesmärke rakendama tsentraalselt ja kohaneutraalselt.
+
+```{block, type='extract'}
+Kaunid kunstid, teadused, professionaalne ja harrastuslik omalooming moodustavad vaid väikese osa kultuurist selle sõna laiemas, antropoloogilises tähenduses.
+```
 
 Piirkondi ja nende arengut eristava kohatundliku lähenemise asemel käsitles Euroopa Komisjon Eestit ühtse
 tervikuna. See võimaldas ajada riiklikule majanduskasvule suunatud tsentraalset regionaalpoliitikat (Loewen
