@@ -1,22 +1,16 @@
 --- 
 title: "Eesti inimarengu aruanne 2019"
-author: "Autor"
+author: "Eesti Koostöö Kogu"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [chapter23.bib, packages.bib]
+bibliography: [bibliography/bib_chapter23.bib, bibliography/bib_chapterXY.bib]
+biblio-style: authoryear
+biblatexoptions: [refsegment=chapter]
 csl: keel-ja-kirjandus.csl
 link-citations: yes
 description: "Eesti inimarengu aruanne 2019"
 css: eia.css
 ---
 
-# Sissejuhatus {-#chapter0}
-
-## Eessõna {-#chapter01}
-
-## Eessõna {-#chapter02}
-
-## Demokraatia ruum {-#chapter03}
-
-## Avatud valitsemise partnerlus {-#chapter04}
+# Sissejuhatus {-#chapter00 .chapter_section .intro_section}

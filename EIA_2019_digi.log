@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.6.30)  30 JUN 2019 21:53
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.8.1)  1 AUG 2019 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -581,28 +581,238 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 29.
-(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip53
-\bibsep=\skip54
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count285
-) (/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
+
+(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
+(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count285
+(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count286
+\c@listtotal=\count287
+\c@listcount=\count288
+\c@liststart=\count289
+\c@liststop=\count290
+\c@citecount=\count291
+\c@citetotal=\count292
+\c@multicitecount=\count293
+\c@multicitetotal=\count294
+\c@instcount=\count295
+\c@maxnames=\count296
+\c@minnames=\count297
+\c@maxitems=\count298
+\c@minitems=\count299
+\c@citecounter=\count300
+\c@maxcitecounter=\count301
+\c@savedcitecounter=\count302
+\c@uniquelist=\count303
+\c@uniquename=\count304
+\c@refsection=\count305
+\c@refsegment=\count306
+\c@maxextratitle=\count307
+\c@maxextratitleyear=\count308
+\c@maxextraname=\count309
+\c@maxextradate=\count310
+\c@maxextraalpha=\count311
+\c@abbrvpenalty=\count312
+\c@highnamepenalty=\count313
+\c@lownamepenalty=\count314
+\c@maxparens=\count315
+\c@parenlevel=\count316
+\blx@tempcnta=\count317
+\blx@tempcntb=\count318
+\blx@tempcntc=\count319
+\blx@maxsection=\count320
+\blx@maxsegment@0=\count321
+\blx@notetype=\count322
+\blx@parenlevel@text=\count323
+\blx@parenlevel@foot=\count324
+\blx@sectionciteorder@0=\count325
+\blx@entrysetcounter=\count326
+\labelnumberwidth=\skip53
+\labelalphawidth=\skip54
+\biblabelsep=\skip55
+\bibitemsep=\skip56
+\bibnamesep=\skip57
+\bibinitsep=\skip58
+\bibparsep=\skip59
+\bibhang=\skip60
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\c@mincomprange=\count327
+\c@maxcomprange=\count328
+\c@mincompwidth=\count329
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count330
+\c@savedafterword=\count331
+\c@annotator=\count332
+\c@savedannotator=\count333
+\c@author=\count334
+\c@savedauthor=\count335
+\c@bookauthor=\count336
+\c@savedbookauthor=\count337
+\c@commentator=\count338
+\c@savedcommentator=\count339
+\c@editor=\count340
+\c@savededitor=\count341
+\c@editora=\count342
+\c@savededitora=\count343
+\c@editorb=\count344
+\c@savededitorb=\count345
+\c@editorc=\count346
+\c@savededitorc=\count347
+\c@foreword=\count348
+\c@savedforeword=\count349
+\c@holder=\count350
+\c@savedholder=\count351
+\c@introduction=\count352
+\c@savedintroduction=\count353
+\c@namea=\count354
+\c@savednamea=\count355
+\c@nameb=\count356
+\c@savednameb=\count357
+\c@namec=\count358
+\c@savednamec=\count359
+\c@translator=\count360
+\c@savedtranslator=\count361
+\c@shortauthor=\count362
+\c@savedshortauthor=\count363
+\c@shorteditor=\count364
+\c@savedshorteditor=\count365
+\c@labelname=\count366
+\c@savedlabelname=\count367
+\c@institution=\count368
+\c@savedinstitution=\count369
+\c@lista=\count370
+\c@savedlista=\count371
+\c@listb=\count372
+\c@savedlistb=\count373
+\c@listc=\count374
+\c@savedlistc=\count375
+\c@listd=\count376
+\c@savedlistd=\count377
+\c@liste=\count378
+\c@savedliste=\count379
+\c@listf=\count380
+\c@savedlistf=\count381
+\c@location=\count382
+\c@savedlocation=\count383
+\c@organization=\count384
+\c@savedorganization=\count385
+\c@origlocation=\count386
+\c@savedoriglocation=\count387
+\c@origpublisher=\count388
+\c@savedorigpublisher=\count389
+\c@publisher=\count390
+\c@savedpublisher=\count391
+\c@language=\count392
+\c@savedlanguage=\count393
+\c@origlanguage=\count394
+\c@savedoriglanguage=\count395
+\c@pageref=\count396
+\c@savedpageref=\count397
+\shorthandwidth=\skip61
+\shortjournalwidth=\skip62
+\shortserieswidth=\skip63
+\shorttitlewidth=\skip64
+\shortauthorwidth=\skip65
+\shorteditorwidth=\skip66
+\locallabelnumberwidth=\skip67
+\locallabelalphawidth=\skip68
+\localshorthandwidth=\skip69
+\localshortjournalwidth=\skip70
+\localshortserieswidth=\skip71
+\localshorttitlewidth=\skip72
+\localshortauthorwidth=\skip73
+\localshorteditorwidth=\skip74
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/biblatex/blx-unicode.
+def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/biblatex/blx-compat.d
+ef
+File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+\c@textcitecount=\count398
+\c@textcitetotal=\count399
+\c@textcitemaxnames=\count400
+\c@biburlnumpenalty=\count401
+\c@biburlucpenalty=\count402
+\c@biburllcpenalty=\count403
+\c@smartand=\count404
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+
+(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/authorye
+ar.bbx
+File: authoryear.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/standard
+.bbx
+File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count405
+\c@bbx:relatedtotal=\count406
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+
+(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/biblatex/cbx/authorye
+ar.cbx
+File: authoryear.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)) (/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.st
+y
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
-\LTleft=\skip55
-\LTright=\skip56
-\LTpre=\skip57
-\LTpost=\skip58
-\LTchunksize=\count286
+\LTleft=\skip75
+\LTright=\skip76
+\LTpre=\skip77
+\LTpost=\skip78
+\LTchunksize=\count407
 \LTcapwidth=\dimen151
 \LT@head=\box49
 \LT@firsthead=\box50
 \LT@foot=\box51
 \LT@lastfoot=\box52
-\LT@cols=\count287
-\LT@rows=\count288
-\c@LT@tables=\count289
-\c@LT@chunks=\count290
+\LT@cols=\count408
+\LT@rows=\count409
+\c@LT@tables=\count410
+\c@LT@chunks=\count411
 \LT@p@ftn=\toks22
 )
 (/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
@@ -617,12 +827,12 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen159
 \cmidrulekern=\dimen160
 \defaultaddspace=\dimen161
-\@cmidla=\count291
-\@cmidlb=\count292
+\@cmidla=\count412
+\@cmidlb=\count413
 \@aboverulesep=\dimen162
 \@belowrulesep=\dimen163
-\@thisruleclass=\count293
-\@lastruleclass=\count294
+\@thisruleclass=\count414
+\@lastruleclass=\count415
 \@thisrulewidth=\dimen164
 )
 (/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -654,9 +864,9 @@ Package grffile Info: Option `space' is set to `true'.
 Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 494.
 ) (/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/titling/titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip59
-\thanksmargin=\skip60
-\droptitle=\skip61
+\thanksmarkwidth=\skip79
+\thanksmargin=\skip80
+\droptitle=\skip81
 ) (/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks23
@@ -674,43 +884,57 @@ nian.ldf
 Language: estonian 2015/08/05 v1.1a Estonian support for the babel system
 (/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2019/06/03 3.32 Babel common definitions
-\babel@savecnt=\count295
+\babel@savecnt=\count416
 \U@D=\dimen167
 (/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/generic/babel/xebabel.def (
 /Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/generic/babel/txtbabel.def))
-\bbl@dirlevel=\count296
+\bbl@dirlevel=\count417
 )
 Package babel Info: Making " an active character on input line 94.
 Warning: Hyphenation would work better for the T1 encoding.
-)) (./EIA_2019_digi.aux)
+))
+Package biblatex Info: Trying to load language 'estonian'...
+Package biblatex Info: ... file 'estonian.lbx' found.
+
+(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/estonian
+.lbx
+File: estonian.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count418
+\@quotereset=\count419
+No file EIA_2019_digi.aux.
 \openout1 = `EIA_2019_digi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 93.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 96.
 (/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring OFF on input line 93.
+Package hyperref Info: Link coloring OFF on input line 96.
 (/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -718,144 +942,60 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count297
+\c@section@level=\count420
 )
-LaTeX Info: Redefining \ref on input line 93.
-LaTeX Info: Redefining \pageref on input line 93.
-LaTeX Info: Redefining \nameref on input line 93.
-(./EIA_2019_digi.out) (./EIA_2019_digi.out)
-\@outlinefile=\write3
-\openout3 = `EIA_2019_digi.out'.
+LaTeX Info: Redefining \ref on input line 96.
+LaTeX Info: Redefining \pageref on input line 96.
+LaTeX Info: Redefining \nameref on input line 96.
+\@outlinefile=\write4
+\openout4 = `EIA_2019_digi.out'.
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `EIA_2019_digi.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'EIA_2019_digi.bbl' not found.
+No file EIA_2019_digi.bbl.
+Package biblatex Info: Reference section=0 on input line 96.
+Package biblatex Info: Reference segment=0 on input line 96.
 [1
 
 
 ] [2
 
-] (./EIA_2019_digi.toc
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 3.
-(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 3.
-(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 3.
-(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 3.
-(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 3.
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
-(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
-(/Users/taavetkutsar/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3])
-\tf@toc=\write4
-\openout4 = `EIA_2019_digi.toc'.
+]
+Package biblatex Info: Reference segment=1 on input line 101.
+Package biblatex Info: Setting label 'refsegment:01' on input line 101.
+\tf@toc=\write5
+\openout5 = `EIA_2019_digi.toc'.
 
-[4] [5
-
-] [6
+[3] [4
 
 ]
-Peat\"ukk 1.
+Package biblatex Info: Reference segment=2 on input line 104.
+Package biblatex Info: Setting label 'refsegment:02' on input line 104.
 
-Underfull \hbox (badness 1033) in paragraph at lines 137--137
-[]\TU/lmr/bx/n/14.4 Ajakirjanduse kujundatav digitaalne aru-
- []
+! LaTeX Error: Environment authors undefined.
 
-[7] [8
-
-]
-Peat\"ukk 2.
-
-Overfull \hbox (0.63582pt too wide) in paragraph at lines 158--159
-\TU/lmr/m/it/10 Bianka Plüschke-Altof (Tallinna Ülikool), Bradley Loewen (Tartu
- Ülikool), Kadri
- []
-
-[9] [10]
-File: EIA_2019_digi_files/figure-latex/unnamed-chunk-2-1.pdf Graphic file (type
- pdf)
-<use EIA_2019_digi_files/figure-latex/unnamed-chunk-2-1.pdf>
-
-Overfull \hbox (114.36787pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 2.3.  KESKUSE JA ÄÄREMAA KUJUNEMINE JA KUJUNDAMINE VIIMASE 30 A
-ASTA JOOKSUL \TU/lmr/m/n/10 11
- []
-
-[11]
-File: EIA_2019_digi_files/figure-latex/unnamed-chunk-3-1.pdf Graphic file (type
- pdf)
-<use EIA_2019_digi_files/figure-latex/unnamed-chunk-3-1.pdf>
-[12]
-File: EIA_2019_digi_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type
- pdf)
-<use EIA_2019_digi_files/figure-latex/unnamed-chunk-4-1.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (114.36787pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 2.3.  KESKUSE JA ÄÄREMAA KUJUNEMINE JA KUJUNDAMINE VIIMASE 30 A
-ASTA JOOKSUL \TU/lmr/m/n/10 13
- []
-
-[13] [14]
-Overfull \hbox (114.36787pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 2.3.  KESKUSE JA ÄÄREMAA KUJUNEMINE JA KUJUNDAMINE VIIMASE 30 A
-ASTA JOOKSUL \TU/lmr/m/n/10 15
- []
-
-[15] [16] [17] [18
-
-]
-Peat\"ukk 3.
-
-Underfull \hbox (badness 4391) in paragraph at lines 394--394
-[]\TU/lmr/bx/n/14.4 Looduskeskkonna kujundamine avalikuks
- []
-
-[19] [20
-
-]
-Peat\"ukk 4.
-[21] [22
-
-]
-Peat\"ukk 5.
-(./EIA_2019_digi.bbl [23] [24
-
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 427.
-[25]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 427.
-(./EIA_2019_digi.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 427.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 427.
-Package rerunfilecheck Info: File `EIA_2019_digi.out' has not changed.
-(rerunfilecheck)             Checksum: 5FBD102CD04FF2F0BC821BF719735C6D.
- ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 \begin{authors}
+                      
 Here is how much of TeX's memory you used:
- 22822 strings out of 494883
- 427759 string characters out of 6175294
- 538106 words of memory out of 5000000
- 26555 multiletter control sequences out of 15000+600000
- 545057 words of font info for 54 fonts, out of 8000000 for 9000
+ 28463 strings out of 494883
+ 538147 string characters out of 6175295
+ 1019051 words of memory out of 5000000
+ 32207 multiletter control sequences out of 15000+600000
+ 532786 words of font info for 36 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 46i,5n,47p,1097b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,4n,46p,810b,3844s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on EIA_2019_digi.pdf (25 pages).
+Output written on EIA_2019_digi.pdf (4 pages).

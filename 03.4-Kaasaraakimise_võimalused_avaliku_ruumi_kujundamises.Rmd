@@ -1,1 +1,1 @@
-## Kaasarääkimise võimalused avaliku ruumi kujundamises {#chapter34 .chapter3_section}
+## Kaasarääkimise võimalused avaliku ruumi kujundamises {#chapter34 .chapter_section .chapter3_section}

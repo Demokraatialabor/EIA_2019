@@ -7,17 +7,49 @@
 
 BODY{}
 
+/* scrollbar */
+
 ::-webkit-scrollbar-track{
 	background-color: #FFF;
 }
 ::-webkit-scrollbar{
-	width: 7px;
+	width: 12px;
 	border: none;
 	background-color: #EEE;
 }
 ::-webkit-scrollbar-thumb{
 	background-color: #CCC;
 	border: none;
+}
+
+/* page structure layout */
+
+.page-inner{
+  width:100% !important;
+  max-width:none !important;
+  padding:0 !important;
+}
+
+.page-inner section {
+  padding:0 !important;
+}
+
+.chapter_section {
+  max-width:800px;
+  margin:auto;
+  padding:0 42px 0 42px;
+}
+
+/* preferences layout */
+
+.references {
+  max-width:800px;
+  margin:auto;
+  padding:0 42px 0 42px;
+}
+
+.chapter_section + h3 {
+  display:none;
 }
 
 p { text-align:justify; }
@@ -33,6 +65,7 @@ h3{ max-width: 100%; }
 	line-height: 1.2em;
 	font-weight: bold !important;
 }
+
 .book .book-header h1{ display: none; }
 
 p.caption {
@@ -111,26 +144,10 @@ nav > ul > li{
       white-space: normal;
 }
 
-
-
 h1 .header-section-number{ display: none; }
-
-#body1 .body-inner{}
 
 .book .book-summary{
 	background: none;
-}
-
-.page-wrapper:before{
-	content: "";
-	width: 100%;
-	display: block;
-	height: 55vh;
-	background-color: #BC9417;
-	*background-image: url(../images/chapter1.png);
-	background-position: center left;
-	background-repeat: no-repeat;
-	background-size: auto 100%;
 }
 
 
@@ -142,69 +159,159 @@ h2 .header-section-number{
 }
 
 h3 .header-section-number{
-	display:;
 	color: inherit;
 	font-size: 1em;
 	line-height: 1em;
 }
 
-
-blockquote{
-	border-left: none !important;
-	margin: 10px 30px 10px 0 !important;
-	padding: 0 !important;
-	border-bottom: 5px solid #EEE !important;
-	width: 50%;
-	float: left;
+/* Block before intro sections */
+.intro_section::before{
+  
+        content: "";
+	      width: 100%;
+	      display: block;
+	      height: 55vh;
+	      background-position: center;
+	      background-repeat: no-repeat;
+	      background-size: auto 100%;
 }
-blockquote p{ color: #BC9417; font-weight: bold; line-height: 1.3em; font-size: 1.2em;}
-
-.authors {
-  font-size:1.1em;
-  color: #777777;
-  border-bottom: 3px solid #482683;
-  margin-bottom: 25px;
-}
-
-/* Intro */
-
-#intro .page-wrapper:before{ background-color: #482683; }
-
-#chapter0 h1,
-#chapter0 h2,
-#chapter01 h2,
-#chapter02 h2,
-#chapter03 h2,
-#chapter04 h2,
-#chapter01 h3,
-#chapter02 h3,
-#chapter03 h3,
-#chapter04 h3
-{
-	color: #C54409;
-}
-
 
 /* Big headers */
-mark{
-	background-color: #BC9417;
-	color: #FFF;
-	display: block;
-	padding: 3em;
+.intro_section h1 { 
+  margin:auto;
+  padding:15px 15px 0 15px;}
+  
+/* authors */
+  .authors {
+  font-size:1.1em;
+  color: #777777;
+  margin-bottom: 20px;
 }
 
-
-/* 1 - #BC9417 */
-
-#chapter1{
-	*background-image: url(../images/chapter1.png);
-	*background-size: 100% auto;
-	*background-repeat: no-repeat;
+/* points */
+  .points {
+    margin-bottom:1em;
+    margin-left:2em;
+    font-size:1.1em;
+  }
+  
+  .points ul {
+    list-style-type: square;
+  }
+  
+  .points li {
+    padding:0 0 8px 0;
+    font-weight:bold;
+  }
+  
+    .points li p {
+    text-align:left;
+  }
+  
+  /* first letters */
+  .chapter_section p:first-of-type::first-letter {
+    color:#a7aca5;
+    font-size:7em;
+    line-height: 0.63em;
+    float:left;
+    margin: 10px 1px 0 0;
+  }
+  
+    .points p::first-letter, .authors p::first-letter, .blockquote p::first-letter, .casebox p::first-letter, #refs p::first-letter, .imgsource p::first-letter {
+    color:inherit !important;
+     font-size:inherit !important;
+     margin:0 !important;
+     float:none !important;
+  }
+  
+  .chapter_section .figure p::first-letter {
+    color:#777777;
+    font-size:inherit;
+    margin:0;
+    float:none;
+  }
+  
+/* blockquote */
+  .blockquote {
+    
+  max-width:400px;
+  border-bottom: solid 10px #a7aca5;
+  font-size:1.4em;
+  margin:40px 0 30px -33px;
 }
 
-#chapter1 h1{ border-bottom: 3px solid #BC9417; }
+.blockquote p {
+  text-align: left !important;
+  line-height: normal;}
+  
+/* casebox */
+.casebox {
+    border:solid 5px #a7aca5;
+    padding: 0px 10px 10px 20px;
+    margin: 10px 30px 10px 30px;
+    min-width:400px;
+    
+}
+    
+.casebox a {
+    color:  black !important;}
+    
+.casebox h4 {
+    font-size: 1em;}
 
-.chapter1_section h1,
+/* image source */
+
+.imgsource {
+  color:#777;
+  margin-top:-1em;
+}  
+
+/* Chapter 0 - INTRO  #C54409 */
+
+#chapter00.intro_section::before{
+        background-color: #C54409;
+	      *background-image: url();
+}
+
+#chapter00 h1{ 
+  border-bottom: 3px solid #C54409;
+}
+
+.chapter0_section .authors {
+  border-bottom: 3px solid #C54409;
+  }
+  
+.chapter0_section h2,
+.chapter0_section h3
+{
+	color: #C54409 !important;
+}
+
+.chapter0_section a {
+	color: #C54409 !important;
+}
+
+.chapter0_section .blockquote {
+  color:#C54409;
+}
+
+.chapter0_section + h3 + #refs  a{
+     color:  #C54409 !important;
+}
+
+/* Chapter 1 - #BC9417 */
+
+#chapter10.intro_section::before{
+        background-color: #BC9417;
+	      background-image: url(images/chapter1.png);
+}
+
+#chapter10 h1{ border-bottom: 3px solid #BC9417; }
+
+.chapter1_section .authors {
+  border-bottom: 3px solid #BC9417;
+  }
+  
 .chapter1_section h2,
 .chapter1_section h3
 {
@@ -215,21 +322,26 @@ mark{
 	color: #BC9417 !important;
 }
 
-#body1 .page-wrapper:before{
-	background-color: #BC9417; }
-
-
-/* 2 - #482683 */
-
-#chapter2{
-	*background-image: url(/images/chapter1.png);
-	*background-size: 100% auto;
-	*background-repeat: no-repeat;
+.chapter1_section .blockquote {
+  color:#BC9417;
 }
 
-#chapter2 h1{ border-bottom: 3px solid #482683; }
+.chapter1_section + h3 + #refs  a{
+     color:  #BC9417 !important;
+}
+/* Chapter 2 - #482683 */
 
-.chapter2_section h1,
+#chapter20.intro_section::before{
+        background-color: #482683;
+	      background-image: url(../images/chapter1.png);
+}
+
+#chapter20 h1{ border-bottom: 3px solid #482683; }
+
+.chapter2_section .authors {
+  border-bottom: 3px solid #482683;
+  }
+
 .chapter2_section h2,
 .chapter2_section h3
 {
@@ -240,55 +352,39 @@ mark{
 	color: #482683 !important;
 }
 
-.section2 {
-	color: #482683;
+.chapter2_section .blockquote {
+  color:#482683;
 }
 
-#body2 .page-wrapper:before{ background-color: #482683; }
-
-.casebox {
-    border:solid;
-    border-width:3px;
-    padding: 0 20px 0 20px;
-    margin: 10px 0 10px 0;
+.chapter2_section .casebox {
     color:  #482683;
     background: 20px center/12em no-repeat;
     background-image: url("images/tulemaale.png");
 }
     
-.casebox a {
+.chapter2_section .casebox a {
     color:  black !important;}
     
-.casebox p {
+.chapter2_section .casebox p {
     padding-left: 13em;}
     
-.casebox h4 {
-    font-size: 1em;}
-    
-.extract {
-  border-bottom: solid 10px #a7aca5;
-  color:#482683;
-  font-size:1.4em;
-  margin:40px 0 30px 0;
-  padding: 0 130px 10px 0;
+.chapter2_section + h3 + #refs  a{
+     color:  #482683 !important;
 }
 
-.extract p {
-  text-align: left !important;
-  line-height: normal;
+/* Chapter 3 - #79AC2C */
+
+#chapter30.intro_section::before{
+        background-color: #79AC2C;
+	      background-image: url(../images/chapter1.png);
 }
 
-/* 3 - #79AC2C */
+#chapter30 h1{ border-bottom: 3px solid #79AC2C; }
 
-#chapter3{
-	*background-image: url(../images/chapter1.png);
-	*background-size: 100% auto;
-	*background-repeat: no-repeat;
-}
-
-#chapter3 h1{ border-bottom: 3px solid #79AC2C; }
-
-.chapter3_section h1,
+.chapter3_section .authors {
+  border-bottom: 3px solid #79AC2C;
+  }
+  
 .chapter3_section h2,
 .chapter3_section h3
 {
@@ -299,19 +395,26 @@ mark{
 	color: #79AC2C !important;
 }
 
-#body3 .page-wrapper:before{ background-color: #79AC2C; }
-
-/* 4 - #369B9E */
-
-#chapter4{
-	*background-image: url(../images/chapter1.png);
-	*background-size: 100% auto;
-	*background-repeat: no-repeat;
+.chapter3_section .blockquote {
+  color:#79AC2C;
 }
 
-#chapter4 h1{ border-bottom: 3px solid #369B9E; }
+.chapter3_section + h3 + #refs  a{
+     color:  #79AC2C !important;
+}
+/* Chapter 4 - #369B9E */
 
-.chapter4_section h1,
+#chapter40.intro_section::before{
+        background-color: #369B9E;
+	      background-image: url(../images/chapter1.png);
+}
+
+#chapter40 h1{ border-bottom: 3px solid #369B9E; }
+
+.chapter4_section .authors {
+  border-bottom: 3px solid #369B9E;
+  }
+  
 .chapter4_section h2,
 .chapter4_section h3
 {
@@ -322,18 +425,27 @@ mark{
 	color: #369B9E !important;
 }
 
-#body4 .page-wrapper:before{ background-color: #369B9E; }
-
-/* 5 - #A01B17 */
-
-#chapter5:before{
-	background-image: url(../images/paabel.png);
-	border: 1px solid red;
+.chapter4_section .blockquote {
+  color:#369B9E;
 }
 
-#chapter5 h1{ border-bottom: 3px solid #A01B17; }
+.chapter4_section + h3 + #refs  a{
+     color:  #369B9E !important;
+}
 
-.chapter5_section h1,
+/* Chapter 5 - #A01B17 */
+
+#chapter50.intro_section::before{
+        background-color: #A01B17;
+	      background-image: url(../images/chapter1.png);
+}
+
+#chapter50 h1{ border-bottom: 3px solid #A01B17; }
+
+.chapter5_section .authors {
+  border-bottom: 3px solid #A01B17;
+  }
+  
 .chapter5_section h2,
 .chapter5_section h3
 {
@@ -344,5 +456,10 @@ mark{
 	color: #A01B17 !important;
 }
 
-#body5 .page-wrapper:before{ background-color: #A01B17; }
+.chapter5_section .blockquote {
+  color:#A01B17;
+}
 
+.chapter5_section + h3 + #refs  a{
+     color:  #A01B17 !important;
+}
