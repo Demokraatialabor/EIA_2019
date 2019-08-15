@@ -40,10 +40,14 @@ suurenes 54%-lt 64%-le. Ka Tartumaa panus SKTsse suurenes, muude maakondade oma 
 suurim oli langus Kirde-Eesti tööstuspiirkondades. Selle tulemusena on lisaks väljarändele laialt levinud ka
 maalt linna tööl käimine, mida teeb 28% elanikkonnast ehk 380 000 inimest [@ahas2011].
 
-```{r, joonis231, fig.cap='Location of workplace in county of residence, elsewhere in Estonia and outside Estonia among the residents of Viljandi, Valga, Võru and Põlva county', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
-library("tidyverse")
-```
+```{r, joonis231, fig.cap=' Eesti regionaalne polariseerumine: rahvastikumuutused ja SKP jaotumine 1995. ja 2016. aastal.', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
+knitr::include_graphics(rep("images/23_fig1.png"))
+```
+```{block, type='imgsource'}
+Allikas: Statistikaamet
+```
+*Märkus: Enne 1995. aastat kujundas rahvastikumuutust tagasipöördumine endisesse Nõukogude Liitu. Vaadeldaval ajavahemikul suurenes kõigi maakondade panus SKTsse.*
 
 Need üldised suundumused kinnitavad, et piirkondade polariseerumine on Eestis objektiivne tõsiasi (Annist
 2017; Noorkõiv 2009). Asustussüsteem on üha enam kaldu suuremate linnapiirkondade või koguni üksnes
@@ -71,12 +75,13 @@ tööhõive vähenemist põllumajanduses.
 ```{r, joonis232, fig.cap='Viljandi-, Valga-, Võru- ja Põlvamaa elanike töökohtade paiknemine elukoha maakonnas, mujal Eestis või väljaspool Eestit 2000. ja 2011.aastal', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
  library("tidyverse")
+library("svglite")
 
   fig2 <- read.csv ("data/23_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
   fig2plot <- ggplot(data = fig2) +
   geom_col(mapping = aes(x=county, y=value, fill=location_est), width=0.7) +
   facet_wrap(~year, nrow=1) +
-  labs(y="töökohtade arv", x="", fill="Töökoha paiknemine") +
+  labs(y="Töökohtade arv", x="", fill="Töökoha paiknemine") +
   scale_fill_manual(values=c("#482683", "#79AC2C", "#369B9E"))
   
  fig2theme <- theme(
@@ -91,6 +96,10 @@ tööhõive vähenemist põllumajanduses.
                  )
   
   print(fig2plot + fig2theme)
+
+  ggsave(path="exported_figures/SVG/", filename="fig232.svg", height=150, width=200, units="mm")
+  ggsave(path="exported_figures/PDF",filename="fig232.pdf", height=150, width=200, units="mm")
+  ggsave(path="exported_figures/PNG",filename="fig232.png",height=150, width=200, units="mm")
 ```
 ```{block, type='imgsource'}
 Allikas: Statistikaamet

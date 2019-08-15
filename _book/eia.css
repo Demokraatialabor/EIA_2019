@@ -233,11 +233,12 @@ h3 .header-section-number{
   
 /* blockquote */
   .blockquote {
-    
+  display:inline-block;
+  float:left;
   max-width:400px;
   border-bottom: solid 10px #a7aca5;
   font-size:1.4em;
-  margin:40px 0 30px -33px;
+  margin:40px 15px 30px -33px;
 }
 
 .blockquote p {
@@ -333,7 +334,7 @@ h3 .header-section-number{
 
 #chapter20.intro_section::before{
         background-color: #482683;
-	      background-image: url(../images/chapter1.png);
+	      background-image: url(../images/);
 }
 
 #chapter20 h1{ border-bottom: 3px solid #482683; }
@@ -376,7 +377,7 @@ h3 .header-section-number{
 
 #chapter30.intro_section::before{
         background-color: #79AC2C;
-	      background-image: url(../images/chapter1.png);
+	      background-image: url(../images/);
 }
 
 #chapter30 h1{ border-bottom: 3px solid #79AC2C; }
@@ -406,7 +407,7 @@ h3 .header-section-number{
 
 #chapter40.intro_section::before{
         background-color: #369B9E;
-	      background-image: url(../images/chapter1.png);
+	      background-image: url(../images/);
 }
 
 #chapter40 h1{ border-bottom: 3px solid #369B9E; }
@@ -437,7 +438,7 @@ h3 .header-section-number{
 
 #chapter50.intro_section::before{
         background-color: #A01B17;
-	      background-image: url(../images/chapter1.png);
+	      background-image: url(../images/);
 }
 
 #chapter50 h1{ border-bottom: 3px solid #A01B17; }
