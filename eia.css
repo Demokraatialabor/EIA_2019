@@ -52,7 +52,7 @@ BODY{}
   display:none;
 }
 
-p { text-align:justify; }
+p { text-align:justify;}
 h1{ font-size: 4em !important; text-transform: uppercase; line-height: 1em; }
 h2{ max-width: 100%; }
 h3{ max-width: 100%; }

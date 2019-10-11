@@ -1,0 +1,25 @@
+condition,year,value
+Värskelt remonditud,1919,4.6
+Värskelt remonditud,1920-1945,8.5
+Värskelt remonditud,1946-1960,7.3
+Värskelt remonditud,1961-1990,38.1
+Värskelt remonditud,1991-2000,4.8
+Värskelt remonditud,2001+,36.7
+Hea seisukord,1919,4.8
+Hea seisukord,1920-1945,10.5
+Hea seisukord,1946-1960,10.3
+Hea seisukord,1961-1990,59
+Hea seisukord,1991-2000,6.4
+Hea seisukord,2001+,9
+Esineb puudusi,1919,9
+Esineb puudusi,1920-1945,19.8
+Esineb puudusi,1946-1960,15
+Esineb puudusi,1961-1990,51.2
+Esineb puudusi,1991-2000,3.5
+Esineb puudusi,2001+,1.5
+Esinevad suured puudused,1919,16.6
+Esinevad suured puudused,1920-1945,24.1
+Esinevad suured puudused,1946-1960,14.5
+Esinevad suured puudused,1961-1990,35.7
+Esinevad suured puudused,1991-2000,2.6
+Esinevad suured puudused,2001+,6.5

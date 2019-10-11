@@ -1,0 +1,85 @@
+## Ligipääsetavuse muutused Eestis autostumise tulemusel {#chapter15 .chapter_section .chapter1_section}
+
+```{block, type='authors'}
+**Tauri Tuvikene, Merlin Rehema, Dago Antov**
+```
+
+```{block, type='points'}
+* Autopõhine liikuvus on saanud Eestis valdavaks
+
+* Seni on ühistransport olnud konkurentsivõimeline vaid linnades, lisaks Eesti äärealadele on isegi linna tagamaal autota elamine keeruline
+
+* Autokultuur pärsib sotsiaalset sidusust – ei toimu kohtumisi endast erinevatega, linnad kujundatakse autodele ja mitte avalikus ruumis suhtlevatele inimestele.
+
+* Suuremates linnaregioonides on kasvav autopõhine liikuvus hakanud inimeste liikumisvõimalusi pärssima. Ääremaal on auto aga vahend, mis tagab teenuste kättesaadavuse ja võimaldab suurtest keskustest eemal elada.
+
+```
+
+### Kiire autostumine 1990ndate Eestis ja järgnev stabiliseerumine?
+
+```{r, figure151, fig.cap='Autostumise tasemete muutus valitud Lääne-Euroopa (e. siin EL15) ja Ida- Euroopa riikides', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("LINE CHART")
+```
+
+```{block, type='imgsource'}
+Allikas: Eurostat
+```
+
+### Autostumine on nii keskkonnaprobleem kui väljakutse ligipääsetavuse parandamiseks
+
+```{r, figure152, fig.cap='Autostumise tasemete muutus valitud Lääne-Euroopa (e. siin EL15) ja Ida- Euroopa riikides', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("IMG")
+```
+
+```{block, type='imgsource'}
+Allikas: Discovering Urbanism, 2010
+```
+
+### Hõreasustuses on elu autokeskne
+
+```{r, figure153, fig.cap='Ühistranspordi kättesaadavus Eestis', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("MAP")
+```
+
+```{block, type='imgsource'}
+Allikas: Statistikaamet
+```
+
+### Äärelinnas elamine on autokesksem võrreldes eluga linnas
+
+```{r, figure154, fig.cap='Autode arv leibkonnas Tallinnas (2016. a. andmed) ja Harjumaal (2017. a. andmed) ning elanike arvu kasv Tallinna lähiregioonis viimasel 20 aastal.', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("2-FACETED GRAPH: BAR and RADAR CHART")
+```
+
+```{block, type='imgsource'}
+Allikas: Kantar Emor 2017. a. Tallinna lähipiirkonna liikumisviiside uuring ja Statistikaamet)
+```
+
+
+```{r, figure155, fig.cap='Tallinna ja muu Harjumaa elanike tööle käimise viiside osakaalude muutus, 2000–2017', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("LINE GRAPH")
+```
+
+```{block, type='imgsource'}
+Allikas: Statistikaamet
+```
+
+```{r, figure156, fig.cap='Tallinna ja muu Harjumaa elanike tööle käimise viiside osakaalude muutus, 2000–2017', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("STACKED BAR CHART with LINE CHART")
+```
+
+```{block, type='imgsource'}
+Allikas: Statistikaamet
+```
+
+### Linnakeskustes arendatakse liikuvust ikka esmalt autodele
+
+### Tulevikutrendid: kuidas elada vähema autokasutusega?
+
+### Viidatud allikad {-.subreferences}

@@ -1,0 +1,181 @@
+area,year,variable,value
+Tallinn,2000,Jalgsi,13
+Harjumaa,2000,Jalgsi,28
+Tallinn,2000,"Jalgratta, mopeedi, mootorrattaga",..
+Harjumaa,2000,"Jalgratta, mopeedi, mootorrattaga",4
+Tallinn,2000,Sõiduautoga,34
+Harjumaa,2000,Sõiduautoga,40
+Tallinn,2000,Ühissõidukiga,50
+Harjumaa,2000,Ühissõidukiga,26
+Tallinn,2000,Töötab kodus,3
+Harjumaa,2000,Töötab kodus,..
+Tallinn,2001,Jalgsi,15
+Harjumaa,2001,Jalgsi,29
+Tallinn,2001,"Jalgratta, mopeedi, mootorrattaga",..
+Harjumaa,2001,"Jalgratta, mopeedi, mootorrattaga",4
+Tallinn,2001,Sõiduautoga,34
+Harjumaa,2001,Sõiduautoga,40
+Tallinn,2001,Ühissõidukiga,48
+Harjumaa,2001,Ühissõidukiga,25
+Tallinn,2001,Töötab kodus,3
+Harjumaa,2001,Töötab kodus,..
+Tallinn,2002,Jalgsi,19.2
+Harjumaa,2002,Jalgsi,28
+Tallinn,2002,"Jalgratta, mopeedi, mootorrattaga",..
+Harjumaa,2002,"Jalgratta, mopeedi, mootorrattaga",..
+Tallinn,2002,Sõiduautoga,33
+Harjumaa,2002,Sõiduautoga,44
+Tallinn,2002,Ühissõidukiga,46
+Harjumaa,2002,Ühissõidukiga,22
+Tallinn,2002,Töötab kodus,2
+Harjumaa,2002,Töötab kodus,4
+Tallinn,2003,Jalgsi,16.6
+Harjumaa,2003,Jalgsi,22.1
+Tallinn,2003,"Jalgratta, mopeedi, mootorrattaga",..
+Harjumaa,2003,"Jalgratta, mopeedi, mootorrattaga",4.7
+Tallinn,2003,Sõiduautoga,29.3
+Harjumaa,2003,Sõiduautoga,49.3
+Tallinn,2003,Ühissõidukiga,51.2
+Harjumaa,2003,Ühissõidukiga,19
+Tallinn,2003,Töötab kodus,2.6
+Harjumaa,2003,Töötab kodus,5
+Tallinn,2004,Jalgsi,15
+Harjumaa,2004,Jalgsi,20.6
+Tallinn,2004,"Jalgratta, mopeedi, mootorrattaga",..
+Harjumaa,2004,"Jalgratta, mopeedi, mootorrattaga",..
+Tallinn,2004,Sõiduautoga,33.1
+Harjumaa,2004,Sõiduautoga,51.3
+Tallinn,2004,Ühissõidukiga,49.3
+Harjumaa,2004,Ühissõidukiga,20.5
+Tallinn,2004,Töötab kodus,1.9
+Harjumaa,2004,Töötab kodus,4.8
+Tallinn,2005,Jalgsi,12.1
+Harjumaa,2005,Jalgsi,18.6
+Tallinn,2005,"Jalgratta, mopeedi, mootorrattaga",..
+Harjumaa,2005,"Jalgratta, mopeedi, mootorrattaga",..
+Tallinn,2005,Sõiduautoga,35
+Harjumaa,2005,Sõiduautoga,51.8
+Tallinn,2005,Ühissõidukiga,49.6
+Harjumaa,2005,Ühissõidukiga,26.4
+Tallinn,2005,Töötab kodus,2.5
+Harjumaa,2005,Töötab kodus,..
+Tallinn,2006,Jalgsi,13.8
+Harjumaa,2006,Jalgsi,21
+Tallinn,2006,"Jalgratta, mopeedi, mootorrattaga",..
+Harjumaa,2006,"Jalgratta, mopeedi, mootorrattaga",2.5
+Tallinn,2006,Sõiduautoga,38.7
+Harjumaa,2006,Sõiduautoga,51.4
+Tallinn,2006,Ühissõidukiga,44.8
+Harjumaa,2006,Ühissõidukiga,23
+Tallinn,2006,Töötab kodus,2
+Harjumaa,2006,Töötab kodus,..
+Tallinn,2007,Jalgsi,12.8
+Harjumaa,2007,Jalgsi,16.6
+Tallinn,2007,"Jalgratta, mopeedi, mootorrattaga",..
+Harjumaa,2007,"Jalgratta, mopeedi, mootorrattaga",3.2
+Tallinn,2007,Sõiduautoga,42.4
+Harjumaa,2007,Sõiduautoga,56.8
+Tallinn,2007,Ühissõidukiga,42.7
+Harjumaa,2007,Ühissõidukiga,20.7
+Tallinn,2007,Töötab kodus,1.7
+Harjumaa,2007,Töötab kodus,2.7
+Tallinn,2008,Jalgsi,10.6
+Harjumaa,2008,Jalgsi,15.5
+Tallinn,2008,"Jalgratta, mopeedi, mootorrattaga",..
+Harjumaa,2008,"Jalgratta, mopeedi, mootorrattaga",3.3
+Tallinn,2008,Sõiduautoga,46.2
+Harjumaa,2008,Sõiduautoga,62.2
+Tallinn,2008,Ühissõidukiga,40.6
+Harjumaa,2008,Ühissõidukiga,15.4
+Tallinn,2008,Töötab kodus,1.8
+Harjumaa,2008,Töötab kodus,3.7
+Tallinn,2009,Jalgsi,11.8
+Harjumaa,2009,Jalgsi,11.9
+Tallinn,2009,"Jalgratta, mopeedi, mootorrattaga",..
+Harjumaa,2009,"Jalgratta, mopeedi, mootorrattaga",..
+Tallinn,2009,Sõiduautoga,45.4
+Harjumaa,2009,Sõiduautoga,66.2
+Tallinn,2009,Ühissõidukiga,39.7
+Harjumaa,2009,Ühissõidukiga,15.1
+Tallinn,2009,Töötab kodus,2.5
+Harjumaa,2009,Töötab kodus,4.8
+Tallinn,2010,Jalgsi,13.3
+Harjumaa,2010,Jalgsi,11.3
+Tallinn,2010,"Jalgratta, mopeedi, mootorrattaga",0.8
+Harjumaa,2010,"Jalgratta, mopeedi, mootorrattaga",3.3
+Tallinn,2010,Sõiduautoga,42.1
+Harjumaa,2010,Sõiduautoga,62.9
+Tallinn,2010,Ühissõidukiga,40.8
+Harjumaa,2010,Ühissõidukiga,16
+Tallinn,2010,Töötab kodus,3
+Harjumaa,2010,Töötab kodus,6.5
+Tallinn,2011,Jalgsi,9.1
+Harjumaa,2011,Jalgsi,14.1
+Tallinn,2011,"Jalgratta, mopeedi, mootorrattaga",1
+Harjumaa,2011,"Jalgratta, mopeedi, mootorrattaga",2.3
+Tallinn,2011,Sõiduautoga,44.2
+Harjumaa,2011,Sõiduautoga,60.4
+Tallinn,2011,Ühissõidukiga,41.3
+Harjumaa,2011,Ühissõidukiga,16.5
+Tallinn,2011,Töötab kodus,4.4
+Harjumaa,2011,Töötab kodus,6.7
+Tallinn,2012,Jalgsi,10.2
+Harjumaa,2012,Jalgsi,13.8
+Tallinn,2012,"Jalgratta, mopeedi, mootorrattaga",1.1
+Harjumaa,2012,"Jalgratta, mopeedi, mootorrattaga",1.7
+Tallinn,2012,Sõiduautoga,43.6
+Harjumaa,2012,Sõiduautoga,60.2
+Tallinn,2012,Ühissõidukiga,41.6
+Harjumaa,2012,Ühissõidukiga,17
+Tallinn,2012,Töötab kodus,3.6
+Harjumaa,2012,Töötab kodus,7.3
+Tallinn,2013,Jalgsi,10.5
+Harjumaa,2013,Jalgsi,12.6
+Tallinn,2013,"Jalgratta, mopeedi, mootorrattaga",0.6
+Harjumaa,2013,"Jalgratta, mopeedi, mootorrattaga",..
+Tallinn,2013,Sõiduautoga,43.3
+Harjumaa,2013,Sõiduautoga,63
+Tallinn,2013,Ühissõidukiga,41.1
+Harjumaa,2013,Ühissõidukiga,16.8
+Tallinn,2013,Töötab kodus,4.6
+Harjumaa,2013,Töötab kodus,6.5
+Tallinn,2014,Jalgsi,12.2
+Harjumaa,2014,Jalgsi,10.9
+Tallinn,2014,"Jalgratta, mopeedi, mootorrattaga",0.9
+Harjumaa,2014,"Jalgratta, mopeedi, mootorrattaga",..
+Tallinn,2014,Sõiduautoga,41.8
+Harjumaa,2014,Sõiduautoga,66.8
+Tallinn,2014,Ühissõidukiga,40.7
+Harjumaa,2014,Ühissõidukiga,15.5
+Tallinn,2014,Töötab kodus,4.5
+Harjumaa,2014,Töötab kodus,5.9
+Tallinn,2015,Jalgsi,12
+Harjumaa,2015,Jalgsi,13.8
+Tallinn,2015,"Jalgratta, mopeedi, mootorrattaga",1.2
+Harjumaa,2015,"Jalgratta, mopeedi, mootorrattaga",2
+Tallinn,2015,Sõiduautoga,44.2
+Harjumaa,2015,Sõiduautoga,62.7
+Tallinn,2015,Ühissõidukiga,38
+Harjumaa,2015,Ühissõidukiga,17.5
+Tallinn,2015,Töötab kodus,4.6
+Harjumaa,2015,Töötab kodus,4.1
+Tallinn,2016,Jalgsi,10.5
+Harjumaa,2016,Jalgsi,11.2
+Tallinn,2016,"Jalgratta, mopeedi, mootorrattaga",1.5
+Harjumaa,2016,"Jalgratta, mopeedi, mootorrattaga",2.6
+Tallinn,2016,Sõiduautoga,47.7
+Harjumaa,2016,Sõiduautoga,63.9
+Tallinn,2016,Ühissõidukiga,36
+Harjumaa,2016,Ühissõidukiga,17.6
+Tallinn,2016,Töötab kodus,4.2
+Harjumaa,2016,Töötab kodus,4.6
+Tallinn,2017,Jalgsi,10.8
+Harjumaa,2017,Jalgsi,
+Tallinn,2017,"Jalgratta, mopeedi, mootorrattaga",1.6
+Harjumaa,2017,"Jalgratta, mopeedi, mootorrattaga",
+Tallinn,2017,Sõiduautoga,48.4
+Harjumaa,2017,Sõiduautoga,
+Tallinn,2017,Ühissõidukiga,34.7
+Harjumaa,2017,Ühissõidukiga,
+Tallinn,2017,Töötab kodus,4.5
+Harjumaa,2017,Töötab kodus,

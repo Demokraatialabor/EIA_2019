@@ -1,0 +1,25 @@
+county,year,variable,value,total_value
+Põlva country,2011,county of residence,6216,35981
+Põlva country,2011,elsewhere in Estonia,2797,11528
+Põlva country,2011,outside Estonia,527,3299
+Valga county,2011,county of residence,7375,35981
+Valga county,2011,elsewhere in Estonia,2640,11528
+Valga county,2011,outside Estonia,626,3299
+Viljandi county,2011,county of residence,13470,35981
+Viljandi county,2011,elsewhere in Estonia,3633,11528
+Viljandi county,2011,outside Estonia,1329,3299
+Võru country,2011,county of residence,8920,35981
+Võru country,2011,elsewhere in Estonia,2458,11528
+Võru country,2011,outside Estonia,817,3299
+Põlva country,2000,county of residence,8150,45247
+Põlva country,2000,elsewhere in Estonia,764,2546
+Põlva country,2000,outside Estonia,31,231
+Valga county,2000,county of residence,9407,45247
+Valga county,2000,elsewhere in Estonia,544,2546
+Valga county,2000,outside Estonia,45,231
+Viljandi county,2000,county of residence,16757,45247
+Viljandi county,2000,elsewhere in Estonia,817,2546
+Viljandi county,2000,outside Estonia,105,231
+Võru country,2000,county of residence,10933,45247
+Võru country,2000,elsewhere in Estonia,421,2546
+Võru country,2000,outside Estonia,50,231

@@ -1,0 +1,64 @@
+## Eesti noored virtuaalses arvamusruumis {#chapter42 .chapter_section .chapter4_section}
+
+```{block, type='authors'}
+**Veronika Kalmus ja Andra Siibak**
+```
+
+```{block, type='points'}
+* Eesti noored on aktiivsed internetikasutajad: nende seas ei esine märkimisväärset digikihistumist, nende netipraktikad on mitmekülgsed ning hinnangud enda digioskustele head.
+```
+
+Poliitilist ja kodanikuosalust peetakse elujõulise demokraatia ning hästitoimiva avaliku ruumi alustalaks. Ajal, mil pea kõikides demokraatlikes riikides võib täheldada süvenevat võõrandumist institutsionaalsest poliitikast, seda eriti nooremate põlvkondade puhul, pannakse suuri lootusi digiosaluse – interneti ja sotsiaalmeedia vahendusel kodanikuühiskonnas ja poliitikas osalemise – kasvule ja virtuaalsete arvamusruumide arengule. Peatükis vaatleme, kuivõrd aktiivselt kasutavad Eesti lapsed ja noored digiosaluse võimalusi ning mis on virtuaalse arvamusruumi edasise arengu eeldused ja takistused. Aastatel 2010-2018 kogutud küsitlusandmed võimaldavad meil analüüsida Eesti noore põlvkonna internetikasutuse ja digiosaluse arengutrende ning paigutada need rahvusvahelisse võrdluskonteksti. Lisaks pakuvad kvalitatiivsed uuringud võimalust mõista digiosalusega seotud probleeme noorte vaatevinklist ning heita pilku tulevikku.s.
+
+### Muutused laste internetikasutuses {.chapter4_section}
+
+```{r, figure421, fig.cap='Internetis veedetud aeg koolivabadel päevadel 2018', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+```
+
+``` {block, type='imgsource'}
+Allikas: EU Kids Online'i Eesti uuring 2018; Sukk jt 2018
+Küsimus Ankeedis: Umbes kui kaua veedad sa aega internetis vabadel päevadel, kui kooli ei ole (nt nädalavahetused, koolivaheajad)?
+Alus: kõik lapsed (N=1020)
+```
+
+
+```{r, figure422, fig.cap='Laste digitaalse kaasatuse astmed 2010 ja 2018', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+
+```
+
+``` {block, type='imgsource'}
+Allikad: EU Kids Online'i Eesti uuring 2010; EU Kids Online'i Eesti uuring 2018
+```
+``` {block, type='imgsource'}
+Küsimus Ankeedis: Kui sageli sa oled viimase kuu (30 päeva) jooksul teinud internetis järgmisi asju?
+```
+``` {block, type='imgsource'}
+Alus: kõik lapsed (N=1020)
+```
+
+### Laste digitaalne kirjaoskus {.chapter1_section}
+
+```{r, figure423, fig.cap='Digioskused Eesti 13-17-aastaste noorte seas 2018 (%)', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+
+```
+
+``` {block, type='imgsource'}
+Allikas: EU Kids Online'i Eesti uuring 2018; Sukk jt 2018
+Küsimus Ankeedis: Kuivõrd vastavad järgmised väited sinu puhul tõele?
+Alus: kõik 13-17-aastased lapsed (n=528)
+```
+
+### Eesti noored ja digiosalus {.chapter4_section}
+
+### Eesti noorte osalustüübid {.chapter4_section}
+
+### Noorte digiosavust takistavad tegurid {.chapter4_section}
+
+### Virtuaalse arvamusruumi kitsaskohad {.chapter4_section}
+
+### Kokkuvõte {.chapter4_section}
+ 
+### Kasutatud kirjandus {-.subreferences}

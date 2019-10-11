@@ -1,0 +1,112 @@
+## Planeerimisvabaduse, kinnisvarademokraatia ja heaoluühiskonna võidukäik eeslinna-Eestis {#chapter13 .chapter_section .chapter1_section}
+
+```{block, type='authors'}
+**Antti Roose**
+```
+
+```{block, type='points'}
+* Eeslinnastumine on asustuse arengu kõige struktuursem ja laialdasem muutus taasiseseisvunud Eestis, hõlmates Tallinna ümbrust kuni 20 km raadiuses, Tartu ja Pärnu linnalähivööndit 5 km laiuselt.
+
+* Krundiviisiline arendamine on hajuvas linnakasvus loonud hõreda, vähesidusa ja killustatud eeslinnaasustuse.
+
+* Uus-eeslinlasete arvu võib hinnata 70000-le inimesele ehk 25000 perele, kes on teinud küll individuaalse elukohaeelistuse üksikotsusena mõjukas turusegmendis, kuid seejärel mõjutavad ühiselt oluliselt kogu linnapiirkonna toimimist.
+
+* Eeslinnastumine on heaoluühiskonna tormaka arengu tulemuseks vabameelses planeerimis- ja majanduskeskkonnas.
+
+* Eeslinlik elukvaliteet ja elulaad põhineb kodu- ja autokesksel lastega pere mudelil.
+
+* Eeslinna avalik ruum jääb killustatud planeerimisel ja järk-järgulisel arendamisel enamasti määratlemata, projekteerimata ja kujundamata.
+
+* Riiklike üldisemate planeeringute jõuetus on andnud eeslinna omavalitsustele nii de jure kui de facto (ees)linnaplaneerimise otsusemonopoli. Eeslinna arendamist suunavad eraarendajate asukohavalikud maareformist killustatud jaotustes.
+```
+
+### Määratlus {.chapter1_section}
+
+### Eeslinnakasv {.chapter1_section}
+
+```{r, figure131, fig.cap='Eeslinlaste arv 2001-2018', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("LINE GRAPH")
+```
+
+```{block, type='imgsource'}
+Allikas: Statistikaamet
+```
+
+```{r, figure132, fig.cap='Uute eluruumide summaarne jaotus keskuslinnade, eeslinnade ja ülejäänud Eesti lõikes 1999-2018', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("TREEMAP")
+```
+
+```{block, type='imgsource'}
+Allikas: Statistikaamet
+```
+
+```{r, figure133, fig.cap='Uute eluruumide arv Tallinnas, Tartus ja Pärnus võrrelduna eeslinnadega 2002-2018', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("LINE GRAPH")
+```
+
+```{r, figure134, fig.cap='title', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("IMG")
+```
+
+```{block, type='imgsource'}
+Allikas: Maa-ameti ortofotod
+```
+
+```{r, figure135, fig.cap='title', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("IMG")
+```
+
+```{block, type='imgsource'}
+Allikas: 
+```
+
+
+```{r, figure136, fig.cap='title', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("Maa-ameti kaart?")
+```
+
+```{block, type='imgsource'}
+Allikas: Statistikaamet
+```
+
+```{r, figure137, fig.cap='title', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("IMG")
+```
+
+```{block, type='imgsource'}
+Allikas: K-Projekt AS
+```
+
+### Eeslinnakasvu nähtamatu käsi vs avalik huvi {.chapter1_section}
+#### Turujõudude ja planeerimispoliitika väljendusi kohaloomes
+
+```{r, figure138, fig.cap='title', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("IMG")
+```
+
+```{block, type='imgsource'}
+Allikas: Laam kinnisvara
+```
+
+#### Kodulähedasi avalikke teenuseid ja avalikku ruumi eeslinnas napib
+
+```{r, figure139, fig.cap='title', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("IMG")
+```
+
+```{block, type='imgsource'}
+Allikas: 
+```
+
+### Kodulähedasi avalikke teenuseid ja avalikku ruumi eeslinnas napib
+
+### Viidatud allikad {-.subreferences}

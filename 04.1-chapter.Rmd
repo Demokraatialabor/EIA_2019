@@ -1,0 +1,35 @@
+## Ühiskondlik-poliitiline diskussioon digitaalses avalikus ruumis ja domineerivad tähendusloometrendid {#chapter41 .chapter_section .chapter4_section}
+
+```{block, type='authors'}
+**Andreas Ventsel & Mari-Liis Madisson**
+```
+
+```{block, type='points'}
+* Erinevalt professionaalsetest ajakirjandusväljaannetest ei laiene sotsiaalmeedia avalikus ruumis avaldatud sõnumitele selged eetika- ja kvaliteedipõhimõtted.
+
+* Võimalikult suure nähtavuse ning paljude kasutajate kaasamise nimel luuakse aruteluruume, kus emotsioonide ja kiirete reaktsioonide jagamine argumenteeritud suhtluse üles kaalub.
+
+* Sotsiaalmeedia diskussiooniruumide riskikohaks on arutelude sulgumine ning teatud vaatepunktide radikaliseerumine.
+```
+
+Eestis saavutasid aktiivsete meediakasutajate praktikates elektroonilised vahendid ülekaalu 2011. aastal. Tänaseks on digitaalsest meediasfäärist saanud olulisim avalikke teemasid vahendav ja vormiv ruum. Probleemina on välja toodud, et avalike teemade arutamisel digitaalses meedias on toimunud jõuline liikumine lihtsustumise ja personaliseerumise suunas. Nutiajastu kodanikud pole enam valmis jälgima pikki ja ühiskondliku elu n-ö suurt pilti avavaid selgitusi ning põhjalikke argumentatsioonikäike, vaid eelistavad tarbida kiiresti mõistetavaid, ahta tekstiosa ja tugeva emotsionaalse laenguga sõnumeid. Taoliste ilmingutena osutatakse Twitteri-diplomaatia, poliitiliste meemilahingute ning kasutajalt kasutajale levivate sotsiaalkampaaniate võidukäigule. Probleemina märgitakse ka sotsiaalmeedia levikuga kaasnenud vahendajate rolli muutust avalikus kommunikatsioonis. Traditsiooniliselt on ühiskondlik-poliitiline diskussioon jõudnud laiema auditooriumini ajakirjanduse vahendusel, kus toimetused valivad välja mitmekülgse profiiliga esinejad ning püüavad tagada arutelude teemas püsimise ja vastamise argumentatsiooninormidele. Sotsiaalmeediaajastul on avalike arutelupindade hulk märkimisväärselt mitmekesistunud ning potentsiaalselt suure auditooriumini jõudmiseks ei pea kõnelejad enam ajakirjanduse vahendavast rollist sõltuma. Sotsiaalmeedias võivad avalike teemade vahendajateks olla n-ö traditsioonilised arvamusliidrid (ajakirjanikud, poliitikud, teadlased, eksperdid), mitmesuguste ettevõtete või institutsioonide kontod, ülalmainitud arutelugrupid kui ka sotsiaalmeedia mõjuisikud ehk (nt youtuberid, Instagrami-kuulsused, Twitteri või Facebooki mikroblogijad jms) kes on suutnud tiheda postitusageduse, huviväärse sisu ning paeluva stiili tõttu endale suure jälgijaskonna tekitada. Sotsiaalmeedia vahendajad koondavad konkreetsete teemadega seonduvat teavet ja jagavad sageli ka selle info tõlgendamiseks suuniseid, lisaks pakuvad nende leheküljed võimalust postitatud sisu üle nii vahendaja enda kui ka tema auditooriumiga diskuteerida. Uuringud on näidanud, et eriti noorem publik eelistab avalike teemadega kursisolekuks peamise kanalina sotsiaalmeediat ega pea enam ajakirjandusliku töö tulemusena valminud tekste põhiliseks ja eelistatumaks uudise liigiks (Vihalemm, Kõuts-Klemm 2017: 256, 258; Opermann 2018). Sarnast tendentsi on täheldatud ka muu maailma noorte hulgas (Reuters Institute Digital News Report 2017) Sotsiaalmeedia vahendajatega seonduvaks peamiseks riskikohaks on, et nad omavad teatud teemade ühiskondliku tähenduse kujunemisel suurt võimu, kuid nende eesmärgid ja tegutsemispõhimõtted jäävad auditooriumi jaoks sageli varjatuks.
+
+```{block, type='blockquote'}
+Arutelud on digitaalses meedias liikunud lihtsustumise ja personaliseerumise suunas. Sotsiaalmeedias on info suunamisel ja sellega seotud tähenduste kujundamisel suur roll vahendajatel, kelle eesmärgid jäävad sageli auditooriumi jaoks varjatuks.
+```
+
+Alljärgnevalt keskendume avalikku sotsiaalmeediasuhtlust iseloomustavatele tähendusloome suundumustele ja nende rollile ühiskondlik-poliitiliste arutelude kujundamisel. Tähendusloome all peame silmas protsessi, mille vahendusel suhtluspartnerid püüavad üksteisest ja ümbritsevast maailmast aru saada, vestluskaaslast mõjutada ning mõningatel juhtudel teda lausa eksitada. Meie eesmärgiks on näidata, millised tähendusloome suundumused viivad sotsiaalmeediasuhtluse sulgumiseni ja radikaliseerumiseni, millised aga demokraatlikuma avatud kommunikatsioonini. Osutame konkreetsetele näidetele ja uurimustele, mis aitavad sotsiaalmeedia arutelude tunnuseid ning tähendusloome tüüpe kaardistada. Eestis on seni avaldatud vähe (sotsiaal)meedia tähendusloome eripäradele pühendatud kvalitatiivseid uuringuid. Üksnes kvantitatiivuuringutele tuginedes ei ole võimalik teha järeldusi, milline on (sotsiaal)meedias vahetatud avalike sõnumite sisu ja kuidas kuuldut-nähtut-loetut auditooriumis täpsemalt tõlgendatakse (Leppik, Vihalemm 2017: 604). Samuti on oluline tähele panna, et digitaalne avalik ruum on märksa laiem kui sotsiaalmeedia, kuid kuna viimases saavad kokku väga mitmesugused kanalid ja infosfäärid ning kuna see on üks põhilisemaid kohti, kus kodanikud avalike teemade käsitlemisse enda panuse annavad. Alustame oma peatükki aga ülevaatega interneti kasutamisest Eestist, tuues välja nii eesti- kui venekeelse elanikkonna harjumused ning anname lühidalt ülevaate sotsiaalmeediasuhtluse peamistest eripäradest. Viimane aitab paremini mõista tähendusloome tingimusi sotsiaalmeedia keskkonnas.
+
+### Sotsiaalmeedia lubavused soodustavad emotsioonipõhist suhtlust {.chapter4_section}
+
+### Interneti kasutamine Eestis {.chapter4_section}
+
+### Venekeelne (digitaalne)kommunikatsiooniruum {.chapter4_section}
+
+### Suletud tähendusloome tekitab polariseerumist {.chapter4_section}
+
+### Avatud tähendusloome kaasab erinevaid osapooli {.chapter4_section}
+
+### Kokkuvõta ja võimalikud tulevikuvisioonid {.chapter4_section}
+ 
+### Kasutatud kirjandus {-.subreferences}

@@ -1,0 +1,13 @@
+type_of_residence,condition,value
+Eramaja,Värskelt remonditud,49.2
+Eramaja,Hea seisukord,38.3
+Eramaja,Esineb puudusi,49.8
+Eramaja,Esinevad suured puudused,61.3
+Väike korterelamu,Värskelt remonditud,6.9
+Väike korterelamu,Hea seisukord,7.6
+Väike korterelamu,Esineb puudusi,11
+Väike korterelamu,Esinevad suured puudused,12.3
+Suur korterelamu,Värskelt remonditud,43.9
+Suur korterelamu,Hea seisukord,54.1
+Suur korterelamu,Esineb puudusi,39.2
+Suur korterelamu,Esinevad suured puudused,26.4

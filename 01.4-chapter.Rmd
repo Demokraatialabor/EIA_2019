@@ -1,0 +1,179 @@
+## Kaasaegsed elamistingimused - kelle privileeg? {#chapter14 .chapter_section .chapter1_section}
+
+```{block, type='authors'}
+**Anneli Kährik ja Annika Väiko**
+```
+
+```{block, type='points'}
+* Poolte eestimaalaste arvates vajavad nende elamistingimused uuendamist, kusjuures eluaseme kvaliteedi ja pere majanduslike ressursside vahel on otsene seos.
+
+* Kehvemas seisus on pealinnast eemal asetsev elamufond, kus ehitatakse ka kõige vähem uusi eluruume.
+
+* Sihtgrupipõhised ja regionaalse suunitlusega toetused soodustaksid võrdsemaid võimalusi.
+
+* Avaliku sektori poolt pakutav toetuspakett võimaldaks üürielamufondi arengut, laiendades valikuid eluasemeturul nii noorele perele kui eakale.
+
+```
+
+### Elamistingimused ja piirkondlikud erisused {.chapter1_section}
+
+#### Tüüpiline eestimaalane elab tüüpkorteris, eluasemefond uueneb märgatavalt vaid Tallinna linnaregioonis
+
+```{r, figure141, fig.cap='Eluasemete jaotus eluasemetüübi alusel Tallinna linnas (vasakul) ja ääremaal (maakonnad ilma keskusteta, v.a. Harjumaa) (paremal)', out.width='85%', fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+  
+ fig141_data <- read.csv ("data/14_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
+
+  fig141_plot <- ggplot(data = fig141_data) +
+    geom_bar(mapping = aes(x="", y=value, fill=variable), width=0.7, stat="identity") +
+    coord_polar("y", start=0)+
+    facet_wrap(~area, nrow=1) 
+  
+  
+  print(fig141_plot + fig_theme_general)
+
+```
+
+```{block, type='imgsource'}
+Allikas: Eesti Sotsiaaluuring 2017
+```
+
+```{r, figure142, fig.cap='Eluasemete ehitusaeg (regionaalsed keskused on maakonnakeskused)', out.width='85%', fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+  
+ fig142_data <- read.csv ("data/14_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
+ 
+
+  fig142_plot <- ggplot(data = fig142_data) +
+    geom_line(mapping = aes(x=years, y=value, colour=area, group=area), size=1.2) +
+    scale_x_discrete(breaks=c("1660-1919","1920-1945","1946-1960", "1961-1990", "1991-2000", "2001+")) +
+    labs(y="protsent võrreldes aastaga 2000 (%)", x="")
+  
+  
+  print(fig142_plot + fig_theme_general)
+
+```
+
+
+```{block, type='imgsource'}
+Allikas: Eesti Sotsiaaluuring 2017 (Statistikaamet)
+```
+
+#### Eluasemefondi seisukord on paranemas, kuid viletsamas seisus on maapiirkondade eluruumid
+
+```{r, figure143, fig.cap='Eluasemeprobleemide esinemine ja mugavuste puudumine asustustüüpide lõikes', out.width='85%', fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+  
+ fig143_data <- read.csv ("data/14_fig3_data.csv", header=TRUE, fileEncoding="utf-8")
+ 
+
+  fig143_plot <- ggplot(data = fig143_data) +
+    geom_bar(mapping = aes(x=reorder(area, -value), y=value, fill=variable),position = "dodge", width=0.7, stat="identity") +
+    coord_flip()+
+    labs(y="%", x="")
+  
+  
+  print(fig143_plot + fig_theme_general)
+
+```
+
+```{block, type='imgsource'}
+Allikas: Eesti Sotsiaaluuring 2017 (Statistikaamet)
+```
+
+```{r, figure144, fig.cap='----', out.width='85%', fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+library(gridExtra)
+library(grid)
+  
+ fig144_data1 <- read.csv ("data/14_fig4_data1.csv", header=TRUE, fileEncoding="utf-8")
+fig144_data2 <- read.csv ("data/14_fig4_data2.csv", header=TRUE, fileEncoding="utf-8")
+ 
+
+  fig144_plot1 <- ggplot(data = fig144_data1) +
+    geom_bar(mapping = aes(x=year, y=value, fill=condition), width=0.7, stat="identity") +
+    coord_flip() +
+    labs(y="%", x="")
+  
+  fig144_plot2 <- ggplot(data = fig144_data2) +
+    geom_bar(mapping = aes(x=type_of_residence, y=value, fill=condition), width=0.7, stat="identity") +
+    coord_flip() +
+    labs(y="%", x="")
+
+grid.arrange(fig144_plot1 + fig_theme_general, fig144_plot2 + fig_theme_general, ncol = 2)
+```
+
+```{block, type='imgsource'}
+Allikas: Eesti Sotsiaaluuring 2017 (Statistikaamet)
+```
+
+#### Majanduslik kindlustatus - võti elamistingimuste parandamiseks
+
+Tekst Tekst
+
+```{r, figure145, fig.cap='Eluasemete seisukord sissetuleku gruppide alusel (madala sissetulekuga elanikud – vasakul, kõrge sissetulekuga elanikud – paremal)', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+  
+ fig145_data <- read.csv ("data/14_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
+
+  fig145_plot <- ggplot(data = fig145_data) +
+    geom_bar(mapping = aes(x="", y=value, fill=condition), width=0.7, stat="identity") +
+    coord_polar("y", start=0)+
+    facet_wrap(~income_size, nrow=1)
+  
+print(fig145_plot + fig_theme_general)
+```
+
+```{block, type='imgsource'}
+Allikas: Eesti Sotsiaaluuring 2017 (Statistikaamet)
+```
+
+*Sissetulekugrupid on moodustatud järgmiselt: „madal“ ehk kõige madalama sissetulekuga viiendik elanikkonnast, „kõrge“ ehk kõige jõukam viiendik ning „keskmine“ ehk vahepeale jäävad sissetulekugrupid.*
+
+```{r, figure146, fig.cap='Hinnangud oma eluasemete seisukorrale sissetuleku ja asustustüübi alusel (vasakul: madalaimat tulu saav viiendik), paremal: kõrgeimat tulu saav viiendik).', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("2-FACETED STACKED BAR CHART")
+```
+
+```{block, type='imgsource'}
+Allikas: Eesti Sotsiaaluuring 2017 (Statistikaamet)
+```
+
+### Eluasemevaldkonna korraldus
+
+#### Esialgne suundumus oli täielikult turupõhisele eluasemefondile
+
+```{r, figure147, fig.cap=' Jaotus omandisuhte alusel.', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("2-FACETED CHART: PIE and STACKED BAR")
+```
+
+```{block, type='imgsource'}
+Allikas: Eesti Sotsiaaluuring 2017 (Statistikaamet)
+```
+
+#### Avaliku sektori meetmeid on ajaga lisandunud
+tekst tekst
+
+TABEL 1
+JUHTUMIKAST
+
+#### Rekonstrueerimistoetused aitavad tõsta eluasemefondi kvaliteeti, paraku aga süvendades piirkondlikku ebavõrdsust
+
+```{r, figure148, fig.cap='KredEx meetmete piirkondlik jaotumine. Korterelamute rekonstrueerimistoetus (vasakul), väikeelamute rekonstrueerimistoetus (keskel), ning „Kodutoetus“ (paremal)', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("2-FACETED CHART: PIE and STACKED BAR")
+```
+
+```{block, type='imgsource'}
+Allikas: andmed toetuste väljamaksmiste kohta kogu toetuste väljamaksmise perioodil (KredEx)
+```
+
+### Võtmeküsimused eluasemevaldkonnas - millised on sekkumise võimalused?
+
+### Viidatud allikad {-.subreferences}

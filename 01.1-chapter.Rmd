@@ -1,0 +1,61 @@
+## Pikaajalised maakasutuse (ja avaliku ruumina tajutava maastiku) muutused linnas ja maal {#chapter11 .chapter_section .chapter1_section}
+
+```{block, type='authors'}
+**Tõnu Oja**
+```
+
+```{block, type='points'}
+* Linnalised aglomeratsioonid ja nende kujundatavad valglinnamaastikuga alad suurenevad, eeskätt Tallinna, Tartu ja Pärnu ümbruses.
+
+* Linnastute sees toimub ruumikasutuse difuusne ühtlustumine (seesmise varieeruvuse vähenemine).
+
+* Ääremaade põllumajanduslikud maastikud ühtlustuvad ja inimtühjenevad, metsamaastiku osa kasvab aga okasmetsade osakaal väheneb ning metsade vanuseline struktuur lähiajal nooreneb.
+
+* Linnastumise ja ääremaastumise toimel näeme suures plaanis pigem maastike polariseerumise kasvu.
+```
+
+### Rahvastiku vähenemine ja ränna linnalistele aladele mõjutab maastikke {.chapter1_section}
+
+```{r, figure111, fig.cap=' Elanike arvu muutus ruutkilomeetriti 2000. aasta ja 2011. aasta rahvaloenduste vahel. Sulgudes olev number legendis näitab vastavasse vahemikku kuuluvate ruutkilomeetrite arvu', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("KAART")
+
+```
+
+```{block, type='imgsource'}
+Allikas: 
+```
+
+### Ehitatud alade pindala suureneb peamiselt linnade ümbruses {.chapter1_section}
+
+```{r, figure112, fig.cap='Uute elamualade lisandumine CORINE andmetel perioodidel 2000-2006, 2006-2012 ja 2012-2018. Väikeses kastis Tallinna ümbrus suurendatult.', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("KAART")
+
+```
+
+```{block, type='imgsource'}
+Allikas: 
+```
+
+### Linnade laialivalgumisega ühtlustub linna ja tagamaa ruumikasutus {.chapter1_section}
+
+```{r, figure113, fig.cap='Rahvastikutiheduse muutus kahe rahvaloenduse (2000 ja 2011) vahel naitab ruumikasutuse intensiivsuse uhtlustumist linnas ja tagamaal', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+print("HEATMAP")
+
+```
+
+### Põllumajandusmaastik väheneb ja tühjeneb inimestest {.chapter1_section}
+
+### Metsamaa pindala kasvab, kuid väheneb okasmetsa pindala ja metsad noorenevad {.chapter1_section}
+
+### Suund väärtuslike põllumaade säilitamisele pidurdab maastikumuutusi {.chapter1_section}
+ 
+### Väärtuslike maastike kaitse ja kaitsealad toetavad maastike konservatiivsust {.chapter1_section}
+
+TABEL 1
+
+### Kokkuvõte {.chapter1_section}
+
+### Kasutatud kirjandus {-.subreferences}
