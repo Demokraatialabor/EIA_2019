@@ -1,1 +1,84 @@
 ## Looduskeskkonna kujundamine avalikuks kasutuseks {#chapter33 .chapter_section .chapter3_section}
+
+
+```{block, type='authors'}
+**Age Poom ja Kalev Sepp**
+```
+
+```{block, type='points'}
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+* Auctor urna nunc id cursus metus aliquam. Malesuada fames ac turpis egestas sed tempus urna et pharetra
+
+* Ultrices sagittis orci a scelerisque purus
+```
+
+### Looduskaitsekorraldus ja ruumiline planeerimine loovad eeldused loodusalade säilimiseks ja kasutamiseks {.chapter3_section}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque purus. Auctor urna nunc id cursus metus aliquam. Malesuada fames ac turpis egestas sed tempus urna et pharetra. Non diam phasellus vestibulum lorem. Fermentum iaculis eu non diam phasellus vestibulum. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque. Elit pellentesque habitant morbi tristique senectus. Pulvinar neque laoreet suspendisse interdum consectetur. Sit amet nisl purus in mollis. Dignissim suspendisse in est ante in. Pretium viverra suspendisse potenti nullam ac tortor. Tellus cras adipiscing enim eu turpis egestas pretium. Sit amet volutpat consequat mauris nunc. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Iaculis nunc sed augue lacus viverra vitae congue eu consequat.
+
+```{r, figure331, fig.cap='Tehiskeskkonna laienemine (a) ja loodusalade juurdekasv (b) 2000. aastast tänapäevani CORINE maakatteandmebaasi alusel.', out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+  
+ fig331_data1 <- read.csv ("data/33_fig1_data1.csv", header=TRUE, fileEncoding="utf-8")
+ fig331_data2 <- read.csv ("data/33_fig1_data2.csv", header=TRUE, fileEncoding="utf-8")
+
+ 
+  fig331_plot1 <- ggplot() +
+    geom_bar(data = fig331_data1, mapping = aes(x=group, y=value, fill=time_period), width=0.7, stat="identity", position = "dodge") +
+    labs(y="ha", x="") 
+  
+  fig331_plot2 <- ggplot() +
+    geom_bar(data = fig331_data2, mapping = aes(x=group, y=value, fill=time_period), width=0.7, stat="identity", position = "dodge") +
+    labs(y="ha", x="") 
+  
+ grid.arrange(fig331_plot1 + fig_theme_general, fig331_plot2 + fig_theme_general, ncol = 1)
+
+```
+
+```{block, type='imgsource'}
+Allikas: Sagris, Palo (2018)
+```
+
+### Loodusalade planeerimisel lähtutakse lähimuspõhimõttest {.chapter3_section}
+
+Ruumilise planeerimise mõiste kasvas välja linna- ja regionaalplaneerimisest ning võeti kasutusele 1983. aastal Euroopa regionaalse/ruumilise planeerimise hartaga (Torremolinose hartaga). Harta seadis eesmärgiks hea elukeskkonna ja -kvaliteedi tagamise ning sõnastas esmakordselt ruumilise planeerimise põhimõtted, mis kajastuvad ka Eesti planeerimisseaduses. 2013. aastal kiitis Euroopa Ruumiliste Planeerijate Nõukogu, mille liikmesorganisatsioon on ka Eesti Planeerijate Ühing, Barcelonas heaks Euroopa planeerimise harta. Selles Euroopa ruumilises tulevikuvaates tõstetakse täiendavalt esile vajadus tagada ökoloogiline toimimine tehiskeskkonna planeerimisel ning igaühe ligipääs kultuuri- ja looduspärandile. Samuti rõhutatakse maastike ja linna rohealade rolli elukvaliteedi kujundajana.
+
+### Planeerimine seob rahvusvahelised arengueesmärgid kohalike huvide ja võimalustega {.chapter3_section}
+
+### Eesti ruumiloome ei ole piisavalt terviklik {.chapter3_section}
+
+### Loodusaladel on erinevad juurdepääsuvõimalused ja kasutuskitsendused {.chapter3_section}
+
+### Rohevõrgustik seob loodusalad tervikuks {.chapter3_section}
+
+Ruumiliselt kõige ulatuslikum kaitse loodusalade maakasutusmuutuste eest on seotud rohevõrgustikuga, mis hõlmab 55% Eesti maismaast. Rohevõrgustiku eesmärk on sidusalt ühendada eri tüüpi looduslikke või looduslähedasi maa- ja veealasid, et tagada nende ökoloogiline toimimine ja maastike säilimine. Ökoloogiliselt toimiv rohevõrgustik pakub elanikkonna jaoks nii elutähtsaid kui ka rekreatiivseid funktsioone (ptk. 3.2). Sisemiselt koosneb rohevõrgustik erineva tähtsusega (riiklik, maakondlik, kohalik) tugialadest ja neid ühendavatest rohekoridoridest. Eesti kaitsealusest maast kuulub rohevõrgustikku
+
+```{r, figure336, fig.cap='Rohevõrgustiku (RV) ja kaitstavate loodusobjektide (kaitsealad, kaitstavate liikide leiukohad, püsielupaigad, Natura 2000 alad) osakaal maakonna kogupindalast', out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+  
+fig336_data <- read.csv ("data/33_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
+
+ 
+  fig336_plot <- ggplot() +
+    geom_bar(data = fig336_data, mapping = aes(x=county, y=value, fill=objects), width=0.7, stat="identity") +
+    labs(y="%", x="") 
+  
+print(fig336_plot + fig_theme_general)
+
+```
+
+```{block, type='imgsource'}
+Allikas: Kutsar jt (2018)
+```
+
+### Rohevõrgustiku toimimine pole tervikuna tagatud {.chapter3_section}
+
+
+Rohevõrgustikku kuuluvate, kuid kaitsealadest väljajäävate loodusalade säilimist ja juurdepääsu saab eeskätt tagada ruumilise planeerimisega. Maakonna- ja üldplaneeringutes rohevõrgustikku kuuluvate alade maakasutuse peamist otstarvet ei tohi muuta, näiteks asendada loodusala tehisalaga ja jätta see
+
+### Tulevikuvaade {.chapter3_section}
+
+### Viidatud allikad {-.subreferences}

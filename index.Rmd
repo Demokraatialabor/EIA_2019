@@ -14,15 +14,4 @@ css: eia.css
 lang: et
 ---
 
-# Sissejuhatus {-#chapter00 .chapter_section .intro_section}
-
-```{r, echo=FALSE, message=FALSE}
-
-library("tidyverse")
-library("svglite")
-library("extrafont")
-library("plyr")
-library("scales")
-
-
-```
+# Eesti Inimarengu aruanne 2019 {-#chapter00 .intro_section .chapter0_section}

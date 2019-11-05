@@ -52,7 +52,7 @@ BODY{}
   display:none;
 }
 
-p { text-align:justify;}
+p { text-align:left;}
 h1{ font-size: 4em !important; text-transform: uppercase; line-height: 1em; }
 h2{ max-width: 100%; }
 h3{ max-width: 100%; }
@@ -104,10 +104,10 @@ nav > ul > li{
 	white-space: normal;
 }
 .book .book-summary ul.summary > li.chapter:nth-child(1) > a{ color: #C54409; border-bottom: 2px solid #C54409; }
-.book .book-summary ul.summary > li.chapter:nth-child(2) > a{ color: #BC9417; border-bottom: 2px solid #BC9417; }
-.book .book-summary ul.summary > li.chapter:nth-child(3) > a{ color: #482683; border-bottom: 2px solid #482683; }
+.book .book-summary ul.summary > li.chapter:nth-child(2) > a{ color: #482683; border-bottom: 2px solid #482683; }
+.book .book-summary ul.summary > li.chapter:nth-child(3) > a{ color: #369B9E; border-bottom: 2px solid #369B9E; }
 .book .book-summary ul.summary > li.chapter:nth-child(4) > a{ color: #79AC2C; border-bottom: 2px solid #79AC2C; }
-.book .book-summary ul.summary > li.chapter:nth-child(5) > a{ color: #369B9E; border-bottom: 2px solid #369B9E; }
+.book .book-summary ul.summary > li.chapter:nth-child(5) > a{ color: #BC9417; border-bottom: 2px solid #BC9417; }
 .book .book-summary ul.summary > li.chapter:nth-child(6) > a{ color: #A01B17; border-bottom: 2px solid #A01B17; }
 
 .book .book-summary ul.summary > li.chapter:nth-child(1) > ul > li.active > a,
@@ -115,16 +115,16 @@ nav > ul > li{
 .book .book-summary ul.summary > li.chapter:nth-child(1) a:hover{ color: #C54409; }
 .book .book-summary ul.summary > li.chapter:nth-child(2) > ul > li.active > a,
 .book .book-summary ul.summary > li.chapter:nth-child(2) > ul ul li.active > a,
-.book .book-summary ul.summary > li.chapter:nth-child(2) a:hover{ color: #BC9417; }
+.book .book-summary ul.summary > li.chapter:nth-child(2) a:hover{ color: #482683; }
 .book .book-summary ul.summary > li.chapter:nth-child(3) > ul > li.active > a,
 .book .book-summary ul.summary > li.chapter:nth-child(3) > ul ul li.active > a,
-.book .book-summary ul.summary > li.chapter:nth-child(3) a:hover{ color: #482683; }
+.book .book-summary ul.summary > li.chapter:nth-child(3) a:hover{ color: #369B9E; }
 .book .book-summary ul.summary > li.chapter:nth-child(4) > ul > li.active > a,
 .book .book-summary ul.summary > li.chapter:nth-child(4) > ul ul li.active > a,
 .book .book-summary ul.summary > li.chapter:nth-child(4) a:hover{ color: #79AC2C; }
 .book .book-summary ul.summary > li.chapter:nth-child(5) > ul > li.active > a,
 .book .book-summary ul.summary > li.chapter:nth-child(5) > ul ul li.active > a,
-.book .book-summary ul.summary > li.chapter:nth-child(5) a:hover{ color: #369B9E; }
+.book .book-summary ul.summary > li.chapter:nth-child(5) a:hover{ color: #BC9417; }
 .book .book-summary ul.summary > li.chapter:nth-child(6) > ul > li.active > a,
 .book .book-summary ul.summary > li.chapter:nth-child(6) > ul ul li.active > a,
 .book .book-summary ul.summary > li.chapter:nth-child(6) a:hover{ color: #A01B17; }
@@ -132,10 +132,10 @@ nav > ul > li{
 
 
 .book .book-summary ul.summary > li.chapter:nth-child(1) a b{ color: #C54409; }
-.book .book-summary ul.summary > li.chapter:nth-child(2) a b{ color: #BC9417; }
-.book .book-summary ul.summary > li.chapter:nth-child(3) a b{ color: #482683; }
+.book .book-summary ul.summary > li.chapter:nth-child(2) a b{ color: #482683; }
+.book .book-summary ul.summary > li.chapter:nth-child(3) a b{ color: #369B9E; }
 .book .book-summary ul.summary > li.chapter:nth-child(4) a b{ color: #79AC2C; }
-.book .book-summary ul.summary > li.chapter:nth-child(5) a b{ color: #369B9E; }
+.book .book-summary ul.summary > li.chapter:nth-child(5) a b{ color: #BC9417; }
 .book .book-summary ul.summary > li.chapter:nth-child(6) a b{ color: #A01B17; }
 
 
@@ -162,6 +162,12 @@ h3 .header-section-number{
 	color: inherit;
 	font-size: 1em;
 	line-height: 1em;
+}
+
+/* title page */
+
+.title {
+  display:none !important;
 }
 
 /* Block before intro sections */
@@ -300,65 +306,65 @@ h3 .header-section-number{
      color:  #C54409 !important;
 }
 
-/* Chapter 1 - #BC9417 */
+/* Chapter 1 - #482683 */
 
 #chapter10.intro_section::before{
-        background-color: #BC9417;
-	      background-image: url(images/chapter1.png);
+        background-color: #482683;
+	      background-image: url(images/);
 }
 
-#chapter10 h1{ border-bottom: 3px solid #BC9417; }
+#chapter10 h1{ border-bottom: 3px solid #482683; }
 
 .chapter1_section .authors {
-  border-bottom: 3px solid #BC9417;
+  border-bottom: 3px solid #482683;
   }
   
 .chapter1_section h2,
 .chapter1_section h3
 {
-	color: #BC9417 !important;
+	color: #482683 !important;
 }
 
 .chapter1_section a {
-	color: #BC9417 !important;
+	color: #482683 !important;
 }
 
 .chapter1_section .blockquote {
-  color:#BC9417;
+  color:#482683;
 }
 
 .chapter1_section + h3 + #refs  a{
-     color:  #BC9417 !important;
+     color:  #482683 !important;
 }
-/* Chapter 2 - #482683 */
+/* Chapter 2 - #369B9E */
 
 #chapter20.intro_section::before{
-        background-color: #482683;
+        background-color: #369B9E;
 	      background-image: url(../images/);
 }
 
-#chapter20 h1{ border-bottom: 3px solid #482683; }
+#chapter20 h1{ border-bottom: 3px solid #369B9E; }
 
 .chapter2_section .authors {
-  border-bottom: 3px solid #482683;
+  border-bottom: 3px solid #369B9E;
   }
 
 .chapter2_section h2,
 .chapter2_section h3
 {
-	color: #482683 !important;
+	color: #369B9E !important;
 }
 
 .chapter2_section a {
-	color: #482683 !important;
+	color: #369B9E !important;
 }
 
 .chapter2_section .blockquote {
-  color:#482683;
+  color:#369B9E;
 }
 
 .chapter2_section .casebox {
-    color:  #482683;
+    color:  #369B9E;
     background: 20px center/12em no-repeat;
     background-image: url("images/tulemaale.png");
 }
@@ -370,7 +376,7 @@ h3 .header-section-number{
     padding-left: 13em;}
     
 .chapter2_section + h3 + #refs  a{
-     color:  #482683 !important;
+     color:  #369B9E !important;
 }
 
 /* Chapter 3 - #79AC2C */
@@ -403,35 +409,35 @@ h3 .header-section-number{
 .chapter3_section + h3 + #refs  a{
      color:  #79AC2C !important;
 }
-/* Chapter 4 - #369B9E */
+/* Chapter 4 - #BC9417 */
 
 #chapter40.intro_section::before{
-        background-color: #369B9E;
-	      background-image: url(../images/);
+        background-color: #BC9417;
+	      background-image: url(../images/chapter4.png);
 }
 
-#chapter40 h1{ border-bottom: 3px solid #369B9E; }
+#chapter40 h1{ border-bottom: 3px solid #BC9417; }
 
 .chapter4_section .authors {
-  border-bottom: 3px solid #369B9E;
+  border-bottom: 3px solid #BC9417;
   }
   
 .chapter4_section h2,
 .chapter4_section h3
 {
-	color: #369B9E !important;
+	color: #BC9417 !important;
 }
 
 .chapter4_section a {
-	color: #369B9E !important;
+	color: #BC9417 !important;
 }
 
 .chapter4_section .blockquote {
-  color:#369B9E;
+  color:#BC9417;
 }
 
 .chapter4_section + h3 + #refs  a{
-     color:  #369B9E !important;
+     color:  #BC9417 !important;
 }
 
 /* Chapter 5 - #A01B17 */

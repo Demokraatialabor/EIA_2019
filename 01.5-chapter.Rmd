@@ -17,9 +17,20 @@
 
 ### Kiire autostumine 1990ndate Eestis ja järgnev stabiliseerumine?
 
-```{r, figure151, fig.cap='Autostumise tasemete muutus valitud Lääne-Euroopa (e. siin EL15) ja Ida- Euroopa riikides', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure151, fig.cap='Autostumise tasemete muutus valitud Lääne-Euroopa (e. siin EL15) ja Ida- Euroopa riikides', out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
 
-print("LINE CHART")
+library("tidyverse")
+  
+ fig151_data <- read.csv ("data/15_fig1_data2.csv", header=TRUE, fileEncoding="utf-8")
+ 
+
+  fig151_plot <- ggplot(data = fig151_data) +
+    geom_line(mapping = aes(x=year, y=value, colour=area, group=area), size=1.2) +
+    scale_x_continuous(breaks=c(1990,1992,1994,1996,1998,2000,2002,2004,2006,2008,2010,2012,2014,2016)) +
+    labs(y="Autot 1000-e elaniku kohta", x="")
+  
+  
+  print(fig151_plot + fig_theme_general)
 ```
 
 ```{block, type='imgsource'}
@@ -52,7 +63,24 @@ Allikas: Statistikaamet
 
 ```{r, figure154, fig.cap='Autode arv leibkonnas Tallinnas (2016. a. andmed) ja Harjumaal (2017. a. andmed) ning elanike arvu kasv Tallinna lähiregioonis viimasel 20 aastal.', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
-print("2-FACETED GRAPH: BAR and RADAR CHART")
+library("tidyverse")
+library(gridExtra)
+library(grid)
+  
+  fig154_data1 <- read.csv ("data/15_fig4_data1.csv", header=TRUE, fileEncoding="utf-8")
+  fig154_data2 <- read.csv ("data/15_fig4_data2.csv", header=TRUE, fileEncoding="utf-8")
+ 
+  
+  fig154_plot1 <- ggplot(data = fig154_data1) +
+    geom_bar(mapping = aes(x=area, y=value, fill=area), width=0.7, stat="identity", position = "dodge") +
+      facet_wrap(~number_of_cars, nrow=1) +
+    labs(y="")
+  
+    fig154_plot2 <- ggplot(data = fig154_data2) +
+    geom_bar(mapping = aes(x=growth_of_population, y=value, fill=growth_of_population), width=0.7, stat="identity") +
+    labs(y="", x="")
+
+grid.arrange(fig154_plot1 + fig_theme_general, fig154_plot2 + fig_theme_general, ncol = 2)
 ```
 
 ```{block, type='imgsource'}
@@ -62,7 +90,20 @@ Allikas: Kantar Emor 2017. a. Tallinna lähipiirkonna liikumisviiside uuring ja
 
 ```{r, figure155, fig.cap='Tallinna ja muu Harjumaa elanike tööle käimise viiside osakaalude muutus, 2000–2017', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
-print("LINE GRAPH")
+library("tidyverse")
+  
+ fig155_data <- read.csv ("data/15_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
+ 
+ fig155_data$value=as.numeric(levels(fig155_data$value))[fig155_data$value]
+
+  fig155_plot <- ggplot(subset(fig155_data, variable %in% c("Jalgsi", "Sõiduautoga", "Ühissõidukiga"))) +
+    geom_line(mapping = aes(x=year, y=value, colour=variable, group=variable), size=1.2) +
+    scale_x_continuous(breaks=c(2000,2002,2004,2006,2008,2010,2012,2014,2016)) +
+    facet_wrap(~area, nrow=1) +
+    labs(y="", x="")
+  
+  
+  print(fig155_plot + fig_theme_general)
 ```
 
 ```{block, type='imgsource'}
@@ -71,7 +112,22 @@ Allikas: Statistikaamet
 
 ```{r, figure156, fig.cap='Tallinna ja muu Harjumaa elanike tööle käimise viiside osakaalude muutus, 2000–2017', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
-print("STACKED BAR CHART with LINE CHART")
+library("tidyverse")
+  
+ fig156_data1 <- read.csv ("data/15_fig6_data1.csv", header=TRUE, fileEncoding="utf-8")
+ fig156_data2 <- read.csv ("data/15_fig6_data2.csv", header=TRUE, fileEncoding="utf-8")
+
+  fig156_plot <- ggplot() +
+    geom_bar(data = fig156_data1, mapping = aes(x=year, y=value, fill=variable), width=0.7, stat="identity") +
+    
+    geom_line(data = fig156_data2, mapping = aes(x=year, y=value, colour=variable), size=1.2) +
+    
+    scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017)) +
+    
+    labs(y="", x="")
+  
+  #lahutada data kaheks ja plottida joone ja bar eraldi!
+  print(fig156_plot + fig_theme_general)
 ```
 
 ```{block, type='imgsource'}

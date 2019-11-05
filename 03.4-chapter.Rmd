@@ -1,1 +1,71 @@
 ## Kaasarääkimise võimalused avaliku ruumi kujundamises {#chapter34 .chapter_section .chapter3_section}
+
+```{block, type='authors'}
+**Siim Vahtrus, Liina Remm, Kärt Vaarmari**
+```
+
+```{block, type='points'}
+* Õigusnormid avaliku ruumi kujundamises kaasa rääkimiseks on Eestis head.
+
+* Hoolimata õigusest osaleda on Eesti elanikud keskkonnaotsustes kaasa rääkimisel passiivsed ja pessimistlikud.
+
+* Keskkonnaandmestik on põhjalik, kuid ei jõua enamikuni oma keeruka esitusviisi tõttu.
+```
+
+### Loodusalade üle otsustamisel on oluline, kuidas inimesi kaasatakse ja informeeritakse {.chapter3_section}
+
+Eestis on suur osa looduskeskkonnast vähemalt mingil määral avalikult kasutatav või igaühele ligipääsetav. Keskkonda muutvad otsused mõjutavad seega loodusalade avalikku kasutust. Näiteks võib uue kruusakarjääri rajamine riigimetsas või turba kaevandamine soos jätta ümbruskonna inimesed ilma harjumuspärasest marjul käimise kohast. Looduslike paikade, sh looduslike pühapaikade või külakogukondade metsaskäimise kohtade kasutust võib piirata ka uue tee või raudtee rajamine. Jõe äärde rajatav uus tehas, hüdroelektrijaam vmt võib vähendada kalastamise ja suplemise võimalusi või jätta inimesed ilma looduslikest vaatamisväärsustest. Isegi kui tegevust plaanitakse üksnes eramaale või avalikust kasutusest väljas olevas kohas – näiteks uue põlevkivikaevanduse rajamine – ulatuvad selle mõjud sageli kaugemale, näiteks müra, õhusaaste, veereostuse ja liikluskoormuse suurenemise näol.
+Hinnang sellele, mil määral saavad Eesti inimesed niisuguste otsuste tegemises kaasa rääkida, hõlmab kahte valdkonda ja nende kujunemislugu. Esiteks tuleb hinnata keskkonnaotsustes osalemise korraldust (võimalusi), teiseks aga seda, kuivõrd on inimesed harjunud avalikult arvamust avaldama (ühiskondlikku aktiivsust). Need omakorda olenevad sellest, millist infot inimesed oma keskkonna kohta saavad ja kuidas seda kasutavad.
+
+### 1980-ndate sündmused muutsid Nõukogude Eestis kujunenud arusaamu ning laiendasid keskkonnainfo kättesaadavust {.chapter3_section}
+
+### Eesti praegune osalemis- ja keskkonnainfo avalikustamise normistik on hea {.chapter3_section}
+
+### Avaliku ruumi kujundamisel on avalikkusel üldjuhul õigus kaasa rääkida {.chapter3_section}
+
+### Üksikisik ei saa tõhusalt kaasa rääkida metsaraie ja kaevandusalade planeerimises ega riigi poliitikates {.chapter3_section}
+
+### Hoolimata õigusest osaleda on Eesti elanikud passiivsed ja pessimistlikud {.chapter3_section}
+
+### Kaasajatel on vaja uusi oskusi sihtrühmadega suhtestumiseks {.chapter3_section}
+
+### Sisuka kaasarääkimise eelduseks on keskkonnainfo olemasolu ja kättesaadavus {.chapter3_section}
+
+
+### Laiahaardeline keskkonnainfo huvitab elanikke, kuid pole enamikule käepärane {.chapter3_section}
+
+### Loodust jälgiv elanikkond saab edendada kodanikuühiskonda {.chapter3_section}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque purus. Auctor urna nunc id cursus metus aliquam. Malesuada fames ac turpis egestas sed tempus urna et pharetra. Non diam phasellus vestibulum lorem. Fermentum iaculis eu non diam phasellus vestibulum. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque. Elit pellentesque habitant morbi tristique senectus. Pulvinar neque laoreet suspendisse interdum consectetur. Sit amet nisl purus in mollis. Dignissim suspendisse in est ante in. Pretium viverra suspendisse potenti nullam ac tortor. Tellus cras adipiscing enim eu turpis egestas pretium. Sit amet volutpat consequat mauris nunc. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Iaculis nunc sed augue lacus viverra vitae congue eu consequat.
+
+```{r, figure345, fig.cap='Loodusvaatluste andmebaasi kasutamine viimase 10 aasta jooksul.', out.width='85%', fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+  
+ fig345_data <- read.csv ("data/34_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
+ 
+fig345_data1 <- subset(fig345_data, select=c(year,observers_total))
+fig345_data2 <- subset(fig345_data, select=c(year,observations_total))
+ 
+fig345_data1_melt <- melt (fig345_data1, id=c("year"))
+fig345_data2_melt <- melt (fig345_data2, id=c("year"))
+ 
+
+  fig345_plot1 <- ggplot() +
+    geom_line(data = fig345_data1_melt, mapping = aes(x=year, y=value, colour=variable, group=variable), size=1.2) +
+    labs(y="", x="")
+  
+    fig345_plot2 <- ggplot() +
+    geom_line(data = fig345_data2_melt, mapping = aes(x=year, y=value, colour=variable, group=variable), size=1.2) +
+    labs(y="", x="")
+  
+  
+  
+ grid.arrange(fig345_plot1 + fig_theme_general, fig345_plot2 + fig_theme_general, ncol = 1)
+
+```
+
+
+*Andmebaas on riigi hallatav ja huvilistele avatud liigivaatluste kogu*
+*Väljaspool riiklikku seiret e-elurikkuse platvormi kaudu PlutoF andmebaasi sisestatud linnuvaatluste ja linnuvaatlejate arv. Allikas: PlutoF andmebaas, koostanud Veljo Runnel.*
+### Kirjandus

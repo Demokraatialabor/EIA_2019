@@ -12,7 +12,25 @@ Poliitilist ja kodanikuosalust peetakse elujõulise demokraatia ning hästitoi
 
 ### Muutused laste internetikasutuses {.chapter4_section}
 
-```{r, figure421, fig.cap='Internetis veedetud aeg koolivabadel päevadel 2018', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure421, fig.cap='Internetis veedetud aeg koolivabadel päevadel 2018', out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+library("scales")
+
+  
+ fig421_data <- read.csv ("data/42_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
+ 
+ fig421_data$group <- factor(fig421_data$group, levels = c("Vene","Eesti","15-17 a","13-14 a","11-12 a","9-10 a","Tüdrukud","Poisid","Kõik lapsed"))
+  fig421_data$answer <- factor(fig421_data$answer, levels = c("Ei taha öelda","Ei oska öelda","Umbes 6 tundi või rohkem","Umbes 4-5 tundi","Umbes 2-3 tundi","Umbes 1 tund või vähem"))
+ 
+  fig421_plot <- ggplot(data = fig421_data) +
+    geom_bar(mapping = aes(x=group, y=value, fill=answer), width=0.6, stat="identity") +
+    coord_flip() +
+     scale_fill_manual(values=c("#F2EAD1","#E4D4A2","#C9A945","#BC9417","#8D6F11","#5E4A0C","#2F2506")) +
+    labs(y="%", x="") +
+      scale_x_discrete(labels = wrap_format(30))
+  
+print(fig421_plot + fig_theme_general)
 
 ```
 
@@ -40,8 +58,32 @@ Alus: kõik lapsed (N=1020)
 
 ### Laste digitaalne kirjaoskus {.chapter1_section}
 
-```{r, figure423, fig.cap='Digioskused Eesti 13-17-aastaste noorte seas 2018 (%)', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure423, fig.cap='Digioskused Eesti 13-17-aastaste noorte seas 2018 (%)', out.width='100%', fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
 
+library("tidyverse")
+library("scales")
+
+  
+ fig423_data <- read.csv ("data/42_fig3_data.csv", header=TRUE, fileEncoding="utf-8")
+ 
+ fig423_data$question <- factor(fig423_data$question, levels = c("Mõnikord leian end veebilehtedelt teadmata, kuidas ma sinna sattusin","Ma oskan kasutada programmeerimiskeeli (nt Python, C++)","Ma oskan luua kodulehte","Ma oskan luua internetist leitud videotest või muusikast midagi uut","Minu jaoks on lihtne teha kindlaks, kas veebilehte saab usaldada","Ma tean, millised erinevad kasutuspiirangud ja autoriõigused kehtivad internetis leiduvatele materjalidele ","Ma tean, millises olukorras ma peaksin jagama infot internetis ja millises mitte","Ma oskan internetis käituda olukorrale vastavalt","Ma oskan kasutada klahvikombinatsioone (nt CTRL+C kopeerimiseks)","Ma oskan avada allalaaditud faile","Ma tean, kuidas seada piiranguid, kes internetis minu infot näevad (nt sõbrad, sõprade sõbrad või kõik kasutajad)","Minu jaoks on lihtne leida veebilehte, mida olen hiljuti külastanud","Ma oskan avada uut vahelehte internetibrauseris"))
+ 
+  fig423_data$answer <- factor(fig423_data$answer, levels = c("Ei oska öelda","Vastab täielikult tõele","Pigem vastab tõele","Ei üks ega teine","Pigem ei vasta tõele","Ei vasta üldse tõele"))
+ 
+  fig423_plot <- ggplot(data = fig423_data) +
+    geom_bar(mapping = aes(x=question, y=value, fill=answer), width=0.5, stat="identity") +
+    #geom_text(mapping = aes(x=question, y=value, label=value), stat="identity") +
+     scale_fill_manual(values=c("#F2EAD1","#E4D4A2","#C9A945","#BC9417","#8D6F11","#5E4A0C","#2F2506")) +
+    coord_flip() +
+    labs(y="%", x="") +
+    scale_x_discrete(labels = wrap_format(28))
+  
+    fig423_theme <- theme(
+      text = element_text(color = "#292b2c", size = 10),
+      axis.text.y = element_text(size=8)
+  )
+  
+print(fig423_plot + fig_theme_general + fig423_theme)
 
 ```
 

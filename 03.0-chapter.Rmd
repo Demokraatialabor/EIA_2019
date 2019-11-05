@@ -1,9 +1,89 @@
 # Loodusruum kui avalik hüve {#chapter30 .chapter3_section .intro_section}
 
-## Sissejuhatus {-.chapter_section}
+## Sissejuhatus {-.chapter_section .chapter3_section}
+
+```{block, type='authors'}
+**Kadri Leetmaa**
+```
+
+```{block, type='points'}
+* Looduskeskkonna avalik kasutamine edendab demokraatiat keskkonnaõigluse ja jagatud looduskogemuse kaudu.
+
+* Loodusalad on Eestis suured ja igaüheõigus võimaldab enamasti nende avalikku kasutamist, kuid olukord on halvenemas.
+
+* Tulevikuülesanne on planeerida loodusalasid inimeste elukeskkonna tervikust lähtuvalt.
+```
+
+### Lähtekohad {-.chapter3_section}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque purus. Auctor urna nunc id cursus metus aliquam. Malesuada fames ac turpis egestas sed tempus urna et pharetra. Non diam phasellus vestibulum lorem. Fermentum iaculis eu non diam phasellus vestibulum. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque. Elit pellentesque habitant morbi tristique senectus. Pulvinar neque laoreet suspendisse interdum consectetur. Sit amet nisl purus in mollis. Dignissim suspendisse in est ante in. Pretium viverra suspendisse potenti nullam ac tortor. Tellus cras adipiscing enim eu turpis egestas pretium. Sit amet volutpat consequat mauris nunc. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Iaculis nunc sed augue lacus viverra vitae congue eu consequat.
 
+### Looduskeskkonna seisund ja avalik kasutamine {-.chapter3_section}
+
 Facilisis mauris sit amet massa. Nisi porta lorem mollis aliquam ut porttitor leo. Aliquet nibh praesent tristique magna sit amet. Orci nulla pellentesque dignissim enim sit amet. Egestas sed sed risus pretium quam. Elementum integer enim neque volutpat ac tincidunt vitae semper quis. Sit amet mattis vulputate enim. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit. Enim facilisis gravida neque convallis a cras semper. Scelerisque eu ultrices vitae auctor eu augue.
 
+```{r, figure301, fig.cap='Inimarengu indeksi ja ökosüsteemide elujõulisuse indeksi seos 179 riigi põhjal ning Eesti positsiooni (punased punktid, aastad) muutus 2005–2014.', out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+  
+ fig301_data <- read.csv ("data/30_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
+ 
+ fig301_data_est <- subset (fig301_data, country_name == "Estonia", select=c(iso3,country_name,hdi_2014, hdi_2017, country,epi_current, eco_current))
+
+  fig301_plot <- ggplot() +
+    geom_point(data = fig301_data, mapping = aes(x=hdi_2014, y=eco_current), colour="blue", show.legend = NA) +
+    
+    geom_smooth(data = fig301_data, mapping = aes(x=hdi_2014, y=eco_current),method=lm, se=FALSE, colour="black") +
+    
+    geom_point(data = fig301_data_est, mapping = aes(x=hdi_2014, y=eco_current), colour="red", show.legend = NA) +
+    geom_text(data = fig301_data_est, mapping = aes(x=hdi_2014, y=eco_current, label="2014"),hjust=1, vjust=0, colour="red")+
+    
+    geom_point(data = fig301_data_est, mapping = aes(x=0.8, y=65), colour="red", show.legend = NA) +
+      geom_text(data = fig301_data_est, mapping = aes(x=0.8, y=65, label="???"),hjust=0, vjust=0, colour="red") +
+    
+    scale_x_continuous(breaks=c(0.2,0.3,0.4, 0.5, 0.6,0.7,0.8,0.9,1)) +
+    labs(y="Ökosüsteemide elujõulisus (ECO)", x="Inimarengu indeks (HDI)") 
+  
+  print(fig301_plot + fig_theme_general)
+
+```
+
+```{block, type='imgsource'}
+Allikas:
+```
+
+*Seos põhineb HDI osas ÜRO arenguprogrammi (http://hdr.undp.org/en/data) ja ECO osas Wendland jt (2018) andmetel. ECO puhul on kompleksindeksi osakaaludest arvutatud keskmine lähteaasta (2005; algandmed 2001–2007) ja lõpuaasta (2014; algandmed 2010–2017), viimasega ongi seostatud HDI (2014). Rõhtjoon tähistab ECO taset Eesti 2014. aasta inimarengu aruandes (Terasmaa ja Pajula 2015), mida ei ole tagasiulatuvalt korrigeeritud ja mille seisundiaasta oli täpsustamata.*
+
 Neque ornare aenean euismod elementum nisi. Id faucibus nisl tincidunt eget nullam non nisi. Convallis convallis tellus id interdum velit laoreet id donec ultrices. Ac feugiat sed lectus vestibulum mattis ullamcorper. Ultrices eros in cursus turpis massa. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. In nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Pellentesque adipiscing commodo elit at imperdiet. Egestas congue quisque egestas diam in arcu. Eget nunc scelerisque viverra mauris in aliquam sem fringilla ut. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Amet porttitor eget dolor morbi non.
+
+```{r, figure302, fig.cap='Metsamaa, sh, riigimetsa (eristatud puistud ja metsata metsamaa) osakaal maakondade üldpindalast 2017. aastal (andmed: Raudsaar jt, 2018)', out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+library("reshape")
+  
+ fig302_data <- read.csv ("data/30_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
+
+  fig302_data_clean <- subset(fig302_data, select=c(county,country_stands,country_without_forest,other_forest_land.1))
+  
+ fig302_data_melt <- melt (fig302_data_clean, id=c("county"))
+ 
+  fig302_plot <- ggplot() +
+    geom_bar(data = fig302_data_melt, mapping = aes(x=county, y=value*100, fill=variable), width=0.7, stat="identity") +
+    
+    labs(y="% pindalast", x="") 
+  
+  print(fig302_plot + fig_theme_general)
+
+```
+
+```{block, type='imgsource'}
+Allikas: Raudsaar jt, 2018
+```
+
+### Koduümbruse loodus ja asulate rohealad {-.chapter3_section}
+
+Loodusalade avaliku kasutamise seos demokraatiaga on kõige ilmsem inimese kodukohas, kus kogukonnad saavad kohtuda isegi napil töövälisel ajal ning loodusesse pääsevad hõlpsamini liikumisraskuste või muude erivajadustega inimesed. Õigus kodukoha loodusele oma elukeskkonna (sh töökeskkonna) osana on ka põhiõigusele kõige lähemal ning olulised keskkonnaõigluse küsimused on inimeste võrdne kohtlemine asustusruumi planeerimisel ja võimalus planeerimisel osaleda (Jennings jt 2012). Need küsimused on võimendunud asulates, kus rohealade hüvesid kasutab palju inimesi, kuid tugev on ka alternatiivne maakasutushuvi, mis enamasti kahjustaks roheala pöördumatult või piiraks selle kasutust.
+
+### Kultuuriline tulevikuvaade {-.chapter3_section}
+
+### Kasutatud allikad {-.chapter3_section .subreferences}

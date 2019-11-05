@@ -3,3 +3,43 @@
 ```{block, type='authors'}
 **Ragne Kõuts-Klemm**
 ```
+
+```{block, type='points'}
+* Põhisõnum
+* Põhisõnum
+* Põhisõnum
+```
+
+Poliitilist ja kodanikuosalust peetakse elujõulise demokraatia ning hästitoimiva avaliku ruumi alustalaks. Ajal, mil pea kõikides demokraatlikes riikides võib täheldada süvenevat võõrandumist institutsionaalsest poliitikast, seda eriti nooremate põlvkondade puhul, pannakse suuri lootusi digiosaluse – interneti ja sotsiaalmeedia vahendusel kodanikuühiskonnas ja poliitikas osalemise – kasvule ja virtuaalsete arvamusruumide arengule. Peatükis vaatleme, kuivõrd aktiivselt kasutavad Eesti lapsed ja noored digiosaluse võimalusi ning mis on virtuaalse arvamusruumi edasise arengu eeldused ja takistused. Aastatel 2010-2018 kogutud küsitlusandmed võimaldavad meil analüüsida Eesti noore põlvkonna internetikasutuse ja digiosaluse arengutrende ning paigutada need rahvusvahelisse võrdluskonteksti. Lisaks pakuvad kvalitatiivsed uuringud võimalust mõista digiosalusega seotud probleeme noorte vaatevinklist ning heita pilku tulevikku.s.
+
+### Sissejuhatus {.chapter4_section}
+
+### Ajakirjanduse kontroll arvamusruumi üle traditsioonilistes meediakanalites {.chapter4_section}
+
+```{r, figure433, fig.cap='Arvamuslugude autorid eestikeelsetes ülerigiilistes päevalehtedes (%) (N=485, 2018.a. 12 juhuslikult valitud nädalat, argipäevadel ilmunud artiklid)', out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+  
+ fig433_data <- read.csv ("data/43_fig3_data1.csv", header=TRUE, fileEncoding="utf-8")
+ 
+fig433_data$group <- factor(fig433_data$group, levels = c("Postimees","Eesti Päevaleht","Kokku"))
+fig433_data$variable <- factor(fig433_data$variable, levels = c("ettevõtja", "ametnik","kultuuritegelane","kodanik","poliitik","ajakirjanik","teadlane, ekspert"))
+
+  fig433_plot <- ggplot() +
+    geom_bar(data = fig433_data, mapping = aes(x=group, y=value, fill=variable), width=0.4, stat="identity") +
+    scale_fill_manual(values=c("#F2EAD1","#E4D4A2","#C9A945","#BC9417","#8D6F11","#5E4A0C","#2F2506")) +
+    
+    labs(y="%", x="")
+  
+  fig433_theme <- theme(
+    legend.position="right"
+  )
+
+  print(fig433_plot + fig_theme_general + fig433_theme)
+```
+
+### Veebiajakirjanduse kaasav arhitektuur ja toimimine {.chapter4_section}
+
+### Sotsiaalmeedia vastuolulised võimalused {.chapter4_section}
+
+### Kokkuvõtteks {.chapter4_section}

@@ -22,16 +22,31 @@
 ```{r, figure141, fig.cap='Eluasemete jaotus eluasemetüübi alusel Tallinna linnas (vasakul) ja ääremaal (maakonnad ilma keskusteta, v.a. Harjumaa) (paremal)', out.width='85%', fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
+library("scales")
   
  fig141_data <- read.csv ("data/14_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
+ 
+fig141_data$percent=percent((fig141_data$value/100), 1)
 
-  fig141_plot <- ggplot(data = fig141_data) +
-    geom_bar(mapping = aes(x="", y=value, fill=variable), width=0.7, stat="identity") +
-    coord_polar("y", start=0)+
-    facet_wrap(~area, nrow=1) 
+  fig141_plot <- ggplot(data = fig141_data, aes(x = "", y = value, fill = variable)) + 
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values=c("#79AC2C","#482683","#917DB5")) +
+  geom_text(aes(label = percent), position = position_stack(vjust = 0.5), color="white") +
+  coord_polar(theta = "y") +
+  labs(x="", y="")+
+  facet_grid(~area)
+  
+  fig141_theme <- theme(
+                    panel.grid.major.x = element_blank() ,
+                    panel.grid.major.y = element_blank(),
+                    panel.grid.minor.x = element_blank() ,
+                     panel.grid.minor.y = element_blank(),
+                     axis.line = element_blank(),
+                     axis.text.x = element_blank(),
+                 )
   
   
-  print(fig141_plot + fig_theme_general)
+  print(fig141_plot + fig_theme_general + fig141_theme)
 
 ```
 
@@ -39,20 +54,26 @@ library("tidyverse")
 Allikas: Eesti Sotsiaaluuring 2017
 ```
 
-```{r, figure142, fig.cap='Eluasemete ehitusaeg (regionaalsed keskused on maakonnakeskused)', out.width='85%', fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure142, fig.cap='Eluasemete ehitusaeg (regionaalsed keskused on maakonnakeskused)', out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
   
  fig142_data <- read.csv ("data/14_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
  
-
+ 
   fig142_plot <- ggplot(data = fig142_data) +
     geom_line(mapping = aes(x=years, y=value, colour=area, group=area), size=1.2) +
     scale_x_discrete(breaks=c("1660-1919","1920-1945","1946-1960", "1961-1990", "1991-2000", "2001+")) +
-    labs(y="protsent võrreldes aastaga 2000 (%)", x="")
+    scale_colour_manual(values=c("#BC9417","#482683","#79AC2C","#369B9E")) +
+    labs(y="", x="") +
+    guides(colour=guide_legend(nrow=2,byrow=TRUE))
+  
+  fig142_theme <- theme(
+                  axis.text.x = element_text(hjust=1.2)
+                 )
   
   
-  print(fig142_plot + fig_theme_general)
+  print(fig142_plot + fig_theme_general + fig142_theme)
 
 ```
 
@@ -73,10 +94,16 @@ library("tidyverse")
   fig143_plot <- ggplot(data = fig143_data) +
     geom_bar(mapping = aes(x=reorder(area, -value), y=value, fill=variable),position = "dodge", width=0.7, stat="identity") +
     coord_flip()+
-    labs(y="%", x="")
+    labs(y="%", x="") +
+    scale_fill_manual(values=c("#482683","#917DB5"))
+  
+    fig143_theme <- theme(
+                  panel.grid.major.y = element_blank() ,
+                  panel.grid.minor.y = element_blank(),
+                 )
   
   
-  print(fig143_plot + fig_theme_general)
+  print(fig143_plot + fig_theme_general + fig143_theme)
 
 ```
 
@@ -115,18 +142,35 @@ Allikas: Eesti Sotsiaaluuring 2017 (Statistikaamet)
 
 Tekst Tekst
 
-```{r, figure145, fig.cap='Eluasemete seisukord sissetuleku gruppide alusel (madala sissetulekuga elanikud – vasakul, kõrge sissetulekuga elanikud – paremal)', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure146, fig.cap='Eluasemete seisukord sissetuleku gruppide alusel (madala sissetulekuga elanikud – vasakul, kõrge sissetulekuga elanikud – paremal)', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
   
- fig145_data <- read.csv ("data/14_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
+ fig146_data <- read.csv ("data/14_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
+ 
+fig146_data$condition <- factor(fig146_data$condition, levels = c("Esineb suuri puudusi","Esineb puudusi","Hea seisukord","Värskelt remonditud"))
+ 
+ fig146_data$percent=percent((fig146_data$value/100), 1)
 
-  fig145_plot <- ggplot(data = fig145_data) +
-    geom_bar(mapping = aes(x="", y=value, fill=condition), width=0.7, stat="identity") +
+  fig146_plot <- ggplot(data = fig146_data,aes(x="", y=value, fill=condition)) +
+    geom_bar(width=0.7, stat="identity") +
+    scale_fill_manual(values=c("#B6A8CD","#917DB5","#6D519C","#482683")) +
+    
+    geom_text(aes(label = percent), position = position_stack(vjust = 0.7), color="white") +
     coord_polar("y", start=0)+
-    facet_wrap(~income_size, nrow=1)
+    facet_wrap(~income_size, nrow=1)+
+    labs (x="", y="")
   
-print(fig145_plot + fig_theme_general)
+    fig146_theme <- theme(
+                    panel.grid.major.x = element_blank() ,
+                    panel.grid.major.y = element_blank(),
+                    panel.grid.minor.x = element_blank() ,
+                     panel.grid.minor.y = element_blank(),
+                     axis.line = element_blank(),
+                     axis.text.x = element_blank(),
+                 )
+  
+print(fig146_plot + fig_theme_general +   fig146_theme)
 ```
 
 ```{block, type='imgsource'}
@@ -135,9 +179,24 @@ Allikas: Eesti Sotsiaaluuring 2017 (Statistikaamet)
 
 *Sissetulekugrupid on moodustatud järgmiselt: „madal“ ehk kõige madalama sissetulekuga viiendik elanikkonnast, „kõrge“ ehk kõige jõukam viiendik ning „keskmine“ ehk vahepeale jäävad sissetulekugrupid.*
 
-```{r, figure146, fig.cap='Hinnangud oma eluasemete seisukorrale sissetuleku ja asustustüübi alusel (vasakul: madalaimat tulu saav viiendik), paremal: kõrgeimat tulu saav viiendik).', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
-print("2-FACETED STACKED BAR CHART")
+```{r, figure147, fig.cap='Hinnangud', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+library("tidyverse")
+library(gridExtra)
+library(grid)
+  
+ fig147_data <- read.csv ("data/14_fig7_data.csv", header=TRUE, fileEncoding="utf-8")
+ 
+  fig147_plot <- ggplot(data = fig147_data) +
+    geom_bar(mapping = aes(x=area, y=value, fill=condition), width=0.7, stat="identity") +
+    scale_fill_manual(values=c("#79AC2C","#482683")) +
+    coord_flip() +
+    labs(y="%", x="") +
+    facet_wrap(~income, nrow=1)
+  
+print(fig147_plot + fig_theme_general)
+
+
 ```
 
 ```{block, type='imgsource'}
@@ -148,9 +207,47 @@ Allikas: Eesti Sotsiaaluuring 2017 (Statistikaamet)
 
 #### Esialgne suundumus oli täielikult turupõhisele eluasemefondile
 
-```{r, figure147, fig.cap=' Jaotus omandisuhte alusel.', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure148, fig.cap="Jaotus omandisuhte alusel", out.width='95%', fig.align='center', echo=FALSE, message=FALSE}
 
-print("2-FACETED CHART: PIE and STACKED BAR")
+library("tidyverse")
+library(gridExtra)
+library(grid)
+library("scales")
+  
+ fig148_data1 <- read.csv ("data/14_fig8_data1.csv", header=TRUE, fileEncoding="utf-8")
+fig148_data2 <- read.csv ("data/14_fig8_data2.csv", header=TRUE, fileEncoding="utf-8")
+ 
+
+  fig148_plot1 <- ggplot(data = fig148_data1) +
+    geom_bar(mapping = aes(x="", y=value, fill=group), width=0.7, stat="identity") +
+    scale_fill_manual(values=c("#79AC2C","#482683","#917DB5")) +
+    coord_polar("y", start=0)+
+    labs(y="", x="") +
+    guides(fill=guide_legend(nrow=2,byrow=TRUE))
+  
+  fig148_plot2 <- ggplot(data = fig148_data2) +
+    geom_bar(mapping = aes(x=area, y=value, fill=variable), width=0.7, stat="identity") +
+    scale_fill_manual(values=c("#79AC2C","#482683","#917DB5")) +
+    coord_flip() +
+    labs(y="%", x="") +
+    scale_x_discrete(labels = wrap_format(20)) +
+    guides(fill=guide_legend(nrow=2,byrow=TRUE))
+  
+      fig148_theme1 <- theme(
+                    panel.grid.major.x = element_blank() ,
+                    panel.grid.major.y = element_blank(),
+                    panel.grid.minor.x = element_blank() ,
+                     panel.grid.minor.y = element_blank(),
+                     axis.line = element_blank(),
+                     axis.text.x = element_blank(),
+                 )
+      
+            fig148_theme2 <- theme(
+                    panel.grid.major.y = element_blank() ,
+                    panel.grid.minor.y = element_blank() ,
+                 )
+
+grid.arrange(fig148_plot1 + fig_theme_general + fig148_theme1, fig148_plot2 + fig_theme_general + fig148_theme2 , ncol = 2)
 ```
 
 ```{block, type='imgsource'}
@@ -165,9 +262,9 @@ JUHTUMIKAST
 
 #### Rekonstrueerimistoetused aitavad tõsta eluasemefondi kvaliteeti, paraku aga süvendades piirkondlikku ebavõrdsust
 
-```{r, figure148, fig.cap='KredEx meetmete piirkondlik jaotumine. Korterelamute rekonstrueerimistoetus (vasakul), väikeelamute rekonstrueerimistoetus (keskel), ning „Kodutoetus“ (paremal)', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure1411, fig.cap='KredEx meetmete piirkondlik jaotumine. Korterelamute rekonstrueerimistoetus (vasakul), väikeelamute rekonstrueerimistoetus (keskel), ning „Kodutoetus“ (paremal)', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
-print("2-FACETED CHART: PIE and STACKED BAR")
+print("MAP")
 ```
 
 ```{block, type='imgsource'}
