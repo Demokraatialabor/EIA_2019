@@ -1,22 +1,70 @@
-## Ajakirjandus kujundatav arvamusruum {#chapter43 .chapter_section .chapter4_section}
+## Ajakirjanduse kujundatav arvamusruum {#chapter43 .chapter_section .chapter4_section}
 
 ```{block, type='authors'}
 **Ragne Kõuts-Klemm**
 ```
 
 ```{block, type='points'}
-* Põhisõnum
-* Põhisõnum
-* Põhisõnum
+* Ajakirjanduse võimalused avaliku arvamusruumi kujundamisel on vähenenud ning kasvanud on teiste toimijate – auditooriumi, konkreetsete huvigruppide ja ülemaailmsete platvormide roll ja vastutus.
 ```
 
-Poliitilist ja kodanikuosalust peetakse elujõulise demokraatia ning hästitoimiva avaliku ruumi alustalaks. Ajal, mil pea kõikides demokraatlikes riikides võib täheldada süvenevat võõrandumist institutsionaalsest poliitikast, seda eriti nooremate põlvkondade puhul, pannakse suuri lootusi digiosaluse – interneti ja sotsiaalmeedia vahendusel kodanikuühiskonnas ja poliitikas osalemise – kasvule ja virtuaalsete arvamusruumide arengule. Peatükis vaatleme, kuivõrd aktiivselt kasutavad Eesti lapsed ja noored digiosaluse võimalusi ning mis on virtuaalse arvamusruumi edasise arengu eeldused ja takistused. Aastatel 2010-2018 kogutud küsitlusandmed võimaldavad meil analüüsida Eesti noore põlvkonna internetikasutuse ja digiosaluse arengutrende ning paigutada need rahvusvahelisse võrdluskonteksti. Lisaks pakuvad kvalitatiivsed uuringud võimalust mõista digiosalusega seotud probleeme noorte vaatevinklist ning heita pilku tulevikku.s.
+Ajakirjanduse ja aruteluruumi omavaheline suhe on 21. sajandil keerukam kui kunagi varem. Ajakirjanduse võimalused avalikku aruteluruumi kujundada on teisenenud, keerulisemaks on muutunud ühise inforuumi tekke, elanikkonda ühendava enesetaju ning kaasavate ja avatud vestlussituatsioonide toetamine. Ka avalik aruteluruum ise on mitmekesisem, sisaldades täiesti avalikke, poolavalikke ja laiemale avalikkusele suletud ruume. Internetis võimenduse saanud aruteluruumis saavad nüüd osaleda toimijad, kelle arvamused ei ole seni avalikkuse ette jõudnud. Muutuste hindamine positiivse või negatiivsena on keeruline, kuid rahvusvahelisi pressi- ja arvamusvabaduse hinnanguid aluseks võttes paistab, et Eestis olukord halveneb – oleme langenud pressivabaduse hinnangutes tagasi teise kümnesse (joonis 4.3.1). Selle olukorra taga võib näha ajakirjanduse vähenenud ressursse ja võimalusi majanduslikust ja poliitilisest mõjust sekkumata toimida (Vihalemm 2013), et anda tõest, igakülgset ja ausat teavet ühiskonnas toimuva kohta, nagu see on sõnastatud ajakirjanduse ülesandena Eesti ajakirjanduseetika koodeksis. Ajakirjanduse olukorra halvenemist märgib indeks juhul, kui riigis esineb nii sõna kui ka teoga rünnakuid ajakirjanike, meediaorganisatsioonide, sõnavabaduse või nende eest seisjate vastu. Ka Eesti ajakirjanikud on viimastel aastatel teada andnud ähvardustest oma elule ja tervisele. Samuti on pressivabaduse vähenemise taga avalikkusesse jõudnud teated toimetuse autonoomia kahanemisest Eesti ühes suurimas meediakontsernis ja ajakirjanike vähenenud töökohakindlus ootamatute vallandamiste tõttu.
 
-### Sissejuhatus {.chapter4_section}
+```{r, figure431, fig.cap='Eesti positsiooni muutumine pressivabaduse hinnangutes 15 aasta jooksul Soome ja Lätiga võrreldes', out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+  
+ fig431_data <- read.csv ("data/43_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
+ 
+fig431_data$country <- factor(fig431_data$country, levels = c("Soome","Eesti","Läti"))
+ 
+  fig431_plot <- ggplot(data = fig431_data) +
+    geom_line(mapping = aes(x=year, y = fct_rev(as_factor(value)), colour=country, group=country), size=1) +
+    geom_text(mapping = aes(x=year, y=fct_rev(as_factor(value)), label=position), stat="identity", vjust=-0.6) +
+    scale_colour_manual(values=c("#3A404A","#BC9417","#A8ACA6")) +
+    scale_x_continuous(breaks=c(2004,2006,2008,2010,2012,2014,2016,2018)) +
+    labs(y="koht edetabelis", x="aasta")
+  
+   fig431_theme <- theme(
+  )
+
+  print(fig431_plot + fig_theme_general + fig431_theme)
+```
+
+```{block, type='imgsource'}
+Allikas: Reporters without Border 2018
+```
+
+Mitmekülgne, eri hääli kaasav ja argumenteeritud arutelu on demokraatliku ühiskonnakorralduse eeltingimus ja jätkumise tagatis – avalikus aruteluruumis räägitakse läbi meie ühiselu aluspõhimõtted ja reeglid ning lepitakse kokku parimad viisid, kuidas reageerida muutuva maailma väljakutsetele.
+
+Artikli põhiseisukoht on, et ajakirjanduse võimalused avaliku arvamusruumi kujundamisel on vähenenud ning kasvanud on teiste toimijate, näiteks auditooriumi, konkreetsete huvigruppide ja ülemaailmsete suurkorporatsioonide kontrolli all oleva tehnoloogia roll ja vastutus. Muutust näitavad viimase kümmekonna aasta eestikeelse ajakirjanduse sisu, toimetuste tööprotsesside ning meedia retseptsiooni uuringud. Käesolevas artiklis sünteesin Tartu Ülikoolis tehtud väiksemate, nii kvalitatiivsete kui ka kvantitatiivsete uuringute tulemusi ning kasutan ka rahvusvaheliste uuringute tähelepanekuid olukorra kohta Eestis ja Euroopas. Artiklis vastan järgmistele küsimustele:
+
+1) milline on arutelu ajakirjanduse enda kontrollitud aruteluruumis, see tähendab ajalehtedes ja uudisportaalides; 
+2) kuidas mõjutavad veebiajakirjanduse kommentaariumid ajakirjanduse kujundatavat aruteluruumi ning 
+3) milliseid võimalusi ja probleeme on ajakirjanduse kujundatavale aruteluruumile toonud kaasa sotsiaalmeedia.
+
+Ajakirjanduse seisukohalt vaadatuna hõlmab avalik aruteluruum erineva kontrollipotentsiaaliga alasid – näiteks päevalehe arvamusartiklite valiku teeb toimetaja, Riigikogu saali arutelu on aga ajakirjanduse kontrolli alt põhimõtteliselt väljas, kuigi ei saa eitada, et ajakirjandusel võib olla sellele kaudne mõju. Nendes arvamusruumi osades, mis jäävad ajakirjandusliku sekkumise ulatusest välja, kujundavad arvamusruumi üksikisikute ja huvigruppide osalemissoov, aktiivsus ja aruteluoskused – agentsus. Interneti puhul on olulised ka eri keskkondade tehnoloogilised võimalused ja piirangud.
+
+Agentsus on toimimisvõimekus konkreetsetes ühiskondlik-poliitilistes oludes.
+
+Interneti arenguga on kaasas käinud auditooriumi võimestamine – see tähendab, et internetiplatvormidel saavad auditooriumi liikmed olla nii üksinda kui ka koos teistega nähtavamad ning oma suhtluseesmärke iseseisvalt realiseerida. Just sotsiaalmeedialt kui peamiselt internetiarutelu keskkonnalt on oodatud arutelukultuuri demokratiseerimist. Aruteluruumi laienemine on aga toonud kaasa ka mitmed soovimatud nähtused, näiteks netiagressioon, auditooriumiga manipuleerimise võimaluste suurenemine ja avalikkuse hoiakute polariseerumine. Meediauurijaid on üllatanud just netiagressiooni teke toimetuse kontrollita keskkonnas, kuhu koguneb suur hulk vaenulikke, laimavaid ja solvavaid väiteid eri isikute kohta. Ajakirjandusel ei ole olnud piisavalt raha, teadmisi ega oskusi, et nendele protsessidele vastu seista.
+
+Kui vaadata avalikku arvamusruumi ajakirjanduse ja auditooriumide toimevõimekuse ehk agentsuse pingeväljana, ilmneb pöördvõrdeline seos: platvormidel, millel kasvab auditooriumi võimalus sekkumata tegutseda, on selle võrra väiksem ajakirjanduse kontrollipotentsiaal ja toimimisvõimekus (joonis 4.3.2).
+
+```{r, figure432, fig.cap='Ajakirjanduse ja auditooriumi võimalused arvamusruumi kontrollida eri meediaplatvormidel', out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+  
+print("Visuaal")
+```
 
 ### Ajakirjanduse kontroll arvamusruumi üle traditsioonilistes meediakanalites {.chapter4_section}
 
-```{r, figure433, fig.cap='Arvamuslugude autorid eestikeelsetes ülerigiilistes päevalehtedes (%) (N=485, 2018.a. 12 juhuslikult valitud nädalat, argipäevadel ilmunud artiklid)', out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+Ametialastest kokkulepetest ja rollist lähtuvalt on professionaalse ajakirjanduse ülesanne kujundada aruteluruumi nii, et riiki, kultuuri, majandust ja ühiskonda puudutavad olulised sündmused ja protsessid oleksid kajastatud ning erinevad vaated kaasatud.
+Ajalehe toimetus sekkub ühiskonna arvamuskliima kujundamisse jõuliselt näiteks juhtkirjade kaudu. Eestis kirjutatakse juhtkiri suuremates päevalehtedes enamasti konkreetse lehenumbri kõige olulisemal teemal (Kald 2006). Juhtkiri ei pruugi olla kollektiivne looming, kuid esindab üldjuhul toimetuse enamuse või juhtgrupi konsensuslikku seisukohta. Lisaks tellivad toimetajad olulistel teemadel arvamusartikleid, valivad toimetusse jõudnute hulgast avaldamiseks tähtsamad ja paremad arvamuslood ning hoiavad teemat päevakorral jätkuarvamusi hankides. Ideaalis jälgivad toimetajad seejuures Saksa filosoofi Jürgen Habermasi poolt määratletud vestlussituatsiooni kujunemiseks vajalikke tingimusi: et eri osapooled saaksid sõna ning et arutelu oleks mitmekesine ja tasakaalustatud.
+Ajalehtede arvamuskülgedel arvajate ring on olnud siiski pigem kitsas. Arvajatena eelistatakse isikuid, kes on omandanud arvamusžanri konventsioonid, kelle arvamusi peetakse huvitavaks või kellel on otsustajana piisav tähtsus, et tema arvamusi kajastada. Eestikeelse kultuuriajakirjanduse uuringust (Kõuts-Klemm 2015), mis hõlmas eri meediakanalite kolme kuu sisu, selgus, et kultuuriteemalistes arvamusartiklites ja arutelusaadetes said kõige rohkem sõna eksperdid ja teadlased (41%), ajakirjanikud ja toimetajad (34%) ning loomeinimesed (17%). Sarnane muster ilmneb arvamusrubriikide puhul ka üldisemalt. Aastal 2018 tehtud kahe üleriigilise päevalehe sisu analüüs näitab, et nende väljaannete arvamustoimetused avaldavad sageli teaduslikke ja eksperdiarvamusi. Kõnekas on ajakirjanike enda nii sage esinemine arvajatena, kuid üldpildis on vähe nähtavad tavakodanike, ametnike ja kultuuritegelaste arvamused (joonis 4.3.3). 
+
+```{r, figure433, fig.cap='Arvamuslugude autorid eestikeelsetes ülerigiilistes päevalehtedes (%)', out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
   
@@ -27,17 +75,23 @@ fig433_data$variable <- factor(fig433_data$variable, levels = c("ettevõtja", "a
 
   fig433_plot <- ggplot() +
     geom_bar(data = fig433_data, mapping = aes(x=group, y=value, fill=variable), width=0.4, stat="identity") +
-    scale_fill_manual(values=c("#F2EAD1","#E4D4A2","#C9A945","#BC9417","#8D6F11","#5E4A0C","#2F2506")) +
+    scale_fill_manual(values=c("#E6E3DA","#F2EAD1","#E4D4A2","#C9A945","#BC9417","#8D6F11","#5E4A0C")) +
     
     labs(y="%", x="")
   
   fig433_theme <- theme(
-    legend.position="right"
+    legend.position="right",
+    text = element_text(size = 12),
+    panel.grid.major.x = element_blank() ,
+    panel.grid.minor.x = element_blank(),
   )
 
   print(fig433_plot + fig_theme_general + fig433_theme)
 ```
-
+*N = 485, 2018.a. 12 juhuslikult valitud nädalat, argipäevadel ilmunud artiklid.*
+```{block, type='imgsource'}
+Allikas:
+```
 ### Veebiajakirjanduse kaasav arhitektuur ja toimimine {.chapter4_section}
 
 ### Sotsiaalmeedia vastuolulised võimalused {.chapter4_section}

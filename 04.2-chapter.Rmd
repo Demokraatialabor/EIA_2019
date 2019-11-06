@@ -8,11 +8,27 @@
 * Eesti noored on aktiivsed internetikasutajad: nende seas ei esine märkimisväärset digikihistumist, nende netipraktikad on mitmekülgsed ning hinnangud enda digioskustele head.
 ```
 
-Poliitilist ja kodanikuosalust peetakse elujõulise demokraatia ning hästitoimiva avaliku ruumi alustalaks. Ajal, mil pea kõikides demokraatlikes riikides võib täheldada süvenevat võõrandumist institutsionaalsest poliitikast, seda eriti nooremate põlvkondade puhul, pannakse suuri lootusi digiosaluse – interneti ja sotsiaalmeedia vahendusel kodanikuühiskonnas ja poliitikas osalemise – kasvule ja virtuaalsete arvamusruumide arengule. Peatükis vaatleme, kuivõrd aktiivselt kasutavad Eesti lapsed ja noored digiosaluse võimalusi ning mis on virtuaalse arvamusruumi edasise arengu eeldused ja takistused. Aastatel 2010-2018 kogutud küsitlusandmed võimaldavad meil analüüsida Eesti noore põlvkonna internetikasutuse ja digiosaluse arengutrende ning paigutada need rahvusvahelisse võrdluskonteksti. Lisaks pakuvad kvalitatiivsed uuringud võimalust mõista digiosalusega seotud probleeme noorte vaatevinklist ning heita pilku tulevikku.s.
+Poliitilist ja kodanikuosalust peetakse elujõulise demokraatia ja hästi toimiva avaliku ruumi alustalaks. Ajal, mil peaaegu kõikides demokraatlikes riikides võib täheldada eriti nooremate põlvkondade süvenevat võõrandumist institutsioonide (sealhulgas parteide) kaudu aetavast poliitikast, pannakse suuri lootusi **digiosaluse** kasvule ja virtuaalsete arvamusruumide arengule. Peatükis vaatleme, kuivõrd aktiivselt kasutavad Eesti lapsed ja noored digiosaluse võimalusi ning mis on virtuaalse arvamusruumi edasise arengu eeldused ja takistused. Aastatel 2010–2018 kogutud küsitlusandmed võimaldavad meil analüüsida Eesti noore põlvkonna internetikasutuse ja digiosaluse arengutrende ning paigutada need rahvusvahelisse võrdluskonteksti. Lisaks pakuvad kvalitatiivsed uuringud võimalust mõista digiosalusega seotud probleeme noorte vaatevinklist ning heita pilku tulevikku.
 
-### Muutused laste internetikasutuses {.chapter4_section}
+Digiosalus – interneti ja sotsiaalmeedia vahendusel kodanikuühiskonnas ja poliitikas osalemine.
 
-```{r, figure421, fig.cap='Internetis veedetud aeg koolivabadel päevadel 2018', out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+### Eesti lapsed kasutavad internetti iga päev {.chapter4_section}
+
+Virtuaalses arvamusruumis osalemine eeldab, et digikeskkondi peetakse enesestmõistetavaks ja need on kõigile ligipääsetavad. Laste teadlikumat ja turvalisemat internetikasutust eesmärgiks seadev, 33 riigi teadlasi ühendav võrgustik EU Kids Online on enam kui 10 aasta jooksul uurinud peamisi suundumusi Euroopa, sealhulgas Eesti laste netikasutuses. EU Kids Online’i projekti raames küsitles Turu-uuringute AS 2010. ja 2018. aastal Eesti kõiki piirkondi hõlmava esindusliku valimi alusel kodudes 1000 internetikasutajast last vanuses 9–16 (2018. aastal 9–17) eluaastat.
+
+Internet on muutunud Eesti laste igapäevaelu lahutamatuks osaks – kui 2010. aastal külastas internetti iga päev või peaaegu iga päev 82% Eesti 9–16-aastastest lastest, siis 2018. aastal kasutas internetti vähemalt ühest seadmest iga päev koguni 97% 9–17-aastastest (Sukk ja Soo 2018).
+
+Kasutussageduse suurenemist seletab kahtlemata mobiilsete seadmete oluliselt parem kättesaadavus. Aastal 2010 käis telefoni kaudu internetis 31% Eesti lastest, 2018. aastaks oli see näitaja aga kolmekordistunud: 93% vastanutest kasutas mobiil- või nutitelefoni abil internetti vähemalt kord kuus ning 86% tegi seda peaaegu iga päev või sagedamini. Teisi seadmeid kasutasid lapsed harvem: laua- või sülearvuti on peaaegu igapäevane tööriist 43% ning tahvelarvuti üksnes 15% Eesti 9–17-aastaste jaoks.
+
+Internetile ligipääsus ja nutiseadmete kättesaadavuses ei esine laste seas märkimisväärset *digikihistumist*.
+
+Digikihistumine – ebavõrdsus soo, rahvuse, vanuse või elukoha alusel. 
+
+Digitaalne kaasatus – osasaamine digivõimaluste koguulatusest.
+
+Eesti lapsed veedavad internetis märkimisväärselt suure osa oma ärkvelolekuajast. Tavalisel koolipäeval on suurem osa 9–17-aastastest (41%) internetis ligikaudu 2–3 tundi, 26% aga 4–5 tundi või rohkemgi (Sukk jt 2018). Koolivabadel päevadel kasvab netiavarustes veedetav aeg märgatavalt: nädalavahetustel ja koolivaheaegadel sisustab peaaegu pool lastest 4–5 tundi või rohkem oma päevast netitegevustega (joonis 4.2.1). Sedavõrd ulatuslik netikasutus iseloomustab enamikku poistest, vene kodukeelega lastest ning 13–17-aastastest.
+
+```{r, figure421, fig.cap='Internetis veedetud aeg koolivabadel päevadel 2018 (%)', out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
 library("scales")
@@ -22,61 +38,91 @@ library("scales")
  
  fig421_data$group <- factor(fig421_data$group, levels = c("Vene","Eesti","15-17 a","13-14 a","11-12 a","9-10 a","Tüdrukud","Poisid","Kõik lapsed"))
   fig421_data$answer <- factor(fig421_data$answer, levels = c("Ei taha öelda","Ei oska öelda","Umbes 6 tundi või rohkem","Umbes 4-5 tundi","Umbes 2-3 tundi","Umbes 1 tund või vähem"))
- 
+  
+    fig421_data$text_position <- fig421_data$value
+    
+    fig421_data$text_position[which(fig421_data$text_position == 0)] <- NA
+    
   fig421_plot <- ggplot(data = fig421_data) +
     geom_bar(mapping = aes(x=group, y=value, fill=answer), width=0.6, stat="identity") +
+    geom_text(mapping = aes(x=group, y=text_position, label=text_position), stat="identity", color="white", position = position_stack(vjust = .5)) +
     coord_flip() +
-     scale_fill_manual(values=c("#F2EAD1","#E4D4A2","#C9A945","#BC9417","#8D6F11","#5E4A0C","#2F2506")) +
+     scale_fill_manual(values=c("#86858A","#A8ACA6","#5E4A0C","#8D6F11","#BC9417","#C9A945")) +
     labs(y="%", x="") +
-      scale_x_discrete(labels = wrap_format(30))
+      scale_x_discrete(labels = wrap_format(30)) +
+    guides(fill = guide_legend(reverse = TRUE))
   
-print(fig421_plot + fig_theme_general)
+  fig421_theme <- theme(
+                    panel.grid.major.y = element_blank() ,
+                     panel.grid.minor.y = element_blank(),
+                 )
+  
+print(fig421_plot + fig_theme_general+ fig421_theme)
 
 ```
+*Küsimus ankeedis: Umbes kui kaua veedad sa aega internetis vabadel päevadel, kui kooli ei ole (nt nädalavahetused, koolivaheajad)?*
+*Alus: kõik lapsed (N = 1020).*
 
 ``` {block, type='imgsource'}
-Allikas: EU Kids Online'i Eesti uuring 2018; Sukk jt 2018
-Küsimus Ankeedis: Umbes kui kaua veedad sa aega internetis vabadel päevadel, kui kooli ei ole (nt nädalavahetused, koolivaheajad)?
-Alus: kõik lapsed (N=1020)
+Allikas: EU Kids Online Eesti uuring 2018; Sukk ja Soo 2018.
 ```
 
+Igapäevane netikasutus on virtuaalses arvamusruumis osalemise eeltingimus, tõeliselt aktiivset kaasarääkimist soodustab aga digitaalse kaasatuse kõrge tase ehk võimalikult paljude noorte osasaamine digivõimaluste koguulatusest, mis tähendab jõudmist internetivõimaluste redeli kõrgematele ehk edasijõudnute astmetele. Kui redeli alumistel astmetel on netitegevused seotud infootsingu, suhtluse ning meelelahutusega ega nõua spetsiifilisi digioskusi, siis kõrgematel astmetel tegutsemine nõuab nii täiendavat pädevust kui ka motivatsiooni (Livingstone ja Helsper 2007; Pruulmann-Vengerfeldt ja Runnel 2012) ning nendele jõuab väike osa lastest (alla 50%). Joonis 4.2.2 näitab, et kõrgematele ehk edasijõudnute astmetele paigutuvad nii loomingulised (nt blogi või kodulehe pidamine) kui ka digiosalusega seotud tegevused (nt petitsioonide allkirjastamine).
 
-```{r, figure422, fig.cap='Laste digitaalse kaasatuse astmed 2010 ja 2018', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure422, fig.cap='Laste digitaalse kaasatuse redeli astmed 2010 ja 2018 (online-tegevust harrastavate laste %)', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
+print("FIG422")
 
 ```
+*Küsimus ankeedis: Kui sageli sa oled viimase kuu (30 päeva) jooksul teinud internetis järgmisi asju?*
+*Alus: kõik lapsed (N = 1020).*
+*Selgitus: tegevus paikneb redeli astmel vastavalt harrastajate osakaalule vaadeldaval aastal.*
 
 ``` {block, type='imgsource'}
-Allikad: EU Kids Online'i Eesti uuring 2010; EU Kids Online'i Eesti uuring 2018
-```
-``` {block, type='imgsource'}
-Küsimus Ankeedis: Kui sageli sa oled viimase kuu (30 päeva) jooksul teinud internetis järgmisi asju?
-```
-``` {block, type='imgsource'}
-Alus: kõik lapsed (N=1020)
+Allikad: EU Kids Online uuring 2010; 2018.
 ```
 
-### Laste digitaalne kirjaoskus {.chapter1_section}
+EU Kids Online’i 2010. aasta küsitluse andmetel paistsid Eesti lapsed Euroopa taustal silma suhteliselt suure internetivõimaluste kasutamise aktiivsusega. Näiteks uudiste jälgimise puhul ületasid Eesti lapsed Euroopa keskmist taset, olles samal ajal loominguliste ja osalustegevuste (nt blogipidamine, veebilehele sõnumi postitamine) poolest ELi keskmised (joonis 4.4.2). Eesti kuulus koos Tšehhi, Rootsi, Hollandi ja Küprosega väheste maade rühma, kus väga väike osa lapsi (kuni 5%) harrastas internetis üksnes 0–2 eri tegevust (Pruulmann-Vengerfeldt ja Runnel 2012). 
 
-```{r, figure423, fig.cap='Digioskused Eesti 13-17-aastaste noorte seas 2018 (%)', out.width='100%', fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
+2018. aasta andmetel on laste hulgas kasvanud meelelahutuse ja suhtlemisega seotud tegevuste harrastajate osatähtsus (joonis 4.2.2). Seevastu interneti kasutamine koolitööks ning uudiste jälgimiseks on võrreldes kaheksa aasta taguse ajaga muutunud Eesti laste seas vähem levinud tegevuseks. Loomingulised ja osalustegevused on jätkuvalt pigem ebatüüpilised, edasijõudnute tasemele vastavad – näiteks arutles internetis poliitiliste või ühiskondlike probleemide üle küsitlusele eelnenud kuu jooksul vaid 12% Eesti lastest.
+
+### Laste digitaalne kirjaoskus paraneb {.chapter1_section}
+
+Noored saavad tehnoloogia pakutavatest võimalustest maksimaalselt osa vaid siis, kui neil on vastav pädevus – digitaalne kirjaoskus – et tehnoloogiat võimalikult mitmekülgselt kasutada ning võimalike riskidega eos toime tulla.
+
+EU Kids Online’i 2010. aasta uuringu andmetel väitsid Eesti lapsed end hakkama saavat keskmiselt viie digitaalset kirjaoskust näitava tegevusega (uuritud kaheksast), olles selle tulemusega Soome, Sloveenia ja Hollandi laste järel Euroopas neljandal kohal (Livingstone jt 2011). Praegu oskavad Eesti lapsed internetis veelgi oskuslikumalt tegutseda: EU Kids Online’i Eesti 2018. aasta küsitlustulemustest nähtub (joonis 4.2.3; vt ka Sukk ja Soo 2018), et enamik uuringus osalenud 13–17-aastastest oskab veebilehitsejas avada uut vahelehte (93%), leida uuesti veebilehti, mida on hiljuti külastanud (92%), avada allalaaditud faile (92%) või kasutada privaatsussätteid, seades piiranguid sellele, kes internetis nende jagatavat sisu näeb (90%). Märgatavalt ebakindlamalt tunnevad noored end autoriõiguste ja kasutuspiirangute teemadel (pädevaks peab end 78%); ka veebilehe usaldusväärsuse hindamine ei ole päris kõigile jõukohane (74%). Kõige suuremaid raskusi valmistavad noortele sisuloomega seotud tegevused – 36% uuringus osalenud 13–17-aastastest väitis end hakkama saavat kodulehe loomisega ning 19% oskas kasutada programmeerimiskeeli.
+
+Eesti noored hindavad oma digitaalset kirjaoskust väga heaks ning tunnevad end eri veebitegevustes üldjuhul enesekindlalt.
+
+```{r, figure423, fig.cap='Digioskused Eesti 13–17-aastaste noorte seas 2018 (%)', out.width='100%', fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 library("scales")
+library("dplyr")
 
   
  fig423_data <- read.csv ("data/42_fig3_data.csv", header=TRUE, fileEncoding="utf-8")
  
- fig423_data$question <- factor(fig423_data$question, levels = c("Mõnikord leian end veebilehtedelt teadmata, kuidas ma sinna sattusin","Ma oskan kasutada programmeerimiskeeli (nt Python, C++)","Ma oskan luua kodulehte","Ma oskan luua internetist leitud videotest või muusikast midagi uut","Minu jaoks on lihtne teha kindlaks, kas veebilehte saab usaldada","Ma tean, millised erinevad kasutuspiirangud ja autoriõigused kehtivad internetis leiduvatele materjalidele ","Ma tean, millises olukorras ma peaksin jagama infot internetis ja millises mitte","Ma oskan internetis käituda olukorrale vastavalt","Ma oskan kasutada klahvikombinatsioone (nt CTRL+C kopeerimiseks)","Ma oskan avada allalaaditud faile","Ma tean, kuidas seada piiranguid, kes internetis minu infot näevad (nt sõbrad, sõprade sõbrad või kõik kasutajad)","Minu jaoks on lihtne leida veebilehte, mida olen hiljuti külastanud","Ma oskan avada uut vahelehte internetibrauseris"))
+    fig423_data$cumsum <- ave(fig423_data$value, fig423_data$question, FUN=cumsum)
+    
+    fig423_data$text_position_temp <-(fig423_data$value - 0.5*fig423_data$value)
+    fig423_data$text_position <- 100 - fig423_data$cumsum +  fig423_data$text_position_temp
+    fig423_data$text_position[which(fig423_data$text_position == 0)] <- NA
+    
+    
+ fig423_data$question <- factor(fig423_data$question, levels = c("Mõnikord leian end veebilehtedelt teadmata, kuidas ma sinna sattusin","Ma oskan kasutada programmeerimiskeeli (nt Python, C++)","Ma oskan luua kodulehte","Ma oskan luua internetist leitud videotest või muusikast midagi uut","Minu jaoks on lihtne teha kindlaks, kas veebilehte saab usaldada","Ma tean, millised erinevad kasutuspiirangud ja autoriõigused kehtivad internetis leiduvatele materjalidele ","Ma tean, millises olukorras ma peaksin jagama infot internetis ja millises mitte","Ma oskan internetis käituda olukorrale vastavalt","Ma oskan kasutada klahvikombinatsioone (nt Ctrl + C kopeerimiseks)","Ma oskan avada allalaaditud faile","Ma tean, kuidas seada piiranguid, kes internetis minu infot näevad (nt sõbrad, sõprade sõbrad või kõik kasutajad)","Minu jaoks on lihtne leida veebilehte, mida olen hiljuti külastanud","Ma oskan avada uut vahelehte internetibrauseris"))
  
   fig423_data$answer <- factor(fig423_data$answer, levels = c("Ei oska öelda","Vastab täielikult tõele","Pigem vastab tõele","Ei üks ega teine","Pigem ei vasta tõele","Ei vasta üldse tõele"))
+  
  
   fig423_plot <- ggplot(data = fig423_data) +
     geom_bar(mapping = aes(x=question, y=value, fill=answer), width=0.5, stat="identity") +
-    #geom_text(mapping = aes(x=question, y=value, label=value), stat="identity") +
-     scale_fill_manual(values=c("#F2EAD1","#E4D4A2","#C9A945","#BC9417","#8D6F11","#5E4A0C","#2F2506")) +
+    geom_text(mapping = aes(x=question, y=text_position, label=value), stat="identity", color="white") +
+     scale_fill_manual(values=c("#A8ACA6","#E4D4A2","#C9A945","#BC9417","#8D6F11","#5E4A0C","#2F2506")) +
     coord_flip() +
     labs(y="%", x="") +
-    scale_x_discrete(labels = wrap_format(28))
+    scale_x_discrete(labels = wrap_format(28)) +
+     guides(fill = guide_legend(reverse = TRUE))
   
     fig423_theme <- theme(
       text = element_text(color = "#292b2c", size = 10),
@@ -86,11 +132,12 @@ library("scales")
 print(fig423_plot + fig_theme_general + fig423_theme)
 
 ```
+*Küsimus ankeedis: Kuivõrd vastavad järgmised väited sinu puhul tõele?*
+
+*Alus: kõik 13–17-aastased lapsed (n = 528).*
 
 ``` {block, type='imgsource'}
-Allikas: EU Kids Online'i Eesti uuring 2018; Sukk jt 2018
-Küsimus Ankeedis: Kuivõrd vastavad järgmised väited sinu puhul tõele?
-Alus: kõik 13-17-aastased lapsed (n=528)
+Allikas: : EU Kids Online Eesti uuring 2018; Sukk ja Soo 2018.
 ```
 
 ### Eesti noored ja digiosalus {.chapter4_section}
