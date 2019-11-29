@@ -1,22 +1,15 @@
-group,variable,value
-Postimees,"teadlane, ekspert",39
-Postimees,ajakirjanik,32
-Postimees,poliitik,15
-Postimees,kodanik,3
-Postimees,kultuuritegelane,6
-Postimees,ametnik,4
-Postimees,ettevõtja,1
-Eesti Päevaleht,"teadlane, ekspert",29
-Eesti Päevaleht,ajakirjanik,40
-Eesti Päevaleht,poliitik,6
-Eesti Päevaleht,kodanik,14
-Eesti Päevaleht,kultuuritegelane,3
-Eesti Päevaleht,ametnik,3
-Eesti Päevaleht,ettevõtja,6
-Kokku,"teadlane, ekspert",37
-Kokku,ajakirjanik,35
-Kokku,poliitik,12
-Kokku,kodanik,7
-Kokku,kultuuritegelane,5
-Kokku,ametnik,4
-Kokku,ettevõtja,3
+group,variable,value,value_combined
+Postimees,"teadlane, ekspert",39.00,37.00
+Postimees,ajakirjanik,32.00,35.00
+Postimees,poliitik,15.00,12.00
+Postimees,kodanik,3.00,7.00
+Postimees,kultuuritegelane,6.00,5.00
+Postimees,ametnik,4.00,4.00
+Postimees,ettevõtja,1.00,3.00
+Eesti Päevaleht,"teadlane, ekspert",29.00,37.00
+Eesti Päevaleht,ajakirjanik,40.00,35.00
+Eesti Päevaleht,poliitik,6.00,12.00
+Eesti Päevaleht,kodanik,14.00,7.00
+Eesti Päevaleht,kultuuritegelane,3.00,5.00
+Eesti Päevaleht,ametnik,3.00,4.00
+Eesti Päevaleht,ettevõtja,6.00,3.00
