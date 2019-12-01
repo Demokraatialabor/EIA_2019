@@ -1,79 +1,55 @@
-question,answer,value
-"Mõnikord leian end veebilehtedelt teadmata, kuidas ma sinna sattusin",Vastab täielikult tõele,4.95
-"Mõnikord leian end veebilehtedelt teadmata, kuidas ma sinna sattusin",Pigem vastab tõele,11.61
-"Mõnikord leian end veebilehtedelt teadmata, kuidas ma sinna sattusin",Ei üks ega teine,14.54
-"Mõnikord leian end veebilehtedelt teadmata, kuidas ma sinna sattusin",Pigem ei vasta tõele,33.27
-"Mõnikord leian end veebilehtedelt teadmata, kuidas ma sinna sattusin",Ei vasta üldse tõele,31.16
-"Mõnikord leian end veebilehtedelt teadmata, kuidas ma sinna sattusin",Ei oska öelda,4.13
-"Ma oskan kasutada programmeerimiskeeli (nt Python, C++)",Vastab täielikult tõele,6.32
-"Ma oskan kasutada programmeerimiskeeli (nt Python, C++)",Pigem vastab tõele,12.74
-"Ma oskan kasutada programmeerimiskeeli (nt Python, C++)",Ei üks ega teine,12.73
-"Ma oskan kasutada programmeerimiskeeli (nt Python, C++)",Pigem ei vasta tõele,23.94
-"Ma oskan kasutada programmeerimiskeeli (nt Python, C++)",Ei vasta üldse tõele,35.45
-"Ma oskan kasutada programmeerimiskeeli (nt Python, C++)",Ei oska öelda,8.83
-Ma oskan luua kodulehte,Vastab täielikult tõele,16.23
-Ma oskan luua kodulehte,Pigem vastab tõele,19.77
-Ma oskan luua kodulehte,Ei üks ega teine,13.94
-Ma oskan luua kodulehte,Pigem ei vasta tõele,20.95
-Ma oskan luua kodulehte,Ei vasta üldse tõele,24.75
-Ma oskan luua kodulehte,Ei oska öelda,4.14
-Ma oskan luua internetist leitud videotest või muusikast midagi uut,Vastab täielikult tõele,20.72
-Ma oskan luua internetist leitud videotest või muusikast midagi uut,Pigem vastab tõele,22.37
-Ma oskan luua internetist leitud videotest või muusikast midagi uut,Ei üks ega teine,16.65
-Ma oskan luua internetist leitud videotest või muusikast midagi uut,Pigem ei vasta tõele,19.56
-Ma oskan luua internetist leitud videotest või muusikast midagi uut,Ei vasta üldse tõele,14.75
-Ma oskan luua internetist leitud videotest või muusikast midagi uut,Ei oska öelda,5.95
-"Minu jaoks on lihtne teha kindlaks, kas veebilehte saab usaldada",Vastab täielikult tõele,28.61
-"Minu jaoks on lihtne teha kindlaks, kas veebilehte saab usaldada",Pigem vastab tõele,45.48
-"Minu jaoks on lihtne teha kindlaks, kas veebilehte saab usaldada",Ei üks ega teine,10.12
-"Minu jaoks on lihtne teha kindlaks, kas veebilehte saab usaldada",Pigem ei vasta tõele,8.52
-"Minu jaoks on lihtne teha kindlaks, kas veebilehte saab usaldada",Ei vasta üldse tõele,1.27
-"Minu jaoks on lihtne teha kindlaks, kas veebilehte saab usaldada",Ei oska öelda,6.00
-"Ma tean, millised erinevad kasutuspiirangud ja autoriõigused kehtivad internetis leiduvatele materjalidele ",Vastab täielikult tõele,35.94
-"Ma tean, millised erinevad kasutuspiirangud ja autoriõigused kehtivad internetis leiduvatele materjalidele ",Pigem vastab tõele,41.95
-"Ma tean, millised erinevad kasutuspiirangud ja autoriõigused kehtivad internetis leiduvatele materjalidele ",Ei üks ega teine,8.87
-"Ma tean, millised erinevad kasutuspiirangud ja autoriõigused kehtivad internetis leiduvatele materjalidele ",Pigem ei vasta tõele,5.04
-"Ma tean, millised erinevad kasutuspiirangud ja autoriõigused kehtivad internetis leiduvatele materjalidele ",Ei vasta üldse tõele,1.83
-"Ma tean, millised erinevad kasutuspiirangud ja autoriõigused kehtivad internetis leiduvatele materjalidele ",Ei oska öelda,5.91
-"Ma tean, millises olukorras ma peaksin jagama infot internetis ja millises mitte",Vastab täielikult tõele,51.20
-"Ma tean, millises olukorras ma peaksin jagama infot internetis ja millises mitte",Pigem vastab tõele,37.11
-"Ma tean, millises olukorras ma peaksin jagama infot internetis ja millises mitte",Ei üks ega teine,4.33
-"Ma tean, millises olukorras ma peaksin jagama infot internetis ja millises mitte",Pigem ei vasta tõele,1.57
-"Ma tean, millises olukorras ma peaksin jagama infot internetis ja millises mitte",Ei vasta üldse tõele,1.41
-"Ma tean, millises olukorras ma peaksin jagama infot internetis ja millises mitte",Ei oska öelda,4.17
-Ma oskan internetis käituda olukorrale vastavalt,Vastab täielikult tõele,54.73
-Ma oskan internetis käituda olukorrale vastavalt,Pigem vastab tõele,37.52
-Ma oskan internetis käituda olukorrale vastavalt,Ei üks ega teine,3.40
-Ma oskan internetis käituda olukorrale vastavalt,Pigem ei vasta tõele,0.99
-Ma oskan internetis käituda olukorrale vastavalt,Ei vasta üldse tõele,0.97
-Ma oskan internetis käituda olukorrale vastavalt,Ei oska öelda,2.17
-Ma oskan kasutada klahvikombinatsioone (nt CTRL+C kopeerimiseks),Vastab täielikult tõele,58.15
-Ma oskan kasutada klahvikombinatsioone (nt CTRL+C kopeerimiseks),Pigem vastab tõele,26.77
-Ma oskan kasutada klahvikombinatsioone (nt CTRL+C kopeerimiseks),Ei üks ega teine,4.61
-Ma oskan kasutada klahvikombinatsioone (nt CTRL+C kopeerimiseks),Pigem ei vasta tõele,4.43
-Ma oskan kasutada klahvikombinatsioone (nt CTRL+C kopeerimiseks),Ei vasta üldse tõele,4.49
-Ma oskan kasutada klahvikombinatsioone (nt CTRL+C kopeerimiseks),Ei oska öelda,1.54
-Ma oskan avada allalaaditud faile,Vastab täielikult tõele,66.35
-Ma oskan avada allalaaditud faile,Pigem vastab tõele,26.41
-Ma oskan avada allalaaditud faile,Ei üks ega teine,1.92
-Ma oskan avada allalaaditud faile,Pigem ei vasta tõele,2.64
-Ma oskan avada allalaaditud faile,Ei vasta üldse tõele,1.19
-Ma oskan avada allalaaditud faile,Ei oska öelda,1.49
-"Ma tean, kuidas seada piiranguid, kes internetis minu infot näevad (nt sõbrad, sõprade sõbrad või kõik kasutajad)",Vastab täielikult tõele,68.15
-"Ma tean, kuidas seada piiranguid, kes internetis minu infot näevad (nt sõbrad, sõprade sõbrad või kõik kasutajad)",Pigem vastab tõele,22.46
-"Ma tean, kuidas seada piiranguid, kes internetis minu infot näevad (nt sõbrad, sõprade sõbrad või kõik kasutajad)",Ei üks ega teine,3.87
-"Ma tean, kuidas seada piiranguid, kes internetis minu infot näevad (nt sõbrad, sõprade sõbrad või kõik kasutajad)",Pigem ei vasta tõele,1.43
-"Ma tean, kuidas seada piiranguid, kes internetis minu infot näevad (nt sõbrad, sõprade sõbrad või kõik kasutajad)",Ei vasta üldse tõele,1.85
-"Ma tean, kuidas seada piiranguid, kes internetis minu infot näevad (nt sõbrad, sõprade sõbrad või kõik kasutajad)",Ei oska öelda,2.02
-"Minu jaoks on lihtne leida veebilehte, mida olen hiljuti külastanud",Vastab täielikult tõele,72.75
-"Minu jaoks on lihtne leida veebilehte, mida olen hiljuti külastanud",Pigem vastab tõele,19.47
-"Minu jaoks on lihtne leida veebilehte, mida olen hiljuti külastanud",Ei üks ega teine,2.04
-"Minu jaoks on lihtne leida veebilehte, mida olen hiljuti külastanud",Pigem ei vasta tõele,1.25
-"Minu jaoks on lihtne leida veebilehte, mida olen hiljuti külastanud",Ei vasta üldse tõele,1.26
-"Minu jaoks on lihtne leida veebilehte, mida olen hiljuti külastanud",Ei oska öelda,3.21
-Ma oskan avada uut vahelehte internetibrauseris,Vastab täielikult tõele,81.24
-Ma oskan avada uut vahelehte internetibrauseris,Pigem vastab tõele,12.38
-Ma oskan avada uut vahelehte internetibrauseris,Ei üks ega teine,2.18
-Ma oskan avada uut vahelehte internetibrauseris,Pigem ei vasta tõele,1.14
-Ma oskan avada uut vahelehte internetibrauseris,Ei vasta üldse tõele,1.61
-Ma oskan avada uut vahelehte internetibrauseris,Ei oska öelda,1.46
+group,answer,value
+Kõik lapsed,Umbes 1 tund või vähem,15.56
+Kõik lapsed,Umbes 2-3 tundi,28.53
+Kõik lapsed,Umbes 4-5 tundi,29.02
+Kõik lapsed,Umbes 6 tundi või rohkem,19.83
+Kõik lapsed,Ei oska öelda,6.59
+Kõik lapsed,Ei taha öelda,0.47
+Poisid,Umbes 1 tund või vähem,11.98
+Poisid,Umbes 2-3 tundi,29.89
+Poisid,Umbes 4-5 tundi,30.69
+Poisid,Umbes 6 tundi või rohkem,22.35
+Poisid,Ei oska öelda,4.88
+Poisid,Ei taha öelda,0.21
+Tüdrukud,Umbes 1 tund või vähem,19.34
+Tüdrukud,Umbes 2-3 tundi,27.08
+Tüdrukud,Umbes 4-5 tundi,27.26
+Tüdrukud,Umbes 6 tundi või rohkem,17.17
+Tüdrukud,Ei oska öelda,8.41
+Tüdrukud,Ei taha öelda,0.74
+9-10 a,Umbes 1 tund või vähem,32.02
+9-10 a,Umbes 2-3 tundi,35.78
+9-10 a,Umbes 4-5 tundi,21.26
+9-10 a,Umbes 6 tundi või rohkem,6.39
+9-10 a,Ei oska öelda,4.56
+9-10 a,Ei taha öelda,0.00
+11-12 a,Umbes 1 tund või vähem,15.60
+11-12 a,Umbes 2-3 tundi,33.47
+11-12 a,Umbes 4-5 tundi,25.17
+11-12 a,Umbes 6 tundi või rohkem,17.54
+11-12 a,Ei oska öelda,7.43
+11-12 a,Ei taha öelda,0.79
+13-14 a,Umbes 1 tund või vähem,9.18
+13-14 a,Umbes 2-3 tundi,19.33
+13-14 a,Umbes 4-5 tundi,35.74
+13-14 a,Umbes 6 tundi või rohkem,26.33
+13-14 a,Ei oska öelda,8.13
+13-14 a,Ei taha öelda,1.29
+15-17 a,Umbes 1 tund või vähem,6.31
+15-17 a,Umbes 2-3 tundi,25.43
+15-17 a,Umbes 4-5 tundi,33.59
+15-17 a,Umbes 6 tundi või rohkem,28.17
+15-17 a,Ei oska öelda,6.51
+15-17 a,Ei taha öelda,0.00
+Eesti,Umbes 1 tund või vähem,17.85
+Eesti,Umbes 2-3 tundi,28.87
+Eesti,Umbes 4-5 tundi,27.34
+Eesti,Umbes 6 tundi või rohkem,18.65
+Eesti,Ei oska öelda,6.97
+Eesti,Ei taha öelda,0.31
+Vene,Umbes 1 tund või vähem,8.91
+Vene,Umbes 2-3 tundi,27.52
+Vene,Umbes 4-5 tundi,33.89
+Vene,Umbes 6 tundi või rohkem,23.26
+Vene,Ei oska öelda,5.49
+Vene,Ei taha öelda,0.93
