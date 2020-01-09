@@ -1,0 +1,7 @@
+﻿pop,answer,value,ymin,ymax,x
+EE,Nõustun,75,0,75,1.5
+EE,Ei nõustu,12,75,87,1.5
+EE,Ei oska öelda,13,87,100,1.5
+EL28,Nõustun,74,0,74,3.5
+EL28,Ei nõustu,17,74,91,3.5
+EL28,Ei oska öelda,9,91,100,3.5

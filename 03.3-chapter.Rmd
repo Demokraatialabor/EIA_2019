@@ -17,30 +17,49 @@
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque purus. Auctor urna nunc id cursus metus aliquam. Malesuada fames ac turpis egestas sed tempus urna et pharetra. Non diam phasellus vestibulum lorem. Fermentum iaculis eu non diam phasellus vestibulum. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque. Elit pellentesque habitant morbi tristique senectus. Pulvinar neque laoreet suspendisse interdum consectetur. Sit amet nisl purus in mollis. Dignissim suspendisse in est ante in. Pretium viverra suspendisse potenti nullam ac tortor. Tellus cras adipiscing enim eu turpis egestas pretium. Sit amet volutpat consequat mauris nunc. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Iaculis nunc sed augue lacus viverra vitae congue eu consequat.
 
-```{r, figure331, fig.cap='Tehiskeskkonna laienemine (a) ja loodusalade juurdekasv (b) 2000. aastast tänapäevani CORINE maakatteandmebaasi alusel.', out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
+<p class="caption" id="figure331"><span class="figure-number">Joonis 3.3.1.</span> Tehiskeskkonna laienemine (a) ja loodusalade juurdekasv (b) 2000. aastast tänapäevani CORINE maakatteandmebaasi alusel</p>
+
+```{r, figure331, out.width='80%',fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
+library("grid")
+library(gridExtra)
+library("scales")
   
  fig331_data1 <- read.csv ("data/33_fig1_data1.csv", header=TRUE, fileEncoding="utf-8")
  fig331_data2 <- read.csv ("data/33_fig1_data2.csv", header=TRUE, fileEncoding="utf-8")
-
  
+  fig331_plot1_labels <- c("Ehitusplatside\nteke","Infrastruktuuri\narendamine", "Maardlate,\nkarjääride ja\nturbaväljade\nlaienemine", "Valglinnastumine")
+  
   fig331_plot1 <- ggplot() +
     geom_bar(data = fig331_data1, mapping = aes(x=group, y=value, fill=time_period), width=0.7, stat="identity", position = "dodge") +
-    labs(y="ha", x="") 
-  
+    labs(y="ha", x="") +
+    scale_fill_manual(values=c("#AFCD80","#79AC2C","#5B8121")) +
+    scale_x_discrete(labels= fig331_plot1_labels)
+
+    fig331_plot2_labels <- c("Karjääride ja\nturbaväljade\nvõsastumine /\nmetsastumine","Tehisalade\nkadu", "Vabaaja- ja\npuhkealade kasv\nasulatest välja", "Veesilmade\nkasv")
+    
   fig331_plot2 <- ggplot() +
     geom_bar(data = fig331_data2, mapping = aes(x=group, y=value, fill=time_period), width=0.7, stat="identity", position = "dodge") +
-    labs(y="ha", x="") 
+    labs(y="ha", x="") +
+    scale_fill_manual(values=c("#AFCD80","#79AC2C","#5B8121")) +
+    scale_x_discrete(labels= fig331_plot2_labels)
   
- grid.arrange(fig331_plot1 + fig_theme_general, fig331_plot2 + fig_theme_general, ncol = 1)
-
+    fig331_theme <- theme(
+                    panel.grid.major.x = element_blank() ,
+                    panel.grid.minor.x = element_blank(),
+                    axis.line = element_line(size = 0.2, colour = "#cccccc"),
+                 )
+  
+grid.arrange(fig331_plot1 + fig331_theme + fig_theme_general, fig331_plot2 +  fig331_theme + fig_theme_general, ncol = 1)
+ 
+ggsave(path="exported_figures/PDF/chapter3",filename="fig331a.pdf",fig331_plot1 + fig_theme_general + fig331_theme, height=140, width=200, units="mm")
+ggsave(path="exported_figures/PDF/chapter3",filename="fig331b.pdf",fig331_plot2 + fig_theme_general + fig331_theme, height=140, width=200, units="mm")
 ```
 
-```{block, type='imgsource'}
-Allikas: Sagris, Palo (2018)
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Sagris, Palo (2018)
 ```
-
 ### Loodusalade planeerimisel lähtutakse lähimuspõhimõttest {.chapter3_section}
 
 Ruumilise planeerimise mõiste kasvas välja linna- ja regionaalplaneerimisest ning võeti kasutusele 1983. aastal Euroopa regionaalse/ruumilise planeerimise hartaga (Torremolinose hartaga). Harta seadis eesmärgiks hea elukeskkonna ja -kvaliteedi tagamise ning sõnastas esmakordselt ruumilise planeerimise põhimõtted, mis kajastuvad ka Eesti planeerimisseaduses. 2013. aastal kiitis Euroopa Ruumiliste Planeerijate Nõukogu, mille liikmesorganisatsioon on ka Eesti Planeerijate Ühing, Barcelonas heaks Euroopa planeerimise harta. Selles Euroopa ruumilises tulevikuvaates tõstetakse täiendavalt esile vajadus tagada ökoloogiline toimimine tehiskeskkonna planeerimisel ning igaühe ligipääs kultuuri- ja looduspärandile. Samuti rõhutatakse maastike ja linna rohealade rolli elukvaliteedi kujundajana.
@@ -55,25 +74,39 @@ Ruumilise planeerimise mõiste kasvas välja linna- ja regionaalplaneerimisest n
 
 Ruumiliselt kõige ulatuslikum kaitse loodusalade maakasutusmuutuste eest on seotud rohevõrgustikuga, mis hõlmab 55% Eesti maismaast. Rohevõrgustiku eesmärk on sidusalt ühendada eri tüüpi looduslikke või looduslähedasi maa- ja veealasid, et tagada nende ökoloogiline toimimine ja maastike säilimine. Ökoloogiliselt toimiv rohevõrgustik pakub elanikkonna jaoks nii elutähtsaid kui ka rekreatiivseid funktsioone (ptk. 3.2). Sisemiselt koosneb rohevõrgustik erineva tähtsusega (riiklik, maakondlik, kohalik) tugialadest ja neid ühendavatest rohekoridoridest. Eesti kaitsealusest maast kuulub rohevõrgustikku
 
-```{r, figure336, fig.cap='Rohevõrgustiku (RV) ja kaitstavate loodusobjektide (kaitsealad, kaitstavate liikide leiukohad, püsielupaigad, Natura 2000 alad) osakaal maakonna kogupindalast', out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
+<p class="caption" id="figure336"><span class="figure-number">Joonis 3.3.6.</span> Rohevõrgustiku (RV) ja kaitstavate loodusobjektide (kaitsealad, kaitstavate liikide leiukohad, püsielupaigad, Natura 2000 alad) osakaal maakonna kogupindalast</p>
+
+```{r, figure336, out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
   
 fig336_data <- read.csv ("data/33_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
 
+fig336_data$objects <- factor(fig336_data$objects, levels = c("RV ala väljaspool kaitsealasid","Kaitstavad loodusobjektid väljaspool RV ala","Kaitstavad loodusobjektid RV alal"))
+
  
   fig336_plot <- ggplot() +
-    geom_bar(data = fig336_data, mapping = aes(x=county, y=value, fill=objects), width=0.7, stat="identity") +
-    labs(y="%", x="") 
+    geom_bar(data = fig336_data, mapping = aes(x=reorder(county,-value), y=value, fill=objects), width=0.6, stat="identity") +
+    scale_fill_manual(values=c("#AFCD80","#79AC2C","#5B8121")) +
+    labs(y="%", x="") +
+    guides(fill=guide_legend(nrow=2,byrow=TRUE))
   
-print(fig336_plot + fig_theme_general)
+      fig336_theme <- theme(
+                    panel.grid.major.x = element_blank() ,
+                    panel.grid.minor.x = element_blank(),
+                    axis.line = element_line(size = 0.2, colour = "#cccccc"),
+                    axis.text.x = element_text(angle=45, margin = margin(t = 7, r = 0, b = 0, l = 0), hjust=1.1),
+                 )
+      
+print(fig336_plot + fig336_theme + fig_theme_general)
+
+ggsave(path="exported_figures/PDF/chapter3",filename="fig302.pdf", height=140, width=210, units="mm")
 
 ```
 
-```{block, type='imgsource'}
-Allikas: Kutsar jt (2018)
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Kutsar jt (2018)
 ```
-
 ### Rohevõrgustiku toimimine pole tervikuna tagatud {.chapter3_section}
 
 

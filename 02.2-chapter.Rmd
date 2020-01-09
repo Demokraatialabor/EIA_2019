@@ -1,1 +1,267 @@
-## Linnade, eeslinnade ja ääremaa geograafiline paiknemine {#chapter22 .chapter_section .chapter2_section}
+## Ehituspärand ja ruumikvaliteet {#chapter22 .chapter_section .chapter2_section}
+
+```{block, type='authors'}
+**Triin Talk ja Siim Raie**
+```
+
+```{block, type='points'}
+* Ehituspärand on mitmekesise ja kestliku ruumi alus, mille peale ehitada kohalikku identiteeti ja uut ruumikvaliteeti.
+
+* Kahaneva rahvastikuga piirkondades on palju kasutuseta ehitisi, mis kahjustavad avalikku ruumi ja väikelinnade atraktiivsust elukeskkonnana. Olukorra parandamiseks tuleb riigi ja Euroopa liidu vahendite kasutamisel seada eelisseisu ajalooliste hoonete korrastamine ning arvestada ruumiotsuste tegemisel kogukuluga ühiskonnale.
+
+* Neljandik mälestistest on halvas seisus ja kasutuseta, riigi panus nende korrastamisel ei ole piisav.
+```
+
+### Ehituspärand aitab luua mitmekesist ruumi {.chapter2_section}
+
+<p class="caption" id="figure221"><span class="figure-number">Joonis 2.2.1.</span> Eestlased külastavad ajaloolisi mälestisi ja kohti rohkem kui eurooplased keskmiselt.</p>
+
+
+```{r, figure221, fig.asp=1.6, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+
+library("tidyverse")
+library("scales")
+library("dplyr")
+library("grid")
+library("gridExtra")
+
+
+  
+ fig221_data <- read.csv ("data/22_fig1_data.csv", header=TRUE, fileEncoding="utf-8", sep=";")
+    
+  fig221_data$answer <- factor(fig221_data$answer, levels = c("Ei oska öelda","Ei ole","Vähemalt üks kord"))
+  
+  fig221_data$label <- fig221_data$value
+  fig221_data$label[which(fig221_data$label == 0)] <- NA
+ 
+  fig221_plot1 <- ggplot(subset(fig221_data, pop %in% c("EE"))) +
+    geom_bar(mapping = aes(x=question, y=value, fill=answer), width=0.5, stat="identity") +
+    geom_text(mapping = aes(x=question, y=value, label=round(label, digits=0)), stat="identity", color="white", position = position_stack(vjust = .5)) +
+     scale_fill_manual(values=c("#A8ACA6","#afd7d8","#369b9e")) +
+    coord_flip()+
+    labs(y="", x="") +
+    scale_x_discrete(labels = wrap_format(50)) +
+    ggtitle("EE") 
+  
+  
+      fig221_theme1 <- theme(
+      text = element_text(color = "#292b2c", size = 8,family=""),
+      axis.text.y = element_text(size=10),
+      axis.text.x = element_blank(),
+      panel.grid.major.y = element_blank(),
+      plot.title = element_text(size=14)
+  )
+
+  
+    fig221_plot2 <- ggplot(subset(fig221_data, pop %in% c("EL28"))) +
+    geom_bar(mapping = aes(x=question, y=value, fill=answer), width=0.5, stat="identity") +
+    geom_text(mapping = aes(x=question, y=value, label=round(label, digits=0)), stat="identity", color="white", position = position_stack(vjust = .5)) +
+     scale_fill_manual(values=c("#A8ACA6","#afd7d8","#369b9e")) +
+    coord_flip()+
+    labs(y="%", x="") +
+    scale_x_discrete(labels = wrap_format(50)) +
+    ggtitle("EL28")
+            
+  
+    fig221_theme2 <- theme(
+      text = element_text(color = "#292b2c", size = 8, family=""),
+      axis.text.y = element_text(size=10),
+      panel.grid.major.y = element_blank(),
+      legend.position = "none",
+      plot.title = element_text(size=14)
+  )
+
+
+grid.arrange(fig221_plot1 + fig_theme_general + fig221_theme1, fig221_plot2 + fig_theme_general + fig221_theme2, ncol = 1)
+
+g <- arrangeGrob(fig221_plot1 + fig_theme_general + fig221_theme1, fig221_plot2 + fig_theme_general + fig221_theme2, ncol = 1)
+ 
+ggsave(path="exported_figures/PDF/chapter2",filename="fig221.pdf",g, height=280, width=180, units="mm")
+
+```
+
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Eri-eurobaromeeter 466
+```
+
+### Olemasolevate ehitiste säilitamine on kestliku ruumilise arengu alus {.chapter2_section}
+
+### Üksikutel ruumiotsustel on suur mõju nii pärandile kui regionaalarengule {.chapter2_section}
+
+### Mälestised on ühine hüve ja jagatud vastutus {.chapter2_section}
+
+<p class="caption" id="figure223"><span class="figure-number">Joonis 2.2.3.</span> Ehitismälestiste omanikud</p>
+
+```{r, figure223, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+
+library("tidyverse")
+library("scales")
+  
+ fig223_data <- read.csv ("data/22_fig3_data.csv", header=TRUE, fileEncoding="utf-8")
+ 
+fig223_data$percent=percent((fig223_data$value/100), 1)
+
+  fig223_plot <- ggplot(data = fig223_data, aes(x = "", y = value, fill = owners)) + 
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values=c("#afd7d8","#369b9e","#297477")) +
+  geom_text(aes(label = percent), position = position_stack(vjust = 0.5), color="white") +
+  coord_polar(theta = "y") +
+  labs(x="", y="")
+  
+  fig223_theme <- theme(
+                    panel.grid.major.x = element_blank() ,
+                    panel.grid.major.y = element_blank(),
+                    panel.grid.minor.x = element_blank() ,
+                     panel.grid.minor.y = element_blank(),
+                     axis.line = element_blank(),
+                     axis.text.x = element_blank(),
+                 )
+  
+  
+  print(fig223_plot + fig_theme_general + fig223_theme)
+  
+  ggsave(path="exported_figures/PDF/chapter2",filename="fig223.pdf", height=120, width=200, units="mm")
+
+```
+
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Muinsuskaitseseaduse eelnõu seletuskiri
+```
+
+
+<p class="caption" id="figure224"><span class="figure-number">Joonis 2.2.4.</span> Aasta 2018 restaureerimistoetuste ülevaade</p>
+```{r, figure224, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+
+library("tidyverse")
+  
+ fig224_data <- read.csv ("data/22_fig4_data.csv", header=TRUE, fileEncoding="utf-8")
+
+  fig224_plot <- ggplot() +
+    geom_bar(data = fig224_data, mapping = aes(x=type, y=sum, fill=type), width=0.4, stat="identity") +
+    scale_fill_manual(values=c("#369b9e","#afd7d8")) +
+    labs(y="€", x="")+
+    scale_y_continuous(labels = number)
+  
+  fig224_theme <- theme(
+    legend.position=0,
+    text = element_text(size = 12),
+    panel.grid.major.x = element_blank() ,
+    panel.grid.minor.x = element_blank(),
+  )
+
+  print(fig224_plot + fig_theme_general + fig224_theme)
+  
+  ggsave(path="exported_figures/PDF/chapter2",filename="fig224.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
+```
+
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Muinsuskaitseamet
+```
+
+
+<p class="caption" id="figure225"><span class="figure-number">Joonis 2.2.5.</span> Pühakodade programm</p>
+
+```{r, figure225, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+
+library("tidyverse")
+library("scales")
+  
+ fig225_data <- read.csv ("data/22_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
+
+ 
+  fig225_plot <- ggplot(data = fig225_data) +
+    geom_line(mapping = aes(x=year, y = value, colour=type, group=type), size=1) +
+    scale_colour_manual(values=c("#afd7d8","#369b9e"))+
+    labs(y="€", x="aasta") +
+    scale_x_continuous(breaks = c(2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018))+
+    scale_y_continuous(breaks = c(0,1000000,2000000,3000000,4000000,5000000), labels = number)+
+    expand_limits (y=0)
+  
+   fig225_theme <- theme(
+     panel.grid.minor.x = element_blank()
+  )
+
+  print(fig225_plot + fig_theme_general + fig225_theme)
+  
+  ggsave(path="exported_figures/PDF/chapter2",filename="fig225.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
+```
+
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Muinsuskaitseamet
+```
+
+<p class="caption" id="figure226"><span class="figure-number">Joonis 2.2.6.</span> Graafik näitab kinnismälestiste riikliku restaureerimistoetuse mahu muutumist kõrvutatuna riigieelarve kuludega.</p>
+
+```{r, figure226, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+
+library("tidyverse")
+  
+ fig226_data <- read.csv ("data/22_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
+
+ 
+  fig226_plot <- ggplot(data = fig226_data) +
+    geom_line(mapping = aes(x=year, y = value, colour=type, group=type), size=1) +
+    scale_colour_manual(values=c("#afd7d8","#369b9e"))+
+    labs(y="", x="aasta") +
+    scale_x_continuous(breaks = c(2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018))+
+    scale_y_continuous(breaks = c(0,2000000,4000000,6000000,8000000,10000000),labels = number) +
+    expand_limits (y=0)
+  
+   fig226_theme <- theme(
+     panel.grid.minor.x = element_blank()
+  )
+
+  print(fig226_plot + fig_theme_general + fig226_theme)
+  
+  ggsave(path="exported_figures/PDF/chapter2",filename="fig226.pdf", height=120, width=200, units="mm")
+```
+
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Statistikaamet / Muinsuskaitseamet
+```
+
+
+<p class="caption" id="figure227"><span class="figure-number">Joonis 2.2.7.</span> Vahendid kultuuripärandile.</p>
+
+```{r, figure227, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+
+library("tidyverse")
+library("scales")
+  
+fig227_data <- read.csv ("data/22_fig7_data.csv", header=TRUE, fileEncoding="utf-8")
+
+fig227_data$answer <- factor(fig227_data$answer, levels = c("Nõustun","Ei nõustu","Ei oska öelda"))
+ 
+fig227_data$percent=percent((fig227_data$value/100), 1)
+
+  fig227_plot <- ggplot() + 
+  geom_rect(data= subset(fig227_data, pop %in% c("EE")), aes(fill=answer, ymax=ymax, ymin=ymin, xmax=2.9, xmin=0)) +
+  geom_rect(data= subset(fig227_data, pop %in% c("EL28")), aes(fill=answer, ymax=ymax, ymin=ymin, xmax=3, xmin=4)) +
+  geom_text(data=fig227_data, aes(label = percent, x=x, y=value), position = position_stack(vjust = 0.5), color="white") +
+  xlim(c(0, 4)) + 
+  coord_polar(theta = "y") +
+ 
+  
+  scale_fill_manual(values=c("#369b9e","#afd7d8","#A8ACA6")) +
+  labs(x="", y="")
+  
+  fig227_theme <- theme(
+                    aspect.ratio=1,
+                    panel.grid.major.x = element_blank() ,
+                    panel.grid.major.y = element_blank(),
+                    panel.grid.minor.x = element_blank() ,
+                    panel.grid.minor.y = element_blank() ,
+                    axis.line = element_blank(),
+                    axis.text.x = element_blank(),
+                    axis.text.y = element_blank(),
+                 )
+  
+  print(fig227_plot + fig_theme_general + fig227_theme)
+  
+  ggsave(path="exported_figures/PDF/chapter2",filename="fig227.pdf", height=120, width=200, units="mm")
+
+```
+
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Statistikaamet / Muinsuskaitseamet
+```

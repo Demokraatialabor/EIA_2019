@@ -22,7 +22,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Facilisis mauris sit amet massa. Nisi porta lorem mollis aliquam ut porttitor leo. Aliquet nibh praesent tristique magna sit amet. Orci nulla pellentesque dignissim enim sit amet. Egestas sed sed risus pretium quam. Elementum integer enim neque volutpat ac tincidunt vitae semper quis. Sit amet mattis vulputate enim. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit. Enim facilisis gravida neque convallis a cras semper. Scelerisque eu ultrices vitae auctor eu augue.
 
-```{r, figure301, fig.cap='Inimarengu indeksi ja ökosüsteemide elujõulisuse indeksi seos 179 riigi põhjal ning Eesti positsiooni (punased punktid, aastad) muutus 2005–2014.', out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
+<p class="caption" id="figure301"><span class="figure-number">Joonis 3.0.1.</span> Inimarengu indeksi ja ökosüsteemide elujõulisuse indeksi seos 179 riigi põhjal ning Eesti positsiooni (punased punktid, aastad) muutus 2005–2014.(%)</p>
+
+*Seos põhineb HDI osas ÜRO arenguprogrammi (http://hdr.undp.org/en/data) ja ECO osas Wendland jt (2018) andmetel. ECO puhul on kompleksindeksi osakaaludest arvutatud keskmine lähteaasta (2005; algandmed 2001–2007) ja lõpuaasta (2014; algandmed 2010–2017), viimasega ongi seostatud HDI (2014). Rõhtjoon tähistab ECO taset Eesti 2014. aasta inimarengu aruandes (Terasmaa ja Pajula 2015), mida ei ole tagasiulatuvalt korrigeeritud ja mille seisundiaasta oli täpsustamata.*
+
+```{r, figure301, out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
   
@@ -31,48 +35,62 @@ library("tidyverse")
  fig301_data_est <- subset (fig301_data, country_name == "Estonia", select=c(iso3,country_name,hdi_2014, hdi_2017, country,epi_current, eco_current))
 
   fig301_plot <- ggplot() +
-    geom_point(data = fig301_data, mapping = aes(x=hdi_2014, y=eco_current), colour="blue", show.legend = NA) +
+    geom_point(data = fig301_data, mapping = aes(x=hdi_2014, y=eco_current), colour="#C8C6BF", show.legend = NA) +
     
-    geom_smooth(data = fig301_data, mapping = aes(x=hdi_2014, y=eco_current),method=lm, se=FALSE, colour="black") +
+    geom_smooth(data = fig301_data, mapping = aes(x=hdi_2014, y=eco_current),method=lm, se=FALSE, colour="#3A404A") +
     
-    geom_point(data = fig301_data_est, mapping = aes(x=hdi_2014, y=eco_current), colour="red", show.legend = NA) +
-    geom_text(data = fig301_data_est, mapping = aes(x=hdi_2014, y=eco_current, label="2014"),hjust=1, vjust=0, colour="red")+
+    geom_point(data = fig301_data_est, mapping = aes(x=hdi_2014, y=eco_current), colour="#79AC2C", show.legend = NA) +
+    geom_text(data = fig301_data_est, mapping = aes(x=hdi_2014, y=eco_current, label="2014"),hjust=1, vjust=1.7, colour="#79AC2C")+
     
-    geom_point(data = fig301_data_est, mapping = aes(x=0.8, y=65), colour="red", show.legend = NA) +
-      geom_text(data = fig301_data_est, mapping = aes(x=0.8, y=65, label="???"),hjust=0, vjust=0, colour="red") +
+    geom_point(data = fig301_data_est, mapping = aes(x=0.8, y=65), colour="#79AC2C", show.legend = NA) +
+      geom_text(data = fig301_data_est, mapping = aes(x=0.8, y=65, label="???"),hjust=0, vjust=-1, colour="#79AC2C") +
     
     scale_x_continuous(breaks=c(0.2,0.3,0.4, 0.5, 0.6,0.7,0.8,0.9,1)) +
     labs(y="Ökosüsteemide elujõulisus (ECO)", x="Inimarengu indeks (HDI)") 
   
   print(fig301_plot + fig_theme_general)
+  
+  ggsave(path="exported_figures/PDF/chapter3",filename="fig301.pdf", height=140, width=200, units="mm")
 
 ```
 
-```{block, type='imgsource'}
-Allikas:
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> 
 ```
-
-*Seos põhineb HDI osas ÜRO arenguprogrammi (http://hdr.undp.org/en/data) ja ECO osas Wendland jt (2018) andmetel. ECO puhul on kompleksindeksi osakaaludest arvutatud keskmine lähteaasta (2005; algandmed 2001–2007) ja lõpuaasta (2014; algandmed 2010–2017), viimasega ongi seostatud HDI (2014). Rõhtjoon tähistab ECO taset Eesti 2014. aasta inimarengu aruandes (Terasmaa ja Pajula 2015), mida ei ole tagasiulatuvalt korrigeeritud ja mille seisundiaasta oli täpsustamata.*
 
 Neque ornare aenean euismod elementum nisi. Id faucibus nisl tincidunt eget nullam non nisi. Convallis convallis tellus id interdum velit laoreet id donec ultrices. Ac feugiat sed lectus vestibulum mattis ullamcorper. Ultrices eros in cursus turpis massa. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. In nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Pellentesque adipiscing commodo elit at imperdiet. Egestas congue quisque egestas diam in arcu. Eget nunc scelerisque viverra mauris in aliquam sem fringilla ut. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Amet porttitor eget dolor morbi non.
 
-```{r, figure302, fig.cap='Metsamaa, sh, riigimetsa (eristatud puistud ja metsata metsamaa) osakaal maakondade üldpindalast 2017. aastal (andmed: Raudsaar jt, 2018)', out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
+
+<p class="caption" id="figure302"><span class="figure-number">Joonis 3.0.2.</span> Metsamaa, sh, riigimetsa (eristatud puistud ja metsata metsamaa) osakaal maakondade üldpindalast 2017. aastal (andmed: Raudsaar jt, 2018)</p>
+
+```{r, figure302, out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 library("reshape")
   
- fig302_data <- read.csv ("data/30_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
-
-  fig302_data_clean <- subset(fig302_data, select=c(county,country_stands,country_without_forest,other_forest_land.1))
+fig302_data <- read.csv ("data/30_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
+fig302_data_clean <- subset(fig302_data, select=c(county,country_stands,country_without_forest,other_forest_land.1))
   
- fig302_data_melt <- melt (fig302_data_clean, id=c("county"))
+fig302_data_melt <- melt (fig302_data_clean, id=c("county"))
+fig302_data_melt$variable <- factor(fig302_data_melt$variable, levels = c("other_forest_land.1","country_without_forest","country_stands"))
  
-  fig302_plot <- ggplot() +
-    geom_bar(data = fig302_data_melt, mapping = aes(x=county, y=value*100, fill=variable), width=0.7, stat="identity") +
-    
-    labs(y="% pindalast", x="") 
+fig302_plot <- ggplot() +
   
-  print(fig302_plot + fig_theme_general)
+    geom_bar(data = fig302_data_melt, mapping = aes(x=county, y=value*100, fill=variable), width=0.6, stat="identity") +
+    scale_fill_manual(labels = c("Muu metsamaa", "Riik: metsata", "Riik: puistud"), values=c("#A8ACA6","#5B8121","#79AC2C")) +
+    labs(y="% pindalast", x="") 
+
+  
+fig302_theme <- theme(
+                    panel.grid.major.x = element_blank() ,
+                    panel.grid.minor.x = element_blank(),
+                    axis.line = element_line(size = 0.2, colour = "#cccccc"),
+                    axis.text.x = element_text(angle=45, margin = margin(t = 0, r = 0, b = 0, l = 0), hjust=1.1),
+                 )
+  
+  print(fig302_plot + fig302_theme + fig_theme_general)
+  
+  ggsave(path="exported_figures/PDF/chapter3",filename="fig302.pdf", height=140, width=210, units="mm")
 
 ```
 

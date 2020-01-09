@@ -18,24 +18,32 @@ Asu lugema
 
 ### Lähtekohad {-.chapter1_section}
 
-tekst tekst
+tekst tekst tekst
 
-```{r, figure101, fig.cap=' Elanike arvu muutus Eesti maakonnakeskustes, 2000-2017, rahvaarv 01.01 seisuga. 2000=100%', out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
+<p class="caption" id="figure101"><span class="figure-number">Joonis 1.0.1.</span> Elanike arvu muutus Eesti maakonnakeskustes, 2000–2017, rahvaarv 1.jaanuari seisuga 2000 = 100%</p>
+
+*Ida-Virumaal on kaasatud kõik suuremad linnad. Kärdla, Rapla, Põlva, Jõhvi puhul on andmed esitatud vallasisese linna kohta.*
+
+```{r, figure101, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
+library(showtext)
+
+showtext_auto()
+font_add_google(name = "Montserrat", family = "montserrat")
   
  fig101_data <- read.csv ("data/10_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
 
-fig101_palette <- c("#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#79AC2C")
+fig101_palette <- c("#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#b6a8cd")
  
   fig101_plot <- ggplot(data = fig101_data) +
     geom_col(mapping = aes(x=reorder(county, change), y=change), fill=fig101_palette, width=0.6, show.legend = NA) +
     scale_y_continuous(breaks=c(0, 20,40, 60, 80, 100)) +
-    labs(y="elanikkonna protsent võrreldes aastaga 2000 (%)", x="") 
+    labs(y="%", x="") 
   
   
   fig_theme_general <- theme(
-                     text = element_text(color = "#292b2c", size = 12),
+                     text = element_text(color = "#292b2c", size = 12, family=""),
                      panel.background = element_rect(fill = "white", colour = "white"),
                      panel.grid.major = element_line(colour="#cccccc", size = (0.2)),
                      panel.grid.minor = element_line(size = (0.2), colour="#cccccc"),
@@ -59,19 +67,18 @@ fig101_palette <- c("#482683","#482683","#482683","#482683","#482683","#482683",
   
     fig101_theme <- theme(
                     panel.grid.major.x = element_blank() ,
-                     panel.grid.minor.x = element_blank(),
-                     axis.line = element_line(size = 0.2, colour = "#cccccc"),
-                     axis.text.x = element_text(angle=45, margin = margin(t = 7, r = 0, b = 0, l = 0), hjust=1.1),
+                    panel.grid.minor.x = element_blank(),
+                    axis.line = element_line(size = 0.2, colour = "#cccccc"),
+                    axis.text.x = element_text(angle=45, margin = margin(t = 7, r = 0, b = 0, l = 0), hjust=1.1),
                  )
   
   print(fig101_plot + fig_theme_general + fig101_theme)
+  
+  ggsave(path="exported_figures/PDF/chapter1",filename="fig101.pdf", height=140, width=210, units="mm")
 
 ```
-
-```{block, type='imgsource'}
-Allikas: Statistikaamet, tabelid RV0240 - 2018, RV0240 - 2000
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Statistikaamet 2018
 ```
-
-*Ida-Virumaal on kaasatud kõik suuremad linnad. Kärdla, Rapla, Põlva, Jõhvi puhul on andmed esitatud vallasisesese linna kohta*
 
 ### Lorem ipsum dolor

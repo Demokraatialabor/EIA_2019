@@ -23,6 +23,7 @@
 
 library("tidyverse")
 library("scales")
+
   
  fig141_data <- read.csv ("data/14_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
  

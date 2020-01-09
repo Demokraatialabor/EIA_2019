@@ -1,15 +1,15 @@
-## Elamistingimused ning riiklike eluaseme toetuste ruumiline jaotumine {#chapter21 .chapter_section .chapter2_section}
+## Avalik ruum kui elukeskkonda siduv võrgustik {#chapter21 .chapter_section .chapter2_section}
 
 ```{block, type='authors'}
-**Tiit, Teet (Eluülikool)**
+**Toomas Paaver ja Elo Kiivet**
 ```
 
 ```{block, type='points'}
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+* Avalik ruum moodustab seotud süsteemi, mille kvaliteedist sõltub inimeste heaolu ja tervis, ühiskondlik sidusus, linnade ja riigi maine ja majandusedu.
 
-* Auctor urna nunc id cursus metus aliquam. Malesuada fames ac turpis egestas sed tempus urna et pharetra
+* Eesti senises õigussüsteemis ja riigisektoris ei ole avalikku ruumi tervikuna käsitletud ega tähtsustatud.
 
-* Ultrices sagittis orci a scelerisque purus
+* Avaliku ruumi hoidmine ja arendamine on avaliku sektori ülesanne ning see eeldab loomingulisust, professionaalsust ja koostööd.
 ```
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque purus. Auctor urna nunc id cursus metus aliquam. Malesuada fames ac turpis egestas sed tempus urna et pharetra. Non diam phasellus vestibulum lorem. Fermentum iaculis eu non diam phasellus vestibulum. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque. Elit pellentesque habitant morbi tristique senectus. Pulvinar neque laoreet suspendisse interdum consectetur. Sit amet nisl purus in mollis. Dignissim suspendisse in est ante in. Pretium viverra suspendisse potenti nullam ac tortor. Tellus cras adipiscing enim eu turpis egestas pretium. Sit amet volutpat consequat mauris nunc. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Iaculis nunc sed augue lacus viverra vitae congue eu consequat.
 

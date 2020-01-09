@@ -64,7 +64,7 @@ library("scales")
   
 print(fig421_plot + fig_theme_general+ fig421_theme)
 
-ggsave(path="exported_figures/PDF",filename="fig421.pdf", height=200, width=200, units="mm")
+ggsave(path="exported_figures/PDF/chapter4",filename="fig421.pdf", height=200, width=200, units="mm")
 
 ```
 
@@ -161,7 +161,7 @@ library("dplyr")
   
 print(fig423_plot + fig_theme_general + fig423_theme)
 
-ggsave(path="exported_figures/PDF",filename="fig423.pdf", height=230, width=170, units="mm")
+ggsave(path="exported_figures/PDF/chapter4",filename="fig423.pdf", height=230, width=170, units="mm")
 
 ```
 

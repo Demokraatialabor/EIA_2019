@@ -350,12 +350,20 @@ h3 .header-section-number{
 	color: #C54409 !important;
 }
 
+.chapter0_section .figure-number {
+	color: #C54409 !important;
+}
+
 .chapter0_section .blockquote-left, .chapter0_section .blockquote-right {
   color:#C54409;
 }
 
 .chapter0_section .definition-left, .chapter0_section .definition-right {
     border-bottom: solid 15px #C54409;
+}
+
+.chapter0_section .imgsource-source {
+  color:#C54409;
 }
 
 .chapter0_section + h3 + #refs  a{
@@ -385,12 +393,20 @@ h3 .header-section-number{
 	color: #482683 !important;
 }
 
+.chapter1_section .figure-number {
+	color:  #482683 !important;
+}
+
 .chapter1_section .blockquote-left, .chapter1_section .blockquote-right {
   color:#482683;
 }
 
 .chapter1_section .definition-left, .chapter1_section .definition-right {
     border-bottom: solid 15px #482683;
+}
+
+.chapter1_section .imgsource-source {
+  color:#482683;
 }
 
 .chapter1_section + h3 + #refs  a{
@@ -419,6 +435,10 @@ h3 .header-section-number{
 	color: #369B9E !important;
 }
 
+.chapter2_section .figure-number {
+	color: #369B9E !important;
+}
+
 .chapter2_section .blockquote-left, .chapter2_section .blockquote-right  {
   color:#369B9E;
 }
@@ -438,6 +458,10 @@ h3 .header-section-number{
     
 .chapter2_section .casebox p {
     padding-left: 13em;}
+    
+.chapter2_section .imgsource-source {
+  color:#369B9E;
+}
     
 .chapter2_section + h3 + #refs  a{
      color:  #369B9E !important;
@@ -466,6 +490,10 @@ h3 .header-section-number{
 	color: #79AC2C !important;
 }
 
+.chapter3_section .figure-number {
+	color: #79AC2C !important;
+}
+
 .chapter3_section .blockquote-left, .chapter3_section .blockquote-right {
   color:#79AC2C;
 }
@@ -474,9 +502,14 @@ h3 .header-section-number{
     border-bottom: solid 15px #79AC2C;
 }
 
+.chapter3_section .imgsource-source {
+  color:#79AC2C;
+}
+
 .chapter3_section + h3 + #refs  a{
      color:  #79AC2C !important;
 }
+
 /* Chapter 4 - #BC9417 */
 
 #chapter40.intro_section::before{
@@ -548,12 +581,20 @@ h3 .header-section-number{
 	color: #A01B17 !important;
 }
 
+.chapter5_section .figure-number {
+	color: #A01B17 !important;
+}
+
 .chapter5_section .blockquote-left, .chapter5_section .blockquote-right {
   color:#A01B17;
 }
 
 .chapter5_section .definition-left, .chapter5_section .definition-right {
     border-bottom: solid 15px #A01B17;
+}
+
+.chapter5_section .imgsource-source {
+  color:#A01B17;
 }
 
 .chapter5_section + h3 + #refs  a{

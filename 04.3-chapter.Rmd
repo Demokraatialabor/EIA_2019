@@ -52,7 +52,9 @@ Artikli põhiseisukoht on, et ajakirjanduse võimalused avaliku arvamusruumi kuj
 
 
 **1) milline on arutelu ajakirjanduse enda kontrollitud aruteluruumis, see tähendab ajalehtedes ja uudisportaalides;**
+
 **2) kuidas mõjutavad veebiajakirjanduse kommentaariumid ajakirjanduse kujundatavat aruteluruumi ning **
+
 **3) milliseid võimalusi ja probleeme on ajakirjanduse kujundatavale aruteluruumile toonud kaasa sotsiaalmeedia.**
 
 Ajakirjanduse seisukohalt vaadatuna hõlmab avalik aruteluruum erineva kontrollipotentsiaaliga alasid – näiteks päevalehe arvamusartiklite valiku teeb toimetaja, Riigikogu saali arutelu on aga ajakirjanduse kontrolli alt põhimõtteliselt väljas, kuigi ei saa eitada, et ajakirjandusel võib olla sellele kaudne mõju. Nendes arvamusruumi osades, mis jäävad ajakirjandusliku sekkumise ulatusest välja, kujundavad arvamusruumi üksikisikute ja huvigruppide osalemissoov, aktiivsus ja aruteluoskused – **agentsus**. Interneti puhul on olulised ka eri keskkondade tehnoloogilised võimalused ja piirangud.
@@ -126,7 +128,9 @@ Ajakirjanduse kontrollitud arvamusruumist kõrvale jäetutel on olnud internetit
 
 Nimetatud tähelepanekud osutavad, et Eesti ajakirjanduse kujundatav arvamusruum ei erine teiste demokraatlike riikide omast. Ka mujal antakse üldauditooriumile suunatud meedias sõna eelkõige ühiskondlikule eliidile, avaldatakse suur hulk ajakirjanike enda arvamusi ning arvamusruumi mitmekesistumise ülesannet täidavad eelkõige alternatiivmeedia kanalid.
 
-**Meelsusmeediaks nimetatakse sellist meediat, mis edastab ainult ühte kitsast maailmavaadet, mille sisus ei ole maailmavaatelist paljusust.**
+```{block, type='definition-right'}
+Meelsusmeediaks nimetatakse sellist meediat, mis edastab ainult ühte kitsast maailmavaadet, mille sisus ei ole maailmavaatelist paljusust.
+```
 
 ### Veebiajakirjanduse kaasav arhitektuur ja toimimine {.chapter4_section}
 

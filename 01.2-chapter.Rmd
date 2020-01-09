@@ -73,37 +73,32 @@ Noorkõiv 2013), mida toetab suvel hooajaliselt maal elamise tendents (mis hõlm
 elanikest – Ahas jt 2011). Seni ei ole uued teenimisvõimalused ometi kaugeltki korvanud struktuurset
 tööhõive vähenemist põllumajanduses.
 
-```{r, figure122, fig.cap='Viljandi-, Valga-, Võru- ja Põlvamaa elanike töökohtade paiknemine elukoha maakonnas, mujal Eestis või väljaspool Eestit 2000. ja 2011.aastal', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
- library("tidyverse")
+<p class="caption" id="figure122"><span class="figure-number">Joonis 1.2.2.</span> Viljandi-, Valga-, Võru- ja Põlvamaa elanike töökohtade paiknemine elukoha maakonnas, mujal Eestis või väljaspool Eestit 2000. ja 2011.aastal</p>
+
+```{r, figure122, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
 library("svglite")
 
-  fig122 <- read.csv ("data/23_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
-  fig2plot <- ggplot(data = fig122) +
+  fig122_data <- read.csv ("data/12_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
+  fig122_plot <- ggplot(data = fig122_data) +
   geom_col(mapping = aes(x=county, y=value, fill=location_est), width=0.7) +
   facet_wrap(~year, nrow=1) +
   labs(y="Töökohtade arv", x="", fill="Töökoha paiknemine") +
-  scale_fill_manual(values=c("#482683", "#79AC2C", "#369B9E"))
+  scale_fill_manual(values=c("#482683", "#917db5", "#A8ACA6"))
   
- fig2theme <- theme(
-                    text = element_text(color = "#777777", size = 13),
-                    panel.background = element_rect(fill = "white", colour = "white"),
-                    panel.grid.major = element_line(colour="#cccccc", size = (0.2)),
-                    panel.grid.minor = element_line(size = (0.2), colour="#cccccc"),
-                    axis.line = element_line(size = 0.2, colour = "#cccccc"),
-                    axis.ticks = element_line(colour = "#cccccc", size=(0.2)),
-                    strip.background =element_rect(fill="white"),
-                    strip.text = element_text(colour = "#777777", size = 14),
+ fig122_theme <- theme(
+          panel.grid.major.x = element_blank() ,
+          panel.grid.minor.x = element_blank()
                  )
   
-  print(fig2plot + fig2theme)
+  print(fig122_plot + fig_theme_general + fig122_theme)
 
-  ggsave(path="exported_figures/SVG/", filename="fig122.svg", height=150, width=200, units="mm")
-  ggsave(path="exported_figures/PDF",filename="fig122.pdf", height=150, width=200, units="mm")
-  ggsave(path="exported_figures/PNG",filename="fig122.png",height=150, width=200, units="mm")
+ggsave(path="exported_figures/PDF/chapter1",filename="fig122.pdf", height=140, width=200, units="mm")
 ```
-```{block, type='imgsource'}
-Allikas: Statistikaamet
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Statistikaamet
 ```
 
 Ehkki põllumajanduses toimusid peamised tööhõive muutused juba 1990. aastatel, ei ole hõive vähenemine
@@ -139,33 +134,38 @@ arvamusliidrite ja ajalehetoimetajatega tehtud intervjuude diskursuseanalüüs (
 ääremaade kuvandit toodab arvamuseliit. See koosneb peamiselt ajakirjanikest, teadlastest, poliitikutest
 ning kultuuri- ja kunstiinimestest, kes esindavad linlikke institutsioone nagu meediaväljaanded, riigiasutused, ülikoolid või kultuuriasutused (umbes 86% autoritest, joonis \@ref(fig:joonis233)). Ajalehtede suure lugejaskonna tõttu mõjutab eliidi arutelu[s regionaalarengu ja ääremaastumise üle esitatav maapiirkondade kuvand] ka otsustajaid ning maapiirkondade ja väikelinnade elanikke, kes aga ise on arutellu vähem kaasatud.
 
-```{r, joonis123, fig.cap='Kes kujundavad maapiirkondade kuvandit Eesti trükimeedias?', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+<p class="caption" id="figure123"><span class="figure-number">Joonis 1.2.3.</span> Kes kujundavad maapiirkondade kuvandit Eesti trükimeedias?</p>
+
+*Märkus: Arvutused põhinevad 296 arvamusartiklil, mis avaldati ajalehtedes Postimees, Eesti Päevaleht ja Maaleht perioodil 2011–2015. Arvamusliidriks selles analüüsis loeti artikli autorid ja kaasautorid, vastutavad ajakirjanikud ja toimetajad.*
+
+```{r, joonis123, fig.cap='', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
+library("scales")
   
- fig3 <- read.csv ("data/23_fig3_data.csv", header=TRUE, fileEncoding="utf-8")
+ fig123_data <- read.csv ("data/12_fig3_data.csv", header=TRUE, fileEncoding="utf-8")
+ 
+ fig123_data$percent=percent((fig123_data$proportion/100), 1)
 
-  fig3plot <- ggplot(data = fig3) +
+  fig123_plot <- ggplot(data = fig123_data) +
     geom_col(mapping = aes(x=reorder(body_est, proportion), y=proportion), fill="#482683", width=0.7, show.legend = NA) +
-    geom_text(aes(label = proportion, x=body_est, y=proportion), nudge_x = 0, nudge_y = 3, color="#777777") +
+    geom_text(aes(label = percent, x=body_est, y=proportion), nudge_x = 0, nudge_y = 3, color="#777777") +
     labs(y="%", x="") + 
     coord_flip ()
   
-  fig3theme <- theme(aspect.ratio = 0.8,
-                     text = element_text(color = "#777777", size = 14),
-                     panel.background = element_rect(fill = "white", colour = "white"),
-                     panel.grid.major = element_line(colour="#cccccc", size = (0.2)),
-                     panel.grid.minor = element_line(size = (0.2), colour="#cccccc"),
-                     axis.line = element_line(size = 0.2, colour = "#cccccc"),
-                     axis.ticks = element_line(colour = "#cccccc", size=(0.2)),
-                     plot.margin = unit(c(0,0,0,0), "cm")
+  fig123_theme <- theme(
+                  panel.grid.major.y = element_blank() ,
+                  panel.grid.minor.y = element_blank()
                  )
   
-  print(fig3plot + fig3theme)
+  print(fig123_plot + fig_theme_general + fig123_theme)
+  
+  ggsave(path="exported_figures/PDF/chapter1",filename="fig123.pdf", height=140, width=200, units="mm")
 ```
 
 ``` {block, type='imgsource'}
-Allikas: Plüschke-Altof (2017). Arvutused põhinevad 296 arvamusartiklil (Postimees, Eesti Päevaleht, Maaleht 2011–2015).
+Allikas: Plüschke-Altof 2017
 ```
 
 Meedias seostatakse ääremaad enamasti maapiirkondadega (52% juhtudest), viidates konkreetsetele
@@ -182,25 +182,31 @@ mitte ainult seostatakse ääremaisusega, vaid pannakse neile ka vastutus, jätt
 head, nagu ütleb üks arvamusliider. Kordamise kaudu muutub seos lugejaskonna ja laiema üldsuse silmis
 iseenesestmõistetavaks.
 
+<p class="caption" id="figure123"><span class="figure-number">Joonis 1.2.3.</span> Mis kohti kirjeldatakse Eesti trükimeedias kui ääremaad?</p>
+*Märkus: Arvutused põhinevad 296 arvamusartiklil, mis avaldati ajalehtedes Postimees, Eesti Päevaleht ja Maaleht perioodil 2011–2015.*
+
 ```{r, joonis124, fig.cap='Mis kohti kirjeldatakse Eesti trükimeedias kui ääremaad?', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
 library(ggwordcloud)
+library(wordcloud)
 library(dplyr)
 
-fig4 <- read.csv ("data/23_fig4_data.csv", header=TRUE)
-fig4 <- sample_frac(fig4, 1L) ##randomizing order of data frame to keep the words shuffled
+fig124_data <- read.csv ("data/12_fig4_data.csv", header=TRUE)
+fig124_data <- sample_frac(fig124_data, 1L) ##randomizing order of data frame to keep the words shuffled
 
 set.seed(42)
-fig4plot <- ggplot(fig4, aes(label = location_est, size = freq, color=freq)) +
-  geom_text_wordcloud_area(area_corr_power = 1/.9, eccentricity = 0.4) +
+fig124_plot <- ggplot(fig124_data, aes(label = location_est, size=freq, color=freq)) +
+  geom_text_wordcloud_area(eccentricity = 0.4, area_corr = F) +
   scale_size_area(max_size = 10) +
   theme_minimal() +
-  scale_color_gradient(low = "#a58ad5", high = "#482683")
+  scale_color_gradient(low = "#B6A8CD", high = "#482683")
 
-print(fig4plot)
+print(fig124_plot)
+ggsave(path="exported_figures/PDF/chapter1",filename="fig124.pdf", height=120, width=200, units="mm")
 ```
 
 ``` {block, type='imgsource'}
-Allikas: Plüschke-Altof (2017). Arvutused põhinevad 296 arvamusartiklil (Postimees, Eesti Päevaleht, Maaleht 2011–2015).
+Allikas: Plüschke-Altof 2017
 ```
 
 Olgugi et meedias domineerib maapiirkondade negatiivne ääremaakuvand, on olemas ka vastudiskursus, mis

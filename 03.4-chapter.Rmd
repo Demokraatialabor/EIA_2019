@@ -38,7 +38,10 @@ Hinnang sellele, mil määral saavad Eesti inimesed niisuguste otsuste tegemises
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque purus. Auctor urna nunc id cursus metus aliquam. Malesuada fames ac turpis egestas sed tempus urna et pharetra. Non diam phasellus vestibulum lorem. Fermentum iaculis eu non diam phasellus vestibulum. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque. Elit pellentesque habitant morbi tristique senectus. Pulvinar neque laoreet suspendisse interdum consectetur. Sit amet nisl purus in mollis. Dignissim suspendisse in est ante in. Pretium viverra suspendisse potenti nullam ac tortor. Tellus cras adipiscing enim eu turpis egestas pretium. Sit amet volutpat consequat mauris nunc. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Iaculis nunc sed augue lacus viverra vitae congue eu consequat.
 
-```{r, figure345, fig.cap='Loodusvaatluste andmebaasi kasutamine viimase 10 aasta jooksul.', out.width='85%', fig.align='center', echo=FALSE, message=FALSE}
+<p class="caption" id="figure345"><span class="figure-number">Joonis 3.4.5.</span> Loodusvaatluste andmebaasi kasutamine
+viimase 10 aasta jooksul. Andmebaas on riigi hallatav ja huvilistele avatud liigivaatluste kogu. </p>
+
+```{r, figure345, message=FALSE, echo=FALSE, warning=FALSE}
 
 library("tidyverse")
   
@@ -52,19 +55,26 @@ fig345_data2_melt <- melt (fig345_data2, id=c("year"))
  
 
   fig345_plot1 <- ggplot() +
-    geom_line(data = fig345_data1_melt, mapping = aes(x=year, y=value, colour=variable, group=variable), size=1.2) +
-    labs(y="", x="")
+    geom_line(data = fig345_data1_melt, mapping = aes(x=year, y=value), size=1.2, colour="#79AC2C") +
+    labs(y="linnuvaatlejate arv", x="")
   
     fig345_plot2 <- ggplot() +
-    geom_line(data = fig345_data2_melt, mapping = aes(x=year, y=value, colour=variable, group=variable), size=1.2) +
-    labs(y="", x="")
+    geom_line(data = fig345_data2_melt, mapping = aes(x=year, y=value), size=1.2, colour="#5B8121") +
+    labs(y="linnuvaatluste arv", x="aasta")
   
   
   
  grid.arrange(fig345_plot1 + fig_theme_general, fig345_plot2 + fig_theme_general, ncol = 1)
+ 
+ggsave(path="exported_figures/PDF/chapter3",filename="fig345a.pdf",fig345_plot1 + fig_theme_general, height=70, width=200, units="mm")
+ 
+ggsave(path="exported_figures/PDF/chapter3",filename="fig345b.pdf",fig345_plot2 + fig_theme_general, height=70, width=200, units="mm")
 
 ```
 
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> https://lva.keskkonnainfo.ee/
+```
 
 *Andmebaas on riigi hallatav ja huvilistele avatud liigivaatluste kogu*
 *Väljaspool riiklikku seiret e-elurikkuse platvormi kaudu PlutoF andmebaasi sisestatud linnuvaatluste ja linnuvaatlejate arv. Allikas: PlutoF andmebaas, koostanud Veljo Runnel.*

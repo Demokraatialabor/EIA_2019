@@ -24,64 +24,56 @@
 
 ### Eeslinnakasv {.chapter1_section}
 
-```{r, figure131, fig.cap='Eeslinlaste arv 2001-2018', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+<p class="caption" id="figure131"><span class="figure-number">Joonis 1.3.1.</span> Tallinna, Tartu ja Pärnu lähiümbruses</p>
 
-print("LINE GRAPH")
+```{r, figure131, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+library("tidyverse")
+  
+ fig131_data <- read.csv ("data/13_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
+
+ 
+  fig131_plot <- ggplot(subset(fig131_data, area %in% c("Tallinna eeslinn", "Tartu eeslinn", "Pärnu eeslinn"))) +
+    geom_line(mapping = aes(x=year, y = as.numeric(value), colour=area, group=area), size=1) +
+    geom_text(mapping = aes(x=year, y=as.numeric(value), label=value), stat="identity", vjust=-1) +
+    scale_colour_manual(values=c("#3A404A","#482683","#A8ACA6")) +
+    scale_y_continuous() +
+    scale_x_continuous(breaks=c(2001,2006,2011,2016,2017,2018)) +
+    labs(y="eeslinlaste arv", x="aasta")
+
+  
+   fig131_theme <- theme(
+  )
+
+  print(fig131_plot + fig_theme_general + fig131_theme)
+  
+  ggsave(path="exported_figures/PDF/chapter1",filename="fig131.pdf", height=160, width=250, units="mm")
 ```
 
 ```{block, type='imgsource'}
-Allikas: Statistikaamet
+<span class="imgsource-source">Allikas:</span> Statistikaamet
 ```
 
-```{r, figure132, fig.cap='Uute eluruumide summaarne jaotus keskuslinnade, eeslinnade ja ülejäänud Eesti lõikes 1999-2018', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+<p class="caption" id="figure132"><span class="figure-number">Joonis 1.3.2.</span> Uute eluruumide summaarne jaotus keskuslinnade, eeslinnade ja ülejäänud Eesti
+lõikes 1999‒2018</p>
 
-print("TREEMAP")
-```
+```{r, figure132, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
-```{block, type='imgsource'}
-Allikas: Statistikaamet
-```
+library("tidyverse")
+  
+ fig132_data <- read.csv ("data/13_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
 
-```{r, figure133, fig.cap='Uute eluruumide arv Tallinnas, Tartus ja Pärnus võrrelduna eeslinnadega 2002-2018', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+ 
 
-print("LINE GRAPH")
-```
+   fig132_theme <- theme(
+  )
 
-```{r, figure134, fig.cap='title', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
-
-print("IMG")
-```
-
-```{block, type='imgsource'}
-Allikas: Maa-ameti ortofotod
-```
-
-```{r, figure135, fig.cap='title', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
-
-print("IMG")
+  
+  ggsave(path="exported_figures/PDF/chapter1",filename="fig132.pdf", height=160, width=250, units="mm")
 ```
 
 ```{block, type='imgsource'}
-Allikas: 
-```
-
-
-```{r, figure136, fig.cap='title', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
-
-print("Maa-ameti kaart?")
-```
-
-```{block, type='imgsource'}
-Allikas: Statistikaamet
-```
-
-```{r, figure137, fig.cap='title', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
-
-print("IMG")
-```
-
-```{block, type='imgsource'}
-Allikas: K-Projekt AS
+<span class="imgsource-source">Allikas:</span> Statistikaamet
 ```
 
 ### Eeslinnakasvu nähtamatu käsi vs avalik huvi {.chapter1_section}
