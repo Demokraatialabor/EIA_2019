@@ -173,9 +173,9 @@ library("scales")
     geom_line(mapping = aes(x=year, y = value, colour=type, group=type), size=1) +
     scale_colour_manual(values=c("#afd7d8","#369b9e"))+
     labs(y="€", x="aasta") +
-    scale_x_continuous(breaks = c(2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018))+
-    scale_y_continuous(breaks = c(0,1000000,2000000,3000000,4000000,5000000), labels = number)+
-    expand_limits (y=0)
+    scale_x_continuous(breaks = c(2004,2006,2008,2010,2012,2014,2016,2018), expand = c(0, 0), limits=c(2004,2018.5))+
+    scale_y_continuous(breaks = c(0,1000000,2000000,3000000,4000000,5000000), labels = number, expand = c(0, 0), limits=c(0,6000000))+
+    expand_limits (y=0) 
   
    fig225_theme <- theme(
      panel.grid.minor.x = element_blank()
@@ -183,7 +183,7 @@ library("scales")
 
   print(fig225_plot + fig_theme_general + fig225_theme)
   
-  ggsave(path="exported_figures/PDF/chapter2",filename="fig225.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
+  ggsave(path="exported_figures/PDF/chapter2",filename="fig225.pdf", height=90, width=160, units="mm",encoding = "ISOLatin9.enc")
 ```
 
 ``` {block, type='imgsource'}
@@ -203,9 +203,9 @@ library("tidyverse")
     geom_line(mapping = aes(x=year, y = value, colour=type, group=type), size=1) +
     scale_colour_manual(values=c("#afd7d8","#369b9e"))+
     labs(y="", x="aasta") +
-    scale_x_continuous(breaks = c(2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018))+
-    scale_y_continuous(breaks = c(0,2000000,4000000,6000000,8000000,10000000),labels = number) +
-    expand_limits (y=0)
+    scale_x_continuous(breaks = c(2006,2008,2010,2012,2014,2016,2018), expand = c(0, 0), limits=c(2005,2018.5))+
+    scale_y_continuous(breaks = c(0,2000000,4000000,6000000,8000000,10000000),labels = number, expand = c(0, 0), limits=c(0,11500000)) +
+    expand_limits (y=0) 
   
    fig226_theme <- theme(
      panel.grid.minor.x = element_blank()
@@ -213,7 +213,7 @@ library("tidyverse")
 
   print(fig226_plot + fig_theme_general + fig226_theme)
   
-  ggsave(path="exported_figures/PDF/chapter2",filename="fig226.pdf", height=120, width=200, units="mm")
+  ggsave(path="exported_figures/PDF/chapter2",filename="fig226.pdf", height=90, width=160, units="mm")
 ```
 
 ``` {block, type='imgsource'}

@@ -17,7 +17,10 @@
 
 ### Kiire autostumine 1990ndate Eestis ja järgnev stabiliseerumine?
 
-```{r, figure151, fig.cap='Autostumise tasemete muutus valitud Lääne-Euroopa (e. siin EL15) ja Ida- Euroopa riikides', out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
+
+<p class="caption" id="figure151"><span class="figure-number">Joonis 1.5.1.</span> Autostumise muutus Lääne-Euroopa (siin EL-15) ja Ida-Euroopa riikides (siin alates 2004. aastal ELi astunud riigid, v.a Küpros ja Malta)</p>
+
+```{r, figure151, out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
   
@@ -25,16 +28,24 @@ library("tidyverse")
  
 
   fig151_plot <- ggplot(data = fig151_data) +
-    geom_line(mapping = aes(x=year, y=value, colour=area, group=area), size=1.2) +
-    scale_x_continuous(breaks=c(1990,1992,1994,1996,1998,2000,2002,2004,2006,2008,2010,2012,2014,2016)) +
-    labs(y="Autot 1000-e elaniku kohta", x="")
+    geom_line(mapping = aes(x=year, y=value, colour=area, group=area), size=1) +
+    scale_x_continuous(breaks=c(1990,1992,1994,1996,1998,2000,2002,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(1990,2016.5)) +
+    scale_y_continuous(expand = c(0, 0), limits=c(0,550)) +
+    scale_colour_manual(values=c("#482683","#3A404A","#A8ACA6"), labels=c("Eesti","EL „Ida“ ","EL „Lääs“ ")) +
+    labs(y="Autot 1000-e elaniku kohta", x="") +
+    expand_limits (y=0) 
   
+  fig151_theme <- theme (
+    
+  )
   
   print(fig151_plot + fig_theme_general)
+  
+  ggsave(path="exported_figures/PDF/chapter1",filename="fig151.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
 
-```{block, type='imgsource'}
-Allikas: Eurostat
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas: Eurostat 2019
 ```
 
 ### Autostumine on nii keskkonnaprobleem kui väljakutse ligipääsetavuse parandamiseks
@@ -59,81 +70,180 @@ print("MAP")
 Allikas: Statistikaamet
 ```
 
+
+<p class="caption" id="figure154"><span class="figure-number">Joonis 1.5.4.</span> Reisijate arvu ja läbisõidu muutus maakonnaliinidel Eestis, 2003–2016 </p>
+
+```{r, figure154, out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
+
+```
+
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas: Maanteeamet.
+```
+
 ### Äärelinnas elamine on autokesksem võrreldes eluga linnas
 
-```{r, figure154, fig.cap='Autode arv leibkonnas Tallinnas (2016. a. andmed) ja Harjumaal (2017. a. andmed) ning elanike arvu kasv Tallinna lähiregioonis viimasel 20 aastal.', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+<p class="caption" id="figure155"><span class="figure-number">Joonis 1.5.5.</span> Autode arv leibkonnas Tallinnas (2016) ja Harjumaal (2017) ning elanike arvu kasv Tallinna lähiregioonis viimase 20 aastal jooksul</p>
+
+
+```{r, figure155, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 library(gridExtra)
 library(grid)
   
-  fig154_data1 <- read.csv ("data/15_fig4_data1.csv", header=TRUE, fileEncoding="utf-8")
-  fig154_data2 <- read.csv ("data/15_fig4_data2.csv", header=TRUE, fileEncoding="utf-8")
+  fig155_data1 <- read.csv ("data/15_fig5_data1.csv", header=TRUE, fileEncoding="utf-8")
+  
+  fig155_data1$number_of_cars <- factor (  fig155_data1$number_of_cars, levels = c("Pole autot", "1 auto", "2 või enam autot"))
+  
+  fig155_data2 <- read.csv ("data/15_fig5_data2.csv", header=TRUE, fileEncoding="utf-8")
  
   
-  fig154_plot1 <- ggplot(data = fig154_data1) +
+  fig155_plot1 <- ggplot(data = fig155_data1) +
     geom_bar(mapping = aes(x=area, y=value, fill=area), width=0.7, stat="identity", position = "dodge") +
-      facet_wrap(~number_of_cars, nrow=1) +
-    labs(y="")
+    scale_fill_manual(values=c("#A8ACA6","#482683", "#917db5")) +
+    facet_wrap(~number_of_cars, nrow=1) +
+    labs(y="", x="") +
+    expand_limits (y=0) 
   
-    fig154_plot2 <- ggplot(data = fig154_data2) +
+    fig155_plot2 <- ggplot(data = fig155_data2) +
     geom_bar(mapping = aes(x=growth_of_population, y=value, fill=growth_of_population), width=0.7, stat="identity") +
-    labs(y="", x="")
-
-grid.arrange(fig154_plot1 + fig_theme_general, fig154_plot2 + fig_theme_general, ncol = 2)
-```
-
-```{block, type='imgsource'}
-Allikas: Kantar Emor 2017. a. Tallinna lähipiirkonna liikumisviiside uuring ja Statistikaamet)
-```
-
-
-```{r, figure155, fig.cap='Tallinna ja muu Harjumaa elanike tööle käimise viiside osakaalude muutus, 2000–2017', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
-
-library("tidyverse")
-  
- fig155_data <- read.csv ("data/15_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
- 
- fig155_data$value=as.numeric(levels(fig155_data$value))[fig155_data$value]
-
-  fig155_plot <- ggplot(subset(fig155_data, variable %in% c("Jalgsi", "Sõiduautoga", "Ühissõidukiga"))) +
-    geom_line(mapping = aes(x=year, y=value, colour=variable, group=variable), size=1.2) +
-    scale_x_continuous(breaks=c(2000,2002,2004,2006,2008,2010,2012,2014,2016)) +
-    facet_wrap(~area, nrow=1) +
-    labs(y="", x="")
-  
-  
-  print(fig155_plot + fig_theme_general)
-```
-
-```{block, type='imgsource'}
-Allikas: Statistikaamet
-```
-
-```{r, figure156, fig.cap='Tallinna ja muu Harjumaa elanike tööle käimise viiside osakaalude muutus, 2000–2017', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
-
-library("tidyverse")
-  
- fig156_data1 <- read.csv ("data/15_fig6_data1.csv", header=TRUE, fileEncoding="utf-8")
- fig156_data2 <- read.csv ("data/15_fig6_data2.csv", header=TRUE, fileEncoding="utf-8")
-
-  fig156_plot <- ggplot() +
-    geom_bar(data = fig156_data1, mapping = aes(x=year, y=value, fill=variable), width=0.7, stat="identity") +
+    scale_fill_manual(values=c("#B6A8CD","#917DB5","#6D519C","#482683")) +
+    labs(y="", x="") +
+    expand_limits (y=0) 
     
-    geom_line(data = fig156_data2, mapping = aes(x=year, y=value, colour=variable), size=1.2) +
+    fig155_theme1 <- theme(
+          panel.grid.major.x = element_blank() ,
+          panel.grid.minor.x = element_blank(),
+          legend.position = "none"
+    )
+    
+        fig155_theme2 <- theme(
+          panel.grid.major.x = element_blank() ,
+          panel.grid.minor.x = element_blank(),
+          legend.position = "none"
+    )
+
+grid.arrange(fig155_plot1 + fig_theme_general + fig155_theme1, fig155_plot2  + fig_theme_general + fig155_theme2, ncol = 2)
+
+ggsave(path="exported_figures/PDF/chapter1",filename="fig155a.pdf",fig155_plot1 + fig155_theme1 +fig_theme_general, height=140, width=140, units="mm")
+ggsave(path="exported_figures/PDF/chapter1",filename="fig155b.pdf",fig155_plot2 + fig155_theme2 +fig_theme_general, height=140, width=140, units="mm")
+```
+
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas: Eurostat 2019
+```
+
+
+
+<p class="caption" id="figure156"><span class="figure-number">Joonis 1.5.6.</span> Tallinna ja muu Harjumaa elanike tööle liikumise viiside osatähtsus aastatel 2000–2017</p>
+
+```{r, figure156, out.width='95%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+  
+ fig156_data <- read.csv ("data/15_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
+ 
+ fig156_data$value=as.numeric(levels(fig156_data$value))[fig156_data$value]
+
+  fig156_plot <- ggplot(subset(fig156_data, variable %in% c("Jalgsi", "Sõiduautoga", "Ühissõidukiga"))) +
+    geom_line(mapping = aes(x=year, y=value, colour=variable, group=variable), size=1.2) +
+    scale_x_continuous(breaks=c(2000,2002,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(2000,2017.5)) +
+    scale_y_continuous(expand = c(0, 0), limits=c(0,71)) +
+    scale_colour_manual(values=c("#482683","#3A404A","#A8ACA6"))+
+    facet_wrap(~area, nrow=1) +
+    labs(y="Liikumisviisi osakaal (%)", x="aasta") +
+    expand_limits (y=0)
+  
+  fig156_theme <- theme (
+    
+  )
+  
+  print(fig156_plot + fig_theme_general)
+  
+  ggsave(path="exported_figures/PDF/chapter1",filename="fig156.pdf",fig156_plot + fig156_theme +fig_theme_general, height=140, width=210, units="mm")
+```
+
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas: Statistikaamet
+```
+
+<p class="caption" id="figure157"><span class="figure-number">Joonis 1.5.7.</span> Tallinna ja muu Harjumaa elanike tööle liikumise viiside osatähtsus aastatel 2000–2017</p>
+
+```{r, figure157, fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+library("scales")
+  
+ fig157_data1 <- read.csv ("data/15_fig7_data1.csv", header=TRUE, fileEncoding="utf-8")
+ 
+fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab kodus, töötab ja ööbib samas kohas","Ühissõidukiga", "Ametiauto, töökoha sõidukiga","Isikliku autoga","Jalgratta, mopeedi, mootorrattaga","Jalgsi"))
+  
+ fig157_data2 <- read.csv ("data/15_fig7_data2.csv", header=TRUE, fileEncoding="utf-8")
+
+  fig157_plot <- ggplot() +
+    geom_bar(data = fig157_data1, mapping = aes(x=year, y=value, fill=variable), width=0.7, stat="identity") +
+    scale_fill_manual(values=c("#DAD4E6","#B6A8CD","#917DB5","#6D519C","#482683","#241342")) +
+    
+    geom_line(data = fig157_data2, mapping = aes(x=year, y=value, colour=variable), size=1) +
+    scale_colour_manual(values=c("#A8ACA6","#E6E3DA")) +
     
     scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017)) +
-    
-    labs(y="", x="")
+    scale_y_continuous(breaks=c(20, 40,60,80,100)) +
+    #guides(fill=guide_legend(nrow=3,byrow=TRUE), colour=guide_legend(nrow=2,byrow=TRUE)) +
+    labs(y="Peamine tööle liikumise viis (%)", x="aasta")
   
-  #lahutada data kaheks ja plottida joone ja bar eraldi!
-  print(fig156_plot + fig_theme_general)
+    fig157_theme <- theme (
+          panel.grid.major.x = element_blank() ,
+          panel.grid.minor.x = element_blank(),
+          legend.position = "right",
+          axis.text.x = element_text(angle=45, margin = margin(t = 7, r = 0, b = 0, l = 0), hjust=1.1),
+  )
+  
+  print(fig157_plot + fig_theme_general + fig157_theme)
+  
+  ggsave(path="exported_figures/PDF/chapter1",filename="fig157.pdf",fig157_plot  +fig_theme_general + fig157_theme, height=120, width=210, units="mm")
 ```
 
-```{block, type='imgsource'}
-Allikas: Statistikaamet
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas: Statistikaamet
 ```
 
+
+
+
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas: Statistikaamet
+```
+
+
+<p class="caption" id="figure158"><span class="figure-number">Joonis 1.5.8.</span> Liikumisviiside ajalise konkurentsivõime võrdlus </p>
+
+```{r, figure158, fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+  
+ fig158_data <- read.csv ("data/15_fig8_data.csv", header=TRUE, fileEncoding="utf-8", sep = ";")
+
+  fig158_plot <- ggplot() +
+    geom_line(data = fig158_data, mapping = aes(x=distance, y=time, colour=liikumisviis, group=liikumisviis), size=1) +
+    scale_x_continuous(breaks=c(0,1,2,3,4,5,6),expand = c(0, 0), limits=c(0,6.2)) +
+    scale_y_continuous(expand = c(0, 0), limits=c(0,84)) +
+    expand_limits (y=0) +
+    scale_colour_manual(values=c("#482683","#3A404A","#A8ACA6")) +
+    labs(y="kulunud aeg (min)", x="vahemaa (km)")
+  
+    fig158_theme <- theme (
+  )
+  
+  print(fig158_plot + fig_theme_general + fig158_theme)
+  
+  ggsave(path="exported_figures/PDF/chapter1",filename="fig158.pdf",fig158_plot  +fig_theme_general + fig158_theme, height=120, width=210, units="mm")
+```
+
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas: Statistikaamet
+```
 ### Linnakeskustes arendatakse liikuvust ikka esmalt autodele
 
 ### Tulevikutrendid: kuidas elada vähema autokasutusega?
