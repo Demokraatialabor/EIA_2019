@@ -54,6 +54,7 @@ library("scales")
 grid.arrange(fig331_plot1 + fig331_theme + fig_theme_general, fig331_plot2 +  fig331_theme + fig_theme_general, ncol = 1)
  
 ggsave(path="exported_figures/PDF/chapter3",filename="fig331a.pdf",fig331_plot1 + fig_theme_general + fig331_theme, height=140, width=200, units="mm")
+
 ggsave(path="exported_figures/PDF/chapter3",filename="fig331b.pdf",fig331_plot2 + fig_theme_general + fig331_theme, height=140, width=200, units="mm")
 ```
 
@@ -74,33 +75,33 @@ Ruumilise planeerimise mõiste kasvas välja linna- ja regionaalplaneerimisest n
 
 Ruumiliselt kõige ulatuslikum kaitse loodusalade maakasutusmuutuste eest on seotud rohevõrgustikuga, mis hõlmab 55% Eesti maismaast. Rohevõrgustiku eesmärk on sidusalt ühendada eri tüüpi looduslikke või looduslähedasi maa- ja veealasid, et tagada nende ökoloogiline toimimine ja maastike säilimine. Ökoloogiliselt toimiv rohevõrgustik pakub elanikkonna jaoks nii elutähtsaid kui ka rekreatiivseid funktsioone (ptk. 3.2). Sisemiselt koosneb rohevõrgustik erineva tähtsusega (riiklik, maakondlik, kohalik) tugialadest ja neid ühendavatest rohekoridoridest. Eesti kaitsealusest maast kuulub rohevõrgustikku
 
-<p class="caption" id="figure336"><span class="figure-number">Joonis 3.3.6.</span> Rohevõrgustiku (RV) ja kaitstavate loodusobjektide (kaitsealad, kaitstavate liikide leiukohad, püsielupaigad, Natura 2000 alad) osakaal maakonna kogupindalast</p>
+<p class="caption" id="figure336"><span class="figure-number">Joonis 3.3.5.</span> Rohevõrgustiku (RV) ja kaitstavate loodusobjektide (kaitsealad, kaitstavate liikide leiukohad, püsielupaigad, Natura 2000 alad) osakaal maakonna kogupindalast</p>
 
-```{r, figure336, out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure335, out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
   
-fig336_data <- read.csv ("data/33_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
+fig335_data <- read.csv ("data/33_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
 
-fig336_data$objects <- factor(fig336_data$objects, levels = c("RV ala väljaspool kaitsealasid","Kaitstavad loodusobjektid väljaspool RV ala","Kaitstavad loodusobjektid RV alal"))
+fig335_data$objects <- factor(fig335_data$objects, levels = c("RV ala väljaspool kaitsealasid","Kaitstavad loodusobjektid väljaspool RV ala","Kaitstavad loodusobjektid RV alal"))
 
  
-  fig336_plot <- ggplot() +
-    geom_bar(data = fig336_data, mapping = aes(x=reorder(county,-value), y=value, fill=objects), width=0.6, stat="identity") +
-    scale_fill_manual(values=c("#AFCD80","#79AC2C","#5B8121")) +
+  fig335_plot <- ggplot() +
+    geom_bar(data = fig335_data, mapping = aes(x=reorder(county,-value), y=value, fill=objects), width=0.6, stat="identity") +
+    scale_fill_manual(values=c("#AFCD80","#79AC2C","#5B8121"), labels=c("Rohevõrgu ala väljaspool kaitsealasid","Kaitstavad loodusobjektid väljaspool rohevõrgu ala","Kaitstavad loodusobjektid rohevõrgu alal")) +
     labs(y="%", x="") +
     guides(fill=guide_legend(nrow=2,byrow=TRUE))
   
-      fig336_theme <- theme(
+      fig335_theme <- theme(
                     panel.grid.major.x = element_blank() ,
                     panel.grid.minor.x = element_blank(),
                     axis.line = element_line(size = 0.2, colour = "#cccccc"),
                     axis.text.x = element_text(angle=45, margin = margin(t = 7, r = 0, b = 0, l = 0), hjust=1.1),
                  )
       
-print(fig336_plot + fig336_theme + fig_theme_general)
+print(fig335_plot + fig335_theme + fig_theme_general)
 
-ggsave(path="exported_figures/PDF/chapter3",filename="fig302.pdf", height=140, width=210, units="mm")
+ggsave(path="exported_figures/PDF/chapter3",filename="fig335.pdf", height=140, width=210, units="mm")
 
 ```
 

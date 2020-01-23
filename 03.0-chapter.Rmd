@@ -46,7 +46,7 @@ library("tidyverse")
     geom_text(data = fig301_data_est, mapping = aes(x=hdi_2014, y=eco_current, label="2014"),hjust=1, vjust=1.7, colour="#79AC2C")+
     
     geom_point(data = fig301_data_est, mapping = aes(x=0.825, y=72.22), colour="#79AC2C",size=2, show.legend = NA) +
-      geom_text(data = fig301_data_est, mapping = aes(x=0.8, y=75, label="2005"), colour="#79AC2C") +
+    geom_text(data = fig301_data_est, mapping = aes(x=0.8, y=75, label="2005"), colour="#79AC2C") +
   
     geom_line(fig301_horisontal_line, mapping = aes(x=hdi, y=eco), colour="#79AC2C",size=1, show.legend = NA) +
     

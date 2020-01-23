@@ -31,7 +31,7 @@ library("tidyverse")
     geom_line(mapping = aes(x=year, y=value, colour=area, group=area), size=1) +
     scale_x_continuous(breaks=c(1990,1992,1994,1996,1998,2000,2002,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(1990,2016.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,550)) +
-    scale_colour_manual(values=c("#482683","#3A404A","#A8ACA6"), labels=c("Eesti","EL „Ida“ ","EL „Lääs“ ")) +
+    scale_colour_manual(values=c("#482683","#3A404A","#A8ACA6"), labels=c("Eesti","Ida-Euroopa","Lääne-Euroopa")) +
     labs(y="Autot 1000-e elaniku kohta", x="") +
     expand_limits (y=0) 
   
@@ -75,6 +75,26 @@ Allikas: Statistikaamet
 
 ```{r, figure154, out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
 
+library("tidyverse")
+  
+ fig154_data <- read.csv ("data/15_fig4_data.csv", header=TRUE, fileEncoding="utf-8", sep=";")
+ 
+
+  fig154_plot <- ggplot(data = fig154_data) +
+    geom_line(mapping = aes(x=year, y=value, colour=variable, group=variable), size=1) +
+    scale_x_continuous(breaks=c(2003,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(2003,2016.5)) +
+    scale_y_continuous(expand = c(0, 0), limits=c(0,40)) +
+    scale_colour_manual(values=c("#482683","#3A404A","#A8ACA6"), labels=c("Läbisõit (mln km)","Sõitjate arv (mln)")) +
+    labs(y="", x="aasta") +
+    expand_limits (y=0) 
+  
+  fig154_theme <- theme (
+    
+  )
+  
+  print(fig154_plot + fig_theme_general)
+  
+  ggsave(path="exported_figures/PDF/chapter1",filename="fig154.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
 
 ``` {block, type='imgsource'}
@@ -103,13 +123,13 @@ library(grid)
     geom_bar(mapping = aes(x=area, y=value, fill=area), width=0.7, stat="identity", position = "dodge") +
     scale_fill_manual(values=c("#A8ACA6","#482683", "#917db5")) +
     facet_wrap(~number_of_cars, nrow=1) +
-    labs(y="", x="") +
+    labs(y="%", x="") +
     expand_limits (y=0) 
   
     fig155_plot2 <- ggplot(data = fig155_data2) +
     geom_bar(mapping = aes(x=growth_of_population, y=value, fill=growth_of_population), width=0.7, stat="identity") +
     scale_fill_manual(values=c("#B6A8CD","#917DB5","#6D519C","#482683")) +
-    labs(y="", x="") +
+    labs(y="%", x="") +
     expand_limits (y=0) 
     
     fig155_theme1 <- theme(
@@ -126,8 +146,8 @@ library(grid)
 
 grid.arrange(fig155_plot1 + fig_theme_general + fig155_theme1, fig155_plot2  + fig_theme_general + fig155_theme2, ncol = 2)
 
-ggsave(path="exported_figures/PDF/chapter1",filename="fig155a.pdf",fig155_plot1 + fig155_theme1 +fig_theme_general, height=140, width=140, units="mm")
-ggsave(path="exported_figures/PDF/chapter1",filename="fig155b.pdf",fig155_plot2 + fig155_theme2 +fig_theme_general, height=140, width=140, units="mm")
+ggsave(path="exported_figures/PDF/chapter1",filename="fig155a.pdf",fig155_plot1 +fig_theme_general + fig155_theme1, height=140, width=140, units="mm")
+ggsave(path="exported_figures/PDF/chapter1",filename="fig155b.pdf",fig155_plot2 + fig_theme_general +  fig155_theme2, height=140, width=140, units="mm")
 ```
 
 ``` {block, type='imgsource'}
@@ -170,7 +190,7 @@ library("tidyverse")
 
 <p class="caption" id="figure157"><span class="figure-number">Joonis 1.5.7.</span> Tallinna ja muu Harjumaa elanike tööle liikumise viiside osatähtsus aastatel 2000–2017</p>
 
-```{r, figure157, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure157, fig.align='center', echo=FALSE, message=FALSE, fig.asp=1.25}
 
 library("tidyverse")
 library("scales")
@@ -181,28 +201,41 @@ fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab k
   
  fig157_data2 <- read.csv ("data/15_fig7_data2.csv", header=TRUE, fileEncoding="utf-8")
 
-  fig157_plot <- ggplot() +
+  fig157_plot1 <- ggplot() +
     geom_bar(data = fig157_data1, mapping = aes(x=year, y=value, fill=variable), width=0.7, stat="identity") +
     scale_fill_manual(values=c("#DAD4E6","#B6A8CD","#917DB5","#6D519C","#482683","#241342")) +
-    
-    geom_line(data = fig157_data2, mapping = aes(x=year, y=value, colour=variable), size=1) +
-    scale_colour_manual(values=c("#A8ACA6","#E6E3DA")) +
-    
+      
     scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017)) +
     scale_y_continuous(breaks=c(20, 40,60,80,100)) +
-    #guides(fill=guide_legend(nrow=3,byrow=TRUE), colour=guide_legend(nrow=2,byrow=TRUE)) +
+    guides(fill=guide_legend(nrow=6,byrow=TRUE)) +
     labs(y="Peamine tööle liikumise viis (%)", x="aasta")
+    
+    
+  fig157_plot2 <- ggplot() +
+    geom_line(data = fig157_data2, mapping = aes(x=year, y=value, colour=variable), size=1) +
+    scale_colour_manual(values=c("#A8ACA6","#482683")) +
+    labs(y="", x="aasta") +
+    scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017), expand = c(0, 0), limits=c(1997,2017.5)) +
+    scale_y_continuous(breaks=c(5, 10,15,20,25), expand = c(0, 0), limits=c(0,25)) +
+    expand_limits (y=0)
   
-    fig157_theme <- theme (
+  
+    fig157_theme1 <- theme (
           panel.grid.major.x = element_blank() ,
           panel.grid.minor.x = element_blank(),
-          legend.position = "right",
           axis.text.x = element_text(angle=45, margin = margin(t = 7, r = 0, b = 0, l = 0), hjust=1.1),
+          legend.position = "right"
+
+  )
+    fig157_theme2 <- theme (
   )
   
-  print(fig157_plot + fig_theme_general + fig157_theme)
+  grid.arrange(fig157_plot1 + fig_theme_general + fig157_theme1, fig157_plot2 + fig_theme_general + fig157_theme2, ncol = 1)
+
   
-  ggsave(path="exported_figures/PDF/chapter1",filename="fig157.pdf",fig157_plot  +fig_theme_general + fig157_theme, height=120, width=210, units="mm")
+  ggsave(path="exported_figures/PDF/chapter1",filename="fig157a.pdf",fig157_plot1  +fig_theme_general + fig157_theme1, height=120, width=210, units="mm")
+  
+    ggsave(path="exported_figures/PDF/chapter1",filename="fig157b.pdf",fig157_plot2  +fig_theme_general + fig157_theme2, height=100, width=210, units="mm")
 ```
 
 ``` {block, type='imgsource'}
@@ -224,21 +257,27 @@ fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab k
 library("tidyverse")
   
  fig158_data <- read.csv ("data/15_fig8_data.csv", header=TRUE, fileEncoding="utf-8", sep = ";")
+ 
+  fig158_line <- data.frame(x=c(0,1,1,1,0,3,3,3),
+                y=c(14,14,14,0,17,17,17,0), line=c(1,1,2,2,3,3,4,4))
 
   fig158_plot <- ggplot() +
+    geom_line(fig158_line, mapping = aes(x=x, y=y, group=line), colour="#3A404A",size=0.5, show.legend = NA, linetype = "dashed") +
+    
     geom_line(data = fig158_data, mapping = aes(x=distance, y=time, colour=liikumisviis, group=liikumisviis), size=1) +
-    scale_x_continuous(breaks=c(0,1,2,3,4,5,6),expand = c(0, 0), limits=c(0,6.2)) +
-    scale_y_continuous(expand = c(0, 0), limits=c(0,84)) +
+    scale_x_continuous(breaks=c(0,1,2,3,4,5),expand = c(0, 0), limits=c(0,5.1)) +
+    scale_y_continuous(expand = c(0, 0), limits=c(0,70)) +
     expand_limits (y=0) +
     scale_colour_manual(values=c("#482683","#3A404A","#A8ACA6")) +
     labs(y="kulunud aeg (min)", x="vahemaa (km)")
+    
   
     fig158_theme <- theme (
   )
   
   print(fig158_plot + fig_theme_general + fig158_theme)
   
-  ggsave(path="exported_figures/PDF/chapter1",filename="fig158.pdf",fig158_plot  +fig_theme_general + fig158_theme, height=120, width=210, units="mm")
+  ggsave(path="exported_figures/PDF/chapter1",filename="fig158.pdf",fig158_plot  +fig_theme_general + fig158_theme, height=90, width=100, units="mm")
 ```
 
 ``` {block, type='imgsource'}

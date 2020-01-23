@@ -38,11 +38,12 @@ library("tidyverse")
     geom_text(mapping = aes(x=year, y=as.numeric(value), label=value), stat="identity", vjust=-1) +
     scale_colour_manual(values=c("#3A404A","#482683","#A8ACA6")) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,100000)) +
-    scale_x_continuous(breaks=c(2001,2006,2011,2016,2017,2018),expand = c(0, 0), limits=c(2000,2018.5)) +
+    scale_x_continuous(breaks=c(2001,2006,2011,2015,2016,2017,2018),expand = c(0, 0), limits=c(2000,2018.5)) +
     labs(y="eeslinlaste arv", x="aasta")
     expand_limits (y=0)
   
    fig131_theme <- theme(
+     panel.grid.minor.x = element_blank(),
   )
 
   print(fig131_plot + fig_theme_general + fig131_theme)
@@ -82,6 +83,7 @@ lõikes 1999‒2018</p>
 ```{r, figure133, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
 library("tidyverse")
+library("reshape")
   
  fig133_data <- read.csv ("data/13_fig3_data.csv", header=TRUE, fileEncoding="utf-8", sep=";", check.names=FALSE)
  
