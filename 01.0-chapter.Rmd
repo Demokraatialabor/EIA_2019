@@ -43,7 +43,7 @@ fig101_palette <- c("#482683","#482683","#482683","#482683","#482683","#482683",
   
   
   fig_theme_general <- theme(
-                     text = element_text(color = "#292b2c", size = 12, family="montserrat"),
+                     text = element_text(color = "#292b2c", size = 12, family=""),
                      panel.background = element_rect(fill = "white", colour = "white"),
                      panel.grid.major = element_line(colour="#cccccc", size = (0.2)),
                      panel.grid.minor = element_line(size = (0.2), colour="#cccccc"),

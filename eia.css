@@ -405,6 +405,11 @@ h3 .header-section-number{
     border-bottom: solid 15px #482683;
 }
 
+.chapter1_section .casebox {
+    background-color: #e6e3da;
+    border-bottom: solid 15px #369B9E;
+}
+
 .chapter1_section .imgsource-source {
   color:#482683;
 }
@@ -446,19 +451,11 @@ h3 .header-section-number{
 .chapter2_section .definition-left, .chapter2_section .definition-right {
     border-bottom: solid 15px #369B9E;
 }
-
 .chapter2_section .casebox {
-    color:  #369B9E;
-    background: 20px center/12em no-repeat;
-    background-image: url("images/tulemaale.png");
+    background-color: #e6e3da;
+    border-bottom: solid 15px #369B9E;
 }
-    
-.chapter2_section .casebox a {
-    color:  black !important;}
-    
-.chapter2_section .casebox p {
-    padding-left: 13em;}
-    
+
 .chapter2_section .imgsource-source {
   color:#369B9E;
 }
@@ -499,6 +496,11 @@ h3 .header-section-number{
 }
 
 .chapter3_section .definition-left, .chapter3_section .definition-right {
+    border-bottom: solid 15px #79AC2C;
+}
+
+.chapter3_section .casebox {
+    background-color: #e6e3da;
     border-bottom: solid 15px #79AC2C;
 }
 
