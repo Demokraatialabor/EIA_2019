@@ -130,7 +130,7 @@ On oluline, et riik ja riigiettevõtted ei kahjustaks suurarenduste tellijatena 
 ```
 Riigi ja omavalitsuse ametkonnad, mille otsused loovad või muudavad avaliku ruumi, lähtuvad tihti kitsalt oma ametkonna fookusest. Puuduvad ametkondi siduvad üksused, kes avalikku ruumi tervikliku võrgustikuna esindaks ja kaitseks, selleks vajalikke lahendusi looks ning teeks avaliku ligipääsetavuse ja inimsõbraliku ruumi huvides sihipärast koostööd erasektoriga.
 
-### Avalik sektor ei ole end üldjuhul teadvustanud avaliku ruumi esindaja ja tellijana  {-.chapter2_section}
+### Avalik ruum kui võrgustik on tagatud siis, kui riik ja omava- litsused tähtsustavad seda igas ruumiotsuses ja igas mõõtkavas  {-.chapter2_section}
 
 Avalik ruum on keerukas võrgustik ja muutumises olev struktuur. Samamoodi nagu tehnilised võrgustikud (veevarustus, elektrisüsteem jm), vajab avalik ruum toimimiseks ja arenguks võrguvaldaja järjepidevat tööd. Avaliku ruumi võrguvaldaja on avalik sektor, kes saab kaitsta ja parendada avalikku ruumi.
 

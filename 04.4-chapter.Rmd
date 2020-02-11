@@ -36,7 +36,7 @@ Siinses peatükis vaatlen ekspertide osalust Eesti ühiskondlikes aruteludes pea
 
 Ekspertide osaluse kohta aruteludes ei ole Eestis seni tehtud süstemaatilisi uuringuid. Siinsel püüdel suundumusi analüüsida on abiks illustreerivad väljavõtted ajakirjandusest koos mõningase üldkirjeldava statistikaga station.ee meediamonitooringust.
 
-### Teadlaste roll ühiskondlikes aruteludes {.chapter4_section}
+### Teadlaste roll ühiskondlikes aruteludes {-.chapter4_section}
 
 Arutleva demokraatia ideaali kohaselt (ja ka avatud valitsemise põhimõtete järgi, vt Open Government Declaration 2011) sünnivad otsused ühiskonnas sellise arutelu tulemusel, kuhu on kaasatud kõik olulised osapooled ning mille keskmes on argumenteerimine ja põhjendamine. Ekspertide osalus tagab, et arutlejate käsutuses on parim olemasolev teadmine, et jõuda informeeritud otsuseni. Seetõttu rõhutavad ka teaduskommunikatsiooni teoreetilised käsitlused, et teaduslike teadmiste arusaadavas ja selges keeles vahendamine ei teeni ainult teadustulemuste populariseerimise eesmärki, vaid on oluline komponent ühiskonna demokraatlikus toimimises. 
 
@@ -57,7 +57,7 @@ Ekspert – oma valdkonda teadmistepõhiselt tutvustav spetsialist.
 ```
 Teiselt poolt seostub nõudlus kas teaduse populariseerimisega (s.o teadlaste töö või üldiste teaduslike põhimõtete selgitamine) või oodatakse teaduselt eeskätt rakenduslikku panust majanduse hüvanguks. Kummalgi juhul puudub otseselt eelkirjeldatud demokraatlik mõõde, mis tekib osalemisest avalikes debattides. Samuti ei ole Eesti ülikoolides veel sisse töötatud viise, kuidas väärtustada teadlase panust ühiskonda, sealhulgas osalemist avalikes aruteludes ja poliitikakujundamises ning teaduskommunikatsioonis laiemalt, ega soosi seda ka teaduse ja ülikoolide rahastamismudelid. Nii võib öelda, et kui teadlane osaleb avalikes aruteludes, on see pigem kodanikuaktiivsuse väljendamine, mitte erialaselt eeldatud ja toetatud tegevus. Sama võib eeldada teiste oma valdkonda teadmistepõhiselt tutvustavate spetsialistide kohta. Neil põhjustel ei ole ekspertide pidev aktiivne osalus ühiskondlikes aruteludes sugugi enesestmõistetav.
 
-### Puidurafineerimistehase kava ärgitas teadlasi vedama avalikku debatti  {.chapter4_section}
+### Puidurafineerimistehase kava ärgitas teadlasi vedama avalikku debatti  {-.chapter4_section}
 
 Jaanuaris 2017 teatas rühm Eesti ettevõtjaid, et kaalub „tänapäevase ja keskkonnasõbraliku puidurafineerimistehase ehitamist Eestisse“ (<a href="http://biorefinery.ee/eestisse-kavandatakse-1-miljardi-euro-suurust-toostusinvesteeringut.">Biorefinery koduleht</a>). Paar nädalat hiljem lisas tehase arendamiseks loodud ettevõte Est-For Invest, et „eelanalüüsi kohaselt oleks kõige otstarbekam rajada tehas Tartu- või Viljandimaale, Suur-Emajõe jõgikonda. Tehase asukoha valiku tegemiseks, sealhulgas keskkonnamõjude hindamiseks, taotlevad projekti arendajad riigi eriplaneeringut“ (<a href="http://biorefinery.ee/planeeritav-tehas-voiks-asuda-suur-emajoe-jogikonnas">Biorefinery koduleht</a>).
 
@@ -128,7 +128,7 @@ Ilmselt on vähesed teemad iseseisvuse taastanud Eestis siinseid teadlasi sedav�
 
 Paljude omaduste poolest oli puidurafineerimistehase debatt Eestile esma- ja erakordne, kuid loomu poolest meenutab see suuresti Lääne-Euroopas juba 1970. aastatest tuntud vastasseise, mis on saanud tuntuks akronüümiga NIMBY (ingl *not in my back yard* ehk tõlkes ’mitte minu tagahoovis’). Ka neis on suurarenduste tekitav vastasseis ühelt poolt nähtav emotsionaalse ja irratsionaalsena, teiselt poolt aga kodanike adekvaatse riskitaju väljendusena (vt nt [Kraft ja Clary 1991](#Kraft1991)). Tõsiasi, et Eestis asetusid kohalike rolli muidu ühiskonnas ekspertidena tunnustatud inimesed, ei tundunud seda mustrit Eestis muutvat.
 
-### Metsandusdebatis ei toonud avalik arutelu eksperte üksteisele lähemale  {.chapter4_section}
+### Metsandusdebatis ei toonud avalik arutelu eksperte üksteisele lähemale  {-.chapter4_section}
 
 Kui puidurafineerimistehase debatis said – üldise taju kohaselt – määravaks emotsioonid, mitte argumendid, siis kas mõne Eesti lähiajaloos peetud arutelu puhul saab välja tuua ekspertide rolli otsuste teadmistepõhisel suunamisel?
 
@@ -151,7 +151,7 @@ Vähe oli märke sellest, et poolte seisukohad oleksid arutelu jooksul teineteis
 
 Ekspertidena said avalikkuses rohkem tunnustust siiski metsanduspoliitika kriitikud, näiteks nimetas Postimees Asko Lõhmuse metsandusdebatis osalemise eest 2017. aastal aasta inimeseks.
 
-### Kokkuvõte {.chapter4_section}
+### Kokkuvõte {-.chapter4_section}
 
 Kuidas tunnevad eksperdid end Eesti aruteluruumis? Selles artiklis kirjeldatud kolm näidet (ränderaamistik, puidurafineerimistehas, metsandus) osutavad sellele, kui keeruka olukorraga peab kokku puutuma vastuolulist teemat käsitlevasse avalikku debatti sekkuda sooviv asjatundja. Peamiselt on raskused seotud sellega, kuidas eksperdi esitatud fakte ja argumente arutelus teiste osaliste poolt käsitletakse.
 

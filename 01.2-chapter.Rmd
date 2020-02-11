@@ -185,7 +185,7 @@ iseenesestmõistetavaks.
 <p class="caption" id="figure123"><span class="figure-number">Joonis 1.2.3.</span> Mis kohti kirjeldatakse Eesti trükimeedias kui ääremaad?</p>
 *Märkus: Arvutused põhinevad 296 arvamusartiklil, mis avaldati ajalehtedes Postimees, Eesti Päevaleht ja Maaleht perioodil 2011–2015.*
 
-```{r, joonis124, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure124, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library(ggwordcloud)
 library(wordcloud)
