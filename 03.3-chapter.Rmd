@@ -88,9 +88,9 @@ fig335_data$objects <- factor(fig335_data$objects, levels = c("RV ala väljaspoo
  
   fig335_plot <- ggplot() +
     geom_bar(data = fig335_data, mapping = aes(x=reorder(county,-value), y=value, fill=objects), width=0.6, stat="identity") +
-    scale_fill_manual(values=c("#AFCD80","#79AC2C","#5B8121"), labels=c("Rohevõrgu ala väljaspool kaitsealasid","Kaitstavad loodusobjektid väljaspool rohevõrgu ala","Kaitstavad loodusobjektid rohevõrgu alal")) +
+    scale_fill_manual(values=c("#AFCD80","#79AC2C","#5B8121"), labels=c("Rohevõrgustiku ala väljaspool kaitsealasid","Kaitstavad loodusobjektid väljaspool rohevõrgustiku ala","Kaitstavad loodusobjektid rohevõrgustiku alal")) +
     labs(y="%", x="") +
-    guides(fill=guide_legend(nrow=2,byrow=TRUE)) +
+    guides(fill=guide_legend(nrow=3,byrow=TRUE)) +
       scale_y_continuous(expand = c(0, 0), limits=c(0,100)) +
     expand_limits (y=0) 
   
