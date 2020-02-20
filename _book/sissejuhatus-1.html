@@ -24,15 +24,15 @@
 <meta name="author" content="Eesti Koostöö Kogu" />
 
 
-<meta name="date" content="2020-02-14" />
+<meta name="date" content="2020-02-20" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="chapter20.html"/>
-<link rel="next" href="chapter21.html"/>
+<link rel="prev" href="chapter30.html"/>
+<link rel="next" href="chapter31.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -50,6 +50,16 @@
 
 
 
+<script src="libs/htmlwidgets-1.3/htmlwidgets.js"></script>
+<link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
+<script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-binding-2.0.2/leaflet.js"></script>
+<script src="libs/leaflet-providers-1.1.17/leaflet-providers.js"></script>
+<script src="libs/leaflet-providers-plugin-2.0.2/leaflet-providers-plugin.js"></script>
 
 
 
@@ -73,59 +83,69 @@
 <li class="chapter" data-level="" data-path="chapter04.html"><a href="chapter04.html"><i class="fa fa-check"></i>Avatud valitsemise partnerlus</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="chapter10.html"><a href="chapter10.html"><i class="fa fa-check"></i><b>1</b> Muutused Eesti asustusstruktuuris ja elukeskkondades</a><ul>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html"><i class="fa fa-check"></i>Sissejuhatus</a><ul>
-<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#lähtekohad"><i class="fa fa-check"></i>Lähtekohad</a></li>
-<li class="chapter" data-level="1.0.1" data-path="sissejuhatus.html"><a href="sissejuhatus.html#lorem-ipsum-dolor"><i class="fa fa-check"></i><b>1.0.1</b> Lorem ipsum dolor</a></li>
-</ul></li>
+<li class="chapter" data-level="" data-path="chapter10.html"><a href="chapter10.html#põhisõnumid"><i class="fa fa-check"></i>Põhisõnumid</a></li>
+<li class="chapter" data-level="" data-path="chapter10.html"><a href="chapter10.html#lähtekohad"><i class="fa fa-check"></i>Lähtekohad</a></li>
+<li class="chapter" data-level="" data-path="chapter10.html"><a href="chapter10.html#artiklite-teemad"><i class="fa fa-check"></i>Artiklite teemad</a></li>
+<li class="chapter" data-level="" data-path="chapter10.html"><a href="chapter10.html#eesti-maailmas"><i class="fa fa-check"></i>Eesti maailmas</a></li>
+<li class="chapter" data-level="" data-path="chapter10.html"><a href="chapter10.html#kuidas-edasi"><i class="fa fa-check"></i>Kuidas edasi?</a></li>
+<li class="chapter" data-level="" data-path="chapter10.html"><a href="chapter10.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 <li class="chapter" data-level="1.1" data-path="chapter11.html"><a href="chapter11.html"><i class="fa fa-check"></i><b>1.1</b> Pikaajalised maakasutuse (ja avaliku ruumina tajutava maastiku) muutused linnas ja maal</a><ul>
-<li class="chapter" data-level="1.1.1" data-path="chapter11.html"><a href="chapter11.html#rahvastiku-vähenemine-ja-ränna-linnalistele-aladele-mõjutab-maastikke"><i class="fa fa-check"></i><b>1.1.1</b> Rahvastiku vähenemine ja ränna linnalistele aladele mõjutab maastikke</a></li>
-<li class="chapter" data-level="1.1.2" data-path="chapter11.html"><a href="chapter11.html#ehitatud-alade-pindala-suureneb-peamiselt-linnade-ümbruses"><i class="fa fa-check"></i><b>1.1.2</b> Ehitatud alade pindala suureneb peamiselt linnade ümbruses</a></li>
-<li class="chapter" data-level="1.1.3" data-path="chapter11.html"><a href="chapter11.html#linnade-laialivalgumisega-ühtlustub-linna-ja-tagamaa-ruumikasutus"><i class="fa fa-check"></i><b>1.1.3</b> Linnade laialivalgumisega ühtlustub linna ja tagamaa ruumikasutus</a></li>
-<li class="chapter" data-level="1.1.4" data-path="chapter11.html"><a href="chapter11.html#põllumajandusmaastik-väheneb-ja-tühjeneb-inimestest"><i class="fa fa-check"></i><b>1.1.4</b> Põllumajandusmaastik väheneb ja tühjeneb inimestest</a></li>
-<li class="chapter" data-level="1.1.5" data-path="chapter11.html"><a href="chapter11.html#metsamaa-pindala-kasvab-kuid-väheneb-okasmetsa-pindala-ja-metsad-noorenevad"><i class="fa fa-check"></i><b>1.1.5</b> Metsamaa pindala kasvab, kuid väheneb okasmetsa pindala ja metsad noorenevad</a></li>
-<li class="chapter" data-level="1.1.6" data-path="chapter11.html"><a href="chapter11.html#suund-väärtuslike-põllumaade-säilitamisele-pidurdab-maastikumuutusi"><i class="fa fa-check"></i><b>1.1.6</b> Suund väärtuslike põllumaade säilitamisele pidurdab maastikumuutusi</a></li>
-<li class="chapter" data-level="1.1.7" data-path="chapter11.html"><a href="chapter11.html#väärtuslike-maastike-kaitse-ja-kaitsealad-toetavad-maastike-konservatiivsust"><i class="fa fa-check"></i><b>1.1.7</b> Väärtuslike maastike kaitse ja kaitsealad toetavad maastike konservatiivsust</a></li>
-<li class="chapter" data-level="1.1.8" data-path="chapter11.html"><a href="chapter11.html#kokkuvõte"><i class="fa fa-check"></i><b>1.1.8</b> Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="chapter11.html"><a href="chapter11.html#kasutatud-kirjandus"><i class="fa fa-check"></i>Kasutatud kirjandus</a></li>
+<li class="chapter" data-level="" data-path="chapter11.html"><a href="chapter11.html#rahvastiku-vähenemine-ja-ränna-linnalistele-aladele-mõjutab-maastikke"><i class="fa fa-check"></i>Rahvastiku vähenemine ja ränna linnalistele aladele mõjutab maastikke</a></li>
+<li class="chapter" data-level="" data-path="chapter11.html"><a href="chapter11.html#ehitatud-alade-pindala-suureneb-peamiselt-linnade-ümbruses"><i class="fa fa-check"></i>Ehitatud alade pindala suureneb peamiselt linnade ümbruses</a></li>
+<li class="chapter" data-level="" data-path="chapter11.html"><a href="chapter11.html#linnade-laialivalgumisega-ühtlustub-linna-ja-tagamaa-ruumikasutus"><i class="fa fa-check"></i>Linnade laialivalgumisega ühtlustub linna ja tagamaa ruumikasutus</a></li>
+<li class="chapter" data-level="" data-path="chapter11.html"><a href="chapter11.html#põllumajandusmaastik-väheneb-ja-tühjeneb-inimestest"><i class="fa fa-check"></i>Põllumajandusmaastik väheneb ja tühjeneb inimestest</a></li>
+<li class="chapter" data-level="1.1.1" data-path="chapter11.html"><a href="chapter11.html#metsamaa-pindala-kasvab-kuid-väheneb-okasmetsa-pindala-ja-metsad-noorenevad"><i class="fa fa-check"></i><b>1.1.1</b> Metsamaa pindala kasvab, kuid väheneb okasmetsa pindala ja metsad noorenevad</a></li>
+<li class="chapter" data-level="" data-path="chapter11.html"><a href="chapter11.html#suund-väärtuslike-põllumaade-säilitamisele-pidurdab-maastikumuutusi"><i class="fa fa-check"></i>Suund väärtuslike põllumaade säilitamisele pidurdab maastikumuutusi</a></li>
+<li class="chapter" data-level="" data-path="chapter11.html"><a href="chapter11.html#väärtuslike-maastike-kaitse-ja-kaitsealad-toetavad-maastike-konservatiivsust"><i class="fa fa-check"></i>Väärtuslike maastike kaitse ja kaitsealad toetavad maastike konservatiivsust</a></li>
+<li class="chapter" data-level="1.1.2" data-path="chapter11.html"><a href="chapter11.html#kokkuvõte"><i class="fa fa-check"></i><b>1.1.2</b> Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="chapter11.html"><a href="chapter11.html#viidatud-allikad-1"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
-<li class="chapter" data-level="1.2" data-path="chapter12.html"><a href="chapter12.html"><i class="fa fa-check"></i><b>1.2</b> Keskuse ja ääremaa kujunemine ja kujundamine viimase 30 aasta jooksul</a><ul>
-<li class="chapter" data-level="1.2.1" data-path="chapter12.html"><a href="chapter12.html#rahvastiku-vähenemise-ja-ääremaastumise-tsükkel-taastoodab-iseennast"><i class="fa fa-check"></i><b>1.2.1</b> Rahvastiku vähenemise ja ääremaastumise tsükkel taastoodab iseennast</a></li>
-<li class="chapter" data-level="1.2.2" data-path="chapter12.html"><a href="chapter12.html#maapiirkondade-ja-väikelinnade-häbimärgistamine-süvendab-veelgi-nende-ääremaastumist"><i class="fa fa-check"></i><b>1.2.2</b> Maapiirkondade ja väikelinnade häbimärgistamine süvendab veelgi nende ääremaastumist</a></li>
-<li class="chapter" data-level="1.2.3" data-path="chapter12.html"><a href="chapter12.html#konkurentsivõimel-põhinev-regionaalpoliitika-ei-ole-piirkondade-polariseerumist-vähendanud"><i class="fa fa-check"></i><b>1.2.3</b> Konkurentsivõimel põhinev regionaalpoliitika ei ole piirkondade polariseerumist vähendanud</a></li>
-<li class="chapter" data-level="1.2.4" data-path="chapter12.html"><a href="chapter12.html#ääremaa-staatus-ja--kuvand-piiravad-koha-konkurentsivõimet"><i class="fa fa-check"></i><b>1.2.4</b> Ääremaa-staatus ja -kuvand piiravad koha konkurentsivõimet</a></li>
-<li class="chapter" data-level="1.2.5" data-path="chapter12.html"><a href="chapter12.html#regionaalpoliitika-edendamine-objektiivse-ja-subjektiivse-ääremaastumisega-võitlemise-teel"><i class="fa fa-check"></i><b>1.2.5</b> Regionaalpoliitika edendamine objektiivse ja subjektiivse ääremaastumisega võitlemise teel</a></li>
-<li class="chapter" data-level="" data-path="chapter12.html"><a href="chapter12.html#viidatud-allikad"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="1.2" data-path="chapter12.html"><a href="chapter12.html"><i class="fa fa-check"></i><b>1.2</b> Keskuse-ääremaa lõhe on Eestis viimase 30 aasta jooksul süvenenud</a><ul>
+<li class="chapter" data-level="" data-path="chapter12.html"><a href="chapter12.html#ääremaastumine-on-iseennast-taastootev-nõiaring"><i class="fa fa-check"></i>Ääremaastumine on iseennast taastootev nõiaring</a></li>
+<li class="chapter" data-level="" data-path="chapter12.html"><a href="chapter12.html#maapiirkondade-ja-väikelinnade-häbimärgistamine-süvendab-ääremaastumist"><i class="fa fa-check"></i>Maapiirkondade ja väikelinnade häbimärgistamine süvendab ääremaastumist</a></li>
+<li class="chapter" data-level="" data-path="chapter12.html"><a href="chapter12.html#konkurentsivõimele-keskenduv-regionaalpoliitika-ei-ole-ääremaastumist-vähendanud"><i class="fa fa-check"></i>Konkurentsivõimele keskenduv regionaalpoliitika ei ole ääremaastumist vähendanud</a></li>
+<li class="chapter" data-level="" data-path="chapter12.html"><a href="chapter12.html#ääremaastaatus-ja--kuvand-piiravad-koha-konkurentsivõime-kasvu"><i class="fa fa-check"></i>Ääremaastaatus ja -kuvand piiravad koha konkurentsivõime kasvu</a></li>
+<li class="chapter" data-level="" data-path="chapter12.html"><a href="chapter12.html#kokkuvõte-1"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li><a href="chapter12.html#tänusõnad"><em>Tänusõnad</em></a></li>
+<li class="chapter" data-level="" data-path="chapter12.html"><a href="chapter12.html#viidatud-allikad-2"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
-<li class="chapter" data-level="1.3" data-path="chapter13.html"><a href="chapter13.html"><i class="fa fa-check"></i><b>1.3</b> Planeerimisvabaduse, kinnisvarademokraatia ja heaoluühiskonna võidukäik eeslinna-Eestis</a><ul>
-<li class="chapter" data-level="1.3.1" data-path="chapter13.html"><a href="chapter13.html#määratlus"><i class="fa fa-check"></i><b>1.3.1</b> Määratlus</a></li>
-<li class="chapter" data-level="1.3.2" data-path="chapter13.html"><a href="chapter13.html#eeslinnakasv"><i class="fa fa-check"></i><b>1.3.2</b> Eeslinnakasv</a></li>
-<li class="chapter" data-level="1.3.3" data-path="chapter13.html"><a href="chapter13.html#eeslinnakasvu-nähtamatu-käsi-vs-avalik-huvi"><i class="fa fa-check"></i><b>1.3.3</b> Eeslinnakasvu nähtamatu käsi vs avalik huvi</a></li>
-<li class="chapter" data-level="1.3.4" data-path="chapter13.html"><a href="chapter13.html#kodulähedasi-avalikke-teenuseid-ja-avalikku-ruumi-eeslinnas-napib-1"><i class="fa fa-check"></i><b>1.3.4</b> Kodulähedasi avalikke teenuseid ja avalikku ruumi eeslinnas napib</a></li>
-<li class="chapter" data-level="" data-path="chapter13.html"><a href="chapter13.html#viidatud-allikad-1"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="1.3" data-path="chapter13.html"><a href="chapter13.html"><i class="fa fa-check"></i><b>1.3</b> Planeerimisvabaduse võidukäik eeslinna-Eestis</a><ul>
+<li class="chapter" data-level="" data-path="chapter13.html"><a href="chapter13.html#kuidas-määratleda-eeslinna"><i class="fa fa-check"></i>Kuidas määratleda eeslinna?</a></li>
+<li class="chapter" data-level="" data-path="chapter13.html"><a href="chapter13.html#eeslinnas-elab-kümnendik-eesti-rahvast"><i class="fa fa-check"></i>Eeslinnas elab kümnendik Eesti rahvast</a></li>
+<li class="chapter" data-level="" data-path="chapter13.html"><a href="chapter13.html#eeslinnaasumeid-iseloomustab-katkendlik-asustusstruktuur"><i class="fa fa-check"></i>Eeslinnaasumeid iseloomustab katkendlik asustusstruktuur</a></li>
+<li class="chapter" data-level="1.3.1" data-path="chapter13.html"><a href="chapter13.html#eeslinnamuster-sünnib-detailplaneeringute-summas--chapter1_section"><i class="fa fa-check"></i><b>1.3.1</b> Eeslinnamuster sünnib detailplaneeringute summas {-chapter1_section}</a></li>
+<li class="chapter" data-level="1.3.2" data-path="chapter13.html"><a href="chapter13.html#turujõud-ja-planeerimispoliitika-väljenduvad-kohaloomes--chapter1_section"><i class="fa fa-check"></i><b>1.3.2</b> Turujõud ja planeerimispoliitika väljenduvad kohaloomes {-chapter1_section}</a></li>
+<li class="chapter" data-level="1.3.3" data-path="chapter13.html"><a href="chapter13.html#kodulähedasi-avalikke-teenuseid-ja-avalikku-ruumi-eeslinnas-napib--chapter1_section"><i class="fa fa-check"></i><b>1.3.3</b> Kodulähedasi avalikke teenuseid ja avalikku ruumi eeslinnas napib {-chapter1_section}</a></li>
+<li class="chapter" data-level="1.3.4" data-path="chapter13.html"><a href="chapter13.html#kokkuvõte--chapter1_section"><i class="fa fa-check"></i><b>1.3.4</b> Kokkuvõte {-chapter1_section}</a></li>
+<li class="chapter" data-level="" data-path="chapter13.html"><a href="chapter13.html#viidatud-allikad-3"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
-<li class="chapter" data-level="1.4" data-path="chapter14.html"><a href="chapter14.html"><i class="fa fa-check"></i><b>1.4</b> Kaasaegsed elamistingimused - kelle privileeg?</a><ul>
-<li class="chapter" data-level="1.4.1" data-path="chapter14.html"><a href="chapter14.html#elamistingimused-ja-piirkondlikud-erisused"><i class="fa fa-check"></i><b>1.4.1</b> Elamistingimused ja piirkondlikud erisused</a></li>
-<li class="chapter" data-level="1.4.2" data-path="chapter14.html"><a href="chapter14.html#eluasemevaldkonna-korraldus"><i class="fa fa-check"></i><b>1.4.2</b> Eluasemevaldkonna korraldus</a></li>
-<li class="chapter" data-level="1.4.3" data-path="chapter14.html"><a href="chapter14.html#võtmeküsimused-eluasemevaldkonnas---millised-on-sekkumise-võimalused"><i class="fa fa-check"></i><b>1.4.3</b> Võtmeküsimused eluasemevaldkonnas - millised on sekkumise võimalused?</a></li>
-<li class="chapter" data-level="" data-path="chapter14.html"><a href="chapter14.html#viidatud-allikad-2"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="1.4" data-path="chapter14.html"><a href="chapter14.html"><i class="fa fa-check"></i><b>1.4</b> Nüüdisaegsed elamistingimused – kelle privileeg?</a><ul>
+<li class="chapter" data-level="" data-path="chapter14.html"><a href="chapter14.html#tüüpiline-eestimaalane-elab-tüüpkorteris-eluasemefond-uueneb-märgatavalt-vaid-tallinna-linnaregioonis"><i class="fa fa-check"></i>Tüüpiline eestimaalane elab tüüpkorteris, eluasemefond uueneb märgatavalt vaid Tallinna linnaregioonis</a></li>
+<li class="chapter" data-level="" data-path="chapter14.html"><a href="chapter14.html#eluasemefondi-seisukord-on-paranemas-kuid-viletsamas-seisus-on-maapiirkondade-eluruumid"><i class="fa fa-check"></i>Eluasemefondi seisukord on paranemas, kuid viletsamas seisus on maapiirkondade eluruumid</a></li>
+<li class="chapter" data-level="" data-path="chapter14.html"><a href="chapter14.html#majanduslik-kindlustatus---võti-elamistingimuste-parandamiseks"><i class="fa fa-check"></i>Majanduslik kindlustatus - võti elamistingimuste parandamiseks</a></li>
+<li class="chapter" data-level="" data-path="chapter14.html"><a href="chapter14.html#taasiseseisvumise-järel-oli-eluasemekorraldus-täielikult-suunatud-turupõhisele-eluasemefondile"><i class="fa fa-check"></i>Taasiseseisvumise järel oli eluasemekorraldus täielikult suunatud turupõhisele eluasemefondile</a></li>
+<li class="chapter" data-level="" data-path="chapter14.html"><a href="chapter14.html#avaliku-sektori-meetmeid-on-ajaga-lisandunud"><i class="fa fa-check"></i>Avaliku sektori meetmeid on ajaga lisandunud</a></li>
+<li class="chapter" data-level="" data-path="chapter14.html"><a href="chapter14.html#rekonstrueerimistoetused-aitavad-elamistingimusi-parandada-kuid-regiooniti-ebaühtlaselt"><i class="fa fa-check"></i>Rekonstrueerimistoetused aitavad elamistingimusi parandada, kuid regiooniti ebaühtlaselt</a></li>
+<li class="chapter" data-level="" data-path="chapter14.html"><a href="chapter14.html#võtmeküsimus-eluasemevaldkonnas-millised-on-sekkumise-võimalused"><i class="fa fa-check"></i>Võtmeküsimus eluasemevaldkonnas – millised on sekkumise võimalused?</a></li>
+<li class="chapter" data-level="" data-path="chapter14.html"><a href="chapter14.html#viidatud-allikad-4"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
-<li class="chapter" data-level="1.5" data-path="chapter15.html"><a href="chapter15.html"><i class="fa fa-check"></i><b>1.5</b> Ligipääsetavuse muutused Eestis autostumise tulemusel</a><ul>
-<li class="chapter" data-level="1.5.1" data-path="chapter15.html"><a href="chapter15.html#kiire-autostumine-1990ndate-eestis-ja-järgnev-stabiliseerumine"><i class="fa fa-check"></i><b>1.5.1</b> Kiire autostumine 1990ndate Eestis ja järgnev stabiliseerumine?</a></li>
-<li class="chapter" data-level="1.5.2" data-path="chapter15.html"><a href="chapter15.html#autostumine-on-nii-keskkonnaprobleem-kui-väljakutse-ligipääsetavuse-parandamiseks"><i class="fa fa-check"></i><b>1.5.2</b> Autostumine on nii keskkonnaprobleem kui väljakutse ligipääsetavuse parandamiseks</a></li>
-<li class="chapter" data-level="1.5.3" data-path="chapter15.html"><a href="chapter15.html#hõreasustuses-on-elu-autokeskne"><i class="fa fa-check"></i><b>1.5.3</b> Hõreasustuses on elu autokeskne</a></li>
-<li class="chapter" data-level="1.5.4" data-path="chapter15.html"><a href="chapter15.html#äärelinnas-elamine-on-autokesksem-võrreldes-eluga-linnas"><i class="fa fa-check"></i><b>1.5.4</b> Äärelinnas elamine on autokesksem võrreldes eluga linnas</a></li>
-<li class="chapter" data-level="1.5.5" data-path="chapter15.html"><a href="chapter15.html#linnakeskustes-arendatakse-liikuvust-ikka-esmalt-autodele"><i class="fa fa-check"></i><b>1.5.5</b> Linnakeskustes arendatakse liikuvust ikka esmalt autodele</a></li>
-<li class="chapter" data-level="1.5.6" data-path="chapter15.html"><a href="chapter15.html#tulevikutrendid-kuidas-elada-vähema-autokasutusega"><i class="fa fa-check"></i><b>1.5.6</b> Tulevikutrendid: kuidas elada vähema autokasutusega?</a></li>
-<li class="chapter" data-level="" data-path="chapter15.html"><a href="chapter15.html#viidatud-allikad-3"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="1.5" data-path="chapter15.html"><a href="chapter15.html"><i class="fa fa-check"></i><b>1.5</b> Ligipääsetavuse muutused autostunud Eestis</a><ul>
+<li class="chapter" data-level="" data-path="chapter15.html"><a href="chapter15.html#aastate-kiire-autostumine-on-stabiliseerumas"><i class="fa fa-check"></i>1990. aastate kiire autostumine on stabiliseerumas</a></li>
+<li class="chapter" data-level="" data-path="chapter15.html"><a href="chapter15.html#autostumisel-on-mõju-keskkonnale-inimeste-tervisele-ja-võimalusele-liikuda-ning-teenuseid-kasutada"><i class="fa fa-check"></i>Autostumisel on mõju keskkonnale, inimeste tervisele ja võimalusele liikuda ning teenuseid kasutada</a></li>
+<li class="chapter" data-level="" data-path="chapter15.html"><a href="chapter15.html#hajaasustuse-elu-on-autokeskne"><i class="fa fa-check"></i>Hajaasustuse elu on autokeskne</a></li>
+<li class="chapter" data-level="" data-path="chapter15.html"><a href="chapter15.html#elu-eeslinnas-on-linnaelust-autokesksem"><i class="fa fa-check"></i>Elu eeslinnas on linnaelust autokesksem</a></li>
+<li class="chapter" data-level="" data-path="chapter15.html"><a href="chapter15.html#linnakeskuste-liikuvuse-arendamine-lähtub-autodest"><i class="fa fa-check"></i>Linnakeskuste liikuvuse arendamine lähtub autodest</a></li>
+<li class="chapter" data-level="" data-path="chapter15.html"><a href="chapter15.html#tulevikutrendid-tulevikutrendid-erinevate-liikumisviiside-õigetes-mahtudes-võimaldamine-tagab-vähema-autokasutuse"><i class="fa fa-check"></i>Tulevikutrendid: Tulevikutrendid: erinevate liikumisviiside õigetes mahtudes võimaldamine tagab vähema autokasutuse</a></li>
+<li class="chapter" data-level="" data-path="chapter15.html"><a href="chapter15.html#viidatud-allikad-5"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="chapter20.html"><a href="chapter20.html"><i class="fa fa-check"></i><b>2</b> Ruumipoliitikad</a><ul>
-<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html"><i class="fa fa-check"></i>Sissejuhatus</a><ul>
-<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#lähtekohad-1"><i class="fa fa-check"></i>Lähtekohad</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#teemad"><i class="fa fa-check"></i>Teemad</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#eesti-maailmas"><i class="fa fa-check"></i>Eesti maailmas</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#kuidas-edasi"><i class="fa fa-check"></i>Kuidas edasi?</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#viidatud-allikad-4"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html"><i class="fa fa-check"></i>Sissejuhatus</a><ul>
+<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#lähtekohad-1"><i class="fa fa-check"></i>Lähtekohad</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#teemad"><i class="fa fa-check"></i>Teemad</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#eesti-maailmas-1"><i class="fa fa-check"></i>Eesti maailmas</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#kuidas-edasi-1"><i class="fa fa-check"></i>Kuidas edasi?</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus.html"><a href="sissejuhatus.html#viidatud-allikad-6"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="2.1" data-path="chapter21.html"><a href="chapter21.html"><i class="fa fa-check"></i><b>2.1</b> Avalik ruum kui elukeskkonda siduv võrgustik</a><ul>
 <li class="chapter" data-level="" data-path="chapter21.html"><a href="chapter21.html#avalik-ruum-on-võrgustik-mis-seob-inimeste-elu--töö--ja-tegevuskohad"><i class="fa fa-check"></i>Avalik ruum on võrgustik, mis seob inimeste elu-, töö- ja tegevuskohad</a></li>
@@ -133,16 +153,16 @@
 <li class="chapter" data-level="" data-path="chapter21.html"><a href="chapter21.html#avalik-ruumi-mõiste-on-eesti-õigussüsteemis-sisustamata"><i class="fa fa-check"></i>Avalik ruumi mõiste on Eesti õigussüsteemis sisustamata</a></li>
 <li class="chapter" data-level="" data-path="chapter21.html"><a href="chapter21.html#avalik-sektor-ei-ole-end-üldjuhul-teadvustanud-avaliku-ruumi-esindaja-ja-tellijana"><i class="fa fa-check"></i>Avalik sektor ei ole end üldjuhul teadvustanud avaliku ruumi esindaja ja tellijana</a></li>
 <li class="chapter" data-level="" data-path="chapter21.html"><a href="chapter21.html#avalik-ruum-kui-võrgustik-on-tagatud-siis-kui-riik-ja-omava--litsused-tähtsustavad-seda-igas-ruumiotsuses-ja-igas-mõõtkavas"><i class="fa fa-check"></i>Avalik ruum kui võrgustik on tagatud siis, kui riik ja omava- litsused tähtsustavad seda igas ruumiotsuses ja igas mõõtkavas</a></li>
-<li class="chapter" data-level="" data-path="chapter21.html"><a href="chapter21.html#kokkuvõte-1"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="chapter21.html"><a href="chapter21.html#viidatud-allikad-5"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="chapter21.html"><a href="chapter21.html#kokkuvõte-2"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="chapter21.html"><a href="chapter21.html#viidatud-allikad-7"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="chapter22.html"><a href="chapter22.html"><i class="fa fa-check"></i><b>2.2</b> Ehituspärand ja ruumikvaliteet</a><ul>
 <li class="chapter" data-level="" data-path="chapter22.html"><a href="chapter22.html#ehituspärand-aitab-luua-mitmekesist-ruumi"><i class="fa fa-check"></i>Ehituspärand aitab luua mitmekesist ruumi</a></li>
 <li class="chapter" data-level="" data-path="chapter22.html"><a href="chapter22.html#olemasolevate-ehitiste-säilitamine-on-kestliku-ruumilise-arengu-alus"><i class="fa fa-check"></i>Olemasolevate ehitiste säilitamine on kestliku ruumilise arengu alus</a></li>
 <li class="chapter" data-level="" data-path="chapter22.html"><a href="chapter22.html#üksikutel-ruumiotsustel-on-suur-mõju-nii-pärandile-kui-regionaalarengule"><i class="fa fa-check"></i>Üksikutel ruumiotsustel on suur mõju nii pärandile kui regionaalarengule</a></li>
 <li class="chapter" data-level="" data-path="chapter22.html"><a href="chapter22.html#mälestised-on-ühine-hüve-ja-jagatud-vastutus"><i class="fa fa-check"></i>Mälestised on ühine hüve ja jagatud vastutus</a></li>
-<li class="chapter" data-level="" data-path="chapter22.html"><a href="chapter22.html#kokkuvõte-2"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="chapter22.html"><a href="chapter22.html#viidatud-allikad-6"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="chapter22.html"><a href="chapter22.html#kokkuvõte-3"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="chapter22.html"><a href="chapter22.html#viidatud-allikad-8"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="2.3" data-path="chapter23.html"><a href="chapter23.html"><i class="fa fa-check"></i><b>2.3</b> Aktivism avaliku ruumi koosloomes</a><ul>
 <li class="chapter" data-level="" data-path="chapter23.html"><a href="chapter23.html#ruumiaktivism-on-ajas-muutuv-ja-eesmärkidest-sõltuv-ruumipoliitiline-tegevus"><i class="fa fa-check"></i>Ruumiaktivism on ajas muutuv ja eesmärkidest sõltuv ruumipoliitiline tegevus</a></li>
@@ -150,8 +170,8 @@
 <li class="chapter" data-level="" data-path="chapter23.html"><a href="chapter23.html#ruumiaktivism-kannustab-kodanikuühiskonna-arengut"><i class="fa fa-check"></i>Ruumiaktivism kannustab kodanikuühiskonna arengut</a></li>
 <li class="chapter" data-level="" data-path="chapter23.html"><a href="chapter23.html#ruumiloomes-osalevate-liikumiste-ja-üksikisikute-mõju-väljendub-uutes-osaluskultuuri-vormides"><i class="fa fa-check"></i>Ruumiloomes osalevate liikumiste ja üksikisikute mõju väljendub uutes osaluskultuuri vormides</a></li>
 <li class="chapter" data-level="" data-path="chapter23.html"><a href="chapter23.html#aktivismi-väljakutsed-ruumiloomes"><i class="fa fa-check"></i>Aktivismi väljakutsed ruumiloomes</a></li>
-<li class="chapter" data-level="" data-path="chapter23.html"><a href="chapter23.html#kokkuvõte-3"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="chapter23.html"><a href="chapter23.html#viidatud-allikad-7"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="chapter23.html"><a href="chapter23.html#kokkuvõte-4"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="chapter23.html"><a href="chapter23.html#viidatud-allikad-9"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="2.4" data-path="chapter24.html"><a href="chapter24.html"><i class="fa fa-check"></i><b>2.4</b> Andmepõhine ruumiloome</a><ul>
 <li class="chapter" data-level="" data-path="chapter24.html"><a href="chapter24.html#avalikest-ruumiandmetest-on-ühiskonnal-ainult-võita"><i class="fa fa-check"></i>Avalikest ruumiandmetest on ühiskonnal ainult võita</a></li>
@@ -159,58 +179,75 @@
 <li class="chapter" data-level="" data-path="chapter24.html"><a href="chapter24.html#koostatud-ruumianalüüside-ja-tehtud-otsuste-vahelised-seosed-on-harva-tuvastatavad"><i class="fa fa-check"></i>Koostatud ruumianalüüside ja tehtud otsuste vahelised seosed on harva tuvastatavad</a></li>
 <li class="chapter" data-level="" data-path="chapter24.html"><a href="chapter24.html#aeg-andmepõhise-ruumiloome-juurutamiseks-on-küps"><i class="fa fa-check"></i>Aeg andmepõhise ruumiloome juurutamiseks on küps</a></li>
 <li class="chapter" data-level="" data-path="chapter24.html"><a href="chapter24.html#sabassörkijast-on-võimalik-tõusta-eestvedajaks"><i class="fa fa-check"></i>Sabassörkijast on võimalik tõusta eestvedajaks</a></li>
-<li class="chapter" data-level="" data-path="chapter24.html"><a href="chapter24.html#kokkuvõte-4"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="chapter24.html"><a href="chapter24.html#viidatud-allikad-8"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="chapter24.html"><a href="chapter24.html#kokkuvõte-5"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="chapter24.html"><a href="chapter24.html#viidatud-allikad-10"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="chapter30.html"><a href="chapter30.html"><i class="fa fa-check"></i><b>3</b> Loodusruum kui avalik hüve</a><ul>
-<li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html"><i class="fa fa-check"></i>Sissejuhatus</a><ul>
-<li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html#lähtekohad-2"><i class="fa fa-check"></i>Lähtekohad</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html#looduskeskkonna-seisund-ja-avalik-kasutamine"><i class="fa fa-check"></i>Looduskeskkonna seisund ja avalik kasutamine</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html#koduümbruse-loodus-ja-asulate-rohealad"><i class="fa fa-check"></i>Koduümbruse loodus ja asulate rohealad</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html#kultuuriline-tulevikuvaade"><i class="fa fa-check"></i>Kultuuriline tulevikuvaade</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html#kasutatud-allikad"><i class="fa fa-check"></i>Kasutatud allikad</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html"><i class="fa fa-check"></i>Sissejuhatus</a><ul>
+<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#looduskeskkonna-seisundist-keskkonnaõigluse-ja-keskkonnademokraatiani"><i class="fa fa-check"></i>Looduskeskkonna seisundist keskkonnaõigluse ja keskkonnademokraatiani</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#looduskeskkonna-ühiskondlik-roll-vajab-senisest-terviklikumat-jälgimist"><i class="fa fa-check"></i>Looduskeskkonna ühiskondlik roll vajab senisest terviklikumat jälgimist</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#eesti-looduse-seisundi-koondnäitajad-on-halvenenud"><i class="fa fa-check"></i>Eesti looduse seisundi koondnäitajad on halvenenud</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#eesti-looduse-seisundi-koondnäitajad-on-halvenenud-1"><i class="fa fa-check"></i>Eesti looduse seisundi koondnäitajad on halvenenud</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#koduümbruse-loodus-ja-asulate-rohealad-vajavad-planeerijate-tähelepanu"><i class="fa fa-check"></i>Koduümbruse loodus ja asulate rohealad vajavad planeerijate tähelepanu</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#tulevikuvaade"><i class="fa fa-check"></i>Tulevikuvaade</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-1.html"><a href="sissejuhatus-1.html#viidatud-allikad-11"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
-<li class="chapter" data-level="3.1" data-path="chapter31.html"><a href="chapter31.html"><i class="fa fa-check"></i><b>3.1</b> Kuidas inimesed Eesti looduskeskkonda kasutavad?</a></li>
-<li class="chapter" data-level="3.2" data-path="chapter32.html"><a href="chapter32.html"><i class="fa fa-check"></i><b>3.2</b> Looduskeskkonna mõju inimestele ja ühiskonnale</a></li>
-<li class="chapter" data-level="3.3" data-path="chapter33.html"><a href="chapter33.html"><i class="fa fa-check"></i><b>3.3</b> Looduskeskkonna kujundamine avalikuks kasutuseks</a><ul>
-<li class="chapter" data-level="3.3.1" data-path="chapter33.html"><a href="chapter33.html#looduskaitsekorraldus-ja-ruumiline-planeerimine-loovad-eeldused-loodusalade-säilimiseks-ja-kasutamiseks"><i class="fa fa-check"></i><b>3.3.1</b> Looduskaitsekorraldus ja ruumiline planeerimine loovad eeldused loodusalade säilimiseks ja kasutamiseks</a></li>
-<li class="chapter" data-level="3.3.2" data-path="chapter33.html"><a href="chapter33.html#loodusalade-planeerimisel-lähtutakse-lähimuspõhimõttest"><i class="fa fa-check"></i><b>3.3.2</b> Loodusalade planeerimisel lähtutakse lähimuspõhimõttest</a></li>
-<li class="chapter" data-level="3.3.3" data-path="chapter33.html"><a href="chapter33.html#planeerimine-seob-rahvusvahelised-arengueesmärgid-kohalike-huvide-ja-võimalustega"><i class="fa fa-check"></i><b>3.3.3</b> Planeerimine seob rahvusvahelised arengueesmärgid kohalike huvide ja võimalustega</a></li>
-<li class="chapter" data-level="3.3.4" data-path="chapter33.html"><a href="chapter33.html#eesti-ruumiloome-ei-ole-piisavalt-terviklik"><i class="fa fa-check"></i><b>3.3.4</b> Eesti ruumiloome ei ole piisavalt terviklik</a></li>
-<li class="chapter" data-level="3.3.5" data-path="chapter33.html"><a href="chapter33.html#loodusaladel-on-erinevad-juurdepääsuvõimalused-ja-kasutuskitsendused"><i class="fa fa-check"></i><b>3.3.5</b> Loodusaladel on erinevad juurdepääsuvõimalused ja kasutuskitsendused</a></li>
-<li class="chapter" data-level="3.3.6" data-path="chapter33.html"><a href="chapter33.html#rohevõrgustik-seob-loodusalad-tervikuks"><i class="fa fa-check"></i><b>3.3.6</b> Rohevõrgustik seob loodusalad tervikuks</a></li>
-<li class="chapter" data-level="3.3.7" data-path="chapter33.html"><a href="chapter33.html#rohevõrgustiku-toimimine-pole-tervikuna-tagatud"><i class="fa fa-check"></i><b>3.3.7</b> Rohevõrgustiku toimimine pole tervikuna tagatud</a></li>
-<li class="chapter" data-level="3.3.8" data-path="chapter33.html"><a href="chapter33.html#tulevikuvaade"><i class="fa fa-check"></i><b>3.3.8</b> Tulevikuvaade</a></li>
-<li class="chapter" data-level="" data-path="chapter33.html"><a href="chapter33.html#viidatud-allikad-9"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="3.1" data-path="chapter31.html"><a href="chapter31.html"><i class="fa fa-check"></i><b>3.1</b> Kuidas inimesed Eesti looduskeskkonda kasutavad?</a><ul>
+<li class="chapter" data-level="" data-path="chapter31.html"><a href="chapter31.html#eesti-looduskeskkonna-avaliku-kasutamise-alus-on-igaüheõigus"><i class="fa fa-check"></i>Eesti looduskeskkonna avaliku kasutamise alus on igaüheõigus</a></li>
+<li class="chapter" data-level="" data-path="chapter31.html"><a href="chapter31.html#eesti-loodus--ja-matkarajad-pakuvad-häid-puhkevõimalusi"><i class="fa fa-check"></i>Eesti loodus- ja matkarajad pakuvad häid puhkevõimalusi</a></li>
+<li class="chapter" data-level="" data-path="chapter31.html"><a href="chapter31.html#kaitsealade-külastajaskond-suureneb-ja-mitmekesistub"><i class="fa fa-check"></i>Kaitsealade külastajaskond suureneb ja mitmekesistub</a></li>
+<li class="chapter" data-level="" data-path="chapter31.html"><a href="chapter31.html#linnades-on-palju-rohealasid-kuid-nende-kvaliteet-vajab-tähelepanu"><i class="fa fa-check"></i>Linnades on palju rohealasid, kuid nende kvaliteet vajab tähelepanu</a></li>
+<li class="chapter" data-level="" data-path="chapter31.html"><a href="chapter31.html#teave-inimeste-looduskasutuse-kohta-on-lünklik"><i class="fa fa-check"></i>Teave inimeste looduskasutuse kohta on lünklik</a></li>
+<li class="chapter" data-level="" data-path="chapter31.html"><a href="chapter31.html#pool-elanikkonnast-käib-marjul-või-seenel"><i class="fa fa-check"></i>Pool elanikkonnast käib marjul või seenel</a></li>
+<li class="chapter" data-level="" data-path="chapter31.html"><a href="chapter31.html#loodusandide-korjamist-toetavad-loodusharidus-liikuvus-ja-maastiku-planeerimine"><i class="fa fa-check"></i>Loodusandide korjamist toetavad loodusharidus, liikuvus ja maastiku planeerimine</a></li>
+<li class="chapter" data-level="" data-path="chapter31.html"><a href="chapter31.html#jahipidamine-ühendab-loodusharrastuse-ja-ühiskondliku-ootuse"><i class="fa fa-check"></i>Jahipidamine ühendab loodusharrastuse ja ühiskondliku ootuse</a></li>
+<li class="chapter" data-level="" data-path="chapter31.html"><a href="chapter31.html#harrastuskalastajate-arv-on-eestis-püsiv"><i class="fa fa-check"></i>Harrastuskalastajate arv on Eestis püsiv</a></li>
+<li class="chapter" data-level="" data-path="chapter31.html"><a href="chapter31.html#kokkuvõte-6"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="chapter31.html"><a href="chapter31.html#viidatud-allikad-12"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="chapter32.html"><a href="chapter32.html"><i class="fa fa-check"></i><b>3.2</b> Loodusalade mõju inimeste heaolule</a><ul>
+<li class="chapter" data-level="" data-path="chapter32.html"><a href="chapter32.html#loodusalade-pindala-seos-eesti-täiskasvanute-tervisehinnangutega"><i class="fa fa-check"></i>Loodusalade pindala seos Eesti täiskasvanute tervisehinnangutega</a></li>
+<li class="chapter" data-level="" data-path="chapter32.html"><a href="chapter32.html#loodusaladest-saadavat-tervisekasu-ei-arvestata-planeerimisel-piisavalt"><i class="fa fa-check"></i>Loodusaladest saadavat tervisekasu ei arvestata planeerimisel piisavalt</a></li>
+<li class="chapter" data-level="" data-path="chapter32.html"><a href="chapter32.html#inimesed-seisavad-silmitsi-loodusalade-nõrgenenud-puhverdusvõimega"><i class="fa fa-check"></i>Inimesed seisavad silmitsi loodusalade nõrgenenud puhverdusvõimega</a></li>
+<li class="chapter" data-level="" data-path="chapter32.html"><a href="chapter32.html#loodusalade-potentsiaal-avaneb-hariduse-kaudu"><i class="fa fa-check"></i>Loodusalade potentsiaal avaneb hariduse kaudu</a></li>
+<li class="chapter" data-level="" data-path="chapter32.html"><a href="chapter32.html#kokkuvõte-7"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="chapter32.html"><a href="chapter32.html#viidatud-allikad-13"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="chapter33.html"><a href="chapter33.html"><i class="fa fa-check"></i><b>3.3</b> Loodusalade kujundamine avalikuks kasutuseks</a><ul>
+<li class="chapter" data-level="" data-path="chapter33.html"><a href="chapter33.html#loodusalade-planeerimisel-lähtutakse-lähimuspõhimõttest"><i class="fa fa-check"></i>Loodusalade planeerimisel lähtutakse lähimuspõhimõttest</a></li>
+<li class="chapter" data-level="" data-path="chapter33.html"><a href="chapter33.html#loodusalade-seisundit-mõjutavad-nii-rahvusvahelised-arengueesmärgid-kui-ka-riiklik-valdkonnapoliitika"><i class="fa fa-check"></i>Loodusalade seisundit mõjutavad nii rahvusvahelised arengueesmärgid kui ka riiklik valdkonnapoliitika</a></li>
+<li class="chapter" data-level="" data-path="chapter33.html"><a href="chapter33.html#loodusaladel-on-erinevad-juurdepääsuvõimalused-ja-kasutuskitsendused"><i class="fa fa-check"></i>Loodusaladel on erinevad juurdepääsuvõimalused ja kasutuskitsendused</a></li>
+<li class="chapter" data-level="" data-path="chapter33.html"><a href="chapter33.html#rohevõrgustik-seob-loodusalad-tervikuks-kuid-selle-toimimine-pole-tervikuna-tagatud"><i class="fa fa-check"></i>Rohevõrgustik seob loodusalad tervikuks, kuid selle toimimine pole tervikuna tagatud</a></li>
+<li class="chapter" data-level="" data-path="chapter33.html"><a href="chapter33.html#kokkuvõte-8"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="chapter33.html"><a href="chapter33.html#viidatud-allikad-14"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="3.4" data-path="chapter34.html"><a href="chapter34.html"><i class="fa fa-check"></i><b>3.4</b> Kaasarääkimise võimalused avaliku ruumi kujundamises</a><ul>
-<li class="chapter" data-level="3.4.1" data-path="chapter34.html"><a href="chapter34.html#loodusalade-üle-otsustamisel-on-oluline-kuidas-inimesi-kaasatakse-ja-informeeritakse"><i class="fa fa-check"></i><b>3.4.1</b> Loodusalade üle otsustamisel on oluline, kuidas inimesi kaasatakse ja informeeritakse</a></li>
-<li class="chapter" data-level="3.4.2" data-path="chapter34.html"><a href="chapter34.html#ndate-sündmused-muutsid-nõukogude-eestis-kujunenud-arusaamu-ning-laiendasid-keskkonnainfo-kättesaadavust"><i class="fa fa-check"></i><b>3.4.2</b> 1980-ndate sündmused muutsid Nõukogude Eestis kujunenud arusaamu ning laiendasid keskkonnainfo kättesaadavust</a></li>
-<li class="chapter" data-level="3.4.3" data-path="chapter34.html"><a href="chapter34.html#eesti-praegune-osalemis--ja-keskkonnainfo-avalikustamise-normistik-on-hea"><i class="fa fa-check"></i><b>3.4.3</b> Eesti praegune osalemis- ja keskkonnainfo avalikustamise normistik on hea</a></li>
-<li class="chapter" data-level="3.4.4" data-path="chapter34.html"><a href="chapter34.html#avaliku-ruumi-kujundamisel-on-avalikkusel-üldjuhul-õigus-kaasa-rääkida"><i class="fa fa-check"></i><b>3.4.4</b> Avaliku ruumi kujundamisel on avalikkusel üldjuhul õigus kaasa rääkida</a></li>
-<li class="chapter" data-level="3.4.5" data-path="chapter34.html"><a href="chapter34.html#üksikisik-ei-saa-tõhusalt-kaasa-rääkida-metsaraie-ja-kaevandusalade-planeerimises-ega-riigi-poliitikates"><i class="fa fa-check"></i><b>3.4.5</b> Üksikisik ei saa tõhusalt kaasa rääkida metsaraie ja kaevandusalade planeerimises ega riigi poliitikates</a></li>
-<li class="chapter" data-level="3.4.6" data-path="chapter34.html"><a href="chapter34.html#hoolimata-õigusest-osaleda-on-eesti-elanikud-passiivsed-ja-pessimistlikud"><i class="fa fa-check"></i><b>3.4.6</b> Hoolimata õigusest osaleda on Eesti elanikud passiivsed ja pessimistlikud</a></li>
-<li class="chapter" data-level="3.4.7" data-path="chapter34.html"><a href="chapter34.html#kaasajatel-on-vaja-uusi-oskusi-sihtrühmadega-suhtestumiseks"><i class="fa fa-check"></i><b>3.4.7</b> Kaasajatel on vaja uusi oskusi sihtrühmadega suhtestumiseks</a></li>
-<li class="chapter" data-level="3.4.8" data-path="chapter34.html"><a href="chapter34.html#sisuka-kaasarääkimise-eelduseks-on-keskkonnainfo-olemasolu-ja-kättesaadavus"><i class="fa fa-check"></i><b>3.4.8</b> Sisuka kaasarääkimise eelduseks on keskkonnainfo olemasolu ja kättesaadavus</a></li>
-<li class="chapter" data-level="3.4.9" data-path="chapter34.html"><a href="chapter34.html#laiahaardeline-keskkonnainfo-huvitab-elanikke-kuid-pole-enamikule-käepärane"><i class="fa fa-check"></i><b>3.4.9</b> Laiahaardeline keskkonnainfo huvitab elanikke, kuid pole enamikule käepärane</a></li>
-<li class="chapter" data-level="3.4.10" data-path="chapter34.html"><a href="chapter34.html#loodust-jälgiv-elanikkond-saab-edendada-kodanikuühiskonda"><i class="fa fa-check"></i><b>3.4.10</b> Loodust jälgiv elanikkond saab edendada kodanikuühiskonda</a></li>
+<li class="chapter" data-level="" data-path="chapter34.html"><a href="chapter34.html#aastate-sündmused-lõid-nõukogude-eestis-avaliku-keskkonnaarutelu"><i class="fa fa-check"></i>1980. aastate sündmused lõid Nõukogude Eestis avaliku keskkonnaarutelu</a></li>
+<li class="chapter" data-level="" data-path="chapter34.html"><a href="chapter34.html#eesti-praegune-osalemis--ja-keskkonnainfo-avalikustamise-normistik-on-hea"><i class="fa fa-check"></i>Eesti praegune osalemis- ja keskkonnainfo avalikustamise normistik on hea</a></li>
+<li class="chapter" data-level="" data-path="chapter34.html"><a href="chapter34.html#avaliku-ruumi-kujundamisel-on-avalikkusel-üldjuhul-õigus-kaasa-rääkida"><i class="fa fa-check"></i>Avaliku ruumi kujundamisel on avalikkusel üldjuhul õigus kaasa rääkida</a></li>
+<li class="chapter" data-level="" data-path="chapter34.html"><a href="chapter34.html#hoolimata-õigusest-osaleda-on-eesti-elanikud-passiivsed-ja-pessimistlikud"><i class="fa fa-check"></i>Hoolimata õigusest osaleda on Eesti elanikud passiivsed ja pessimistlikud</a></li>
+<li class="chapter" data-level="" data-path="chapter34.html"><a href="chapter34.html#sihtrühmad-ootavad-tõhusamate-kaasamismeetodite-kasutuselevõttu"><i class="fa fa-check"></i>Sihtrühmad ootavad tõhusamate kaasamismeetodite kasutuselevõttu</a></li>
+<li class="chapter" data-level="" data-path="chapter34.html"><a href="chapter34.html#sisuka-kaasarääkimise-eelduseks-on-keskkonnainfo-olemasolu-ja-kättesaadavus"><i class="fa fa-check"></i>Sisuka kaasarääkimise eelduseks on keskkonnainfo olemasolu ja kättesaadavus</a></li>
+<li class="chapter" data-level="" data-path="chapter34.html"><a href="chapter34.html#loodust-jälgiv-elanikkond-edendab-kodanikuühiskonda"><i class="fa fa-check"></i>Loodust jälgiv elanikkond edendab kodanikuühiskonda</a></li>
+<li class="chapter" data-level="" data-path="chapter34.html"><a href="chapter34.html#kokkuvõte-9"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="chapter34.html"><a href="chapter34.html#viidatud-allikad-15"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="chapter40.html"><a href="chapter40.html"><i class="fa fa-check"></i><b>4</b> Aruteluruum</a><ul>
-<li class="chapter" data-level="" data-path="sissejuhatus-3.html"><a href="sissejuhatus-3.html"><i class="fa fa-check"></i>Sissejuhatus</a><ul>
-<li class="chapter" data-level="" data-path="sissejuhatus-3.html"><a href="sissejuhatus-3.html#lähtekohad-3"><i class="fa fa-check"></i>Lähtekohad</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus-3.html"><a href="sissejuhatus-3.html#artiklite-kokkuvõte"><i class="fa fa-check"></i>Artiklite kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus-3.html"><a href="sissejuhatus-3.html#kuidas-edasi-1"><i class="fa fa-check"></i>Kuidas edasi?</a></li>
-<li class="chapter" data-level="" data-path="sissejuhatus-3.html"><a href="sissejuhatus-3.html#viidatud-allikad-10"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html"><i class="fa fa-check"></i>Sissejuhatus</a><ul>
+<li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html#lähtekohad-2"><i class="fa fa-check"></i>Lähtekohad</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html#artiklite-kokkuvõte"><i class="fa fa-check"></i>Artiklite kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html#kuidas-edasi-2"><i class="fa fa-check"></i>Kuidas edasi?</a></li>
+<li class="chapter" data-level="" data-path="sissejuhatus-2.html"><a href="sissejuhatus-2.html#viidatud-allikad-16"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="4.1" data-path="chapter41.html"><a href="chapter41.html"><i class="fa fa-check"></i><b>4.1</b> Ühiskondlik-poliitiline diskussioon digitaalses avalikus ruumis</a><ul>
 <li class="chapter" data-level="" data-path="chapter41.html"><a href="chapter41.html#sotsiaalmeedia-lubavused-soodustavad-emotsioonipõhist-suhtlust"><i class="fa fa-check"></i>Sotsiaalmeedia lubavused soodustavad emotsioonipõhist suhtlust</a></li>
 <li class="chapter" data-level="" data-path="chapter41.html"><a href="chapter41.html#interneti-kasutamine-eestis"><i class="fa fa-check"></i>Interneti kasutamine Eestis</a></li>
 <li class="chapter" data-level="" data-path="chapter41.html"><a href="chapter41.html#suletud-tähendusloome-tekitab-polariseerumist"><i class="fa fa-check"></i>Suletud tähendusloome tekitab polariseerumist</a></li>
 <li class="chapter" data-level="" data-path="chapter41.html"><a href="chapter41.html#avatud-tähendusloome-kaasab-erinevaid-osapooli"><i class="fa fa-check"></i>Avatud tähendusloome kaasab erinevaid osapooli</a></li>
-<li class="chapter" data-level="" data-path="chapter41.html"><a href="chapter41.html#kokkuvõte-5"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="chapter41.html"><a href="chapter41.html#viidatud-allikad-11"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="chapter41.html"><a href="chapter41.html#kokkuvõte-10"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="chapter41.html"><a href="chapter41.html#viidatud-allikad-17"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="chapter42.html"><a href="chapter42.html"><i class="fa fa-check"></i><b>4.2</b> Eesti noored virtuaalses arvamusruumis</a><ul>
 <li class="chapter" data-level="" data-path="chapter42.html"><a href="chapter42.html#eesti-lapsed-kasutavad-internetti-iga-päev"><i class="fa fa-check"></i>Eesti lapsed kasutavad internetti iga päev</a></li>
@@ -219,22 +256,22 @@
 <li class="chapter" data-level="" data-path="chapter42.html"><a href="chapter42.html#eesti-noorte-osalustüübid"><i class="fa fa-check"></i>Eesti noorte osalustüübid</a></li>
 <li class="chapter" data-level="" data-path="chapter42.html"><a href="chapter42.html#noorte-digiosalust-takistavad-tegurid"><i class="fa fa-check"></i>Noorte digiosalust takistavad tegurid</a></li>
 <li class="chapter" data-level="" data-path="chapter42.html"><a href="chapter42.html#noored-tajuvad-virtuaalse-arvamusruumi-kitsaskohti"><i class="fa fa-check"></i>Noored tajuvad virtuaalse arvamusruumi kitsaskohti</a></li>
-<li class="chapter" data-level="" data-path="chapter42.html"><a href="chapter42.html#kokkuvõte-6"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="chapter42.html"><a href="chapter42.html#viidatud-allikad-12"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="chapter42.html"><a href="chapter42.html#kokkuvõte-11"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="chapter42.html"><a href="chapter42.html#viidatud-allikad-18"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="chapter43.html"><a href="chapter43.html"><i class="fa fa-check"></i><b>4.3</b> Ajakirjanduse kujundatav arvamusruum</a><ul>
 <li class="chapter" data-level="" data-path="chapter43.html"><a href="chapter43.html#ajakirjanduse-kontroll-arvamusruumi-üle-traditsioonilistes-meediakanalites"><i class="fa fa-check"></i>Ajakirjanduse kontroll arvamusruumi üle traditsioonilistes meediakanalites</a></li>
 <li class="chapter" data-level="" data-path="chapter43.html"><a href="chapter43.html#veebiajakirjanduse-kaasav-arhitektuur-ja-toimimine"><i class="fa fa-check"></i>Veebiajakirjanduse kaasav arhitektuur ja toimimine</a></li>
 <li class="chapter" data-level="" data-path="chapter43.html"><a href="chapter43.html#sotsiaalmeedia-vastuolulised-võimalused"><i class="fa fa-check"></i>Sotsiaalmeedia vastuolulised võimalused</a></li>
-<li class="chapter" data-level="" data-path="chapter43.html"><a href="chapter43.html#kokkuvõte-7"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="chapter43.html"><a href="chapter43.html#viidatud-allikad-13"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="chapter43.html"><a href="chapter43.html#kokkuvõte-12"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="chapter43.html"><a href="chapter43.html#viidatud-allikad-19"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 <li class="chapter" data-level="4.4" data-path="chapter44.html"><a href="chapter44.html"><i class="fa fa-check"></i><b>4.4</b> Ekspertide roll ja staatus ühiskondlikes meediaaruteludes</a><ul>
 <li class="chapter" data-level="" data-path="chapter44.html"><a href="chapter44.html#teadlaste-roll-ühiskondlikes-aruteludes"><i class="fa fa-check"></i>Teadlaste roll ühiskondlikes aruteludes</a></li>
 <li class="chapter" data-level="" data-path="chapter44.html"><a href="chapter44.html#puidurafineerimistehase-kava-ärgitas-teadlasi-vedama-avalikku-debatti"><i class="fa fa-check"></i>Puidurafineerimistehase kava ärgitas teadlasi vedama avalikku debatti</a></li>
 <li class="chapter" data-level="" data-path="chapter44.html"><a href="chapter44.html#metsandusdebatis-ei-toonud-avalik-arutelu-eksperte-üksteisele-lähemale"><i class="fa fa-check"></i>Metsandusdebatis ei toonud avalik arutelu eksperte üksteisele lähemale</a></li>
-<li class="chapter" data-level="" data-path="chapter44.html"><a href="chapter44.html#kokkuvõte-8"><i class="fa fa-check"></i>Kokkuvõte</a></li>
-<li class="chapter" data-level="" data-path="chapter44.html"><a href="chapter44.html#viidatud-allikad-14"><i class="fa fa-check"></i>Viidatud allikad</a></li>
+<li class="chapter" data-level="" data-path="chapter44.html"><a href="chapter44.html#kokkuvõte-13"><i class="fa fa-check"></i>Kokkuvõte</a></li>
+<li class="chapter" data-level="" data-path="chapter44.html"><a href="chapter44.html#viidatud-allikad-20"><i class="fa fa-check"></i>Viidatud allikad</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="chapter50.html"><a href="chapter50.html"><i class="fa fa-check"></i><b>5</b> Tuleviku Eesti 2050</a><ul>
@@ -257,139 +294,197 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="sissejuhatus-1" class="section level2 unnumbered chapter_section chapter2_section">
+<div id="sissejuhatus-1" class="section level2 unnumbered chapter_section chapter3_section">
 <h2>Sissejuhatus</h2>
 <div class="authors">
 <p>
-<strong>Epp Lankots</strong>
+<strong>Asko Lõhmus</strong>
 </p>
 </div>
 <div class="points">
 <ul>
 <li>
-<p>
-Eestis on avaliku ruumi loome olnud süsteemitu ja killustunud eri fookusega planeeringute vahel. Avaliku ruumi loome hõlmab enamat kui ainult planeerimisprotsessi. Kitsas vaade, mis ei võta arvesse näiteks transpordi, haridusvõrgu, turismi ja teiste valdkondade arendamise ruumilist mõju, ei aita saavutada paremat elukeskkonda. Ligipääsetava, ohutu, katkestusteta toimiva ja meeldiva avaliku ruumi loomine eeldab avalikult sektorilt eri valdkondade vaadete sidumist ja protsessi juhtimist.
-</p>
-</li>
-<li>
-<p>
-Aineline kultuuripärand on ressurss, mille abil avaliku ruumi ja elukeskkonna kvaliteeti tõsta. Kui maakondadesse teenuste planeerimisel arvestatakse üksikotsuste laiemat ruumilist mõju, lahendab see mitu riigile olulist probleemi korraga. Kultuuripärandi kasutuselevõtt ja korrashoid aitab tihendada kahanevate asulate keskusi ja muuta väikelinnu atraktiivsemaks.
-</p>
-</li>
-<li>
-<p>
-Koosloome asemel on avaliku ruumi planeerimine Eesti linnades olnud pigem menetlusprotsessile keskenduv ja vormiliselt kaasav kui erinevatele teadmistele ja andmetele tuginev protsess. Kohalike kogukondade ja teiste huvigruppide osalus ei kindlusta automaatselt kvaliteetset avalikku ruumi, nagu ei taga põhjalikult kogutud andmed üksi demokraatlikku otsust. Oluline on leida kooskõla ruumikasutajate ning eksperditeadmise vahel, kusjuures nii eksperdid kui ka teadmised võivad jaguneda eri leeridesse.
-</p>
+Looduskeskkonna avalik kasutamine edendab demokraatiat keskkonnaõigluse ja jagatud looduskogemuse kaudu.
 </li>
 </ul>
-</div>
-<div id="lähtekohad-1" class="section level3 unnumbered chapter2_section">
-<h3>Lähtekohad</h3>
-<p>Demokraatia seosed füüsilise ruumiga on euroopaliku tsivilisatsiooni ajaloos ilmnenud esmajoones avaliku ruumi kaudu, mis peale selle, et see annab avalikule arutelule foorumi, on tähistanud linnastuva ühiskonna majanduslikku, poliitilist ja kultuurilist keset. Tänapäeval on avaliku ruumi tähendusväli veelgi laienenud. Selgelt piiritletud linnaruumiosa (väljak, turuplats) asemel tähistab avalik ruum levinud käsitluse järgi kõigile ligipääsetavat ja võõraste silmast silma kohtumise ruumi (<a href="sissejuhatus-1.html#Parkinson2012">Parkinson 2012</a>). Selline tähenduse nihe tuleneb tööstusajastul hoogustunud inimeste liikumisest, sest tööl hakati käima kodust kaugemal ja tihenesid kokkupuuted teiste ja teistsuguste inimestega (<a href="sissejuhatus-1.html#Sennet1986">Sennet 1986</a>). 20. sajandi kiire tehnoloogiline areng on muutnud märkimisväärselt nii ruumilist keskkonda, selle kasutust ja taju kui ka ruumi uurimist. Tähelepanu ruumi ja ühiskonna omavahelisele suhtele ehk sellele, kuidas ühiskondlikud suhted ruumis avalduvad ja kuidas ruum omakorda neid suhteid kujundab, paigutub humanitaar- ja ühiskonnateadustes 20. sajandi lõpukümnenditel toimunud niinimetatud ruumilise pöörde konteksti (<a href="sissejuhatus-1.html#Lefebvre1974">Lefebvre 1974</a>; <a href="sissejuhatus-1.html#Soja1989">Soja 1989</a>). Avalik ruum kui poliitiline väli on üks olulisemaid valdkondadevahelisi märksõnu, mis seda pööret tähistab.</p>
-<div class="blockquote-left">
-<ol start="20" style="list-style-type: decimal">
+<p>
+Seda soodustab Eestis looduses käimise ja looduse tundmise järjepidevust kandev kultuur. Asulates on rohealade planeerimine oluline demokraatiat edendav ja hoidev protsess. Siiski ei ole loodusalade toimimist avaliku ruumina terviklikult planeeritud ega uuritud. Ka keskkonnahüvede ja -riskide õiglase jaotuse põhimõtted vajavad riiklikku arendamist.
+</p>
+<ul>
 <li>
-sajandi kiire tehnoloogiline areng on muutnud märkimis- väärselt nii ruumilist keskkonda, selle kasutust ja taju kui ka ruumi uurimist.
+Eesti maakattest moodustavad loodusalad valdava osa ja inimesed saavad tänu igaüheõigusele neid kasutada.
 </li>
-</ol>
-</div>
-<p>Linnastumise kiirenedes on avalik ruum ülemaailmselt üha suurema surve all, uute maa-alade hõivamine laialdaseks elamuehituseks on kaasa toonud linnaruumi mitmekesisuse kao. Äärelinna elamupiirkondades puuduvad äratuntavad keskused, nende rolli on üle võtnud linnaservas paiknevad mastaapsed kaubanduskeskused. Avaliku ruumi vähenemine tähendab ruumilise keskkonna ühtlustumist, kohaliku identiteedi taandumist ning piirkondade atraktiivsuse ja konkurentsivõime kahanemist. Avalik ruum ja selle kättesaadavus on sõnastatud ka ÜRO jätkusuutliku arengu eesmärkides ülemaailmse väljakutsena tagada linnastuva maailma elukvaliteeti.</p>
-<p>Käesolev peatükk keskendub üleilmsete muutuste taustal Eesti linnalise keskkonna ehk tiheasulate füüsilise avaliku ruumi kvaliteedile ja eriomastele tingimustele, mis seda alates taasiseseisvumisest on kujundanud. Peatükk tervikuna mõtestab avaliku ruumi loomet laiemalt avalikku huvi kandvate ruumiotsustena, näidates sellega, kuidas avalik ruum seob kõiki inimesi – ka neid, kes linnaväljakutel ei liigu. Avalikku ruumi selle tähendusega on seotud viimastel aastatel Eestis kasutuses olev ruumiloome mõiste, mis laiendab arusaamist ruumilisest planeerimisest ja arhitektuurist kui eri valdkondade ekspertide pärusmaast. Planeeringud ja ehitusprojektid on selles vaates vaid üks osa ruumiloomevahenditest ja nende kaudu ei saa käsitleda kõiki ruumis, sealhulgas avalikus ruumis toimuvaid muutusi. Head avalikku ruumi iseloomustab seega teadmistepõhine ja erinevaid ruumikasutuse kogemusi kaaluv omandivormide piire ületav koosloome.</p>
-<div class="blockquote-right">
+</ul>
 <p>
-Avaliku ruumi vähenemine tähendab ruumilise keskkonna ühtlustumist, kohaliku identiteedi taandumist ning piirkondade atraktiivsuse ja konkurentsivõime kahanemist.
+Loodusalade avalikku kasutamist on hakanud kohati pärssima kättesaadavuse ja ligipääsetavuse halvenemine eramaal ning metsamaastike miljööväärtuse vähenemine lageraiete tõttu. 21. sajandi keeruliste keskkonnaprobleemide ees seistes ei tule ühiskonnale kasuks, kui inimeste arusaam loodusest ja oskused seal toime tulla ahenevad loodus- ja matkaradade külastamisel kogetuks.
+</p>
+<ul>
+<li>
+Eesti elu- ja ärikeskkonna regionaalne eelis rikka loodusega riigina on küsitav.
+</li>
+</ul>
+<p>
+Meie ökosüsteemide seisund ei ole kestlik ning loodusest saadavad hüved on vaesumas. Loodusalade planeerimises on vaja pöörata senisest rohkem tähelepanu elukeskkondade tervisemõjudele, inimeste erivajadustele ning looduskeskkonna läbimõeldud kasutamisele õppimise ja sotsiaalsete suhete arendamise eesmärgil.
 </p>
 </div>
-<p>Eestis avaliku ruumiga toimuva mõistmiseks on abiks meie lähimineviku mõju teadvustamine. Eesti sõjajärgne moderniseerumine toimus nõukogude võimu perioodil, mille jooksul Eestist kujunes suures osas linnastunud ühiskond. Masselamuehitusele orienteeritud linnaplaneerimine ning suund maa ja linna erinevuste kaotamisele on tänase Eesti asulate ruumilist ülesehitust märkimisväärselt mõjutanud. Sedavõrd suures mõõtkavas ellu viidud ruumilised muutused – majandite keskasulate rajamine maapiirkondades, ümberkujundatud keskused ja uuselamurajoonid linnades – olid võimalikud üksnes totaalse riikliku maaomandi tingimustes. Elukeskkonnaga seotud küsimused (nt elukoha valik või piirkonna arengus kaasarääkimine) ei olnud üksikisiku või kogukonna tasandil mõjutatavad. Avalik ruum nii majadevahelise ühisruumi kui ka esindusväljakute tähenduses oli nõukogude linnaplaneerimises ideoloogiliselt laetud, ent niisamuti võib ka väiksemaid ruumiüksusi (nt korterelamu või korter) riikliku omandivormi ja selle variatsioonide (nt kooperatiivne omand) kaudu pidada osaks toonasest avalikust sfäärist. Selline, nõukogude süsteemile eriomaselt võimendatud avalikkus asendus 1990. aastatel omakorda kohati äärmusliku individualismiga (<a href="#Taul2012">Taul 2012</a>). Pinge era- ja avaliku sfääri vahel kujundab suures osas ka praegu Eesti ruumilist planeerimist ja avaliku ruumi seisu. Selle pingestatud suhte avaldumisvormid ja jäljed on Eesti linnades ja asulates loetavad mitmes mõõtkavas. Näiteks on korterite erastamise järel muutunud paneelelamute välisilme (korterite kaupa vahetatud aknad ja kinniehitatud rõdud), mis samuti mõjutab tunnetuslikult avalikku ruumi, ning eraautod on hõivanud majadevahelise ühisruumi. Ulatuslikumalt avaldub see näiteks Tallinna kesklinna mereäärsete eraomanike arendussoove järgivas pragmaatilises planeerimises, mille tulemusena meenutab pikkade hoonebarjääridega sadamapiirkond pigem äärelinna.</p>
+<div id="looduskeskkonna-seisundist-keskkonnaõigluse-ja-keskkonnademokraatiani" class="section level3 unnumbered chapter3_section">
+<h3>Looduskeskkonna seisundist keskkonnaõigluse ja keskkonnademokraatiani</h3>
+<p>Käesoleva peatüki eri osades uurime, kui vabalt saavad Eesti inimesed looduses käia ja looduse üle otsustada ning milliseid hüvesid ühiskond loodusest saab. Nende küsimuste laiem kontekst on avaliku ruumi ja demokraatlike valitsemisvormide seos looduskeskkonnaga. See kontekst on keeruline, ajaloos muutuv ja üleilmsete megatrendide tugeva surve all, nii et vaevalt saab osutada ühele „õigele“ lahendusele praeguse või tulevase Eesti jaoks. Küll saab praeguste teadmiste valguses välja tuua peamised inimarengu seisukohalt olulised teemad.</p>
+<p>Kõigepealt keskkonnaseisund: iga inimese heaolu aluseks on toimivad ökosüsteemid, mille panus avaliku ruumi kvaliteeti oleneb otseselt maakasutuse viisidest ning maa omandi- ja valitsemisvormidest. Siit lähtub ühiskonnakorralduslik ülesanne: mõista, planeerida ja valitseda ökosüsteemidest lähtuvaid hüvede voogusid ning nende jaotust ühiskonnaliikmete vahel. Kui kohaldame selle ülesande füüsilisele ruumile, jõuamegi käesoleva peatüki sotsiaalse põhiküsimuseni: kellel on õigus ja juurdepääs konkreetse ala hüvistele ning võimalus nende kujundamisel kaasa rääkida? “Neid õigusi ja juurdepääsu saab käsitleda keskkonnaõigluse (ingl environmental justice) vaatevinklist: mida ühtlasem on ala hüvistest osasaajate jaotus, seda väiksemaks kujuneb keskkonnast tulenev ebavõrdsus ühiskonnas.” Võimalust keskkonna kujundamisel kaasa rääkida, omades ja jagades ka asjakohast teavet, katab aga keskkonnademokraatia mõiste. Keskkonnademokraatia eesmärk avalikus ruumis on hoida ja parandada sealsete ökosüsteemide seisundit lähtuvalt keskkonnahüvede ja -riskide õiglase jaotuse põhimõttest.</p>
+<p>Nende otseselt heaolu puudutavate teemade jätkuna võib näha looduskeskkonna avaliku kasutamise kaudu loodavaid demokraatlikke väärtusi. Näiteks teadvustati juba rohkem kui sajand tagasi avalike parkide rolli linnakodanike ühiste moraalsete ja esteetiliste väärtuste, väärika käitumise ning võrdsel alusel sotsiaalse läbikäimise edendamisel (<a href="sissejuhatus-1.html#Mattson1998">Mattson 1998</a>). Tänapäeval võib looduskogemus kujundada ühiskonna sidusust isegi siis, kui loodust kogetakse omapäi ja jagatakse virtuaalses suhtluses. Eestiski organiseeruvad tuhanded inimesed looduspiltnike, loodusandide korjajate ja keskkonnaprobleemide vaagijate ühismeedialehtedel, mille roll demokraatias pole küll ühene, kuid on kahtlemata olemas. Veel vahetumalt kujundab sidusat kultuuriruumi ühistegevus. Viimastel aastakümnetel on meil kiiresti arenenud avalikke hüviseid edendavad talgutööd looduses, mille juured on omakorda külaühiskondade varasemas talgukultuuris. Eestimaa Looduse Fond alustas looduses talgute korraldamist juba 1990. aastate lõpul looduskaitse eesmärgil. Kõige suuremat rahvusvahelist tähelepanu on pälvinud 2008. aastal Eestist alguse saanud prügikoristustalgud, millest on omakorda välja kasvanud maikuu esimesel laupäeval peetav „Teeme ära!“ talgupäev oma elukeskkonna heaks. Näiteks 2018. aastal osales rohkem kui 53 000 inimest ligi 2200 Eesti paigas (www.teemeara.ee).</p>
+<div class="blockquote-right">
+<p>
+Riiklik vaade peaks seega sisaldama arusaama, millist uut poliitilist kultuuri aitab looduskeskkonna avalik kasutus luua.
+</p>
+</div>
+<p>Riiklik vaade peaks seega sisaldama arusaama, millist uut poliitilist kultuuri aitab looduskeskkonna avalik kasutus luua. Näiteks areneb jõudsalt biotsentristlike argumentide (looduse iseväärtus ja subjektiõigused) arvestamine valitsemisel, eriti kui neid vahendab põlisrahvaste kultuur (<a href="sissejuhatus-1.html#Espinosa2017">Espinosa 2017</a>). Kuuluvustundel, bioloogilisel päritolul ja vahetul looduskogemusel põhinevad keskkonnaeetika argumendid on leidnud oma koha Eesti õigus- ja moraalinormide arutelus (<a href="sissejuhatus-1.html#Oja2003">nt Oja jt 2003</a>).</p>
+</div>
+<div id="looduskeskkonna-ühiskondlik-roll-vajab-senisest-terviklikumat-jälgimist" class="section level3 unnumbered chapter3_section">
+<h3>Looduskeskkonna ühiskondlik roll vajab senisest terviklikumat jälgimist</h3>
+<p>Looduskeskkonna peatüki ajendiks oli tõdemus, et Eestis puudub terviklik ajakohane ülevaade looduskeskkonna avaliku kasutamise ja selle üle otsustamise võimalustest seostatuna inimeste heaolu ja ühiskonna demokraatliku arenguga. Kümme aastat tagasi järeldasid Maaris Raudsepp ja teised (<a href="sissejuhatus-1.html#Raudsepp2009">2009</a>) peamiselt kaudsete andmete põhjal, et Eesti inimesed tajuvad teravalt küll eri tüüpi sotsiaalset ebaõiglust, kuid seejuures keskkonnaõiglust eriti ei teadvusta. Sestsaadik on lisandunud palju uut teavet hüvede kohta, mida inimesed loodusega kokkupuutes saavad või looduse seisundi halvenemisel kaotavad (<a href="#Brink2016">nt ten Brink jt 2016</a>). Juurdepääs teabele on ka ise üks keskkonnaõiglust ja demokraatiat siduvatest komponentidest, mida Eestil tuleb Aarhusi konventsiooniga liitununa tagada alates 2001. aastast. Sama konventsiooniga on tagatud põhiõigus keskkonnaotsuste tegemisest osa võtta ning juurdepääs keskkonnaalasele õigusemõistmisele. Need õigused on omakorda tuletatud loodusvarade jätkusuutliku kasutamise ja säästva arengu eeldustest. Kokkuvõttes on säästval arengul, keskkonnaõiglusel ja kodanikuühiskonda kaasaval demokraatial Euroopa kultuuriruumis tihe seos (<a href="sissejuhatus-1.html#Barnes2013">Barnes ja Hoerber 2013</a>).</p>
+Looduskeskkonda tähistav ruumiline põhimõiste on käesolevas aruandes loodusala – loodusliku või poolloodusliku kooslusega maa- või veeala. See järgib looduses viibimise ja looduskülastuste terminoloogiat (<a href="sissejuhatus-1.html#Kajala2008">Kajala jt 2008</a>) ning vastab inimarengu aruandes 2014/2015 „looduslike ehk puhveralade“ mõistele, mille all mõeldi „ökosüsteemide osa, milles on valdavad looduslikud protsessid ning domineerivad pärismaised liigid oma loomulikus keskkonnas (looduslikes elupaikades)“ (<a href="sissejuhatus-1.html#Terasmaa2015">Terasmaa ja Pajula 2015, lk 140</a>). Enamik maakatteklassifikatsioone eristab selgemini loodusalade vastandid – tehisalad, nagu ehitiste alla jäävad või kaevandusalad, ning agraarökosüsteemidega põllumajandusalad. Viimaste pindala ja paiknemise muutused võimaldavad hinnata ka säilinud looduskeskkonna hulka ning seisundit globaalselt ja piirkonniti.
 <div class="blockquote-left">
 <p>
-Ruumiloome – ruumi arengut mõjutavate otsuste kujundamine ja elluviimine.
+Loodusala – loodusliku või poolloodusliku kooslusega maa- või veeala.
 </p>
 </div>
-<p>Viimasel kümnendil on avaliku ruumi loome Eestis siiski edusamme teinud. Ruumiplaneerimisse kaasamine on põhimõttena planeerimisseaduses esile tõstetud ja avalik sektor tervikuna on hakanud avaliku ruumi tellija rolli tõsisemalt võtma. Riigisektori hoonete arhitektuuri kvaliteet on üha paremal tasemel, arhitektuurivõistluste korraldamine on muutunud tavapäraseks – üha enam on ruumivaldkonna professionaalidest koosnevad arhitektuuripreemiate žüriid (Eesti kultuurkapitali aastapreemiad jm) tunnustanud just avalikke ehitisi ja ühiskonda laiemalt panustavaid projekte. Ka 2011. aastal kehtima hakanud niinimetatud protsendiseadus, millega sätestati 1% avalike hoonete ehituseelarve kasutamine kunsti tellimisele, on hoolimata seadusega seonduvatest probleemidest avalikku ruumi rikastanud, näidates, kuidas avalik ruum saab edendada kultuuriloomet ka kitsamas tähenduses.</p>
+<p>Loodusalade kogum maastikul moodustab rohevõrgustiku (planeerimisseaduse § 6 nimetatud „roheliseks võrgustikuks“, mis koosneb tuumikaladest ja rohekoridoridest). Mõiste „roheala“ on planeerimisseaduses vastuoluliselt laiem, hõlmates mis tahes loodusliku või inimtekkelise päritoluga taimkattega ala. Selguse huvides kitsendatakse käesolevas aruandes rohealade mõistet üksnes asulates paiknevatele loodus- ja looduseilmelistele aladele (pargid, haljasalad, kalmistud jt). Viimaste taimestik on sageli kultiveeritud ja koosneb teadlikult valitud võõrliikidest, mis omakorda peegeldab asulavälise ja -sisese looduse erinevat käsitluskultuuri Eestis (<a href="#Magnus2018">Magnus ja Remm 2018</a>).</p>
+</div>
+<div id="eesti-looduse-seisundi-koondnäitajad-on-halvenenud" class="section level3 unnumbered chapter3_section">
+<h3>Eesti looduse seisundi koondnäitajad on halvenenud</h3>
+<p>Eesti maakattest moodustavad loodusalad valdava osa, sealhulgas metsamaa 51,4% (riigile kuuluv 26,2%), sood 4,6%, põõsastikud 1,5% ja veekogud 5,7% (<a href="#Raudsaar2018">Raudsaar jt 2018</a>). See üldjaotus on 21. sajandil vähe muutunud, kuid asulate laienemine (riikliku statistika andmebaasi järgi keskmiselt 1000 hektarit aastas perioodil 2002–2017) on üleeuroopalises võrdluses suhteliselt kiire ega vasta Euroopa Liidu pikaajalisele keskkonnaeesmärgile. “Üldisemalt on alarmeeriv tagasiminek riikidevahelises keskkonnaalase tulemuslikkuse indeksis (ingl Environmental Performance Indec, EPI), mis võeti ökosüsteemide suhtelise seisundi mõõdikuks Eesti inimarengu aruandes 2014/2015 (<a href="sissejuhatus-1.html#Terasmaa2015">Terasmaa ja Pajula 2015</a>).” Eesti on langenud kümne aastaga maailmas 26. kohalt 48. kohale, sealhulgas ökosüsteemide elujõulisuse puhul 7. kohalt 59. kohale. Viimast kajastab kompleksindeks, mis hõlmab ka kliimamõju- ja õhusaastenäitajaid, aga ka looduskeskkonda eraldi vaadates on Eesti positsioon taandunud elurikkuse ja elupaikade seisundi puhul 17. kohalt 24. kohale ja metsade puhul 124. kohalt 129. kohale (<a href="sissejuhatus-1.html#Wendling2018">Wendling jt 2018</a>). Globaalses võrdluses on ökosüsteemide elujõulisus suurem kõrgema inimarengu indeksiga riikides, kuid varieeruvus on suur (<a href="sissejuhatus-1.html#figure301">joonis 3.0.1</a>).</p>
 <div class="blockquote-right">
 <p>
-Ruumiplaneerimisse kaasamine on põhimõttena planeerimisseaduses esile tõstetud ja avalik sektor tervikuna on hakanud avaliku ruumi tellija rolli tõsisemalt võtma.
+Eesti tõus inimarengu sotsiaal- setes näitajates on saavutatud ebaproportsionaalselt kõrge ökoloogilise hinnaga.
 </p>
 </div>
-<p>Eelöeldu taustal on siiski oluline rõhutada, et avaliku ruumi loome ei ole kestlik, kui see võrdsustub riikliku tellimusega – olgu see siis niinimetatud protsendikunst või EV 100 juubeliprogrammi raames valminud linnaväljakud. Avalik ruum toimib demokraatia edendamise huvides üksnes siis, kui ta jätab võimaluse end pidevalt küsimuse alla seada ja uuesti määratleda (<a href="sissejuhatus-1.html#Levine2010">Levine 2010</a>). See tähendab ka avatust katsetustele, institutsioonivälisele kriitikale ning isetekkeliste, kodanikualgatuste korras ja teatud piirini kehtivat stabiilsust kõigutavatele aktsioonidele. Mitteinstitutsionaalne kunst, isetekkelised ruumid ja kunstiteosed ning spontaanne ruumikasutus on võimalused, kuidas avaliku ruumi loomet soosida. Avaliku ruumi kunst on ühtlasi vahend, kuidas tõmmata avalikule ruumile kui sellisele tähelepanu ja mõelda, mis on õigupoolest avalikkus ja kuidas see on muutumises. Avaliku ruumi tuum on arutelu ja see sünnib erinevate, sealhulgas vastandlike vaadete koosmõjus ja üha uusi küsimusi püstitades, mida institutsiooniline ja sageli dekoratiivne kunst või ruumikujundus ei ole võimeline esile kutsuma. Paradoksaalselt on avaliku ruumi huvides, et pinge nii era- kui ka avalikus omandis oleva ruumi kui riikliku tellimuse ja mitteametlike praktika vahel püsiks.</p>
+<p>Eesti tõus inimarengu sotsiaalsetes näitajates on saavutatud ebaproportsionaalselt kõrge ökoloogilise hinnaga. [a]
+EPI arvutuskäik on keeruline ja võib sisaldada vigu, kuid eeltoodud trendide põhjused, pööratavus ning üldisemalt loodusalade seisund ja kaasnevad hüved vajavad Eestis riiklikku tähelepanu. Riikidevahelises võrdluses on Eesti Põhjamaade ja Balti riikide seas praegu viimane ja teinud 21. sajandil läbi kõige suurema languse (<a href="sissejuhatus-1.html#Wendling2018">Wendling jt 2018</a>). Seega pole meil regioonis „puhta loodusega“ riigi konkurentsieelist ning paistab koguni, et hiljutine tõus inimarengu sotsiaalsetes näitajates on saavutatud ebaproportsionaalselt kõrge ökoloogilise hinnaga (joonis 3.0.1). Viimasega haakub riigi mahajäämus ökoinnovatsioonis, mida näitab Euroopa Komisjoni keskkonna peadirektoraadi koostatav ökoinnovatsiooni indeks. Samal ajal püsib Eestis suur keskkonnaturvalisus – inimestel on ebatõenäoline kaotada juurdepääs puhtale õhule, veele ja energiaallikatele või hukkuda looduskatastroofis (<a href="sissejuhatus-1.html#Moghim2019">Moghim ja Garna 2019</a>).</p>
+<p class="caption" id="figure301">
+<span class="figure-number">Joonis 3.0.1.</span> Inimarengu indeksi ja ökosüsteemide elujõulisuse indeksi seos 179 riigi põhjal ning Eesti positsiooni (rohelised punktid, aastad) muutus 2005–2014(%)
+</p>
+<p><img src="EIA_2019_digi_files/figure-html/figure301-1.png" width="80%" style="display: block; margin: auto;" /></p>
+<div class="imgsource">
+<p>
+<span class="imgsource-source">Allikas:</span> autori joonis. Seos põhineb inimarengu indeksi (HDI) puhul ÜRO arenguprogrammi (<a href="http://hdr.undp.org/en/data" class="uri">http://hdr.undp.org/en/data</a>) ja ECO puhul Wendling jt (2018) andmetel. ECO puhul on kompleksindeksi osakaaludest arvutatud kesk- mine lähteaasta (2005; algandmed 2001–2007) ja lõpuaasta (2014; algandmed 2010–2017), viimasega ongi seosta- tud HDI (2014). Rõhtjoon tähistab ECO taset Eesti 2014. aasta inimarengu aruandes (<a href="sissejuhatus-1.html#Terasmaa2015">Terasmaa ja Pajula 2015</a>), mida ei ole tagasiulatuvalt korrigeeritud ja mille seisundiaasta oli täpsustamata.
+</p>
 </div>
-<div id="teemad" class="section level3 unnumbered chapter2_section">
-<h3>Teemad</h3>
-<p>Peatüki nelja artiklit raamistab tõdemus, et avaliku ruumi rolli ei ole olemasoleva ehituspärandi ega uue loomise kaudu Eesti ruumiplaneerimises piisavalt arvestatud. Siiski on viimastel aastatel suurenenud nii elanike teadlikkus avalikust ruumist kui ka ruumivaldkonna spetsialistide üksmeel, et selle teadvustamine on vajalik. Artiklid toovad füüsilise avaliku ruumi loomega seoses esile kolm suuremat teemat.</p>
-<p>Esimene oluline teema on avaliku ruumi tervikspektri nägemise vajadus. Toomas Paaver ja Elo Kiivet selgitavad oma artiklis, et hea avalik ruum ei koosne ainult üksikutest hästi kujundatud linnaruumi osadest nagu esindusväljakud, vaid ennekõike tagab kvaliteetse avaliku ruumi selle katkestusteta toimimine ja inimmõõtmeline keskkond. See hõlmab erinevaid liikumisviise ja jalakäijale ohutut, mugavat, kogemusterikast, spontaansetele sekkumistele avatud tänavaruumi, aga ka tunnetuslikke seoseid ümbritsevate hoonete ja mitteavalike ruumidega. Paaver ja Kiivet näitavad, kuidas eri valitsemistasandite ja ministeeriumide kitsad valdkondlikud dokumendid ja normid esindavad vastandlikke väärtusi, tekitades seega avalikus ruumis pigem eraldatust kui sidusust.</p>
-<p>Niisamuti rõhutavad Triin Talk ja Siim Raie peatüki teises artiklis, et kui avaliku sektori valitsemisel ja riigile kuuluva kinnisvara investeeringute puhul võetaks arvesse kulude ja mõjude tervikspektrit, siis suudaks riik paremini tegeleda ka laguneva ja kasutuseta ehituspärandiga, mille säilimise eest oleme tulevaste põlvkondade ees vastutuse võtnud. Kultuuripärandisse investeerimine oleks ühiskonnale pikas vaates rahaliselt kasulik ja järgiks ka ülemaailmseid kestliku arengu põhimõtteid. Talk ja Raie väidavad, et riiklik kinnisvarapoliitika peaks kandma muu hulgas kultuuripärandi korrastamise eesmärki. Nii Paaveri ja Kiiveti kui ka Talgi ja Raie artiklitest järeldub, et avaliku ruumi kvaliteet on strateegiate tasandil riikliku huvi küsimus ja selle eest seismine vajab senisest selgemat teadvustamist avaliku sektori ülesandena.</p>
+</div>
+<div id="eesti-looduse-seisundi-koondnäitajad-on-halvenenud-1" class="section level3 unnumbered chapter3_section">
+<h3>Eesti looduse seisundi koondnäitajad on halvenenud</h3>
+<p>Loodusalade hulga ja paiknemise kõrval kujundab Eestis loodusalade kasutust kolm peamist ühiskondlikku eripära: vähene rahvastikutihedus, looduses liikumise igaüheõigus (Sepp ja Lõhmus, käesolev kogumik) ning lähiajaloo maa-asustusest pärinev vaimne kultuuripärand ka linnaelanikel. Üleilmses võrdluses osutavad need suurele isiklikule vabadusele valida looduses viibimise viisi, kohta ja kestust – näiteks harjuda meelispaigana kasutama võõrast eravaldust. Looduses viibimist soodustavad Eestis veel ka piirkonna ja looduse suhteline turvalisus, riigimetsa suur pindala ja sealne teedevõrk. Neis tingimustes võiks oodata, et looduskeskkonna kasutamist piiravad esmajoones elanike endi ajalised ja liikumisvõimalused, mis üksnes lokaalselt – peamiselt suuremate linnade mõnes osas – avalduvad loodusalade ebapiisavusena (vt ka Sepp ja Lõhmus, käesolev kogumik).</p>
 <div class="blockquote-right">
 <p>
-Avaliku ruumi kvaliteet on strateegiate tasandil riikliku huvi küsimus ja selle eest seismine vajab senisest selgemat teadvustamist avaliku sektori ülesandena.
+Kuigi loodusalasid saab külastada igaüheõiguse alusel, ahenevad nende kasutusvõimalused.
 </p>
 </div>
-<p>Avaliku ruumi tervikkäsitelu seondub teise suurema teemaga: kuidas ruumiloome abil võtta sihikule suuremate ühiskondlike probleemide lahendamine? Peatükis toodud näited on seotud regionaalarengu hoogustamisega kahanevates linnades, eeskätt elukeskkonna mitmetasandilise hoidmisega ning ühiskonnas sidususe tekitamisega ruumi koosloome abil. Talgi ja Raie artiklis käsitletakse pärandi ja olemasoleva keskkonna kaudu kahanevate väikelinnade tihendamise vajadust. Autorid selgitavad, kuidas ajaloolistesse asulakeskustesse kampaania korras uute linnaväljakute rajamise kõrval saaks kohalik omavalitsus elukvaliteeti veel enamgi tõsta nende väljakutega piirnevat kesklinna elavdades.</p>
-<p>Väärtuste tasandil aitab avaliku ruumi koosloome vähendada ühiskonna lõhestatust ja siduda erinevaid sotsiaalseid rühmi. Keiti Kljavini, Johanna Pirruse, Kaija-Luisa Kuriku ja Ingmar Pastaki artikkel tõdeb, et Eesti ühiskondlikus arengus on jõutud punkti, kus inimesed soovivad üha enam oma elukeskkonda kujundavates küsimustes kaasa rääkida. Ka Paaver ja Kiivet ütlevad, et kuivõrd avalik sektor on jätnud avaliku ruumiga tegelemise sageli eraomanikule ega ole võtnud seda enda kohuseks, on kogu see küsimus olnud seni paljuski kodanikuaktiivsuse pärusmaa. Nii asumiseltsid kui ka teised ruumikasutajate ühendused ning mitmed avalikku tähelepanu pälvinud suuremad kampaaniad (nt Reidi tee juhtum Tallinnas) näitavad, kuidas koosloomet sisulise ja edasiviiva meetodina ei osata väärtustada ning sageli piirdub kaasamine planeeringu menetlemisel pelga informeerimisega. Kljavin ja teised nendivad, et vähemalt seni, kuni Eesti planeerimistava kohalikul ja riiklikul tasandil käsitleb ruumiaktiviste kui oponente, on koosloomeline avaliku ruumi planeerimine ebatõenäoline. Autorid näitavad ühtlasi, kuidas ruumiaktivism ja avaliku ruumi eest seismine on Eestis üldisemalt kodanikuühiskonna arengut tagant tõuganud. Aktivismi sedasorti mõju püsimise ja demokraatliku ühiskonna arengu huvides on, et ruumiaktivistile jäetaks võimalus pidevalt leiutada uusi kaasamisvorme ja sekkumisviise. See tähendab, et arutelulaua äärde pääsemiseks ei oldaks sunnitud tingimata juriidiliselt oma tegevust registreerima. Samal ajal tunnistavad autorid, et aktivismi suutlikkus mõjutada sidusa avaliku ruumi teket on piiratud, kui avalik sektor ei lepi kokku Eesti avaliku ruumi üldistes ja pikaaegsetes arengusuundades.</p>
-<p>Kaasamisega seondub peatüki kolmas oluline teema, nimelt ruumiotsuseid suunava arutelu kvaliteet. Renee Puusepp ja Raul Kalvo kirjutavad, et erinevaid huve kaalutleva ja ulatuslikku kogemust arvesse võtva planeerimisprotsessi üks olulisi aluspõhimõtteid on ruumiandmete süsteemne kogumine, nende analüüs ja ristkasutus. Planeeringute koostamine peaks toimuma informeeritud arutelus, kus seniste juhuslike ja tunnetuslike argumentide asemel saaks eri lahendusi kaaluda visualiseeritud ruumiandmete põhjal. Asjaosalistel oleks võimalik ratsionaalselt argumenteerida ja teha andmetega toetatud teadmiste abil selgemaid ja arusaadavamaid otsuseid. Puusepp ja Kalvo tõdevad, et ruumiandmete kogumise poolest oleme Euroopa keskmiste lähedal, ent paraku ei mõjuta kogutud andmed Eestis ruumiloome protsesse ja otsustusi või on selged seosed andmete ja ruumilahenduste vahel välja toomata. Valitsemise ja otsustusprotsesside kvaliteedi ja üldise efektiivsuse suurendamiseks on autorite arvates abiks ajakohaste ja täpsete ruumiandmete avalik kättesaadavus.</p>
-<p>Andmete kogumise ja kasutuse parandamine ei asenda muid kaasamise viise. Arutelu ja ruumiotsuste kvaliteet sõltub Kljavini ja teiste sõnul kogemuste ja teadmiste tasakaalustatusest. Siiski ei tähenda see, et otsustamine saaks toetuda üksnes huvigruppide eelistustele, vaid kaasamine tähendab nii eksperditeadmise kui ka kasutajakogemuse läbikaalutud arvestamist.</p>
+<p>Eesti loodusalasid ja nende külastusvõimalusi koos käsitledes selgub, et kuigi asulaväliste loodusalade külastamine igaüheõiguse alusel kujundab neist pindala poolest suurima osa Eesti avalikult kasutatavast (jagatud) ruumist, ahenevad nende kasutusvõimalused. Põhjuseks on kolme tüüpi maakasutusotsuseid, mille tervikmõju – arvestades vastukaaluna liikumis- ja navigeerimisvõimaluste paranemist – pole uuritud. Lisaks neile otsustele võib liikumist loodusaladel piirata ka kaitsealade rajamine, kuid avaliku kasutuse konflikte on seejuures põhjustanud peamiselt vaid mootorsõidukite kasutuspiirangud veekogudel (nt Vooremaa järvedel).</p>
+<p><em>1. Eraomanikud piiravad avalikku kasutust.</em> Igaüheõigus tasakaalustab põhiseadusliku liikumisvabaduse tingimusega vältida keskkonnahäiringuid ja mitte kahjustada omaniku huve ja omandit. Omanik saab, oma tahet selgelt väljendades, keelata oma maal viibimise või seal loodussaaduste korjamise (<a href="sissejuhatus-1.html#Kask2015">Kask jt 2015</a>). Ainus asjakohane mõju-uuring pärineb Eestis 2008. aastast, mil erametsale seatud liikumispiiranguga oli elanikel veel vähe negatiivseid kogemusi, kuid piirangu tekkimisel prognoositi oma liikumisteede muutmist (<a href="sissejuhatus-1.html#Kaldaru2008">Kaldaru 2008</a>). Piirangud on sealtpeale ilmselt laienenud, kuivõrd jätkub 1993. aastal alanud ja pikale veninud maareformi mõju ning metsamaa müük on jätkuvalt aktiivne. Ametkondlikult on käsitletud avalikult kasutatavate teede, konkreetselt veekogude avalikele kallasradadele juurdepääsu sulgemist (<a href="sissejuhatus-1.html#Riigikontroll2015">Riigikontrolli 2015. aasta audit</a>; Poom ja Sepp, käesolev kogumik). Juurdepääsu- ja tähistusprobleeme on leitud ka teistes külastusväärsetes kohtades. Ühiskonna tasakaalustatud arengu huvides vajab seega analüüsimist eraomanike, nendel maal käivate inimeste ja avaliku võimu vaheline suhtlus – tõenäoliselt saab sedakaudu mõningaid vastuolusid ja puudusi ennetada ja leevendada.</p>
+<p><em>2. Riigimetsa miljööväärtus väheneb raiete tõttu.</em> Lageraiete pindala on kõigis metsades kasvanud, sealhulgas riigimetsas pärast suhteliselt stabiilset perioodi 1995–2008 keskmiselt 50% võrra (alates 2015. aastast &gt;10 000 ha aastas; <a href="#Raudsaar2018">Raudsaar jt 2018</a>). Raietega kaasnev miljööväärtuse vähenemine järeldub nii inimeste esteetilisest vastumeelsusest raiesmike ja raietööde jälgede suhtes (<a href="sissejuhatus-1.html#Gundersen2008">nt Gundersen ja Frivold 2008</a>; <a href="sissejuhatus-1.html#Kõivik2014">Eesti kohta Kõivik 2014</a>) kui ka praktilistest tagajärgedest, nagu marja- ja seenemetsade kadumine. Neid hinnanguid peegeldab keskkonnateadlikkuse küsitlus, kus liigset metsaraiet peeti 2018. aasta olulisimaks keskkonnaprobleemiks ja Riigimetsa Majandamise Keskuse (RMK) usaldusväärsus oli võrreldes 2016. aastaga tunduvalt vähenenud (<a href="sissejuhatus-1.html#Turu-uuringute2018">Turu-uuringute AS 2018</a>). Kohalike sagenenud protestid raiete vastu näitavad tahet kujundada oma elukeskkonda vähemalt riigimaal. Maakondadest eristub metsapuhkuse võimalustelt Saaremaa (ka Läänemaa), kus on kõige vähem riigimetsa ja eraomanike seatud piirangud potentsiaalselt suurima mõjuga (<a href="sissejuhatus-1.html#figure302">joonis 3.0.2</a>). Samal ajal on Saare- ja Läänemaal riigimetsa suhteliselt vähe raiutud (metsata metsamaad 2017. aastal u 7% riigimetsa pindalast), eriti võrreldes Kagu-Eesti maakondade ja Ida-Virumaaga (üle 12%).</p>
+<p><em>3. Külastusvõimalused koonduvad ja üheülbastuvad.</em> Kuigi investeeringud külastustaristusse hoiavad rahulolu loodus- ja matkaradadega suurena, ei võimalda need kõiki looduskasutuse viise ega sobi kõigile ühiskonnagruppidele (Sepp ja Lõhmus, käesolev kogumik). Uuringud maailmas näitavad, et harjumus igal aastal loodusalasid külastada toob inimeste parema tervise ja ärahoitud tervishoiukulude kaudu ühiskonnale suurt kasu – ainuüksi vaimse tervise kaudu hinnanguliselt kümme korda rohkem kui turism ja 100–1000 korda rohkem kui kaitsealade administreerimise kulu (<a href="sissejuhatus-1.html#Buckley2019">Buckley jt 2019</a>). Samal ajal võivad inimeste eelistused looduses liikumisel märkimisväärselt lahkneda loodusväärtuste paiknemisest (<a href="sissejuhatus-1.html#Hornigold2016">Hornigold jt 2016</a>). Seepärast vajavad Eestis võrdlevat selgitamist nii kaitsealade külastamise kui ka kodukohas looduspuhkuse võimaluste keskkonna- ja tervisemõjud. Kultuuri-, sealhulgas poliitilise kultuuri küsimus on, kas piirdumine loodus- ja matkaradade külastamisega kitsendab inimeste võimet mõista ja rääkida kaasa keskkonda puudutavates otsustes.</p>
+<p class="caption" id="figure302">
+<span class="figure-number">Joonis 3.0.2.</span> Metsamaa, sealhulgas riigimetsa (eristatud puistud ja metsata metsamaa) osakaal maakondade üldpindalast 2017. aastal
+</p>
+<p><img src="EIA_2019_digi_files/figure-html/figure302-1.png" width="80%" style="display: block; margin: auto;" /></p>
+<div class="imgsource">
+<p>
+<span class="imgsource-source">Allikas:</span> Raudsaar jt 2018.
+</p>
 </div>
-<div id="eesti-maailmas" class="section level3 unnumbered chapter2_section">
-<h3>Eesti maailmas</h3>
-<p>Avaliku ruumi kvaliteedi ehk ligipääsetavuse hindamine arvuliste näitajate abil on problemaatiline, ent üks võimalus seda mõõta on jälgida elanike igapäevaseks liikumiseks kasutatavaid transpordivahendeid. Levinud tõdemus on, et ohutut ja meeldivat avalikus ruumis viibimist ja liikumist võimaldavad asulad on jalakäija- ja jalgrattasõbralikud. Selles vallas on paraku nii suurima asustustihedusega Tallinn ja Harjumaa, aga ka ülejäänud Eesti mahajäämus Euroopa keskmisest ilmne. Eurobaromeetri (<a href="sissejuhatus-1.html#Eurobarometer2014">2014</a>. aasta uuringu järgi kasutas Soomes ratast tüüpilisel päeval liikumiseks 14%, Taanis 23% ja Hollandis 35% inimestest ning Euroopas keskmiselt 8% elanikest. Eestis oli vastav näitaja 5% ja see jääb mõne protsendiga maha nii Leedust kui ka Lätist. Eestis on selge trend autostumise suunas: isikliku või tööandja autoga käis 2018. aastal tööl 54,5%, rattaga vaid 2,7% töötajatest (<a href="sissejuhatus-1.html#Eesti2018">Eesti statistika andmebaas 2018</a>). Samal ajal ei leidu rahvusvahelistes dokumentides ja nüüdisaegsetes planeerimissoovitustes punkte, mille kohaselt peaks avaliku ruumi täiustamiseks eraldama tänavatel rohkem ruumi autodele (<a href="sissejuhatus-1.html#Gehl2011">Gehl Architects 2011</a>; <a href="sissejuhatus-1.html#United2017">United Nations 2017</a>; <a href="sissejuhatus-1.html#Pere">Pere aastata</a>). Vastupidi, üha enam maailma linnu liigub kesklinna autodele sulgemise või märgatava piiramise suunas. Nii need arvud kui ka eraautodekeskne linnaruumi kasutus näitavad lõhet nüüdsete rahvusvaheliste suundumuste ja avaliku ruumi kättesaadavuse vahel tänapäeva Eestis.</p>
-<p>Rahvusvaheliste raamdokumentide ja ka kohalike valdkondlike soovituste valgusel väljendame siiski võrdlemisi head teadlikkust avaliku ruumi olulisusest kvaliteetse elukeskkonna kujundajana. Eesti on tunnustanud Davosi deklaratsiooniga (<a href="#Davosi2018">2018</a>) ehitatud keskkonna olulisust kultuuriväärtusena, ühinenud Euroopa maastikukonventsiooniga (<a href="Euroopa2017">2017</a>) ja Euroopa säästvate linnade Leipzigi hartale (<a href="#Leipzigi">2007</a>) alla kirjutades kinnitanud valmisolekut keskenduda kasutajasõbraliku ja kvaliteetse avaliku ruumi loomele. Avaliku ruumi osakaalu tähtsustamine elu- ja ehitatud keskkonna kvaliteedi tõstmisel on esmakordselt mainitud Eesti arhitektuuripoliitikas (<a href="#Eesti2002">2002</a>), mis oma ajastu nähtusena rõhutab 1990. aastate kaootilise ehitamisperioodi vilju, hinnates eelkõige arhitektuuri ja ehitatud keskkonna kui rahvusliku rikkuse hoidmise vajadust. Aastatel 2017–2018 Riigikantselei juures tegutsenud ruumiloome ekspertrühma lõpparuanne näitab ühtlasi 15 aastaga toimunud nihet arhitektuuri kvaliteedi tähtsustamiselt laiapõhjalisele ruumikoosloomele. Raport torkab ka rahvusvaheliste kokkulepete foonil silma oma laiahaardelise vaatega, käsitledes ruumiloomet ennekõike kui „ruumi arengut mõjutavate otsuste kujundamist ja elluviimist“ (<a href="#Eesti2002">samas 2018, lk 5</a>). Töögrupi peamiste soovitustena on sõnastatud avaliku sektori ruumipädevuste suurendamine, disainikvaliteet, kultuuripärandi säilitamine ja avaliku sektori vastutus avaliku ruumi ja ehitatud keskkonna kvaliteedi eest seismisel.</p>
 </div>
-<div id="kuidas-edasi" class="section level3 unnumbered chapter2_section">
-<h3>Kuidas edasi?</h3>
-<p>Hea avaliku ruumi loomiseks on oluline algatuseks teadvustada, et eesmärke võib seada väga erineval skaalal – nii lihtsalt teostatavate muudatuste kui ka pikemaajaliselt saavutatavate sihtidena. Suuremate muutuste oodatavat mõju saab hinnata väiksemas mahus, näiteks katsetades ajutisi lahendusi autoliikluse piiramiseks või elavdades tänavaelu hooajaliste üritustega. Suuremate avaliku ruumi projektide kavandamisest ja nendega kaasnenud vaidlustest on Eestis eri osapooltel juba olemas kogemus ja teadmised, mida katsetusfaasis rakendada.</p>
-<p>Tänapäeval on enamiku omavalitsuste probleem ennekõike juhtrolli võtja puudumine, sest avaliku ruumi planeerimist suunavad pigem pragmaatilised kaalutlused, mitte koordineeritud ideaali poole liikumine (<a href="sissejuhatus-1.html#Traks2019">Traks 2019</a>). Niisamuti tuleks avaliku ruumi planeerimisel arvestada, kuidas muuta see ligipääsetavaks kõigile, sealhulgas eakatele, puuetega inimestele, lastele ja vähenenud toimetulekuga inimestele, rakendades kaasava ja universaaldisaini põhimõtteid (<a href="sissejuhatus-1.html#Astangu2012">Astangu Kutserehabilitatsiooni Keskus 2012</a>). Eesti 2030+ planeeringus deklareeritud elukeskkonna parendamise suund vajab järgmise astme planeeringutes teenuste- ja keskustevõrgu kõrval ka ruumilise kvaliteedi täpsustamist. Selle nõudmise sõnastamiseks ja valdkondlike ruumiliste seoste jälgimiseks on vaja omavalitsuste ruumipädevust suurendada eelkõige haldusreformi käigus tekkinud uutes omavalitsustes.
-Avalik ruum peab olema ligipääsetav kõigile – seal hulgas eakatele, puuetega inimestele ja lastele.[b]</p>
+<div id="koduümbruse-loodus-ja-asulate-rohealad-vajavad-planeerijate-tähelepanu" class="section level3 unnumbered chapter3_section">
+<h3>Koduümbruse loodus ja asulate rohealad vajavad planeerijate tähelepanu</h3>
+<p>Loodusalade avaliku kasutamise seos demokraatiaga on kõige ilmsem inimese kodukohas, kus kogukonnad saavad kohtuda isegi napil töövälisel ajal ning loodusesse pääsevad hõlpsamini liikumisraskuste või muude erivajadustega inimesed. Õigus kodukoha loodusele oma elukeskkonna (sh töökeskkonna) osana on ka põhiõigusele kõige lähemal ning olulised keskkonnaõigluse küsimused on inimeste võrdne kohtlemine asustusruumi planeerimisel ja nende võimalus planeerimises osaleda (<a href="#Jennings2012">Jennings jt 2012</a>). Koduümbruse looduse küsimused – ligipääs, kvaliteet ja tulevikuperspektiiv – on võimendunud asulates, kus rohealade hüvesid kasutab palju inimesi, kuid tugev on ka alternatiivne maakasutushuvi, mis enamasti kahjustaks roheala pöördumatult või piiraks selle kasutust. Seepärast on linnaelanike ligipääs rohealadele valitud ka üheks Eesti säästva arengu näitajaks, mida tuleks silmas pidada kogu riigi strateegilises planeerimises (<a href="sissejuhatus-1.html#Oras2018">Oras jt 2018</a>).</p>
 <div class="blockquote-right">
 <p>
-Avalik ruum peab olema ligipääse- tav kõigile – seal hulgas eakatele, puuetega inimestele ja lastele.
+Harjumus igal aastal loodusalasid külastada toob inimeste parema tervise ja ärahoitud tervishoiukulude kaudu ühiskonnale suurt kasu.
 </p>
 </div>
-<p>Kuidas aga panna füüsiline avalik ruum tööle kahanevate väikelinnade heaks, et elukeskkond säiliks tulevikus ka suurematest keskustest kaugemal? Siin on lahendusena nähtud kestliku kahanemise tingimustega kohanemist ja selle teadlikku arvestamist ruumiplaneerimises. Teisisõnu, tuleks mõelda, kuidas kasvamise asemel kohandada linn elanike vajadustele ja taaselustada kesklinna (<a href="#Tintera2018">Tintera 2018</a>). Avalikul ruumil on komplekslahendusi otsiva ruumiloomena keskne roll ja see võimaldaks ühtlasi keskenduda ajaloolise hoonestuse, kohaliku identiteedi ja loodusväärtuste säilitamisele ja taastamisele (<a href="sissejuhatus-1.html#Rahandusministeerium2015">Rahandusministeerium 2015</a>). Niisama oluline on kaasamiskultuuri teadlik arendamine väikelinnades. See nõuab olulist nihet planeeringute eesmärkide seadmises ehk hea ruumilise tulemuse lahutamatu osana tuleks näha ka kohalike inimeste vajaduste rahuldamist ja pidevat avalikku arutelu.</p>
+<p>Eesti rohealadele on seni pööratud tähelepanu peamiselt üldistatult kogu linna või linnaosa tasemel (Sepp ja Lõhmus; Orru jt, käesolev kogumik). Ilmneb, et näiteks Euroopa Liidu suuremate linnade elanike küsitluses on Tallinn keskkonnanäitajate (õhukvaliteet, müratase, rohealad) osas keskmik, kõrgemalt hindavad elanikud linna heakorda. Samal ajal seostub rohealade üldine kättesaadavus palju väiksemal määral linnaelanike üldise sooviga konkreetses linnas elada kui näiteks turvalisus või elukoht (<a href="sissejuhatus-1.html#Eurobarometer2016">Eurobarometer 2016</a>). Seega on elanike eripära ja soovide arvestamine ning keskkonnaseisundi parandamine linna rohealade planeerimisel keeruline protsess kohaliku võimu ja kogukonna koostöös.
+Eesti rohealade planeerimises on nõrk tervist (Orru jt, käesolev kogumik) ja erivajadusi arvestav ning kodu- ja tööpaika ühendav funktsioon, samuti seos riiklike poliitikadokumentidega. Näiteks puuduvad looduskeskkonna aspektid Eesti vaimse tervise strateegiast (2016), ehkki on teada, et looduses viibimine maandab tõhusalt psüühika- ja käitumishäirete olulisi riskitegureid, nagu stress ja vaimne kurnatus (<a href="sissejuhatus-1.html#ten2016">ten Brink jt 2016</a>). Linnaplaneerimise senine praktika viib pigem ikka rohealade vähendamiseni; rohealade vähesuse puhul on omakorda läbi mõtlemata võimalused, kuidas inimesi sinna suunata. Näiteks koolide ja lasteaedade võimalused tagada õuesõpet on kohapeal mõistetavalt piiratud, kuid rohekoridoride kaudu saaks eri kohti funktsionaalselt ühendada.</p>
+<p>Eraldi tähelepanu nõuab looduses niisuguste teadmiste omandamine, mille käigus kujundatakse oskusi maastikul liikuda, loodussaadusi leida ja kasutada. Mõni neist pärimusliku taustaga oskustest, näiteks ravimtaimede tundmine, on Eestis hääbumas, teised (nt marjul ja seenel käimine) edenevad tänapäeval uues suunas (Sepp ja Lõhmus, käesolev kogumik). Neist oskustest võiksid riiklikku planeerimist vajada näiteks tsiviilkaitseoskused tulla toime katastroofitingimustes, sealhulgas juhendada looduses teisi. Inimesed, kes tunnevad hästi teatud piirkondi ja seal regulaarselt käivad, on ühtlasi võimalikud infoallikad nende alade kohta. “Riik saab seda kasutada oma territooriumi keskkonnaseisundi kulutõhusaks jälgimiseks kodanikuteaduse (ingl citizen science) vormis, mille korraldus, tehnoloogilised lahendused ja analüüsimeetodid pakuvad suurt huvi kogu maailmas.” Paljudel inimestel on säilinud seos maakohtadega, kus elasid nende vanemad või vanavanemad, teised avastavad uute maakodude ümbrust omal käel. Linnainimestel jäävad aga praktilised loodusoskused kergesti unarusse.</p>
 </div>
-<div id="viidatud-allikad-4" class="section level3 unnumbered subreferences">
+<div id="tulevikuvaade" class="section level3 unnumbered chapter3_section">
+<h3>Tulevikuvaade</h3>
+<p>Kohandumine Maa keskkonnamahutavusega kujuneb 21. sajandi inimühiskondade eksistentsiaalseks probleemiks. Selle vältimatu osa on ka loodusalade igakülgne lõimimine inimeste elukeskkonna osaks, et otstarbekalt kasutada, säilitada ja kujundada looduse pakutavaid hüvesid. Need tegevused omakorda lähtuvad kultuurinähtusena senistest teadmistest ja tavadest, kusjuures arenguvõimalusi piiravad ja võivad lausa sulgeda sotsiaalsed konfliktid ning senise elu- ja majanduskorralduse liigne jäikus (<a href="sissejuhatus-1.html#Cumming2018">Cumming 2018</a>). Eesti jätkusuutlikuks arenguks on strateegiliselt oluline mõista siinsete ökosüsteemide võimalusi ja kohelda neid parimal moel, teadvustades, et praegune trend on negatiivne.</p>
+<div class="blockquote-left">
+<p>
+Eesti jätkusuutlikuks arenguks on strateegiliselt oluline mõista siinsete ökosüsteemide võimalusi ja kohelda neid parimal moel, teadvustades, et praegune trend on negatiivne.
+</p>
+</div>
+<p>Raamistikus „loodus-ühiskond-kultuur“ räägivad järgnevad artiklid lahti Eesti looduskeskkonna avaliku kasutamise põhiteemad: kuidas inimesed looduskeskkonda kasutavad (Sepp ja Lõhmus, käesolev kogumik), mis kasu nad sellest saavad (Orru jt, käesolev kogumik), kuidas heaolu suurendavat looduskeskkonda planeeritakse (Poom ja Sepp, käesolev kogumik) ning mil moel saavad elanikud planeerimises osaleda või seda mõjutada (Vahtrus jt, käesolev kogumik). Nende artiklite ühisjoon on arusaam sellest, et loodusalad toimivad avalikus kasutuses omavahel seostatud maastikuna, mille eri osadel on erinevad funktsioonid ning planeerimis- ja valitsemisvõtted. Vastavalt tuleb keskkonna- ja ruumiplaneerimine lõimida kõikidesse valitsusvaldkondadesse. Niisugust läbivat tervikut ja koostoimet paljudes olulistes valdkondades veel ei ole: loodusalade eesmärgid arengudokumentides ja planeeringutes on hägused ning kogukondi ja nende teadmisi jäetakse loodusalade kavandamisest sageli eemale.</p>
+<p>Teiseks märgivad kõik teemakäsitlused inimgruppide erinevat osasaamist loodusalade hüvedest või võimalustest, hoolimata paljude ühtlustavate põhimõtete rakendamisest (nt igaüheõigus, Aarhusi konventsiooni sätted, üleriigiline rohevõrgustiku põhimõte ja loodusalade mitmekesine haldusvõttestik eri tasanditel). See viitab vajadusele luua Eestis riiklik keskkonnaõigluse arendusprogramm, mis sisustaks tulevikku vaatavalt elanike ootused ja õigused oma elukeskkonnale, sidudes ja kujundades eri komponente. Olemasolevad programmid keskkonnaõiglust kas ei käsitle üldse või on vananenud, nagu näiteks Eesti säästva arengu riiklik strateegia „Säästev Eesti 21“ aastani 2030 (vastu võetud 2005). Konkreetselt loodusaladesse puutuvalt on põhjust ajakohastada ka Riigimetsa Majandamise Keskuse eesmärke ja valitsemispõhimõtteid, kuivõrd see asutus haldab suuremat osa avaliku juurdepääsuga loodusaladest ja nende taristust. Sellist ootust näitavad nii värskeim elanikkonna keskkonnateadlikkuse küsitlus (<a href="sissejuhatus-1.html#Turu-uuringute2018">Turu-uuringute AS 2018</a>) kui ka kogukondade vastasseis riigimetsa haldajaga (<a href="sissejuhatus-1.html#Vihma2019">nt Vihma 2019</a>); probleem on püstitatud ka 2030. aastani ulatuva metsanduse arengukava lähteülesandes.</p>
+<p>Lähikümnendite üldpõhimõte Eesti looduse avaliku kasutamise juhtimisel võiks niisiis olla mitmekesiste, kestlike ning inimarengut terviklikult ja õiglaselt toetavate loodusseoste arendamine. See tähendab senisest suuremat tähelepanu looduskeskkonnast saadavatele hüvedele füüsilise ja vaimse tervise, turvalisuse ja sotsiaalsete suhete seisukohalt.</p>
+</div>
+<div id="viidatud-allikad-11" class="section level3 unnumbered subreferences">
 <h3>Viidatud allikad</h3>
-<p id="Astangu2012">
-Astangu Kutserehabilitatsiooni Keskus 2012. Kõiki kaasava elukeskkonna kavandamine &amp; loomine.
+<p id="Barnes2013">
+Barnes, P. M., Hoerber, T. C. (eds.) 2013. Sustainable Development and Governance in Europe. The Evolution of the Discourse on Sustainability. Routledge Advances in European Politics. London: Routledge.
 </p>
-<p id="Eesti2018">
-Eesti statistika andmebaas 2018. Hõivatud soo ja töölkäimise viisi järgi.
+<p id="Buckley2019">
+Buckley, R., Brough, P., Hague, L., Chauvenet, A., Fleming, C., Roche, E., Sofija, E., Harris, N. 2019. Economic value of protected areas via visitor mental health. – Nature Communications, 10, 5005.
 </p>
-<p id="Eurobarometer2014">
-Eurobarometer 2014. Special Eurobarometer 422a. Quality of Transport. European Commission: Directorate-General for Mobility and Transport.
+<p id="Cumming2018">
+Cumming, G. S. 2018. A review of social dilemmas and social‐ecological traps in conservation and natural resource management. – Conservation Letters, 11 (1), e12376.
 </p>
-<p id="Gehl2011">
-Gehl Architects 2011. Public Spaces &amp; Public Life Study: City of Adeleide 2011. Copenhagen: Gehl Architects Aps.
+<p id="Espinosa2017">
+Espinosa, C. 2017. Bringing about the global movement for the rights of nature: sites and practices for intelligibility. – Global Networks, 17 (4), 463–482.
 </p>
-<p id="Lefebvre1974">
-Lefebvre, H. 1974. Production de l’espace. Paris: Éditions Anthropos.
+<p id="Eurobarometer2016">
+Eurobarometer 2016. Flash Eurobarometer 419. Quality of Life in European Cities 2015. European Commission: Directorate-General for Regional and Urban Policy.
 </p>
-<p id="Levine2010">
-Levine, C. 2010. The paradox of public art: democratic space, the avant-garde, and Richard Serra’s “Tilted arc”. – Orum, A. M., Neal, Z. P. (eds.). Common Ground? Readings and Reflections on Public Space. New York: Routledge, 164–172.
+<p id="Gundersen2008">
+Gundersen, V. S., Frivold, L. H. 2008. Public preferences for forest structures: a review of quantitative surveys from Finland, Norway and Sweden. – Urban Forestry &amp; Urban Greening, 7, 241–258.
 </p>
-<p id="Parkinson2012">
-Parkinson, J. 2012. Democracy and Public Space: The Physical Sites of Democratic Performance. Oxford: Oxford University Press.
+<p id="Hornigold2016">
+Hornigold, K., Lake, I., Dolman, P. 2016. Recreational use of the countryside: no evidence that high nature value enhances a key ecosystem service. – PloS ONE, 11 (11), e0165043.
 </p>
-<p id="Pere">
-Pere, P.-P. (aastata). Jalakäijate ja jalgratturite roll linna brändi ning kohaliku ärikeskkonna kujundamisel. Juhtumiuuringud Tallinna peatänava projektile. Future Place Leadership.
+&lt;p id=“Jennings2012”&gt;Jennings, V., Johnson Gaither, C., Gragg, R.S. 2012. Promoting environmental justice through urban green space access: a synopsis. – Environmental Justice, 5 (1), 1–7.
 </p>
-<p id="Rahandusministeerium2015">
-Rahandusministeerium 2015. Suunised kahanevate piirkondade säästlikuks ruumiliseks planeerimiseks.
+<p id="Kajala2008">
+Kajala, L., Almik, A., Dahl, R., Dikšaitė, L, Erkkonen, J., Fredman, P., Søndergaard Jensen, F., Karoles, K., Sievänen, T., Skov-Petersen, H., Vistad, O. I., Wallsten, P. 2008. Külastajate seire loodusaladel – &lt;p id=“Põhjamaade”&gt;Põhjamaade ja Balti riikide kogemustel põhinev käsiraamat. TemaNord 2008: 516. Tallinn: Riigimetsa Majandamise Keskus.
 </p>
-<p id="Sennet1986">
-Sennet, R. 1986. The Fall of The Public Man. London: Faber.
+<p id="Kaldaru2008">
+Kaldaru, H. 2008. Metsa mitmekülgne kasutamine. Elanikkonna, erametsaomanike ja väikeettevõtjate küsitlus. Tallinn: Turu-uuringute AS.
 </p>
-<p id="Soja1989">
-Soja, E. W. 1989. Postmodern Geographies: The Reassertion of Space in Critical Social Theory. New York: Verso.
+<p id="Kask2015">
+Kask, O., Lopman, E., Relve, K., Kuusk, P., Triipan, M., Vaarmari, K., Vahtrus, S., Veinla, H. 2015. Keskkonnaseadustiku üldosa seaduse kommentaarid. Tartu: Keskkonnaõiguse Keskus.
 </p>
-<p id="Taul2013">
-Taul, G. 2013. Monumentaalmaal kui avalik ruum.
-Tintera, J. 2018. Kuidas kaitsta kahanevat linna? – Eesti Arhitektuuriajakiri MAJA, 92 (talv), 96–105.
+<p id="Kõivik2014">
+Kõivik, M. 2014. Erinevate raiete esteetiline väärtus. Magistritöö. Eesti Maaülikool.
 </p>
-<p id="Traks2019">
-Traks, M. 2019. Indrek Peil: Lokaalne linlane. – Eesti Arhitektuuriajakiri MAJA, 95 (talv), 6–21.
+<p id="Magnus2018”>Magnus, R., Remm, T. 2018. Eesti võõrliikide tähendusväli: kujunemine ja linnaruumi kontekst. – Acta Semiotica Estica, 15, 89−118.</p>
+
+<p id="Mattson1998">Mattson, K. 1998. Creating a Democratic Public: The Struggle for Urban Participatory Democracy during the Progressive Era. University Park: Pennsylvania State University Press.</p>
+<p id="Moghim2019">
+Moghim, S., Garna, R. K. 2019. Countries’ classification by environmental resilience. – Journal of Environmental Management, 230, 345–354.
 </p>
-<p id="United2017">
-United Nations 2017. New Urban Agenda. United Nations Conference on Housing and Sustainable Urban Development (Habitat III).
+<p id="Oja2003">
+Oja, A., Keerus, K., Järvik, M., Tamm, G., Joonasson, K., Raudsepp, M., Relve, K., Veski, N., Riiberg, K., Tafel, K., Viia, A. 2003. Keskkonnaeetikast säästva ühiskonna eetikani. Inimese ja looduse vaheline tasakaal kui jätkusuutlikkuse aluspõhimõte. SEI väljaanne nr 5. Tallinn: Säästva Eesti Instituut, SEI-Tallinn ja Keskkonnainvesteeringute Keskus.
+</p>
+<p id="Oras2018">
+Oras, K., Enno-Sakwan, E., Niinepuu, E. (koost.) 2018. Säästva arengu näitajad. Tallinn: Statistikaamet.
+</p>
+<p id="Raudsaar2017”>Raudsaar, M., Siimon, K.-L., Valgepea, M. (toim.) 2018. Aastaraamat Mets 2017. Tallinn: Keskkonnaagentuur.</p>
+
+<p id="Raudsepp2009">Raudsepp, M., Heidmets, M., Kruusvall, J. 2009. Environmental justice and sustainability in post-Soviet Estonia. – Agyeman, J., Yelena Ogneva-Himmelberger, Y. (eds.). Environmental Justice and Sustainability in the Former Soviet Union. Cambridge: MIT Press, 215–237.</p>
+<p id="Riigikontroll2015">
+Riigikontroll 2015. Kallasradade kasutamine. Kas omavalitsused ja Keskkonnainspektsioon on teinud kõik endast sõltuva, et inimene pääseks randa ja saaks kallasrajal liikuda? Riigikontrolli aruanne Riigikogule. Tallinn, 8. detsember 2015.
+</p>
+<p id="ten2016">
+ten Brink, P., Mutafoglu, K., Schweitzer, J.-P., Kettunen, M., Twigger-Ross, C., Baker, J., Kuipers, Y., Emonts, M., Tyrväinen, L., Hujala, T., Ojala, A. 2016. The health and social benefits of nature and biodiversity protection. A report for the European Commission (ENV.B.3/ETU/2014/0039). London/Brussels: Institute for European Environmental Policy.
+</p>
+<p id="Terasmaa2015">
+Terasmaa, J., Pajula, R. 2015. Ökosüsteemiteenused ja tasakaalu hoidmiseks vajalikud looduslikud alad. – Vetik, R. (toim.). Eesti inimarengu aruanne 2014/2015. Lõksudest välja?. Tallinn: Eesti Koostöö Kogu,137–146.
+</p>
+<p id="Turu-uuringute2018">
+Turu-uuringute AS 2018. Eesti elanike keskkonnateadlikkuse uuring.
+</p>
+<p id="Vihma2019">
+Vihma, P. 2019. Riigimets kui ühisvara ehk kuidas lahendada Ohtu konflikti. – ERR Arvamus, 20.11.2019.
+</p>
+<p id="Wendling2018">
+Wendling, Z. A., Emerson, J. W., Esty, D. C., Levy, M. A., de Sherbinin, A., et al. 2018. 2018 Environmental Performance Index. Global Metrics for the Environment: Ranking Country Performance on High-priority Environmental Issues. New Haven: Yale Center for Environmental Law &amp; Policy.
 </p>
 
 </div>
@@ -399,8 +494,8 @@ United Nations 2017. New Urban Agenda. United Nations Conference on Housing and 
           </div>
         </div>
       </div>
-<a href="chapter20.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="chapter21.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="chapter30.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="chapter31.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

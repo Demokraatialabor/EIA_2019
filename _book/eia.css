@@ -41,6 +41,12 @@ BODY{}
   padding:0 42px 0 42px;
 }
 
+.intro_section {
+  max-width:800px;
+  margin:auto;
+  padding:0 42px 0 42px;
+}
+
 /* preferences layout */
 
 .references {
@@ -429,7 +435,7 @@ p.caption {
 
 .chapter1_section .casebox {
     background-color: #e6e3da;
-    border-bottom: solid 15px #369B9E;
+    border-bottom: solid 15px #a28dbc;
 }
 
 .chapter1_section .imgsource-source {
