@@ -47,23 +47,23 @@ library(showtext)
 
 showtext_auto()
 font_add_google(name = "Montserrat", family = "montserrat")
-  
+
  fig101_data <- read.csv ("data/10_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
 
 fig101_palette <- c("#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#482683","#b6a8cd")
- 
+
   fig101_plot <- ggplot(data = fig101_data) +
     geom_col(mapping = aes(x=reorder(county, change), y=change), fill=fig101_palette, width=0.6, show.legend = NA) +
     scale_y_continuous(breaks=c(0, 20,40, 60, 80, 100)) +
-    labs(y="%", x="") 
-  
-  
+    labs(y="%", x="")
+
+
   fig_theme_general <- theme(
                      text = element_text(color = "#292b2c", size = 12, family=""),
                      panel.background = element_rect(fill = "white", colour = "white"),
                      panel.grid.major = element_line(colour="#cccccc", size = (0.2)),
                      panel.grid.minor = element_line(size = (0.2), colour="#cccccc"),
-                     
+
                      axis.line = element_line(size = 0.2, colour = "#cccccc"),
                      axis.ticks = element_line(colour = "#cccccc", size=(0.2)),
                      axis.text.x = element_text(margin = margin(t = 10, r = 0, b = 0, l = 0)),
@@ -71,25 +71,25 @@ fig101_palette <- c("#482683","#482683","#482683","#482683","#482683","#482683",
                     axis.title.y = element_text(margin = margin(t = 0, r = 12, b = 0, l = 0)),
                      axis.title.x = element_text(margin = margin(t = 8, r = 0, b = 0, l = 0)),
                     plot.margin = unit(c(0,0,0,0), "cm"),
-                    
+
                      legend.position="top",
                      legend.title=element_blank(),
-                     legend.key = element_rect(fill="white"), 
+                     legend.key = element_rect(fill="white"),
                       legend.background = element_rect(fill=NA),
-                    
+
                     strip.text = element_text( size = 12, color = "#292b2c"),
                     strip.background = element_rect(color="white", fill="white")
   )
-  
+
     fig101_theme <- theme(
                     panel.grid.major.x = element_blank() ,
                     panel.grid.minor.x = element_blank(),
                     axis.line = element_line(size = 0.2, colour = "#cccccc"),
                     axis.text.x = element_text(angle=45, margin = margin(t = 7, r = 0, b = 0, l = 0), hjust=1.1),
                  )
-  
+
   print(fig101_plot + fig_theme_general + fig101_theme)
-  
+
   ggsave(path="exported_figures/PDF/chapter1",filename="fig101.pdf", height=140, width=210, units="mm")
 
 ```
@@ -118,7 +118,7 @@ Kähriku ja Väiko analüüsist ilmneb, et enamik Eesti inimesi elab ajakohastam
 ```{block, type='blockquote-left'}
 Head elamistingimused, ehk kaasaegsed eluasemed, ei kattu alati elukohaümbruse hea avaliku ruumi, looduskeskkonna ja ligipääsetavusega.
 ```
-Ääremaal elamise puhul on ühendused keskustega elulise tähtsusega. Tauri Tuvikene, Merlin Rehema ja Dago Antov kirjutavad hajaasustuse transpordiprobleemidest. Teenused ja töökohad kaovad lähikeskustest, samal ajal ei võimalda liinivõrk ja sõidugraafikud maal ainult ühistranspordist sõltuda ning ääremaa elanike liikuvuses mängib seetõttu suurt rolli auto ([nagu ka hõreda asustusega Põhjamaades – Velaga jt 2012](#Velaga2012)). Elanike arvu kahanemine ja kasvav autokasutus takistavad omakorda regulaarse ühistranspordi käigushoidmist. Piirkonna sõltumine autotranspordist isoleerib inimesi, kes ise autoga ei sõida, näiteks eakaid.
+Ääremaal elamise puhul on ühendused keskustega elulise tähtsusega. Tauri Tuvikene, Merlin Rehema ja Dago Antov kirjutavad muude teemade hulgas ka hajaasustuse transpordiprobleemidest. Teenused ja töökohad kaovad lähikeskustest, samal ajal ei võimalda liinivõrk ja sõidugraafikud maal ainult ühistranspordist sõltuda ning ääremaa elanike liikuvuses mängib seetõttu suurt rolli auto ([nagu ka hõreda asustusega Põhjamaades – Velaga jt 2012](#Velaga2012)). Elanike arvu kahanemine ja kasvav autokasutus takistavad omakorda regulaarse ühistranspordi käigushoidmist. Piirkonna sõltumine autotranspordist isoleerib inimesi, kes ise autoga ei sõida, näiteks eakaid.
 
 Plüscke-Altof ja teised arutlevad, et ääremaastumine on nii objektiivne majanduse ja rahvastiku keskuspiirkondadesse koondumise ja ääremaa kahanemise protsess kui ka subjektiivselt elanike, arvamusliidrite ja otsustajate mõttemallides toimuv protsess. Kui Eesti inimarengu aruanne 2016/2017 rõhutas eesti- ja venekeelse elanikkonna paralleelmaailmu, siis lõhe pealinna ja ääremaa vahel pole väiksem. Plüschke-Altof ja teised selgitavad, et maapiirkonnad on sageli kas laiale üldsusele „nähtamatud“ või on neil „mahajäänud piirkonna“ maine. Negatiivseid lugusid ääremaast loob eliit, kellel endal ei pruugi olla otsest seost ja kogemust nende piirkondadega. Häbimärgistamine hakkab objektiivset ääremaastumist võimendama, mõjutades piirkonda elama asumise ja investeerimise otsuseid ([Miggelbrink ja Meyer 2015](#Miggelbrink2015)).
 
