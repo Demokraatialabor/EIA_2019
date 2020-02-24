@@ -48,7 +48,7 @@ Täisehitatud maade osatähtsuse kasv alates sajandi algusest ei ole küll suur 
 
 <p class="caption" id="figure112"><span class="figure-number">Joonis 1.1.2.</span> Uute elamualade lisandumine</p>
 
-```{r, figure112, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE, results=c(4,5)}
+```{r, figure112, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE, results=c(4,5)}
 
 library(sf)          # classes and functions for vector data
 library(raster)      # classes and functions for raster data

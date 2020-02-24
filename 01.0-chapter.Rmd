@@ -1,5 +1,6 @@
 # Muutused Eesti asustusstruktuuris ja elukeskkondades {#chapter10  .intro_section .chapter1_section}
 
+## Sissejuhatus {-.chapter_section .chapter2_section}
 
 ```{block, type='authors'}
 **Kadri Leetmaa**
