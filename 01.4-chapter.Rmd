@@ -8,7 +8,7 @@
 * Pool eestimaalasi on arvamusel, et nende elamistingimused vaja- vad parandamist, ning parem majanduslik elujärg annab võimaluse elada kvaliteetsemal elamispinnal.
 ```
 
-1990. aastatel Eesti ühiskonnas aset leidnud muutused mõjutasid oluliselt eluasemevaldkonna korraldust. Omandireformi käigus sai suurem osa elanikest omanikuks, kuid ka vastutus eluaseme korrashoiu eest jäi inimeste endi õlule. Toimus siire üürimajade ühiskonnast omanike ühiskonda – eluaseme omamine muutus „normiks“ ning üüriturule jäid need, kellel (veel) puudus võimalus oma eluaseme ostuks. Eluasemete jaotust hakkas kujundama turg.
+1990ndatel aastatel Eesti ühiskonnas aset leidnud muutused mõjutasid oluliselt eluasemevaldkonna korraldust. Omandireformi käigus sai suurem osa elanikest omanikuks, kuid ka vastutus eluaseme korrashoiu eest jäi inimeste endi õlule. Toimus siire üürimajade ühiskonnast omanike ühiskonda – eluaseme omamine muutus „normiks“ ning üüriturule jäid need, kellel (veel) puudus võimalus oma eluaseme ostuks. Eluasemete jaotust hakkas kujundama turg.
 
 ```{block, type='blockquote-right'}
 Elamistingimused ning nende kättesaadavus on elukvaliteedi ja ühiskondliku õigluse küsimus.
@@ -36,19 +36,19 @@ Kuigi eramajades elavate leibkondade osakaal on veidi suurenenud, elab koguni 70
 library("tidyverse")
 library("scales")
 
-  
+
  fig141_data <- read.csv ("data/14_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
- 
+
 fig141_data$percent=percent((fig141_data$value/100), 1)
 
-  fig141_plot <- ggplot(data = fig141_data, aes(x = "", y = value, fill = variable)) + 
+  fig141_plot <- ggplot(data = fig141_data, aes(x = "", y = value, fill = variable)) +
   geom_bar(stat = "identity") +
   scale_fill_manual(values=c("#A8ACA6","#482683", "#917db5")) +
   geom_text(aes(label = percent), position = position_stack(vjust = 0.5), color="white") +
   coord_polar(theta = "y") +
   labs(x="", y="")+
   facet_grid(~area)
-  
+
   fig141_theme <- theme(
                     panel.grid.major.x = element_blank() ,
                     panel.grid.major.y = element_blank(),
@@ -57,10 +57,10 @@ fig141_data$percent=percent((fig141_data$value/100), 1)
                      axis.line = element_blank(),
                      axis.text.x = element_blank(),
                  )
-  
-  
+
+
   print(fig141_plot + fig_theme_general + fig141_theme)
-  
+
   ggsave(path="exported_figures/PDF/chapter1",filename="fig141.pdf", height=140, width=200, units="mm")
 
 ```
@@ -82,27 +82,27 @@ Uuselamuehitus sai uue suurema tõuke pärast 2000. aastat, kui paranesid üldin
 ```{r, figure142, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
-  
+
  fig142_data <- read.csv ("data/14_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
- 
+
 fig142_data$area <- factor(fig142_data$area, levels = c("Tallinn","Harjumaa (v.a Tallinn)","Regionaalsed keskused (v.a Tallinn)","Väikelinnad ja maa (v.a Harjumaa)"))
- 
- 
+
+
   fig142_plot <- ggplot(data = fig142_data) +
     geom_bar(mapping = aes(x=years, y=value, fill=area), size=1.2, stat = "identity", position="dodge") +
     scale_fill_manual(values=c("#482683","#917DB5","#A8ACA6","#C8C6BF")) +
     labs(y="% eluasemetest", x="ajavahemik") +
     guides(fill=guide_legend(nrow=2,byrow=TRUE))
-  
+
   fig142_theme <- theme(
                   axis.text.x = element_text(hjust=0.5),
                   panel.grid.major.x = element_blank(),
                   panel.grid.minor.x = element_blank(),
                  )
-  
-  
+
+
   print(fig142_plot + fig_theme_general + fig142_theme)
-  
+
   ggsave(path="exported_figures/PDF/chapter1",filename="fig142.pdf", height=140, width=200, units="mm")
 
 ```
@@ -111,38 +111,38 @@ fig142_data$area <- factor(fig142_data$area, levels = c("Tallinn","Harjumaa (v.a
 <span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).
 ```
 
-Eluruumidega varustatus on aastatega paranenud ning ka ruumi inimese kohta on rohkem. Kui rahvaloenduse andmetel oli aastatuhande vahetuse ajal elaniku kohta 24,4 m<sup>2</sup> elamispinda ning 1,08 tuba, siis 2011. aastaks juba 31,4 m<sup>2</sup> ning 1,28 tuba. Selle näitaja alusel oleme Euroopa Liidu riikidega võrreldes suhteliselt kõrgel positsioonil. 
+Eluruumidega varustatus on aastatega paranenud ning ka ruumi inimese kohta on rohkem. Kui rahvaloenduse andmetel oli aastatuhande vahetuse ajal elaniku kohta 24,4 m<sup>2</sup> elamispinda ning 1,08 tuba, siis 2011. aastaks juba 31,4 m<sup>2</sup> ning 1,28 tuba. Selle näitaja alusel oleme Euroopa Liidu riikidega võrreldes suhteliselt kõrgel positsioonil.
 
 ### Eluasemefondi seisukord on paranemas, kuid viletsamas seisus on maapiirkondade eluruumid {-.chapter1_section}
 
 ```{block, type='blockquote-right'}
 Eestis elab endiselt kõigi mugavusteta elamispindadel 13% leibkondadest. Selle näitajaga on Eesti Euroopa Liidu võrdluses viimaste hulgas.
 ```
-Eesti elamufond on suhteliselt amortiseerunud ning vajab ajakohastamiseks suuri investeeringuid. Nõukogude ajal kerkinud eluhooned on praegu juba üsna vanad. Eestis elab endiselt kõigi mugavusteta elamispindadel tervelt 13% leibkondadest – nende eluruumis puudub kas eluaseme ainukasutuses olev veega tualettruum ja/või tänapäevased pesemistingimused (dušš või vann). Nihe paranemise suunas on toimunud, kui võrrelda olukorda 2000. aastaga, kuid Euroopa Liidu võrdluses oleme viimaste hulgas. Probleem on suurim väikelinnades ja maapiirkondades. Kehvade elamistingimuste (rõsked seinad, pehkinud aknad/põrandad) üle kurdab koguni iga viies ääremaa pere ([joonis 1.4.3](figure124)). 
+Eesti elamufond on suhteliselt amortiseerunud ning vajab ajakohastamiseks suuri investeeringuid. Nõukogude ajal kerkinud eluhooned on praegu juba üsna vanad. Eestis elab endiselt kõigi mugavusteta elamispindadel tervelt 13% leibkondadest – nende eluruumis puudub kas eluaseme ainukasutuses olev veega tualettruum ja/või tänapäevased pesemistingimused (dušš või vann). Nihe paranemise suunas on toimunud, kui võrrelda olukorda 2000. aastaga, kuid Euroopa Liidu võrdluses oleme viimaste hulgas. Probleem on suurim väikelinnades ja maapiirkondades. Kehvade elamistingimuste (rõsked seinad, pehkinud aknad/põrandad) üle kurdab koguni iga viies ääremaa pere ([joonis 1.4.3](figure124)).
 
 <p class="caption" id="figure143"><span class="figure-number">Joonis 1.4.3.</span> Eluasemeprobleemide esinemine ja mugavuste puudumine asustustüüpide lõikes (regionaalsed keskused on maakonnakeskused)</p>
 
 ```{r, figure143, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
-  
+
  fig143_data <- read.csv ("data/14_fig3_data.csv", header=TRUE, fileEncoding="utf-8")
- 
+
 
   fig143_plot <- ggplot(data = fig143_data) +
     geom_bar(mapping = aes(x=reorder(area, -value), y=value, fill=variable),position = "dodge", width=0.7, stat="identity") +
     coord_flip()+
     labs(y="%", x="") +
     scale_fill_manual(values=c("#482683","#917DB5"))
-  
+
     fig143_theme <- theme(
                   panel.grid.major.y = element_blank() ,
                   panel.grid.minor.y = element_blank(),
                  )
-  
-  
+
+
   print(fig143_plot + fig_theme_general + fig143_theme)
-  
+
   ggsave(path="exported_figures/PDF/chapter1",filename="fig143.pdf", height=140, width=200, units="mm")
 
 ```
@@ -160,10 +160,10 @@ Ligikaudu pool Eesti elanikest elab eluruumides, mis nende enda hinnangul vajava
 library("tidyverse")
 library(gridExtra)
 library(grid)
-  
+
 fig144_data1 <- read.csv ("data/14_fig4_data1.csv", header=TRUE, fileEncoding="utf-8")
 fig144_data2 <- read.csv ("data/14_fig4_data2.csv", header=TRUE, fileEncoding="utf-8")
- 
+
 
   fig144_plot1 <- ggplot(data = fig144_data1) +
     geom_bar(mapping = aes(x=condition, y=value, fill=year), width=0.7, stat="identity") +
@@ -171,21 +171,21 @@ fig144_data2 <- read.csv ("data/14_fig4_data2.csv", header=TRUE, fileEncoding="u
     labs(y="%", x="") +
     scale_fill_manual(values=c("#DAD4E6","#B6A8CD","#917DB5","#6D519C","#482683","#361C62")) +
      guides(fill = guide_legend(reverse = TRUE)) +
-      scale_x_discrete(labels = wrap_format(20)) 
-  
+      scale_x_discrete(labels = wrap_format(20))
+
   fig144_plot2 <- ggplot(data = fig144_data2) +
     geom_bar(mapping = aes(x=condition, y=value, fill=type_of_residence), width=0.7, stat="identity") +
     coord_flip() +
     labs(y="%", x="") +
     scale_fill_manual(values=c("#A8ACA6","#917DB5","#482683")) +
     guides(fill = guide_legend(reverse = TRUE)) +
-    scale_x_discrete(labels = wrap_format(20)) 
-  
+    scale_x_discrete(labels = wrap_format(20))
+
     fig144_theme <- theme(
                     panel.grid.major.y = element_blank() ,
                      panel.grid.minor.y = element_blank(),
                  )
-  
+
 grid.arrange(fig144_plot1 + fig144_theme + fig_theme_general, fig144_plot2 + fig144_theme + fig_theme_general, ncol = 1)
 
 ggsave(path="exported_figures/PDF/chapter1",fig144_plot1 + fig144_theme + fig_theme_general,filename="fig144a.pdf", height=100, width=170, units="mm")
@@ -200,7 +200,7 @@ ggsave(path="exported_figures/PDF/chapter1",fig144_plot2 + fig144_theme + fig_th
 ```{block, type='casebox'}
 <h3>Eluasemeturu olukord väikelinnades ja pealinnas on erinev</h3>
 
-Väikelinnade valikud ja võimalused taskukohast elamispinda pakkuda on teistsugused kui Tallinnas või Tartus. Viimastes toimub just siselinna vanemates elupiirkondades ajaloolise elamufondi uuendamine ([joonis 1.4.5](#figure145)). Seda kannustab turu nõudlus ja investorite huvi. Samad turuprotsessid ei toimi aga pealinnast kaugemal asuvates väikelinnades. Näite võib tuua Valga linnast ([joonis 1.4.6](#figure146)), kus jääb tühjaks just see osa elamufondist, mis suurlinnades keskklassistub. Omanikud ja pärijad on oma varast isegi loobunud, kuna kinnisvaral turuväärtus peaaegu puudub. Samuti pole samal põhjusel võimalik pangast hoone rekonstrueerimiseks laenu saada. Nii eelistatakse väikelinnades pigem korterit paneelmajas, kuna nende hoonete ja eluasemete seisund on parem. 
+Väikelinnade valikud ja võimalused taskukohast elamispinda pakkuda on teistsugused kui Tallinnas või Tartus. Viimastes toimub just siselinna vanemates elupiirkondades ajaloolise elamufondi uuendamine ([joonis 1.4.5](#figure145)). Seda kannustab turu nõudlus ja investorite huvi. Samad turuprotsessid ei toimi aga pealinnast kaugemal asuvates väikelinnades. Näite võib tuua Valga linnast ([joonis 1.4.6](#figure146)), kus jääb tühjaks just see osa elamufondist, mis suurlinnades keskklassistub. Omanikud ja pärijad on oma varast isegi loobunud, kuna kinnisvaral turuväärtus peaaegu puudub. Samuti pole samal põhjusel võimalik pangast hoone rekonstrueerimiseks laenu saada. Nii eelistatakse väikelinnades pigem korterit paneelmajas, kuna nende hoonete ja eluasemete seisund on parem.
 
 <p class="caption" id="figure145"><span class="figure-number">Joonis 1.4.5.</span> Kalamaja elamud Tallinnas on kahe viimase aasta-
 kümne jooksul suures osas renoveeritud</p>
@@ -222,23 +222,23 @@ Eluasemeprobleemid on suures osas majanduslikku laadi. Suurem sissetulek annab v
 ```{r, figure147, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
-  
+
 fig147_data <- read.csv ("data/14_fig7_data.csv", header=TRUE, fileEncoding="utf-8")
- 
+
 fig147_data$income_size <- factor(fig147_data$income_size, levels = c("Kõrge sissetulek","Madal sissetulek"))
 fig147_data$condition <- factor(fig147_data$condition, levels = c("Esineb suuri puudusi","Esineb puudusi","Hea seisukord","Värskelt remonditud"))
- 
+
  fig147_data$percent=percent((fig147_data$value/100), 1)
 
   fig147_plot <- ggplot(data = fig147_data,aes(x="", y=value, fill=condition)) +
     geom_bar(width=0.7, stat="identity") +
     scale_fill_manual(values=c("#B6A8CD","#917DB5","#6D519C","#482683")) +
-    
+
     geom_text(aes(label = percent), position = position_stack(vjust = 0.5), color="white") +
     coord_polar("y", start=0)+
     facet_wrap(~income_size, nrow=1)+
     labs (x="", y="")
-  
+
     fig147_theme <- theme(
                     panel.grid.major.x = element_blank() ,
                     panel.grid.major.y = element_blank(),
@@ -247,7 +247,7 @@ fig147_data$condition <- factor(fig147_data$condition, levels = c("Esineb suuri 
                     axis.line = element_blank(),
                     axis.text.x = element_blank(),
                  )
-  
+
 print(fig147_plot + fig_theme_general +   fig147_theme)
 
 ggsave(path="exported_figures/PDF/chapter1",filename="fig147.pdf", height=140, width=200, units="mm")
@@ -260,17 +260,17 @@ ggsave(path="exported_figures/PDF/chapter1",filename="fig147.pdf", height=140, w
 ```{block, type='blockquote-right'}
 Väikese sissetulekuga peredel moodustab eluaseme ülalpidamisele kuluv summa suure osa pere eelarvest, investeeringuteks raha ei jätku.
 ```
-Ootuspäraselt on Tallinnas ja Harjumaal paremal majanduslikul järjel olevaid leibkondi rohkem. Sellest tulenevalt on pealinna regiooni elanikel rohkem võimalusi oma eluaseme kvaliteeti parandada. Asulatüüpide erinevused jäävad aga kehtima ka siis, kui võrrelda sarnast tulu teenivate leibkondade elamistingimusi. Pealinna eluasemete seisukorda hinnatakse paremaks ka siis, kui leibkonna enda ressursid nii suured ei ole ([joonis 1.4.8)](#figure148)). Keskmiselt 70% pealinlastest elab renoveeritud või heas seisukorras oleval eluasemel. Siin võib rolli mängida Tallinna elamufondi noorem keskmine vanus, kuid edutegur võib olla seotud ka suurema sotsiaalse mitmekesisusega pealinna kortermajades ja asumites – kui ühes eluhoones elab peale väiksema sissetulekuga elanike ka majanduslikult paremal järjel inimesi, avaldab see kokkuvõttes positiivset mõju kõigile. 
+Ootuspäraselt on Tallinnas ja Harjumaal paremal majanduslikul järjel olevaid leibkondi rohkem. Sellest tulenevalt on pealinna regiooni elanikel rohkem võimalusi oma eluaseme kvaliteeti parandada. Asulatüüpide erinevused jäävad aga kehtima ka siis, kui võrrelda sarnast tulu teenivate leibkondade elamistingimusi. Pealinna eluasemete seisukorda hinnatakse paremaks ka siis, kui leibkonna enda ressursid nii suured ei ole ([joonis 1.4.8)](#figure148)). Keskmiselt 70% pealinlastest elab renoveeritud või heas seisukorras oleval eluasemel. Siin võib rolli mängida Tallinna elamufondi noorem keskmine vanus, kuid edutegur võib olla seotud ka suurema sotsiaalse mitmekesisusega pealinna kortermajades ja asumites – kui ühes eluhoones elab peale väiksema sissetulekuga elanike ka majanduslikult paremal järjel inimesi, avaldab see kokkuvõttes positiivset mõju kõigile.
 
 <p class="caption" id="figure148"><span class="figure-number">Joonis 1.4.8.</span> Hinnangud oma eluasemete seisukorrale sissetuleku ja asustustüübi alusel (regionaalsed keskused on maakonnakeskused), vasakul: suurimat tulu saav viiendik, paremal: väikseimat tulu saav viiendik</p>
 
 ```{r, figure148, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
-  
+
  fig148_data <- read.csv ("data/14_fig8_data.csv", header=TRUE, fileEncoding="utf-8")
  fig148_data$area <- factor(fig148_data$area, levels = c("Väikelinnad ja maa (v.a Harjumaa)","Regionaalsed keskused (v.a Tallinn)","Harjumaa (v.a Tallinn)","Tallinn"))
- 
+
   fig148_plot <- ggplot(data = fig148_data) +
     geom_bar(mapping = aes(x=area, y=value, fill=condition), width=0.6, stat="identity") +
     scale_fill_manual(values=c("#917DB5","#482683")) +
@@ -279,7 +279,7 @@ library("tidyverse")
     facet_wrap(~income, nrow=1) +
     scale_x_discrete(labels = wrap_format(23)) +
     guides(fill = guide_legend(reverse = TRUE))
-  
+
   fig148_theme <- theme(
                     panel.grid.major.y = element_blank(),
                     panel.grid.minor.y = element_blank(),
@@ -287,7 +287,7 @@ library("tidyverse")
                     axis.line = element_blank(),
                     axis.text.x = element_blank(),
                  )
-  
+
 print(fig148_plot + fig148_theme + fig_theme_general)
 ggsave(path="exported_figures/PDF/chapter1",filename="fig148.pdf", height=140, width=200, units="mm")
 
@@ -300,10 +300,10 @@ ggsave(path="exported_figures/PDF/chapter1",filename="fig148.pdf", height=140, w
 ### Taasiseseisvumise järel oli eluasemekorraldus täielikult suunatud turupõhisele eluasemefondile {-.chapter1_section}
 
 Pärast 1991. aastat toimusid elamupoliitikas suured ümberkorraldused. Riigi prioriteediks sai elamufondi erastamine ning valitsuse eemaldumine eluasemete korrashoiu ja uuendamisega seotud küsimustest. Ajavahemikul 1994–2002 vähenes avalikule sektorile kuulunud elamufond 64%-lt (linnades 72%-lt) 4%-le. Avalikule võimule jäi vähe hoobasid, et toetada majanduslikult raskemas olukorras leibkondi eluaseme soetamisel või renoveerimisel. 1990. aastate reformide kolm tugisammast olid järgmised:
- 
+
 1) masserastamine – 98% nõukogude ajal ehitatud korterelamute eluruumidest erastati riigi väljastatud väärtpaberite (EVPde) abil;
-2) eluasemete tagastamine õigusjärgsetele omanikele – niinimetatud sundüürnikele kompenseeriti neile tekitatud ebaõiglus kas rahaliselt või teise eluaseme kasutusse andmisega; 
-3) liberaalse eluasemeturu tekkeks vajalike tingimuste loomine riiklike üüripiirmäärade kaotamise kaudu. 
+2) eluasemete tagastamine õigusjärgsetele omanikele – niinimetatud sundüürnikele kompenseeriti neile tekitatud ebaõiglus kas rahaliselt või teise eluaseme kasutusse andmisega;
+3) liberaalse eluasemeturu tekkeks vajalike tingimuste loomine riiklike üüripiirmäärade kaotamise kaudu.
 
 Üüriturg arenes välja järk-järgult ja peamiselt erastatud korterite baasil, mille omanikud olid eri põhjustel vabaks jätnud. Arendajate initsiatiiv üürikortereid rajada on olnud tagasihoidlik. Aastaks 2011 moodustas eraüürisektor umbes 15% turuosast, omanikuasustus aga tervelt 83% ([joonis 1.4.9](#figure149)). Euroopa Liidu riikides moodustab viimane 69%, soodusüüriga eluasemete osakaal on enamasti Eesti omast suurem. Üürnike osakaal kokku on suurim pealinnas (ligikaudu 22%), kus on ka kõige enam avaliku sektori pakutavaid üürikortereid. Tüüpiline erasektori üürnik on noor üksi või paarisuhtes elav isik, suuremate leibkondade ning kesk- ja vanemaealiste hulgas on üürnikke vähe.
 
@@ -315,7 +315,7 @@ library("tidyverse")
 library(gridExtra)
 library(grid)
 library("scales")
-  
+
 fig149_data1 <- read.csv ("data/14_fig9_data1.csv", header=TRUE, fileEncoding="utf-8")
 fig149_data2 <- read.csv ("data/14_fig9_data2.csv", header=TRUE, fileEncoding="utf-8")
 
@@ -325,7 +325,7 @@ fig149_data2$variable <- factor(fig149_data2$variable, levels = c("Üürnik (ava
 fig149_data2$area <- factor(fig149_data2$area, levels = c("Väikelinnad ja maa (v.a Harjumaa)","Regionaalsed keskused (v.a Tallinn)","Harjumaa (v.a Tallinn)","Tallinn"))
 
 fig149_data1$percent=percent((fig149_data1$value/100), 1)
- 
+
 
   fig149_plot1 <- ggplot(data = fig149_data1, aes(x="", y=value, fill=group)) +
     geom_bar( width=0.7, stat="identity") +
@@ -335,8 +335,8 @@ fig149_data1$percent=percent((fig149_data1$value/100), 1)
     labs(y="", x="") +
     guides(fill=guide_legend(nrow=3,byrow=TRUE))
 
-  
-  
+
+
   fig149_plot2 <- ggplot(data = fig149_data2) +
     geom_bar(mapping = aes(x=area, y=value, fill=variable), width=0.7, stat="identity") +
     scale_fill_manual(values=c("#86858A","#C8C6BF","#482683")) +
@@ -344,7 +344,7 @@ fig149_data1$percent=percent((fig149_data1$value/100), 1)
     labs(y="%", x="") +
     scale_x_discrete(labels = wrap_format(17)) +
     guides(fill=guide_legend(nrow=3,byrow=TRUE, reverse=TRUE))
-  
+
       fig149_theme1 <- theme(
                     panel.grid.major.x = element_blank() ,
                     panel.grid.major.y = element_blank(),
@@ -353,13 +353,13 @@ fig149_data1$percent=percent((fig149_data1$value/100), 1)
                      axis.line = element_blank(),
                      axis.text.x = element_blank(),
                  )
-      
+
             fig149_theme2 <- theme(
                     panel.grid.major.y = element_blank() ,
                     panel.grid.minor.y = element_blank() ,
                     panel.grid.minor.x = element_blank(),
                     legend.position = "none"
-                
+
                  )
 
 grid.arrange(fig149_plot1 + fig_theme_general + fig149_theme1, fig149_plot2 + fig_theme_general + fig149_theme2 , ncol = 2)

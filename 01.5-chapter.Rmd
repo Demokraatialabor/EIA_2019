@@ -14,22 +14,22 @@ Autostumine tähendab nii sõidukite omamise ja kasutamise sagenemist kui ka aut
 Esimene auto sõitis Eesti teedel 1896. aastal, tänapäeval on Eestis autosid üle 740 000 ([Statistikaamet 2018](#Statistikaamet2018)). Autost on saanud tarbeese, mis on olemas üle poolel Eesti elanikest. Ühelt poolt on autokasutus parandanud paljude inimeste liikumisvõimalusi ja oluliselt vähendanud tunnetatavaid kaugusi. Teiselt poolt aga on autode arvu jõuline kasv muutnud avalikku ruumi nii linnades kui ka mujal Eestis. Autostumine tähendab nii sõidukite omamise ja kasutamise sagenemist kui ka autokultuuri levikut laiemalt. Hõredalt asustatud ja puudulikult toimiva ühistranspordiga maapiirkondades on isiklikud sõiduautod muutunud asendamatuks. Eesti linnaregioonides võib täheldada aga järkjärgulist autode arvu kasvu peatumist ja suurenevat huvi erinevaid kasutajaid soosiva tänavaruumi planeerimise ideede vastu. Selles artiklis vaatleme autostumist kahes rollis: ligipääsu võimaldajana ja selle pärssijana. Artikli eesmärk on anda ülevaade, kuidas autostumine ja autopõhise liikuvuse suunamine mõjutavad Eesti elanike ligipääsu avalikele teenustele ja laiemalt avalikule ruumile. Samuti arutleme, millised on hajalinnastunud Eestis säästva liikuvuse strateegiad.
 
 ```{block, type='blockquote-left'}
-Liikuvus tähendab võimet oma igapäevaste vajaduste rahulda- miseks ühest kohast teise liikuda, kasutades ühte või mitut transpordiliiki või -teenust.
+Liikuvus tähendab võimet oma igapäevaste vajaduste rahuldamiseks ühest kohast teise liikuda, kasutades ühte või mitut transpordiliiki või -teenust.
 ```
-Liikuvus tähendab võimet oma igapäevaste vajaduste rahuldamiseks ühest kohast teise liikuda, kasutades ühte või mitut transpordiliiki või -teenust. Erinevalt liikluse planeerimisest, mis tegeleb sõidukite liikumise ja ligipääsuga, on liikuvuse planeerimise keskmes inimeste ja kaupade liikumine, mis tahes transpordiviisi kasutades need toimuvad. Säästev liikuvus tähendab keskkonnahoidlikku ja jätkusuutlikku transpordi kujundamist inimeste liikumiste planeerimisel. 
+Liikuvus tähendab võimet oma igapäevaste vajaduste rahuldamiseks ühest kohast teise liikuda, kasutades ühte või mitut transpordiliiki või -teenust. Erinevalt liikluse planeerimisest, mis tegeleb sõidukite liikumise ja ligipääsuga, on liikuvuse planeerimise keskmes inimeste ja kaupade liikumine, mis tahes transpordiviisi kasutades need toimuvad. Säästev liikuvus tähendab keskkonnahoidlikku ja jätkusuutlikku transpordi kujundamist inimeste liikumiste planeerimisel.
 
 ### 1990. aastate kiire autostumine on stabiliseerumas {-.chapter1_section}
 
-Kiire autostumine Eestis on sarnane teiste idabloki riikide omaga. Autostumise tasemed mõõdetuna sõiduautode arvus 1000 elaniku kohta vahetult pärast Teist maailmasõda Ida- ja Lääne-Euroopas oluliselt ei erinenud. Juba kümmekond aastat hiljem oli aga autostumise tase väga erinev. 1990. aastate alguseks oli nii Euroopa Liidu riikides kui ka USAs autostumine ajaloolist tipptaset saavutamas või oluliselt aeglustunud, samal ajal kui idabloki riikides eelmistel kümnenditel välja kujundatud erinevuse kompenseerimine alles algas. Näiteks kui Lääne-Saksamaal saavutati praegune autostumise tase 1980. aastatel, siis Ida-Saksamaal jõudis see riigi ühendamise järel samale tasemele 2000. aastateks ([Pucher ja Buehler 2005](#Pucher2005)). Isiklike sõiduautode kättesaadavuse piiratus nõukogude perioodil asendus autoomamise entusiasmiga 1990. aastatel. Sellest ajast peale on Eesti oma autokasutuses järjepidevalt Lääne-Euroopa riikidele järele liikunud ja need lõpuks kinni püüdnud ([joonis 1.5.1](#figure151)). Kuigi autostumine jätkus ka Lääne-Euroopas, on piirkondade võrdluses sealne kasvutempo olnud aeglasem. Praegu jääb Eesti registreeritud autode arvu poolest 1000 elaniku kohta maha veel vaid Euroopa Liidu kõige autostunumatest maadest, nagu Itaalia, Luksemburg, Malta ja Soome, kuid on enamikust Euroopa Liidu n-ö läänepoolsetest riikidest möödunud. 
+Kiire autostumine Eestis on sarnane teiste idabloki riikide omaga. Autostumise tasemed mõõdetuna sõiduautode arvus 1000 elaniku kohta vahetult pärast Teist maailmasõda Ida- ja Lääne-Euroopas oluliselt ei erinenud. Juba kümmekond aastat hiljem oli aga autostumise tase väga erinev. 1990. aastate alguseks oli nii Euroopa Liidu riikides kui ka USAs autostumine ajaloolist tipptaset saavutamas või oluliselt aeglustunud, samal ajal kui idabloki riikides eelmistel kümnenditel välja kujundatud erinevuse kompenseerimine alles algas. Näiteks kui Lääne-Saksamaal saavutati praegune autostumise tase 1980. aastatel, siis Ida-Saksamaal jõudis see riigi ühendamise järel samale tasemele 2000. aastateks ([Pucher ja Buehler 2005](#Pucher2005)). Isiklike sõiduautode kättesaadavuse piiratus nõukogude perioodil asendus autoomamise entusiasmiga 1990. aastatel. Sellest ajast peale on Eesti oma autokasutuses järjepidevalt Lääne-Euroopa riikidele järele liikunud ja need lõpuks kinni püüdnud ([joonis 1.5.1](#figure151)). Kuigi autostumine jätkus ka Lääne-Euroopas, on piirkondade võrdluses sealne kasvutempo olnud aeglasem. Praegu jääb Eesti registreeritud autode arvu poolest 1000 elaniku kohta maha veel vaid Euroopa Liidu kõige autostunumatest maadest, nagu Itaalia, Luksemburg, Malta ja Soome, kuid on enamikust Euroopa Liidu n-ö läänepoolsetest riikidest möödunud.
 
 <p class="caption" id="figure151"><span class="figure-number">Joonis 1.5.1.</span> Autostumise muutus Lääne-Euroopa (siin EL-15) ja Ida-Euroopa riikides (siin alates 2004. aastal ELi astunud riigid, v.a Küpros ja Malta)</p>
 
 ```{r, figure151, out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
-  
+
  fig151_data <- read.csv ("data/15_fig1_data2.csv", header=TRUE, fileEncoding="utf-8")
- 
+
 
   fig151_plot <- ggplot(data = fig151_data) +
     geom_line(mapping = aes(x=year, y=value, colour=area, group=area), size=1) +
@@ -37,14 +37,14 @@ library("tidyverse")
     scale_y_continuous(expand = c(0, 0), limits=c(0,550)) +
     scale_colour_manual(values=c("#482683","#3A404A","#A8ACA6"), labels=c("Eesti","Ida-Euroopa","Lääne-Euroopa")) +
     labs(y="Autot 1000-e elaniku kohta", x="") +
-    expand_limits (y=0) 
-  
+    expand_limits (y=0)
+
   fig151_theme <- theme (
-    
+
   )
-  
+
   print(fig151_plot + fig_theme_general)
-  
+
   ggsave(path="exported_figures/PDF/chapter1",filename="fig151.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
 
@@ -59,7 +59,7 @@ Seega saab 1990. aastate ja uue sajandi esimese kümnendi Ida-Euroopa, sealhulga
 Autostumisel on keskkonnamõju, mis väljendub energia- ja maakasutuses, autostumine muudab sotsiaalelu ning ühiskondade majanduslikku toimimist. Rahvusvahelise Energiaagentuuri 2017. aasta andmetel läheb pool maailma toodetud naftast linna- ja maanteetranspordile ning transpordisektor annab üle veerandi maailma süsihappegaasi heitest. Autostumise keskkonnamõju avaldub lisaks kütuse tarbimisele ka autode tootmises, kasutamises, liiklusohtlikkuses, aga ka linnaruumi tarbimises. Kuna autoga sõites liigutavad inimesed end vähem, väljendub autostumise kahju inimeste ülekaalulisuses ning haigestumises südame-veresoonkonnahaigustesse ([Bassett jt 2008](#Bassett)). Lisaks mürale, vibratsioonile ja peenosakeste reostusele tiheda liiklusega tänavatel on probleem ka inimeste vähesemad võimalused sotsiaalseks suhtluseks. Autostumise tõttu muutuvad linnatänavad piltlikult öeldes liiklustorudeks, kus kõigi teiste liiklejate võimalused on ahenenud. Nii on halvenenud tänavate kvaliteet avaliku ruumina.
 
 ```{block, type='blockquote-right'}
-Ligipääsetavus on inimeste võimalus saada osa oma ühis- konnas tavapärastest tegevustest.
+Ligipääsetavus on inimeste võimalus saada osa oma ühiskonnas tavapärastest tegevustest.
 ```
 Liiklustorudeks muutunud linnatänavate tõttu hakkab autostumine linnades takistama üldist ligipääsetavust. Ligipääsetavus on inimeste võimalus saada osa oma ühiskonnas tavapärastest tegevustest ([Farrington 2007](#Farrington)). Peale liikumisvabaduse hõlmab ligipääsetavus teenuste ja töökohtade toomist või planeerimist inimesele lähemale, et vähendada vajadust liikumiseks ([joonis 1.5.2](#figure152)). Näiteks võib tuua sotsiaalteenuste digitaliseerimise ning kaugtöökohtade loomise. Kuigi Eestis saab riiklikke teenuseid interneti kaudu üsna hõlpsalt kasutada ka kodust lahkumata, eeldab sotsiaalne elu, laste haridus, hobid ja meelelahutus ikkagi aeg-ajalt suurematesse asumitesse või linnakeskustesse minekut. Ligipääsetavuse taandamine autokasutaja vajadustele on ühekülgne, kuna see vähendab teiste liiklejarühmade, sealhulgas jalakäijate, ratturite, eakate, erivajadusega liiklejate liikumisvõimalusi ja -kvaliteeti. Mitmesuguseid asjaolusid arvestav transpordiplaneerimine eeldab arusaamist autode rollist ja kasutusest erinevates keskkondades: hajaasustuses, maapiirkondades, linnaregioonis ja asustusüksuse sees.
 
@@ -76,7 +76,7 @@ Säästva liikuvuse arengukava eesmärk on luua jätkusuutlik transpordisüsteem
 
 ### Hajaasustuse elu on autokeskne {-.chapter1_section}
 
-Maanteeameti tehtud ühistranspordiga rahulolu küsitlused näitavad, et elanike rahulolu ühistranspordi kvaliteedi ja kättesaadavusega on maakonnasiseste liinide puhul vähenenud. Eriti rahulolematud ollakse kohalejõudmise aegadega, marsruutidega ja ümberistumisvõimalustega. Isegi kui peatuse asukoht ja paar väljumist päevas teevad ühistranspordi suurele osale inimestele kättesaadavaks ([joonis 1.5.2](#figure152)), ei tähenda see, et ühistransport suudaks aja ja ühenduste arvu poolest tegelikult autoliiklusega võistelda. Saar Polli 2014. aasta uuringu „Elanike rahulolu kohalike avalike teenustega“ andmetel on rahuolu ühistranspordiga ning selle konkurentsivõime linnades suurem kui hõredamalt asustatud piirkondades, olgu see siis linna tagamaa või keskustest eemale jäävad ääremaad. Hajaasustuses, eriti väikese nõudlusega piirkondades, jäävad liikumisgraafikud harvaks, nende järgi on keeruline tegevusi ajastada eriti juhul, kui on vaja sõitusid kombineerida.
+Maanteeameti tehtud ühistranspordiga rahulolu küsitlused näitavad, et elanike rahulolu ühistranspordi kvaliteedi ja kättesaadavusega on maakonnasiseste liinide puhul vähenenud. Eriti rahulolematud ollakse kohalejõudmise aegadega, marsruutidega ja ümberistumisvõimalustega. Isegi kui peatuse asukoht ja paar väljumist päevas teevad ühistranspordi suurele osale inimestele kättesaadavaks ([joonis 1.5.2](#figure152)), ei tähenda see, et ühistransport suudaks aja ja ühenduste arvu poolest tegelikult autoliiklusega võistelda. Saar Polli 2014. aasta uuringu „Elanike rahulolu kohalike avalike teenustega“ andmetel on rahuolu ühistranspordiga parem ning selle konkurentsivõime linnades suurem kui hõredamalt asustatud piirkondades, olgu need siis linna tagamaa või keskustest eemale jäävad ääremaad. Hajaasustuses, eriti väikese nõudlusega piirkondades, jäävad liikumisgraafikud harvaks, nende järgi on keeruline tegevusi ajastada eriti juhul, kui on vaja sõitusid kombineerida.
 
 <p class="caption" id="figure153"><span class="figure-number">Joonis 1.5.3.</span> Ühistranspordi kättesaadavus Eestis (hinnatuna peatuste läheduse ja väljumiste sageduse kaudu)</p>
 
@@ -89,16 +89,16 @@ print("MAP")
 <span class="imgsource-source">Allikas:</span> Statistikaamet 2018, vt veel, k.a. metoodika, Nõmm, 2018.
 ```
 
-Tihenev autoliiklus vähendab ühistransporti kasutavate reisijate arvu ning see muudab hea teenuse pakkumise hajaasustuses kallimaks ja keerulisemaks. Ühistranspordi kvaliteedi langus ja tiheduse vähenemine soosib omakorda autostumist. Maanteeameti andmetel vähenes aastatel 2003–2016 sõitjate arv maakonnaliinidel peaaegu kaks korda, kusjuures vähenemine oli eriti kiire just perioodil 2003–2009 ([joonis 1.5.4](#figure154)). Need aastad oli kiire jõukuse kasvu periood, mil toimus ka kiire autostumine ja sellega seotud liikumisviiside nihe sõiduautode kasuks. Ühistranspordi kasutajate arvu langus on toimunud vaatamata sellele, et samal ajal ei ole ühissõidukite läbisõit vähenenud. 
+Tihenev autoliiklus vähendab ühistransporti kasutavate reisijate arvu ning see muudab hea teenuse pakkumise hajaasustuses kallimaks ja keerulisemaks. Ühistranspordi kvaliteedi langus ja tiheduse vähenemine soosib omakorda autostumist. Maanteeameti andmetel vähenes aastatel 2003–2016 sõitjate arv maakonnaliinidel peaaegu kaks korda, kusjuures vähenemine oli eriti kiire just perioodil 2003–2009 ([joonis 1.5.4](#figure154)). Need aastad olid kiire jõukuse kasvu periood, mil toimus ka kiire autostumine ja sellega seotud liikumisviiside nihe sõiduautode kasuks. Ühistranspordi kasutajate arvu langus on toimunud vaatamata sellele, et samal ajal ei ole ühissõidukite läbisõit vähenenud.
 
 <p class="caption" id="figure154"><span class="figure-number">Joonis 1.5.4.</span> Reisijate arvu ja läbisõidu muutus maakonnaliinidel Eestis, 2003–2016</p>
 
 ```{r, figure154, out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
-  
+
  fig154_data <- read.csv ("data/15_fig4_data.csv", header=TRUE, fileEncoding="utf-8", sep=";")
- 
+
 
   fig154_plot <- ggplot(data = fig154_data) +
     geom_line(mapping = aes(x=year, y=value, colour=variable, group=variable), size=1) +
@@ -106,14 +106,14 @@ library("tidyverse")
     scale_y_continuous(expand = c(0, 0), limits=c(0,40)) +
     scale_colour_manual(values=c("#482683","#3A404A","#A8ACA6"), labels=c("Läbisõit (mln km)","Sõitjate arv (mln)")) +
     labs(y="", x="aasta") +
-    expand_limits (y=0) 
-  
+    expand_limits (y=0)
+
   fig154_theme <- theme (
-    
+
   )
-  
+
   print(fig154_plot + fig_theme_general)
-  
+
   ggsave(path="exported_figures/PDF/chapter1",filename="fig154.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
 
@@ -132,9 +132,9 @@ Nõudluspõhisel transpordil on potentsiaali pakkuda hajaasustuses paindlikumat 
 ```{block, type='blockquote-right'}
 Tihenev autoliiklus vähendab ühistransporti kasutavate reisijate arvu ning see muudab hea teenuse pakkumise hajaasustuses kallimaks ja keerulisemaks.
 ```
-Eesti suuremates linnaregioonides on viimasel kahel kümnendil toimunud valglinnastumine: uusi elamu-, kaubandus-, teenuste- ja tootmisalasid on rajatud tiheasustusaladest välja, kuid loodud alad ei ole terviklikult planeeritud, mistõttu toimub elanike pendelliikumine keskuse ja linnaäärsete elurajoonide vahel. Elanike arv Tallinna lähiregioonis on viimase 20 aasta jooksul oluliselt kasvanud ([joonis 1.5.5](#figure155)), ent Harjumaa kaugemates omavalitsustes on toimunud mõõdukas langus 10–20%. Statistikaameti 2011. aasta rahvaloenduse pendelrände andmete järgi on Eestis kokku 28 üle 5000 elanikuga keskuslinna ümber koondunud toimepiirkonda. Kui paljud neist keskustest on väikesed, eriti just Lõuna-Eestis, siis üks – Tallinn – avaldab mõju inimeste liikumisele üle Eesti. 
+Eesti suuremates linnaregioonides on viimasel kahel kümnendil toimunud valglinnastumine: uusi elamu-, kaubandus-, teenuste- ja tootmisalasid on rajatud tiheasustusaladest välja, kuid loodud alad ei ole terviklikult planeeritud, mistõttu toimub elanike pendelliikumine keskuse ja linnaäärsete elurajoonide vahel, selleks sageli isiklikku sõiduautot kasutades. Elanike arv Tallinna lähiregioonis on viimase 20 aasta jooksul oluliselt kasvanud ([joonis 1.5.5](#figure155)), ent Harjumaa kaugemates omavalitsustes on toimunud mõõdukas langus 10–20%. Statistikaameti 2011. aasta rahvaloenduse pendelrände andmete järgi on Eestis kokku 28 üle 5000 elanikuga keskuslinna ümber koondunud toimepiirkonda. Kui paljud neist keskustest on väikesed, eriti just Lõuna-Eestis, siis üks – Tallinn – avaldab mõju inimeste liikumisele üle Eesti.
 
-<p class="caption" id="figure155"><span class="figure-number">Joonis 1.5.5.</span> Autode arv leibkonnas Tallinnas (2016) ja Harjumaal (2017) ning elanike arvu juurdekasv Tallinna lähiregioonis viimase 20 aastal jooksul. 1998 a. rahvaarv = 100%</p>
+<p class="caption" id="figure155"><span class="figure-number">Joonis 1.5.5.</span> Autode arv leibkonnas Tallinnas (2016) ja Harjumaal (2017) ning elanike arvu juurdekasv Tallinna lähiregioonis viimase 20 aastal jooksul. 1998 a rahvaarv = 100%</p>
 
 
 ```{r, figure155, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
@@ -142,33 +142,33 @@ Eesti suuremates linnaregioonides on viimasel kahel kümnendil toimunud valglinn
 library("tidyverse")
 library(gridExtra)
 library(grid)
-  
+
   fig155_data1 <- read.csv ("data/15_fig5_data1.csv", header=TRUE, fileEncoding="utf-8")
-  
+
   fig155_data1$number_of_cars <- factor (  fig155_data1$number_of_cars, levels = c("Pole autot", "1 auto", "2 või enam autot"))
-  
+
   fig155_data2 <- read.csv ("data/15_fig5_data2.csv", header=TRUE, fileEncoding="utf-8")
- 
-  
+
+
   fig155_plot1 <- ggplot(data = fig155_data1) +
     geom_bar(mapping = aes(x=area, y=value, fill=area), width=0.7, stat="identity", position = "dodge") +
     scale_fill_manual(values=c("#A8ACA6","#482683", "#917db5")) +
     facet_wrap(~number_of_cars, nrow=1) +
     labs(y="%", x="") +
-    expand_limits (y=0) 
-  
+    expand_limits (y=0)
+
     fig155_plot2 <- ggplot(data = fig155_data2) +
     geom_bar(mapping = aes(x=growth_of_population, y=value, fill=growth_of_population), width=0.7, stat="identity") +
     scale_fill_manual(values=c("#B6A8CD","#917DB5","#6D519C","#482683")) +
     labs(y="%", x="") +
-    expand_limits (y=0) 
-    
+    expand_limits (y=0)
+
     fig155_theme1 <- theme(
           panel.grid.major.x = element_blank() ,
           panel.grid.minor.x = element_blank(),
           legend.position = "none"
     )
-    
+
         fig155_theme2 <- theme(
           panel.grid.major.x = element_blank() ,
           panel.grid.minor.x = element_blank(),
@@ -185,12 +185,12 @@ ggsave(path="exported_figures/PDF/chapter1",filename="fig155b.pdf",fig155_plot2 
 <span class="imgsource-source">Allikas:</span> Kantar Emor 2018; Statistikaamet, 1998; 2018.
 ```
 
-Nagu ka hajaasustatud maapiirkondades, on linnade tagamaadel elu autota keeruline. Harjumaal väljaspool Tallinna on keskmiselt kaheksal perel kümnest isiklik sõiduauto, peaaegu poolel leibkondadest on kaks või enam autot ([joonis 1.5.5](#figure155)). Maanteeameti tellimusel valminud Kantar Emori 2018. aasta Tallinna lähipiirkonna liikumisviiside uuringu alusel saab öelda, et peaaegu kolmest käigust kahel võtab Tallinnast väljas elav harjumaalane kasutusse auto, samal ajal kui Tallinna sees tehakse autoga vaid umbes pool käikudest. TNS Emori 2015. aasta andmetel kasutavad linnakeskuses elavad inimesed autot vähem kui inimesed, kes elavad linna serval. Ühistranspordi kasutuses on trend vastupidine. Tallinnas on ühistranspordi kasutajaid protsentuaalselt rohkem kui Tallinna tagamaal. Erinevused on ka tagamaa sees. Lääne-Harju vallas, mille koosseisu kuulub Keila linn ning kus on hea elektriraudtee ühendus Tallinnaga, teevad elanikud rongiga 16% oma käikudest. Seevastu Saku vallas, mida raudtee küll läbib, on rongiliiklus hõredam ja ühendus Tallinnaga on halvem – rongiga tehakse ainult 1% kõigist pealinna käikudest.
+Nagu ka hajaasustatud maapiirkondades, on linnade tagamaadel elu autota keeruline. Harjumaal väljaspool Tallinna on keskmiselt kaheksal perel kümnest isiklik sõiduauto, peaaegu pooltel leibkondadest on kaks või enam autot ([joonis 1.5.5](#figure155)). Maanteeameti tellimusel valminud Kantar Emori 2018. aasta Tallinna lähipiirkonna liikumisviiside uuringu alusel saab öelda, et peaaegu kolmest käigust kahel võtab Tallinnast väljas elav harjumaalane kasutusse auto, samal ajal kui Tallinna sees tehakse autoga vaid umbes pool käikudest. TNS Emori 2015. aasta andmetel kasutavad linnakeskuses elavad inimesed autot vähem kui inimesed, kes elavad linna serval. Ühistranspordi kasutuses on trend vastupidine. Tallinnas on ühistranspordi kasutajaid protsentuaalselt rohkem kui Tallinna tagamaal. Erinevused on ka tagamaa sees. Lääne-Harju vallas, mille koosseisu kuulub Keila linn ning kus on hea elektriraudtee ühendus Tallinnaga, teevad elanikud rongiga 16% oma käikudest. Seevastu Saku vallas, mida raudtee küll läbib, on rongiliiklus hõredam ja ühendus Tallinnaga on halvem – rongiga tehakse ainult 1% kõigist pealinna käikudest.
 
 ```{block, type='blockquote-left'}
 Alates 1990. aastate lõpust on vähenenud jalgsi või ühistrans- pordiga tööl käimine, samal ajal on kahekordistunud sõiduautoga tööle liikumine.
 ```
-Tööle liikumise trendid viimasel kümnendil näitavad sõiduauto kasutamise populaarsuse kasvu nii Tallinnas kui ka mujal Harjumaal ([joonis 1.5.6](#figure156)). Jalgsi tööle käimise osatähtsus tagamaal on oluliselt vähenenud, sest töökohad on järjest enam paiknenud Tallinna. Tallinnas on jalgsi tööl käijate osatähtsus jäänud samale tasemele. Ühistranspordi kasutamise osatähtsus on Tallinnas langenud 50%-lt 35%-le ning mujal Harjumaal 26%-lt 18%-le. Ka üle Eesti on suundumus sarnane: alates 1990. aastate lõpust on vähenenud jalgsi või ühistranspordiga tööl käimine, samal ajal on kahekordistunud sõiduautoga tööle liikumine ([joonis 1.5.7](#figure157)). 
+Tööle liikumise trendid viimasel kümnendil näitavad sõiduauto kasutamise populaarsuse kasvu nii Tallinnas kui ka mujal Harjumaal ([joonis 1.5.6](#figure156)). Jalgsi tööle käimise osatähtsus tagamaal on oluliselt vähenenud, sest töökohad on järjest enam paiknenud Tallinna. Tallinnas on jalgsi tööl käijate osatähtsus jäänud samale tasemele. Ühistranspordi kasutamise osatähtsus on Tallinnas langenud 50%-lt 35%-le ning mujal Harjumaal 26%-lt 18%-le. Ka üle Eesti on suundumus sarnane: alates 1990. aastate lõpust on vähenenud jalgsi või ühistranspordiga tööl käimine, samal ajal on kahekordistunud sõiduautoga tööle liikumine ([joonis 1.5.7](#figure157)).
 
 
 <p class="caption" id="figure156"><span class="figure-number">Joonis 1.5.6.</span> Tallinna ja muu Harjumaa elanike tööle liikumise viiside osatähtsus aastatel 2000–2017</p>
@@ -198,9 +198,9 @@ Tööle liikumise trendid viimasel kümnendil näitavad sõiduauto kasutamise po
 ```{r, figure156, out.width='95%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
-  
+
  fig156_data <- read.csv ("data/15_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
- 
+
  fig156_data$value=as.numeric(levels(fig156_data$value))[fig156_data$value]
 
   fig156_plot <- ggplot(subset(fig156_data, variable %in% c("Jalgsi", "Sõiduautoga", "Ühissõidukiga"))) +
@@ -211,13 +211,13 @@ library("tidyverse")
     facet_wrap(~area, nrow=1) +
     labs(y="Liikumisviisi osakaal (%)", x="aasta") +
     expand_limits (y=0)
-  
+
   fig156_theme <- theme (
            axis.text.x = element_text(angle=45, margin = margin(t = 0, r = 0, b = 0, l = 0), hjust=1.1),
   )
-  
+
   print(fig156_plot + fig_theme_general + fig156_theme)
-  
+
   ggsave(path="exported_figures/PDF/chapter1",filename="fig156.pdf",fig156_plot + fig156_theme +fig_theme_general, height=90, width=150, units="mm")
 ```
 
@@ -233,23 +233,23 @@ Võime öelda, et autostumine on olnud suundumus üle Eesti. Maanteeameti ([2017
 
 library("tidyverse")
 library("scales")
-  
+
  fig157_data1 <- read.csv ("data/15_fig7_data1.csv", header=TRUE, fileEncoding="utf-8")
- 
+
 fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab kodus, töötab ja ööbib samas kohas","Ühissõidukiga", "Ametiauto, töökoha sõidukiga","Isikliku autoga","Jalgratta, mopeedi, mootorrattaga","Jalgsi"))
-  
+
  fig157_data2 <- read.csv ("data/15_fig7_data2.csv", header=TRUE, fileEncoding="utf-8")
 
   fig157_plot1 <- ggplot() +
     geom_bar(data = fig157_data1, mapping = aes(x=year, y=value, fill=variable), width=0.7, stat="identity") +
     scale_fill_manual(values=c("#DAD4E6","#B6A8CD","#917DB5","#6D519C","#482683","#241342")) +
-      
+
     scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017)) +
     scale_y_continuous(breaks=c(20, 40,60,80,100)) +
     guides(fill=guide_legend(nrow=6,byrow=TRUE)) +
     labs(y="Peamine tööle liikumise viis (%)", x="aasta")
-    
-    
+
+
   fig157_plot2 <- ggplot() +
     geom_line(data = fig157_data2, mapping = aes(x=year, y=value, colour=variable), size=1) +
     scale_colour_manual(values=c("#A8ACA6","#482683")) +
@@ -257,8 +257,8 @@ fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab k
     scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017), expand = c(0, 0), limits=c(1997,2017.5)) +
     scale_y_continuous(breaks=c(5, 10,15,20,25), expand = c(0, 0), limits=c(0,25)) +
     expand_limits (y=0)
-  
-  
+
+
     fig157_theme1 <- theme (
           panel.grid.major.x = element_blank() ,
           panel.grid.minor.x = element_blank(),
@@ -268,12 +268,12 @@ fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab k
   )
     fig157_theme2 <- theme (
   )
-  
+
   grid.arrange(fig157_plot1 + fig_theme_general + fig157_theme1, fig157_plot2 + fig_theme_general + fig157_theme2, ncol = 1)
 
-  
+
   ggsave(path="exported_figures/PDF/chapter1",filename="fig157a.pdf",fig157_plot1  +fig_theme_general + fig157_theme1, height=120, width=210, units="mm")
-  
+
     ggsave(path="exported_figures/PDF/chapter1",filename="fig157b.pdf",fig157_plot2  +fig_theme_general + fig157_theme2, height=100, width=210, units="mm")
 ```
 
@@ -284,7 +284,7 @@ fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab k
 Kõik liikumised ei ole seotud tööle või poodi sõitmisega. Ligi kümnendik kõigist liikumistest sõiduautoga on seotud laste viimisega kooli või lasteaeda. Iga päev tegeleb kellegi sõidutamisega 12% Tallinna tagamaa elanikest, kusjuures suurem roll on selles kuni 34-aastastel naistel ([Kantar Emori 2018](#Kantar2018)). Nii tuleb ka Tallinna linnaregioonis esile mujal maailmas kogetu, et elu linnast väljas tähendab aktiivset autokasutust, laste sõidutamist ja et selle rolli saavad ennekõike emad ([McCarthy jt 2017](#McCarthy2017)).
 
 ```{block, type='blockquote-right'}
-Head ühistranspordiühendused ning kergliiklusvõrgustikud eeslin- nades aitaks luua mitmekülgsete kasutusvõimalustega keskkonda, kus iga tegevuse või teenuse pärast ei peaks sõitma linna.
+Head ühistranspordiühendused ning kergliiklusvõrgustikud eeslinnades aitaks luua mitmekülgsete kasutusvõimalustega keskkonda, kus iga tegevuse või teenuse pärast ei peaks sõitma linna.
 ```
 Kuigi eeslinnade kasvu on üksjagu uuritud, ei ole veel piisavalt räägitud ees- või valglinnastumise mõjul toimuvast avaliku ruumi muutumisest. Osa mõjusid on ootuspärased. Näiteks autost sõltuvates keskkondades elavad pereliikmed, kes ise autot ei juhi – ennekõike alla 18-aastased – sõltuvad oma vanemate soovist, ajast ja võimalustest neid transportida. Samuti vähenevad kokkupuuted ühiskonna eri gruppide vahel. Elu eeslinnades ja liikumine autoga vähendab märkimisväärselt linnaelule omast suhtlemist tänavatel või kohtumisi võõrastega ühistranspordis. Kuigi ka eeslinnade kogukonnad võivad olla ühtehoidvad ja sisemiselt demokraatlikud, moodustavad sellises elukorralduses kogukonna sotsiaalselt ja majanduslikult sarnased inimesed, kohtumisi endast erinevatega on aga vähe. Lisaks on uuringud näidanud, et linnaelanike igapäevaliikumised tekitavad väiksemat keskkonnakoormust kui tagamaa- või maavaldade elanike liikumised ([Poom 2017](#Poom2017)). Aga just keskuslinnad on need, mis saavad enim tunda kasvanud autostumise mõjusid, nagu õhusaate, müra, ummikud ja avaliku ruumi kasutamine parkimisruumina.
 
@@ -292,42 +292,42 @@ Linnaregiooni planeerimisel on oluline ühendada kesklinna liikumiskorraldus ees
 
 ### Linnakeskuste liikuvuse arendamine lähtub autodest {-.chapter1_section}
 
-Valglinnastumine ja sellega seotud autostumine mõjutab linnakeskuste avaliku ruumi kvaliteeti inimestevahelise suhtluse ja kontaktide edendajana. Kui kesklinnast kaovad töökohad ja teenused, ei ole linna äärealadel elavatel elanikel sinna enam põhjust minna. See omakorda tähendab, et linnakeskuse poodidel ja kohvikutel pole enam piisavalt klientuuri. Linnakeskustesse rajatavad uued hooned – väikelinnades enamasti tüüpprojektiga toidupoed ja suuremates linnades kontorihooned – kipuvad olema mahult liiga suured hea avaliku ruumi loomiseks. Avaliku ruumi, sealhulgas tänavaruumi kvaliteet mõjutab oluliselt inimeste valmidust, soovi ja võimalust linnaruumis liikuda ja viibida. Avaliku ruumi kvaliteet ei ole lihtsalt mõõdetav ega numbriliselt hinnatav, kuid autodes ja ummikutes veedetav aeg vähendab paratamatult võimalusi kohtumisteks ja suhtlemiseks tänavaruumis.
+Valglinnastumine ja sellega seotud autostumine mõjutab linnakeskuste avaliku ruumi kvaliteeti inimestevahelise suhtluse ja kontaktide edendajana. Kui kesklinnast kaovad töökohad ja teenused, ei ole linna äärealadel elavatel elanikel sinna enam põhjust minna. See omakorda tähendab, et linnakeskuse poodidel ja kohvikutel pole enam piisavalt klientuuri. Linnakeskustesse rajatavad uued hooned – väikelinnades enamasti tüüpprojektiga toidupoed ja suuremates linnades kontorihooned – kipuvad olema mahult liiga suured hea avaliku ruumi loomiseks. Avaliku ruumi, sealhulgas tänavaruumi kvaliteet mõjutab oluliselt inimeste valmidust, soovi ja võimalust linnaruumis liikuda ja viibida. Avaliku ruumi kvaliteet jalakäijana ei ole lihtsalt mõõdetav ega numbriliselt hinnatav, kuid autodes ja ummikutes veedetav aeg vähendab paratamatult võimalusi kohtumisteks ja suhtlemiseks tänavaruumis.
 
 ```{block, type='blockquote-left'}
-Avaliku ruumi, sealhulgas tänava- ruumi kvaliteet mõjutab oluliselt inimeste valmidust, soovi ja võima- lust linnaruumis liikuda ja viibida.
+Avaliku ruumi, sealhulgas tänavaruumi kvaliteet mõjutab oluliselt inimeste valmidust, soovi ja võimalust linnaruumis liikuda ja viibida.
 ```
-Eesti suuremates linnades on liikuvuse arendamine siiani lähtunud jätkuvast autostumise kasvu prognoosist. Suured Tallinna teeprojektid, nagu Reidi tee, Haabersti ringristmik ja planeeritav Rävala läbimurre, samuti Tartut läbiv riikliku maantee osaks olev Ringtee, illustreerivad poliitilist soovi parandada just autoliikumise kvaliteeti. Nende väga kulukate tee-ehitusprojektide kõrval jäävad vajaliku tähelepanuta võimalused soodustada teisi liikumisviise, mis oleksid võrdselt kasutatavad nii väiksema kui ka suurema sissetulekuga inimestele. Tee-ehituse suurvormid lõhuvad jalakäijale sobivat inimmõõtmelist ruumi ja soodustavad autosõitu seetõttu veelgi. Planeeringutes on reeglina parkimiskohtade arv määratud normide järgi, arvestamata planeeringu asukohta või ühistranspordi lähedust. Meetmed, nagu asustuse planeerimine ühistranspordi lähedusse või jalgrattateede rajamine ja korrastamine, aitaksid soosida mitmekesist valikut liikumisviisidest ning seega vähendada vajadust omada ja kasutada isiklikku autot. Täna räägitakse nii linna, eeslinna- kui ka maapiirkonna tasandil jalgratturitest ja jalakäijatest planeeringutes pigem ohutuse vaatepunktist. Kergliiklustaristu strateegiline eelisarendamine alternatiiviks autoga liiklemisele ei ole üheski omavalituses prioriteetne. 
+Eesti suuremates linnades on liikuvuse arendamine siiani lähtunud jätkuvast autostumise kasvu prognoosist. Suured Tallinna teeprojektid, nagu Reidi tee, Haabersti ringristmik ja planeeritav Rävala läbimurre, samuti Tartut läbiv riikliku maantee osaks olev Ringtee, illustreerivad poliitilist soovi parandada just autoliikumise kvaliteeti. Nende väga kulukate tee-ehitusprojektide kõrval jäävad vajaliku tähelepanuta võimalused soodustada teisi liikumisviise, mis oleksid võrdselt kasutatavad nii väiksema kui ka suurema sissetulekuga inimestele. Tee-ehituse suurvormid lõhuvad jalakäijale sobivat inimmõõtmelist ruumi ja soodustavad autosõitu seetõttu veelgi. Planeeringutes on reeglina parkimiskohtade arv määratud normide järgi, arvestamata planeeringu asukohta või ühistranspordi lähedust. Meetmed, nagu asustuse planeerimine ühistranspordi lähedusse või jalgrattateede rajamine ja korrastamine, aitaksid soosida mitmekesist valikut liikumisviisidest ning seega vähendada vajadust omada ja kasutada isiklikku autot. Täna räägitakse nii linna, eeslinna kui ka maapiirkonna tasandil jalgratturitest ja jalakäijatest planeeringutes pigem ohutuse vaatepunktist. Kergliiklustaristu strateegiline eelisarendamine alternatiiviks autoga liiklemisele ei ole üheski omavalituses prioriteetne.
 
-Autosõiduks mõeldud tänavate kõrval pole loodud piisavalt konkurentsivõimelisi ja atraktiivseid alternatiive jalgsi ja rattaga liikumiseks, kuigi tipptundidel ning alla 3-kilomeetristel distantsidel on jalgratas üks kiiremaid liikumisviise ([joonis 1.5.8](#figure158)). Tallinna linna andmetel (Tallinn arvudes 2018) oli 2017. aasta seisuga 273 km jalg- ja jalgrattateid, millest peaaegu 90% olid jalakäijatega jagatud kergliiklusteed. 
+Autosõiduks mõeldud tänavate kõrval pole loodud piisavalt konkurentsivõimelisi ja atraktiivseid alternatiive jalgsi ja rattaga liikumiseks, kuigi tipptundidel ning alla 3-kilomeetristel distantsidel on jalgratas üks kiiremaid liikumisviise ([joonis 1.5.8](#figure158)). Tallinna linna andmetel (Tallinn arvudes 2018) oli 2017. aasta seisuga 273 km jalg- ja jalgrattateid, millest peaaegu 90% olid jalakäijatega jagatud kergliiklusteed.
 
 <p class="caption" id="figure158"><span class="figure-number">Joonis 1.5.8.</span> Liikumisviiside ajalise konkurentsivõime võrdlus</p>
 
 ```{r, figure158, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
-  
+
  fig158_data <- read.csv ("data/15_fig8_data.csv", header=TRUE, fileEncoding="utf-8", sep = ";")
- 
+
   fig158_line <- data.frame(x=c(0,1,1,1,0,3,3,3),
                 y=c(14,14,14,0,17,17,17,0), line=c(1,1,2,2,3,3,4,4))
 
   fig158_plot <- ggplot() +
     geom_line(fig158_line, mapping = aes(x=x, y=y, group=line), colour="#3A404A",size=0.5, show.legend = NA, linetype = "dashed") +
-    
+
     geom_line(data = fig158_data, mapping = aes(x=distance, y=time, colour=liikumisviis, group=liikumisviis), size=1) +
     scale_x_continuous(breaks=c(0,1,2,3,4,5),expand = c(0, 0), limits=c(0,5.1)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,70)) +
     expand_limits (y=0) +
     scale_colour_manual(values=c("#482683","#3A404A","#A8ACA6")) +
     labs(y="kulunud aeg (min)", x="vahemaa (km)")
-    
-  
+
+
     fig158_theme <- theme (
   )
-  
+
   print(fig158_plot + fig_theme_general + fig158_theme)
-  
+
   ggsave(path="exported_figures/PDF/chapter1",filename="fig158.pdf",fig158_plot  +fig_theme_general + fig158_theme, height=90, width=100, units="mm")
 ```
 
@@ -339,13 +339,13 @@ Jalgrattateede tiheduselt jääb Tallinn naaberriikide pealinnadele (Helsingi, S
 
 Väiksemates linnades on autoliiklus hõredam ning pigem valmistab probleeme kõnniteede ja üldse tänapäevase avaliku ruumi puudumine. Eriti ilmne on see suuremate maanteede poolt läbilõigatud asulates (nt Rõngu, Adavere). Siiski on ka mitmed väiksemad kohad mõistnud inimsõbraliku ruumi ja hea ligipääsetavuse olulisust eriti nooremale elanikkonnale, rajades kergliiklusteid ja rattaparklaid ning arendades keskväljakuid. Olukorras, kus kohalik ühistransport on vähene või puudub täielikult, kuid vahemaad on lühikesed, on neis asulates suur potentsiaal mugavaks kergliikluseks.
 
-### Tulevikutrendid: Tulevikutrendid: erinevate liikumisviiside õigetes mahtudes võimaldamine tagab vähema autokasutuse {-.chapter1_section}
+### Tulevikutrendid: erinevate liikumisviiside õigetes mahtudes võimaldamine tagab vähema autokasutuse {-.chapter1_section}
 
-Mitme Lääne-Euroopa riigi, näiteks Suurbritannia noored on hakanud järjest enam loobuma autode omamisest. Trendi põhjusteks on ametisõitude riikliku subsideerimise vähendamine, isikliku auto omamise kallinemine ja paranenud ühistransport ([Le Vine ja Jones 2012](#Le-Vine2012)). Ka Eestis on aimata muutusi, mis tingivad autokasutuse vähenemist. Näiteks on arendatud mitmeid mobiilseid rakendusi linnaregioonis, näiteks rendi- ja sõidujagamisteenused, mis vähendavad vajadust ülal pidada isiklikku sõiduautot. Lisaks mõjutavad liikumisviiside muutumist kauba või toidu kojuveo teenuste arenemine ning posti teel kaupade tellimine. Sellised trendid muudavad auto mitteomamise lihtsamaks, pakkudes mugavust teiste lahendustega.
+Mitme Lääne-Euroopa riigi, näiteks Suurbritannia noored on hakanud järjest enam loobuma autode omamisest. Trendi põhjusteks on ametisõitude riikliku subsideerimise vähendamine, isikliku auto omamise kallinemine ja paranenud ühistransport ([Le Vine ja Jones 2012](#Le-Vine2012)). Ka Eestis on aimata muutusi, mis tingivad autokasutuse vähenemist. Näiteks on arendatud mitmeid mobiilseid rakendusi linnaregioonis, nagu rendi- ja sõidujagamisteenused, mis vähendavad vajadust ülal pidada isiklikku sõiduautot. Lisaks mõjutavad liikumisviiside muutumist kauba või toidu kojuveo teenuste arenemine ning posti teel kaupade tellimine. Sellised trendid muudavad auto mitteomamise lihtsamaks, pakkudes mugavust teiste lahendustega.
 
 ```{block, type='blockquote-right'}
 Täna räägitakse nii linna, eeslinna-
-kui ka maapiirkonna tasandil jalgrattu- ritest ja jalakäijatest planeeringutes pigem ohutuse vaatepunktist.
+kui ka maapiirkonna tasandil jalgratturitest ja jalakäijatest planeeringutes pigem ohutuse vaatepunktist.
 ```
 Säästva liikuvuse planeerimine eeldab inimkeskset, elukvaliteedile ja ligipääsetavusele suunatud planeerimist. Sellest lähtuvalt valitakse meetmed, mis ühendavad maakasutuse suunamist, autokasutajatele mugavate alternatiivide pakkumist, selleks vajaliku taristu loomist ning teadlikkuse ja hoiakute kujundamist. Eri piirkondades on ka veidi erinevad vajadused ja väljakutsed. Maapiirkondades elavatele peredele tähendab ühiskonnas tavapärastest tegevustest osasaamine praegu pidevat autosõitu. Samal ajal pakuvad tellimusveod ja kogukondlikud sõidujagamisteenused uudseid alternatiive nii isikliku sõiduki omamisele kui ka puudulikule ühistranspordile. Näiteks Saaremaa vallas on kavandamisel juba pilootprojektina nõude- ja sotsiaaltranspordi lahendused, kus inimesed saavad eelnevalt märkida üles liikumise kellaajad ja kuupäevad ning vastavalt sellele koostatakse sõidugraafikud. Lühiajalisi katsetusi selliste mudelitega on tehtud varem ka Lääne-Virumaal ja Setomaal. Ka säästev liikuvuse planeerimine eeldab multimodaalsust: auto jääb osa asjaajamiste puhul vajalikuks, kuid oluline on, et leidub piisavalt võimalusi teha vajalikke käike ka ilma mootorsõidukita. Võimalused peituvad ka uudsetes kasutusmudelites, mis isikliku auto omamise kulu asemel pakuvad kuumaksega pakette, mis ühe või teise liikumisvahendi kasutamist võimaldavad. Sellised liikuvusteenused (ingl Mobility-as-a-Service) on juba leidmas laialdasemat kasutust mitmes riigis, kusjuures Soome on valdkonna üks juhtriike.
 

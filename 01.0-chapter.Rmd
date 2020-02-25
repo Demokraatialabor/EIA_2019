@@ -36,7 +36,7 @@ Autostumine ja hea maanteevõrk on teinud inimesed liikuvamaks, tuues kohad üks
 Autostumine ja hea maanteevõrk on teinud inimesed liikuvamaks, tuues kohad üksteisele tunnetuslikult lähemale. Samas on see ebasoodne suundumus peamiselt ühistranspordist sõltuvatele elanikerühmadele, näiteks eakatele ja noortele.[a]
 
 ```{block, type='blockquote-left'}
-Autostumine ja hea maanteevõrk on teinud inimesed liikuvamaks, tuues kohad üksteisele tunnetuslikult lähe- male. Samas on see ebasoodne suun- dumus peamiselt ühistranspordist sõltuvatele elanikerühmadele, näiteks eakatele ja noortele.
+Autostumine ja hea maanteevõrk on teinud inimesed liikuvamaks, tuues kohad üksteisele tunnetuslikult lähemale. Samas on see ebasoodne suundumus peamiselt ühistranspordist sõltuvatele elanikerühmadele, näiteks eakatele ja noortele.
 ```
 Maapiirkondade kahanemine on üleeuroopaline suundumus ([ESPON 2017](#ESPON2017); [Hörnström ja Perjo 2015](#Hörnström2015); [Leick ja Lang 2018](#Leick2018)). Tegemist on nõiaringiga, mida on keeruline katkestada: töökohtade kadumisel lahkuvad piirkonnast inimesed, siis pole enam kriitilist tarbijate hulka teenustele, kaovad teenustöökohad ja tekib surve eluliselt vajalike teenuste pakkumine lõpetada. Nii on olnud ka Eestis. Nõukogude aja lõpp, põllumajanduse õitsenguaeg, oli maapiirkondade ja ääremaa väikelinnade kuldajastu ([Marksoo 1985](#Marksoo1985)). Pärast seda on ääremaal üles kasvanud noored asunud õppima ja tööle linna ([Leetmaa ja Väiko 2015](#Leetmaa2015)) või väljapoole Eestit ([Tiit 2015, lk 60](#Tiit2015)), kodukohta tagasi tulekuks põhjusi aga napib. Eriti kiiresti on kahanemine ääremaal toimunud Kesk- ja Ida-Euroopa riikides. Kui 2004. aasta laienemisringi eelsetes 15 Euroopa Liidu liikmesriigis kahanes perioodil 2001–2011 rahvastik veidi enam kui 35% maaomavalitsustes, siis uutes Euroopa Liidu riikides oli kahanevate maaomavalitsuste osa keskmiselt 60%, Baltimaades koguni üle 80% ([ESPON 2017, lk 4](#ESPON2017)).
 
@@ -97,7 +97,9 @@ fig101_palette <- c("#482683","#482683","#482683","#482683","#482683","#482683",
   ggsave(path="exported_figures/PDF/chapter1",filename="fig101.pdf", height=140, width=210, units="mm")
 
 ```
+
 *Märkus: Ida-Virumaal on kaasatud kõik suuremad linnad. Kärdla, Rapla, Põlva, Jõhvi puhul on andmed esitatud vallasisese linna kohta.*
+
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Statistikaamet 2000; 2018.
 ```
@@ -155,7 +157,7 @@ Maailma ja Euroopa võrdluses sisaldavad palju looduslikku ka meie linnad. Isegi
 Ehkki Eesti suuremad linnad on maailma võrdluses pigem hõredad ja rohelised, on eeslinnastumine ka meil tavaline. Oluline eeslinnastumist soodustav tegur on Eesti linnade suhteliselt kehvad elamistingimused (Kährik ja Väiko, käesolev kogumik), mistõttu nüüdisaegseid eluasemeid rajatakse ja ostetakse nii linnas kui ka linnapiiri taga. Eeslinnaaladel linnapiiri taga on tagaplaanile jäänud nii ühistransport kui ka avalik ruum. Euroopa linnades on uued eeslinnaarendused valdavalt suunatud ühistranspordi liinide lähedusse. Meil on omanikukesksus olnud omalaadne vaikiv ühiskondlik kokkulepe, see on kandunud ka ruumiplaneerimisse. Meie eeslinna arendamises on seni osalenud koduomanikud ise ja väikearendajad, kellega hea koostöötahte korral on võimalik häid kohalikke ruumilahendusi välja töötada. Paljudes maailma linnades on eluasemeturul suur roll rahvusvahelistel arendajatel ja ka omavalitsuste jaoks partnerina anonüümseks jäävatel finantsinvestoritel ([Bernt jt 2017](#Bernt2017); [Watt ja Minton 2016](#Watt2016)). Selleks globaalseks suundumuseks eluasemeturul peaksid tulevikus valmis olema ka meie linnaplaneerijad.
 
 ```{block, type='blockquote-left'}
-Eeslinnaaladel linnapiiri taga on tagaplaanile jäänud nii ühistrans- port kui ka avalik ruum. Euroopa linnades on uued eeslinnaarendu- sed valdavalt suunatud ühistrans- pordi liinide lähedusse.
+Eeslinnaaladel linnapiiri taga on tagaplaanile jäänud nii ühistransport kui ka avalik ruum. Euroopa linnades on uued eeslinnaarendused valdavalt suunatud ühistranspordi liinide lähedusse.
 ```
 Üleriigilise planeeringu Eesti 2030+ hajalinna ruumimudel on rahvusvahelises võrdluses pigem Eesti oma tee. Enamasti vastandatakse kirjanduses hajaarengut kompaktsele linnale, viimast peetakse ressursisäästlikumaks ([Owen ja Herlin 2009](#Owen2009)). Põhjamaades, kus hajaasustus on samuti tavaline, on tegeldud vastavate teenusmudelitega. Leitakse näiteks, et vananev elanikkond ääremaal vajab kohandatud teenuseid, mis suure eakate osatähtsusega kohtades ei saa jääda üksnes nende omavalitsuste õlule, milles vaid eakad elavadki ([Hörnström ja Perjo 2015](#Hörnström2015)).
 
