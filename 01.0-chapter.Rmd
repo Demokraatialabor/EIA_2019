@@ -9,11 +9,17 @@
 ### Põhisõnumid {-.chapter1_section}
 
 ```{block, type='points'}
-* Säiliva keskustevõrgu kokkuleppimine ja hoidmine võimaldaksid elada üle kogu riigi, ka ääremaal. Kui enamik Eesti keskustest jätkuvalt kahanevad, ei ole tulevikus võimalik elada kõigis Eesti piirkondades. Ääremaastumine ei ohusta ainult maakohti, põhiteenused on kadumas maakonnalinnadest, kahanevad ka regioonikeskused. Ääremaastumist võimendab maapiirkondade ja väikelinnade häbimärgistamine.
+* Säiliva keskustevõrgu kokkuleppimine ja hoidmine võimaldaksid elada üle kogu riigi, ka ääremaal.
 
-* Eesti kaugemad linnad ja regioonid on kahekordses ääremaa positsioonis; sellest aitaks välja tulla seesmiselt ja rahvusvaheliselt hästi ühendatud asustussüsteem. Eesti äärealad asuvad kaugel nii Eesti suurematest linnadest kui ka Euroopa keskustest. Riigi suured rahvusvahelised taristuprojektid on olulised, kuid kasu neist on vaid siis, kui sellest võidab kogu riik. Autopõhisest liikumisest üksi ei piisa, auto teeb ühe osa inimesi liikuvateks, kuid isoleerib teised (nt eakad, noored ja lapsed).
+Kui enamik Eesti keskustest jätkuvalt kahanevad, ei ole tulevikus võimalik elada kõigis Eesti piirkondades. Ääremaastumine ei ohusta ainult maakohti, põhiteenused on kadumas maakonnalinnadest, kahanevad ka regioonikeskused. Ääremaastumist võimendab maapiirkondade ja väikelinnade häbimärgistamine.
 
-* Eeslinnaline ja maaline elulaad vajab (ümber)mõtestamist, praegune planeerimata eeslinnastumine ja ääremaa kahanemine üheülbastab elukeskkonda. Praegune eeslinn lõhub avaliku ruumi linnas ning ignoreerib avaliku ruumi vajadust eeslinnas. Samuti käiakse eeslinnaaladel loodus- ja kultuurmaastikega ümber pillavalt. Kahanevas maakeskkonnas on järjest vähem maaliselt elavaid inimesi, kelle elulaad seostuks otseselt traditsioonilise loodus- ja kultuurmaastiku kujundamisega.
+* Eesti kaugemad linnad ja regioonid on kahekordses ääremaa positsioonis; sellest aitaks välja tulla seesmiselt ja rahvusvaheliselt hästi ühendatud asustussüsteem.
+
+Eesti äärealad asuvad kaugel nii Eesti suurematest linnadest kui ka Euroopa keskustest. Riigi suured rahvusvahelised taristuprojektid on olulised, kuid kasu neist on vaid siis, kui sellest võidab kogu riik. Autopõhisest liikumisest üksi ei piisa, auto teeb ühe osa inimesi liikuvateks, kuid isoleerib teised (nt eakad, noored ja lapsed).
+
+* Eeslinnaline ja maaline elulaad vajab (ümber)mõtestamist, praegune planeerimata eeslinnastumine ja ääremaa kahanemine üheülbastab elukeskkonda.
+
+ Praegune eeslinn lõhub avaliku ruumi linnas ning ignoreerib avaliku ruumi vajadust eeslinnas. Samuti käiakse eeslinnaaladel loodus- ja kultuurmaastikega ümber pillavalt. Kahanevas maakeskkonnas on järjest vähem maaliselt elavaid inimesi, kelle elulaad seostuks otseselt traditsioonilise loodus- ja kultuurmaastiku kujundamisega.
 ```
 
 ### Lähtekohad {-.chapter1_section}
@@ -37,8 +43,6 @@ Maapiirkondade kahanemine on üleeuroopaline suundumus ([ESPON 2017](#ESPON2017)
 Kahanemine ääremaal ei jää ainult kaugete maakohtade mureks, järgmisena haarab see ääremaal asuvad keskused ja terved regioonid ([ESPON 2017, lk 4–5](#ESPON2017)). Ka Eestis on jälgitav asustussüsteemi alumiste astmete järkjärguline tühjenemine. Praegu on Eestis vaid kaks kasvavat linna, Tallinn ja selle satelliitlinn Saue. Kõik maakonna- ja regioonikeskused kaotavad rahvastikku ([joonis 1.0.1](#figure101)).
 
 <p class="caption" id="figure101"><span class="figure-number">Joonis 1.0.1.</span> Elanike arvu muutus Eesti maakonnakeskustes, 2000–2017, rahvaarv 1.jaanuari seisuga 2000 = 100%</p>
-
-*Märkus: Ida-Virumaal on kaasatud kõik suuremad linnad. Kärdla, Rapla, Põlva, Jõhvi puhul on andmed esitatud vallasisese linna kohta.*
 
 ```{r, figure101, fig.align='center', echo=FALSE, message=FALSE}
 
@@ -93,6 +97,7 @@ fig101_palette <- c("#482683","#482683","#482683","#482683","#482683","#482683",
   ggsave(path="exported_figures/PDF/chapter1",filename="fig101.pdf", height=140, width=210, units="mm")
 
 ```
+*Märkus: Ida-Virumaal on kaasatud kõik suuremad linnad. Kärdla, Rapla, Põlva, Jõhvi puhul on andmed esitatud vallasisese linna kohta.*
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Statistikaamet 2000; 2018.
 ```
@@ -118,7 +123,7 @@ Kähriku ja Väiko analüüsist ilmneb, et enamik Eesti inimesi elab ajakohastam
 ```{block, type='blockquote-left'}
 Head elamistingimused, ehk kaasaegsed eluasemed, ei kattu alati elukohaümbruse hea avaliku ruumi, looduskeskkonna ja ligipääsetavusega.
 ```
-Ääremaal elamise puhul on ühendused keskustega elulise tähtsusega. Tauri Tuvikene, Merlin Rehema ja Dago Antov kirjutavad muude teemade hulgas ka hajaasustuse transpordiprobleemidest. Teenused ja töökohad kaovad lähikeskustest, samal ajal ei võimalda liinivõrk ja sõidugraafikud maal ainult ühistranspordist sõltuda ning ääremaa elanike liikuvuses mängib seetõttu suurt rolli auto ([nagu ka hõreda asustusega Põhjamaades – Velaga jt 2012](#Velaga2012)). Elanike arvu kahanemine ja kasvav autokasutus takistavad omakorda regulaarse ühistranspordi käigushoidmist. Piirkonna sõltumine autotranspordist isoleerib inimesi, kes ise autoga ei sõida, näiteks eakaid.
+Ääremaal elamise puhul on ühendused keskustega elulise tähtsusega. Tauri Tuvikene, Merlin Rehema ja Dago Antov kirjutavad muude teemade hulgas ka hajaasustuse transpordiprobleemidest. Teenused ja töökohad kaovad lähikeskustest, samal ajal ei võimalda liinivõrk ja sõidugraafikud maal ainult ühistranspordist sõltuda ning ääremaa elanike liikuvuses mängib seetõttu suurt rolli auto (nagu ka hõreda asustusega Põhjamaades – [Velaga jt 2012](#Velaga2012)). Elanike arvu kahanemine ja kasvav autokasutus takistavad omakorda regulaarse ühistranspordi käigushoidmist. Piirkonna sõltumine autotranspordist isoleerib inimesi, kes ise autoga ei sõida, näiteks eakaid.
 
 Plüscke-Altof ja teised arutlevad, et ääremaastumine on nii objektiivne majanduse ja rahvastiku keskuspiirkondadesse koondumise ja ääremaa kahanemise protsess kui ka subjektiivselt elanike, arvamusliidrite ja otsustajate mõttemallides toimuv protsess. Kui Eesti inimarengu aruanne 2016/2017 rõhutas eesti- ja venekeelse elanikkonna paralleelmaailmu, siis lõhe pealinna ja ääremaa vahel pole väiksem. Plüschke-Altof ja teised selgitavad, et maapiirkonnad on sageli kas laiale üldsusele „nähtamatud“ või on neil „mahajäänud piirkonna“ maine. Negatiivseid lugusid ääremaast loob eliit, kellel endal ei pruugi olla otsest seost ja kogemust nende piirkondadega. Häbimärgistamine hakkab objektiivset ääremaastumist võimendama, mõjutades piirkonda elama asumise ja investeerimise otsuseid ([Miggelbrink ja Meyer 2015](#Miggelbrink2015)).
 
