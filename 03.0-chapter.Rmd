@@ -6,17 +6,16 @@
 **Asko Lõhmus**
 ```
 
+### Põhisõnumid {-.chapter3_section}
+
 ```{block, type='points'}
 * Looduskeskkonna avalik kasutamine edendab demokraatiat keskkonnaõigluse ja jagatud looduskogemuse kaudu.
-
 Seda soodustab Eestis looduses käimise ja looduse tundmise järjepidevust kandev kultuur. Asulates on rohealade planeerimine oluline demokraatiat edendav ja hoidev protsess. Siiski ei ole loodusalade toimimist avaliku ruumina terviklikult planeeritud ega uuritud. Ka keskkonnahüvede ja -riskide õiglase jaotuse põhimõtted vajavad riiklikku arendamist.
 
 * Eesti maakattest moodustavad loodusalad valdava osa ja inimesed saavad tänu igaüheõigusele neid kasutada.
-
 Loodusalade avalikku kasutamist on hakanud kohati pärssima kättesaadavuse ja ligipääsetavuse halvenemine eramaal ning metsamaastike miljööväärtuse vähenemine lageraiete tõttu. 21. sajandi keeruliste keskkonnaprobleemide ees seistes ei tule ühiskonnale kasuks, kui inimeste arusaam loodusest ja oskused seal toime tulla ahenevad loodus- ja matkaradade külastamisel kogetuks.
 
 * Eesti elu- ja ärikeskkonna regionaalne eelis rikka loodusega riigina on küsitav.
-
 Meie ökosüsteemide seisund ei ole kestlik ning loodusest saadavad hüved on vaesumas. Loodusalade planeerimises on vaja pöörata senisest rohkem tähelepanu elukeskkondade tervisemõjudele, inimeste erivajadustele ning looduskeskkonna läbimõeldud kasutamisele õppimise ja sotsiaalsete suhete arendamise eesmärgil.
 ```
 
@@ -29,7 +28,7 @@ Kõigepealt keskkonnaseisund: iga inimese heaolu aluseks on toimivad ökosüstee
 Nende otseselt heaolu puudutavate teemade jätkuna võib näha looduskeskkonna avaliku kasutamise kaudu loodavaid demokraatlikke väärtusi. Näiteks teadvustati juba rohkem kui sajand tagasi avalike parkide rolli linnakodanike ühiste moraalsete ja esteetiliste väärtuste, väärika käitumise ning võrdsel alusel sotsiaalse läbikäimise edendamisel ([Mattson 1998](#Mattson1998)). Tänapäeval võib looduskogemus kujundada ühiskonna sidusust isegi siis, kui loodust kogetakse omapäi ja jagatakse virtuaalses suhtluses. Eestiski organiseeruvad tuhanded inimesed looduspiltnike, loodusandide korjajate ja keskkonnaprobleemide vaagijate ühismeedialehtedel, mille roll demokraatias pole küll ühene, kuid on kahtlemata olemas. Veel vahetumalt kujundab sidusat kultuuriruumi ühistegevus. Viimastel aastakümnetel on meil kiiresti arenenud avalikke hüviseid edendavad talgutööd looduses, mille juured on omakorda külaühiskondade varasemas talgukultuuris. Eestimaa Looduse Fond alustas looduses talgute korraldamist juba 1990. aastate lõpul looduskaitse eesmärgil. Kõige suuremat rahvusvahelist tähelepanu on pälvinud 2008. aastal Eestist alguse saanud prügikoristustalgud, millest on omakorda välja kasvanud maikuu esimesel laupäeval peetav „Teeme ära!“ talgupäev oma elukeskkonna heaks. Näiteks 2018. aastal osales rohkem kui 53 000 inimest ligi 2200 Eesti paigas (www.teemeara.ee).
 
 ```{block, type='blockquote-right'}
-Riiklik vaade peaks seega sisaldama arusaama, millist uut poliitilist kultuuri aitab looduskeskkonna avalik kasutus luua.
+Riiklik vaade peaks sisaldama arusaama, millist uut poliitilist kultuuri aitab looduskeskkonna avalik kasutus luua.
 ```
 Riiklik vaade peaks seega sisaldama arusaama, millist uut poliitilist kultuuri aitab looduskeskkonna avalik kasutus luua. Näiteks areneb jõudsalt biotsentristlike argumentide (looduse iseväärtus ja subjektiõigused) arvestamine valitsemisel, eriti kui neid vahendab põlisrahvaste kultuur ([Espinosa 2017](#Espinosa2017)). Kuuluvustundel, bioloogilisel päritolul ja vahetul looduskogemusel põhinevad keskkonnaeetika argumendid on leidnud oma koha Eesti õigus- ja moraalinormide arutelus ([nt Oja jt 2003](#Oja2003)).
 
@@ -41,55 +40,58 @@ Looduskeskkonda tähistav ruumiline põhimõiste on käesolevas aruandes loodusa
 ```{block, type='blockquote-left'}
 Loodusala – loodusliku või poolloodusliku kooslusega maa- või veeala.
 ```
-Loodusalade kogum maastikul moodustab rohevõrgustiku (planeerimisseaduse § 6 nimetatud „roheliseks võrgustikuks“, mis koosneb tuumikaladest ja rohekoridoridest). Mõiste „roheala“ on planeerimisseaduses vastuoluliselt laiem, hõlmates mis tahes loodusliku või inimtekkelise päritoluga taimkattega ala. Selguse huvides kitsendatakse käesolevas aruandes rohealade mõistet üksnes asulates paiknevatele loodus- ja looduseilmelistele aladele (pargid, haljasalad, kalmistud jt). Viimaste taimestik on sageli kultiveeritud ja koosneb teadlikult valitud võõrliikidest, mis omakorda peegeldab asulavälise ja -sisese looduse erinevat käsitluskultuuri Eestis ([Magnus ja Remm 2018](#Magnus2018)). 
+Loodusalade kogum maastikul moodustab rohevõrgustiku (planeerimisseaduse § 6 nimetatud „roheliseks võrgustikuks“, mis koosneb tuumikaladest ja rohekoridoridest). Mõiste „roheala“ on planeerimisseaduses vastuoluliselt laiem, hõlmates mis tahes loodusliku või inimtekkelise päritoluga taimkattega ala. Selguse huvides kitsendatakse käesolevas aruandes rohealade mõistet üksnes asulates paiknevatele loodus- ja looduseilmelistele aladele (pargid, haljasalad, kalmistud jt). Viimaste taimestik on sageli kultiveeritud ja koosneb teadlikult valitud võõrliikidest, mis omakorda peegeldab asulavälise ja -sisese looduse erinevat käsitluskultuuri Eestis ([Magnus ja Remm 2018](#Magnus2018)).
 
 ### Eesti looduse seisundi koondnäitajad on halvenenud {-.chapter3_section}
 
-Eesti maakattest moodustavad loodusalad valdava osa, sealhulgas metsamaa 51,4% (riigile kuuluv 26,2%), sood 4,6%, põõsastikud 1,5% ja veekogud 5,7% ([Raudsaar jt 2018](#Raudsaar2018)). See üldjaotus on 21. sajandil vähe muutunud, kuid asulate laienemine (riikliku statistika andmebaasi järgi keskmiselt 1000 hektarit aastas perioodil 2002–2017) on üleeuroopalises võrdluses suhteliselt kiire ega vasta Euroopa Liidu pikaajalisele keskkonnaeesmärgile. “Üldisemalt on alarmeeriv tagasiminek riikidevahelises keskkonnaalase tulemuslikkuse indeksis (ingl Environmental Performance Indec, EPI), mis võeti ökosüsteemide suhtelise seisundi mõõdikuks Eesti inimarengu aruandes 2014/2015 ([Terasmaa ja Pajula 2015](#Terasmaa2015)).” Eesti on langenud kümne aastaga maailmas 26. kohalt 48. kohale, sealhulgas ökosüsteemide elujõulisuse puhul 7. kohalt 59. kohale. Viimast kajastab kompleksindeks, mis hõlmab ka kliimamõju- ja õhusaastenäitajaid, aga ka looduskeskkonda eraldi vaadates on Eesti positsioon taandunud elurikkuse ja elupaikade seisundi puhul 17. kohalt 24. kohale ja metsade puhul 124. kohalt 129. kohale ([Wendling jt 2018](#Wendling2018)). Globaalses võrdluses on ökosüsteemide elujõulisus suurem kõrgema inimarengu indeksiga riikides, kuid varieeruvus on suur ([joonis 3.0.1](#figure301)).
+Eesti maakattest moodustavad loodusalad valdava osa, sealhulgas metsamaa 51,4% (riigile kuuluv 26,2%), sood 4,6%, põõsastikud 1,5% ja veekogud 5,7% ([Raudsaar jt 2018](#Raudsaar2018)). See üldjaotus on 21. sajandil vähe muutunud, kuid asulate laienemine (riikliku statistika andmebaasi järgi keskmiselt 1000 hektarit aastas perioodil 2002–2017) on üleeuroopalises võrdluses suhteliselt kiire ega vasta Euroopa Liidu pikaajalisele keskkonnaeesmärgile. “Üldisemalt on alarmeeriv tagasiminek riikidevahelises keskkonnaalase tulemuslikkuse indeksis (ingl Environmental Performance Index, EPI), mis võeti ökosüsteemide suhtelise seisundi mõõdikuks Eesti inimarengu aruandes 2014/2015 ([Terasmaa ja Pajula 2015](#Terasmaa2015)).” Eesti on langenud kümne aastaga maailmas 26. kohalt 48. kohale, sealhulgas ökosüsteemide elujõulisuse puhul 7. kohalt 59. kohale. Viimast kajastab kompleksindeks, mis hõlmab ka kliimamõju- ja õhusaastenäitajaid, aga ka looduskeskkonda eraldi vaadates on Eesti positsioon taandunud elurikkuse ja elupaikade seisundi puhul 17. kohalt 24. kohale ja metsade puhul 124. kohalt 129. kohale ([Wendling jt 2018](#Wendling2018)). Globaalses võrdluses on ökosüsteemide elujõulisus suurem kõrgema inimarengu indeksiga riikides, kuid varieeruvus on suur ([joonis 3.0.1](#figure301)).
 
 ```{block, type='blockquote-right'}
 Eesti tõus inimarengu sotsiaal- setes näitajates on saavutatud ebaproportsionaalselt kõrge ökoloogilise hinnaga.
 ```
 Eesti tõus inimarengu sotsiaalsetes näitajates on saavutatud ebaproportsionaalselt kõrge ökoloogilise hinnaga. [a]
-EPI arvutuskäik on keeruline ja võib sisaldada vigu, kuid eeltoodud trendide põhjused, pööratavus ning üldisemalt loodusalade seisund ja kaasnevad hüved vajavad Eestis riiklikku tähelepanu. Riikidevahelises võrdluses on Eesti Põhjamaade ja Balti riikide seas praegu viimane ja teinud 21. sajandil läbi kõige suurema languse ([Wendling jt 2018](#Wendling2018)). Seega pole meil regioonis „puhta loodusega“ riigi konkurentsieelist ning paistab koguni, et hiljutine tõus inimarengu sotsiaalsetes näitajates on saavutatud ebaproportsionaalselt kõrge ökoloogilise hinnaga (joonis 3.0.1). Viimasega haakub riigi mahajäämus ökoinnovatsioonis, mida näitab Euroopa Komisjoni keskkonna peadirektoraadi koostatav ökoinnovatsiooni indeks. Samal ajal püsib Eestis suur keskkonnaturvalisus – inimestel on ebatõenäoline kaotada juurdepääs puhtale õhule, veele ja energiaallikatele või hukkuda looduskatastroofis ([Moghim ja Garna 2019](#Moghim2019)). 
+EPI arvutuskäik on keeruline ja võib sisaldada vigu, kuid eeltoodud trendide põhjused, pööratavus ning üldisemalt loodusalade seisund ja kaasnevad hüved vajavad Eestis riiklikku tähelepanu. Riikidevahelises võrdluses on Eesti Põhjamaade ja Balti riikide seas praegu viimane ja teinud 21. sajandil läbi kõige suurema languse ([Wendling jt 2018](#Wendling2018)). Seega pole meil regioonis „puhta loodusega“ riigi konkurentsieelist ning paistab koguni, et hiljutine tõus inimarengu sotsiaalsetes näitajates on saavutatud ebaproportsionaalselt kõrge ökoloogilise hinnaga (joonis 3.0.1). Viimasega haakub riigi mahajäämus ökoinnovatsioonis, mida näitab Euroopa Komisjoni keskkonna peadirektoraadi koostatav ökoinnovatsiooni indeks. Samal ajal püsib Eestis suur keskkonnaturvalisus – inimestel on ebatõenäoline kaotada juurdepääs puhtale õhule, veele ja energiaallikatele või hukkuda looduskatastroofis ([Moghim ja Garna 2019](#Moghim2019)).
 
 <p class="caption" id="figure301"><span class="figure-number">Joonis 3.0.1.</span> Inimarengu indeksi ja ökosüsteemide elujõulisuse indeksi seos 179 riigi põhjal ning Eesti positsiooni (rohelised punktid, aastad) muutus 2005–2014(%)</p>
 
 ```{r, figure301, out.width='80%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
-  
+
  fig301_data <- read.csv ("data/30_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
- 
+
  fig301_data_est <- subset (fig301_data, country_name == "Estonia", select=c(iso3,country_name,hdi_2014, hdi_2017, country,epi_current, eco_current))
- 
+
   fig301_horisontal_line <- data.frame(hdi=c(0.825, 0.864),
                 eco=c(65.5, 65.5))
 
   fig301_plot <- ggplot() +
     geom_point(data = fig301_data, mapping = aes(x=hdi_2014, y=eco_current), colour="#C8C6BF", size=1.7, show.legend = NA) +
-    
+
     geom_smooth(data = fig301_data, mapping = aes(x=hdi_2014, y=eco_current),method=lm, se=FALSE, colour="#3A404A") +
-    
+
     geom_point(data = fig301_data_est, mapping = aes(x=hdi_2014, y=eco_current), colour="#79AC2C",size=2, show.legend = NA) +
     geom_text(data = fig301_data_est, mapping = aes(x=hdi_2014, y=eco_current, label="2014"),hjust=1, vjust=1.7, colour="#79AC2C")+
-    
+
     geom_point(data = fig301_data_est, mapping = aes(x=0.825, y=72.22), colour="#79AC2C",size=2, show.legend = NA) +
     geom_text(data = fig301_data_est, mapping = aes(x=0.8, y=75, label="2005"), colour="#79AC2C") +
-  
+
     geom_line(fig301_horisontal_line, mapping = aes(x=hdi, y=eco), colour="#79AC2C",size=1, show.legend = NA) +
-    
+
     scale_x_continuous(breaks=c(0.2,0.3,0.4, 0.5, 0.6,0.7,0.8,0.9,1)) +
-    labs(y="Ökosüsteemide elujõulisus (ECO)", x="Inimarengu indeks (HDI)") 
-  
+    labs(y="Ökosüsteemide elujõulisus (ECO)", x="Inimarengu indeks (HDI)")
+
   print(fig301_plot + fig_theme_general)
-  
+
   ggsave(path="exported_figures/PDF/chapter3",filename="fig301.pdf", height=140, width=200, units="mm")
 
 ```
 
+*Märkus:
+Seos põhineb inimarengu indeksi (HDI) puhul ÜRO arenguprogrammi (http://hdr.undp.org/en/data) ja ECO puhul Wendling jt (2018) andmetel. ECO puhul on kompleksindeksi osakaaludest arvutatud kesk- mine lähteaasta (2005; algandmed 2001–2007) ja lõpuaasta (2014; algandmed 2010–2017), viimasega ongi seosta- tud HDI (2014). Rõhtjoon tähistab ECO taset Eesti 2014. aasta inimarengu aruandes ([Terasmaa ja Pajula 2015](#Terasmaa2015)), mida ei ole tagasiulatuvalt korrigeeritud ja mille seisundiaasta oli täpsustamata.*
+
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> autori joonis. Seos põhineb inimarengu indeksi (HDI) puhul ÜRO arenguprogrammi (http://hdr.undp.org/en/data) ja ECO puhul Wendling jt (2018) andmetel. ECO puhul on kompleksindeksi osakaaludest arvutatud kesk- mine lähteaasta (2005; algandmed 2001–2007) ja lõpuaasta (2014; algandmed 2010–2017), viimasega ongi seosta- tud HDI (2014). Rõhtjoon tähistab ECO taset Eesti 2014. aasta inimarengu aruandes ([Terasmaa ja Pajula 2015](#Terasmaa2015)), mida ei ole tagasiulatuvalt korrigeeritud ja mille seisundiaasta oli täpsustamata.
+<span class="imgsource-source">Allikas:</span> autori joonis.
 ```
 
 ### Eesti looduse seisundi koondnäitajad on halvenenud {-.chapter3_section}
@@ -113,31 +115,31 @@ Eesti loodusalasid ja nende külastusvõimalusi koos käsitledes selgub, et kuig
 
 library("tidyverse")
 library("reshape")
-  
+
 fig302_data <- read.csv ("data/30_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
 fig302_data_clean <- subset(fig302_data, select=c(county,country_stands,country_without_forest,other_forest_land.1))
-  
+
 fig302_data_melt <- melt (fig302_data_clean, id=c("county"))
 fig302_data_melt$variable <- factor(fig302_data_melt$variable, levels = c("other_forest_land.1","country_without_forest","country_stands"))
- 
+
 fig302_plot <- ggplot() +
-  
+
     geom_bar(data = fig302_data_melt, mapping = aes(x=county, y=value*100, fill=variable), width=0.6, stat="identity") +
     scale_fill_manual(labels = c("Muu metsamaa", "Riik: metsata", "Riik: puistud"), values=c("#A8ACA6","#5B8121","#79AC2C")) +
     labs(y="% pindalast", x="") +
     scale_y_continuous(expand = c(0, 0), limits=c(0,100)) +
-    expand_limits (y=0) 
+    expand_limits (y=0)
 
-  
+
 fig302_theme <- theme(
                     panel.grid.major.x = element_blank() ,
                     panel.grid.minor.x = element_blank(),
                     axis.line = element_line(size = 0.2, colour = "#cccccc"),
                     axis.text.x = element_text(angle=45, margin = margin(t = 0, r = 0, b = 0, l = 0), hjust=1.1),
                  )
-  
+
   print(fig302_plot + fig302_theme + fig_theme_general)
-  
+
   ggsave(path="exported_figures/PDF/chapter3",filename="fig302.pdf", height=140, width=210, units="mm")
 
 ```
@@ -153,7 +155,7 @@ Loodusalade avaliku kasutamise seos demokraatiaga on kõige ilmsem inimese koduk
 ```{block, type='blockquote-right'}
 Harjumus igal aastal loodusalasid külastada toob inimeste parema tervise ja ärahoitud tervishoiukulude kaudu ühiskonnale suurt kasu.
 ```
-Eesti rohealadele on seni pööratud tähelepanu peamiselt üldistatult kogu linna või linnaosa tasemel (Sepp ja Lõhmus; Orru jt, käesolev kogumik). Ilmneb, et näiteks Euroopa Liidu suuremate linnade elanike küsitluses on Tallinn keskkonnanäitajate (õhukvaliteet, müratase, rohealad) osas keskmik, kõrgemalt hindavad elanikud linna heakorda. Samal ajal seostub rohealade üldine kättesaadavus palju väiksemal määral linnaelanike üldise sooviga konkreetses linnas elada kui näiteks turvalisus või elukoht ([Eurobarometer 2016](#Eurobarometer2016)). Seega on elanike eripära ja soovide arvestamine ning keskkonnaseisundi parandamine linna rohealade planeerimisel keeruline protsess kohaliku võimu ja kogukonna koostöös. 
+Eesti rohealadele on seni pööratud tähelepanu peamiselt üldistatult kogu linna või linnaosa tasemel (Sepp ja Lõhmus; Orru jt, käesolev kogumik). Ilmneb, et näiteks Euroopa Liidu suuremate linnade elanike küsitluses on Tallinn keskkonnanäitajate (õhukvaliteet, müratase, rohealad) osas keskmik, kõrgemalt hindavad elanikud linna heakorda. Samal ajal seostub rohealade üldine kättesaadavus palju väiksemal määral linnaelanike üldise sooviga konkreetses linnas elada kui näiteks turvalisus või elukoht ([Eurobarometer 2016](#Eurobarometer2016)). Seega on elanike eripära ja soovide arvestamine ning keskkonnaseisundi parandamine linna rohealade planeerimisel keeruline protsess kohaliku võimu ja kogukonna koostöös.
 Eesti rohealade planeerimises on nõrk tervist (Orru jt, käesolev kogumik) ja erivajadusi arvestav ning kodu- ja tööpaika ühendav funktsioon, samuti seos riiklike poliitikadokumentidega. Näiteks puuduvad looduskeskkonna aspektid Eesti vaimse tervise strateegiast (2016), ehkki on teada, et looduses viibimine maandab tõhusalt psüühika- ja käitumishäirete olulisi riskitegureid, nagu stress ja vaimne kurnatus ([ten Brink jt 2016](#ten2016)). Linnaplaneerimise senine praktika viib pigem ikka rohealade vähendamiseni; rohealade vähesuse puhul on omakorda läbi mõtlemata võimalused, kuidas inimesi sinna suunata. Näiteks koolide ja lasteaedade võimalused tagada õuesõpet on kohapeal mõistetavalt piiratud, kuid rohekoridoride kaudu saaks eri kohti funktsionaalselt ühendada.
 
 Eraldi tähelepanu nõuab looduses niisuguste teadmiste omandamine, mille käigus kujundatakse oskusi maastikul liikuda, loodussaadusi leida ja kasutada. Mõni neist pärimusliku taustaga oskustest, näiteks ravimtaimede tundmine, on Eestis hääbumas, teised (nt marjul ja seenel käimine) edenevad tänapäeval uues suunas (Sepp ja Lõhmus, käesolev kogumik). Neist oskustest võiksid riiklikku planeerimist vajada näiteks tsiviilkaitseoskused tulla toime katastroofitingimustes, sealhulgas juhendada looduses teisi. Inimesed, kes tunnevad hästi teatud piirkondi ja seal regulaarselt käivad, on ühtlasi võimalikud infoallikad nende alade kohta. “Riik saab seda kasutada oma territooriumi keskkonnaseisundi kulutõhusaks jälgimiseks kodanikuteaduse (ingl citizen science) vormis, mille korraldus, tehnoloogilised lahendused ja analüüsimeetodid pakuvad suurt huvi kogu maailmas.” Paljudel inimestel on säilinud seos maakohtadega, kus elasid nende vanemad või vanavanemad, teised avastavad uute maakodude ümbrust omal käel. Linnainimestel jäävad aga praktilised loodusoskused kergesti unarusse.
@@ -215,7 +217,7 @@ Lähikümnendite üldpõhimõte Eesti looduse avaliku kasutamise juhtimisel või
 
 <p id="ten2016">ten Brink, P., Mutafoglu, K., Schweitzer, J.-P., Kettunen, M., Twigger-Ross, C., Baker, J., Kuipers, Y., Emonts, M., Tyrväinen, L., Hujala, T., Ojala, A. 2016. The health and social benefits of nature and biodiversity protection. A report for the European Commission (ENV.B.3/ETU/2014/0039). London/Brussels: Institute for European Environmental Policy.</p>
 
-<p id="Terasmaa2015">Terasmaa, J., Pajula, R. 2015. Ökosüsteemiteenused ja tasakaalu hoidmiseks vajalikud looduslikud alad. – Vetik, R. (toim.). Eesti inimarengu aruanne 2014/2015. Lõksudest välja?. Tallinn: Eesti Koostöö Kogu,137–146.</p>
+<p id="Terasmaa2015">Terasmaa, J., Pajula, R. 2015. Ökosüsteemiteenused ja tasakaalu hoidmiseks vajalikud looduslikud alad. – Vetik, R. (toim.). Eesti inimarengu aruanne 2014/2015. Lõksudest välja? Tallinn: Eesti Koostöö Kogu,137–146.</p>
 
 <p id="Turu-uuringute2018">Turu-uuringute AS 2018. Eesti elanike keskkonnateadlikkuse uuring.</p>
 

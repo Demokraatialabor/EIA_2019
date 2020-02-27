@@ -5,7 +5,7 @@
 ```
 
 ```{block, type='points'}
-* Eesti looduses käivad igaüheõiguse alusel aktiivselt ja eri eesmärkidel nii siinsed elanikud kui ka välisturistid, kuid arendada tuleb noorte võimalusi looduses viibida, terviklike turismiklastrite loomist ja turundamist. 
+* Eesti looduses käivad igaüheõiguse alusel aktiivselt ja eri eesmärkidel nii siinsed elanikud kui ka välisturistid, kuid arendada tuleb noorte võimalusi looduses viibida, terviklike turismiklastrite loomist ja turundamist.
 ```
 
 Enamik inimesi töötab tänapäeval tehiskeskkonnas ning töist viibimist looduses asendab üha rohkem ja mitmekesisemalt sihipärane puhkamine. Looduses viibimise viisid olenevad paljudest asjaoludest, nagu vanus ja tervis, tööst vaba ja lastega veedetav aeg, maastike muutused ja juurdepääs loodusaladele. Neid asjaolusid peab arvestama loodusalade ja asjakohase ettevõtluse planeerimisel.
@@ -32,7 +32,7 @@ Aastal 1910 loodi Vilsandi saare majakavahi Artur Toomi eestvedamisel Vaika linn
 
 Aastal 1927 avati saarel muuseum. Kümme aastat hiljem valmis tuletorni juurde ehitatud 24-kohaline köögi ja muude abiruumidega turistide kodu. Turistide arv nii Eestist kui ka välismaalt jõudis vahetult enne Teist maailmasõda Vilsandil 3000–5000 külastajani aastas.
 
-Loodushoiu ja turismi ühisele arengule aitas kaasa 1938. aastal loodud Loodushoiu- ja Turismi-instituut Sotsiaalministeeriumi haldusalas. Asutusele seati ülesanded korraldada looduskaitset ja järelevalvet avalike parkide üle, valitseda riigiparke, toetada suvituskohtade väljaarendamist, suunata sise- ja välisturismi. 
+Loodushoiu ja turismi ühisele arengule aitas kaasa 1938. aastal loodud Loodushoiu- ja Turismi-instituut Sotsiaalministeeriumi haldusalas. Asutusele seati ülesanded korraldada looduskaitset ja järelevalvet avalike parkide üle, valitseda riigiparke, toetada suvituskohtade väljaarendamist, suunata sise- ja välisturismi.
 
 <p class="caption" id="figure311"><span class="figure-number">Joonis 3.1.1.</span> Vilsandi ümbruskonnas on alati käinud palju turiste. Aastal 1939 oli neid vedava paadi roolis kaitseala eestvedaja Artur Toom</p>
 
@@ -40,19 +40,19 @@ Loodushoiu ja turismi ühisele arengule aitas kaasa 1938. aastal loodud Loodusho
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Saaremaa muuseum.
 ```
- 
+
 ### Eesti loodus- ja matkarajad pakuvad häid puhkevõimalusi {-.chapter3_section}
 
 Loodus- ja matkaradade eesmärk on võimaldada puhkamist ja loodusega omal käel tutvumist selleks ettevalmistatud kohtades. Osana kaitsealade haldamisest reguleeritakse ühtlasi niimoodi loodusele avalduvat külastuskoormust (häirimist, tallamist, prahistamist). Hästi valitud ja korrapäraselt hooldatavad liikumisteed, ööbimis- ja lõkkekohad ning prügikastid võimaldavad looduspuhkust ka tundlikel aladel, lastele, vanuritele ja erivajadustega inimestele. Esmase taristu rajamine loob majutus-, toitlustus- ja teisi külastusteenuseid pakkuvatele kohalikele kogukondadele tuluvõimalusi, mis mujal maailmas tehtud uuringute kohaselt ületavad investeeringuid pikas perspektiivis vähemalt kümnekordselt.
 Looduse õpperadade planeerimise esmaideed ulatuvad Eestis 1930. aastatesse, kuid tegudeni jõuti alles tänu Tartu üliõpilaste looduskaitseringi ja Jaan Eilarti tegevusele. Tartu Ülikooli geograafiadiplomand Kai Kaare kavandas õpperaja Tilleorus (1962) ja Jaan Eilart Neerutis (1964). Esimene rahvusvahelistele nõuetele vastav matkarada avati Keila-Joal 1996. aastal.
 
-Praegu korraldab ja jälgib riigimaal loodus- ja matkaradade kasutamist Riigimetsa Majandamise Keskus (RMK). Aastaks 2017 oli külastustaristuna rajatud 309 kattega lõkkekohta, 223 looduses liikumise rada (kokku 2562 km), 214 matkarada, 59 telkimisala (kokku 425 telkimisvõimalusega objekti), 27 vabalt kasutatavat metsaonni, 20 tasulist ööbimist võimaldavat metsamaja ja kolm maastikusõiduala. Külastuskorraldusega seotud tegevusteks kulutas RMK 2017. aastal kokku 5,3 miljonit eurot (sellest 0,7 miljonit puhkemajandusega teenitud tulust ja Euroopa Liidu sihtfinantseerimisest). RMK veebileht võimaldab külastusvõimalusi eri moel kuvada, sealhulgas näidata eraldi näiteks liikumispuuetega inimestele ligipääsetavaid objekte. Viimaste hulgas on peale lõkke ja telkimiskohtade üle 20 õppe- ja matkaraja. Siiski on leitud, et loodusturismi piirab Eestis spetsiifilise taristu amortiseerumine (nt 2017. aastal üle poole linnuvaatlustornidest; [Jõks 2017](#Jõks2017)) või turismiklastritega ebapiisavalt seostatud info loodusobjektide kohta.
+Praegu korraldab ja jälgib riigimaal loodus- ja matkaradade kasutamist Riigimetsa Majandamise Keskus (RMK). Aastaks 2017 oli külastustaristuna rajatud 309 kattega lõkkekohta, 223 looduses liikumise rada (kokku 2562 km), 214 matkarada, 59 telkimisala (kokku 425 telkimisvõimalusega objekti), 27 vabalt kasutatavat metsaonni, 20 tasulist ööbimist võimaldavat metsamaja ja kolm maastikusõiduala. Külastuskorraldusega seotud tegevusteks kulutas RMK 2017. aastal kokku 5,3 miljonit eurot (sellest 0,7 miljonit puhkemajandusega teenitud tulust ja Euroopa Liidu sihtfinantseerimisest). RMK veebileht võimaldab külastusvõimalusi eri moel kuvada, sealhulgas näidata eraldi näiteks liikumispuuetega inimestele ligipääsetavaid objekte. Viimaste hulgas on peale lõkke- ja telkimiskohtade üle 20 õppe- ja matkaraja. Siiski on leitud, et loodusturismi piirab Eestis spetsiifilise taristu amortiseerumine (nt 2017. aastal üle poole linnuvaatlustornidest; [Jõks 2017](#Jõks2017)) või turismiklastritega ebapiisavalt seostatud info loodusobjektide kohta.
 
 ```{block, type='blockquote-left'}
 Eesti keskkonnavaldkondadest oldi 2018. aastal kõige rohkem rahul just loodus- ja matkaradadega.
 ```
 Eesti täiskasvanud elanikkonnast 55% oli 2018. aasta küsitluse kohaselt 12 kuu jooksul külastanud loodus- või matkaradu, sealhulgas 31% vastanutest korduvalt ([Turu-uuringute AS 2018](#Turu-uuringute2018)). Võrreldes 2014. aastaga oli külastajaid 9% võrra ja korduskülastajaid 8% võrra rohkem. Seejuures oldi keskkonnavaldkondadest kõige rohkem rahul just loodus- ja matkaradadega (86% vastajaist pidas olukorda heaks). Sama küsitluse kohaselt on üldse looduses korduvalt käinute hulk siiski palju suurem (73% vastanuist; üldse looduses käinuid 83%). Järelikult on enamiku Eesti inimeste jaoks ettevalmistatud rajad endiselt ainult üks looduses käimise võimalustest.
- 
+
 ### Kaitsealade külastajaskond suureneb ja mitmekesistub {-.chapter3_section}
 
 Kõigil RMK majandatavatel ja külastustaristuga varustatud puhke- ja kaitsealadel ning rahvusparkides jälgitakse külastusmahtu, kasutades kohapeal kalibreeritud loendureid. Lisaks teeb RMK iga viie aasta tagant küsitluspõhiselt külastajaprofiili uuringuid. Loendurid näitavad, et külastuste hulk on kümne jälgimisaasta jooksul suurenenud, ulatudes 2017. aastal 2,4 miljoni külastuseni ([RMK 2018](#RMK2018)). See ületab kehtiva looduskaitse arengukavaga aastaks 2020 planeeritud saavutustaset ning on kõrge ka rahvusvahelises võrdluses ([Bell jt 2007](#Bell2007)). Kõige rohkem käiakse Tallinna ümbruse puhkealal, Nõva puhkealal ja Lahemaa rahvuspargis. Seejuures olid varasematel aastatel külastuste sihiks pigem telkimisalad ja lõkkekohad, kuid viimastel aastatel on märgatavalt suurenenud loodus- ja matkaradade külastatavus. Vastavalt suureneb külastuste arv ka enamikus rahvusparkides ([joonis 3.1.2](#figure132)).
@@ -61,7 +61,7 @@ RMK viimased külastajauuringud näitavad, et nii 2010. kui ka 2015. aastal käi
 
 ### Linnades on palju rohealasid, kuid nende kvaliteet vajab tähelepanu {-.chapter3_section}
 
-2017. aasta analüüsi põhjal oli Eestis „väga hea ligipääs“ (kuni 200 m) avalikule rohealale 790 900 inimesel ehk ligikaudu 90%-l tiheasustusaladel elavatest inimestest, mis on võrreldav Rootsi vastava näitajaga (92%; [Oras jt 2018](#Oras2018)). Rohealade kvaliteeti käsitles põgusalt 2009. aasta inimarengu aruanne, kus toodi mõõdikuna välja elanike rahulolu ning probleemina rohealade killustumine suuremates linnades ja hävimine valglinnastumise tagajärjel linnade ümber ([Peterson 2010](#Peterson2010)). Tallinnas näitab 2009. aasta andmete võrdlus 2017. aasta linnavalitsuse tellitud rahuloluküsitlusega elanike stabiilset (u 80%) rahulolu parkide ja haljasalade piisavuse ja seisukorraga. Sarnane üldhinnang saadi Tartus, kus sedastati isegi rahulolu kasvu aastatel 2006–2016. Tartu andmete täpsem analüüs tõi aga välja, et oma elukoha ümbruses pidas parkide ja haljasalade piisavust ja seisundit väga suureks probleemiks 7% ja (teatavaks) probleemiks veel 30% linnaelanikest (eeskätt annelinlased; elanikegruppidest sagedamini eestlased ja naised). Selline lokaalse probleemina tajumine ei olnud 10 aastaga vähenenud. Ka Tallinnas on lähikonna rohealadega just piirkondlikku rahulolematust näiteks kesklinnas, Kristiines ja Lasnamäel ([Tuhkanen jt 2018](#Tuhkanen2018)). Siit nähtub, et rahulolu kogu linna tasemel ei ole Eestis rohealade hindamiseks piisav mõõdik. 
+2017. aasta analüüsi põhjal oli Eestis „väga hea ligipääs“ (kuni 200 m) avalikule rohealale 790 900 inimesel ehk ligikaudu 90%-l tiheasustusaladel elavatest inimestest. See on võrreldav Rootsi vastava näitajaga (92%; [Oras jt 2018](#Oras2018)). Rohealade kvaliteeti käsitles põgusalt 2009. aasta inimarengu aruanne, kus toodi mõõdikuna välja elanike rahulolu ning probleemina rohealade killustumine suuremates linnades ja hävimine valglinnastumise tagajärjel linnade ümber ([Peterson 2010](#Peterson2010)). Tallinnas näitab 2009. aasta andmete võrdlus 2017. aasta linnavalitsuse tellitud rahuloluküsitlusega elanike stabiilset (u 80%) rahulolu parkide ja haljasalade piisavuse ja seisukorraga. Sarnane üldhinnang saadi Tartus, kus sedastati isegi rahulolu kasvu aastatel 2006–2016. Tartu andmete täpsem analüüs tõi aga välja, et oma elukoha ümbruses pidas parkide ja haljasalade piisavust ja seisundit väga suureks probleemiks 7% ja (teatavaks) probleemiks veel 30% linnaelanikest (eeskätt annelinlased; elanikegruppidest sagedamini eestlased ja naised). Selline lokaalse probleemina tajumine ei olnud 10 aastaga vähenenud. Ka Tallinnas on lähikonna rohealadega just piirkondlikku rahulolematust, näiteks kesklinnas, Kristiines ja Lasnamäel ([Tuhkanen jt 2018](#Tuhkanen2018)). Siit nähtub, et rahulolu kogu linna tasemel ei ole Eestis rohealade hindamiseks piisav mõõdik.
 
 <p class="caption" id="figure312"><span class="figure-number">Joonis 3.1.2.</span> Riigimetsa Majandamise Keskuse hallatavate loodusobjektide külastus- kordade koguarv ning rahvusparkide külastuskordade arv loenduritel põhineva seire andmetel, 2010–2017</p>
 
@@ -71,24 +71,24 @@ RMK viimased külastajauuringud näitavad, et nii 2010. kui ka 2015. aastal käi
 
 library("tidyverse")
 library("reshape")
-  
+
 fig312_data1 <- read.csv ("data/31_fig2_data1.csv", header=TRUE, fileEncoding="utf-8", check.names=FALSE)
 fig312_data2 <- read.csv ("data/31_fig2_data2.csv", header=TRUE, fileEncoding="utf-8", check.names=FALSE, sep=";")
- 
+
 fig312_data2 <- melt (fig312_data2, id=c("park"))
 names(fig312_data2) <- c("park","year","visitors")
- 
+
 fig312_data2$park <- factor(fig312_data2$park, levels = c("Lahemaa rahvuspark","Soomaa rahvuspark","Matsalu rahvuspark","Karula rahvuspark","Vilsandi rahvuspark"))
 
 fig312_data2$year <- factor(fig312_data2$year, levels = c("2017","2016","2015","2014","2013","2012","2011","2010"))
 
 fig312_plot2_labels <- c("Lahemaa\nrahvuspark","Soomaa\nrahvuspark", "Matsalu\nrahvuspark", "Karula\nrahvuspark","Vilsandi\nrahvuspark")
- 
-  
+
+
   fig312_plot1 <- ggplot(data = fig312_data1) +
     geom_bar(mapping = aes(x=year, y=visitors),fill="#79AC2C", width=0.7, stat="identity", position="dodge") +
     labs(y="külastuskordade arv (mln)", x="aasta")
-  
+
   fig312_plot2 <- ggplot(data = fig312_data2) +
     geom_bar(mapping = aes(x=park, y=visitors, fill=year), width=0.7, stat="identity", position="dodge") +
     scale_fill_manual(values=c("#2E4111","#3D5616","#5B8121","#79AC2C","#94BD56","#AFCD80","#C9DEAB","#E4EED5")) +
@@ -100,7 +100,7 @@ fig312_plot2_labels <- c("Lahemaa\nrahvuspark","Soomaa\nrahvuspark", "Matsalu\nr
       panel.grid.major.x = element_blank() ,
       panel.grid.minor.x = element_blank(),
                  )
- 
+
 print(fig312_plot1 + fig_theme_general + fig312_theme)
 print(fig312_plot2 + fig_theme_general + fig312_theme)
 
@@ -120,22 +120,22 @@ Mõne elanikegrupi jaoks, nagu noorukid ja vanurid, on linna rohealad üldse pea
 Linna rohealade kasutus on Eestis hooajaline – suvel sagedasem kui talvel. Seejuures on mõne elanikegrupi jaoks, nagu noorukid ja vanurid, linna rohealad üldse peamine looduse kogemise koht ([joonis 3.1.3](#figure313)). Tallinna elanikud peavad veebiküsitluse andmetel ([Tuhkanen jt 2018](#Tuhkanen2018)) peamisteks rohealade väärtusteks puhkeväärtust, elu säilitavat väärtust, teraapilist ja esteetilist väärtust. Kohalike haljasalade kasutamise peamisteks ajenditeks olid teiste inimestega või lemmikloomadega aja veetmine ning oma füüsilise vormi parandamine, millele vastavad oma elukoha lähedusse soovitud rohealade tüübid ([joonis 3.1.4](#figure314)). Rohealade ökosüsteemiteenustest tähtsustati aga kõige rohkem võimalust hingata värsket õhku (94%), rahus ja vaikuses olla (91%) ning looduses jalutada (90%). Asjaolu, et üldiselt hinnatud looduskülastuse aspekte (marjad-seened, kalastamine) ei peeta linnas eriti oluliseks, näitab, kuidas tänapäeva inimene loob tervikliku elukeskkonna eri tüüpi loodusalade kombineerimisel.
 
 *Märkus: „Looduspuhkus 2010“ (N=6231) ja „looduspuhkus 2015“ (N=5489) tähistavad kodumaiseid looduskülastajaid Riigimetsa Majandamise Keskuse 2010. ja 2015. aasta külastajauuringutes; „välisturistid 2015“ (N=764) viimati mainitud uuringus küsitletud välismaalasi ([RMK 2018](#RMK2018)). Marjuliste-seeneliste (N=518) andmed pärinevad 2011. aasta suvel ja sügisel vähemalt ühel korral sel eesmärgil looduses käinute valimist ([Kaldaru 2011](#Kaldaru2011)). Jahimeeste andmed kajastavad 2018. aasta novembri seisuga kõiki Eesti jahimehi (N=15 499, sh 381 naist; Eesti Jahimeeste Selts). Tallinna rohealade külastajate vanuseline profiil koostati 2006. aasta augustis 25-l Tallinnale iseloomulikul ja olulisel rohealal (N=542; graafikul on arvestamata lapsed – 4% üldvalimist; [Järv jt 2006](#Järv2006)).*
- 
+
 <p class="caption" id="figure313"><span class="figure-number">Joonis 3.1.3.</span> Eri tüüpi looduskülastajate vanuseline jaotus Eestis</p>
 
 ```{r, figure313, out.width='80%',fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 library("reshape")
-  
+
  fig313_data <- read.csv ("data/31_fig3_data.csv", header=TRUE, fileEncoding="utf-8", check.names=FALSE)
- 
+
  fig313_data_melt <- melt (fig313_data, id=c("vanus"))
- 
+
 fig313_data_melt$vanus <- factor(fig313_data_melt$vanus, levels = c("75+","60-74","50-59","40-49","30-39","20-29","15-19"))
 fig313_data_melt$variable <- factor(fig313_data_melt$variable, levels = c("Tallinna pargikülastajad","Jahimehed","Marjulised-seenelised","Välisturistid 2015","Looduspuhkus 2015","Looduspuhkus 2010"))
- 
-  
+
+
   fig313_plot <- ggplot(data = fig313_data_melt) +
     geom_bar(mapping = aes(x=vanus, y=value, fill=variable), width=0.7, stat="identity", position="dodge") +
     labs(y="%", x="vanuserühm") +
@@ -148,7 +148,7 @@ fig313_data_melt$variable <- factor(fig313_data_melt$variable, levels = c("Talli
       panel.grid.major.y = element_blank() ,
       panel.grid.minor.y = element_blank(),
                  )
- 
+
 print(fig313_plot + fig_theme_general + fig313_theme)
 
 ggsave(path="exported_figures/PDF/chapter3",filename="fig313.pdf",fig313_plot + fig_theme_general + fig313_theme, height=200, width=200, units="mm")
@@ -165,20 +165,20 @@ ggsave(path="exported_figures/PDF/chapter3",filename="fig313.pdf",fig313_plot + 
 library("tidyverse")
 library("scales")
 
-  
+
  fig314_data <- read.csv ("data/31_fig4_data.csv", header=TRUE, fileEncoding="utf-8", sep=";",check.names=FALSE)
- 
+
 fig314_data <- melt (fig314_data, id=c("Space"))
- 
- 
+
+
 fig314_data$Space <- factor( fig314_data$Space, levels = c("Ala, kus ma saan aiatööd teha","Ala väheste puude/põõsastega","Mets","Veekoguäärne roheala","Mänguväljak/tervisespordi ala","Park"))
 
 fig314_data$variable <- factor(fig314_data$variable, levels = c("Ei ole üldse tähtis","Mitte eriti tähtis","Keskmiselt tähtis","Tähtis","Väga tähtis"))
-  
+
 fig314_data$text_position <- fig314_data$value
-    
+
 fig314_data$text_position[which(fig314_data$text_position == 0)] <- NA
-    
+
 fig314_plot <- ggplot(data = fig314_data) +
     geom_bar(mapping = aes(x=Space, y=value, fill=variable), width=0.6, stat="identity") +
     geom_text(mapping = aes(x=Space, y=text_position, label=round(text_position, digits=0)), stat="identity", color="white", position = position_stack(vjust = .5)) +
@@ -187,12 +187,12 @@ fig314_plot <- ggplot(data = fig314_data) +
     labs(y="%", x="") +
     scale_x_discrete(labels = wrap_format(20)) +
     guides(fill = guide_legend(reverse = TRUE,nrow=2,byrow=TRUE))
-  
+
   fig314_theme <- theme(
                     panel.grid.major.y = element_blank() ,
                      panel.grid.minor.y = element_blank(),
                  )
-  
+
 print(fig314_plot + fig_theme_general+ fig314_theme)
 
 ggsave(path="exported_figures/PDF/chapter3",filename="fig314.pdf", height=120, width=200, units="mm")
@@ -205,9 +205,9 @@ ggsave(path="exported_figures/PDF/chapter3",filename="fig314.pdf", height=120, w
 
 ### Teave inimeste looduskasutuse kohta on lünklik {-.chapter3_section}
 
-Looduskeskkonna avaliku kasutamise korraldamiseks on vaja teada, kuidas inimesed looduses puhkavad: kes kus käivad ja miks, kui kaua nad seal aega veedavad ja nii edasi. Traditsioonilistele tegevustele (marja- ja seenelkäik, kalapüük) lisandub üha uusi, võimalusi laiendavad temaatilised seikluspargid, ratsa- ja kelgukoerte retked, loodusrajad. Ülevaade neist tegevustest on Eestis piiratud taristuobjektide külastustega (RMK külastajaseire), jahinduse ja kalastamise statistika ning üldise turismistatistikaga, mis ei erista turismiliike. Statistikaameti väliskülastajate uuringus registreeritakse „rohealade külastamist linnades“ (13 tegevuse seas kolmandal kohal), „linnast väljas looduses viibimist omal käel“ ja „linnast väljas looduses viibimist giidi juhtimisel“. Muus osas põhineb teave looduskasutuse kohta üksikuuringutel ja tervikpilt Eestis puudub.
+Looduskeskkonna avaliku kasutamise korraldamiseks on vaja teada, kuidas inimesed looduses puhkavad: kes kus käivad ja miks, kui kaua nad seal aega veedavad ja nii edasi. Traditsioonilistele tegevustele (marjul- ja seenelkäik, kalapüük) lisandub üha uusi, võimalusi laiendavad temaatilised seikluspargid, ratsa- ja kelgukoerte retked, loodusrajad. Ülevaade neist tegevustest on Eestis piiratud taristuobjektide külastustega ([RMK 2018](#RMK2018)), jahinduse ja kalastamise statistika ning üldise turismistatistikaga, mis ei erista turismiliike. Statistikaameti väliskülastajate uuringus registreeritakse „rohealade külastamist linnades“ (13 tegevuse seas kolmandal kohal), „linnast väljas looduses viibimist omal käel“ ja „linnast väljas looduses viibimist giidi juhtimisel“. Muus osas põhineb teave looduskasutuse kohta üksikuuringutel ja tervikpilt Eestis puudub.
 
-Samal ajal on andmete kogumiseks palju tänapäevaseid võimalusi alates otsestest mõõtmistest (automaatsed loendurid, nt soojus- või liikumisanduritega; sõidukite loendurid; külastajate või piletimüügi registreerimisandmed) kuni kaudse hindamiseni matemaatiliste mudelite abil (nt lähtudes piirkonda puudutavast küsitlusest). Eestis on viimastel aastatel üha laiemalt kasutatud näiteks inimeste ruumilise liikumise hindamiseks passiivse mobiilpositsioneerimise andmeid, mida saab siduda päringutega paljudest teistest andmebaasidest ja sedakaudu uurida looduskülastuste seoseid ilmastiku- ja maastikuoludega. Eri meetodeid kasutatakse tavaliselt kombineerituna. 
+Samal ajal on andmete kogumiseks palju tänapäevaseid võimalusi alates otsestest mõõtmistest (automaatsed loendurid, nt soojus- või liikumisanduritega; sõidukite loendurid; külastajate või piletimüügi registreerimisandmed) kuni kaudse hindamiseni matemaatiliste mudelite abil (nt lähtudes piirkonda puudutavast küsitlusest). Eestis on viimastel aastatel üha laiemalt kasutatud näiteks inimeste ruumilise liikumise hindamiseks passiivse mobiilpositsioneerimise andmeid, mida saab siduda päringutega paljudest teistest andmebaasidest ja sedakaudu uurida looduskülastuste seoseid ilmastiku- ja maastikuoludega. Eri meetodeid kasutatakse tavaliselt kombineerituna.
 
 ### Pool elanikkonnast käib marjul või seenel {-.chapter3_section}
 
@@ -263,11 +263,11 @@ Harrastuskalastajate arvu muutusi saab jälgida püügilubade statistika põhjal
 
 Marjuliste ruumikäitumist uuriti 2017. aastal, küsitledes mustikakorjajaid, kelle seas valdasid Lõuna-Eestis nii oma tarbeks kui ka müügiks korjajad ([Remm jt 2018](#Remm2018)). Uuringust ilmnes kolm asjaolu, mis näitavad, et suhtlusest kohaliku kogukonnaga ei piisa marjametsi säästvate planeeringute tegemiseks.
 
-* Marjulistel on avalikult kasutatavas looduskeskkonnas oma püsivad korjealad, keskmise suurusega 25 hektarit, mille nad kõige sagedamini on ise leidnud või saanud vihje lähimast suhtlusringist (sõpradelt või sugulastelt). 
+* Marjulistel on avalikult kasutatavas looduskeskkonnas oma püsivad korjealad, keskmise suurusega 25 hektarit, mille nad kõige sagedamini on ise leidnud või saanud vihje lähimast suhtlusringist (sõpradelt või sugulastelt).
 * Koha marjarohkusest ei piisa: eelistatud on hõlpsasti läbitavad riigimetsad teede läheduses. Teadlikumatel korjajatel on mitu erinevat kohta, millest on kasu aastatel, kui mõnes kohas saak ebasoodsa ilmastiku tõttu hävib.
 * Marjulised ei eelista kaitstavaid metsi majandusmetsadele, kuigi ⅔ küsitletutest on majandusmetsades pidanud viimase 10 aasta jooksul oma korjekoha raie tõttu hülgama. Vähesed korjajad on sama aja jooksul märganud uute mustikakohtade teket.
 
-Seega on marja- ja seenekohad Eestis kultuuriliselt olulised ja püsivad ning neid tajutakse privaatsetena. See põhjustas näiteks 1990. aastatel probleeme setude jaoks, kelle korjekohad jäid teisele poole riigipiiri ([Runnel 2002](#Runnel2002)). Peamine probleem mustikakorjajate jaoks on korjekohtade raie, mida ei kompenseeri kaitsealad ega uute marjakohtade võimalik tekkimine maastikel. Probleemi lahendamiseks tuleks marjametsade kaitset planeerida moel, mis ei eelda inimestelt oma korjekohtade avalikustamist või kiiret vahetamist. 
+Seega on marja- ja seenekohad Eestis kultuuriliselt olulised ja püsivad ning neid tajutakse privaatsetena. See põhjustas näiteks 1990. aastatel probleeme setude jaoks, kelle korjekohad jäid teisele poole riigipiiri ([Runnel 2002](#Runnel2002)). Peamine probleem mustikakorjajate jaoks on korjekohtade raie, mida ei kompenseeri kaitsealad ega uute marjakohtade võimalik tekkimine maastikel. Probleemi lahendamiseks tuleks marjametsade kaitset planeerida moel, mis ei eelda inimestelt oma korjekohtade avalikustamist või kiiret vahetamist.
 
 <p class="caption" id="figure316"><span class="figure-number">Joonis 3.1.6.</span> Mustikate korjamine</p>
 
