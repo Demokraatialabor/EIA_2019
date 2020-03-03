@@ -105,10 +105,10 @@ Avalikku ruumi ei ole planeerimisseaduses nimetatud ega käsitletud ning see on 
 <span class="imgsource-source">Allikas:</span> Foto autor Reio Avaste.
 ```
 
-Omavalitsused on mõnikord eelistanud ruumiotsustes erahuve ja kahjustanud sellega avalikku ruumi põhjendusel, et puudub piisavalt selge alus avaliku ruumi püsimist või selle kvaliteedi suurendamist eraomanikult nõuda. Mõni omavalitsus on siiski seda alust tugevdanud avalikku ruumi teadlikult väärtustava üldplaneeringuga, näiteks Tartu kesklinna üldplaneeringus on avalik ruum eraldi joonistel ja peatükina esile tõstetud. Siiski ei sobi aeglaselt muutuvate dokumentidena ja liiga jäigalt fikseerituna planeeringud ka avaliku ruumi paindlikuks sammsammuliseks parendamiseks. 
+Omavalitsused on mõnikord eelistanud ruumiotsustes erahuve ja kahjustanud sellega avalikku ruumi põhjendusel, et puudub piisavalt selge alus avaliku ruumi püsimist või selle kvaliteedi suurendamist eraomanikult nõuda. Mõni omavalitsus on siiski seda alust tugevdanud avalikku ruumi teadlikult väärtustava üldplaneeringuga, näiteks Tartu kesklinna üldplaneeringus on avalik ruum eraldi joonistel ja peatükina esile tõstetud. Siiski ei sobi aeglaselt muutuvate dokumentidena ja liiga jäigalt fikseerituna planeeringud ka avaliku ruumi paindlikuks sammsammuliseks parendamiseks.
 
 ```{block, type='blockquote-right'}
-Eri tasandi planeerimisvald- konnad on teadvustamas avaliku ruumi mõistet, mis seni on jäänud juhuslikuks või sootuks tähelepanuta.
+Eri tasandi planeerimisvaldkonnad on teadvustamas avaliku ruumi mõistet, mis seni on jäänud juhuslikuks või sootuks tähelepanuta.
 ```
 
 Tänavad ja pargid on enamasti avalikus omandis, kuid see ei taga avaliku ruumi sidusust. Tänavate ehitamise alus ei ole üldjuhul detailplaneeringud, vaid tee-ehitusprojektid, mida lahendatakse üksnes insenertehniliselt ega avalikustata. Nii planeeringute kui ka teeprojektide aluseks on enamasti standard EVS 843 (Linnatänavad), mille sisu näeb tervikliku võrgustikuna sõiduteid, aga mitte avalikku ruumi. Normatiivide mehaanilise rakendamise tõttu kipuvad linnaruumis domineerima sõiduteed ja autokesksus. Lühiajalistes ruumiotsustes, näiteks talvises tänavahoolduses või ehitusaegses liikluskorralduses, võimenduvad sõiduautode ületähtsustamine ja jalakäija unustamine veelgi. Nii võib avalik sektor tekitada suuremaidki katkestusi avalikus ruumis kui eraomand.
@@ -130,7 +130,7 @@ On oluline, et riik ja riigiettevõtted ei kahjustaks suurarenduste tellijatena 
 ```
 Riigi ja omavalitsuse ametkonnad, mille otsused loovad või muudavad avaliku ruumi, lähtuvad tihti kitsalt oma ametkonna fookusest. Puuduvad ametkondi siduvad üksused, kes avalikku ruumi tervikliku võrgustikuna esindaks ja kaitseks, selleks vajalikke lahendusi looks ning teeks avaliku ligipääsetavuse ja inimsõbraliku ruumi huvides sihipärast koostööd erasektoriga.
 
-### Avalik ruum kui võrgustik on tagatud siis, kui riik ja omava- litsused tähtsustavad seda igas ruumiotsuses ja igas mõõtkavas  {-.chapter2_section}
+### Avalik ruum kui võrgustik on tagatud siis, kui riik ja omavalitsused tähtsustavad seda igas ruumiotsuses ja igas mõõtkavas  {-.chapter2_section}
 
 Avalik ruum on keerukas võrgustik ja muutumises olev struktuur. Samamoodi nagu tehnilised võrgustikud (veevarustus, elektrisüsteem jm), vajab avalik ruum toimimiseks ja arenguks võrguvaldaja järjepidevat tööd. Avaliku ruumi võrguvaldaja on avalik sektor, kes saab kaitsta ja parendada avalikku ruumi.
 
@@ -146,18 +146,18 @@ Kuna avalik ruum moodustab olulise osa igapäevasest eluruumist,  on mõistlik k
 
 Igal omavalitsusel pole mõistlik oma määrustes või planeeringutes avaliku ruumi olemusele sisu otsida. Üldpõhimõtted saaksid selgelt ja ühesuguselt kehtida kogu riigis. Õigusruumi selguse vajadusele rõhub ka ruumiloome ekspertrühma lõpparuanne:
 
-**„[d]Õigusaktides tuleb luua senisest selgemad alused ruumiloomele tervikuna, haarates seostatuna kõiki ruumiotsuseid. Seaduses tuleb seostatult käsitleda ruumiloome põhimõtteid ja mõisteid. Avaliku ruumi olulisuse rõhutamine ruumiloomes ja kvaliteedinõude sõnastamine annavad parema aluse kvaliteetse avaliku ruumi ja ehitatud keskkonna rajamiseks ning eelnõude ruumimõju hindamiseks“[e]**
+**„Õigusaktides tuleb luua senisest selgemad alused ruumiloomele tervikuna, haarates seostatuna kõiki ruumiotsuseid. Seaduses tuleb seostatult käsitleda ruumiloome põhimõtteid ja mõisteid. Avaliku ruumi olulisuse rõhutamine ruumiloomes ja kvaliteedinõude sõnastamine annavad parema aluse kvaliteetse avaliku ruumi ja ehitatud keskkonna rajamiseks ning eelnõude ruumimõju hindamiseks“**
 
-Nii riik kui ka omavalitsused peavad teadvustama oma rolli avaliku ruumi võrguvaldajana või tellijana, pidades sealjuures lugu igast ruumikasutajast. 
+Nii riik kui ka omavalitsused peavad teadvustama oma rolli avaliku ruumi võrguvaldajana või tellijana, pidades sealjuures lugu igast ruumikasutajast.
 
 ```{block, type='casebox'}
 Linna ruumilise kvaliteedi tõstmisel on keskne tähtsus avaliku ruumi kui tervikliku võrgusti- ku sidususel, tihedusel ja mitmekesisusel. Näiteks Tallinna vanalinna ümbritsevat pargivööd saab arendada avaliku ruumi osana, võimaldades mugavat ülepääsemist sõiduteedest, laiendades jalakäiguruumi ja avades uusi kvartalisiseseid läbipääse. Nii saab ühendada inimesele mugavalt hulga ülelinnalise tähtsusega ühiskondlikke hooneid, väljakuid, tä- navaid ja parke, mille kaudu saab Tallinn kujuneda tunduvalt inimsõbralikumaks linnaks.
 
-<p class="caption" id="figure215"><span class="figure-number">Joonis 2.1.5.</span> Väljavõte EKA Lõpetamata Linna projektist</p>
+<p class="caption" id="figure215"><span class="figure-number">Joonis 2.1.5.</span> Väljavõte EKA uurimisprojektist "Lõpetamata Linn"</p>
 
 ```
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Kavakava arhitektid.
+<span class="imgsource-source">Allikas:</span> Kavakava arhitektid 2019.
 ```
 
 ### Kokkuvõte  {-.chapter2_section}

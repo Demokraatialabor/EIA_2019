@@ -12,11 +12,11 @@ Olemasolevad ehitised ja ruumilised struktuurid moodustavad tänapäevase ruumil
 
 Nii Eestis kui ka mujal kasvas ehitatud keskkonnas pärandikaitse roll käsikäes sõjajärgse modernismi võidukäiguga 1960.–1970. aastatel. Nõukogude võimuga oli loodud soodsad võimalused ruumi pöördeliseks ümberkujundamiseks – kogu maa kuulus riigile, mis võimaldas seada utoopilisi ehitusplaane. Pärandikaitse esiletõusu on võimalik tõlgendada kriitilise vastureaktsioonina modernistlikule linnauuenduspoliitikale, millega Eestis kaasnes ühtlasi vastuseis toonasele režiimile. Eluruumide puuduse lahendamiseks olid masstoodetud korterelamud asendamatud, kuid peagi tõdeti, et asendamatu on ka ruumi piirkondlik omapära ja kultuuriväärtus.
 
-Vastandlikud tungid ehitatud keskkonda uuendada ja säilitada kujundavad ka tänapäeval meie avalikku ruumi, kuid vastuolud ei tundu olevat enam nii teravad. Tänapäevases linnaplaneerimises arvestatakse palju rohkem olemasolevate struktuuridega, ka maaomandi killustumine ja ühiskonna demokratiseerumine ei võimalda enam kergekäeliselt terveid kvartaleid lammutavateks määrata. Mõõdukas vaesus, mille tõttu suur osa pärandist on tänaseni säilinud, on samal ajal jõudsalt taandumas. Kuigi pikemas vaates kasulik, ei ole pärandi korrastamine lühiperspektiivis omanikule kõige kasumlikum valik, mistõttu on kultuuripärandi seadusega kaitsmine endiselt vajalik. Kuidas seda tänapäeval ja tulevikus kõige mõistlikumalt teha, on olnud keskne küsimus viimase kuue aasta jooksul toimunud uue muinsuskaitseseaduse väljatöötamisel. Niisamuti on see probleemistik esil käesolevas artiklis, milles vaatleme Eesti ehituspärandi rolli avaliku ruumi kujundaja ja väärindajana. Teema käsitlemiseks püstitame kolm küsimust: 
+Vastandlikud tungid ehitatud keskkonda uuendada ja säilitada kujundavad ka tänapäeval meie avalikku ruumi, kuid vastuolud ei tundu olevat enam nii teravad. Tänapäevases linnaplaneerimises arvestatakse palju rohkem olemasolevate struktuuridega, ka maaomandi killustumine ja ühiskonna demokratiseerumine ei võimalda enam kergekäeliselt terveid kvartaleid lammutavateks määrata. Mõõdukas vaesus, mille tõttu suur osa pärandist on tänaseni säilinud, on samal ajal jõudsalt taandumas. Kuigi pikemas vaates kasulik, ei ole pärandi korrastamine lühiperspektiivis omanikule kõige kasumlikum valik, mistõttu on kultuuripärandi seadusega kaitsmine endiselt vajalik. Kuidas seda tänapäeval ja tulevikus kõige mõistlikumalt teha, on olnud keskne küsimus viimase kuue aasta jooksul toimunud uue muinsuskaitseseaduse väljatöötamisel. Niisamuti on see probleemistik esil käesolevas artiklis, milles vaatleme Eesti ehituspärandi rolli avaliku ruumi kujundaja ja väärindajana. Teema käsitlemiseks püstitame kolm küsimust:
 
-1) milline on ehituspärandi mõju ruumile ja selle kasutajatele, 
-2) kuidas on võimalik käsitleda ajaloolist hoonestust kestliku ruumiloome osana, 
-3) mis on riigi roll ehituspärandi kaitsmisel. 
+1) milline on ehituspärandi mõju ruumile ja selle kasutajatele,
+2) kuidas on võimalik käsitleda ajaloolist hoonestust kestliku ruumiloome osana,
+3) mis on riigi roll ehituspärandi kaitsmisel.
 
 Artiklis vaatleme kogu ehituspärandi mõju avalikus ruumis, mitte ainult riikliku kaitse all olevaid mälestisi – muinsuskaitse mõistet on kasutatud laiemas tähenduses, see tähendab minevikupärandi kaitsmise ja säilitamisena.
 
@@ -30,7 +30,7 @@ Muinsuskaitse pole kaitse muutuste eest, vaid muutuste juhtimine selliselt, et o
 ```
 Arhitekt Rem Koolhaas ([2014](#Koolhaas2014)) on öelnud, et muinsuskaitse kaitseb meid tänapäeval vohava keskpärasuse eest. Kui globaalsetel trendidel põhinev uuslooming on tihti üheülbaline, on muinsuskaitse peamine roll säilitada ehitatud keskkonna mitmekesisust ja piirkondlikke omapärasid. Hea uus arhitektuur kipubki koonduma eelkõige kohtadesse, kus vanad väärtused on juba olemas: näiteks 2018. aasta Eesti arhitektuuripreemiatest olid kaks kolmandikku seotud muinsuskaitsealuste või nende kaitsevööndites paiknevate hoonetega.
 
-Eestlaste huvi kultuuripärandi vastu on suhteliselt suur: vastavalt Eurobaromeetri ([2017](Eurobarometer2017)) uuringule oli 71% küsitletud eestlastest külastanud aasta jooksul mõnda ajaloolist mälestist või kohta, Euroopa Liidu riikide keskmine näitaja oli 61% ([joonis 2.2.1](#figure221)). 
+Eestlaste huvi kultuuripärandi vastu on suhteliselt suur: vastavalt Eurobaromeetri ([2017](Eurobarometer2017)) uuringule oli 71% küsitletud eestlastest külastanud aasta jooksul mõnda ajaloolist mälestist või kohta, Euroopa Liidu riikide keskmine näitaja oli 61% ([joonis 2.2.1](#figure221)).
 
 <p class="caption" id="figure221"><span class="figure-number">Joonis 2.2.1.</span> Eestlased külastavad ajaloolisi mälestisi ja kohti rohkem kui eurooplased keskmiselt.</p>
 
@@ -44,14 +44,14 @@ library("grid")
 library("gridExtra")
 
 
-  
+
  fig221_data <- read.csv ("data/22_fig1_data.csv", header=TRUE, fileEncoding="utf-8", sep=";")
-    
+
   fig221_data$answer <- factor(fig221_data$answer, levels = c("Ei oska öelda","Ei ole","Vähemalt üks kord"))
-  
+
   fig221_data$label <- fig221_data$value
   fig221_data$label[which(fig221_data$label == 0)] <- NA
- 
+
   fig221_plot1 <- ggplot(subset(fig221_data, pop %in% c("EE"))) +
     geom_bar(mapping = aes(x=question, y=value, fill=answer), width=0.5, stat="identity") +
     geom_text(mapping = aes(x=question, y=value, label=round(label, digits=0)), stat="identity", color="white", position = position_stack(vjust = .5)) +
@@ -59,9 +59,9 @@ library("gridExtra")
     coord_flip()+
     labs(y="", x="") +
     scale_x_discrete(labels = wrap_format(50)) +
-    ggtitle("EE") 
-  
-  
+    ggtitle("EE")
+
+
       fig221_theme1 <- theme(
       text = element_text(color = "#292b2c", size = 8,family=""),
       axis.text.y = element_text(size=10),
@@ -70,7 +70,7 @@ library("gridExtra")
       plot.title = element_text(size=14)
   )
 
-  
+
     fig221_plot2 <- ggplot(subset(fig221_data, pop %in% c("EL28"))) +
     geom_bar(mapping = aes(x=question, y=value, fill=answer), width=0.5, stat="identity") +
     geom_text(mapping = aes(x=question, y=value, label=round(label, digits=0)), stat="identity", color="white", position = position_stack(vjust = .5)) +
@@ -79,8 +79,8 @@ library("gridExtra")
     labs(y="%", x="") +
     scale_x_discrete(labels = wrap_format(50)) +
     ggtitle("EL28")
-            
-  
+
+
     fig221_theme2 <- theme(
       text = element_text(color = "#292b2c", size = 8, family=""),
       axis.text.y = element_text(size=10),
@@ -93,7 +93,7 @@ library("gridExtra")
 grid.arrange(fig221_plot1 + fig_theme_general + fig221_theme1, fig221_plot2 + fig_theme_general + fig221_theme2, ncol = 1)
 
 g <- arrangeGrob(fig221_plot1 + fig_theme_general + fig221_theme1, fig221_plot2 + fig_theme_general + fig221_theme2, ncol = 1)
- 
+
 ggsave(path="exported_figures/PDF/chapter2",filename="fig221.pdf",g, height=280, width=180, units="mm")
 
 ```
@@ -104,7 +104,7 @@ ggsave(path="exported_figures/PDF/chapter2",filename="fig221.pdf",g, height=280,
 
 Ehituspärandi mõju on siiski laiem. Külastuspaikade tekke kõrval on sel oluline roll piirkondade elujõu ja elukeskkonna kvaliteedi kujundajana. Pärandi potentsiaali uurimisele keskendunud Euroopa Liidu koostööprojekti Cultural Heritage Counts for Europe ([2015](#Cultural2015)) raportis on sõnastatud pärandist tulenevad ühiskonnakasud ([joonis 2.2.2](#figure222)).
 
-<p class="caption" id="figure222"><span class="figure-number">Joonis 2.2.2.</span> Ehitismälestiste omanikud</p>
+<p class="caption" id="figure222"><span class="figure-number">Joonis 2.2.2.</span> Kultuuripärandi ühiskonnakasud</p>
 ```{r, figure222, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 
@@ -131,7 +131,7 @@ Probleemiks on paljud vanad detailplaneeringud, mis kehtivad tähtajatult ja lub
 
 ### Üksikutel ruumiotsustel on suur mõju nii pärandile kui regionaalarengule {-.chapter2_section}
 
-Ehituspärandi seisukorra ja mõju avalikus ruumis määrab peamiselt selle kasutuses või kasutuseta olemine. Väheneva rahvastikuga piirkondades (ehk suures osas Eestist) tähendab hoone tühjaksjätmine tihti seda, et see jääb kasutuseta väga pikaks ajaks. Tühjad hooned muudavad asula või linnapildi trööstituks, vähendavad elanike uhkustunnet oma kodulinna üle ning nende soovi linna arengusse panustada. Mahajäetud majad tekitavad inimestes soovi ära kolida, paljud ettevõtlikumad lahkuvad ja alles jäävad põhiliselt need, kellel valikut ei ole. 
+Ehituspärandi seisukorra ja mõju avalikus ruumis määrab peamiselt selle kasutuses või kasutuseta olemine. Väheneva rahvastikuga piirkondades (ehk suures osas Eestist) tähendab hoone tühjaksjätmine tihti seda, et see jääb kasutuseta väga pikaks ajaks. Tühjad hooned muudavad asula või linnapildi trööstituks, vähendavad elanike uhkustunnet oma kodulinna üle ning nende soovi linna arengusse panustada. Mahajäetud majad tekitavad inimestes soovi ära kolida, paljud ettevõtlikumad lahkuvad ja alles jäävad põhiliselt need, kellel valikut ei ole.
 
 ```{block, type='blockquote-left'}
 Toetusmeetmest rohkem mõjutavad ruumilisi arenguid
@@ -142,10 +142,10 @@ Linnaruumi atraktiivsuses ja turvalisuses on oluline roll hoonestuse seisukorral
 
 Aastatel 2017–2018 Eesti ruumilise arengu protsesse analüüsinud ruumiloome ekspertrühma lõpparuandes on välja toodud, et ruumiloome kvaliteedi määravad sageli otsused, mis langetatakse enne ruumilise planeerimise või projekteerimisprotsessi algust ning millesse ruumipädevusega spetsialistid kaasatud ei ole. Samamoodi sünnivad üldjuhul pärandispetsialistide osaluseta ka ajalooliste hoonete tühjaks jätmise ning asutuste vanalinnadest väljakolimise otsused. Kavandatava riikliku ruumiloome meeskonna ülesannete seas on linnaliste asulate kompaktsuse tagamine ja ajalooliste hoonete kasutuselevõtu soodustamine, mis annab lootust, et tulevikus tehakse neid otsuseid oluliselt rohkem ruumimõjudest lähtudes.
 
-Ruumipoliitika eesmärkide tagamisel peaks kaalukate ruumiotsuste tegemisel hindama ka pikaajalisi sotsiaal-majanduslikke mõjusid, sealhulgas arvestama ehitiste kogu elukaarega – ehitamise, kasutamise, korrashoiu ja lammutamisega; väärtuste juurde loomise ja säilitamisega ning asukohast tulenevate mõjudega ([Ruumiloome ekspertrühma lõpparuanne 2018](#Ruumiloome2018)). Nii näiteks tuleks uue, energiasäästliku ja soodsa ruutmeetrihinnaga koolimaja ehitamisel arvestada, milliste kuludega ning mis funktsiooni jaoks saab kohandada selle otsuse tõttu tühjaks jääva vana koolimaja. Energiatõhususe arvutamisel on vaja mõelda mitte ainult uue maja energiaklassile, vaid ka kulutatavate ehitusmaterjalide energiakulule ja olelusringi pikkusele, samuti kuludele seoses tühjaks jääva hoonega.
+Ruumipoliitika eesmärkide tagamisel peaks kaalukate ruumiotsuste tegemisel hindama ka pikaajalisi sotsiaal-majanduslikke mõjusid, sealhulgas arvestama ehitiste kogu elukaarega – ehitamise, kasutamise, korrashoiu ja lammutamisega; väärtuste juurde loomise ja säilitamisega ning asukohast tulenevate mõjudega (Ruumiloome ekspertrühma lõpparuanne 2018). Nii näiteks tuleks uue, energiasäästliku ja soodsa ruutmeetrihinnaga koolimaja ehitamisel arvestada, milliste kuludega ning mis funktsiooni jaoks saab kohandada selle otsuse tõttu tühjaks jääva vana koolimaja. Energiatõhususe arvutamisel on vaja mõelda mitte ainult uue maja energiaklassile, vaid ka kulutatavate ehitusmaterjalide energiakulule ja olelusringi pikkusele, samuti kuludele seoses tühjaks jääva hoonega.
 
 ```{block, type='blockquote-right'}
-Vanad ehitised on keskkonna- ressurss ja nende eluea pikendamise eest tuleb seista.
+Vanad ehitised on keskkonnaressurss ja nende eluea pikendamise eest tuleb seista.
 ```
 
 Otsused, millisest hoonest oma asutus välja kolitakse ja mille arendamiseks suured toetussummad antakse, tehakse väljaspool muinsuskaitset. Pärandi säilimise seisukohalt on need otsused aga keskse tähtsusega ning seetõttu on oluline panustada sellesse, et sarnaselt teise põhiseadusliku ülesandega – julgeoleku tagamisega – oleks kultuuripärandi hoidmine lõimitud kõikidesse valitsemisaladesse ja toetusprogrammidesse. Eriti puudutab see riiklikke mälestisi, mille säilitamise tulevastele põlvedele on riik enda eesmärgiks seadnud.
@@ -154,7 +154,7 @@ Otsused, millisest hoonest oma asutus välja kolitakse ja mille arendamiseks suu
 
 Kultuuripärandi väärtust ühiskonnas käsitlev Euroopa Nõukogu poliitikadokument Faro konventsioon, millega liitumine on Eestis ettevalmistamisel, käsitleb kultuuripärandit kui universaalset inimõigust. See tähendab, et igaühel on õigus kultuuripärandist osa saada, osaleda selle loomisel ja mõtestamisel enda poolt valitud viisil ja seetõttu on pärandil oluline roll demokraatliku ühiskonna ülesehitamisel ja selle sidususe kandmisel. Elukeskkonna väärtuste hoidmine on praegugi oluline osa Eesti  asumiseltside tegevusest. Kohalikku ehituspärandit väärtustatakse eriti siis, kui seda ohustab lammutamine. Muinsuskaitseamet saab igal aastal kümneid ettepanekuid ehitiste kaitse alla võtmiseks ja enamasti on need seotud elanikkonnale vastumeelsete uusarendustega ja neile ette jääva ajaloolise hoonestuse lammutusohuga. Riikliku kaitse rakendamist ei saa siiski otsustada näiteks rahvahääletuse teel, sest sellisel juhul koosneks mälestiste nimekiri peamiselt ehitistest, mida kunagi on soovitud lammutada.  Mälestiseks tunnistamisega võtab riik kohustuse aidata kaasa nende ehitiste säilimisele. Selle pikaaegse kohustuse võtmiseks on oluline ekspertide hinnang ja lõpuks haldusotsus, et asi vastab riikliku kaitse eeldustele, see tähendab kuulub kultuuripärandi väärtuslikumasse ossa. Seega on oluline Faro konventsioonis sõnastatud põhimõte eristada kogukondlikku pärandiloomet ja avalikes huvides reguleeritud riiklikku pärandikaitset. Esimene on laiem mõiste – see on kollektiivne ja avatud praktika, mis ei ole tingimata seotud riiklike regulatsioonidega. Kultuurimälestiseks tunnistamine kui üks võimalikke pärandiloome akte on enamat kui arvamusküsitlus – enamik kodanike ettepanekuid saab üldjuhul eitava vastuse ning uued mälestised kinnitatakse ekspertide koostatud alusuuringute tulemuste põhjal. Siiski ei ole põhjust ekspertidepõhist riiklikku pärandikaitse protsessi ebademokraatlikuna käsitleda, kuivõrd iga kultuurimälestiseks tunnistamise ettepanekut ning sellega kaasnevaid eri seisukohti kaalutakse menetlusprotsessi raames põhjalikult. Kodanike pidev huvi objektide kaitse alla võtmise vastu on aga oluline märk sellest, et ehituspärandi kaitse on avalikes huvides, ning aitab mõista, mida inimesed oma pärandina käsitlevad.
 
-Riiklikult kaitstud ehituspärand on meie kõikide ühine hüve jalutada vanalinna jõuluturul või pidada pulmi uhkes mõisasaalis, aga samal ajal väheste vastutus. Vastutus mälestiste säilimise ja korrashoiu ees on eelkõige nende omanikel, valdavalt eraisikutel ([joonis 2.2.3](#figure223)). Ligikaudu veerand ehitismälestistest on halvas või avariilises seisus ja umbes veerand on kasutuseta. Hoone kasutamine tagab üldjuhul selle korrashoiu ja kasutusest väljalangemine tähendab tavaliselt lagunemist. Parem on mälestiste olukord suuremates linnades, halvem maapiirkondades ja väikelinnades, kus rahvastiku vähenemine toob endaga kaasa hoonestuse tühjenemise. 
+Riiklikult kaitstud ehituspärand on meie kõikide ühine hüve jalutada vanalinna jõuluturul või pidada pulmi uhkes mõisasaalis, aga samal ajal väheste vastutus. Vastutus mälestiste säilimise ja korrashoiu ees on eelkõige nende omanikel, valdavalt eraisikutel ([joonis 2.2.3](#figure223)). Ligikaudu veerand ehitismälestistest on halvas või avariilises seisus ja umbes veerand on kasutuseta. Hoone kasutamine tagab üldjuhul selle korrashoiu ja kasutusest väljalangemine tähendab tavaliselt lagunemist. Parem on mälestiste olukord suuremates linnades, halvem maapiirkondades ja väikelinnades, kus rahvastiku vähenemine toob endaga kaasa hoonestuse tühjenemise.
 
 <p class="caption" id="figure223"><span class="figure-number">Joonis 2.2.3.</span> Ehitismälestiste omanikud</p>
 
@@ -162,18 +162,18 @@ Riiklikult kaitstud ehituspärand on meie kõikide ühine hüve jalutada vanalin
 
 library("tidyverse")
 library("scales")
-  
+
  fig223_data <- read.csv ("data/22_fig3_data.csv", header=TRUE, fileEncoding="utf-8")
- 
+
 fig223_data$percent=percent((fig223_data$value/100), 1)
 
-  fig223_plot <- ggplot(data = fig223_data, aes(x = "", y = value, fill = owners)) + 
+  fig223_plot <- ggplot(data = fig223_data, aes(x = "", y = value, fill = owners)) +
   geom_bar(stat = "identity") +
   scale_fill_manual(values=c("#c4dcdf","#369b9e","#297477")) +
   geom_text(aes(label = percent), position = position_stack(vjust = 0.5), color="white") +
   coord_polar(theta = "y") +
   labs(x="", y="")
-  
+
   fig223_theme <- theme(
                     panel.grid.major.x = element_blank() ,
                     panel.grid.major.y = element_blank(),
@@ -182,10 +182,10 @@ fig223_data$percent=percent((fig223_data$value/100), 1)
                      axis.line = element_blank(),
                      axis.text.x = element_blank(),
                  )
-  
-  
+
+
   print(fig223_plot + fig_theme_general + fig223_theme)
-  
+
   ggsave(path="exported_figures/PDF/chapter2",filename="fig223.pdf", height=120, width=200, units="mm")
 
 ```
@@ -200,7 +200,7 @@ Mälestiste ja muinsuskaitsealade hoonete remonti ja restaureerimist toetab Muin
 ```{r, figure224, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
-  
+
  fig224_data <- read.csv ("data/22_fig4_data.csv", header=TRUE, fileEncoding="utf-8")
 
   fig224_plot <- ggplot() +
@@ -208,7 +208,7 @@ library("tidyverse")
     scale_fill_manual(values=c("#369b9e","#c4dcdf")) +
     labs(y="€", x="")+
     scale_y_continuous(labels = number)
-  
+
   fig224_theme <- theme(
     legend.position=0,
     text = element_text(size = 12),
@@ -217,7 +217,7 @@ library("tidyverse")
   )
 
   print(fig224_plot + fig_theme_general + fig224_theme)
-  
+
   ggsave(path="exported_figures/PDF/chapter2",filename="fig224.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
 
@@ -225,7 +225,7 @@ library("tidyverse")
 <span class="imgsource-source">Allikas:</span> Muinsuskaitseamet.
 ```
 
-Lisaks üldisele kinnismälestiste restaureerimistoetusele on riik toetanud eraldi toetusmeetmest aastatel 2004–2018 sakraalehitiste korrastamist (nn pühakodade programm) ning aastatel 2001–2016 mõisakoole (Norra EEA toetuse abil rahastatud mõisakoolide programm). Nii mõisakoolide kui ka pühakodade programmi kogumaht oli üle 12 miljoni euro. Kirikud ja mõisad on enamasti asulate kõige suuremad ja avalikus ruumis kõige tähelepanuväärsemad ehitised, millega on seotud suur osa kohalikust kogukonnast ning mida külastatakse kaugemaltki. 
+Lisaks üldisele kinnismälestiste restaureerimistoetusele on riik toetanud eraldi toetusmeetmest aastatel 2004–2018 sakraalehitiste korrastamist (nn pühakodade programm) ning aastatel 2001–2016 mõisakoole (Norra EEA toetuse abil rahastatud mõisakoolide programm). Nii mõisakoolide kui ka pühakodade programmi kogumaht oli üle 12 miljoni euro. Kirikud ja mõisad on enamasti asulate kõige suuremad ja avalikus ruumis kõige tähelepanuväärsemad ehitised, millega on seotud suur osa kohalikust kogukonnast ning mida külastatakse kaugemaltki.
 Mõisakoolide programmi abil on suuremal või vähemal määral restaureeritud enamikku Eesti mõisakoolidest. Pühakodade programmist on toetusi saanud üle 200 kiriku, kabeli ja tsässona ([joonis 2.2.5](#figure225)).
 
 <p class="caption" id="figure225"><span class="figure-number">Joonis 2.2.5.</span> Pühakodade programm</p>
@@ -234,24 +234,24 @@ Mõisakoolide programmi abil on suuremal või vähemal määral restaureeritud e
 
 library("tidyverse")
 library("scales")
-  
+
  fig225_data <- read.csv ("data/22_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
 
- 
+
   fig225_plot <- ggplot(data = fig225_data) +
     geom_line(mapping = aes(x=year, y = value, colour=type, group=type), size=1) +
     scale_colour_manual(values=c("#c4dcdf","#369b9e"))+
     labs(y="€", x="aasta") +
     scale_x_continuous(breaks = c(2004,2006,2008,2010,2012,2014,2016,2018), expand = c(0, 0), limits=c(2004,2018.5))+
     scale_y_continuous(breaks = c(0,1000000,2000000,3000000,4000000,5000000), labels = number, expand = c(0, 0), limits=c(0,6000000))+
-    expand_limits (y=0) 
-  
+    expand_limits (y=0)
+
    fig225_theme <- theme(
      panel.grid.minor.x = element_blank()
   )
 
   print(fig225_plot + fig_theme_general + fig225_theme)
-  
+
   ggsave(path="exported_figures/PDF/chapter2",filename="fig225.pdf", height=90, width=160, units="mm",encoding = "ISOLatin9.enc")
 ```
 
@@ -262,29 +262,29 @@ library("scales")
 Alates 2019. aastast on senine pühakodade programmi eelarve lisatud Muinsuskaitseameti restaureerimistoetuste eelarvesse, nii et kuigi toetussumma justkui suurenes ligikaudu poole võrra, on eraomanike toetamisvõimalused jäänud samaks. Eraomanike olukorra parandamiseks on 2019. aastast loodud taluarhitektuuri toetamise meede, mille eelarve on esialgu vaid 100 000 eurot. Väljatöötamisel on ka vanalinnade programm, mis peaks lähiaastatel andma hoogu väikelinnade muinsuskaitsealade hoonestuse restaureerimisele.
 Riigi toetus riikliku kaitse all olevale ehituspärandile ei ole kaugeltki piisav: restaureerimistoetuste taotluste maht on mitu korda suurem kui toetamisvõimalused ([joonis 2.2.6](#figure226)). Majandussurutise ajal tehtud kärbe vähendas toetuste eelarvet ligi poole võrra ja kuigi pärast kriisiaastate lõppu on riigieelarve paisunud kolm korda, on riigi toetus mälestistele jäänud sisuliselt kriisiaegsele tasemele ([joonis 2.2.6](#figure226)). Erinevalt mitmest teisest riigist ei ole Eestis mälestiste omanikele ka maksusoodustusi.
 
-<p class="caption" id="figure226"><span class="figure-number">Joonis 2.2.6.</span> Graafik näitab kinnismälestiste riikliku restaureerimistoetuse mahu muutumist kõrvutatuna riigieelarve kuludega.</p>
+<p class="caption" id="figure226"><span class="figure-number">Joonis 2.2.6.</span> Restaureerimistoetuse võrdlus riigieelarvega.</p>
 
 ```{r, figure226, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
-  
+
  fig226_data <- read.csv ("data/22_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
 
- 
+
   fig226_plot <- ggplot(data = fig226_data) +
     geom_line(mapping = aes(x=year, y = value, colour=type, group=type), size=1) +
     scale_colour_manual(values=c("#c4dcdf","#369b9e"))+
     labs(y="", x="aasta") +
     scale_x_continuous(breaks = c(2006,2008,2010,2012,2014,2016,2018), expand = c(0, 0), limits=c(2005,2018.5))+
     scale_y_continuous(breaks = c(0,2000000,4000000,6000000,8000000,10000000),labels = number, expand = c(0, 0), limits=c(0,11500000)) +
-    expand_limits (y=0) 
-  
+    expand_limits (y=0)
+
    fig226_theme <- theme(
      panel.grid.minor.x = element_blank()
   )
 
   print(fig226_plot + fig_theme_general + fig226_theme)
-  
+
   ggsave(path="exported_figures/PDF/chapter2",filename="fig226.pdf", height=90, width=160, units="mm")
 ```
 
@@ -303,24 +303,24 @@ Riigiasutused peaksid eraldama Euroopa kultuuripärandi jaoks rohkem vahendeid (
 
 library("tidyverse")
 library("scales")
-  
+
 fig227_data <- read.csv ("data/22_fig7_data.csv", header=TRUE, fileEncoding="utf-8")
 
 fig227_data$answer <- factor(fig227_data$answer, levels = c("Nõustun","Ei nõustu","Ei oska öelda"))
- 
+
 fig227_data$percent=percent((fig227_data$value/100), 1)
 
-  fig227_plot <- ggplot() + 
+  fig227_plot <- ggplot() +
   geom_rect(data= subset(fig227_data, pop %in% c("EE")), aes(fill=answer, ymax=ymax, ymin=ymin, xmax=2.9, xmin=0)) +
   geom_rect(data= subset(fig227_data, pop %in% c("EL28")), aes(fill=answer, ymax=ymax, ymin=ymin, xmax=3, xmin=4)) +
   geom_text(data=fig227_data, aes(label = percent, x=x, y=value), position = position_stack(vjust = 0.5), color="white") +
-  xlim(c(0, 4)) + 
+  xlim(c(0, 4)) +
   coord_polar(theta = "y") +
- 
-  
+
+
   scale_fill_manual(values=c("#369b9e","#c4dcdf","#A8ACA6")) +
   labs(x="", y="")
-  
+
   fig227_theme <- theme(
                     aspect.ratio=1,
                     panel.grid.major.x = element_blank() ,
@@ -331,9 +331,9 @@ fig227_data$percent=percent((fig227_data$value/100), 1)
                     axis.text.x = element_blank(),
                     axis.text.y = element_blank(),
                  )
-  
+
   print(fig227_plot + fig_theme_general + fig227_theme)
-  
+
   ggsave(path="exported_figures/PDF/chapter2",filename="fig227.pdf", height=120, width=200, units="mm")
 
 ```
@@ -363,10 +363,10 @@ RKAS ootab poliitilist otsust, mida mõisakompleksiga edasi teha – rohkemaks t
 
 Avaliku ruumi kui võrgustiku üks läbivaid lõimi on ehituspärand: see on pea igal pool mingil kujul olemas ning moodustab alusmustri, mida tänapäevaste lahendustega täiendades saab luua mitmekihilist, eripärast ja kvaliteetset ruumi. Muinsuskaitse eesmärk ei ole taastada kunagist ruumiilmet ega luua koopiaarhitektuuri, vaid säilitada olemasolevaid väärtusi, et need uue loomise käigus mõtlematult ei häviks.
 
-Riikliku kaitse all on Eestis vaid murdosa ehitistest, kohalikus ruumilises kontekstis säilitamisväärseid ehitisi on mitu korda rohkem. Planeeringute kaudu on nüüd igal kogukonnal võimalik kaasa rääkida, millised asumid ja ehitised väärivad säilitamist miljööalade ja väärtuslike üksikobjektidena. Olemasolevate ehitiste jätkuva ja taaskasutamise juures on järjest olulisem ka keskkonnasäästlik aspekt. 
+Riikliku kaitse all on Eestis vaid murdosa ehitistest, kohalikus ruumilises kontekstis säilitamisväärseid ehitisi on mitu korda rohkem. Planeeringute kaudu on nüüd igal kogukonnal võimalik kaasa rääkida, millised asumid ja ehitised väärivad säilitamist miljööalade ja väärtuslike üksikobjektidena. Olemasolevate ehitiste jätkuva ja taaskasutamise juures on järjest olulisem ka keskkonnasäästlik aspekt.
 
-Veerand ehitismälestistest on halvas seisus ja kasutuseta, riigi toetus nende korrastamiseks on jäänud majandussurutiseaegsele tasemele ja see ei ole kaugeltki piisav. Eraomanikele ei jää märkamata ka avaliku sektori ebajärjekindel suhtumine kultuuripärandisse – mitmete riigile või kohalikele omavalitsustele kuuluvate mälestiste halb seisukord ja suletus avalikkusele. 
-Ajalooliste ehitiste, sealhulgas mälestiste ja muinsuskaitsealade kasutuse ja seisukorra määravad üldjuhul muinsuskaitsevälised otsused: asutuste välja- ja kokkukolimine, suurte eurotoetuste määramine ja muu sarnane. Asulate keskustes ehitiste tühjaks jätmine muudab asulad elukeskkonnana ebameeldivaks ning kiirendab negatiivseid rahvastikuprotsesse. Kestliku regionaalarengu ja pärandihoiu toetamiseks on vajalik üksikute ruumiotsuste parem läbimõtlemine ning avaliku sektori investeeringute ja toetuste suunamine ajalooliste keskuste elavdamisse. 
+Veerand ehitismälestistest on halvas seisus ja kasutuseta, riigi toetus nende korrastamiseks on jäänud majandussurutiseaegsele tasemele ja see ei ole kaugeltki piisav. Eraomanikele ei jää märkamata ka avaliku sektori ebajärjekindel suhtumine kultuuripärandisse – mitmete riigile või kohalikele omavalitsustele kuuluvate mälestiste halb seisukord ja suletus avalikkusele.
+Ajalooliste ehitiste, sealhulgas mälestiste ja muinsuskaitsealade kasutuse ja seisukorra määravad üldjuhul muinsuskaitsevälised otsused: asutuste välja- ja kokkukolimine, suurte eurotoetuste määramine ja muu sarnane. Asulate keskustes ehitiste tühjaks jätmine muudab asulad elukeskkonnana ebameeldivaks ning kiirendab negatiivseid rahvastikuprotsesse. Kestliku regionaalarengu ja pärandihoiu toetamiseks on vajalik üksikute ruumiotsuste parem läbimõtlemine ning avaliku sektori investeeringute ja toetuste suunamine ajalooliste keskuste elavdamisse.
 
 ### Viidatud allikad {-.subreferences}
 
