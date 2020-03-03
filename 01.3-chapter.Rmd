@@ -5,7 +5,7 @@
 ```
 
 ```{block, type='points'}
-* Krundiviisiline eeslinna keskkonna arendamine loob hõreda, vähesidusa, hajusalt kujundatud avaliku ruumi ja killustatud asustuse.
+* Krundiviisiline arendustegevus Tallinn, Tartu ja Pärnu eeslinnavööndis loob hajusa, hõreda, killustatud ja keskuskohtadeta asustuse, milles  avaliku ruumina on kasutuses kergliiklusteed, mänguväljakud, parklad ja tühermaad.
 ```
 
 Heaoluühiskond Eestis on edenenud käsikäes eeslinna-Eestiga. Tallinnas sai see alguse Tiskrest, siis katsid eramud ja madaltihedad kortermajad Viimsi poolsaare, seejärel suundus eeslinnastumine sügavamale Harjumaale. Tartus sai eeslinnastumine hoo sisse majandusbuumi ajal. On hakatud rääkima Suur-Tallinnast ja Suur-Tartust. Ajastutruult ja sümboolselt rajati isegi Eesti Rahva Muuseum eeslinna ‒ Raadile.
@@ -21,8 +21,8 @@ Eeslinnas kohtub demokraatliku ja vaba ühiskonna arengumudel turumajandusliku k
 
 Asustuse arengut Eesti suuremate linnade tagamaal avavad kolm võtmemõistet: eeslinnastumine (ingl suburbanisation), valglinnastumine (ingl urban sprawl) ja äärelinnastumine (ingl peri-urbanisation). Lisaks tõi üleriigiline planeering Eesti 2030+ kasutusele hajalinna mõiste, mis seob tervikuks kompaktsed linnad, eeslinnad ning ääremaa asustuse.
 
-Põhimõistena, kõige laiemas tähenduses, on eeslinnastumine protsess, mida iseloomustab inimeste elama asumine linna tagamaale, linnu ümbritsevatel aladel kaob selle käigus selge maa ja linna vaheline piir ([Tammaru jt 2004](#Tammaru2004)). Et enne 2007. aasta majanduskriisi toimus eeslinnastumine eriti kaootiliselt, siis on hinnangulisema terminina läinud avalikku kõnepruuki valglinnastumine ([Leetmaa jt 2014](#Leetmaa2014); [Tammaru jt 2009](#Tammaru2009)). See osutab linna vähe kontrollitud laialivalgumisele, mis hõlmab lisaks eeslinnavööle ka laiemat tagamaad. Maakasutuse muutust väljendab valglinnastumisel ribakujulise, lapilise ja eraldatud hoonestuse teke, mis toob tihti kaasa raiskava maa-, energia- ja taristukulu, keskkonnareostuse, ummikud ja mitmed teised välismõjud. Valglinnastumist peetakse linnaplaneerimist käsitlevas kirjanduses üldiselt negatiivseks linnaarengu tüübiks ([van Dijk 2009](#van-Dijk2009)). Lääne- ja Kesk-Euroopas räägitakse ka äärelinnastumisest, viidates paremale lahendusele, mille puhul rangem planeerimispoliitika võimaldab linna laiendada keskuslinna perimeetril sidusas linnamustris ([Phelps 2017](#Phelps2017)). Ka Eestis on 2000. aastate hajus valglinnastumine praegu jätkumas äärelinnastumisena. 
-Järgnev Tallinna, Tartu ja Pärnu eeslinnastumise analüüs põhineb haldusüksustel, kus eeslinnastumise juhtindikaatoriks on elanike arv ning juhtkriteeriumiks kiire kasv alates 2001. aastast. Suur-Tallinn hõlmab Harku, Jõelähtme, Keila, Kiili, Rae, Saku, Saue ja Viimsi valda ning Saue linna. Suur-Tartu on laienenud Haaslava, Luunja, Tartu, Tähtvere ja Ülenurme valda. Pärnu eeslinnaks on saanud Audru, Paikuse, Sauga ja Tahkuranna vald. Seega jäävad käsitlusest välja Tallinna „vanad“ ees- ja satelliitlinnad Keila ja Maardu ning Pärnus Sindi. Teiseks kriteeriumiks on uue eeslinliku asustuse teke mõõdetuna uuselamute arvu ja asustustiheduse kasvuga eeslinlikuks. Ka siin on oluline ennekõike muutus ja kasv. Eeslinlikku asusutustihedust saab hakata jälgima juba tagasihoidlikust 100 elanikust km2 kohta. Statistikaamet on nimetanud üleminekulise eeslinnavöö osaliselt linnastunud alaks vähima asustustihedusega 200 inimest km2-l, kuid eeslinna asustusmustris osutub ka see piirarv liiga kõrgeks.
+Põhimõistena, kõige laiemas tähenduses, on eeslinnastumine protsess, mida iseloomustab inimeste elama asumine linna tagamaale, linnu ümbritsevatel aladel kaob selle käigus selge maa ja linna vaheline piir ([Tammaru jt 2004](#Tammaru2004)). Et enne 2007. aasta majanduskriisi toimus eeslinnastumine eriti kaootiliselt, siis on hinnangulisema terminina läinud avalikku kõnepruuki valglinnastumine ([Leetmaa jt 2014](#Leetmaa2014); [Tammaru jt 2009](#Tammaru2009)). See osutab linna vähe kontrollitud laialivalgumisele, mis hõlmab lisaks eeslinnavööle ka laiemat tagamaad. Maakasutuse muutust väljendab valglinnastumisel ribakujulise, lapilise ja eraldatud hoonestuse teke, mis toob tihti kaasa raiskava maa-, energia- ja taristukulu, keskkonnareostuse, ummikud ja mitmed teised välismõjud. Valglinnastumist peetakse linnaplaneerimist käsitlevas kirjanduses üldiselt negatiivseks linnaarengu tüübiks ([van Dijk 2009](#van-Dijk2009)). Lääne- ja Kesk-Euroopas räägitakse ka äärelinnastumisest, viidates paremale lahendusele, mille puhul rangem planeerimispoliitika võimaldab linna laiendada keskuslinna perimeetril sidusas linnamustris ([Phelps 2017](#Phelps2017)). Ka Eestis on 2000. aastate hajus valglinnastumine praegu jätkumas äärelinnastumisena.
+Järgnev Tallinna, Tartu ja Pärnu eeslinnastumise analüüs põhineb haldusüksustel, kus eeslinnastumise juhtindikaatoriks on elanike arv ning juhtkriteeriumiks kiire kasv alates 2001. aastast. Suur-Tallinn hõlmab Harku, Jõelähtme, Keila, Kiili, Rae, Saku, Saue ja Viimsi valda ning Saue linna. Suur-Tartu on laienenud Haaslava, Luunja, Tartu, Tähtvere ja Ülenurme valda. Pärnu eeslinnaks on saanud Audru, Paikuse, Sauga ja Tahkuranna vald. Seega jäävad käsitlusest välja Tallinna „vanad“ ees- ja satelliitlinnad Keila ja Maardu ning Pärnus Sindi. Teiseks kriteeriumiks on uue eeslinliku asustuse teke mõõdetuna uuselamute arvu ja asustustiheduse kasvuga eeslinlikuks. Ka siin on oluline ennekõike muutus ja kasv. Eeslinlikku asustustihedust saab hakata jälgima juba tagasihoidlikust 100 elanikust km2 kohta. Statistikaamet on nimetanud üleminekulise eeslinnavöö osaliselt linnastunud alaks vähima asustustihedusega 200 inimest km2-l, kuid eeslinna asustusmustris osutub ka see piirarv liiga kõrgeks.
 
 ```{block, type='blockquote-right'}
 Maakasutuse muutust väljendab valglinnastumisel ribakujulise, lapilise ja eraldatud hoonestuse teke, mis toob tihti kaasa raiskava maa-, energia- ja taristukulu, keskkonnareostuse, ummikud ja mitmed teised välismõjud.
@@ -30,7 +30,7 @@ Maakasutuse muutust väljendab valglinnastumisel ribakujulise, lapilise ja erald
 Kui otsida ühist ja erinevat võrdluses Euroopa eeslinnadega, siis Madalmaades, Prantsusmaal, Saksamaal ja Põhjamaades sai eeslinnastumine kiire hoo sisse riiklike elamuprogrammide käivitamisel 1960. aastatel ning vältas läbi 1970.‒1980. aastate ([Bruegmann 2008](#Bruegmann2008)). Vahemere maades muutus keskuslinnade arengueeliste tõttu eeslinnastumine valitsevaks linnastumisprotsessiks paar kümnendit hiljem, 1980. aastatel. 1990. aastateks olid Lääne- ja Kesk-Euroopa jõudnud linnapiirkondade arengus eeslinnajärgsesse etappi (ingl post-suburban) ning asusid otsima uut arenguvõtit vanaldunud eeslinnadele ([Phelphs ja Wood 2011](#Phelps2011).” Eeslinnauuenduse uusurbanistlikul suunal rõhusid arhitektid ja projekteerijad linnaruumi tihendamisele ja esteetikale, jalakäija ja ühistranspordi eelistamisele autoliikluse ees ning ökoloogilistele, säästlikele lahendustele, mis ühtlasi rõhutas maalist ([Randolph 2012](#Randolph2012)). Eeslinnajärgsed eeslinnaarendused, linnakujundus ja -korraldus on matkimas keskuslinna tunnuseid ja protsesse nii linnakeskkonna ja otstarvete mitmekesistamisel kui ka hoonestuse tihendamisel, kuid teevad seda jätkuvalt eeslinlikes mõõtmetes ja vormides. “Ühtlasi on seadusandjad pannud rangeid kvoote, et piirata rohealadele (ingl greenfield) ehitamist, toetades siiski linnalähialade teisest maakasutust pruunaladel (ingl brownfield).
 
 ```{block, type='blockquote-left'}
-Sarnaselt Eestiga on Ida- ja Kesk-Euroopa eeslinnad kerkinud maakasutust killustades üheots- tarbeliste elamualade ja äri-logisti- kaparkidena.
+Sarnaselt Eestiga on Ida- ja Kesk-Euroopa eeslinnad kerkinud maakasutust killustades üheotstarbeliste elamualade ja äri-logistikaparkidena.
 ```
 Kesk- ja Ida-Euroopa linnad jõudsid eeslinnastumiseni turujõudude küpsedes nii pakkumise kui ka nõudluse poolel alles 1990. aastate lõpus, misjärel on eeslinnastumise kasvumäär arenenud kooskõlas majanduskasvuga, väljendades heaoluühiskonna edenemist ([Phelphs 2017](#Phelps)). Sarnaselt Eestiga on Ida- ja Kesk-Euroopa eeslinnad kerkinud maakasutust killustades üheotstarbeliste elamualade ja äri-logistikaparkidena, lisaks mõned tarbimis- ja autoühiskonna vajadustest tingitud suured kaubanduskeskused ja Euroopa Liidu kaasrahastatud taristusõlmed ([Leetmaa jt 2014](#Leetmaa)). Eesti linnastumine on jätkuvalt modernistlikus etapis ega ole ka Suur-Tallinnas jõudnud hilismoderismi, rääkimata tagasilinnastumisest või tugevast linnapiirkonnastumisest.
 
@@ -44,10 +44,10 @@ Tallinna, Tartu ja Pärnu eeslinnavöös elab kokku 130 000 inimest. Tallinna ee
 ```{r, figure131, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
 library("tidyverse")
-  
+
  fig131_data <- read.csv ("data/13_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
 
- 
+
   fig131_plot <- ggplot(subset(fig131_data, area %in% c("Tallinna eeslinn", "Tartu eeslinn", "Pärnu eeslinn"))) +
     geom_line(mapping = aes(x=year, y = as.numeric(value), colour=area, group=area), size=1) +
     geom_text(mapping = aes(x=year, y=as.numeric(value), label=value), stat="identity", vjust=-1) +
@@ -56,13 +56,13 @@ library("tidyverse")
     scale_x_continuous(breaks=c(2001,2006,2011,2015,2016,2017,2018),expand = c(0, 0), limits=c(2000,2018.5)) +
     labs(y="eeslinlaste arv", x="aasta")
     expand_limits (y=0)
-  
+
    fig131_theme <- theme(
      panel.grid.minor.x = element_blank(),
   )
 
   print(fig131_plot + fig_theme_general + fig131_theme)
-  
+
   ggsave(path="exported_figures/PDF/chapter1",filename="fig131.pdf", height=160, width=250, units="mm")
 ```
 
@@ -84,15 +84,15 @@ Lisaks elukohamuutustele on tõusvas joones kasvanud eeslinna pendelränne. Pend
 ```{r, figure132, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
 library("tidyverse")
-  
+
  fig132_data <- read.csv ("data/13_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
 
- 
+
 
    fig132_theme <- theme(
   )
 
-  
+
   ggsave(path="exported_figures/PDF/chapter1",filename="fig132.pdf", height=160, width=250, units="mm")
 ```
 
@@ -108,14 +108,14 @@ Eeslinna uuselamud (18 794 eluruumi) moodustavad 29% kogu Eesti elamuehitusest (
 
 library("tidyverse")
 library("reshape")
-  
+
  fig133_data <- read.csv ("data/13_fig3_data.csv", header=TRUE, fileEncoding="utf-8", sep=";", check.names=FALSE)
- 
+
  fig133_data_clean <- melt (fig133_data, id=c("area"))
  colnames( fig133_data_clean) <- c("area", "year","value")
 
  fig133_data_clean$area <- factor (fig133_data_clean$area, levels = c("Tallinn","Tallinna eeslinn", "Tartu","Tartu eeslinn","Pärnu","Pärnu eeslinn"))
- 
+
   fig133_plot <- ggplot(fig133_data_clean) +
     geom_line(mapping = aes(x=year, y = as.numeric(value), colour=area, group=area), size=1) +
     #scale_x_continuous(expand = c(0, 0), limits=c(2002,2018)) +
@@ -123,13 +123,13 @@ library("reshape")
     labs(y="uute eluruumide arv", x="aasta") +
     expand_limits (y=0) +
     scale_colour_manual(values=c("#482683","#3A404A","#917DB5","#A8ACA6","#DAD4E6","#E6E3DA"))
-  
+
    fig133_theme <- theme(
         axis.text.x = element_text(angle=45, margin = margin(t = 7, r = 0, b = 0, l = 0), hjust=1.1),
   )
 
   print(fig133_plot + fig_theme_general + fig133_theme)
-  
+
   ggsave(path="exported_figures/PDF/chapter1",filename="fig133.pdf", height=120, width=200, units="mm")
 ```
 
@@ -141,7 +141,7 @@ library("reshape")
 
 Kui linna on traditsiooniliselt peetud tihedaks, mitmekesiseks ja sidusaks, siis eeslinn vastandub keskuslinnale hajali ja hõreda üheotstarbelise asustusega. Suur-Tallinn on eeslinnastumisel laienenud 800 km2, millest halduslikult moodustab Tallinna linn 159 km2. Suur-Tartu on morfoloogiliselt laienenud 120 km2, millest Tartu linn hõlmab 39 km2. Pärnus on eeslinnapiiri keerukam tõmmata.
 
-Eeslinnastumine algab vaba maa, enamasti põllumajandusmaa otstarbe muutmisest. Kahekümne aastaga on maanteeäärsed radiaalsed suunad Tallinnast ja Tartust üldiselt välja arendatud, samuti linnaserv, kus jätkub eeslinnaasustuse tihendamine. Mida kaugemale linnast liikuda, seda hajusamaks ja katkendlikumaks asustus muutub. Hajaküladesse, tüüpnäitena Vaskjala küla Rae vallas ja Laane küla Kambja vallas, on kerkinud sinna-tänna kuni mõneteistmajaline uushoonestus ega ole tekkinud tervikuna uusasumite koondumist ja keskkoha loogikat. 
+Eeslinnastumine algab vaba maa, enamasti põllumajandusmaa otstarbe muutmisest. Kahekümne aastaga on maanteeäärsed radiaalsed suunad Tallinnast ja Tartust üldiselt välja arendatud, samuti linnaserv, kus jätkub eeslinnaasustuse tihendamine. Mida kaugemale linnast liikuda, seda hajusamaks ja katkendlikumaks asustus muutub. Hajaküladesse, tüüpnäitena Vaskjala küla Rae vallas ja Laane küla Kambja vallas, on kerkinud sinna-tänna kuni mõneteistmajaline uushoonestus ega ole tekkinud tervikuna uusasumite koondumist ja keskkoha loogikat.
 
 Linnavormiliselt eristuvad põhiliselt ühepereelamutega hoonestatud asumid (tihedusega 200 eluruumi/km2 ehk 600 inimest/km2) ning rida- ja korterelamuhoonestus (asustustihedus 600‒800 eluruumi/km2 ehk kuni 2000 inimest/km2) ([joonis 1.3.4](#figure134)). Hõredamas ja maalisema maastikumustriga eeslinnas langeb rahvastiku tihedus 50‒100 inimeseni/km2-l. Lisaks elamualadele laiuvad eeslinnas äri- ja logistikakeskused. Sotsiaalmaad pigem pole.
 
@@ -155,7 +155,7 @@ Linnavormiliselt eristuvad põhiliselt ühepereelamutega hoonestatud asumid (tih
 <span class="imgsource-source">Allikas:</span> Maa-amet.
 ```
 
-### Eeslinnamuster sünnib detailplaneeringute summas {-chapter1_section}
+### Eeslinnamuster sünnib detailplaneeringute summas {-.chapter1_section}
 
 Maakonnaplaneeringud rõhutavad olemasolevat asustusstruktuuri ja taotlevad uushoonestuse paigutamist kompaktselt kas tiheasumite sisse või vahetusse naabrusse. Nii oleks võimalik luua ruumimudel tervikliku hoonestuse ja linnataristu arendamiseks ning eeldused tõhusaks linnahalduseks. Sama ruumipoliitikat ajavad üldplaneeringud. Tänapäeval on tavapärane, et eeslinnastunud ruumi loomise aluseks on üksikud detailplaneeringud, mis tühistavad suuresti omavalitsuste üldplaneeringute tervikliku ja sidusa asustuse arendamise plaani.
 Maakonnaplaneeringute koostamisel tekkis kaks metoodilist võtit. Asustuste arengut Tallinna ümbruskonnas väljendati hägusate aladega, kui Tartu laienemisel lähtuti tegelikust olukorrast, märkides juba planeeritud ja perspektiivsed eeslinnasumid maha kehtestatud detailplaneeringute, sidusa maakasutuse ja realistliku vajaduse alusel ([joonis 1.3.5](#figure135)).
@@ -171,11 +171,11 @@ Maakonnaplaneeringute koostamisel tekkis kaks metoodilist võtit. Asustuste aren
 ```
 
 ```{block, type='blockquote-right'}
-Tänapäeval on tavapärane, et ees- linnastunud ruumi loomise aluseks on üksikud detailplaneeringud, mis tühistavad suuresti omavalitsuste üldplaneeringute tervikliku ja sidu- sa asustuse arendamise plaani.
+Tänapäeval on tavapärane, et eeslinnastunud ruumi loomise aluseks on üksikud detailplaneeringud, mis tühistavad suuresti omavalitsuste üldplaneeringute tervikliku ja sidusa asustuse arendamise plaani.
 ```
 Teiseks taotlevad maakonnaplaneeringud mitmekeskuselisest linnaarengut. Teenusevõrgu areng toimub aga nii Tallinnas, Tartus kui ka Pärnus ikkagi keskuslinnapõhiselt. Tallinna linnapiirkonnas on keskuste rolli võtnud suured vabaajakeskused. Tabasalu, Keila, Saue, Saku, Kiili, Jüri, Loo, Maardu ning Viimsi moodustavad kohalike tõmbekeskuste ringi. Eeslinnaalevikud rahuldavad koduläheduse põhimõttel esmavajadusi. Nende areng keskustena on olnud ühekülgne, sest äriteenustest asutatakse sinna vaid toidukauplusi, kus on lisaks apteek, lemmikloomakauplus, pitsalett ja ilusalong. Tartu ja Pärnu mõõtu linnas pole ka oodata uute tugevate eeslinnakeskuste teket, sest piire seab mastaabiefekt ning võrdlemisi kiire liikuvus.
 
-Tegelikult määratlevad eeslinnaasustuse arengu väikese pindalalised, killustatult ja juhuslikus ajalises järgnevuses koostatud ja kehtestatud detailplaneeringud, mida ilmestab Rae ja Raasiku valla planeeringukaart ([joonis 1.3.6](#figure136)). 
+Tegelikult määratlevad eeslinnaasustuse arengu väikesepindalalised, killustatult ja juhuslikus ajalises järgnevuses koostatud ja kehtestatud detailplaneeringud, mida ilmestab Rae ja Raasiku valla planeeringukaart ([joonis 1.3.6](#figure136)).
 
 <p class="caption" id="figure136"><span class="figure-number">Joonis 1.3.6.</span> Killustatud uus eeslinnaasustus: Rae ja Raasiku valla detailplaneeringu alad alates 1999. aastast</p>
 
@@ -190,7 +190,7 @@ Tegelikult määratlevad eeslinnaasustuse arengu väikese pindalalised, killusta
 ```{block, type='casebox'}
 <h3> Ridaelamute rida Veskimöldres – kiiresti ja lihtsalt!</h3>
 
-Sirgjooneline eeslinna tihendamise näide on Veskimöldre uusasumi laiendus Koruservas. Arendaja taotles Saue vallavalitsuselt detailplaneeringu algatamist 12. augustil 2016, algatamise otsus tuli 3. jaanuaril 2017 ning volikogu kehtestas planeeringu juba 15. augustil 2017. Kaheksa hektari suurune maa-ala jagati viieks ridaelamukrundiks. Lisaks planeeriti reoveepumplale tehnorajatise krunt ning säilitati rohevõrgustiku koridor ([joonis 1.3.7](#figure137)). Arendus käib ning enamik kolme ridaeelamu boksidest olid 2019. aasta aprilliks müüdud. 
+Sirgjooneline eeslinna tihendamise näide on Veskimöldre uusasumi laiendus Koruservas. Arendaja taotles Saue vallavalitsuselt detailplaneeringu algatamist 12. augustil 2016, algatamise otsus tuli 3. jaanuaril 2017 ning volikogu kehtestas planeeringu juba 15. augustil 2017. Kaheksa hektari suurune maa-ala jagati viieks ridaelamukrundiks. Lisaks planeeriti reoveepumplale tehnorajatise krunt ning säilitati rohevõrgustiku koridor ([joonis 1.3.7](#figure137)). Arendus käib ning enamik kolme ridaeelamu boksidest olid 2019. aasta aprilliks müüdud.
 
 <p class="caption" id="figure137"><span class="figure-number">Joonis 1.3.7.</span> Alliku küla Koruserva kinnistu detailplaneering – eeslinna tihendamise näide</p>
 
@@ -199,12 +199,12 @@ Sirgjooneline eeslinna tihendamise näide on Veskimöldre uusasumi laiendus Koru
 <span class="imgsource-source">Allikas:</span> K-Projekt.
 ```
 
-### Turujõud ja planeerimispoliitika väljenduvad kohaloomes {-chapter1_section}
+### Turujõud ja planeerimispoliitika väljenduvad kohaloomes {-.chapter1_section}
 
 Eeslinnastumisprotsessi liikumapanevad jõud on aktiivne kinnisvaraturg ja liberaalne õigusruum ([van Dijk 2009](#van-Dijk2009)). Linnalähised maa-alad on arendaja ja planeerija unelm. 1990. aastate maareform lõi maakorralduses kirju jaotuse ja soosis likviidse kinnisvaraturu teket. 2000. aastate alguses käivitus linnalähialadel tinglikult teine maareform, milles hakati mõnehektarilisi talumaasiilusid kruntima elamumaaks. Eeslinnamaade arendamine on juriidilis-menetluslikult ning insener-tehniliselt lihtne, kulutõhus ja kiire. Linnalähised omavalitsused ei ole asustuse arengut piiranud ning planeeringulahendused sünnivad üldiselt arendaja-omavalitsuse mõlemapoolses huvis, heas tahtes ja lihtsakoelistes lahendustes. See aga muutub probleemiks ‒ arendatava-ehitamata maa ülepakkumine viib juhuslikes külgnevustes ja arendusjärjestuses ebaloogilise katkestustega maakasutusmustrini.
 
 ```{block, type='blockquote-left'}
-Arendatava-ehitamata maa ülepakkumine viib juhuslikes külgnevustes ja arendusjärjestuses ebaloogilise katkestustega maa- kasutusmustrini.
+Arendatava-ehitamata maa ülepakkumine viib juhuslikes külgnevustes ja arendusjärjestuses ebaloogilise katkestustega maakasutusmustrini.
 ```
 Elamuturg käitub eeslinnas keskuslinnast erinevalt. Esimese majandusbuumi ajal kasvas elamuarendus Tallinna eeslinnas Tallinnast endast kiiremini, kuid ei suutnud ületada siiski 2000 uue eluruumi taset aastas (2007). Elamuarenduse langus pöördus tõusuks eeslinnas juba kolme aastaga, kuid Tallinnas langes uuselamumaht pikalt kuni 2013. aastani. Viimasel viiel aastal on eeslinnakasv olnud aeglasem kui Tallinna oma. Tartu elamuarendust iseloomustab seni linna ja eeslinna tasakaal, mis 2013. aastal alanud tõusulaines kaldus järjest rohkem eeslinna kasuks, kuid 2018. aastal läks linnaarenduste maht uuesti eeslinnast mööda. Elamuarendust Tartu eeslinnas ei halvanud oluliselt majanduskriis, asjaolu, mis kinnistab ülikoolilinna elamukinnisvaraturu stabiilsust ja likviidsust.
 
@@ -238,7 +238,7 @@ Ameerikalikud sümbolväärtused, unistus uuest ja ilusast kodust eeslinnarohelu
 ```
 Ameerikalikud sümbolväärtused, unistus uuest ja ilusast kodust eeslinnaroheluses, turvalisus, vaikus ja rahu, ei ole Eesti eeslinnastumise stereotüüp. Elukvaliteet kesklinnas ja eeslinnas ei erine Tallinnas, Tartus ega Pärnus sellisel määral nagu suurlinnastunud ja kihistunud, mitmetes kasvulainetes metrourbaniseerunud Euroopa ja Ameerika suurlinnades. Eesti eeslinnas elab neljaliikmeline pere, isa-ema käivad tööl (ka kodukontoris), kui pole just vanemapuhkusel, lapsed kesklinna koolis. Hinnalisteks pereliikmeteks on auto ja tõukoer. Avalikus ruumis, kergliiklusteedel tehakse innukalt sporti. Sotsialiseerumine toimub pereringis, tagahoovis on mängumaja ja hüppevõrk, kasvuhoone ja väliköök. Meeleolu loovad muruniiduki mürin ning sõpruskondlikud sauna- ja grilliõhtud.
 
-### Kodulähedasi avalikke teenuseid ja avalikku ruumi eeslinnas napib {-chapter1_section}
+### Kodulähedasi avalikke teenuseid ja avalikku ruumi eeslinnas napib {-.chapter1_section}
 
 Linnapoliitika programmiliseks elluviimiseks Euroopa Liidu linnapiirkondade jätkusuutliku arengu meetme raames koostati 2014. aastal Tallinna, Tartu ja Pärnu linnapiirkondadele strateegiad, milles seati eesmärgiks lasteaedade ja rattateede ehitamine, ühistranspordisüsteemi arendamine ning avaliku linnaruumi kujundamine. Ühtlasi taotleti sidusat (ees)linnakorraldust, mis ületab halduspiire. Kahtlemata on nimetatud teemad eeslinlaste esmased vajadused, mida riik ja omavalitsused peavad tuhandeid uuselanikke arvestavalt rahuldama. Kuidas üldiselt omavalitsus kasvava elanikkonnaga nii-öelda kaasa jookseb peale eespool käsitletud planeerimisprotsessi korraldamise? Omavalitsused tegelevad eeslinnakorraldusega, mis hõlmab järgmist: insneritaristu, lasteaia- ja koolikohtade arvu kasvatamine (nt paigutades lapsi õppima hiigelkoolidesse ja soojakutesse), liiklus- ja parkimiskorraldus, heakorra loomine uuselamute ja ehitusplatside vahel ja muu sarnane. Kindlasti on üks olulisi ülesandeid ka uuselanike informeerimine, nii-öelda kodustamine ja rahustamine seoses kõigi pikemate arengusuundumuste, aga ka pakiliste vajadustega. Omavalitsused korraldavad koosolekuid kas planeeringute või avalike teenuste teemal, kui on tekkinud rahulolematus seoses planeerimismenetluse läbipaistvuse või teenuse kättesaadavusega. Eeslinlased on ümbruskonna arenduste, eraõiguslike ja avalike otsuste suhtes kahekordselt tähelepanelikud, et eos maandada riske oma kinnisvarale või elukvaliteedile.
 
@@ -248,15 +248,15 @@ Eeslinnaruum on täis järske katkestusi.
 
 Võiks oletada, et eeslinnas, vabade maade külluses, parema elukeskkonna ja roheluse argumentidega planeeritakse avalikku ruumi kaalutletumalt, kui see on võimalik tihedas kesklinnas. Elamutevaheline tühjus võiks ju olla hästi organiseeritud sidus avalik ruum. Tegelikkuses piirdutakse esmavajalikuga, mis uuselamute ümber väljendub mõne puu, heki, parkla ja mänguväljakuna, ning esineb ka juhtumeid, kus esialgu ühiskasutusse planeeritu on ala- või väärkasutuse tõttu läinud hiljem piiratud erakasutusse. Eeslinnaruum on täis järske katkestusi, näiteks tupiktänav võib osutuda tupikuks ka kergliiklejale, kõnnitee või tänavavalgustus lõpeb vastu korterelamu krunti, bussipeatus on teisel pool põldu, mõni ehitusplats laiutab aastaid porimülkana keset uusasumit.
 
-Avalik ruum on esindatud eeslinnas põhiliselt rohe- ja haljasalade, kergliiklus- ja kõnniteede, mänguväljakute ja spordiplatside, ühistranspordi peatuste, parklate, ostukeskuse ja tanklatena. Ehkki rohelust eeslinnas jagub, vähendab uushoonestus loodus- ja rohealasid, lõikab läbi rohevõrgustiku elemente või jätab elupaigad nii-öelda tupikusse. Maja maja haaval tehtud arendused ei suuda tekitada linnaruumis loogikat enne, kui asum pole täielikus vormis välja ehitatud.
+Avalik ruum on esindatud eeslinnas põhiliselt rohe- ja haljasalade, kergliiklus- ja kõnniteede, mänguväljakute ja spordiplatside, ühistranspordi peatuste, parklate, ostukeskuste ja tanklatena. Ehkki rohelust eeslinnas jagub, vähendab uushoonestus loodus- ja rohealasid, lõikab läbi rohevõrgustiku elemente või jätab elupaigad nii-öelda tupikusse. Maja maja haaval tehtud arendused ei suuda tekitada linnaruumis loogikat enne, kui asum pole täielikus vormis välja ehitatud.
 
 ```{block, type='blockquote-left'}
-Eeslinna transporditaristu, laiad kiirteed, kogujateed, kahetasandi- lised ristmikud, müratõkked, tanklad loovad suurevormilise transpordimaastiku.
+Eeslinna transporditaristu, laiad kiirteed, kogujateed, kahetasandilised ristmikud, müratõkked, tanklad loovad suurevormilise transpordimaastiku.
 ```
 Klassikalist tänavat kohtab eeslinnas harva kui üldse. Kõnniteid saab linnastandardi survel kohustada arendajat ehitama vaid kortermajade ette. Kõnnitee on otsustav esmase tänavamiljöö tekitamisel, kuid üksi kõnniteeribast ei piisa. Nii on kõige populaarsemaks avalikuks ruumiks eeslinnas kergliiklusteed. Kergliiklusteid kasutavad aktiivselt noored emad-isad imikute ja väikelastega jalutamiseks, spordiharrastajad jooksmiseks, kepikõnniks, ratta- ja rulluiskudega sõiduks ning koerapidajad. Sihtliikuvuseks tööle-kooli kasutatakse kõnniteid pigem harva ‒ eeslinlaste funktsionaalne liikuvus põhineb enamasti autol. Eeslinna transporditaristu, laiad kiirteed, kogujateed, kahetasandilised ristmikud, müratõkked, tanklad loovad suurevormilise transpordimaastiku.
 
 ```{block, type='blockquote-right'}
-Nüüdisaegne tankla ei kauple ainult autokütusega, vaid täidab parema puudumisel laiaotstarbe- liselt toidupoe, kohviku, kiirsöökla, puhkekoha ja isegi suitsunurga ülesandeid.
+Nüüdisaegne tankla ei kauple ainult autokütusega, vaid täidab parema puudumisel laiaotstarbeliselt toidupoe, kohviku, kiirsöökla, puhkekoha ja isegi suitsunurga ülesandeid.
 ```
 Lasterikkas eeslinnas on kasvav nõudlus mänguväljakute järele ([joonis 1.3.9](#figure139)). Arendajad ja omavalitsused on ka sellele uute korterelamute vaheliste alade kujundamisel väärilist tähelepanu osutanud, kuivõrd ühepereelamutes mängivad lapsed oma hoovimurul. Mänguväljakutele on lisatud ka palliplatse, et pakkuda hoovispordi võimalust noorukitele. Uuselamupiirkondadesse on ehitatud tennisekorte, mille kasutus on küll juba piiratud, klubiline. Avalikuks ruumiks võib kitsamas tähenduses pidada ka avalikke parklaid. Üldiselt on detailplaneeringutes avalikke ja kogukondlikke huvisid silmas peetud, iseküsimus on nende väljaehitamine, eriti juhul kui elamuala arendatakse etapiviisiliselt. Küll aga on eeslinna tihenevates liiklusvoogudes elu ja surma küsimuseks muutunud kergliiklejatele teeületused. Vaidlusi on tekitanud uusasumites ka bussipeatuste paigutamine, sest keegi ei soovi oma ukse ette täiendavat liiklusmüra ja inimeste kogunemist.
 
@@ -270,20 +270,20 @@ Lasterikkas eeslinnas on kasvav nõudlus mänguväljakute järele ([joonis 1.3.9
 <span class="imgsource-source">Allikas:</span> autori foto.
 ```
 
-Avalikku ruumi pakuvad eeslinnavööndis ohtralt kaubanduskeskused, kuid nende avalikku kasutust reguleerivad siiski omanikud, muu hulgas piirates lahtiolekut. Sama eraõigusliku avaliku ruumi alla liigituvad tanklad, mis kerkivad eeslinna sageli esimeste teenusobjektidena. Nüüdisaegne tankla ei kauple ainult autokütusega, vaid täidab parema puudumisel laiaotstarbeliselt toidupoe, kohviku, kiirsöökla, puhkekoha ja isegi suitsunurga ülesandeid. Üldiselt on mänguväljakute, bussipeatuste ja teiste avaliku ruumi objektide hilisemal lisamisel vaiksesse ja rahulikku eeslinna esinenud vaidlusi naabrussuhete üle omavalitsuse, arendaja ja naaberkruntide elanike vahel, mis halvemal juhul on tähendanud avaliku objekti nihutamist kaugemale või koguni sellest loobumist. 
+Avalikku ruumi pakuvad eeslinnavööndis ohtralt kaubanduskeskused, kuid nende avalikku kasutust reguleerivad siiski omanikud, muu hulgas piirates lahtiolekut. Sama eraõigusliku avaliku ruumi alla liigituvad tanklad, mis kerkivad eeslinna sageli esimeste teenusobjektidena. Nüüdisaegne tankla ei kauple ainult autokütusega, vaid täidab parema puudumisel laiaotstarbeliselt toidupoe, kohviku, kiirsöökla, puhkekoha ja isegi suitsunurga ülesandeid. Üldiselt on mänguväljakute, bussipeatuste ja teiste avaliku ruumi objektide hilisemal lisamisel vaiksesse ja rahulikku eeslinna esinenud vaidlusi naabrussuhete üle omavalitsuse, arendaja ja naaberkruntide elanike vahel, mis halvemal juhul on tähendanud avaliku objekti nihutamist kaugemale või koguni sellest loobumist.
 
-### Kokkuvõte {-chapter1_section}
+### Kokkuvõte {-.chapter1_section}
 
 “Pidades silmas Eesti eeslinnastumise eraomandilist ja vabaplaneeringulist olemust viimastel kümnenditel, tuleks eeslinna arendamist käsitleda pigem ameerikalikus linnakasvu ja selle juhtimise võtmes (ingl urban growth, growth management), mitte niivõrd normatiivse range euroopaliku linnaplaneerimisena (ingl urban planning).” Tõsi, eeslinnastumine Eestis ongi ameerikalik, kuigi ka siin on põhimõttelisi linnageograafilisi erinevusi USA eeslinnadest – Eesti eeslinnad on väikesed, ei asu keskuslinnast kuigi kaugel ega ole ka massiarendustena ühetaolised. Erinevalt näiteks USA ja osalt ka Lääne-Euroopa linnastumisprotsessist ei ole eeslinnakasv Eestis otseselt keskuslinna taandarengu, allakäigu või negatiivsete asjaolude tagajärg.
 
 Eeslinna kasvumasin töötab praegu täiskiirusel, lahutamatuna Eesti suurlinnastumisest ja linnaühiskonna arengust. Eeslinnastumine hõlmab Tallinna ümbrust kuni 20 km ning Tartu ja Pärnu linnalähivööndit 5 km raadiuses. Eeslinlik elulaad põhineb kodu- ja autokesksel lastega pere mudelil.
 
-Tallinna, Tartu ja Pärnu lähivööndis on kujunenud täiesti uut tüüpi eeslinlik asustus. Eesti eeslinna iseloomustab hõre, enamasti 50–200 inimeseni km2 kohta, eeslinnaalevikes 1000 inimeseni km2 kohta küündiv rahvastikutihedus ning katkendliku vormiga autokeskne elu-, teenuste- ja liikumiskeskkond. Kokkuvõtvalt võib tõdeda, et uus-eeslinlaste arvu võib hinnata 70 000-le inimesele, kes on teinud küll elukohavaliku üksikotsusena, kuid mõjutavad ühiselt kogu linnapiirkonna toimimist. 
+Tallinna, Tartu ja Pärnu lähivööndis on kujunenud täiesti uut tüüpi eeslinlik asustus. Eesti eeslinna iseloomustab hõre, enamasti 50–200 inimeseni km2 kohta, eeslinnaalevikes 1000 inimeseni km2 kohta küündiv rahvastikutihedus ning katkendliku vormiga autokeskne elu-, teenuste- ja liikumiskeskkond. Kokkuvõtvalt võib tõdeda, et uus-eeslinlaste arvu võib hinnata 70 000-le inimesele, kes on teinud küll elukohavaliku üksikotsusena, kuid mõjutavad ühiselt kogu linnapiirkonna toimimist.
 
 Eeslinnastumisel on oluline maastikuline ja keskkonnamõju, aga ka majanduslik ja ühikondlik tähendus. Eeslinnas hägustuvad linlik ja maaline nii ruumiliselt kui ka sotsiaalselt ja majanduslikult ([Bruegmann 2008](#Bruegmann2008)). Eeslinna arendamine, mis algselt on ratsionaalselt äriline ja standardselt tehniline protsess, muutub elanike sissekolimisel üha enam sotsiaalseks protsessiks, kus sõlmuvad erinevad huvid ja vajadused, vaated ja väärtushinnangud. Eeslinlane ise tegutseb kahel ruumilisel tasandil. Esmatähtis on kodutänav ja naabruskond, aga samavõrd ka keskuslinn, kuhu enamik rahvast iga päev pendeldab. Eeslinnakasvu ruumilised tagajärjed kuhjuvad erahuviliste toimijate ‒ olgu need siis kinnisvaraarendajad või noored pered koduostjatena ‒ tegutsemise juhustena ega ole raamistatud avalikest huvidest. Sidusat linnapiirkonna tasandi planeerimist segab halduslik killustatus.
 
 ```{block, type='blockquote-right'}
-Eeslinnakasvu ruumilised taga- järjed kuhjuvad erahuviliste toimijate ‒ olgu need siis kinnis- varaarendajad või noored pered kodu- ostjatena ‒ tegutsemise juhustena ega ole raamistatud avalikest huvidest.
+Eeslinnakasvu ruumilised tagajärjed kuhjuvad erahuviliste toimijate ‒ olgu need siis kinnisvaraarendajad või noored pered koduostjatena ‒ tegutsemise juhustena ega ole raamistatud avalikest huvidest.
 ```
 Inimeste liikuvuse suurenedes keskuslinna-eeslinna teljel teisenevad igapäevased ruumimustrid, mida tuleb arvestada linnahalduses (fooritsüklid, bussiliinid, hariduskorraldus). Kiire ja kaootiline eeslinnastumine on näidanud, et vajalikud on omavalitsustevahelised linnapiirkonna planeerimisotsused, mis kaalutleksid mitte ainult maakasutuse funktsioone, vaid kõiki avalikke teenuseid ja hüvesid kuni keskkonna- ja sotsiaal-majanduslike mõjude arvestamiseni vähemalt kümnend ette. “Riiklike üldisemate planeeringute jõuetus on andnud eeslinna omavalitsustele nii de jure kui ka de facto (ees)linnaplaneerimise otsusemonopoli.” Eeslinna arendamist suunavad eraarendajate asukohavalikud maareformist killustatud jaotustes. Ehkki sellele on seadusandlikku reguleerimist otsitud aastaid, otsustas Riigikogu maaomanike suure vastuseisu tõttu 2019. aasta alguses loobuda väärtuslike põllumaade kaitse alla võtmisest. Demokraatlikes ühiskondades on eeslinnastumise ja valglinnastumise pidurdamine või seaduslik-administratiivne kontrollimine osutunud võimatuks – ja seda tõestab ja kinnitab ka eeslinna-Eesti. Eeltoodud asjaolusid arvestades vajab Eesti linnapoliitika realistlikku eeslinnakäsitlust, et seista kindlamalt keskuslinna hajumise vastu. Eesti asustusmustrit ja elanike liikuvust arvestades on linnapiirkond optimaalne funktsionaalne planeerimisala, et sidustada elamu-, töö-, teenuste ja vaba aja veetmise võrgustikke ning arendada sotsiaalseid, tehnilisi ja rohetaristuid. See peaks sisaldama linnapiirkonda kuuluvate omavalitsuste ühisotsuseid, ühist teenusegeograafiat ja selle korraldamist ühisasutustes (nt ühistranspordikeskus). Sidus linnaareng üle halduspiiride saab toimuda koosotsustamisel ja koostöövormides. Üks võimalus seda teha on luua linnapiirkondlikud vahe-haldustasandid ja otsustuskogud. Detailplaneerimist aitaks paremini kontrollida ka rangem asustuse arengualade määratlemine ja arendusetappide kehtestamine, samuti eluruumide arendamise ülemmäärad asustuse teemaplaneeringutes. Kuni selleni ei jõuta, ei ole eeslinnastumisel piire.
 

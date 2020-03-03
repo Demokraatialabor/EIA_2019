@@ -17,7 +17,7 @@ Viimastel kümnenditel on enamikus Kesk- ja Ida-Euroopa riikides süvenenud ühi
 
 ### Ääremaastumine on iseennast taastootev nõiaring {-.chapter1_section}
 
-Süveneva piirkondliku ebavõrdsuse kõige selgem ilming on majandusliku ja inimkapitali koondumine Eesti suurematesse linnapiirkondadesse. See toimub enamasti maakohtade ja väikelinnade arvelt, kust need ressursid lahkuvad ja seejärel piirkondlikus arengus puuduvad. Kui Tallinna linnaregioon (Harjumaa) välja arvata, seisid kõik teised Eesti maakonnad aastatel 1995–2017 silmitsi rahvastikukaoga. Sel ajavahemikul kasvas Harjumaa elanikkond 5%. Tartumaa olukord oli suhteliselt stabiilne (rahvastikukadu 5%), samal ajal kui ülejäänud maakondades vähenes rahvaarv märkimisväärselt: 12–27% ([joonis 1.2.1](#figure121)). Peale suurematesse linnadesse elama asumise on oluline roll ka ääremaalt teistesse riikidesse suunduval väljarändel, mida lihtsustas Eesti liitumine Schengeni alaga 2004. aastal. Ka viimaste aastate Eesti positiivne välisrändesaldo, sealhulgas siit varem lahkunud inimeste tagasiränne, soosib Statistikaameti andmetel pealinnaregiooni, näiteks 2018. aastal asus 57% Eestisse asunutest elama Harjumaale. Lisaks sellele viibivad ka ametlikult Eestisse registreeritud elanikud sageli suure osa ajast välismaal. 2011. aasta rahvaloenduse andmetel töötas välismaal 3% (Harjumaa) kuni 8% (Pärnumaa) Eesti maakondade elanikest, kelle registreeritud elukoht asus Eestis. 
+Süveneva piirkondliku ebavõrdsuse kõige selgem ilming on majandusliku ja inimkapitali koondumine Eesti suurematesse linnapiirkondadesse. See toimub enamasti maakohtade ja väikelinnade arvelt, kust need ressursid lahkuvad ja seejärel piirkondlikus arengus puuduvad. Kui Tallinna linnaregioon (Harjumaa) välja arvata, seisid kõik teised Eesti maakonnad aastatel 1995–2017 silmitsi rahvastikukaoga. Sel ajavahemikul kasvas Harjumaa elanikkond 5%. Tartumaa olukord oli suhteliselt stabiilne (rahvastikukadu 5%), samal ajal kui ülejäänud maakondades vähenes rahvaarv märkimisväärselt: 12–27% ([joonis 1.2.1](#figure121)). Peale suurematesse linnadesse elama asumise on oluline roll ka ääremaalt teistesse riikidesse suunduval väljarändel, mida lihtsustas Eesti liitumine Schengeni alaga 2004. aastal. Ka viimaste aastate Eesti positiivne välisrändesaldo, sealhulgas siit varem lahkunud inimeste tagasiränne, soosib Statistikaameti andmetel pealinnaregiooni, näiteks 2018. aastal asus 57% Eestisse asunutest elama Harjumaale. Lisaks sellele viibivad ka ametlikult Eestisse registreeritud elanikud sageli suure osa ajast välismaal. 2011. aasta rahvaloenduse andmetel töötas välismaal 3% (Harjumaa) kuni 8% (Pärnumaa) Eesti maakondade elanikest, kelle registreeritud elukoht asus Eestis.
 
 <p class="caption" id="figure121"><span class="figure-number">Joonis 1.2.1.</span> Eesti regionaalne polariseerumine: rahvastikumuutus ja sisemajanduse koguprodukti jaotumine maakonniti 1995. ja 2017. aastal</p>
 
@@ -35,14 +35,14 @@ print("KAART")
 Rööpselt rahvastiku koondumisega aastatel 1995–2017 soosis majanduskasv Harjumaad, mille panus SKPsse suurenes 54%-lt 64%-le. Ka Tartumaa panus SKPsse suurenes, muude maakondade oma aga vähenes ning suurim oli langus Kirde-Eesti tööstuspiirkondades. Keskustest väljaspool on töökohti üha vähem. Tavaline on maalt linna tööl käimine. Hiljutised kvaliteetsed pendelrände andmed puuduvad, kuid juba 2007–2009 tehtud uuringu ([Ahas jt 2011](#Ahas2011)) andmetel oli Eestis pendelrändajaid 28% elanikkonnast (380 000 inimest).
 
 ```{block, type='blockquote-left'}
-Asustussüsteem on üha enam kaldu suuremate linnaregioonide või koguni üksnes pealinnapiir- konna suunas.
+Asustussüsteem on üha enam kaldu suuremate linnaregioonide või koguni üksnes pealinnapiirkonna suunas.
 ```
 Need üldised suundumused kinnitavad, et piirkondlik ebavõrdsus on Eestis objektiivselt kasvanud ([Annist 2017](#Annist2017); [Noorkõiv 2009](#Noorkõiv2009)). Piirkondliku ebavõrdsuse teke on otseselt seotud rahvastiku kahanemisega ja majandustegevuse kokkukuivamisega ääremaal. Kui töökohad ja teenused koonduvad üksnes suurematesse keskustesse, siis maakohtade ja väikelinnade elanikele tähendab see töö ja muu eluks vajaliku kadumist nende elukoha lähedusest. Asustussüsteem on üha enam kaldu suuremate linnaregioonide või koguni üksnes pealinnapiirkonna suunas. Piirkondliku ebavõrdsuse suurenemine ja väljaspool keskusi asuvate piirkondade kahanemine on üldine arengusuund ka teistes Kesk- ja Ida-Euroopa maades ning mujalgi Euroopas ([Lang ja Görmar 2019](#Lang2019)). Eesti väikelinnad ja maapiirkonnad on ääremaad lausa kahel geograafilisel tasandil – nad asuvad kaugel Eesti peamistest keskustest ja ühtlasi väga kaugel Euroopa tuumikpiirkondadest. Seetõttu on ääremaastumise kui ühiskondlikku ja ruumilist ebavõrdsust tootva mitmekülgse ja mitmetasandilise protsessi ümberpööramine veelgi raskem.
 
-Sarnaselt teiste Lääne-Euroopa riikidega on Eestit mõjutanud sellised üleilmsed trendid nagu deindustrialiseerumine, automatiseerimine ja põllumajandussektori kahanemine ([Raagmaa ja Noorkõiv 2013](#Raagmaa2013)). Nõukogude Liidu kokkuvarisemisega kaasnes 1990. aastatel väga lühikesele ajale koondunud majanduslik vapustus. Mujal maailmas kümnendite jooksul toimunud ümberkorraldused leidsid Eestis aset vaid paari aastaga ([Annist 2017](#Annist2017)). Töökohtade kadumine tööstus- ja põllumajandussektoris mõjutas tugevasti Kirde-Eesti tööstuspiirkondi, väikeseid monofunktsionaalseid tööstuslinnu üle Eesti ning Lõuna-Eesti põllumajanduspiirkondi (sh Viljandi-, Valga-, Võru- ja Põlvamaa, mida vaatleme allpool lähemalt). Kuna varasem tugev põllumajandus toetas ka teenusmajandust (isikuteenused, tootmisteenused, avalik haldus), tabas majanduse ümberkorraldamine põllumajanduspiirkondi eriti rängalt. Arvudes vähenes primaarsektori (peamiselt põllumajanduse) tööjõu osakaal nimetatud Lõuna-Eesti maakondades 37%-lt 1990. aastal vaid 9%-le 2017. aastal. Hõivatute koguarv vähenes 91 400-lt 1990. aastal 61 400-le 2017. aastal, primaarsektoris 33 600-lt 5600-le. Samal ajavahemikul vähenes tööhõive veel rohkem ainult Ida-Virumaal (üle 50%). Uusi töökohti on loodud teenindussektoris, eeskätt maaturismi valdkonnas ([Raagmaa ja Noorkõiv 2013](#Raagmaa2013)), mida toetab suvehooajal maal elamise tendents ([hinnanguliselt 5% Eesti elanikest – Ahas jt 2011](#Ahas2011)). Seni ei ole aga uued töökohad korvanud põllumajandushõive vähenemist.
+Sarnaselt teiste Euroopa riikidega on Eestit mõjutanud sellised üleilmsed trendid nagu deindustrialiseerumine, automatiseerimine ja põllumajandussektori kahanemine ([Raagmaa ja Noorkõiv 2013](#Raagmaa2013)). Nõukogude Liidu kokkuvarisemisega kaasnes 1990. aastatel väga lühikesele ajale koondunud majanduslik vapustus. Mujal maailmas kümnendite jooksul toimunud ümberkorraldused leidsid Eestis aset vaid paari aastaga ([Annist 2017](#Annist2017)). Töökohtade kadumine tööstus- ja põllumajandussektoris mõjutas tugevasti Kirde-Eesti tööstuspiirkondi, väikeseid monofunktsionaalseid tööstuslinnu üle Eesti ning Lõuna-Eesti põllumajanduspiirkondi (sh Viljandi-, Valga-, Võru- ja Põlvamaa, mida vaatleme allpool lähemalt). Kuna varasem tugev põllumajandus toetas ka teenusmajandust (isikuteenused, tootmisteenused, avalik haldus), tabas majanduse ümberkorraldamine põllumajanduspiirkondi eriti rängalt. Arvudes vähenes primaarsektori (peamiselt põllumajanduse) tööjõu osakaal nimetatud Lõuna-Eesti maakondades 37%-lt 1990. aastal vaid 9%-le 2017. aastal. Hõivatute koguarv vähenes 91 400-lt 1990. aastal 61 400-le 2017. aastal, primaarsektoris 33 600-lt 5600-le. Samal ajavahemikul vähenes tööhõive veel rohkem ainult Ida-Virumaal (üle 50%). Uusi töökohti on loodud teenindussektoris, eeskätt maaturismi valdkonnas ([Raagmaa ja Noorkõiv 2013](#Raagmaa2013)), mida toetab suvehooajal maal elamise tendents ([hinnanguliselt 5% Eesti elanikest – Ahas jt 2011](#Ahas2011)). Seni ei ole aga uued töökohad korvanud põllumajandushõive vähenemist.
 
 ```{block, type='blockquote-right'}
-Majanduse ümberkorraldumine ning uued elukorralduslikud ja pendelrände mustrid toetavad rahvastiku vähenemise nõiaringi, viies oluliste avalike teenuste (nt koolide) kadumiseni, mis oma- korda süvendab kahanemist.
+Majanduse ümberkorraldumine ning uued elukorralduslikud ja pendelrände mustrid toetavad rahvastiku vähenemise nõiaringi, viies oluliste avalike teenuste (nt koolide) kadumiseni, mis omakorda süvendab kahanemist.
 ```
 Ehkki põllumajanduses toimusid peamised hõivemuutused juba 1990. aastatel, ei ole hõive vähenemine siiani peatunud. Lõuna-Eesti nelja maakonna koguhõive on püsinud stabiilsena alates 2000. aastate algusest (63 000 töötajat 2001. aastal), kuid elukoha lähedal on vähem töökohti, mistõttu on kasvanud tööalane pendelränne ([joonis 1.2.2](#figure122)). Kui 2000. aastal töötas enamik Lõuna-Eesti maakondade töötavast elanikkonnast oma kodumaakonnas ja mujal töötati harva, siis 2011. aastaks töötas nende maakondade elanikest 23% väljaspool maakonda ja 7% väljaspool Eestit. Hargmaise rände puhul, mil aeg-ajalt viibitakse kodunt eemal tööl, kuid seos elukohaga jääb alles, on eestimaalastele kõige olulisem sihtpunkt Soome ([Annist 2017](#Annist2017); [Anniste jt 2017](#Anniste2017)). See tähendab, et paljud pendelrändajad viibivad kodupiirkonnas ainult nädalavahetustel või veelgi harvem, mistõttu pikemas perspektiivis võivad ka nende pered sealt lahkuda. Majanduse ümberkorraldumine ning uued elukorralduslikud ja pendelrände mustrid toetavad rahvastiku vähenemise nõiaringi, viies oluliste avalike teenuste (nt koolide) kadumiseni, mis omakorda süvendab kahanemist.
 
@@ -59,18 +59,18 @@ library("svglite")
   facet_wrap(~year, nrow=1) +
   labs(y="Töökohtade arv", x="", fill="Töökoha paiknemine") +
   scale_fill_manual(values=c("#482683", "#917db5", "#A8ACA6"))
-  
+
  fig122_theme <- theme(
           panel.grid.major.x = element_blank() ,
           panel.grid.minor.x = element_blank()
                  )
-  
+
   print(fig122_plot + fig_theme_general + fig122_theme)
 
 ggsave(path="exported_figures/PDF/chapter1",filename="fig122.pdf", height=140, width=200, units="mm")
 ```
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Statistikaamet 2000; 2011.
+<span class="imgsource-source">Allikas:</span> Statistikaameti 2000 a ja 2011 a rahvaloendused.
 ```
 
 ### Maapiirkondade ja väikelinnade häbimärgistamine süvendab ääremaastumist {-.chapter1_section}
@@ -83,36 +83,36 @@ Kuna ääremaa mõiste ei ole avalikus aruteluruumis neutraalse tähendusega, va
 ```{block, type='blockquote-left'}
 Väljendades oma nägemust maakohtade ja -elu iseloomust, ääremaastumise protsessist või Eesti regionaalpoliitikast, loovad arvamusliidrid kuvandi, mis levib Eesti ühiskonnas laiemalt.
 ```
-Küsimus, kellel on Eesti trükimeedias kui ühes osas avalikust aruteluruumist sõnaõigus ja keda kuulatakse, on demokraatlikus riigis tähtis. Isegi kui kuvand on loodud meie kõikide poolt, on ühiskonna arvamuseliidil oluline roll maakuvandi tekkimisel. Eestlastele tuntud maaelukuvandi kujundajateks võib näiteks nimetada kirjanik A. H. Tammsaaret või Eesti Vabariigi presidenti Lennart Merd. Väljendades oma nägemust maakohtade ja -elu iseloomust, ääremaastumise protsessist või Eesti regionaalpoliitikast, loovad arvamusliidrid kuvandi, mis levib Eesti ühiskonnas laiemalt. Uuringud ([Plüschke-Altof 2017](#Plüschke-Altof2017)) selgitavad, et arvamusartiklite autorid on peamiselt ajakirjanikud, teadlased, poliitikud ja kultuuriinimesed, kes esindavad linlikke institutsioone, nagu meediaväljaanded, riigiasutused, ülikoolid või kultuuriasutused ([86% arvamusartiklite autoritest – joonis 1.2.3](#figure123)). Kuigi linlike institutsioonide esindamine ei tähenda ilmtingimata linnas elamist (eriti arvestades ka hooajalise maaelanikutega), kinnitab analüüs siiski, et kõige vähem võtavad arvamusartiklites sõna just maapiirkondade ettevõtjad, kohalikud lugejad ja huviühingute esindajad (ca 10% arvamusartiklite autoritest). See tähendab et just maapiirkondade ja väikelinnade elanikud paistavad olevat vähem kaasatud arutellu mahajäänud ääremaade üle. 
+Küsimus, kellel on Eesti trükimeedias kui ühes osas avalikust aruteluruumist sõnaõigus ja keda kuulatakse, on demokraatlikus riigis tähtis. Isegi kui kuvand on loodud meie kõikide poolt, on ühiskonna arvamuseliidil oluline roll maakuvandi tekkimisel. Eestlastele tuntud maaelukuvandi kujundajateks võib näiteks nimetada kirjanik A. H. Tammsaaret või Eesti Vabariigi presidenti Lennart Merd. Väljendades oma nägemust maakohtade ja -elu iseloomust, ääremaastumise protsessist või Eesti regionaalpoliitikast, loovad arvamusliidrid kuvandi, mis levib Eesti ühiskonnas laiemalt. Uuringud ([Plüschke-Altof 2017](#Plüschke-Altof2017)) selgitavad, et arvamusartiklite autorid on peamiselt ajakirjanikud, teadlased, poliitikud ja kultuuriinimesed, kes esindavad linlikke institutsioone, nagu meediaväljaanded, riigiasutused, ülikoolid või kultuuriasutused ([86% arvamusartiklite autoritest – joonis 1.2.3](#figure123)). Kuigi linlike institutsioonide esindamine ei tähenda ilmtingimata linnas elamist (eriti arvestades ka hooajalise maaelanikutega), kinnitab analüüs siiski, et kõige vähem võtavad arvamusartiklites sõna just maapiirkondade ettevõtjad, kohalikud lugejad ja huviühingute esindajad (ca 10% arvamusartiklite autoritest). See tähendab et just maapiirkondade ja väikelinnade esindajad paistavad olevat vähem kaasatud arutellu mahajäänud ääremaade üle.
 
 <p class="caption" id="figure123"><span class="figure-number">Joonis 1.2.3.</span> Kes kujundavad maapiirkondade kuvandit Eesti trükimeedias?</p>
-
-*Märkus: Arvutused põhinevad 296 arvamusartiklil, mis avaldati ajalehtedes Postimees, Eesti Päe- valeht ja Maaleht perioodil 2011–2015. Arvamusliidriks selles analüüsis loeti artikli autorid ja kaas- autorid, vastutavad ajakirjanikud ja toimetajad.*
 
 ```{r, joonis123, fig.cap='', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 library("scales")
-  
+
  fig123_data <- read.csv ("data/12_fig3_data.csv", header=TRUE, fileEncoding="utf-8")
- 
+
  fig123_data$percent=percent((fig123_data$proportion/100), 1)
 
   fig123_plot <- ggplot(data = fig123_data) +
     geom_col(mapping = aes(x=reorder(body_est, proportion), y=proportion), fill="#482683", width=0.7, show.legend = NA) +
     geom_text(aes(label = percent, x=body_est, y=proportion), nudge_x = 0, nudge_y = 3, color="#777777") +
-    labs(y="%", x="") + 
+    labs(y="%", x="") +
     coord_flip ()
-  
+
   fig123_theme <- theme(
                   panel.grid.major.y = element_blank() ,
                   panel.grid.minor.y = element_blank()
                  )
-  
+
   print(fig123_plot + fig_theme_general + fig123_theme)
-  
+
   ggsave(path="exported_figures/PDF/chapter1",filename="fig123.pdf", height=140, width=200, units="mm")
 ```
+
+*Märkus: Arvutused põhinevad 296 arvamusartiklil, mis avaldati ajalehtedes Postimees, Eesti Päe- valeht ja Maaleht perioodil 2011–2015. Arvamusliidriks selles analüüsis loeti artikli autorid ja kaas- autorid, vastutavad ajakirjanikud ja toimetajad.*
 
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Plüschke-Altof 2017.
@@ -164,14 +164,14 @@ dev.off()
 <span class="imgsource-source">Allikas:</span> Plüschke-Altof 2017.
 ```
 
-Olgugi et arvamusartiklite meediaanalüüsis domineerib maapiirkondade negatiivne ääremaakuvand, on olemas ka vastupidine mõttemall, mida väljendavad maapiirkondade esindajad (ettevõtjad, kohalikud poliitikud, huviühingute esindajad jt) ja mis toetub maaelu positiivsetele tähendustele. Seda mõttemustrit peegeldavad arvamusartiklid, mis kirjeldavad maapiirkondi Eesti rahva hällina ühes pärandkultuuri ja puhta loodusega või keskenduvad maaelu arengueeldustele näiteks turismi või mahepõllumajandusliku toidutootmise vallas. Selliste artiklite autorid esitavad omasüülise läbikukkumise kuvandile vastukaaluks aktiivse toimetuleku parimaid näiteid või rõhutavad vastutuse piire kohaliku tasemel (nt omavalitsuste piiratud tulubaas, maakohtade ettevõtjate lisaprobleemid). Tuuakse välja, et kohalik areng sõltub kõrgemal võimutasandil toimuvast ning ääremaale pööratakse praeguses Eesti neoliberaalses regionaalpoliitikas liialt vähe tähelepanu. See vastupidine mõttekäik on maapiirkondade kui omasüüliste ebaõnnestujate kujundiga võrreldes siiski tagaplaanil ja oli vaadeldud perioodil ennekõike esindatud Maalehes.
+Olgugi et arvamusartiklite meediaanalüüsis domineerib maapiirkondade negatiivne ääremaakuvand, on olemas ka vastupidine mõttemall, mida väljendavad eelkõige maapiirkondade esindajad (ettevõtjad, kohalikud poliitikud, huviühingute esindajad jt) ja mis toetub maaelu positiivsetele tähendustele. Seda mõttemustrit peegeldavad arvamusartiklid, mis kirjeldavad maapiirkondi Eesti rahva hällina ühes pärandkultuuri ja puhta loodusega või keskenduvad maaelu arengueeldustele näiteks turismi või mahepõllumajandusliku toidutootmise vallas. Selliste artiklite autorid esitavad omasüülise läbikukkumise kuvandile vastukaaluks aktiivse toimetuleku parimaid näiteid või rõhutavad vastutuse piire kohaliku tasemel (nt omavalitsuste piiratud tulubaas, maakohtade ettevõtjate lisaprobleemid). Tuuakse välja, et kohalik areng sõltub kõrgemal võimutasandil toimuvast ning ääremaale pööratakse praeguses Eesti neoliberaalses regionaalpoliitikas liialt vähe tähelepanu. See vastupidine mõttekäik on maapiirkondade kui omasüüliste ebaõnnestujate kujundiga võrreldes siiski tagaplaanil ja oli vaadeldud perioodil ennekõike esindatud Maalehes.
 
 ### Konkurentsivõimele keskenduv regionaalpoliitika ei ole ääremaastumist vähendanud {-.chapter1_section}
 
 Järgnevalt keskendume küsimusele, kas ja kuivõrd on olnud võimalik omavahel põimunud objektiivseid ja subjektiivseid ääremaastumise protsesse ümber pöörata või leevendada regionaalpoliitika abil või kohaliku tasandi strateegiatega. Analüüs ([Loewen 2018](#Loewen2018)) Euroopa Liidu regionaalpoliitika kujundamise kohta, mis põhineb 19 ekspertintervjuul ja poliitikadokumentide analüüsil, näitab, et võrreldes Euroopa Liidu regionaalpoliitika rakendamisega teistes Kesk- ja Ida-Euroopa riikides, on Eestis rakendatud ruumilise ebavõrdsuse suhtes „pimedat“ (nn kohaneutraalset) ja peamiselt kohtade konkurentsivõimele keskenduvat regionaalpoliitikat, mis on olnud küll edukas Eesti üldise majanduskasvu toetamiseks, aga ei ole vähendanud Eesti-sisest piirkondlikku ebavõrdsust.
 
 ```{block, type='blockquote-left'}
-Kohaneutraalsus (ingl spatial blindness – kohapimedus) regionaalpoliitika kujundamisel tähendab, et sarnaste eesmärkide ja põhimõtetega regionaalpoliitikat rakendatakse kõigi piirkondade puhul, isegi kui piirkondlik ebavõrdsus ise mõjutab seda, kuidas kohad suudavad seda poliitikat rakendada. 
+Kohaneutraalsus (ingl spatial blindness – kohapimedus) regionaalpoliitika kujundamisel tähendab, et sarnaste eesmärkide ja põhimõtetega regionaalpoliitikat rakendatakse kõigi piirkondade puhul, isegi kui piirkondlik ebavõrdsus ise mõjutab seda, kuidas kohad suudavad seda poliitikat rakendada.
 ```
 
 Euroopa Liidu ühtekuuluvuspoliitikas nihkus 2000. aastatel rõhk heaolu jaotavalt lähenemisviisilt konkurentsivõimel ja innovatsioonil põhinevale poliitikale. See muutus langes ajaliselt kokku uutes liikmesriikides, sh Eestis, institutsioonide ülesehitamise ja uute poliitikapõhimõtete kujundamisega. Kuigi esimesed regionaalpoliitika põhimõtted pandi Eestis paika juba 1994. aastal regionaalpoliitika kontseptsiooniga ning 1996. aastal määratleti programmid ja sihtalad (ääremaade, külaliikumise, saarte piirialade, monofunktsionaalsete asulate, Ida-Virumaa, Setomaa ja Kagu-Eesti programmid), ei olnud nende rakendamiseks tookord riigil piisavalt raha. 2000. aastateks, kui päevakorral oli Euroopa Liiduga liitumine, oli kujunenud ootus, et Euroopa Liidu vahendite lisandumisega on lõpuks olemas võimalused teha lisainvesteeringuid kogu riigi majandusarengu toetamiseks ja regioonide järeleaitamiseks. Euroopa Liidu toetuste osalusel ongi välisrahastus Eesti eri valdkondade poliitikameetmete rakendamisel olnud enneolematult suur, kuid ometi pole see olnud piisav, et riigisisest piirkondlikku ebavõrdsust leevendada. Ligikaudu samal ajal, kui Eestist sai 2004. aastal Euroopa Liidu liige, asuti kogu Euroopas ühtekuuluvuspoliitika eesmärke rakendama pigem tsentraalselt ja kohaneutraalselt. Selline regionaalpoliitika kaldub olema ülalt-alla lähenemine, mis Eesti puhul tähendab keskvalitsuse suurt rolli.
@@ -187,9 +187,7 @@ Pärast 15 aasta pikkust kogemust Euroopa Liidu ühtekuuluvuspoliitikaga Eestis 
 ```{block, type='casebox'}
 <h3> Maaelu edendamine ääremaastumise ohjamiseks: maapiirkondade mainekujunduse algatused</h3>
 
-„Maale elama“ ja „Tule maale“ algatused sündisid 2012. aastal veendumusest, et on aeg hakata süstemaatiliselt mõtlema maapiirkondade kuvandile. Ehkki liikumiste eestvedajad Ivika Nõgel („Maale elama“) ja Tiit Niilo („Tule maale“) ei teadnud enne tegutsema asumist otseselt teineteise ideest, ajendas mõlemat sama mõte: maapiirkondade elu tuleb edendada, et peatada elanikkonna ja teenuste kadumine. Algatused tegutsevad kahel suunal: 
-1) aidatakse maale elama asumisest huvitatuid ning 
-2) reklaamitakse ja turundatakse maakohti laiemale Eesti avalikkusele, näiteks korraldades laatasid.
+„Maale elama“ ja „Tule maale“ algatused sündisid 2012. aastal veendumusest, et on aeg hakata süstemaatiliselt mõtlema maapiirkondade kuvandile. Ehkki liikumiste eestvedajad Ivika Nõgel („Maale elama“) ja Tiit Niilo („Tule maale“) ei teadnud enne tegutsema asumist otseselt teineteise ideest, ajendas mõlemat sama mõte: maapiirkondade elu tuleb edendada, et peatada elanikkonna ja teenuste kadumine. Algatused tegutsevad kahel suunal, esiteks aidatakse maale elama asumisest huvitatuid. Teiseks reklaamitakse ja turundatakse maakohti laiemale Eesti avalikkusele, näiteks korraldades laatasid.
 
 <p class="caption" id="figure125"><span class="figure-number">Joonis 1.2.5.</span> „Maale elama“ ja „Tule maale“ logod</p>
 
@@ -198,15 +196,15 @@ Pärast 15 aasta pikkust kogemust Euroopa Liidu ühtekuuluvuspoliitikaga Eestis 
 <span class="imgsource-source">Allikas:</span> „Maale elama“ koduleht 2019; „Tule maale“ koduleht 2019.
 ```
 
-Katseid parandada piirkondade konkurentsivõimet mainekujunduse abil pärsib aga seesama ääremaastaatus ja -kuvand, millest maapiirkonnad püüavad vabaneda, nagu viitavad Kihnu saarel, Järvamaal, Mulgimaal ja Setomaal tehtud uuringud ([Grootens 2018](#Grootens2018); [Plüschke-Altof 2017](#Plüschke-Altof2017); [Plüschke-Altof ja Grootens 2019](#Plüschke-Altof2019)). Kohalike otsustajate ja elanikega läbi viidud uuringus eristati 66 süvaintervjuu alusel kolme peamist mainekujunduse võtet, mida kasutatakse Eesti ääremaadel: 
-1) kuvandi ümberpööramine, 
-2) enese (strateegiline) ääremaastamine ja 
+Katseid parandada piirkondade konkurentsivõimet mainekujunduse abil pärsib aga seesama ääremaastaatus ja -kuvand, millest maapiirkonnad püüavad vabaneda, nagu viitavad Kihnu saarel, Järvamaal, Mulgimaal ja Setomaal tehtud uuringud ([Grootens 2018](#Grootens2018); [Plüschke-Altof 2017](#Plüschke-Altof2017); [Plüschke-Altof ja Grootens 2019](#Plüschke-Altof2019)). Kohalike otsustajate ja elanikega läbi viidud uuringus eristati 66 süvaintervjuu alusel kolme peamist mainekujunduse võtet, mida kasutatakse Eesti ääremaadel:
+1) kuvandi ümberpööramine,
+2) enese (strateegiline) ääremaastamine,
 3) nähtavusele püüdlemine.
 
 Need ei ole alati teadlikud strateegiad, sest kuvandeid loovad nii sihilikult kui ka alateadlikult paljud osapooled. Sellegipoolest mõjutavad nimetatud mainekujunduse võtted piirkonna tajumist nii seest- kui ka väljastpoolt ning seeläbi ka tehtavaid rände- ja investeerimisotsuseid.
 Kuvandi ümberpööramisel kasutatakse ääremaisust „trumpkaardina“ ([Grootens 2018](#Grootens2018)). Nii väidavad kohalikud otsustajad näiteks Kihnus ja Setomaal, et just ääremaastaatus on võimaldanud neil maaelu idülli ja kultuurilist pärandit säilitada. Tavapärane linn-maa-hierarhia pööratakse pea peale, rõhutades maaelu positiivseid ja linnaelu negatiivseid külgi, näiteks iseloomustades linnaelu sõnadega „kuritegevus, narkomaania, liiklus ja muu selline jama” (intervjueeritud võtmeisik Setomaal). Kuvandi ümberpööramise pooldajad on tihti väga teadlikud kohakuvandi tähtsusest: „Asi ei ole niivõrd geograafilises asukohas, vaid selles, kus me inimeste mõtlemises paikneme“ (intervjueeritud võtmeisik Mulgimaal). Enese strateegilise ääremaastamise puhul ei püüta ääremaakuvandit vältida, vastupidi, seda kasutatakse ära, sealjuures rõhutades kohalike võimaluste piiratust ääremaastumise ohjamisel ning eeldades, et ääremaad tulebki toetada. Küsitakse kriitiliselt, kuidas peaks omavalitsus suurendama piirkonna konkurentsivõimet väga piiratud kohalike ressurssidega olukorras, kus „elatakse peost suhu“ (intervjueeritud kohalik elanik Mulgimaal). Kui aga ääremaaks olemist kogetakse, nagu koht oleks nii-öelda valge laik kaardil ([Grootens 2018](#Grootens2018)), on peamine eesmärk saada nähtavamaks ehk „olla suurel pildil ja suures plaanis“ (intervjueeritud võtmeisik Järvamaal).
 
-Hoolimata neist püüdlustest pärsib ääremaastumine ise maapiirkondade võimalust mainekujunduse abil konkurentsivõimet suurendada. Kuigi kuvandi ümberpööramine ja nähtavusele püüdlemine on sisuliselt kooskõlas konkurentsivõimet tugevdava kohaturunduse ideega, nõuab nende edukas rakendamine kultuurilisi, poliitilisi, majanduslikke ja inimressursse, mis ääremaapiirkondades sageli puuduvad. Piiranguid seavad koha ääremaastaatusest tulenevad objektiivsed tegurid, nagu näiteks rahapuudus, vähe inimesi või sidemete puudumine mõjukate ajakirjanike ja riigi tasandi otsustajatega. Peale selle on oht püsivaid kohalikke probleeme pisendada ja neist üle libiseda või luua õõnes kuvand, mis ei põhine tegelikul kohalikul olukorral; samuti võib juhtuda, et mainekujunduses keskendutakse kõiki maapiirkondi iseloomustavatele liialt üldistele omadustele ([Grootens 2018](#Grootens2018); [Plüschke-Altof 2017](#Plüschke-Altof2017)). Nii ei jää paljudel maapiirkondadel ja väikelinnadel muud üle, kui valida enese ääremaastamise strateegia. Ehkki see lähenemine kuvandikasutusele võimaldab avatult tegeleda kohalike probleemidega ning nõuda rohkem ümberjaotamisele suunatud regionaalpoliitikat, muutub see häbimärgistava toime tõttu koormaks kohalikule arengule.
+Hoolimata neist püüdlustest pärsib ääremaastumine ise maapiirkondade võimalust mainekujunduse abil konkurentsivõimet suurendada. Kuigi kuvandi ümberpööramine ja nähtavusele püüdlemine on sisuliselt kooskõlas konkurentsivõimet tugevdava kohaturunduse ideega, nõuab nende edukas rakendamine kultuurilisi, poliitilisi, majanduslikke ja inimressursse, mis ääremaapiirkondades sageli puuduvad. Piiranguid seavad koha ääremaastaatusest tulenevad objektiivsed tegurid, nagu näiteks rahapuudus, vähe inimesi või sidemete puudumine mõjukate ajakirjanike ja riigi tasandi otsustajatega. Peale selle on oht püsivaid kohalikke probleeme pisendada ja neist üle libiseda või luua õõnes kuvand, mis ei põhine tegelikul kohalikul olukorral; samuti võib juhtuda, et mainekujunduses keskendutakse kõiki maapiirkondi iseloomustavatele liialt üldistele omadustele ([Grootens 2018](#Grootens2018); [Plüschke-Altof 2017](#Plüschke-Altof2017)). Nii ei jää paljudel maapiirkondadel ja väikelinnadel muud üle, kui valida enese ääremaastamise strateegia. Ehkki see lähenemine kuvandikasutusele võimaldab avatult tegeleda kohalike probleemidega ning nõuda rohkem ümberjaotamisele suunatud regionaalpoliitikat, võib see muutuda häbimärgistava toime tõttu koormaks kohalikule arengule.
 
 ### Kokkuvõte {-.chapter1_section}
 

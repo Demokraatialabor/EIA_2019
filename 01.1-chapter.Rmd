@@ -23,13 +23,13 @@ Maakasutuse muutused muudavad maastikke. Maakasutus muutub inimtegevuse ja eluvi
 
 <p class="caption" id="figure111"><span class="figure-number">Joonis 1.1.1.</span> Elanike arvu muutus 2000. ja 2011. aasta rahvaloenduste vahel  (km2)</p>
 
-Sulgudes olev number legendis näitab vastavasse vahemikku kuuluvate ruutkilomeetrite arvu.
-
 ```{r, figure111, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 print("KAART")
 
 ```
+
+*Märkus: Sulgudes olev number legendis näitab vastavasse vahemikku kuuluvate ruutkilomeetrite arvu.*
 
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Statistikaamet 2000; 2011.
@@ -40,7 +40,7 @@ print("KAART")
 Perioodil 2000–2006 lisandus Eestis 18,2 km2 hõredalt hoonestatud alasid ([CORINE](#CORINE)). Peamiselt tekkisid elamualad põllumajandusmaade asemele (12,2 km2). Siinkohal on oluline rõhutada, et CORINE maakatte andmestikus on hõredalt hoonestatud enamik elamualasid (sh Mustamäe, Lasnamäe ja Annelinn), kindlasti kõik uuselamurajoonid ning tootmis- ja kaubanduslike ehitistega alad. Lisades siia kõik muud ehitatud alad, saame täisehitatud alade lisandumiseks 23 km2 ([Oja 2009](#Oja2009); [2014](#Oja2014)). Perioodil 2006–2012 lisandus hõredalt hoonestatud alasid ning tööstus- või kaubandusterritooriume kumbagi veidi üle 11 km2. Sealjuures 7,5 km2 tekkis endise põllumajandusliku maa arvelt. Nii on sellel perioodil ehitatud alade lisandumine üsna sarnane eelmise kuueaastase vahemikuga.
 
 ```{block, type='blockquote-left'}
-Ehitiste aluseks ja nende lähiümb- ruseks muudetud põllumaid ei ole võimalik enam endises kasutuses taastada.
+Ehitiste aluseks ja nende lähiümbruseks muudetud põllumaid ei ole võimalik enam endises kasutuses taastada.
 ```
 Perioodil 2012–2018 on ehitatud alade lisandumine mõnevõrra aeglustunud. Elamualasid lisandus 3,65 km2 ning tööstus- ja kaubandusterritooriume 5,83 km2, sellest põllumajanduslike maade arvelt 2,51 km2 elamumaid ning 4,39 km2 tööstus- ja kaubandusterritooriume. Ehitusplatside kadumine ja lisandumine aastatel 2012–2018 on enam-vähem võrdne ja poole väiksem kui eelmisel perioodil, millest võime järeldada maa täisehitamise tempo jätkumist.
 
@@ -72,10 +72,10 @@ head(as.data.frame(fig112_change))
 fig112_2018$year <- "2012-2018"
 
 
-fig_112_plot <- tm_shape(fig112_maakonnad) + 
+fig_112_plot <- tm_shape(fig112_maakonnad) +
     tm_fill("#E6E3DA", palette = c("#E6E3DA", "#DAD4E6","#B6A8CD", "#917DB5","#482683")) +
     tm_borders(col="white") +
-  
+
     tm_layout(
       outer.margins=0, inner.margins=c(.02, .1, .02, .02),asp=1920/1080,
       legend.outside = FALSE,
@@ -84,10 +84,10 @@ fig_112_plot <- tm_shape(fig112_maakonnad) +
 
     tm_shape(fig112_change) + tm_fill("year", legend.fill.show = TRUE, title="", palette=c("#B6A8CD")) +
       tm_borders(col="white", alpha=0) +
-  
+
       tm_shape(fig112_2012) + tm_fill("year", legend.fill.show = TRUE, title="", palette=c("#6D519C")) +
       tm_borders(col="white", alpha=0) +
-  
+
       tm_shape(fig112_2018) + tm_fill("year", legend.fill.show = TRUE, title="", palette=c("#241342")) +
       tm_borders(col="white", alpha=0)
 
@@ -111,7 +111,7 @@ fig_112_plot
 Statistikaameti andmed kliimaaruannetes kajastuva maismaa pindala kohta näitavad, et ajavahemikus 2000–2017 on asustusalade pindala suurenenud 138 km2 võrra – sajandivahetuse 3287 km2 asemel oli 2017. aastal 3425 km2 asustust. Kasv on 4,2%. See arv on enam kui kaks korda suurem, kui CORINE andmestik kajastab. CORINE miinimumkaardistusüksus on 5 hektarit, millest järeldub, et ka sellest väiksema pindalaga uusasustust on linnade ümbruses lisandunud palju.
 
 ```{block, type='blockquote-right'}
-Suur osa karjääre metsastatakse pärast nende ammendumist, ent oluline maakasutuse muutus on see siiski, sest väärtusliku põllumaa taastamine ammendatud karjääri- de asemel enamasti ei õnnestu.
+Suur osa karjääre metsastatakse pärast nende ammendumist, ent oluline maakasutuse muutus on see siiski, sest väärtusliku põllumaa taastamine ammendatud karjääride asemel enamasti ei õnnestu.
 ```
 Lisaks kitsas tähenduses ehitatud alade suurenemisele on suurenenud ka muud tugeva inimmõjuga alad – kõigil perioodidel on teede, raudteede, lennuväljade ja teiste sarnaste rajatistega kaetud maa suurenenud 3–4 km2 perioodi kohta. Tugeva inimmõjuga alade hulka võime lugeda ka karjäärid. Perioodil 2006–2012 lisandus karjääre 26 km2 ning karjääride kogupindala kasvas 21 km2 võrra (osa karjääridest ammendati), vahemikus 2012–2018 suurenes karjääride kogupindala 13,5 km2 võrra. Enim on karjääre lisandunud Ida-Virumaal, aga ka Harjumaal. Suur osa karjääre metsastatakse pärast nende ammendumist, ent oluline maakasutuse muutus on see siiski, sest väärtusliku põllumaa taastamine ammendatud karjääride asemel enamasti ei õnnestu.
 
@@ -128,7 +128,7 @@ Linna ümbritsevate omavalitsuste üldplaneeringud on soosinud valglinnastumist,
 ```
 Linna ümbritsevate omavalitsuste üldplaneeringud on soosinud valglinnastumist, nähes ette linnalise maakasutuse jätkumist linnapiiride taga. Endised põllumajandusmaad linna piiri lähedal on ehitatud täis elamuid, tootmishooneid jmt. Paljudes kohtades on äärelinna elamurajoonid kokku kasvanud Tartu linnaga. Koos inimestega on linna äärtesse kolinud ka teenused. Sama kinnitab Statistikaameti arvutatud linna administratiivpiiridest väljuv tiheasustusala piir ([joonis 1.1.2](#figure112)). Laialivalgumist peegeldab ka kahe viimase rahvaloenduse (2000, 2011) rahvastikutiheduse andmete võrdlemine. Rahvastikutiheduse kasv (mis peegeldab muutusi maakasutuses) on suurem Tartu linnapiiri taga kui linnas sees.
 
-<p class="caption" id="figure113"><span class="figure-number">Joonis 1.1.3.</span> Rahvastikutiheduse muutus kahe rahvaloenduse (2000, 2011) vahel näitab ruumikasutuse intensiivsuse ühtlustumist linnas ja tagamaal</p>
+<p class="caption" id="figure113"><span class="figure-number">Joonis 1.1.3.</span> Rahvastikutiheduse muutus Tartus kahe rahvaloenduse (2000, 2011) vahel näitab ruumikasutuse intensiivsuse ühtlustumist linnas ja tagamaal</p>
 
 ```{r, figure113, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
@@ -155,7 +155,7 @@ Ka kliimaaruandluses kajastuva maismaa pindala andmed (Statistikaamet) ütlevad,
 
 Ka CORINE andmestikus on põllumajandusliku kasutusega maade eri tüübid küll märgatavalt muutunud, ent suurel määral on tegemist ühe põllumajandusliku kasutusega ala muutumisega teiseks põllumajandusliku kasutusega alaks. Siiski on põllumajandusliku maa vähenemine maakatteandmestikus märgatav.
 
-### Metsamaa pindala kasvab, kuid väheneb okasmetsa pindala ja metsad noorenevad {.chapter1_section}
+### Metsamaa pindala kasvab, kuid väheneb okasmetsa pindala ja metsad noorenevad {-.chapter1_section}
 
 Ajavahemikul 2000–2006 jätkusid maakatte muutustes eelmise sajandi viimase kümnendiga sarnased trendid. Kõige enam lisandus maakatteklassi üleminekulised metsaalad ehk raiesmikud, mis osutab metsaraie määrale. Põldude võsastumise protsess võrreldes 1990. aastatega aeglustus. Samal ajal oli 1990. aastate raietegevuse jätkumõjuna osa üleminekulisi metsaalasid kadunud. Peamiselt on need muutunud heitlehisteks ja segametsadeks. Märkimisväärselt vähe võrreldes raiega on aga lisandunud okasmetsi ([CORINE](#CORINE)).
 
@@ -175,19 +175,19 @@ Kõigis 2010. aastate keskel valminud maakonnaplaneeringutes on väärtusliku p�
 Üldplaneeringute tasemel on juba ka näiteid maakonnaplaneeringu korrigeerimiseks. See on tavaline suurte keskuste ümbruses, kus surve elamuehituseks on suurem. Näiteks 2018. aasta Rae valla põhjapiirkonna põllumajandusmaade uuring leiab, et maakonnaplaneeringuga väärtuslikeks määratud põllumaad kattuvad märgatavalt valla varem kehtestatud üldplaneeringu kohaselt perspektiivseks elamualaks kavandatuga ning seetõttu on tehtud ettepanek osa väärtuslikest (tõsi, kõige vähem olulised neist) põllumaadest sellest kategooriast välja arvata.
 
 ```{block, type='blockquote-left'}
-Põllumajandusmaastiku üksluiseks ja igavaks muutumist pidurdab Euroopa ühtsest põllumajandus- poliitikast tulenev ökoloogiliste elementide säilitamise nõue.
+Põllumajandusmaastiku üksluiseks ja igavaks muutumist pidurdab Euroopa ühtsest põllumajanduspoliitikast tulenev ökoloogiliste elementide säilitamise nõue.
 ```
 Menetlemisel on maaelu ja põllumajandusturu korraldamise seaduse muutmise seaduse eelnõu, millega piiratakse väärtuslike põllumaade muul otstarbel kasutamist. Väärtuslikku põllumajandusmaad, millele kavandatakse kehtestada kaitsemeetmed, on Eestis 700 000 hektarit ehk 63% kogu põllumajandusmaast. Kuuendikul Eesti maismaast peaks säilima põllumajandusmaastik. Maakonniti varieerub väärtusliku põllumaa osakaal kogupõllumaast 84% (Järvamaa) ja 48% (Ida-Virumaa) vahel.
 
 Üldistatuna tähendavad kavandatud meetmed piiranguid maakasutuse muutmisele (nii täisehitamisele kui ka metsastamisele) ja põllumassiivide lõhkumisele. Kohustus põllumaa säilimise tagamiseks pannakse maaomanikele. Põllumajandusmaastiku üksluiseks ja igavaks muutumist pidurdab Euroopa ühtsest põllumajanduspoliitikast tulenev ökoloogiliste elementide säilitamise nõue (mis lisaks toetab ka elurikkust) ning selle toetusmeetmed. Kokkuvõttes põhjustavad kavandavad muutused regulatsioonides küll jätkuvaid vaidlusi, ent väga suure tõenäosusega on tegu linnade laialivalgumist pidurdavate meetmetega.
- 
+
 ### Väärtuslike maastike kaitse ja kaitsealad toetavad maastike konservatiivsust {-.chapter1_section}
 
 Väärtuslikud maastikud kaardistati maakonnaplaneeringute eraldi teemaplaneeringuna juba eelmises planeerimisringis käesoleva sajandi alguses. Üle kandusid need ka viimastesse praegu kehtivatesse maakonnaplaneeringutesse. Tüüpiliste piirangutena väärtuslike maastike maakasutuse säilitamisel võib tuua taas näite Viljandi maakonnaplaneeringust. Väärtuslikule maastikualale hoonestust planeerides on eesmärk säilitada võimalikult hästi olemasolev ajalooline asustus, arvestada ajaloolist teede- ja tänavavõrku ning ehitustraditsioone. Uute ehitiste kavandamisel tuleb arvestada piirkonnale iseloomuliku traditsioonilise ehituslaadiga. Soovitakse säilitada põllumajandusmaastiku avatust ja vaateid, traditsioonilisi maastikuelemente ja -struktuure. Välditakse vaateid häirivaid rajatisi.
 
 Väärtuslike maastike planeeringukihil on ootuspäraselt märkimisväärne kattuvus ka väärtusliku põllumaa kihiga. Kokkuvõttes on aga maakonnaplaneeringud (rohelise võrgustiku, väärtuslike maastike ja väärtuslike põllumaade kiht) maakasutuse muutuste ning maastiku üldilme muutumist takistav meede.
 
-Lisaks toetavad maastike säilimist kaitsealad. Kogu Eesti maismaast on kaitse all (NATURA loodus- ja linnualadena, looduskaitsealadena, kohalike kaitsealade ja nende piiranguvöönditena, vääriselupaikadena ning üksikobjektide kaitsetsoonidena) viiendik ([tabel 1.1.1](#table111)). Märkimisväärne osa Eesti territooriumist on aga kahe- või enamakordse kaitse all. Range kaitserežiimiga reservaatide osa sellest on siiski väike (alla 0,2%). 
+Lisaks toetavad maastike säilimist kaitsealad. Kogu Eesti maismaast on kaitse all (NATURA loodus- ja linnualadena, looduskaitsealadena, kohalike kaitsealade ja nende piiranguvöönditena, vääriselupaikadena ning üksikobjektide kaitsetsoonidena) viiendik ([tabel 1.1.1](#table111)). Märkimisväärne osa Eesti territooriumist on aga kahe- või enamakordse kaitse all. Range kaitserežiimiga reservaatide osa sellest on siiski väike (alla 0,2%).
 
 <p class="caption" id="table111"><span class="figure-number">Tabel 1.1.1.</span> Kaitsealade osatähtsus 2019. aastal maakonna territooriumist (%)</p>
 **TABEL 1**
@@ -200,7 +200,7 @@ Lisaks toetavad maastike säilimist kaitsealad. Kogu Eesti maismaast on kaitse a
 
 Võrreldes kaitsealade ja sihtotstarbega kaitsealune maa maakatastriüksuste pindala, näeme enam kui neljakordset erinevust. Eesti looduse andmekogus EELIS kajastuvad kaitsealadena ka suure territooriumiga rahvuspargid, NATURA loodus- ja linnualad ja muu taoline, mille territooriumidest suurem osa on muu sihtotstarbega ala looduskaitseliste piirangutega. Need kätkevad sageli mitmeid piiranguid, nagu näiteks maakasutuse muutmise või alade täisehitamise piirangud. Kaitsealad on maastikumuutuste suhtes konservatiivne meede, näiteks on Otepää looduspargi kaitse-eesmärk „kaitsta, säilitada, taastada [---] iseloomulikke loodus- ja pärandmaastikke“. Maastikku muutvad tegevused on lubatud vaid kaitseala valitseja nõusolekul, ent tegelikkuses kaitse-eesmärke kahjustavat tegevust sageli siiski ei kooskõlastata.
 
-### Kokkuvõte {.chapter1_section}
+### Kokkuvõte {-.chapter1_section}
 
 Eestis on toimumas linnaliste alade suurenemine – ajavahemikus 2000–2017 on asustusalade pindala suurenenud 138 km2 võrra ehk 4,2%. Linnalise asustuse sees (linn ja sellega kokku kasvanud lähitagamaa) käib aga asutustiheduse ja ruumikasutuse intensiivsuse hajus ühtlustumine. Endised põllumajandusmaad ehitatakse täis elamuid ja tootmishooneid. Linnalise struktuuri laienemisega (teenused linnaservades, ringteed ja nende äärde tekkivad kaubanduskeskused) tekib lisasuundumus asendada põllumajandusmaad, harvem ka metsamaad ehitatud aladega.
 
