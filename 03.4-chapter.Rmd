@@ -14,11 +14,11 @@ Eestis on suur osa looduskeskkonnast vähemalt mingil määral avalikult kasutat
 Isegi kui keskkonnaotsuse objektiks olevat tegevust kavandatakse üksnes eramaale või avalikust kasutusest väljas olevasse kohta ulatuvad selle mõjud sageli kaugemale näiteks müra, õhusaaste, veereostuse ja liikluskoormuse suurenemise näol.
 ```
 
-Anname ülevaate, mil määral saavad inimesed keskkonnaotsuste tegemises kaasa rääkida, keskendudes kahele teemale: milline on keskkonnaotsustes osalemise korraldus (võimalus) ja kuivõrd on inimesed harjunud avalikult arvamust avaldama (ühiskondlik aktiivsus). Need aspektid omakorda olenevad sellest, millist teavet inimesed oma keskkonna kohta saavad ja kuidas seda kasutavad. 
+Anname ülevaate, mil määral saavad inimesed keskkonnaotsuste tegemises kaasa rääkida, keskendudes kahele teemale: milline on keskkonnaotsustes osalemise korraldus (võimalus) ja kuivõrd on inimesed harjunud avalikult arvamust avaldama (ühiskondlik aktiivsus). Need aspektid omakorda olenevad sellest, millist teavet inimesed oma keskkonna kohta saavad ja kuidas seda kasutavad.
 
 ### 1980. aastate sündmused lõid Nõukogude Eestis avaliku keskkonnaarutelu {-.chapter3_section}
 
-Nõukogude Liidu perioodil otsustati keskkonnaküsimusi Eestis avaliku dialoogita ja teave keskkonnaohtude kohta oli salastatud ([vt Kiisel 2005](#Kiisel2005)). Näiteks oli rangelt salastatud aastatel 1946–1991 Sillamäel töötanud strateegilise tähtsusega uraanitehase tegevusega seonduv. Teadmiste puudumine takistas inimestel ka oma elukeskkonnaga seotud keskkonnaprobleemide lahendamisest osavõttu. Lisaks peeti keskkonnakaitset nii üldsuse teadvuses kui ka ekspertide seas teadlaste ja looduskaitseorganisatsioonide kitsalt spetsialiseeritud tegevusalaks, elanikkonda aga pigem looduse reostajaks kui kaitsjaks. Samal ajal oli avalikkus Eesti looduse ohustatuse pärast murelik, mõistis ja hindas teaduslikku kriitilist lähenemist keskkonnaprobleemidele ega usaldanud ametkondlikku optimismi ([Lauristin 1988](#Lauristin1988)). 
+Nõukogude Liidu perioodil otsustati keskkonnaküsimusi Eestis avaliku dialoogita ja teave keskkonnaohtude kohta oli salastatud ([vt Kiisel 2005](#Kiisel2005)). Näiteks oli rangelt salastatud aastatel 1946–1991 Sillamäel töötanud strateegilise tähtsusega uraanitehase tegevusega seonduv. Teadmiste puudumine takistas inimestel ka oma elukeskkonnaga seotud keskkonnaprobleemide lahendamisest osavõttu. Lisaks peeti keskkonnakaitset nii üldsuse teadvuses kui ka ekspertide seas teadlaste ja looduskaitseorganisatsioonide kitsalt spetsialiseeritud tegevusalaks, elanikkonda aga pigem looduse reostajaks kui kaitsjaks. Samal ajal oli avalikkus Eesti looduse ohustatuse pärast murelik, mõistis ja hindas teaduslikku kriitilist lähenemist keskkonnaprobleemidele ega usaldanud ametkondlikku optimismi ([Lauristin 1988](#Lauristin1988)).
 1987.–1988. aasta rahvuslik protestiliikumine Virumaale kavandatud fosforiidikaevanduste vastu muutis pilti oluliselt. Paari aasta jooksul muutusid avalikkuse osalemisvormid arutelus ja otsustamises ning kujunes välja avalik arvamus, mis oli fosforiidi kaevandamise suhtes negatiivne. Avalikkus tekitas ise oma osalemise võimalused ja poliitilise surve otsustusprotsessile ning saavutaski tulemuse, et kavandatud suuremahuline fosforiidikaevandus jäi rajamata.
 
 Samal ajal hakkasid inimesed nõudma ka keskkonnainfo avalikustamist. Nõukogude Liidus tervikuna hakati keskkonnaohtudest ja -probleemidest avalikumalt rääkima pärast 1986. aasta Tšornobõli tuumaelektrijaama õnnetust. Siseriikliku ja rahvusvahelise surve tulemusena lubas toonane Nõukogude Liidu Kommunistliku Partei keskkomitee peasekretär Mihhail Gorbatšov teha õnnetuse kohta käiva teabe avalikuks. Sellele järgnenud perioodil tunnistasid mitmed riigid keskkonnainfo saamise ja keskkonnaküsimustes avalikkuse kaasamise olulisust. Samal ajal (1984–1987) töötas ÜRO keskkonnakomisjon säästva arengu kontseptsiooni kallal, kirjutades töö lõppraportisse (nn Brundtlandi raport; 1987) esmakordselt sisse vajaduse kaasata ühiskonna eri osapooled keskkonnaotsuste tegemisse. Raport oli hiljem aluseks Rio deklaratsioonile (1992), mis ütleb juba otsesõnu, et: „riiklikul tasandil peab igaühel olema asjakohane juurdepääs ametiasutuste käsutuses olevale keskkonnainfole“. Euroopa Liit võttis 1990. aastal vastu direktiivi 90/313/EMÜ keskkonnainfole juurdepääsu vabaduse kohta. Aastal 1998 aastal võeti vastu Aarhusi konventsioon, mis näeb ette igaühe õiguse saada keskkonnainfot ja osaleda keskkonnaasjade otsustamises ning annab neis asjus juurdepääsu õigusemõistmisele.
@@ -30,7 +30,7 @@ Fosforiidikaevanduste planeerimine Virumaale algas Nõukogude Liidu ametkondades
 
 1987. aasta kevadel korraldasid Tartu tudengid rahumeelseid protestiaktsioone, teemat kajastati teravalt ajakirjanduses. Sellele järgnes 1988. aastal Eesti Rohelise Liikumise sünd ning esimese suure keskkonnateemalise massiaktsioonina roheliste rattaretk „Kuidas elad, Virumaa?“. Rahvakoosolekud toimusid Tallinnas ja Tartus, töö- ja õppekollektiivides korraldati avalikke pressikonverentse ning kohtumisi teadlastega, toimetused ja valitsusorganid hakkasid saama hulgaliselt kollektiivseid kirju, noorte seas levisid spontaansed väljendusvormid levilauludest loosungite ja särkideni. 29. mail 1987 võttis ENSV Ülemnõukogu vastu otsuse, millega pani valitsusele kohustuseks arvestada edasiste uuringute tegemisel praeguse ja tulevaste põlvkondade huvidega maa, maapõue ja veeressursside kaitseks ning teaduslikult põhjendatud ratsionaalseks kasutamiseks.
 
-Protsessi käigus arenesid erinevad avalikkuse osalemise ja demokraatia vormid – teabe avalikustamisele massiteabevahendites ning isikutevahelistele aruteludele lisandusid kohtumised, üldsuse väljaastumised, kollektiivsed kirjad, seejärel hääletamised, küsitlused, arutelud valitavas organis ning lõpuks otsuse vastuvõtmine nõukogude võimu ja avaliku kontrolli organite poolt ([Lauristin 1988](#Lauristin1988)). 
+Protsessi käigus arenesid erinevad avalikkuse osalemise ja demokraatia vormid – teabe avalikustamisele massiteabevahendites ning isikutevahelistele aruteludele lisandusid kohtumised, üldsuse väljaastumised, kollektiivsed kirjad, seejärel hääletamised, küsitlused, arutelud valitavas organis ning lõpuks otsuse vastuvõtmine nõukogude võimu ja avaliku kontrolli organite poolt ([Lauristin 1988](#Lauristin1988)).
 
 <p class="caption" id="figure341"><span class="figure-number">Joonis 3.4.1.</span> Meeleavaldus 19. mail 1987. aastal</p>
 
@@ -46,7 +46,7 @@ Pärast iseseisvuse taastamist vähenes avalik huvi keskkonnaküsimuste vastu m�
 ```{block, type='blockquote-left'}
 OECD 2017. aasta Eesti keskkonna- toime ülevaate kohaselt on Eestis keskkonnademokraatia arenenud ja keskkonnainfo kättesaadav.
 ```
-Võrdleva uuringu „Environmental Democracy Index“ kohaselt oli Eesti 2015. aastal maailma riikide pingereas osalemisõigust ja info kättesaadavust käsitlevate nõuete ülevõtmise ja täitmise poolest 70 riigi hulgas 14. kohal ([World Resources Institute 2015](#World2015)). OECD 2017. aasta Eesti keskkonnatoime ülevaate kohaselt on Eestis keskkonnademokraatia arenenud ja keskkonnainfo kättesaadav. Kaks kolmandikku elanikest peab end keskkonnaasjades hästi informeerituks, kuigi info täielikkus ja kvaliteet võiksid olla paremad. Ka keskkonnaasjades osalemise võimalus on OECD ülevaate kohaselt üldiselt tagatud, ehkki juurdepääs õigusemõistmisele (võimalus keskkonnaotsuseid vaidlustada) vajaks veelgi laiendamist. Ühe peamise puudusena tuuakse välja vaidemenetluse (otsuse õiguspärasuse kontroll haldusorganite poolt) vähest tõhusust, mis tuleb sellest, et vaideid lahendavad sageli samad asutused, kes tegid ka vaidlustatava otsuse. 
+Võrdleva uuringu Environmental Democracy Index kohaselt oli Eesti 2015. aastal maailma riikide pingereas osalemisõigust ja info kättesaadavust käsitlevate nõuete ülevõtmise ja täitmise poolest 70 riigi hulgas 14. kohal ([World Resources Institute 2015](#World2015)). OECD 2017. aasta Eesti keskkonnatoime ülevaate kohaselt on Eestis keskkonnademokraatia arenenud ja keskkonnainfo kättesaadav. Kaks kolmandikku elanikest peab end keskkonnaasjades hästi informeerituks, kuigi info täielikkus ja kvaliteet võiksid olla paremad. Ka keskkonnaasjades osalemise võimalus on OECD ülevaate kohaselt üldiselt tagatud, ehkki juurdepääs õigusemõistmisele (võimalus keskkonnaotsuseid vaidlustada) vajaks veelgi laiendamist. Ühe peamise puudusena tuuakse välja vaidemenetluse (otsuse õiguspärasuse kontroll haldusorganite poolt) vähest tõhusust, mis tuleb sellest, et vaideid lahendavad sageli samad asutused, kes tegid ka vaidlustatava otsuse.
 
 ### Avaliku ruumi kujundamisel on avalikkusel üldjuhul õigus kaasa rääkida {-.chapter3_section}
 
@@ -58,7 +58,7 @@ Osalemisvõimaluste andmine sõltub ka otsustamise tasandist ([tabel 3.4.1](#tab
 ```
 Kohaliku tasandi üksikobjektide planeerimisel on kaasarääkimisvõimalus puudulik maavarade kaevandamise ja metsaraie puhul. Lageraie järel võib metsa taastumine aega võtta terve inimese eluaja, kaevandamisega piiratakse aga juurdepääsu ning kujundatakse loodusala ilme täiesti ümber. Hoolimata olulisest ja pikaajalisest mõjust, ei toimu kummagi tegevuse puhul ruumilist planeerimist ja sellega seotud avalikku arutelu asukohavalikute üle. Seega puudub, erinevalt näiteks linnakeskkonnas uute hoonete planeerimisest, nendes valdkondades nii planeerimise sidusus kui ka kumulatiivse keskkonnamõju analüüs.
 
-Kaevandusalade ja raiete kaasav planeerimine oleks mõistlik. Näiteks Austrias ja Taanis kasutusel olevat maavarade ruumilist planeerimist peetakse ekspertide arvates heaks võimaluseks kaevandusettevõtete ja kohalike inimeste vaheliste konfliktide lahendamisel ([MinPol 2017](#MinPol2017)). Eestis võiks maavarade ruumiline planeerimine anda rahuldava vastuse ka küsimusele, millisest maardlast kaevandades on võimalik mõjud keskkonnale ja inimestele hoida kõige väiksematena – praegu on uute maardlate kasutuselevõtul juhtiv roll kaevandusettevõtjatel. Metsaraie puhul puuduvad võimalused kaasa rääkida isegi naaberkinnistute omanikel – raie otsustavad vaid Keskkonnaamet ning maaomanik. Riigimetsa Majandamise Keskus (RMK) on alates 2017. aastast kaasanud kõrgendatud avaliku huviga aladel raiete planeerimisse kohalikke elanikke (Poom ja Sepp, käesolev kogumik), aga et tegu on värske muudatusega, on praktikat liiga vähe, et teha järeldusi selle vabatahtliku meetme mõju kohta. 2018. aasta keskkonnateadlikkuse uuring kinnitab ühiskondlikku ootust, et metsaraieid kaalutaks senisest enam ning maaomanike õigused ei oleks sedavõrd ulatuslikud ([Turu-uuringute AS 2018](#Turu-uuringute2018)).
+Kaevandusalade ja raiete kaasav planeerimine oleks mõistlik. Näiteks Austrias ja Taanis kasutusel olevat maavarade ruumilist planeerimist peetakse ekspertide arvates heaks võimaluseks kaevandusettevõtete ja kohalike inimeste vaheliste konfliktide lahendamisel ([MinPol 2017](#MinPol2017)). Eestis võiks maavarade ruumiline planeerimine anda rahuldava vastuse ka küsimusele, millisest maardlast kaevandades on võimalik mõjud keskkonnale ja inimestele hoida kõige väiksematena. Praegu on uute maardlate kasutuselevõtul juhtiv roll kaevandusettevõtjatel. Metsaraie puhul puuduvad võimalused kaasa rääkida isegi naaberkinnistute omanikel – raie otsustavad vaid Keskkonnaamet ning maaomanik. Riigimetsa Majandamise Keskus (RMK) on alates 2017. aastast kaasanud kõrgendatud avaliku huviga aladel raiete planeerimisse kohalikke elanikke (Poom ja Sepp, käesolev kogumik). Tegu on aga värske muudatusega ja on praktikat liiga vähe, et teha järeldusi selle vabatahtliku meetme mõju kohta. 2018. aasta keskkonnateadlikkuse uuring kinnitab ühiskondlikku ootust, et metsaraieid kaalutaks senisest enam ning maaomanike õigused ei oleks sedavõrd ulatuslikud ([Turu-uuringute AS 2018](#Turu-uuringute2018)).
 
 ```{block, type='blockquote-left'}
 Kohaliku tasandi üksikobjektide planeerimisel on kaasarääkimis- võimalus puudulik maavarade kaevandamise ja metsaraie puhul.
@@ -69,7 +69,7 @@ Ka loodusalasid mõjutava poliitika kujundamises on kodanike võimalused kaasa r
 ```{block, type='blockquote-right'}
 Loodusalasid mõjutavate projektide puhul on probleem avalikkuse kaasamine pärast põhimõtteliste otsuste langetamist.
 ```
-Strateegiliste ja riiklike huvidega seotud, loodusalasid mõjutavate projektide puhul on probleem  avalikkuse kaasamine pärast põhimõtteliste otsuste langetamist. Kui strateegilised valikud on juba tehtud, kahaneb kodanike võimalus otsuste sisu mõjutada peamiselt detailide arutamiseks. Seetõttu nõuabki Aarhusi konventsioon, et avalikkust tuleb kaasata varases etapis, kus kõik otsused on lahtised. Näiteks 2017–2018 avalikkuse tähelepanu köitnud Est-Fori tselluloositehase planeerimisel otsustati enne avalikku diskussiooni, et eriplaneeringuga otsitakse tehasele asukohta vaid Emajõe vesikonnas ([Kõnnussaar ja Lõhmus 2018](#Kõnnussaar2018)). Riigikohus rõhutas asjas 3-17-2132 tehtud määruses küll, et planeeringuga uuritava ala kitsendamine protsessi alguses ei tähenda, et hiljem ei saaks põhimõtteliselt kaaluda tehase rajamist mujale. Planeeringumenetluse enneaegse lõpetamise tõttu ei ole aga teada, kas riik oleks ka praktikas selleks valmis olnud.
+Strateegiliste ja riiklike huvidega seotud, loodusalasid mõjutavate projektide puhul on probleem  avalikkuse kaasamine pärast põhimõtteliste otsuste langetamist. Kui strateegilised valikud on juba tehtud, kahaneb kodanike võimalus otsuste sisu mõjutada peamiselt detailide arutamiseks. Seetõttu nõuabki Aarhusi konventsioon, et avalikkust tuleb kaasata varases etapis, kus kõik otsused on lahtised. Näiteks 2017–2018 avalikkuse tähelepanu köitnud Est-Fori tselluloositehase planeerimisel otsustati enne avalikku diskussiooni, et eriplaneeringuga otsitakse tehasele asukohta vaid Emajõe vesikonnas ([Kõnnussaar ja Lõhmus 2018](#Konnussaar2018)). Riigikohus rõhutas asjas 3-17-2132 tehtud määruses küll, et planeeringuga uuritava ala kitsendamine protsessi alguses ei tähenda, et hiljem ei saaks põhimõtteliselt kaaluda tehase rajamist mujale. Planeeringumenetluse enneaegse lõpetamise tõttu ei ole aga teada, kas riik oleks ka praktikas selleks valmis olnud.
 
 <p class="caption" id="table341"><span class="figure-number">Joonis 3.4.1.</span> Eesti keskkonnaotsuste jaotus otsustustasandi ja laadi alusel ning kodanike võimalused neis olukordades kaasa rääkida</p>
 
@@ -84,7 +84,7 @@ Strateegiliste ja riiklike huvidega seotud, loodusalasid mõjutavate projektide 
 
 Kaasarääkimise õigus ei taga kvaliteetset ja eesmärgipärast osalemist keskkonnaotsuste tegemisel. Eesti elanike suhtumist keskkonnaotsustes osalemisse iseloomustavad pigem passiivsus ja pessimism. 2018. aasta keskkonnateadlikkuse uuringus ([Turu-uuringute AS 2018](#Turu-uuringute2018)) pidas peaaegu pool (46%) vastajatest kaasarääkimise võimalust ebaoluliseks. Seda võimalust hindasid rohkem kõrgharidusega inimesed, samuti suurema sissetulekuga inimesed.
 
-Veelgi passiivsem on osalemine praktikas. Kohaliku omavalitsuse tasandil pidas oma võimalusi kaasarääkimiseks heaks alla 10% vastanutest, riigi tasandil alla 5%. Kõige väiksemaks peavad oma osalusvõimalusi Kirde-Eesti elanikud. Peamiste takistustena tuuakse välja vähest usku oma osaluse mõjukusse (21% vastanutest) ja ajapuudust (19%) (samas). Need tulemused ühtivad üldjoontes Keskkonnaõiguse Keskuse uuringuga Eesti elanike keskkonnaõigusealase teadlikkuse kohta ([Uuringukeskus Klaster 2013](#Uuringukeskus2013)).
+Veelgi passiivsem on osalemine praktikas. Kohaliku omavalitsuse tasandil pidas oma võimalusi kaasarääkimiseks heaks alla 10% vastanutest, riigi tasandil alla 5%. Kõige väiksemaks peavad oma osalusvõimalusi Kirde-Eesti elanikud. Peamiste takistustena tuuakse välja vähest usku oma osaluse mõjukusse (21% vastanutest) ja ajapuudust (19%) ([samas](#Turu-uuringute2018)). Need tulemused ühtivad üldjoontes Keskkonnaõiguse Keskuse uuringuga Eesti elanike keskkonnaõigusealase teadlikkuse kohta ([Uuringukeskus Klaster 2013](#Uuringukeskus2013)).
 
 Uuringud ([Suškevič 2014](#Suškevič2014); [Uuringukeskus Klaster 2013](#Uuringukeskus2013)) toovad välja pessimistliku suhtumise olulisemad põhjused.
 
@@ -116,7 +116,7 @@ Kaasamine ning huvirühmadega suhtlemine ei peaks piirduma ka rangelt ametlike s
 
 ### Sisuka kaasarääkimise eelduseks on keskkonnainfo olemasolu ja kättesaadavus {-.chapter3_section}
 
-Loodusalade kasutust mõjutavates otsustes kaasarääkimise võimalused ja aktiivsus sõltuvad ka sellest, kui palju on inimestel nende alade ja kavandatava tegevuse kohta teavet. Avalik keskkonnainfo suurendab usaldust otsustajate vastu, võimaldab keskkonnateadlikke valikuid, stimuleerib majandust keskkonnasäästule ja keskkonnakaitseasutusi hoolikale tegutsemisele ning võimaldab elanikel informeeritult keskkonnaotsustes osaleda ([Rowan-Robinson jt 1996](#Rowan1996)). Erilise mõjuga neis protsessides on ühine infoloome, sealhulgas kodanike kogutud info. 
+Loodusalade kasutust mõjutavates otsustes kaasarääkimise võimalused ja aktiivsus sõltuvad ka sellest, kui palju on inimestel nende alade ja kavandatava tegevuse kohta teavet. Avalik keskkonnainfo suurendab usaldust otsustajate vastu, võimaldab keskkonnateadlikke valikuid, stimuleerib majandust keskkonnasäästule ja keskkonnakaitseasutusi hoolikale tegutsemisele ning võimaldab elanikel informeeritult keskkonnaotsustes osaleda ([Rowan-Robinson jt 1996](#Rowan1996)). Erilise mõjuga neis protsessides on ühine infoloome, sealhulgas kodanike kogutud info.
 Aarhusi konventsiooni alusel peab keskkonnainfo olema üldjuhul kättesaadav ([joonis 3.4.3](#figure343)). Avalikustamine peab toimuma arusaadaval ja ligipääsetaval viisil, näiteks tuleb koostada avalikke andmekogusid ja ametnikel abistada teabe otsijaid. Keskkonnainfo määratlus on seejuures väga avar – see hõlmab esiteks igasugust kirjalikus, nähtavas või mis tahes muus materiaalses vormis olevat teavet, mis käsitleb keskkonnaelementide (nt õhk, vesi, pinnas, looduslik mitmekesisus jm) seisundit ja vastastiktoimet. Samuti puudutab keskkonnainfo keskkonda mõjutavaid tegureid (nt energia, müra, valgus). Lisaks hõlmab keskkonnainfo ka kavandatavate tegevuste ja meetmete kirjeldusi ning aruandeid, analüüse ja muid materjale keskkonna kohta.
 
 Loodusalade planeerimine ei puuduta ainult kohalikku elanikkonda. Eesti inimesed tajuvad endaga tihedalt seotuna vähemalt kogu Eesti keskkonda. Üleriigilistes küsitlustes (2010–2018) pidasid oma kodukoha ja Eestiga seonduvat infot oluliseks enam kui 90% ja väga oluliseks pool elanikest ([Turu-uuringute AS 2018](#Turu-uuringute2018)). Samale tulemusele jõudis 2016. aaastal tartlaste seas tehtud küsitlus ([Eesti Uuringukeskus 2016](#Eesti2016)). Kasvavat paistab nende hulk, kes hoolivad laiemalt maailma keskkonnaseisundist või tunnetavad selle seost oma kodumaaga: 2018. aastal pidas Euroopa ja maailma keskkonna kohta käivat teavet endale väga oluliseks üle kolmandiku, varem keskmiselt 22% elanikkonnast ([Turu-uuringute AS 2018](#Turu-uuringute2018)).
@@ -150,17 +150,17 @@ Eesti inimestel on mitmesuguseid võimalusi oma loodusvaatlusi edastada; need on
 
 Harrastusvaatlejate kogutud andmete kasutamine avaliku ruumi haldamisel on Eestis seni vähene ja selle põhjused lasuvad tõenäoliselt nii andmete kõikuvas kvaliteedis kui ka laialipillatuses (sh vähene kooskõla professionaalsete uuringu- ja seireprogrammidega). Suur osa on juhuvaatlused ning osa andmetest ei jõua erialaühingutelt koondandmebaasidesse. See viitab vajadusele parandada harrastusvaatluste kasutamist professionaalide koordineeritud programmides. Enam kasutust leiavad kaitsealuste ja võõrliikide vaatlused, näiteks looduskaitses, keskkonnamõjude hindamisel ja keskkonnaseisundi ülevaadetes ([Raadom 2018](#Raadom2018)). Loodusvaatluste andmebaasist jõudis aastatel 2014–2018  keskkonnaregistrisse siiski ainult 11% kaitsealuste ja mitte ühtki võõrliigi soontaimevaatlust ([Härm 2019](#Harm2019)).
 
-Arenenud harrastusteadusega riikides, nagu Suurbritannia, on kodanikud kutsutud näiteks linnaõhu kvaliteeti mõõtma ja nõmmeökosüsteemide taastamist seirama. Siiski on kõikjal vaja paremini ühendada harrastusvaatlused otsustamise ja keskkonnategevustega ([Liu ja Kobernus 2017](#Liu2017)). Eesti harrastusteaduse seis peegeldab üldisemat arengujärku keskkonnademokraatias, kus kodanike kaasamine loodusalade haldamisse oleneb riigi usaldusest, kodanikuaktiivsusest ning tehnilistest suhtlus- ja andmehaldusvahenditest.
+Arenenud harrastusteadusega riikides, nagu Suurbritannia, on kodanikud kutsutud näiteks linnaõhu kvaliteeti mõõtma ja valitud ökosüsteemide taastamist seirama. Siiski on kõikjal vaja paremini ühendada harrastusvaatlused otsustamise ja keskkonnategevustega ([Liu ja Kobernus 2017](#Liu2017)). Eesti harrastusteaduse seis peegeldab üldisemat arengujärku keskkonnademokraatias, kus kodanike kaasamine loodusalade haldamisse oleneb riigi usaldusest, kodanikuaktiivsusest ning tehnilistest suhtlus- ja andmehaldusvahenditest.
 
-<p class="caption" id="figure344"><span class="figure-number">Joonis 3.4.4.</span> Loodusvaatluste andmebaasikasutamine 10 aasta jooksul.Andmebaas on riigi hallatav ja huvilistele avatud liigivaatluste kogu (a1, a2). Väljaspool riiklikku seiret e-elurikkuse platvormilt PlutoF andmebaasi sisestatud linnuvaatlejate (b) ja linnuvaatluste (c) arv</p>
+<p class="caption" id="figure344"><span class="figure-number">Joonis 3.4.4.</span> Riikliku Loodusvaatluste andmebaasi üleüldine kasutamine (A1, A2) ja Tartu Ülikooli loodusmuuseumi PlutoF andmebaasi kasutmine linnuvaatlejate poolt (B1, B2) 9 aasta jooksul</p>
 
 ```{r, figure344, message=FALSE, echo=FALSE, warning=FALSE}
 
 library("tidyverse")
 library("reshape")
 library("gridExtra")
-  
-  
+
+
 fig344_data12 <- read.csv ("data/34_fig4_data1.csv", header=TRUE, fileEncoding="utf-8",check.names=FALSE)
 fig344_data34 <- read.csv ("data/34_fig4_data2.csv", header=TRUE, fileEncoding="utf-8")
 
@@ -176,44 +176,44 @@ fig344_data4 <- subset(fig344_data34, select=c(year,observations_total))
 
 fig344_data3 <- melt (fig344_data3, id=c("year"))
 fig344_data4 <- melt (fig344_data4, id=c("year"))
- 
+
   fig344_plot1 <- ggplot() +
     geom_line(data = fig344_data1, mapping = aes(x=year, y=as.numeric(value), group=variable), size=1.2, colour="#79AC2C") +
     labs(y="isikuid", x="aasta") +
     expand_limits (y=0) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,400)) +
-    scale_x_date(expand = c(0, 0)) 
-  
+    scale_x_date(expand = c(0, 0))
+
   fig344_plot2 <- ggplot() +
     geom_line(data = fig344_data2, mapping = aes(x=year, y=as.numeric(value)), size=1.2, colour="#5B8121") +
     labs(y="vaatusi", x="aasta") +
     expand_limits (y=0) +
-    scale_x_date(expand = c(0, 0)) 
+    scale_x_date(expand = c(0, 0))
 
     scale_y_continuous(expand = c(0, 0), limits=c(0,12000))
-  
+
   fig344_plot3 <- ggplot() +
     geom_line(data = fig344_data3, mapping = aes(x=year, y=value), size=1.2, colour="#79AC2C") +
     labs(y="linnuvaatlejate arv", x="aasta") +
     expand_limits (y=0) +
     scale_x_continuous(expand = c(0, 0), limits=c(2008,2016.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,800))
-  
+
     fig344_plot4 <- ggplot() +
     geom_line(data = fig344_data4, mapping = aes(x=year, y=value), size=1.2, colour="#5B8121") +
     labs(y="linnuvaatluste arv", x="aasta") +
     expand_limits (y=0) +
     scale_x_continuous(expand = c(0, 0), limits=c(2008,2016.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,99000))
-  
-  
-  
+
+
+
 grid.arrange(fig344_plot1 + fig_theme_general, fig344_plot2 + fig_theme_general, fig344_plot3 + fig_theme_general, fig344_plot4 + fig_theme_general, ncol = 1)
- 
+
 ggsave(path="exported_figures/PDF/chapter3",filename="fig344a.pdf",fig344_plot1 + fig_theme_general, height=70, width=200, units="mm")
 
 ggsave(path="exported_figures/PDF/chapter3",filename="fig344b.pdf",fig344_plot2 + fig_theme_general, height=70, width=200, units="mm")
- 
+
 ggsave(path="exported_figures/PDF/chapter3",filename="fig344c.pdf",fig344_plot3 + fig_theme_general, height=70, width=200, units="mm")
 
 ggsave(path="exported_figures/PDF/chapter3",filename="fig344d.pdf",fig344_plot4 + fig_theme_general, height=70, width=200, units="mm")
@@ -228,9 +228,9 @@ ggsave(path="exported_figures/PDF/chapter3",filename="fig344d.pdf",fig344_plot4 
 ```{block, type='casebox'}
 <h3>Harrastusvaatlejad lahendasid Ess-soo kasutusdilemmat</h3>
 
-Ess-soo on olnud kohalikele oluline marjakoht ja endise Urvaste valla ainuke raba. Kui Võrumaa keskkonnateenistus andis 2002. aastal arendajale nõusoleku oluliselt laiendada sealset turbakaevandust, organiseerus kohalik kogukond ja seisis plaanile järjekindlalt vastu. Teiste seas käisid 2004. aastal sood väisamas loodushuvilised, kes leidsid kaitsealuseid linde ja taimi. Põhjalikum inventuur eriteadlaste poolt kinnitas, et ala on olulise looduskaitselise väärtusega. 
+Ess-soo on olnud kohalikele oluline marjakoht ja endise Urvaste valla ainuke raba. Kui Võrumaa keskkonnateenistus andis 2002. aastal arendajale nõusoleku oluliselt laiendada sealset turbakaevandust, organiseerus kohalik kogukond ja seisis plaanile järjekindlalt vastu. Teiste seas käisid 2004. aastal sood väisamas loodushuvilised, kes leidsid kaitsealuseid linde ja taimi. Põhjalikum inventuur eriteadlaste poolt kinnitas, et ala on olulise looduskaitselise väärtusega.
 
-Pärast mitmeid kohtuvaidlusi, teaduslikke analüüse, retki sohu ja kogukondlikku ühistegevust moodustati Urvaste Vallavalitsuse otsusega 2010. aastal kohalik kaitseala – Ess-soo maastikukaitseala. Aastal 2019 plaanib RMK alustada kraavide sulgemise ja kujundusraietega soo äärealadel ja endisel turbakaevandusalal, et soo terviklikkust taastada. Kohalikud elanikud jälgivad huviga nii soo taastamise käiku kui ka seal tehtavaid teadusuuringuid.
+Pärast mitmeid kohtuvaidlusi, teaduslikke analüüse, retki sohu ja kogukondlikku ühistegevust moodustati Urvaste Vallavalitsuse otsusega 2010. aastal kohalik kaitseala – Ess-soo maastikukaitseala. Aastal 2019 ja 2020 tegeleb RMK kraavide sulgemise ja kujundusraietega soo äärealadel ja endisel turbakaevandusalal, et soo terviklikkust taastada. Kohalikud elanikud jälgivad huviga nii soo taastamise käiku kui ka seal tehtavaid teadusuuringuid.
 
 <p class="caption" id="figure345"><span class="figure-number">Joonis 3.4.5.</span> Harju maakonna rohevõrgustiku rohekoridoride katkestused (punased ringid) 2006. ja 2012. aasta võrdluses</p>
 
@@ -253,7 +253,9 @@ Keskkonnateabe puhul on vaja olemasolevad andmekogud koondada viisil, mis aitaks
 
 <p id="Keskkonnaagentuur2017">Keskkonnaagentuur 2017. Keskkonnaregistri avaliku teenuse kasutajauuring. Kokkuvõte ja analüüs.</p>
 
-<p id="Kiisel2005">Kiisel, M. 2005. Keskkonnateadvuse kujunemine Eestis 1980ndatest 2005ni. Magistritöö. Tartu Ülikool. Kõnnussaar, T., Lõhmus, A. 2018. Tselluloositehase eriplaneeringu juhtum: mida on Eesti ühiskonnal sellest õppida? –  Mõõt või meelevald.. Eesti Rooma Klubi Aastaraamat. Tallinn: Eesti Rooma Klubi, 215–223.</p>
+<p id="Kiisel2005">Kiisel, M. 2005. Keskkonnateadvuse kujunemine Eestis 1980ndatest 2005ni. Magistritöö. Tartu Ülikool.</p>
+
+<p id="Konnusaar2018">Kõnnussaar, T., Lõhmus, A. 2018. Tselluloositehase eriplaneeringu juhtum: mida on Eesti ühiskonnal sellest õppida? –  Mõõt või meelevald.. Eesti Rooma Klubi Aastaraamat. Tallinn: Eesti Rooma Klubi, 215–223.</p>
 
 <p id="Lauristin1988">Lauristin, M. 1988. Fosforiidisündroom ja avalikkuse areng. – Eesti Loodus, 7–8, 424–430, 494–498.</p>
 
