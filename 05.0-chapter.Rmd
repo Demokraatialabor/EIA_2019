@@ -1,7 +1,83 @@
-# Tuleviku Eesti 2050 {#chapter50 .chapter5_section .intro_section}
+# Eesti elukeskkond aastal 2050 {#chapter50 .chapter5_section .intro_section}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque purus. Auctor urna nunc id cursus metus aliquam. Malesuada fames ac turpis egestas sed tempus urna et pharetra. Non diam phasellus vestibulum lorem. Fermentum iaculis eu non diam phasellus vestibulum. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque. Elit pellentesque habitant morbi tristique senectus. Pulvinar neque laoreet suspendisse interdum consectetur. Sit amet nisl purus in mollis. Dignissim suspendisse in est ante in. Pretium viverra suspendisse potenti nullam ac tortor. Tellus cras adipiscing enim eu turpis egestas pretium. Sit amet volutpat consequat mauris nunc. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Iaculis nunc sed augue lacus viverra vitae congue eu consequat.
+## Eesti elukeskkond aastal 2050 {-.chapter_section .chapter5_section}
 
-Facilisis mauris sit amet massa. Nisi porta lorem mollis aliquam ut porttitor leo. Aliquet nibh praesent tristique magna sit amet. Orci nulla pellentesque dignissim enim sit amet. Egestas sed sed risus pretium quam. Elementum integer enim neque volutpat ac tincidunt vitae semper quis. Sit amet mattis vulputate enim. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit. Enim facilisis gravida neque convallis a cras semper. Scelerisque eu ultrices vitae auctor eu augue.
+<p class="caption" id="figure51"><span class="figure-number">Joonis 5.1.</span> Eesti rahvaarvu muutus 2019–2080</p>
 
-Neque ornare aenean euismod elementum nisi. Id faucibus nisl tincidunt eget nullam non nisi. Convallis convallis tellus id interdum velit laoreet id donec ultrices. Ac feugiat sed lectus vestibulum mattis ullamcorper. Ultrices eros in cursus turpis massa. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. In nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Pellentesque adipiscing commodo elit at imperdiet. Egestas congue quisque egestas diam in arcu. Eget nunc scelerisque viverra mauris in aliquam sem fringilla ut. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Amet porttitor eget dolor morbi non.
+```{r, figure51, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+
+library("tidyverse")
+library("scales")
+library("reshape")
+
+fig51_data <- read.csv ("data/5_fig1_data.csv", header=TRUE, fileEncoding="utf-8", sep=";", check.names=FALSE, stringsAsFactors=FALSE)
+fig51_data <- melt(fig51_data, id=c("Rahvaarv"))
+
+names(fig51_data)[names(fig51_data) == "Rahvaarv"] <- "scenario"
+names(fig51_data)[names(fig51_data) == "variable"] <- "year"
+
+fig51_data$year <- as.numeric(as.character(fig51_data$year))
+
+  fig51_plot <- ggplot(data = fig51_data) +
+    geom_line(mapping = aes(x=year, y = value, colour=scenario, group=scenario), size=1) +
+    scale_colour_manual(values=c("#500e0c", "#a01b17", "#a8aca6", "#86858a"))+
+    labs(y="rahvaarv", x="aasta") +
+    scale_x_continuous(breaks=c(2019,2030,2040,2050,2060,2070,2080), expand = c(0, 0), limits=c(2019,2082))+
+    scale_y_continuous(breaks=c(200000,400000,600000,800000,1000000,1200000,1400000), labels = number, expand = c(0, 0), limits=c(0,1400000))+
+    expand_limits (y=0)+
+      guides(colour=guide_legend(nrow=4,byrow=TRUE))
+
+   fig51_theme <- theme(
+  )
+
+  print(fig51_plot + fig_theme_general + fig51_theme)
+
+  ggsave(path="exported_figures/PDF/chapter5",filename="fig51.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
+```
+
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Muinsuskaitseamet.
+```
+
+<p class="caption" id="figure54"><span class="figure-number">Joonis 5.4.</span> Eesti rahvaarvu muutus 2019–2080</p>
+
+```{r, figure54, fig.asp=1.5, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+
+library("tidyverse")
+library("scales")
+library("reshape2")
+
+fig54_data <- read.csv ("data/5_fig4_data2.csv", header=TRUE, fileEncoding="utf-8", sep=";", check.names=FALSE)
+fig54_data <- melt(fig54_data, id=c("Linnaosa"))
+
+#fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohtade pindala (20m²/pk)","Parkimiskohtade pindala (25m²/pk)","Parkimiskohtade pindala (30m²/pk)","Parkimiskohtade pindala (40m²/pk)","Tänavavõrgu pindala (m²)","Jalakäija ruumi pindala (m²)","Eluruumide pindala (m²)","Bürooruumide pindala (m²)","Kaubandus- ja teeninduruumide pindala (m²)","Meelelahutus-, haridus- tervishoiu- ja muude avalike ruumide pindala (m²)","Tööstus- ja laoruumide pindala (m²)"))
+
+fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohad","Tänavavõrk","Jalakäijate ruum","Eluruumid","Bürooruumid","Kaubandus- ja teenindusruumid","Meelelahutus-, haridus-, tervishoiu- ja muud avalikud ruumid","Tööstus- ja laoruumid"))
+
+  fig54_plot <- ggplot(data = fig54_data) +
+    geom_col(mapping = aes(x=variable, y = as.numeric(as.character(value)), fill=variable), size=0.7) +
+    facet_wrap(~Linnaosa, nrow=8, strip.position="left") +
+    coord_flip() +
+    labs(y="m²", x="") +
+    scale_y_continuous(labels = comma, limits=c(0,7600000), breaks=c(0, 2500000,5000000,7500000)) +
+    scale_fill_manual(values=c("#500e0c", "#a01b17", "#a8aca6", "#86858a","#79ac2c","#3d5616", "#c67674", "#c8c6bf"),guide = guide_legend(reverse = TRUE)) +
+      guides(fill=guide_legend(nrow=4,byrow=TRUE))
+
+   fig54_theme <- theme(
+    axis.text.y = element_blank(),
+    legend.position="top",
+    strip.text.y = element_text(size = 10),
+    panel.grid.major.y = element_blank() ,
+    panel.grid.minor.y = element_blank(),
+    axis.line.y = element_blank(),
+    axis.ticks.y = element_blank()
+  )
+
+  print(fig54_plot + fig_theme_general + fig54_theme)
+
+  ggsave(path="exported_figures/PDF/chapter5",filename="fig54.pdf", height=260, width=195, units="mm",encoding = "ISOLatin9.enc")
+```
+
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Cerrone jt 2019.
+```

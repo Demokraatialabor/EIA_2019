@@ -1,4 +1,4 @@
-year,observers_total,observations_total
+year,"linnuvaatlejate arv","linnuvaatluste arv"
 2008,196,8901
 2009,200,8624
 2010,205,11031
@@ -8,3 +8,4 @@ year,observers_total,observations_total
 2014,510,66575
 2015,613,82418
 2016,752,93299
+2017,587,100431

@@ -166,57 +166,32 @@ fig344_data34 <- read.csv ("data/34_fig4_data2.csv", header=TRUE, fileEncoding="
 
 fig344_data12 <- melt (fig344_data12, id=c("variable"))
 names(fig344_data12) [2] <- "year"
-fig344_data12$year <- as.Date(fig344_data12$year, "%Y")
+fig344_data12$year <- as.numeric(as.character(fig344_data12$year))
 
-fig344_data1 <- subset (fig344_data12, variable == "observers", select=c(variable,year,value))
-fig344_data2 <- subset (fig344_data12, variable == "observations", select=c(variable,year,value))
+fig344_data34 <- melt (fig344_data34, id=c("year"))
+fig344_data34$year <- as.numeric(as.character(fig344_data34$year))
 
-fig344_data3 <- subset(fig344_data34, select=c(year,observers_total))
-fig344_data4 <- subset(fig344_data34, select=c(year,observations_total))
+fig344_data <- bind_rows(fig344_data12,fig344_data34)
+fig344_data <- fig344_data[order(fig344_data$year),]
 
-fig344_data3 <- melt (fig344_data3, id=c("year"))
-fig344_data4 <- melt (fig344_data4, id=c("year"))
 
-  fig344_plot1 <- ggplot() +
-    geom_line(data = fig344_data1, mapping = aes(x=year, y=as.numeric(value), group=variable), size=1.2, colour="#79AC2C") +
-    labs(y="isikuid", x="aasta") +
+  fig344_plot <- ggplot() +
+    geom_line(data = fig344_data, mapping = aes(x=year, y=as.numeric(value), group=variable, colour=variable), size=1.2) +
+    labs(y="", x="aasta") +
     expand_limits (y=0) +
-    scale_y_continuous(expand = c(0, 0), limits=c(0,400)) +
-    scale_x_date(expand = c(0, 0))
+    scale_x_continuous(expand = c(0, 0), limits=c(2008,2017.5), breaks=c(2009,2011,2013,2015,2017)) +
+    facet_wrap(~variable, nrow=4, strip.position="right", scales = "free_y") +
+    scale_colour_manual(values=c("#79ac2c", "#5b8121", "#79ac2c", "#5b8121"),guide = guide_legend(reverse = TRUE))
 
-  fig344_plot2 <- ggplot() +
-    geom_line(data = fig344_data2, mapping = aes(x=year, y=as.numeric(value)), size=1.2, colour="#5B8121") +
-    labs(y="vaatusi", x="aasta") +
-    expand_limits (y=0) +
-    scale_x_date(expand = c(0, 0))
+  fig344_theme <- theme (
+    legend.position="none",
+    panel.spacing = unit(2, "lines"),
+    strip.text.y = element_text(size = 10),
+  )
+  
+  print(fig344_plot + fig_theme_general + fig344_theme)
 
-    scale_y_continuous(expand = c(0, 0), limits=c(0,12000))
-
-  fig344_plot3 <- ggplot() +
-    geom_line(data = fig344_data3, mapping = aes(x=year, y=value), size=1.2, colour="#79AC2C") +
-    labs(y="linnuvaatlejate arv", x="aasta") +
-    expand_limits (y=0) +
-    scale_x_continuous(expand = c(0, 0), limits=c(2008,2016.5)) +
-    scale_y_continuous(expand = c(0, 0), limits=c(0,800))
-
-    fig344_plot4 <- ggplot() +
-    geom_line(data = fig344_data4, mapping = aes(x=year, y=value), size=1.2, colour="#5B8121") +
-    labs(y="linnuvaatluste arv", x="aasta") +
-    expand_limits (y=0) +
-    scale_x_continuous(expand = c(0, 0), limits=c(2008,2016.5)) +
-    scale_y_continuous(expand = c(0, 0), limits=c(0,99000))
-
-
-
-grid.arrange(fig344_plot1 + fig_theme_general, fig344_plot2 + fig_theme_general, fig344_plot3 + fig_theme_general, fig344_plot4 + fig_theme_general, ncol = 1)
-
-ggsave(path="exported_figures/PDF/chapter3",filename="fig344a.pdf",fig344_plot1 + fig_theme_general, height=70, width=200, units="mm")
-
-ggsave(path="exported_figures/PDF/chapter3",filename="fig344b.pdf",fig344_plot2 + fig_theme_general, height=70, width=200, units="mm")
-
-ggsave(path="exported_figures/PDF/chapter3",filename="fig344c.pdf",fig344_plot3 + fig_theme_general, height=70, width=200, units="mm")
-
-ggsave(path="exported_figures/PDF/chapter3",filename="fig344d.pdf",fig344_plot4 + fig_theme_general, height=70, width=200, units="mm")
+ggsave(path="exported_figures/PDF/chapter3",filename="fig344.pdf",fig344_plot + fig_theme_general+    fig344_theme, height=217, width=142, units="mm")
 
 ```
 
