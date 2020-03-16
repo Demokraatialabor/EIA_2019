@@ -1,4 +1,4 @@
-## Aktivism avaliku ruumi koosloomes {#chapter23 .chapter_section .chapter2_section}
+## Aktivism avaliku ruumi koosloomes {.chapter_section .chapter2_section}
 
 ```{block, type='authors'}
 **Keiti Kljavin, Johanna Pirrus, Kaija-Luisa Kurik ja Ingmar Pastak**
@@ -86,7 +86,7 @@ Kui valdavalt jõuavad asukohapõhised liikumised tegeleda konkreetsete piirkond
 <span class="imgsource-source">Allikas:</span> autorite joonis.
 ```
 
-Osapoolte kokkutoomine, sobiliku suhtlusvormi otsimine, ühiste huvide väljaselgitamine ja lahenduste üle arutlemine on osa koosloome reeglite kujunemisest. Seda tegevust mingil viisil sildistades – näiteks kasutades ingliskeelset akronüümi NIMBY (ingl not in my back yard, eesti keeles mitte-minu-naabrusse-sündroom) või selle variatsioone NIABY, LULU, NAMBY, BANANA – piirab avalik sektor, kinnisvara arendaja või ka meedia avalikku arutelu.
+Osapoolte kokkutoomine, sobiliku suhtlusvormi otsimine, ühiste huvide väljaselgitamine ja lahenduste üle arutlemine on osa koosloome reeglite kujunemisest. Seda tegevust mingil viisil sildistades – näiteks kasutades ingliskeelset akronüümi NIMBY (ingl *not in my back yard*, eesti keeles mitte-minu-naabrusse-sündroom) või selle variatsioone NIABY, LULU, NAMBY, BANANA – piirab avalik sektor, kinnisvara arendaja või ka meedia avalikku arutelu.
 
 ### Ruumiloomes osalevate liikumiste ja üksikisikute mõju väljendub uutes osaluskultuuri vormides {-.chapter2_section}
 

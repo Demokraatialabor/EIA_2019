@@ -1,4 +1,4 @@
-## Ekspertide roll ja staatus ühiskondlikes meediaaruteludes {#chapter44 .chapter_section .chapter4_section}
+## Ekspertide roll ja staatus ühiskondlikes meediaaruteludes {.chapter_section .chapter4_section}
 
 ```{block, type='authors'}
 **Arko Olesk**

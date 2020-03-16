@@ -1,4 +1,4 @@
-## Avalik ruum kui elukeskkonda siduv võrgustik {#chapter21 .chapter_section .chapter2_section}
+## Avalik ruum kui elukeskkonda siduv võrgustik {.chapter_section .chapter2_section}
 
 ```{block, type='authors'}
 **Toomas Paaver ja Elo Kiivet**
@@ -119,7 +119,7 @@ Kohalikel omavalitsustel ei ole võimalik avalikku ruumi eirata, sest see on kõ
 Normatiivide mehaanilise rakendamise tõttu kipuvad linnaruumis domineerima sõiduteed ja autokesksus.
 ```
 
-Nii riigi Maa-amet kui ka riigiettevõtted ja omavalitsused on eraomandisse võõrandanud maatükke, mida kasutatakse avaliku ruumina või mida oleks loomulik selleks kavandada (joonis 2.1.3). Sellise tehingu korral satuvad nii linnaelanike kui ka uue omaniku õigused praeguses õiguskorras ebaselgele pinnale, milles vaidluste tulemust ei saa ennustada.
+Nii riigi Maa-amet kui ka riigiettevõtted ja omavalitsused on eraomandisse võõrandanud maatükke, mida kasutatakse avaliku ruumina või mida oleks loomulik selleks kavandada ([joonis 2.1.3](#figure213). Sellise tehingu korral satuvad nii linnaelanike kui ka uue omaniku õigused praeguses õiguskorras ebaselgele pinnale, milles vaidluste tulemust ei saa ennustada.
 
 Sellegipoolest leidub eraomanikke, kes on ise mõistnud avaliku ruumi vajalikkust ning on seda arendanud vahel tõhusamaltki kui kohalik omavalitsus. Tavaliselt toimub see juhul, kui ühe arendaja omandis on suurem ala. Avalik ruum väärtustab ja suurendab ala atraktiivsust nii kasutajate kui ka äride silmis. Ometi kipuvad sellised avalikud ruumid jääma laiema võrgustikuga sidumata, kui omavalitsus või omanik ei pööra tähelepanu avaliku ruumi püsimisele või sidumisele ümbrusega.
 

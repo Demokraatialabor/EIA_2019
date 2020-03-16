@@ -1,6 +1,6 @@
-# Ruumipoliitikad {#chapter20  .intro_section .chapter2_section}
+# Ruumipoliitikad {.chapter2 .chapter2_section}
 
-## Sissejuhatus {-.chapter_section .chapter2_section}
+## Sissejuhatus {-.chapter_section .chapter2_section .intro_section}
 
 ```{block, type='authors'}
 **Epp Lankots**
@@ -10,12 +10,15 @@
 
 ```{block, type='points'}
 * Eestis on avaliku ruumi loome olnud süsteemitu ja killustunud eri fookusega planeeringute vahel.
+
 Kitsas vaade, mis ei võta arvesse näiteks transpordi, haridusvõrgu, turismi ja teiste valdkondade arendamise ruumilist mõju, ei aita saavutada paremat elukeskkonda. Ligipääsetava, ohutu, katkestusteta toimiva ja meeldiva avaliku ruumi loomine eeldab avalikult sektorilt eri valdkondade vaadete sidumist ja protsessi juhtimist.
 
 * Aineline kultuuripärand on ressurss, mille abil avaliku ruumi ja elukeskkonna kvaliteeti tõsta.
+
 Kui maakondadesse teenuste planeerimisel arvestatakse üksikotsuste laiemat ruumilist mõju, lahendab see mitu riigile olulist probleemi korraga. Kultuuripärandi kasutuselevõtt ja korrashoid aitab tihendada kahanevate asulate keskusi ja muuta väikelinnu atraktiivsemaks.
 
 * Koosloome asemel on avaliku ruumi planeerimine Eesti linnades olnud pigem menetlusprotsessile keskenduv ja vormiliselt kaasav kui erinevatele teadmistele ja andmetele tuginev protsess.
+
 Kohalike kogukondade ja teiste huvigruppide osalus ei kindlusta automaatselt kvaliteetset avalikku ruumi, nagu ei taga põhjalikult kogutud andmed üksi demokraatlikku otsust. Oluline on leida kooskõla ruumikasutajate ning eksperditeadmise vahel, kusjuures nii eksperdid kui ka teadmised võivad jaguneda eri leeridesse.
 ```
 

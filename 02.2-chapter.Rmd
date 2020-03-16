@@ -1,4 +1,4 @@
-## Ehituspärand ja ruumikvaliteet {#chapter22 .chapter_section .chapter2_section}
+## Ehituspärand ja ruumikvaliteet {.chapter_section .chapter2_section}
 
 ```{block, type='authors'}
 **Triin Talk ja Siim Raie**

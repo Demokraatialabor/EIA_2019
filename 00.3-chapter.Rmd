@@ -1,7 +1,70 @@
-## Demokraatia ruum {-#chapter03 .chapter_section .chapter0_section}
+## Demokraatia ruum {-.chapter_section .chapter0_section}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices sagittis orci a scelerisque purus. Auctor urna nunc id cursus metus aliquam. Malesuada fames ac turpis egestas sed tempus urna et pharetra. Non diam phasellus vestibulum lorem. Fermentum iaculis eu non diam phasellus vestibulum. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque. Elit pellentesque habitant morbi tristique senectus. Pulvinar neque laoreet suspendisse interdum consectetur. Sit amet nisl purus in mollis. Dignissim suspendisse in est ante in. Pretium viverra suspendisse potenti nullam ac tortor. Tellus cras adipiscing enim eu turpis egestas pretium. Sit amet volutpat consequat mauris nunc. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Iaculis nunc sed augue lacus viverra vitae congue eu consequat.
+<p class="caption" id="figure05"><span class="figure-number">Joonis 0.5.</span> Tallinna eeslinna asumi vs maa-aleviku rahvastikupüramiid</p>
 
-Facilisis mauris sit amet massa. Nisi porta lorem mollis aliquam ut porttitor leo. Aliquet nibh praesent tristique magna sit amet. Orci nulla pellentesque dignissim enim sit amet. Egestas sed sed risus pretium quam. Elementum integer enim neque volutpat ac tincidunt vitae semper quis. Sit amet mattis vulputate enim. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit. Enim facilisis gravida neque convallis a cras semper. Scelerisque eu ultrices vitae auctor eu augue.
+```{r, joonis05, fig.cap='', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
-Neque ornare aenean euismod elementum nisi. Id faucibus nisl tincidunt eget nullam non nisi. Convallis convallis tellus id interdum velit laoreet id donec ultrices. Ac feugiat sed lectus vestibulum mattis ullamcorper. Ultrices eros in cursus turpis massa. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. In nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Pellentesque adipiscing commodo elit at imperdiet. Egestas congue quisque egestas diam in arcu. Eget nunc scelerisque viverra mauris in aliquam sem fringilla ut. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris. Sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Amet porttitor eget dolor morbi non.
+library("tidyverse")
+library("scales")
+library("reshape")
+library("showtext")
+
+showtext_auto()
+font_add_google(name = "Montserrat", family = "montserrat")
+
+fig05_data <- read.csv ("data/0_fig5_data.csv", header=TRUE, fileEncoding="utf-8", sep=";", check.names=FALSE)
+fig05_data <- melt(fig05_data, id=c("Vanus","Asukoht"))
+
+names(fig05_data)[names(fig05_data) == "variable"] <- "Sugu"
+names(fig05_data)[names(fig05_data) == "value"] <- "Protsent"
+
+fig05_data$Vanus <- factor(fig05_data$Vanus, levels = c("0-4","5-9","10-14","15-19","20-24","25-29","30-34","35-39","40-44","45-49","50-54","55-59","60-64","65-69","70-74","75-79","80-84","85-89","90+"))
+
+fig05_data$Asukoht <- factor(fig05_data$Asukoht, levels = c("Tallinna eeslinn","maa-asumik"))
+
+fig05_data$percent=percent((fig05_data$Protsent/100), 1)
+
+  fig05_plot <- ggplot(data = fig05_data, 
+       mapping = aes(x = Vanus, y = ifelse(test = Sugu == "Mehed", yes = -Protsent, no = Protsent), 
+                     fill = Sugu)) +
+      geom_col() +
+      coord_flip() +
+      scale_y_continuous(labels = abs, breaks=c(-15,-10,-5,0,5,10,15), limits = max(fig05_data$Protsent) * c(-1.2,1.2)) +
+      scale_fill_manual(values=c("#369b9e","#c54409")) +
+      labs(y = "%") +
+      facet_wrap(~Asukoht, nrow=1, strip.position="top")
+  
+    fig_theme_general <- theme(
+                     text = element_text(color = "#292b2c", size = 12, family=""),
+                     panel.background = element_rect(fill = "white", colour = "white"),
+                     panel.grid.major = element_line(colour="#cccccc", size = (0.2)),
+                     panel.grid.minor = element_line(size = (0.2), colour="#cccccc"),
+
+                     axis.line = element_line(size = 0.2, colour = "#cccccc"),
+                     axis.ticks = element_line(colour = "#cccccc", size=(0.2)),
+                     axis.text.x = element_text(margin = margin(t = 10, r = 0, b = 0, l = 0)),
+                     axis.text.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
+                    axis.title.y = element_text(margin = margin(t = 0, r = 12, b = 0, l = 0)),
+                     axis.title.x = element_text(margin = margin(t = 8, r = 0, b = 0, l = 0)),
+                    plot.margin = unit(c(0,0,0,0), "cm"),
+
+                     legend.position="top",
+                     legend.title=element_blank(),
+                     legend.key = element_rect(fill="white"),
+                      legend.background = element_rect(fill=NA),
+
+                    strip.text = element_text( size = 12, color = "#292b2c"),
+                    strip.background = element_rect(color="white", fill="white")
+  )
+
+  fig05_theme <- theme(
+                 )
+
+  print(fig05_plot + fig_theme_general + fig05_theme)
+
+  ggsave(path="exported_figures/PDF/chapter0",filename="fig05.pdf", height=130, width=200, units="mm")
+```
+
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Plüschke-Altof 2017.
+```

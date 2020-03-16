@@ -1,4 +1,4 @@
-## Keskuse-ääremaa lõhe on Eestis viimase 30 aasta jooksul süvenenud {#chapter12 .chapter_section .chapter1_section}
+## Keskuse-ääremaa lõhe on Eestis viimase 30 aasta jooksul süvenenud {.chapter_section .chapter1_section}
 
 ```{block, type='authors'}
 **Bianka Plüschke-Altof, Bradley Loewen ja Kadri Leetmaa**
@@ -26,7 +26,9 @@ Süveneva piirkondliku ebavõrdsuse kõige selgem ilming on majandusliku ja inim
 print("KAART")
 ```
 
-*Märkus: Enne 1995. aastat kujundas rahvastikumuutust oluliselt tagasipöördumine endisesse Nõukogude Liitu. Vaadeldaval ajavahemikul suurenes SKP elaniku kohta kõigis maakondades, kuid proportsionaalselt koondus kasv suhteliselt enam Harju- ja Tartumaale.*
+``` {block, type='figure-comment'}
+<span class="figure-comment-start">Märkus:</span> Enne 1995. aastat kujundas rahvastikumuutust oluliselt tagasipöördumine endisesse Nõukogude Liitu. Vaadeldaval ajavahemikul suurenes SKP elaniku kohta kõigis maakondades, kuid proportsionaalselt koondus kasv suhteliselt enam Harju- ja Tartumaale.
+```
 
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Statistikaamet 2000; 2011.
@@ -112,7 +114,9 @@ library("scales")
   ggsave(path="exported_figures/PDF/chapter1",filename="fig123.pdf", height=140, width=200, units="mm")
 ```
 
-*Märkus: Arvutused põhinevad 296 arvamusartiklil, mis avaldati ajalehtedes Postimees, Eesti Päe- valeht ja Maaleht perioodil 2011–2015. Arvamusliidriks selles analüüsis loeti artikli autorid ja kaas- autorid, vastutavad ajakirjanikud ja toimetajad.*
+``` {block, type='figure-comment'}
+<span class="figure-comment-start">Märkus:</span> Arvutused põhinevad 296 arvamusartiklil, mis avaldati ajalehtedes Postimees, Eesti Päe- valeht ja Maaleht perioodil 2011–2015. Arvamusliidriks selles analüüsis loeti artikli autorid ja kaas- autorid, vastutavad ajakirjanikud ja toimetajad.
+```
 
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Plüschke-Altof 2017.
@@ -121,7 +125,6 @@ library("scales")
 Küsimuses, kuidas ääremaalist kuvandit luuakse, näitab analüüs ([joonis 1.2.4](#figure124)), et arvamusartiklites seostatakse sõna „ääremaa“ enamasti just maapiirkondadega (52% juhtudest), viidates konkreetsetele maakohtadele või -piirkondadele üldiselt, jättes konkreetsed kohad nimetamata (nt „kauge metsaküla“). Osati (7,3%) kirjeldatakse ääremaana ka kogu Eestit väljaspool Tallinna ja selle ümbrust, mis peegeldab taas piirkondlikku koondumist. Harvem kui maakohtade kontekstis (42%) käsitletakse ääremaad ülemaailmses või Euroopa Liidu kontekstis (nt Eesti puudulik lennuühendus, majanduslik sõltuvus EList, Eesti poliitiline roll maailmas). Üksikutel juhtudel kõneldakse ka linnalisest ääremaast (nt probleemsed linnaosad või linna äärealad, 3%). Maapiirkondade samastamine ääremaaga võib olla nendele häbimärk seetõttu, et ääremaad ei kirjeldata neutraalselt, vaid majanduslikult mahajäänu, geograafiliselt kauge, poliitiliselt sõltuva, institutsiooniliselt nõrga ja tuntavate sotsiaalsete probleemidega kohana, mis asub maal. Mõnel juhul võimendab maapiirkondade – või õieti mittelinnaliste piirkondade – ääremaakuvandit ka narratiiv, mis rõhutab ääremaa kogukondade enda vastutust kohaliku arengu (ja ühtlasi mahajäämuse) eest või kujutab neid omal süül läbikukkumise näidetena. Ajalehtede arvamusartiklites viidatakse näiteks kohalikule „kolhoosimentaliteedile“ või ebamõistlikule vastuseisule „tänapäevase“ arengu suhtes. Seega maapiirkondi mitte ainult ei seostata negatiivse ääremaisusega, vaid pannakse neile ka vastutus, jättes mulje, et „maal pole midagi head“. Kordamise kaudu muutub seos lugejaskonna ja laiema üldsuse silmis iseenesestmõistetavaks.
 
 <p class="caption" id="figure124"><span class="figure-number">Joonis 1.2.4.</span> Mis kohti kirjeldatakse Eesti trükimeedias kui ääremaad?</p>
-*Märkus: Arvutused põhinevad 296 arvamusartiklil, mis avaldati ajalehtedes Postimees, Eesti Päe- valeht ja Maaleht perioodil 2011–2015.*
 
 ```{r, figure124, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -160,6 +163,10 @@ fig124_plot
 dev.off()
 ```
 
+``` {block, type='figure-comment'}
+<span class="figure-comment-start">Märkus:</span> Arvutused põhinevad 296 arvamusartiklil, mis avaldati ajalehtedes Postimees, Eesti Päevaleht ja Maaleht perioodil 2011–2015.
+```
+
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Plüschke-Altof 2017.
 ```
@@ -171,7 +178,7 @@ Olgugi et arvamusartiklite meediaanalüüsis domineerib maapiirkondade negatiivn
 Järgnevalt keskendume küsimusele, kas ja kuivõrd on olnud võimalik omavahel põimunud objektiivseid ja subjektiivseid ääremaastumise protsesse ümber pöörata või leevendada regionaalpoliitika abil või kohaliku tasandi strateegiatega. Analüüs ([Loewen 2018](#Loewen2018)) Euroopa Liidu regionaalpoliitika kujundamise kohta, mis põhineb 19 ekspertintervjuul ja poliitikadokumentide analüüsil, näitab, et võrreldes Euroopa Liidu regionaalpoliitika rakendamisega teistes Kesk- ja Ida-Euroopa riikides, on Eestis rakendatud ruumilise ebavõrdsuse suhtes „pimedat“ (nn kohaneutraalset) ja peamiselt kohtade konkurentsivõimele keskenduvat regionaalpoliitikat, mis on olnud küll edukas Eesti üldise majanduskasvu toetamiseks, aga ei ole vähendanud Eesti-sisest piirkondlikku ebavõrdsust.
 
 ```{block, type='blockquote-left'}
-Kohaneutraalsus (ingl spatial blindness – kohapimedus) regionaalpoliitika kujundamisel tähendab, et sarnaste eesmärkide ja põhimõtetega regionaalpoliitikat rakendatakse kõigi piirkondade puhul, isegi kui piirkondlik ebavõrdsus ise mõjutab seda, kuidas kohad suudavad seda poliitikat rakendada.
+Kohaneutraalsus (ingl *spatial blindness* – kohapimedus) regionaalpoliitika kujundamisel tähendab, et sarnaste eesmärkide ja põhimõtetega regionaalpoliitikat rakendatakse kõigi piirkondade puhul, isegi kui piirkondlik ebavõrdsus ise mõjutab seda, kuidas kohad suudavad seda poliitikat rakendada.
 ```
 
 Euroopa Liidu ühtekuuluvuspoliitikas nihkus 2000. aastatel rõhk heaolu jaotavalt lähenemisviisilt konkurentsivõimel ja innovatsioonil põhinevale poliitikale. See muutus langes ajaliselt kokku uutes liikmesriikides, sh Eestis, institutsioonide ülesehitamise ja uute poliitikapõhimõtete kujundamisega. Kuigi esimesed regionaalpoliitika põhimõtted pandi Eestis paika juba 1994. aastal regionaalpoliitika kontseptsiooniga ning 1996. aastal määratleti programmid ja sihtalad (ääremaade, külaliikumise, saarte piirialade, monofunktsionaalsete asulate, Ida-Virumaa, Setomaa ja Kagu-Eesti programmid), ei olnud nende rakendamiseks tookord riigil piisavalt raha. 2000. aastateks, kui päevakorral oli Euroopa Liiduga liitumine, oli kujunenud ootus, et Euroopa Liidu vahendite lisandumisega on lõpuks olemas võimalused teha lisainvesteeringuid kogu riigi majandusarengu toetamiseks ja regioonide järeleaitamiseks. Euroopa Liidu toetuste osalusel ongi välisrahastus Eesti eri valdkondade poliitikameetmete rakendamisel olnud enneolematult suur, kuid ometi pole see olnud piisav, et riigisisest piirkondlikku ebavõrdsust leevendada. Ligikaudu samal ajal, kui Eestist sai 2004. aastal Euroopa Liidu liige, asuti kogu Euroopas ühtekuuluvuspoliitika eesmärke rakendama pigem tsentraalselt ja kohaneutraalselt. Selline regionaalpoliitika kaldub olema ülalt-alla lähenemine, mis Eesti puhul tähendab keskvalitsuse suurt rolli.
@@ -197,8 +204,11 @@ Pärast 15 aasta pikkust kogemust Euroopa Liidu ühtekuuluvuspoliitikaga Eestis 
 ```
 
 Katseid parandada piirkondade konkurentsivõimet mainekujunduse abil pärsib aga seesama ääremaastaatus ja -kuvand, millest maapiirkonnad püüavad vabaneda, nagu viitavad Kihnu saarel, Järvamaal, Mulgimaal ja Setomaal tehtud uuringud ([Grootens 2018](#Grootens2018); [Plüschke-Altof 2017](#Plüschke-Altof2017); [Plüschke-Altof ja Grootens 2019](#Plüschke-Altof2019)). Kohalike otsustajate ja elanikega läbi viidud uuringus eristati 66 süvaintervjuu alusel kolme peamist mainekujunduse võtet, mida kasutatakse Eesti ääremaadel:
+
 1) kuvandi ümberpööramine,
+
 2) enese (strateegiline) ääremaastamine,
+
 3) nähtavusele püüdlemine.
 
 Need ei ole alati teadlikud strateegiad, sest kuvandeid loovad nii sihilikult kui ka alateadlikult paljud osapooled. Sellegipoolest mõjutavad nimetatud mainekujunduse võtted piirkonna tajumist nii seest- kui ka väljastpoolt ning seeläbi ka tehtavaid rände- ja investeerimisotsuseid.

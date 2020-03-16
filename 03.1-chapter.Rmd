@@ -1,4 +1,4 @@
-## Kuidas inimesed Eesti looduskeskkonda kasutavad? {#chapter31 .chapter_section .chapter3_section}
+## Kuidas inimesed Eesti looduskeskkonda kasutavad? {.chapter_section .chapter3_section}
 
 ```{block, type='authors'}
 **Kalev Sepp ja Asko Lõhmus**
@@ -65,8 +65,6 @@ RMK viimased külastajauuringud näitavad, et nii 2010. kui ka 2015. aastal käi
 
 <p class="caption" id="figure312"><span class="figure-number">Joonis 3.1.2.</span> Riigimetsa Majandamise Keskuse hallatavate loodusobjektide külastus- kordade koguarv ning rahvusparkide külastuskordade arv loenduritel põhineva seire andmetel, 2010–2017</p>
 
-*Märkus: Külastuskordade arv sisaldab puhke- ja kaitsealadel nii maastikul paiknevate objektide kui ka külastuskeskustes teavet saanud külastajate arvu (ei sisalda programmides osalejaid) ning Elistvere loomapargi külastusi. Külastuskordade arv ei ole sama mis külastajate arv, kuivõrd üks külastaja võib ala külastada korduvalt.*
-
 ```{r, figure312, out.width='80%',fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
@@ -107,6 +105,10 @@ print(fig312_plot2 + fig_theme_general + fig312_theme)
 ggsave(path="exported_figures/PDF/chapter3",filename="fig312a.pdf",fig312_plot1 + fig_theme_general + fig312_theme, height=120, width=200, units="mm")
 
 ggsave(path="exported_figures/PDF/chapter3",filename="fig312b.pdf",fig312_plot2 + fig_theme_general + fig312_theme, height=120, width=200, units="mm")
+```
+
+``` {block, type='figure-comment'}
+<span class="figure-comment-start">Märkus:</span> Külastuskordade arv sisaldab puhke- ja kaitsealadel nii maastikul paiknevate objektide kui ka külastuskeskustes teavet saanud külastajate arvu (ei sisalda programmides osalejaid) ning Elistvere loomapargi külastusi. Külastuskordade arv ei ole sama mis külastajate arv, kuivõrd üks külastaja võib ala külastada korduvalt.
 ```
 
 ``` {block, type='imgsource'}

@@ -1,4 +1,4 @@
-## Planeerimisvabaduse võidukäik eeslinna-Eestis {#chapter13 .chapter_section .chapter1_section}
+## Planeerimisvabaduse võidukäik eeslinna-Eestis {.chapter_section .chapter1_section}
 
 ```{block, type='authors'}
 **Antti Roose**
@@ -19,7 +19,7 @@ Eeslinnas kohtub demokraatliku ja vaba ühiskonna arengumudel turumajandusliku k
 
 ### Kuidas määratleda eeslinna? {-.chapter1_section}
 
-Asustuse arengut Eesti suuremate linnade tagamaal avavad kolm võtmemõistet: eeslinnastumine (ingl suburbanisation), valglinnastumine (ingl urban sprawl) ja äärelinnastumine (ingl peri-urbanisation). Lisaks tõi üleriigiline planeering Eesti 2030+ kasutusele hajalinna mõiste, mis seob tervikuks kompaktsed linnad, eeslinnad ning ääremaa asustuse.
+Asustuse arengut Eesti suuremate linnade tagamaal avavad kolm võtmemõistet: eeslinnastumine (ingl *suburbanisation*), valglinnastumine (ingl *urban sprawl*) ja äärelinnastumine (ingl *peri-urbanisation*). Lisaks tõi üleriigiline planeering Eesti 2030+ kasutusele hajalinna mõiste, mis seob tervikuks kompaktsed linnad, eeslinnad ning ääremaa asustuse.
 
 Põhimõistena, kõige laiemas tähenduses, on eeslinnastumine protsess, mida iseloomustab inimeste elama asumine linna tagamaale, linnu ümbritsevatel aladel kaob selle käigus selge maa ja linna vaheline piir ([Tammaru jt 2004](#Tammaru2004)). Et enne 2007. aasta majanduskriisi toimus eeslinnastumine eriti kaootiliselt, siis on hinnangulisema terminina läinud avalikku kõnepruuki valglinnastumine ([Leetmaa jt 2014](#Leetmaa2014); [Tammaru jt 2009](#Tammaru2009)). See osutab linna vähe kontrollitud laialivalgumisele, mis hõlmab lisaks eeslinnavööle ka laiemat tagamaad. Maakasutuse muutust väljendab valglinnastumisel ribakujulise, lapilise ja eraldatud hoonestuse teke, mis toob tihti kaasa raiskava maa-, energia- ja taristukulu, keskkonnareostuse, ummikud ja mitmed teised välismõjud. Valglinnastumist peetakse linnaplaneerimist käsitlevas kirjanduses üldiselt negatiivseks linnaarengu tüübiks ([van Dijk 2009](#van-Dijk2009)). Lääne- ja Kesk-Euroopas räägitakse ka äärelinnastumisest, viidates paremale lahendusele, mille puhul rangem planeerimispoliitika võimaldab linna laiendada keskuslinna perimeetril sidusas linnamustris ([Phelps 2017](#Phelps2017)). Ka Eestis on 2000. aastate hajus valglinnastumine praegu jätkumas äärelinnastumisena.
 Järgnev Tallinna, Tartu ja Pärnu eeslinnastumise analüüs põhineb haldusüksustel, kus eeslinnastumise juhtindikaatoriks on elanike arv ning juhtkriteeriumiks kiire kasv alates 2001. aastast. Suur-Tallinn hõlmab Harku, Jõelähtme, Keila, Kiili, Rae, Saku, Saue ja Viimsi valda ning Saue linna. Suur-Tartu on laienenud Haaslava, Luunja, Tartu, Tähtvere ja Ülenurme valda. Pärnu eeslinnaks on saanud Audru, Paikuse, Sauga ja Tahkuranna vald. Seega jäävad käsitlusest välja Tallinna „vanad“ ees- ja satelliitlinnad Keila ja Maardu ning Pärnus Sindi. Teiseks kriteeriumiks on uue eeslinliku asustuse teke mõõdetuna uuselamute arvu ja asustustiheduse kasvuga eeslinlikuks. Ka siin on oluline ennekõike muutus ja kasv. Eeslinlikku asustustihedust saab hakata jälgima juba tagasihoidlikust 100 elanikust km2 kohta. Statistikaamet on nimetanud üleminekulise eeslinnavöö osaliselt linnastunud alaks vähima asustustihedusega 200 inimest km2-l, kuid eeslinna asustusmustris osutub ka see piirarv liiga kõrgeks.
@@ -27,7 +27,7 @@ Järgnev Tallinna, Tartu ja Pärnu eeslinnastumise analüüs põhineb haldusüks
 ```{block, type='blockquote-right'}
 Maakasutuse muutust väljendab valglinnastumisel ribakujulise, lapilise ja eraldatud hoonestuse teke, mis toob tihti kaasa raiskava maa-, energia- ja taristukulu, keskkonnareostuse, ummikud ja mitmed teised välismõjud.
 ```
-Kui otsida ühist ja erinevat võrdluses Euroopa eeslinnadega, siis Madalmaades, Prantsusmaal, Saksamaal ja Põhjamaades sai eeslinnastumine kiire hoo sisse riiklike elamuprogrammide käivitamisel 1960. aastatel ning vältas läbi 1970.‒1980. aastate ([Bruegmann 2008](#Bruegmann2008)). Vahemere maades muutus keskuslinnade arengueeliste tõttu eeslinnastumine valitsevaks linnastumisprotsessiks paar kümnendit hiljem, 1980. aastatel. 1990. aastateks olid Lääne- ja Kesk-Euroopa jõudnud linnapiirkondade arengus eeslinnajärgsesse etappi (ingl post-suburban) ning asusid otsima uut arenguvõtit vanaldunud eeslinnadele ([Phelphs ja Wood 2011](#Phelps2011).” Eeslinnauuenduse uusurbanistlikul suunal rõhusid arhitektid ja projekteerijad linnaruumi tihendamisele ja esteetikale, jalakäija ja ühistranspordi eelistamisele autoliikluse ees ning ökoloogilistele, säästlikele lahendustele, mis ühtlasi rõhutas maalist ([Randolph 2012](#Randolph2012)). Eeslinnajärgsed eeslinnaarendused, linnakujundus ja -korraldus on matkimas keskuslinna tunnuseid ja protsesse nii linnakeskkonna ja otstarvete mitmekesistamisel kui ka hoonestuse tihendamisel, kuid teevad seda jätkuvalt eeslinlikes mõõtmetes ja vormides. “Ühtlasi on seadusandjad pannud rangeid kvoote, et piirata rohealadele (ingl greenfield) ehitamist, toetades siiski linnalähialade teisest maakasutust pruunaladel (ingl brownfield).
+Kui otsida ühist ja erinevat võrdluses Euroopa eeslinnadega, siis Madalmaades, Prantsusmaal, Saksamaal ja Põhjamaades sai eeslinnastumine kiire hoo sisse riiklike elamuprogrammide käivitamisel 1960. aastatel ning vältas läbi 1970.‒1980. aastate ([Bruegmann 2008](#Bruegmann2008)). Vahemere maades muutus keskuslinnade arengueeliste tõttu eeslinnastumine valitsevaks linnastumisprotsessiks paar kümnendit hiljem, 1980. aastatel. 1990. aastateks olid Lääne- ja Kesk-Euroopa jõudnud linnapiirkondade arengus eeslinnajärgsesse etappi (ingl *post-suburban*) ning asusid otsima uut arenguvõtit vanaldunud eeslinnadele ([Phelphs ja Wood 2011](#Phelps2011).” Eeslinnauuenduse uusurbanistlikul suunal rõhusid arhitektid ja projekteerijad linnaruumi tihendamisele ja esteetikale, jalakäija ja ühistranspordi eelistamisele autoliikluse ees ning ökoloogilistele, säästlikele lahendustele, mis ühtlasi rõhutas maalist ([Randolph 2012](#Randolph2012)). Eeslinnajärgsed eeslinnaarendused, linnakujundus ja -korraldus on matkimas keskuslinna tunnuseid ja protsesse nii linnakeskkonna ja otstarvete mitmekesistamisel kui ka hoonestuse tihendamisel, kuid teevad seda jätkuvalt eeslinlikes mõõtmetes ja vormides. “Ühtlasi on seadusandjad pannud rangeid kvoote, et piirata rohealadele (ingl *greenfield*) ehitamist, toetades siiski linnalähialade teisest maakasutust pruunaladel (ingl *brownfield*).
 
 ```{block, type='blockquote-left'}
 Sarnaselt Eestiga on Ida- ja Kesk-Euroopa eeslinnad kerkinud maakasutust killustades üheotstarbeliste elamualade ja äri-logistikaparkidena.
@@ -274,7 +274,7 @@ Avalikku ruumi pakuvad eeslinnavööndis ohtralt kaubanduskeskused, kuid nende a
 
 ### Kokkuvõte {-.chapter1_section}
 
-“Pidades silmas Eesti eeslinnastumise eraomandilist ja vabaplaneeringulist olemust viimastel kümnenditel, tuleks eeslinna arendamist käsitleda pigem ameerikalikus linnakasvu ja selle juhtimise võtmes (ingl urban growth, growth management), mitte niivõrd normatiivse range euroopaliku linnaplaneerimisena (ingl urban planning).” Tõsi, eeslinnastumine Eestis ongi ameerikalik, kuigi ka siin on põhimõttelisi linnageograafilisi erinevusi USA eeslinnadest – Eesti eeslinnad on väikesed, ei asu keskuslinnast kuigi kaugel ega ole ka massiarendustena ühetaolised. Erinevalt näiteks USA ja osalt ka Lääne-Euroopa linnastumisprotsessist ei ole eeslinnakasv Eestis otseselt keskuslinna taandarengu, allakäigu või negatiivsete asjaolude tagajärg.
+“Pidades silmas Eesti eeslinnastumise eraomandilist ja vabaplaneeringulist olemust viimastel kümnenditel, tuleks eeslinna arendamist käsitleda pigem ameerikalikus linnakasvu ja selle juhtimise võtmes (ingl *urban growth*, *growth management*), mitte niivõrd normatiivse range euroopaliku linnaplaneerimisena (ingl *urban planning*).” Tõsi, eeslinnastumine Eestis ongi ameerikalik, kuigi ka siin on põhimõttelisi linnageograafilisi erinevusi USA eeslinnadest – Eesti eeslinnad on väikesed, ei asu keskuslinnast kuigi kaugel ega ole ka massiarendustena ühetaolised. Erinevalt näiteks USA ja osalt ka Lääne-Euroopa linnastumisprotsessist ei ole eeslinnakasv Eestis otseselt keskuslinna taandarengu, allakäigu või negatiivsete asjaolude tagajärg.
 
 Eeslinna kasvumasin töötab praegu täiskiirusel, lahutamatuna Eesti suurlinnastumisest ja linnaühiskonna arengust. Eeslinnastumine hõlmab Tallinna ümbrust kuni 20 km ning Tartu ja Pärnu linnalähivööndit 5 km raadiuses. Eeslinlik elulaad põhineb kodu- ja autokesksel lastega pere mudelil.
 
@@ -290,11 +290,19 @@ Inimeste liikuvuse suurenedes keskuslinna-eeslinna teljel teisenevad igapäevase
 ### Viidatud allikad {-.subreferences}
 
 <p id=”Bruegmann2008”>Bruegmann, R. 2008. Sprawl: A Compact History. Chicago: University of Chicago Press.</p>
+
 <p id=”Leetmaa2014”>Leetmaa, K., Kährik, A., Nuga, M., Tammaru, T. 2014. Suburbanization in the Tallinn metropolitan area. – Stanilov, K., Sykora, L. (eds.). Confronting Suburbanisation: Urban Decentralization in Post-Socialist Central and Eastern Europe. Oxford: Wiley-Blackwell, 192–224.</p>
+
 <p id=”Phelps2017”>Phelps, N. A. (ed.) 2017. Old Europe, New Suburbanization? Governance, Land, and Infrastructure in European Suburbanization. Toronto: University of Toronto Press.</p>
+
 <p id=”Phelps2011”>Phelps, N. A., Wood, A. M. 2011. The new post-suburban politics? – Urban Studies, 48 (12), 2591–2610.</p>
+
 <p id=”Randolph2012”>Randolph, J. 2012. Environmental Land Use Planning and Management. Washington: Island Press, 746.</p>
+
 <p id=”Roose2015”>Roose, A., Noorkõiv, R., Gauk, M. 2015. Tartu eeslinnastumine. – Eesti Statistika Kvartalikiri, 1, 80−109.</p>
+
 <p id=”Tammaru2004”>Tammaru, T., Kulu, H., Kask, I. 2004. Urbanization, suburbanization and counterurbanization in Estonia. – Eurasian Geography and Economics, 45 (3), 159–176.</p>
+
 <p id=”Tammaru2009”>Tammaru, T., Leetmaa, K., Silm, S., Ahas, R. 2009. Temporal and spatial dynamics of the new residential areas around Tallinn. – European Planning Studies, 17 (3), 423−439.</p>
+
 <p id=”van-Dijk2009”>van Dijk, T. 2009. Who is in charge of the urban fringe? Neoliberalism, open space preservation and growth control. – Planning Practice and Research, 24, 343–361.</p>

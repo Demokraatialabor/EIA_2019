@@ -1,4 +1,4 @@
-## Ajakirjanduse kujundatav arvamusruum {#chapter43 .chapter_section .chapter4_section}
+## Ajakirjanduse kujundatav arvamusruum {.chapter_section .chapter4_section}
 
 ```{block, type='authors'}
 **Ragne Kõuts-Klemm**

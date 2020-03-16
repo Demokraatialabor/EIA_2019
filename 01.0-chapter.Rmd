@@ -1,6 +1,6 @@
-# Muutused Eesti asustusstruktuuris ja elukeskkondades {#chapter10  .intro_section .chapter1_section}
+# Eesti elukeskkondade mitmekesisus {.chapter1 .chapter1_section}
 
-## Sissejuhatus {-.chapter_section .chapter2_section}
+## Sissejuhatus {-.chapter_section .chapter1_section .intro_section}
 
 ```{block, type='authors'}
 **Kadri Leetmaa**
@@ -47,10 +47,7 @@ Kahanemine ääremaal ei jää ainult kaugete maakohtade mureks, järgmisena haa
 ```{r, figure101, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
-library(showtext)
 
-showtext_auto()
-font_add_google(name = "Montserrat", family = "montserrat")
 
  fig101_data <- read.csv ("data/10_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
 
@@ -60,30 +57,6 @@ fig101_palette <- c("#482683","#482683","#482683","#482683","#482683","#482683",
     geom_col(mapping = aes(x=reorder(county, change), y=change), fill=fig101_palette, width=0.6, show.legend = NA) +
     scale_y_continuous(breaks=c(0, 20,40, 60, 80, 100)) +
     labs(y="%", x="")
-
-
-  fig_theme_general <- theme(
-                     text = element_text(color = "#292b2c", size = 12, family=""),
-                     panel.background = element_rect(fill = "white", colour = "white"),
-                     panel.grid.major = element_line(colour="#cccccc", size = (0.2)),
-                     panel.grid.minor = element_line(size = (0.2), colour="#cccccc"),
-
-                     axis.line = element_line(size = 0.2, colour = "#cccccc"),
-                     axis.ticks = element_line(colour = "#cccccc", size=(0.2)),
-                     axis.text.x = element_text(margin = margin(t = 10, r = 0, b = 0, l = 0)),
-                     axis.text.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
-                    axis.title.y = element_text(margin = margin(t = 0, r = 12, b = 0, l = 0)),
-                     axis.title.x = element_text(margin = margin(t = 8, r = 0, b = 0, l = 0)),
-                    plot.margin = unit(c(0,0,0,0), "cm"),
-
-                     legend.position="top",
-                     legend.title=element_blank(),
-                     legend.key = element_rect(fill="white"),
-                      legend.background = element_rect(fill=NA),
-
-                    strip.text = element_text( size = 12, color = "#292b2c"),
-                    strip.background = element_rect(color="white", fill="white")
-  )
 
     fig101_theme <- theme(
                     panel.grid.major.x = element_blank() ,
@@ -98,7 +71,9 @@ fig101_palette <- c("#482683","#482683","#482683","#482683","#482683","#482683",
 
 ```
 
-*Märkus: Ida-Virumaal on kaasatud kõik suuremad linnad. Kärdla, Rapla, Põlva, Jõhvi puhul on andmed esitatud vallasisese linna kohta.*
+``` {block, type='figure-comment'}
+<span class="figure-comment-start">Märkus:</span> Ida-Virumaal on kaasatud kõik suuremad linnad. Kärdla, Rapla, Põlva, Jõhvi puhul on andmed esitatud vallasisese linna kohta.
+```
 
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Statistikaamet 2000; 2018.

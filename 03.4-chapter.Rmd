@@ -1,4 +1,4 @@
-## Kaasarääkimise võimalused avaliku ruumi kujundamises {#chapter34 .chapter_section .chapter3_section}
+## Kaasarääkimise võimalused avaliku ruumi kujundamises {.chapter_section .chapter3_section}
 
 ```{block, type='authors'}
 **Siim Vahtrus, Liina Remm, Kärt Vaarmari**
@@ -46,7 +46,7 @@ Pärast iseseisvuse taastamist vähenes avalik huvi keskkonnaküsimuste vastu m�
 ```{block, type='blockquote-left'}
 OECD 2017. aasta Eesti keskkonna- toime ülevaate kohaselt on Eestis keskkonnademokraatia arenenud ja keskkonnainfo kättesaadav.
 ```
-Võrdleva uuringu Environmental Democracy Index kohaselt oli Eesti 2015. aastal maailma riikide pingereas osalemisõigust ja info kättesaadavust käsitlevate nõuete ülevõtmise ja täitmise poolest 70 riigi hulgas 14. kohal ([World Resources Institute 2015](#World2015)). OECD 2017. aasta Eesti keskkonnatoime ülevaate kohaselt on Eestis keskkonnademokraatia arenenud ja keskkonnainfo kättesaadav. Kaks kolmandikku elanikest peab end keskkonnaasjades hästi informeerituks, kuigi info täielikkus ja kvaliteet võiksid olla paremad. Ka keskkonnaasjades osalemise võimalus on OECD ülevaate kohaselt üldiselt tagatud, ehkki juurdepääs õigusemõistmisele (võimalus keskkonnaotsuseid vaidlustada) vajaks veelgi laiendamist. Ühe peamise puudusena tuuakse välja vaidemenetluse (otsuse õiguspärasuse kontroll haldusorganite poolt) vähest tõhusust, mis tuleb sellest, et vaideid lahendavad sageli samad asutused, kes tegid ka vaidlustatava otsuse.
+Võrdleva uuringu *Environmental Democracy Index* kohaselt oli Eesti 2015. aastal maailma riikide pingereas osalemisõigust ja info kättesaadavust käsitlevate nõuete ülevõtmise ja täitmise poolest 70 riigi hulgas 14. kohal ([World Resources Institute 2015](#World2015)). OECD 2017. aasta Eesti keskkonnatoime ülevaate kohaselt on Eestis keskkonnademokraatia arenenud ja keskkonnainfo kättesaadav. Kaks kolmandikku elanikest peab end keskkonnaasjades hästi informeerituks, kuigi info täielikkus ja kvaliteet võiksid olla paremad. Ka keskkonnaasjades osalemise võimalus on OECD ülevaate kohaselt üldiselt tagatud, ehkki juurdepääs õigusemõistmisele (võimalus keskkonnaotsuseid vaidlustada) vajaks veelgi laiendamist. Ühe peamise puudusena tuuakse välja vaidemenetluse (otsuse õiguspärasuse kontroll haldusorganite poolt) vähest tõhusust, mis tuleb sellest, et vaideid lahendavad sageli samad asutused, kes tegid ka vaidlustatava otsuse.
 
 ### Avaliku ruumi kujundamisel on avalikkusel üldjuhul õigus kaasa rääkida {-.chapter3_section}
 
@@ -73,8 +73,11 @@ Strateegiliste ja riiklike huvidega seotud, loodusalasid mõjutavate projektide 
 
 <p class="caption" id="table341"><span class="figure-number">Joonis 3.4.1.</span> Eesti keskkonnaotsuste jaotus otsustustasandi ja laadi alusel ning kodanike võimalused neis olukordades kaasa rääkida</p>
 
-*Märkus: Lillaga märgitud otsuse liigid, milles osalemise võimalused on (teatud otsuste puhul) piiratud.*
 
+
+``` {block, type='figure-comment'}
+<span class="figure-comment-start">Märkus:</span> Lillaga märgitud otsuse liigid, milles osalemise võimalused on (teatud otsuste puhul) piiratud.
+```
 
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> autor.
@@ -126,10 +129,12 @@ Neil, kes kasutavad keskkonnateabe andmebaase, on rikkalikud valikud. Eesti on �
 
 <p class="caption" id="figure343"><span class="figure-number">Joonis 3.4.3.</span> Keskkonnainfo allikad ja ligipääs</p>
 
-*Märkus: Eri osaliste kogutud keskkonnainfo jaguneb riigi haldusse jõudnult erineval määral kättesaadavaks. Piiratud juurdepääsuga teave on näiteks Kaitseväe laskemoonavarude asukohad, aktiivselt tuleb teavitada terviseriskiga õhureostusest, nõudmise korral kättesaadavad on haruldaste liikide elupaigad, avalik on metsastatistika.*
-
 ```{r, figure343, out.width='80%',fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
 
+```
+
+``` {block, type='figure-comment'}
+<span class="figure-comment-start">Märkus:</span> Eri osaliste kogutud keskkonnainfo jaguneb riigi haldusse jõudnult erineval määral kättesaadavaks. Piiratud juurdepääsuga teave on näiteks Kaitseväe laskemoonavarude asukohad, aktiivselt tuleb teavitada terviseriskiga õhureostusest, nõudmise korral kättesaadavad on haruldaste liikide elupaigad, avalik on metsastatistika.
 ```
 
 ``` {block, type='imgsource'}

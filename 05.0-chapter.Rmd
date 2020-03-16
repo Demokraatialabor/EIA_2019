@@ -1,6 +1,6 @@
-# Eesti elukeskkond aastal 2050 {#chapter50 .chapter5_section .intro_section}
+# Eesti elukeskkond aastal 2050 {.chapter5 .chapter5_section}
 
-## Eesti elukeskkond aastal 2050 {-.chapter_section .chapter5_section}
+## Eesti elukeskkond aastal 2050 {-.chapter_section .chapter5_section .intro_section}
 
 <p class="caption" id="figure51"><span class="figure-number">Joonis 5.1.</span> Eesti rahvaarvu muutus 2019–2080</p>
 
@@ -21,7 +21,7 @@ fig51_data$year <- as.numeric(as.character(fig51_data$year))
   fig51_plot <- ggplot(data = fig51_data) +
     geom_line(mapping = aes(x=year, y = value, colour=scenario, group=scenario), size=1) +
     scale_colour_manual(values=c("#500e0c", "#a01b17", "#a8aca6", "#86858a"))+
-    labs(y="rahvaarv", x="aasta") +
+    labs(y="Rahvaarv", x="aasta") +
     scale_x_continuous(breaks=c(2019,2030,2040,2050,2060,2070,2080), expand = c(0, 0), limits=c(2019,2082))+
     scale_y_continuous(breaks=c(200000,400000,600000,800000,1000000,1200000,1400000), labels = number, expand = c(0, 0), limits=c(0,1400000))+
     expand_limits (y=0)+
@@ -56,7 +56,7 @@ fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohad","T
 
   fig54_plot <- ggplot(data = fig54_data) +
     geom_col(mapping = aes(x=variable, y = as.numeric(as.character(value)), fill=variable), size=0.7) +
-    facet_wrap(~Linnaosa, nrow=8, strip.position="left") +
+    facet_wrap(~Linnaosa, nrow=8, strip.position="right") +
     coord_flip() +
     labs(y="m²", x="") +
     scale_y_continuous(labels = comma, limits=c(0,7600000), breaks=c(0, 2500000,5000000,7500000)) +
@@ -64,8 +64,8 @@ fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohad","T
       guides(fill=guide_legend(nrow=4,byrow=TRUE))
 
    fig54_theme <- theme(
-    axis.text.y = element_blank(),
-    legend.position="top",
+    #axis.text.y = element_blank(),
+    legend.position="none",
     strip.text.y = element_text(size = 10),
     panel.grid.major.y = element_blank() ,
     panel.grid.minor.y = element_blank(),

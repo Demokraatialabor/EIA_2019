@@ -1,4 +1,4 @@
-## Eessõna {-#chapter02 .chapter_section .chapter0_section}
+## Eessõna {-.chapter_section .chapter0_section}
 
 ```{block, type='authors'}
 **Teele Pehk**

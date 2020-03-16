@@ -1,6 +1,6 @@
-# Aruteluruum {#chapter40 .chapter4_section .intro_section}
+# Aruteluruum {.chapter4 .chapter4_section}
 
-## Sissejuhatus {-.chapter_section .chapter4_section}
+## Sissejuhatus {-.chapter_section .chapter4_section .intro_section}
 
 ```{block, type='authors'}
 **Indrek Ibrus**
