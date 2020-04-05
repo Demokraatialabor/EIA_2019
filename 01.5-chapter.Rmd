@@ -134,7 +134,7 @@ Tihenev autoliiklus vähendab ühistransporti kasutavate reisijate arvu ning see
 ```
 Eesti suuremates linnaregioonides on viimasel kahel kümnendil toimunud valglinnastumine: uusi elamu-, kaubandus-, teenuste- ja tootmisalasid on rajatud tiheasustusaladest välja, kuid loodud alad ei ole terviklikult planeeritud, mistõttu toimub elanike pendelliikumine keskuse ja linnaäärsete elurajoonide vahel, selleks sageli isiklikku sõiduautot kasutades. Elanike arv Tallinna lähiregioonis on viimase 20 aasta jooksul oluliselt kasvanud ([joonis 1.5.5](#figure155)), ent Harjumaa kaugemates omavalitsustes on toimunud mõõdukas langus 10–20%. Statistikaameti 2011. aasta rahvaloenduse pendelrände andmete järgi on Eestis kokku 28 üle 5000 elanikuga keskuslinna ümber koondunud toimepiirkonda. Kui paljud neist keskustest on väikesed, eriti just Lõuna-Eestis, siis üks – Tallinn – avaldab mõju inimeste liikumisele üle Eesti.
 
-<p class="caption" id="figure155"><span class="figure-number">Joonis 1.5.5.</span> Autode arv leibkonnas Tallinnas (2016) ja Harjumaal (2017) ning elanike arvu juurdekasv Tallinna lähiregioonis viimase 20 aastal jooksul. 1998 a rahvaarv = 100%</p>
+<p class="caption" id="figure155"><span class="figure-number">Joonis 1.5.5.</span> Autode arv leibkonnas Tallinnas (2016) ja Harjumaal (2017) ning elanike arvu juurdekasv Tallinna lähiregioonis viimase 20 aastal jooksul. 1998 aasta rahvaarv = 100%</p>
 
 
 ```{r, figure155, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
@@ -281,7 +281,7 @@ fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab k
 <span class="imgsource-source">Allikas:</span> Statistikaamet.
 ```
 
-Kõik liikumised ei ole seotud tööle või poodi sõitmisega. Ligi kümnendik kõigist liikumistest sõiduautoga on seotud laste viimisega kooli või lasteaeda. Iga päev tegeleb kellegi sõidutamisega 12% Tallinna tagamaa elanikest, kusjuures suurem roll on selles kuni 34-aastastel naistel ([Kantar Emori 2018](#Kantar2018)). Nii tuleb ka Tallinna linnaregioonis esile mujal maailmas kogetu, et elu linnast väljas tähendab aktiivset autokasutust, laste sõidutamist ja et selle rolli saavad ennekõike emad ([McCarthy jt 2017](#McCarthy2017)).
+Kõik liikumised ei ole seotud tööle või poodi sõitmisega. Ligi kümnendik kõigist liikumistest sõiduautoga on seotud laste viimisega kooli või lasteaeda. Iga päev tegeleb kellegi sõidutamisega 12% Tallinna tagamaa elanikest, kusjuures suurem roll on selles kuni 34-aastastel naistel ([Kantar Emor 2018](#Kantar2018)). Nii tuleb ka Tallinna linnaregioonis esile mujal maailmas kogetu, et elu linnast väljas tähendab aktiivset autokasutust, laste sõidutamist ja et selle rolli saavad ennekõike emad ([McCarthy jt 2017](#McCarthy2017)).
 
 ```{block, type='blockquote-right'}
 Head ühistranspordiühendused ning kergliiklusvõrgustikud eeslinnades aitaks luua mitmekülgsete kasutusvõimalustega keskkonda, kus iga tegevuse või teenuse pärast ei peaks sõitma linna.

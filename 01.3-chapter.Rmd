@@ -13,7 +13,7 @@ Heaoluühiskond Eestis on edenenud käsikäes eeslinna-Eestiga. Tallinnas sai se
 ```{block, type='blockquote-left'}
 Üks kinnitusi, et eeslinnastumine on uus, mitte-eestilik nähtus, on nii ametlik kui ka rahvakeelne ebalus eeslinnaasustuse tähistamisel, nimetamisel ja piiritlemisel.
 ```
-Eeslinnas kohtub demokraatliku ja vaba ühiskonna arengumudel turumajandusliku kasvu- ja konkurentsiideega ning teostub kõige füüsilisemal kujul uusasumites ning eeslinnaelu sotsiaalses praktikas. Eeslinn kasvab tormakalt, hooti, masinlikult, vastandudes ajaloolise keskuslinna sammsammulisele kaalutud arengule. Artiklis käsitlen Tallinna, Tartu ja Pärnu lähiümbruse eeslinnastumise ulatust ja olemust viimastel kümnenditel ning toon välja eeslinnastumise põhjused ja tagajärjed, et vaagida avaliku ja erahuvi teostamist eeslinna planeerimisel, arendamisel ja linnakorralduses.
+Eeslinnas kohtub demokraatliku ja vaba ühiskonna arengumudel turumajandusliku kasvu- ja konkurentsiideega ning teostub kõige füüsilisemal kujul uusasumites ning eeslinnaelu sotsiaalses praktikas. Eeslinn kasvab tormakalt, hooti, masinlikult, vastandudes ajaloolise keskuslinna samm-sammulisele kaalutud arengule. Artiklis käsitlen Tallinna, Tartu ja Pärnu lähiümbruse eeslinnastumise ulatust ja olemust viimastel kümnenditel ning toon välja eeslinnastumise põhjused ja tagajärjed, et vaagida avaliku ja erahuvi teostamist eeslinna planeerimisel, arendamisel ja linnakorralduses.
 
 Üks kinnitusi, et eeslinnastumine on uus, mitte-eestilik nähtus, on nii ametlik kui ka rahvakeelne ebalus eeslinnaasustuse tähistamisel, nimetamisel ja piiritlemisel. Eeslinnastunud külasid on küll tõstetud aleviku staatusesse, näiteks Peetri ja Luige Tallinna külje all või Räni ja Vahi Tartu eeslinnas, aga asustusredelil pole linna nimetust seni välja teeninud isegi mitte Viimsi, Peetri ega Laagri.
 
@@ -206,13 +206,13 @@ Eeslinnastumisprotsessi liikumapanevad jõud on aktiivne kinnisvaraturg ja liber
 ```{block, type='blockquote-left'}
 Arendatava-ehitamata maa ülepakkumine viib juhuslikes külgnevustes ja arendusjärjestuses ebaloogilise katkestustega maakasutusmustrini.
 ```
-Elamuturg käitub eeslinnas keskuslinnast erinevalt. Esimese majandusbuumi ajal kasvas elamuarendus Tallinna eeslinnas Tallinnast endast kiiremini, kuid ei suutnud ületada siiski 2000 uue eluruumi taset aastas (2007). Elamuarenduse langus pöördus tõusuks eeslinnas juba kolme aastaga, kuid Tallinnas langes uuselamumaht pikalt kuni 2013. aastani. Viimasel viiel aastal on eeslinnakasv olnud aeglasem kui Tallinna oma. Tartu elamuarendust iseloomustab seni linna ja eeslinna tasakaal, mis 2013. aastal alanud tõusulaines kaldus järjest rohkem eeslinna kasuks, kuid 2018. aastal läks linnaarenduste maht uuesti eeslinnast mööda. Elamuarendust Tartu eeslinnas ei halvanud oluliselt majanduskriis, asjaolu, mis kinnistab ülikoolilinna elamukinnisvaraturu stabiilsust ja likviidsust.
+Elamuturg käitub eeslinnas keskuslinnast erinevalt. Esimese majandusbuumi ajal kasvas elamuarendus Tallinna eeslinnas Tallinnast endast kiiremini, kuid ei suutnud ületada siiski 2000 uue eluruumi taset aastas (2007). Elamuarenduse langus pöördus tõusuks eeslinnas juba kolme aastaga, kuid Tallinnas langes uuselamumaht pikalt kuni 2013. aastani. Viimasel viiel aastal on eeslinnakasv olnud aeglasem kui Tallinna oma. Tartu elamuarendust iseloomustab seni linna ja eeslinna tasakaal, mis 2013. aastal alanud tõusulaines kaldus järjest rohkem eeslinna kasuks, kuid 2018. aastal läks linnaarenduste maht uuesti eeslinnast mööda. Elamuarendust Tartu eeslinnas ei halvanud oluliselt majanduskriis, asjaolu, mis kinnitab ülikoolilinna elamukinnisvaraturu stabiilsust ja likviidsust.
 
 Konkurentsiolukorras on koduostjatel valida kas linnakodu või eeslinnakodu vahel. Vahetult linna piiril, parema juurdepääsu, taristu ja elukeskkonnaga uusasumitele tekib suurem nõudlus, turunduslikult luuakse mõjukas-rikas kuvand, mille tulemusena tõusevad kinnisvarahinnad. Kaugemas eeslinnavöös ja osaliselt arendatud asumites jäävad hinnad taskukohasemaks ([joonis 1.3.8](#figure138)).
 
 <p class="caption" id="figure138"><span class="figure-number">Joonis 1.3.8.</span> Kohaturunduslik vaade Jüri alevikule Laam Kinnisvaralt</p>
 
-*„Väljaku 5 kortermaja – mugav elukeskkond noortele ja tegusatele / Võimalusterohke lapsepõlv / Linnalähedane kodu Jüris / Aleviku elanike arvu kasvu taga on toimiv taristu, valla edusam- mud täisväärtusliku elukeskkonnatagamisel ning pidevas vabaaja veetmise ja tervisespordi harrastusvõimaluste täiendamises“*
+*„Väljaku 5 kortermaja – mugav elukeskkond noortele ja tegusatele / Võimalusterohke lapsepõlv / Linnalähedane kodu Jüris / Aleviku elanike arvu kasvu taga on toimiv taristu, valla edusam- mud täisväärtusliku elukeskkonna tagamisel ning pidevas vabaaja veetmise ja tervisespordi harrastusvõimaluste täiendamises“*
 
 ```{r, figure138, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
