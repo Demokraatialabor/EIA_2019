@@ -35,7 +35,7 @@ fig05_data$percent=percent((fig05_data$Protsent/100), 1)
       facet_wrap(~Asukoht, nrow=1, strip.position="top")
   
     fig_theme_general <- theme(
-                     text = element_text(color = "#292b2c", size = 12, family=""),
+                     text = element_text(color = "#292b2c", size = 12, family="montserrat"),
                      panel.background = element_rect(fill = "white", colour = "white"),
                      panel.grid.major = element_line(colour="#cccccc", size = (0.2)),
                      panel.grid.minor = element_line(size = (0.2), colour="#cccccc"),

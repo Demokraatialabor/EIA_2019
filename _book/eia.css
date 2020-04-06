@@ -713,5 +713,6 @@ p.caption {
     
     .author-container img {
     max-width:300px !important;
+    margin:auto;
 }
 }

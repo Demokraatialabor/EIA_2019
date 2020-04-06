@@ -6,7 +6,7 @@
 
 <div>
 ```{r, out.width='50%', fig.align='left'}
-knitr::include_graphics('figures/6-authors/HelenSooväli-Sepping.png')
+knitr::include_graphics('figures/6-authors/HelenSoovali-Sepping.png')
 ```
 </div>
 
@@ -23,7 +23,7 @@ on Tallinna Ülikooli jätkusuutliku arengu prorektor, keskkonnakorralduse profe
 
 <div>
 ```{r, out.width='50%', fig.align='left'}
-knitr::include_graphics('figures/6-authors/KristiGrišakov.png')
+knitr::include_graphics('figures/6-authors/KristiGrisakov.png')
 ```
 </div>
 
@@ -83,7 +83,7 @@ on Tartu Ülikooli ökoloogia ja maateaduste instituudi inimgeograafia vanemtead
 <div class="author-container">
 <div>
 ```{r, out.width='50%', fig.align='left'}
-knitr::include_graphics('figures/6-authors/AskoLõhmus.png')
+knitr::include_graphics('figures/6-authors/AskoLohmus.png')
 ```
 </div>
 
@@ -197,7 +197,7 @@ on Manchesteri arhitektuuriülikooli doktorant ning Heritage Action Zone’i reg
 <div class="author-container">
 <div>
 ```{r, out.width='50%', fig.align='left'}
-knitr::include_graphics('figures/6-authors/RagneKõuts-Klemm.png')
+knitr::include_graphics('figures/6-authors/RagneKouts-Klemm.png')
 ```
 </div>
 
@@ -211,7 +211,7 @@ on Tartu Ülikooli ajakirjandussotsioloogia dotsent ja ühiskonnateaduste instit
 <div class="author-container">
 <div>
 ```{r, out.width='50%', fig.align='left'}
-knitr::include_graphics('figures/6-authors/AnneliKährik.png')
+knitr::include_graphics('figures/6-authors/AnneliKahrik.png')
 ```
 </div>
 
@@ -365,7 +365,7 @@ on Tartu Ülikooli geograafia osakonna inimgeograafia doktorant. Tema peamine uu
 <div class="author-container">
 <div>
 ```{r, out.width='50%', fig.align='left'}
-knitr::include_graphics('figures/6-authors/BiankaPlüschke-Altof.png')
+knitr::include_graphics('figures/6-authors/BiankaPluschke-Altof.png')
 ```
 </div>
 
@@ -519,7 +519,7 @@ on linnageograaf, kes töötab Tallinna Ülikooli humanitaarteaduste instituudi 
 <div class="author-container">
 <div>
 ```{r, out.width='50%', fig.align='left'}
-knitr::include_graphics('figures/6-authors/KärtVaarmari.png')
+knitr::include_graphics('figures/6-authors/KartVaarmari.png')
 ```
 </div>
 
@@ -561,7 +561,7 @@ on Tartu Ülikooli semiootika vanemteadur. Tema peamised uurimisteemad on poliit
 <div class="author-container">
 <div>
 ```{r, out.width='50%', fig.align='left'}
-knitr::include_graphics('figures/6-authors/AnnikaVäiko.png')
+knitr::include_graphics('figures/6-authors/AnnikaVaiko.png')
 ```
 </div>
 

@@ -167,7 +167,7 @@ library("gridExtra")
 
 
 fig344_data12 <- read.csv ("data/34_fig4_data1.csv", header=TRUE, fileEncoding="utf-8",check.names=FALSE)
-fig344_data34 <- read.csv ("data/34_fig4_data2.csv", header=TRUE, fileEncoding="utf-8")
+fig344_data34 <- read.csv ("data/34_fig4_data2.csv", header=TRUE, fileEncoding="utf-8",check.names=FALSE)
 
 fig344_data12 <- melt (fig344_data12, id=c("variable"))
 names(fig344_data12) [2] <- "year"
@@ -179,19 +179,22 @@ fig344_data34$year <- as.numeric(as.character(fig344_data34$year))
 fig344_data <- bind_rows(fig344_data12,fig344_data34)
 fig344_data <- fig344_data[order(fig344_data$year),]
 
+fig344_data$variable <- factor(fig344_data$variable, levels = c("Isikuid","Vaatusi","Linnuvaatlejate arv","Linnuvaatluste arv"))
+
 
   fig344_plot <- ggplot() +
     geom_line(data = fig344_data, mapping = aes(x=year, y=as.numeric(value), group=variable, colour=variable), size=1.2) +
-    labs(y="", x="aasta") +
+    labs(y="", x="") +
     expand_limits (y=0) +
     scale_x_continuous(expand = c(0, 0), limits=c(2008,2017.5), breaks=c(2009,2011,2013,2015,2017)) +
-    facet_wrap(~variable, nrow=4, strip.position="right", scales = "free_y") +
+    facet_wrap(~variable, nrow=4, strip.position="left", scales = "free_y") +
     scale_colour_manual(values=c("#79ac2c", "#5b8121", "#79ac2c", "#5b8121"),guide = guide_legend(reverse = TRUE))
 
   fig344_theme <- theme (
     legend.position="none",
     panel.spacing = unit(2, "lines"),
     strip.text.y = element_text(size = 10),
+    strip.placement = "outside",
   )
   
   print(fig344_plot + fig_theme_general + fig344_theme)
