@@ -60,7 +60,7 @@ library("svglite")
   geom_col(mapping = aes(x=county, y=value, fill=location_est), width=0.7) +
   facet_wrap(~year, nrow=1) +
   labs(y="Töökohtade arv", x="", fill="Töökoha paiknemine") +
-  scale_fill_manual(values=c("#482683", "#917db5", "#A8ACA6"))
+  scale_fill_manual(values=c("#482683", "#917db5", "#369B9E"))
 
  fig122_theme <- theme(
           panel.grid.major.x = element_blank() ,
@@ -191,17 +191,25 @@ Pärast 15 aasta pikkust kogemust Euroopa Liidu ühtekuuluvuspoliitikaga Eestis 
 
 Ääremaastumise objektiivsete ja subjektiivsete protsesside taustal, mida Euroopa Liidu regionaalpoliitika rakendamine Eestis pole oluliselt vähendanud, on paljud Eesti maapiirkonnad ja väikelinnad olnud ise aktiivsed ja püüdnud leida uusi võimalusi kohaliku arengu edendamiseks. Sealhulgas on kasutatud koha mainekujundust kui vastustrateegiat negatiivse ääremaalise kuvandi tekkele. Alates 2000. aastate algusest on Euroopa Liidu rahastamiskavadest (nt LEADERi programm) muude meetmete seas toetatud maapiirkondade majanduse mitmekesistamist, millest üks osa on ka mainekujunduse strateegiaid. Kohalikes arengukavades peab enamik Eesti valdasid (2018. aastal 83%) mainekujundust üheks oma arengustrateegiaks, sealhulgas mainekujundusürituste korraldamist, omavalitsuse kuvandi jälgimist ja aktiivset kohaturundust ehk sihipärast kohakuvandi kujundamist. Lisaks tuntud meediaprogrammidele (nt Kuku raadio „Maatund“, ETV „Maahommik“, Vikerraadio murdekeelsed uudised), on ääremaa piirkondadest välja pakutud ka mitmeid maaelu positiivseid külgi esile tõstvaid ja laiemale Eesti avalikkusele suunatud algatusi, teiste seas näiteks „Maale elama“ ja „Tule maale“.
 
-```{block, type='casebox'}
+<div class="casebox">
+
 <h3> Maaelu edendamine ääremaastumise ohjamiseks: maapiirkondade mainekujunduse algatused</h3>
 
 „Maale elama“ ja „Tule maale“ algatused sündisid 2012. aastal veendumusest, et on aeg hakata süstemaatiliselt mõtlema maapiirkondade kuvandile. Ehkki liikumiste eestvedajad Ivika Nõgel („Maale elama“) ja Tiit Niilo („Tule maale“) ei teadnud enne tegutsema asumist otseselt teineteise ideest, ajendas mõlemat sama mõte: maapiirkondade elu tuleb edendada, et peatada elanikkonna ja teenuste kadumine. Algatused tegutsevad kahel suunal, esiteks aidatakse maale elama asumisest huvitatuid. Teiseks reklaamitakse ja turundatakse maakohti laiemale Eesti avalikkusele, näiteks korraldades laatasid.
 
 <p class="caption" id="figure125"><span class="figure-number">Joonis 1.2.5.</span> „Maale elama“ ja „Tule maale“ logod</p>
 
+```{r, figure125, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+knitr::include_graphics("figures/1-chapter/fig125.png")
+
 ```
+</div>
+
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> „Maale elama“ koduleht 2019; „Tule maale“ koduleht 2019.
 ```
+
 
 Katseid parandada piirkondade konkurentsivõimet mainekujunduse abil pärsib aga seesama ääremaastaatus ja -kuvand, millest maapiirkonnad püüavad vabaneda, nagu viitavad Kihnu saarel, Järvamaal, Mulgimaal ja Setomaal tehtud uuringud ([Grootens 2018](#Grootens2018); [Plüschke-Altof 2017](#Plüschke-Altof2017); [Plüschke-Altof ja Grootens 2019](#Plüschke-Altof2019)). Kohalike otsustajate ja elanikega läbi viidud uuringus eristati 66 süvaintervjuu alusel kolme peamist mainekujunduse võtet, mida kasutatakse Eesti ääremaadel:
 

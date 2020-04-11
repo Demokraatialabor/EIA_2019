@@ -51,7 +51,7 @@ library("tidyverse")
   fig131_plot <- ggplot(subset(fig131_data, area %in% c("Tallinna eeslinn", "Tartu eeslinn", "Pärnu eeslinn"))) +
     geom_line(mapping = aes(x=year, y = as.numeric(value), colour=area, group=area), size=1) +
     geom_text(mapping = aes(x=year, y=as.numeric(value), label=value), stat="identity", vjust=-1) +
-    scale_colour_manual(values=c("#3A404A","#482683","#A8ACA6")) +
+    scale_colour_manual(values=c("#3A404A","#482683","#369B9E")) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,100000)) +
     scale_x_continuous(breaks=c(2001,2006,2011,2015,2016,2017,2018),expand = c(0, 0), limits=c(2000,2018.5)) +
     labs(y="eeslinlaste arv", x="aasta")
@@ -86,14 +86,27 @@ Lisaks elukohamuutustele on tõusvas joones kasvanud eeslinna pendelränne. Pend
 library("tidyverse")
 
  fig132_data <- read.csv ("data/13_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
+ 
+fig132_data$area <- factor(fig132_data$area, levels = c("Tallinn","Tallinna eeslinn","Tartu","Tartu eeslinn","Pärnu","Pärnu eeslinn", "Mujal Eestis"))
 
+  fig132_plot <- ggplot(data = fig132_data) +
+    geom_col(mapping = aes(x=area, y=value, fill=area), width=0.7) +
+    geom_text(aes(label = value, x=area, y=value), nudge_x = 0, nudge_y = 500, color="#777777") +
+    labs(y="%", x="") +
+    labs(y="", x="", fill="") +
+    scale_fill_manual(values=c("#482683", "#482683", "#917db5","#917db5","#369B9E","#369B9E", "#abd9d6"))
 
 
    fig132_theme <- theme(
+                  panel.grid.major.x = element_blank() ,
+                  panel.grid.minor.x = element_blank(),
+                  legend.position = 0,
   )
+   
+  print(fig132_plot + fig_theme_general + fig132_theme)
 
 
-  ggsave(path="exported_figures/PDF/chapter1",filename="fig132.pdf", height=160, width=250, units="mm")
+  #ggsave(path="exported_figures/PDF/chapter1",filename="fig132.pdf", height=160, width=250, units="mm")
 ```
 
 ```{block, type='imgsource'}
@@ -122,7 +135,7 @@ library("reshape")
     scale_y_continuous (expand = c(0, 0), limits=c(0,3200)) +
     labs(y="uute eluruumide arv", x="aasta") +
     expand_limits (y=0) +
-    scale_colour_manual(values=c("#482683","#3A404A","#917DB5","#A8ACA6","#DAD4E6","#E6E3DA"))
+    scale_colour_manual(values=c("#482683", "#917db5","#369B9E", "#abd9d6","#03bdf2","#b1e0f9"))
 
    fig133_theme <- theme(
         axis.text.x = element_text(angle=45, margin = margin(t = 7, r = 0, b = 0, l = 0), hjust=1.1),
@@ -147,7 +160,9 @@ Linnavormiliselt eristuvad põhiliselt ühepereelamutega hoonestatud asumid (tih
 
 <p class="caption" id="figure134"><span class="figure-number">Joonis 1.3.4.</span> Eeslinnamorfoloogia Vahi alevikus Tartu vallas</p>
 
-```{r, figure134, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+```{r, figure134, out.width='90%', fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+knitr::include_graphics("figures/1-chapter/fig134.png")
 
 ```
 
@@ -162,7 +177,9 @@ Maakonnaplaneeringute koostamisel tekkis kaks metoodilist võtit. Asustuste aren
 
 <p class="caption" id="figure135"><span class="figure-number">Joonis 1.3.5.</span> Hägusate vs. rangete piiridega maakonnaplaneering ‒ Harjumaa vs. Tartumaa</p>
 
-```{r, figure135, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+```{r, figure135, out.width='90%', fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+knitr::include_graphics("figures/1-chapter/fig135.png")
 
 ```
 
@@ -181,20 +198,28 @@ Tegelikult määratlevad eeslinnaasustuse arengu väikesepindalalised, killustat
 
 ```{r, figure136, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
+knitr::include_graphics("figures/1-chapter/fig136.png")
+
 ```
 
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Maa-ameti planeeringute rakendus 2018.
 ```
 
-```{block, type='casebox'}
+<div class="casebox">
 <h3> Ridaelamute rida Veskimöldres – kiiresti ja lihtsalt!</h3>
 
 Sirgjooneline eeslinna tihendamise näide on Veskimöldre uusasumi laiendus Koruservas. Arendaja taotles Saue vallavalitsuselt detailplaneeringu algatamist 12. augustil 2016, algatamise otsus tuli 3. jaanuaril 2017 ning volikogu kehtestas planeeringu juba 15. augustil 2017. Kaheksa hektari suurune maa-ala jagati viieks ridaelamukrundiks. Lisaks planeeriti reoveepumplale tehnorajatise krunt ning säilitati rohevõrgustiku koridor ([joonis 1.3.7](#figure137)). Arendus käib ning enamik kolme ridaeelamu boksidest olid 2019. aasta aprilliks müüdud.
 
 <p class="caption" id="figure137"><span class="figure-number">Joonis 1.3.7.</span> Alliku küla Koruserva kinnistu detailplaneering – eeslinna tihendamise näide</p>
 
+```{r, figure137, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
+
+knitr::include_graphics("figures/1-chapter/fig137.png")
+
 ```
+
+</div>
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> K-Projekt.
 ```
@@ -214,9 +239,11 @@ Konkurentsiolukorras on koduostjatel valida kas linnakodu või eeslinnakodu vahe
 
 *„Väljaku 5 kortermaja – mugav elukeskkond noortele ja tegusatele / Võimalusterohke lapsepõlv / Linnalähedane kodu Jüris / Aleviku elanike arvu kasvu taga on toimiv taristu, valla edusam- mud täisväärtusliku elukeskkonnatagamisel ning pidevas vabaaja veetmise ja tervisespordi harrastusvõimaluste täiendamises“*
 
-```{r, figure138, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+```{r, figure138, out.width='90%',, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
+knitr::include_graphics("figures/1-chapter/fig138.png")
 ```
+
 
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Laam Kinnisvara.
@@ -262,8 +289,8 @@ Lasterikkas eeslinnas on kasvav nõudlus mänguväljakute järele ([joonis 1.3.9
 
 <p class="caption" id="figure139"><span class="figure-number">Joonis 1.3.9.</span> Mänguväljak nagu iga teine ‒ ronila, liurada, kiik</p>
 
-```{r, figure139, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
-
+```{r, figure139, out.width='90%', fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+knitr::include_graphics("figures/1-chapter/fig139.png")
 ```
 
 ```{block, type='imgsource'}

@@ -25,11 +25,13 @@ Maakasutuse muutused muudavad maastikke. Maakasutus muutub inimtegevuse ja eluvi
 
 ```{r, figure111, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
-print("KAART")
+knitr::include_graphics("figures/1-chapter/fig111.png")
 
 ```
 
-*Märkus: Sulgudes olev number legendis näitab vastavasse vahemikku kuuluvate ruutkilomeetrite arvu.*
+``` {block, type='figure-comment'}
+<span class="figure-comment-start">Märkus:</span> Sulgudes olev number legendis näitab vastavasse vahemikku kuuluvate ruutkilomeetrite arvu.
+```
 
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Statistikaamet 2000; 2011.
@@ -132,6 +134,7 @@ Linna ümbritsevate omavalitsuste üldplaneeringud on soosinud valglinnastumist,
 
 ```{r, figure113, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
+knitr::include_graphics("figures/1-chapter/fig113.png")
 
 ```
 
