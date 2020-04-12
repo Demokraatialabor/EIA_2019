@@ -35,7 +35,7 @@ library("tidyverse")
     geom_line(mapping = aes(x=year, y=value, colour=area, group=area), size=1) +
     scale_x_continuous(breaks=c(1990,1992,1994,1996,1998,2000,2002,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(1990,2016.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,550)) +
-    scale_colour_manual(values=c("#482683","#3A404A","#A8ACA6"), labels=c("Eesti","Ida-Euroopa","Lääne-Euroopa")) +
+    scale_colour_manual(values=c("#482683","#369B9E","#b1e0f9"), labels=c("Eesti","Ida-Euroopa","Lääne-Euroopa")) +
     labs(y="Autot 1000-e elaniku kohta", x="") +
     expand_limits (y=0)
 
@@ -62,6 +62,18 @@ Autostumisel on keskkonnamõju, mis väljendub energia- ja maakasutuses, autostu
 Ligipääsetavus on inimeste võimalus saada osa oma ühiskonnas tavapärastest tegevustest.
 ```
 Liiklustorudeks muutunud linnatänavate tõttu hakkab autostumine linnades takistama üldist ligipääsetavust. Ligipääsetavus on inimeste võimalus saada osa oma ühiskonnas tavapärastest tegevustest ([Farrington 2007](#Farrington)). Peale liikumisvabaduse hõlmab ligipääsetavus teenuste ja töökohtade toomist või planeerimist inimesele lähemale, et vähendada vajadust liikumiseks ([joonis 1.5.2](#figure152)). Näiteks võib tuua sotsiaalteenuste digitaliseerimise ning kaugtöökohtade loomise. Kuigi Eestis saab riiklikke teenuseid interneti kaudu üsna hõlpsalt kasutada ka kodust lahkumata, eeldab sotsiaalne elu, laste haridus, hobid ja meelelahutus ikkagi aeg-ajalt suurematesse asumitesse või linnakeskustesse minekut. Ligipääsetavuse taandamine autokasutaja vajadustele on ühekülgne, kuna see vähendab teiste liiklejarühmade, sealhulgas jalakäijate, ratturite, eakate, erivajadusega liiklejate liikumisvõimalusi ja -kvaliteeti. Mitmesuguseid asjaolusid arvestav transpordiplaneerimine eeldab arusaamist autode rollist ja kasutusest erinevates keskkondades: hajaasustuses, maapiirkondades, linnaregioonis ja asustusüksuse sees.
+
+<p class="caption" id="figure152"><span class="figure-number">Joonis 1.5.2.</span> Ligipääsetavuse elemendid</p>
+
+```{r, figure152, out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
+
+knitr::include_graphics("figures/1-chapter/fig152.png")
+
+```
+
+```{block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Discovering Urbanism 2010. Säästva linna liikuvuse arengukava.
+```
 
 ```{block, type='casebox'}
 Säästva liikuvuse arengukava eesmärk on luua jätkusuutlik transpordisüsteem. See tähendab inimeste praeguste ja tulevaste liikuvusvajaduste rahuldamist liikumisviisidega, mis ei kahjusta elukeskkonda ([LiLiA 2017](#LiLiA2017)). Selline liikumiskorraldus eeldab mugavat ühistranspordivõrgustikku, liikumisviiside sujuvat ühildamist, aktiivsete liikumisviiside (nt jalgratas ja jalgsi liikumine) arendamist ning autokasutuse vajaduse vähendamist. Euroopa Komisjon kinnitas säästva linnalise liikuvuse arengukava 2009. aastal ning toetab selle rakendamist liikmesriikide kohalikel tasanditel koostöö- ja teadmusvõrgustike loomise, andmete kogumise ning finantsinvesteeringute kaudu ([ELTIS 2019](#ELTIS2019)).  
@@ -104,7 +116,7 @@ library("tidyverse")
     geom_line(mapping = aes(x=year, y=value, colour=variable, group=variable), size=1) +
     scale_x_continuous(breaks=c(2003,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(2003,2016.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,40)) +
-    scale_colour_manual(values=c("#482683","#3A404A","#A8ACA6"), labels=c("Läbisõit (mln km)","Sõitjate arv (mln)")) +
+    scale_colour_manual(values=c("#482683","#369B9E"), labels=c("Läbisõit (mln km)","Sõitjate arv (mln)")) +
     labs(y="", x="aasta") +
     expand_limits (y=0)
 
@@ -148,18 +160,22 @@ library(grid)
   fig155_data1$number_of_cars <- factor (  fig155_data1$number_of_cars, levels = c("Pole autot", "1 auto", "2 või enam autot"))
 
   fig155_data2 <- read.csv ("data/15_fig5_data2.csv", header=TRUE, fileEncoding="utf-8")
+  
+  fig155_line <- data.frame(x=c(0, 5),
+                y=c(100, 100))
 
 
   fig155_plot1 <- ggplot(data = fig155_data1) +
     geom_bar(mapping = aes(x=area, y=value, fill=area), width=0.7, stat="identity", position = "dodge") +
-    scale_fill_manual(values=c("#A8ACA6","#482683", "#917db5")) +
+    scale_fill_manual(values=c("#369B9E","#482683")) +
     facet_wrap(~number_of_cars, nrow=1) +
     labs(y="%", x="") +
     expand_limits (y=0)
 
-    fig155_plot2 <- ggplot(data = fig155_data2) +
-    geom_bar(mapping = aes(x=growth_of_population, y=value, fill=growth_of_population), width=0.7, stat="identity") +
-    scale_fill_manual(values=c("#B6A8CD","#917DB5","#6D519C","#482683")) +
+    fig155_plot2 <- ggplot() +
+    geom_bar(data = fig155_data2, mapping = aes(x=growth_of_population, y=value, fill=growth_of_population), width=0.7, stat="identity") +
+      geom_line(data = fig155_line, mapping=aes(x=x, y=y), col="#482683") +
+    scale_fill_manual(values=c("#B6A8CD","#b1e0f9","#369B9E","#482683")) +
     labs(y="%", x="") +
     expand_limits (y=0)
 
@@ -209,7 +225,7 @@ library("tidyverse")
     scale_y_continuous(expand = c(0, 0), limits=c(0,71)) +
     scale_colour_manual(values=c("#1f9a9e","#482683","#83d0f5"))+
     facet_wrap(~area, nrow=1) +
-    labs(y="Liikumisviisi osakaal (%)", x="aasta") +
+    labs(y="Liikumisviisi osakaal (%)", x="") +
     expand_limits (y=0)
 
   fig156_theme <- theme (
@@ -242,17 +258,17 @@ fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab k
 
   fig157_plot1 <- ggplot() +
     geom_bar(data = fig157_data1, mapping = aes(x=year, y=value, fill=variable), width=0.7, stat="identity") +
-    scale_fill_manual(values=c("#DAD4E6","#B6A8CD","#917DB5","#6D519C","#482683","#241342")) +
+    scale_fill_manual(values=c("#2d6a6d","#b1e0f9","#4bb1ca","#6D519C","#369B9E","#241342")) +
 
     scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017)) +
     scale_y_continuous(breaks=c(20, 40,60,80,100)) +
     guides(fill=guide_legend(nrow=6,byrow=TRUE)) +
-    labs(y="Peamine tööle liikumise viis (%)", x="aasta")
+    labs(y="Peamine tööle liikumise viis (%)", x="")
 
 
   fig157_plot2 <- ggplot() +
     geom_line(data = fig157_data2, mapping = aes(x=year, y=value, colour=variable), size=1) +
-    scale_colour_manual(values=c("#A8ACA6","#482683")) +
+    scale_colour_manual(values=c("#369B9E","#482683")) +
     labs(y="", x="aasta") +
     scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017), expand = c(0, 0), limits=c(1997,2017.5)) +
     scale_y_continuous(breaks=c(5, 10,15,20,25), expand = c(0, 0), limits=c(0,25)) +
@@ -319,8 +335,8 @@ library("tidyverse")
     scale_x_continuous(breaks=c(0,1,2,3,4,5),expand = c(0, 0), limits=c(0,5.1)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,70)) +
     expand_limits (y=0) +
-    scale_colour_manual(values=c("#482683","#3A404A","#A8ACA6")) +
-    labs(y="kulunud aeg (min)", x="vahemaa (km)")
+    scale_colour_manual(values=c("#482683","#369B9E","#b1e0f9")) +
+    labs(y="Kulunud aeg (min)", x="Vahemaa (km)")
 
 
     fig158_theme <- theme (

@@ -205,7 +205,7 @@ Väikelinnade valikud ja võimalused taskukohast elamispinda pakkuda on teistsug
 <p class="caption" id="figure145"><span class="figure-number">Joonis 1.4.5.</span> Kalamaja elamud Tallinnas on kahe viimase aastakümne jooksul suures osas renoveeritud</p>
 ```{r, figure145, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/1-chapter/fig45.png")
+knitr::include_graphics("figures/1-chapter/fig145.png")
 
 ```
 <p class="caption" id="figure137"><span class="figure-number">Joonis 1.4.6.</span> Valgas ei ole kesklinna puitmajadele nõudlust hoolimata sellest, et tegemist on väärtusliku miljööga</p>
