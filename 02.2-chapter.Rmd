@@ -35,7 +35,7 @@ Eestlaste huvi kultuuripärandi vastu on suhteliselt suur: vastavalt Eurobaromee
 <p class="caption" id="figure221"><span class="figure-number">Joonis 2.2.1.</span> Eestlased külastavad ajaloolisi mälestisi ja kohti rohkem kui eurooplased keskmiselt.</p>
 
 
-```{r, figure221, fig.asp=1.6, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure221, out.width='90%',fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
 library("scales")
@@ -90,12 +90,14 @@ library("gridExtra")
   )
 
 
-grid.arrange(fig221_plot1 + fig_theme_general + fig221_theme1, fig221_plot2 + fig_theme_general + fig221_theme2, ncol = 1)
+#grid.arrange(fig221_plot1 + fig_theme_general + fig221_theme1, fig221_plot2 + fig_theme_general + fig221_theme2, ncol = 1)
 
-g <- arrangeGrob(fig221_plot1 + fig_theme_general + fig221_theme1, fig221_plot2 + fig_theme_general + fig221_theme2, ncol = 1)
+#g <- arrangeGrob(fig221_plot1 + fig_theme_general + fig221_theme1, fig221_plot2 + fig_theme_general + fig221_theme2, ncol = 1)
 
-ggsave(path="exported_figures/PDF/chapter2",filename="fig221.pdf",g, height=280, width=180, units="mm")
+#ggsave(path="exported_figures/PDF/chapter2",filename="fig221.pdf",g, height=280, width=180, units="mm")
 
+knitr::include_graphics("figures/2-chapter/fig221.png")
+    
 ```
 
 ``` {block, type='imgsource'}
@@ -105,8 +107,10 @@ ggsave(path="exported_figures/PDF/chapter2",filename="fig221.pdf",g, height=280,
 Ehituspärandi mõju on siiski laiem. Külastuspaikade tekke kõrval on sel oluline roll piirkondade elujõu ja elukeskkonna kvaliteedi kujundajana. Pärandi potentsiaali uurimisele keskendunud Euroopa Liidu koostööprojekti Cultural Heritage Counts for Europe ([2015](#Cultural2015)) raportis on sõnastatud pärandist tulenevad ühiskonnakasud ([joonis 2.2.2](#figure222)).
 
 <p class="caption" id="figure222"><span class="figure-number">Joonis 2.2.2.</span> Kultuuripärandi ühiskonnakasud</p>
-```{r, figure222, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
+```{r, figure222, out.width='90%',fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+
+knitr::include_graphics("figures/2-chapter/fig222.png")
 
 ```
 ``` {block, type='imgsource'}
@@ -345,20 +349,46 @@ fig227_data$percent=percent((fig227_data$value/100), 1)
 Riigi panust kultuuripärandisse näitab restaureerimistoetuste kõrval ka riigile kuuluva ehituspärandi haldamine. Ligi 60% mälestiste eraomanikest tajub, et riik ja kohalikud omavalitsused ei näita mälestiste haldamisel head eeskuju, kuna eelistavad tihti restaureerimisele uue maja ehitamist ([Tafel-Viia jt 2014](#Tafel2014)).
 Aastal 2016 läbiviidud uuringus „Riigi omanduses olevate kultuuriväärtuslike ehitiste haldamine“ ([Mändel jt](#Mändel2016)) järeldati, et vajalik on riigi kinnisvarapoliitika, mis seaks laiemad eesmärgid kui võimalikult soodne majandamine. Nii nagu Riigimetsa Majandamise Keskuse (RMK) eesmärk on tulu teenimise kõrval ka metsa väärtustamine, rajades mittekasumlikke avalikke matkateid ja metsaonne, peaks ka Riigi kinnisvara ASi põhikirjaliste eesmärkide seas olema kultuuripärandi korrastamine ja tutvustamine. Ainult äriloogikale ja üksikutele poliitilistele otsustele tuginemine ei tuleks riigi loodusvarade haldamisel tänapäeval kõne allagi, ehituspärandi puhul on see aga tavapärane.
 
-```{block, type='casebox'}
+<div class="casebox">
 <h3>Liberty suvemõisa juhtum</h3>
 
 Liberty suvemõisasse presidendi residentsi kavandamisele on kulunud üle 350 000 euro, põhiliselt projekteerimiskulude katmiseks. See on umbes pool riiklikest restaureerimis- toetustest aastas.
 Hooned võeti Eesti Vabaõhumuuseumilt üle 2014. aastal, ehitusprojekt koostati 2015. aastal. 2017. aastal otsustas Kersti Kaljulaid presidendi residentsi siiski mitte rajada ning 2019. aasta alguse seisuga pole otsustatud, mida edasi teha. Muuseumile, mis sooviks hooned kasutusse võtta, neid tagasi ei ole antud. Mõisakompleks on avalikkusele suletud ja selle seisukord halveneb.
+
 RKAS ootab poliitilist otsust, mida mõisakompleksiga edasi teha – rohkemaks tal põhi- kirja järgi voli ei ole. Kui kultuurpärandi hoidmine ja tutvustamine oleks RKASi põhikirjaline eesmärk, oleks Liberty suvemõisa ja mõne teisegi riigile kuuluva mälestise seisukord tõenäoliselt parem.
 
 <p class="caption" id="figure228"><span class="figure-number">Joonis 2.2.8.</span> Liberty suvemõisa Egon Kochi suvila</p>
 
+```{r, figure228, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
+
+knitr::include_graphics("figures/2-chapter/fig228.png")
+
 ```
+
+</div>
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Kultuurimälestiste riiklik register, Timo Aava 2015.
 ```
 
+<div class="casebox">
+<h3>Tööstuspärand</h3>
+
+Kasutuseta ehitismälestiste seas on palju suuri tööstushooneid, mis ehitatud hiiglasliku Vene Keisririigi vajadusi silmas pidades, ning mida juba ammu sellises mahus tarvis ei lähe. Tallinnas on õnnestunud mitmed tööstuspiirkonnad taaselustada elu- ja ärikvar- talitena (nt Rotermanni, Noblessneri, Lutheri, Tselluloosi ja Dvigateli kvartalid), väiksemates linnades on sellistele ehitistele raskem uut kasutust leida.
+
+Kreenholmi manufaktuur Narvas oli 19. sajandi teisel poolel Vene Keisririigi kõige kaasaegsem tööstusettevõte ja mitu aastakümmet suurim tekstiilivabrik kogu Euroopas. Kõrgaegadel töötas selles üle kümne tuhande töötaja, väiksemas mahus tootmine kestis kuni 2010. aastani. Ambitsioonika detailplaneeringu järgi on Kreenholmi alale kavandatud atraktiivne keskus koos elumajade, meelelahutus- ja kultuuriasutuste, konverentsikeskuse, teaduspargi, hotellide ja kaubandusettevõtetega. Seni pole arendustegevuseni jõutud, kuid vähemalt on omanik mälestistele uued katused peale pannud ning saanud Narva Muuseumiga kokkuleppele, et alale võib korraldada ekskursioone.
+
+<p class="caption" id="figure229"><span class="figure-number">Joonis 2.2.9.</span> Kreenholmi manufaktuur</p>
+
+```{r, figure229, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
+
+knitr::include_graphics("figures/2-chapter/fig229.png")
+
+```
+
+</div>
+```{block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Annika Haas.
+```
 ### Kokkuvõte {-.chapter2_section}
 
 Avaliku ruumi kui võrgustiku üks läbivaid lõimi on ehituspärand: see on pea igal pool mingil kujul olemas ning moodustab alusmustri, mida tänapäevaste lahendustega täiendades saab luua mitmekihilist, eripärast ja kvaliteetset ruumi. Muinsuskaitse eesmärk ei ole taastada kunagist ruumiilmet ega luua koopiaarhitektuuri, vaid säilitada olemasolevaid väärtusi, et need uue loomise käigus mõtlematult ei häviks.

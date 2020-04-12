@@ -57,9 +57,15 @@ Ruumiaktivistide loodud liikumiste eesmärk ja tegevused võivad muutuda vastava
 Aktivismi tekkelugu paigutub Eesti kodanikuühiskonna üldise arengu ajajoonele. 1990. aastatel kujundasid ühiskonda pöördelised reformid avalikus sektoris ja üleüldine reguleerimatus nii erasektori püüdluste ohjeldamisel kui ka osapoolte kaasamisel. Ehitusbuumiaegne kinnisvaraturu ülekuumenemine ja omavalitsuste suutmatus seda reguleerida soosisid arendajate suuremahulist ja sageli läbimõtlemata tegevust nii eluasemeturul kui ka avaliku ruumi kujundamisel veel taasiseseisvumisele järgnenud teise kümnendi lõpus ([Tuvikene ja Pehk 2011](#Tuvikene2011)). Alles viimase majandussurutise (2008–2011) ajal hakkas ruumiloomes osapoolte vahekord muutuma. Selgelt eristus senisest valdavalt kahesuunalisest avaliku sektori ja maaomaniku suhtest kolmas osapool – oma elukeskkonna heast arengust huvituv kodanik või aktiviste koondav kodanikuühendus ([joonis 2.3.1](#figure231)).
 
 <p class="caption" id="figure231"><span class="figure-number">Joonis 2.3.1.</span> Ruumiloome osapoolte suhete kujunemislugu</p>
-```{r, figure231, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+
+2000. aastate eel oli ruumiloome osapoolte suhtluses maaomanike huvid ebaselged ning kasutaja vaade defineerimata. Sealhulgas ei olnud kohalik omavalitsus ja riik enne 1995. aasta planeerimis- ja ehitusseaduse vastuvõtmist ruumikorralduslikes ülesannetes kokku leppinud. Kasutaja vaatenurga lisandumisega muutusid riigi, kohaliku omavalitsuse ja maaomaniku rollid selgemaks, kuid kasutaja ise on endiselt määratlemata staatuses.
+
+```{r, figure231, fig.align='center', out.width='80%', echo=FALSE, message=FALSE, warning=FALSE}
+
+knitr::include_graphics("figures/2-chapter/fig231.png")
 
 ```
+
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> autorite joonis.
 ```
