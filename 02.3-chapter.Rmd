@@ -58,7 +58,7 @@ Aktivismi tekkelugu paigutub Eesti kodanikuühiskonna üldise arengu ajajoonele.
 
 <p class="caption" id="figure231"><span class="figure-number">Joonis 2.3.1.</span> Ruumiloome osapoolte suhete kujunemislugu</p>
 
-2000. aastate eel oli ruumiloome osapoolte suhtluses maaomanike huvid ebaselged ning kasutaja vaade defineerimata. Sealhulgas ei olnud kohalik omavalitsus ja riik enne 1995. aasta planeerimis- ja ehitusseaduse vastuvõtmist ruumikorralduslikes ülesannetes kokku leppinud. Kasutaja vaatenurga lisandumisega muutusid riigi, kohaliku omavalitsuse ja maaomaniku rollid selgemaks, kuid kasutaja ise on endiselt määratlemata staatuses.
+2000\. aastate eel oli ruumiloome osapoolte suhtluses maaomanike huvid ebaselged ning kasutaja vaade defineerimata. Sealhulgas ei olnud kohalik omavalitsus ja riik enne 1995. aasta planeerimis- ja ehitusseaduse vastuvõtmist ruumikorralduslikes ülesannetes kokku leppinud. Kasutaja vaatenurga lisandumisega muutusid riigi, kohaliku omavalitsuse ja maaomaniku rollid selgemaks, kuid kasutaja ise on endiselt määratlemata staatuses.
 
 ```{r, figure231, fig.align='center', out.width='80%', echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -85,9 +85,12 @@ Ruumiaktivismi eesmärgid teisenevad vastavalt organisatsiooni sisemisele arengu
 Kui valdavalt jõuavad asukohapõhised liikumised tegeleda konkreetsete piirkondlike teemadega, siis järjest enam on ruumiaktiviste ja nende ühendusi koondavad või nõustavad katusorganisatsioonid üle võtnud arutelude vedaja ja osapoolte vahendaja ülesanded (nt Tallinna Asumiseltside Liit, ekspertide rühmitus Merelinna Kaitseks). Vahendaja ise võib olla samal ajal mõne ekspertorganisatsiooni või erialaliidu liige, asumiseltsi eestvedaja või sama omavalitsuse endine ametnik. Selle käigus hägustub paratamatult nii ruumiaktivisti kui ka eksperdi roll ([joonis 2.3.2](#figure232)).
 
 <p class="caption" id="figure232"><span class="figure-number">Joonis 2.3.2.</span> Ruumiaktivisti rollid</p>
-```{r, figure232, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure232, fig.align='center', out.width='80%', echo=FALSE, message=FALSE, warning=FALSE}
+
+knitr::include_graphics("figures/2-chapter/fig232.png")
 
 ```
+
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> autorite joonis.
 ```
@@ -122,7 +125,7 @@ LÄTAK – legaalne ähvardamine takistamaks avalikkuse kaasamist.
 ```
 Väljakutseid ruumiaktivismile on lisaks eelpool kirjeldatuile teisigi. Näiteks üha olulisemaks kujuneb küsimus, kes on pädev kaasamist juhtima (omavalitsus, ruumiloome ekspertrühm, konsultatsiooniettevõte jne) ja kuidas jaotuvad osapoolte õigused ja ülesanded. Lisaküsimusi tekitab nii-öelda mitmel toolil istumine – üks ja sama isik võib olla kord aktivist, siis ametnik, siis nõunik – ning sellega kaasnev teadmiste monopoli, mõjuvõimu ja ebavõrdsuse probleem ruumiloomes. Võib küsida, et kui ametnikul on paremad teadmised ja parem ligipääs informatsioonile, kas see suurendab omakorda tema mõjuvõimu ruumiotsustes. Samavõrd oluline on küsimus, kuidas muuta ruumiloome kõigile avatud ja mitmekesiseks protsessiks. Kaasamine eeldab planeerimisprotsessis n-ö laua taha jõudmiseks sageli ametlikku (juriidilist) kehamit nagu asumiseltsid, mittetulundusühingud, mõttekojad, korteriühistud ja külaseltsid.
 
-```{block, type='casebox'}
+<div class="casebox">
 <h3>Reidi tee juhtum</h3>
 
 Reidi tee on viimase viie aasta üks suuremahulisemaid Tallinna avalikku ruumi kujundavaid projekte, mis on mõeldud mitmerealise tänavakoridorina ühendama Tallinna sadamaala Pirita teega. Selle kavandamisel on osalenud erahuve esindav Tallinna Sadam (vahendajana tee projekteerija K-Projekt), linna kasvu huve esindav linnavalitsus (vahendajana Tallinna Linnaplaneerimise Amet), avalikke huve esindavad kodanikuühendused (mitmed erialaliidud ja konkreetselt Reidi tee praeguse projekti vastu võitlevad ühendused, nt Merelinna Kaitseks ja MTÜ Eesti Roheline Liikumine).
@@ -133,7 +136,13 @@ Reidi tee juhtumis leidsid kodanikuühendused ühise keele projekti tehtud konkr
 
 <p class="caption" id="figure233"><span class="figure-number">Joonis 2.3.3.</span> Vasakul K-Projekti projekteeritud tänavakoridor, paremal ruumiekspertide ettepanek</p>
 
+```{r, figure233, fig.align='center', out.width='80%', echo=FALSE, message=FALSE, warning=FALSE}
+
+knitr::include_graphics("figures/2-chapter/fig233.png")
+
 ```
+
+</div>
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> joonise autor Juho Kalberg.
 ```

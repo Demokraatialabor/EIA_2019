@@ -71,7 +71,7 @@ library("tidyverse")
   fig301_plot <- ggplot() +
     geom_point(data = fig301_data, mapping = aes(x=hdi_2014, y=eco_current), colour="#C8C6BF", size=1.7, show.legend = NA) +
 
-    geom_smooth(data = fig301_data, mapping = aes(x=hdi_2014, y=eco_current),method=lm, se=FALSE, colour="#3A404A") +
+    geom_smooth(data = fig301_data, mapping = aes(x=hdi_2014, y=eco_current),method=lm, se=FALSE, colour="#482683") +
 
     geom_point(data = fig301_data_est, mapping = aes(x=hdi_2014, y=eco_current), colour="#79AC2C",size=2, show.legend = NA) +
     geom_text(data = fig301_data_est, mapping = aes(x=hdi_2014, y=eco_current, label="2014"),hjust=1, vjust=1.7, colour="#79AC2C")+
@@ -128,7 +128,7 @@ fig302_data_melt$variable <- factor(fig302_data_melt$variable, levels = c("other
 fig302_plot <- ggplot() +
 
     geom_bar(data = fig302_data_melt, mapping = aes(x=county, y=value*100, fill=variable), width=0.6, stat="identity") +
-    scale_fill_manual(labels = c("Muu metsamaa", "Riik: metsata", "Riik: puistud"), values=c("#A8ACA6","#5B8121","#79AC2C")) +
+    scale_fill_manual(labels = c("Muu metsamaa", "Riik: metsata", "Riik: puistud"), values=c("#79AC2C","#482683","#5B8121")) +
     labs(y="% pindalast", x="") +
     scale_y_continuous(expand = c(0, 0), limits=c(0,100)) +
     expand_limits (y=0)

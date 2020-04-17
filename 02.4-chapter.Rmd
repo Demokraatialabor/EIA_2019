@@ -63,8 +63,10 @@ Euroopa Andmeportaali aruannete alusel võib öelda, et avaandmetel põhinev ruu
 Ruumiandmete kättesaadavus on Eestis ebaühtlane, andmete kvaliteet kõikuv ning registrites jälgitakse erinevat loogikat ([joonis 2.4.1](#figure241)). Kuigi üksikud registrid pakuvad masinloetavaid ehk automaatselt masinliidese kaudu tehtavaid päringuid, siis need lahendused on pahatihti aegunud (nt EHR) ning puudub kasutajasõbralik liides. Üks praktiline viis andmete tulemuslikuks töötlemiseks on need alla laadida, see aga teeb andmete töötlemise kohmakaks.
 
 <p class="caption" id="figure241"><span class="figure-number">Joonis 2.4.1.</span> Eesti põhilised ruumiloomega seotud ruumiandmekogud ja nende kirjete seotus</p>
-```{r, figure241, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
+```{r, figure241, out.width='90%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+
+knitr::include_graphics("figures/2-chapter/fig241.png")
 ```
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> autorite joonis.
@@ -92,7 +94,9 @@ Järgmiste aastate jooksul ootab Eestit ees olulise tähtsusega muudatus ruumian
 Positiivne muutus andmepõhiste juhtimisotsuste tegemise suunas on Eestis siiski üldiselt tuntav. Selle üks näiteid on hiljutine Majandus- ja Kommunikatsiooniministeeriumi ning Statistikaameti koostöölepe andmepõhiste otsustusmehhanismide kasutuselevõtuks avalikus sektoris ([Majandus- ja Kommunikatsiooniministeerium 2018](#Majandus2018)). Üsna ambitsioonika eesmärgi kohaselt peaks saama juhtimisotsuseid teha reaalajas. “Lisaks on Majandus- ja Kommunikatsiooniministeerium võtnud ametisse CDO (ingl *chief data officer*), kelle ülesanne on ühtse andmestrateegia paikaseadmine.” Muutustele vihjab ka Tallinna ideekorje platvormi AvaLinn käivitamine, mis töötati välja Baltic Urban Labi projekti raames. Hea näide on ka Tartu ühistranspordi analüüs ja uue liinivõrgu andmepõhine modelleerimine ([Tartu linna koduleht 2018](#Tartu2018)). Samuti on Maanteeamet teinud andmepõhiseid otsuseid liiklusohtlike teelõikude ja ristmike muutmiseks liiklusõnnetuste statistika alusel ning planeerinud müratõkkeid arvutusliku mürakaardi andmete alusel.
 
 <p class="caption" id="figure242"><span class="figure-number">Joonis 2.4.2.</span> Tallinna rattateede põhivõrgu potensiaal elukohtadest lähtuvalt.</p>
-```{r, figure242, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure242, out.width='90%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+
+knitr::include_graphics("figures/2-chapter/fig242.png")
 
 ```
 ```{block, type='imgsource'}
@@ -122,12 +126,14 @@ Riigi ja kohalike omavalitsuste ülesanne peaks olema võimaluste ja raamistiku 
 
 Jõulisem edasiminek avaandmete laiema kasutuse, läbipaistva ruumiloome ja demokraatliku planeerimise suunas eeldab ühtlustatud ruumiandmete jagamise strateegiat. Praegu on puudu juhised, kuidas andmeid koguda, säilitada ja taasesitada, asutused jagavad oma andmeid eri viisil ning andmete kokkuviimine on keeruline.
 
-```{block, type='casebox'}
+<div class="casebox">
 Jalakäijate liikumisuuring Tallinna kesklinnas on näide võrdlevast andmepõhisest planeerimisest ([Puusepp jt 2017](#Puusepp2017)). Uuringu käigus võrreldi olemasolevat (vasakpoone pilt) olukorda ja uusi Tallinna peatänava versioone (parempoolne pilt). Võrdluseks kasutati arvutisimulatsiooni, mis rajanes andmepõhisel jalakäijate liikumisuuringul selles piirkonnas. Suurim väljakutse oli alusandmete kokkukogumine eri allikatest, et luua sisend arvutuslikule mudelile. Pilt visualiseerib arvutuslikke jalakäijavooge kahe erineva ruumistsenaariumi korral.
 
 <p class="caption" id="figure243"><span class="figure-number">Joonis 2.4.3.</span> Arvutuslikud jalakäijate liikumisrajad Tallinna kesklinnas.</p>
-
+```{r, figure243, out.width='90%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics("figures/2-chapter/fig243.png")
 ```
+</div>
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Tallinna rattastrateegia 2018-2027.
 ```
