@@ -46,7 +46,7 @@ fig05_data$percent=percent((fig05_data$Protsent/100), 1)
                      axis.text.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
                     axis.title.y = element_text(margin = margin(t = 0, r = 12, b = 0, l = 0)),
                      axis.title.x = element_text(margin = margin(t = 8, r = 0, b = 0, l = 0)),
-                    plot.margin = unit(c(0,0,0,0), "cm"),
+                    plot.margin = unit(c(0.5,0,0,0), "cm"),
 
                      legend.position="top",
                      legend.title=element_blank(),

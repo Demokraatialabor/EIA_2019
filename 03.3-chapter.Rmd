@@ -19,7 +19,9 @@ Kogu looduskeskkonda puudutavas planeerimises lähtutakse Eestis keskkonnaseadus
 
 <p class="caption" id="figure331"><span class="figure-number">Joonis 3.3.1.</span> Keskkonnakaitse ja ruumilise planeerimise põhimõtted, põhiõigused ja -kohustused Eesti Vabariigi põhiseaduse, keskkonnaseadustiku üldosa seaduse ning planeerimisseaduse alusel</p>
 
-```{r, figure331, out.width='80%',fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure331, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
+
+knitr::include_graphics("figures/3-chapter/fig331.png")
 
 ```
 
@@ -52,7 +54,9 @@ Looduskaitse ja säästva arenguga seotud ruumilisel ja strateegilisel planeerim
 
 <p class="caption" id="figure332"><span class="figure-number">Joonis 3.3.2.</span> Valik rahvusvahelisi ja Eesti strateegilisi arengudokumente, mis raamistavad loodusalade väärtustamist Eestis</p>
 
-```{r, figure332, out.width='80%',fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure332, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
+
+knitr::include_graphics("figures/3-chapter/fig332.png")
 
 ```
 
@@ -76,10 +80,14 @@ Eesti loodusalade planeerimise alused ning nende õiguslik ja halduslik korraldu
 
 <p class="caption" id="figure333"><span class="figure-number">Joonis 3.3.3.</span> Eesti loodusaladel võib korraga kehtida mitu kaitsekorda sõltuvalt ala loodusväärtustest</p>
 
-```{r, figure333, out.width='80%',fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure333, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
+
+knitr::include_graphics("figures/3-chapter/fig333.png")
 
 ```
-*Märkus: *Ala metsas, kus kitsalt kohastunud, ohustatud, ohualdiste või haruldaste liikide esinemise tõenäosus on suur. Vääriselupaik on erametsas kaitstud vabatahtlikult, riigimetsas Keskkonnaministri käskkirja alusel.*
+``` {block, type='figure-comment'}
+<span class="figure-comment-start">Märkus:</span> Ala metsas, kus kitsalt kohastunud, ohustatud, ohualdiste või haruldaste liikide esinemise tõenäosus on suur. Vääriselupaik on erametsas kaitstud vabatahtlikult, riigimetsas Keskkonnaministri käskkirja alusel.
+```
 
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> autori joonis.
@@ -101,7 +109,9 @@ Suur osa Eesti riigi omandis olevate loodusalade haldusest on delegeeritud Riigi
 
 <p class="caption" id="figure334"><span class="figure-number">Joonis 3.3.4.</span> Avalik-õiguslike asutuste ja RMK tööjaotus loodusalade maakasutuse ja kaitse planeerimisel ning korraldusel</p>
 
-```{r, figure334, out.width='80%',fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure334, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
+
+knitr::include_graphics("figures/3-chapter/fig334.png")
 
 ```
 
@@ -125,7 +135,7 @@ Kõige ulatuslikum kaitse loodusalade maakasutusmuutuste eest on seotud rohevõr
 
 <p class="caption" id="figure335"><span class="figure-number">Joonis 3.3.5.</span> Rohevõrgustiku ja kaitstavate loodusobjektide (kaitsealad, kaitstavate liikide leiukohad, püsielupaigad, Natura 2000 alad) osakaal maakonna kogupindalast</p>
 
-```{r, figure335, out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure335, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 
@@ -136,7 +146,7 @@ fig335_data$objects <- factor(fig335_data$objects, levels = c("RV ala väljaspoo
 
   fig335_plot <- ggplot() +
     geom_bar(data = fig335_data, mapping = aes(x=reorder(county,-value), y=value, fill=objects), width=0.6, stat="identity") +
-    scale_fill_manual(values=c("#AFCD80","#79AC2C","#5B8121"), labels=c("Rohevõrgustiku ala väljaspool kaitsealasid","Kaitstavad loodusobjektid väljaspool rohevõrgustiku ala","Kaitstavad loodusobjektid rohevõrgustiku alal")) +
+    scale_fill_manual(values=c("#79AC2C","#482683","#5B8121"), labels=c("Rohevõrgustiku ala väljaspool kaitsealasid","Kaitstavad loodusobjektid väljaspool rohevõrgustiku ala","Kaitstavad loodusobjektid rohevõrgustiku alal")) +
     labs(y="%", x="") +
     guides(fill=guide_legend(nrow=3,byrow=TRUE)) +
       scale_y_continuous(expand = c(0, 0), limits=c(0,100)) +
@@ -182,7 +192,9 @@ Analüüsist järeldati, et Eesti õigusraamistik on rohevõrgustiku kaitse taga
 
 <p class="caption" id="figure336"><span class="figure-number">Joonis 3.3.6.</span> Harju maakonna rohevõrgustiku rohekoridoride katkestused (punased ringid) 2006. ja 2012. aasta võrdluses</p>
 
-```{r, figure336, out.width='80%',fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure336, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
+
+knitr::include_graphics("figures/3-chapter/fig336.png")
 
 ```
 

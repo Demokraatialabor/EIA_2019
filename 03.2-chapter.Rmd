@@ -29,7 +29,9 @@ Rohealade pindala seos kõigi heaolu- ja tervisenäitajatega kehtis üksnes väi
 
 <p class="caption" id="figure321"><span class="figure-number">Joonis 3.2.1.</span> Koduümbruse loodusalade pindala ning heaolu- ja tervisenäitajate analüüs ning tulemused</p>
 
-```{r, figure321, out.width='80%',fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure321, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
+
+knitr::include_graphics("figures/3-chapter/fig321.png")
 
 ```
 
@@ -52,7 +54,9 @@ Loodusaladest saadavat kasu mõõdetakse ärahoitud enneaegsete surmadega, haige
 
 <p class="caption" id="figure322"><span class="figure-number">Joonis 3.2.2.</span> Ökosüsteemiteenused kujundavad avalikult kasutatava loodusala toimimist inimeste heaolu ja riski allikana</p>
 
-```{r, figure322, out.width='80%',fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure322, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
+
+knitr::include_graphics("figures/3-chapter/fig322.png")
 
 ```
 
@@ -69,7 +73,9 @@ Niimoodi mõõdetud tervisekasu või -kahju on võimalik ümber arvestada ka rah
 
 <p class="caption" id="figure323"><span class="figure-number">Joonis 3.2.3.</span> Tallinna kesklinna peenosakeste (PM10) aasta keskmine sisaldus (μg/m3) ja müratasemed (dB(A)) päeval (Ld 7.00–23.00)</p>
 
-```{r, figure323, out.width='80%',fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure323, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
+
+knitr::include_graphics("figures/3-chapter/fig323.png")
 
 ```
 

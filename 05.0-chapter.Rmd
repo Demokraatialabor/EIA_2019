@@ -52,15 +52,15 @@ fig54_data <- melt(fig54_data, id=c("Linnaosa"))
 
 #fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohtade pindala (20m²/pk)","Parkimiskohtade pindala (25m²/pk)","Parkimiskohtade pindala (30m²/pk)","Parkimiskohtade pindala (40m²/pk)","Tänavavõrgu pindala (m²)","Jalakäija ruumi pindala (m²)","Eluruumide pindala (m²)","Bürooruumide pindala (m²)","Kaubandus- ja teeninduruumide pindala (m²)","Meelelahutus-, haridus- tervishoiu- ja muude avalike ruumide pindala (m²)","Tööstus- ja laoruumide pindala (m²)"))
 
-fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohad","Tänavavõrk","Jalakäijate ruum","Eluruumid","Bürooruumid","Kaubandus- ja teenindusruumid","Meelelahutus-, haridus-, tervishoiu- ja muud avalikud ruumid","Tööstus- ja laoruumid"))
+fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohtade pindala (25m²/pk)","Tänavavõrk","Jalakäijate ruum","Eluruumid","Bürooruumid","Kaubandus- ja teenindusruumid","Meelelahutus-, haridus-, tervishoiu- ja muud avalikud ruumid","Tööstus- ja laoruumid"))
 
   fig54_plot <- ggplot(data = fig54_data) +
     geom_col(mapping = aes(x=variable, y = as.numeric(as.character(value)), fill=variable), size=0.7) +
     facet_wrap(~Linnaosa, nrow=8, strip.position="right") +
     coord_flip() +
     labs(y="m²", x="") +
-    scale_y_continuous(labels = comma, limits=c(0,7600000), breaks=c(0, 2500000,5000000,7500000)) +
-    scale_fill_manual(values=c("#500e0c", "#a01b17", "#a8aca6", "#86858a","#79ac2c","#3d5616", "#c67674", "#c8c6bf"),guide = guide_legend(reverse = TRUE)) +
+    scale_y_continuous(labels=function(x) format(x, big.mark = " ", scientific = FALSE), limits=c(0,7600000), breaks=c(0, 2500000,5000000,7500000)) +
+    scale_fill_manual(values=c("#500e0c", "#a01b17", "#ce2e26", "#da702d","#3c2754","#664a92", "#548ea4", "#bfd3d8"),guide = guide_legend(reverse = TRUE)) +
       guides(fill=guide_legend(nrow=4,byrow=TRUE))
 
    fig54_theme <- theme(

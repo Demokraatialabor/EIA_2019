@@ -36,7 +36,7 @@ Loodushoiu ja turismi ühisele arengule aitas kaasa 1938. aastal loodud Loodusho
 
 <p class="caption" id="figure311"><span class="figure-number">Joonis 3.1.1.</span> Vilsandi ümbruskonnas on alati käinud palju turiste. Aastal 1939 oli neid vedava paadi roolis kaitseala eestvedaja Artur Toom</p>
 
-```{r, figure311, fig.align='center', out.width='80%', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure311, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
 
 knitr::include_graphics("figures/3-chapter/fig311.png")
 
@@ -84,19 +84,20 @@ names(fig312_data2) <- c("park","year","visitors")
 
 fig312_data2$park <- factor(fig312_data2$park, levels = c("Lahemaa rahvuspark","Soomaa rahvuspark","Matsalu rahvuspark","Karula rahvuspark","Vilsandi rahvuspark"))
 
-fig312_data2$year <- factor(fig312_data2$year, levels = c("2017","2016","2015","2014","2013","2012","2011","2010"))
+fig312_data2$year <- factor(fig312_data2$year, levels = c("2010","2011","2012","2013","2014","2015","2016","2017"))
 
 fig312_plot2_labels <- c("Lahemaa\nrahvuspark","Soomaa\nrahvuspark", "Matsalu\nrahvuspark", "Karula\nrahvuspark","Vilsandi\nrahvuspark")
 
-fig312_plot1_palette <- c("#2E4111","#482683","#5B8121","#79AC2C","#8d76ad","#388085","#44a1b1","#b8ddea")
+fig312_plot_palette <- c("#b8ddea","#44a1b1","#388085","#8d76ad","#79AC2C","#5B8121","#482683","#2E4111")
 
   fig312_plot1 <- ggplot(data = fig312_data1) +
-    geom_bar(mapping = aes(x=year, y=visitors), fill=fig312_plot1_palette, width=0.7, stat="identity", position="dodge") +
+    geom_bar(mapping = aes(x=year, y=visitors), fill=fig312_plot_palette, width=0.7, stat="identity", position="dodge") +
+    scale_x_continuous(breaks=c(2010,2011,2012,2013,2014,2015,2016,2017))+
     labs(y="Külastuskordade arv (mln)", x="")
 
   fig312_plot2 <- ggplot(data = fig312_data2) +
     geom_bar(mapping = aes(x=park, y=visitors, fill=year), width=0.7, stat="identity", position="dodge") +
-    scale_fill_manual(values=c("#2E4111","#482683","#5B8121","#79AC2C","#8d76ad","#388085","#44a1b1","#b8ddea")) +
+    scale_fill_manual(values=fig312_plot_palette) +
     labs(y="Külastuskordade arv", x="") +
     scale_x_discrete(labels=fig312_plot2_labels)
 
@@ -107,12 +108,12 @@ fig312_plot1_palette <- c("#2E4111","#482683","#5B8121","#79AC2C","#8d76ad","#38
                  )
 
 knitr::include_graphics("figures/3-chapter/fig312_map.png")
-print(fig312_plot1 + fig_theme_general + fig312_theme)
 print(fig312_plot2 + fig_theme_general + fig312_theme)
+print(fig312_plot1 + fig_theme_general + fig312_theme)
 
-ggsave(path="exported_figures/PDF/chapter3",filename="fig312a.pdf",fig312_plot1 + fig_theme_general + fig312_theme, height=120, width=200, units="mm")
+#ggsave(path="exported_figures/PDF/chapter3",filename="fig312a.pdf",fig312_plot1 + fig_theme_general + fig312_theme, height=120, width=200, units="mm")
 
-ggsave(path="exported_figures/PDF/chapter3",filename="fig312b.pdf",fig312_plot2 + fig_theme_general + fig312_theme, height=120, width=200, units="mm")
+#ggsave(path="exported_figures/PDF/chapter3",filename="fig312b.pdf",fig312_plot2 + fig_theme_general + fig312_theme, height=120, width=200, units="mm")
 ```
 
 ``` {block, type='figure-comment'}
@@ -145,12 +146,11 @@ library("reshape")
 fig313_data_melt$vanus <- factor(fig313_data_melt$vanus, levels = c("75+","60-74","50-59","40-49","30-39","20-29","15-19"))
 fig313_data_melt$variable <- factor(fig313_data_melt$variable, levels = c("Tallinna pargikülastajad","Jahimehed","Marjulised-seenelised","Välisturistid 2015","Looduspuhkus 2015","Looduspuhkus 2010"))
 
-
   fig313_plot <- ggplot(data = fig313_data_melt) +
     geom_bar(mapping = aes(x=vanus, y=value, fill=variable), width=0.7, stat="identity", position="dodge") +
     labs(y="%", x="vanuserühm") +
     coord_flip()  +
-    scale_fill_manual(values=c("#E4EED5","#C9DEAB","#AFCD80", "#94BD56","#79AC2C","#5B8121","#3D5616")) +
+    scale_fill_manual(values=c("#b8ddea","#44a1b1","#79AC2C","#5B8121","#8d76ad","#482683")) +
       guides(fill = guide_legend(reverse = TRUE))
 
   fig313_theme <- theme(
@@ -193,7 +193,7 @@ fig314_plot <- ggplot(data = fig314_data) +
     geom_bar(mapping = aes(x=Space, y=value, fill=variable), width=0.6, stat="identity") +
     geom_text(mapping = aes(x=Space, y=text_position, label=round(text_position, digits=0)), stat="identity", color="white", position = position_stack(vjust = .5)) +
     coord_flip() +
-    scale_fill_manual(values=c("#C9DEAB", "#94BD56","#79AC2C","#5B8121","#3D5616")) +
+    scale_fill_manual(values=c("#2b164e","#a28cbc","#5B8121","#79AC2C","#482683")) +
     labs(y="%", x="") +
     scale_x_discrete(labels = wrap_format(20)) +
     guides(fill = guide_legend(reverse = TRUE,nrow=2,byrow=TRUE))
@@ -261,14 +261,17 @@ Harrastuskalastajate arvu muutusi saab jälgida püügilubade statistika põhjal
 
 <p class="caption" id="figure315"><span class="figure-number">Joonis 3.1.5.</span> Harrastuskalamehed Vahejärvel, Otepääl, aastal 1945</p>
 
-```{r, figure315, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure315, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
+
+knitr::include_graphics("figures/3-chapter/fig315.png")
+
 ```
 
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> erakogu.
 ```
 
-```{block, type='casebox'}
+<div class="casebox">
 <h3>Marjulisel on „oma mets“, mida majandavad teised</h3>
 
 Marjuliste ruumikäitumist uuriti 2017. aastal, küsitledes mustikakorjajaid, kelle seas valdasid Lõuna-Eestis nii oma tarbeks kui ka müügiks korjajad ([Remm jt 2018](#Remm2018)). Uuringust ilmnes kolm asjaolu, mis näitavad, et suhtlusest kohaliku kogukonnaga ei piisa marjametsi säästvate planeeringute tegemiseks.
@@ -280,8 +283,12 @@ Marjuliste ruumikäitumist uuriti 2017. aastal, küsitledes mustikakorjajaid, ke
 Seega on marja- ja seenekohad Eestis kultuuriliselt olulised ja püsivad ning neid tajutakse privaatsetena. See põhjustas näiteks 1990. aastatel probleeme setude jaoks, kelle korjekohad jäid teisele poole riigipiiri ([Runnel 2002](#Runnel2002)). Peamine probleem mustikakorjajate jaoks on korjekohtade raie, mida ei kompenseeri kaitsealad ega uute marjakohtade võimalik tekkimine maastikel. Probleemi lahendamiseks tuleks marjametsade kaitset planeerida moel, mis ei eelda inimestelt oma korjekohtade avalikustamist või kiiret vahetamist.
 
 <p class="caption" id="figure316"><span class="figure-number">Joonis 3.1.6.</span> Mustikate korjamine</p>
+```{r, figure316, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
+
+knitr::include_graphics("figures/3-chapter/fig316.png")
 
 ```
+</div>
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> foto autor Joonas Remm.
 ```
