@@ -10,7 +10,7 @@ library("reshape")
 library("showtext")
 
 showtext_auto()
-font_add_google(name = "Montserrat", family = "montserrat")
+font_add_google(name = "Montserrat", family = "Montserrat")
 
 fig05_data <- read.csv ("data/0_fig5_data.csv", header=TRUE, fileEncoding="utf-8", sep=";", check.names=FALSE)
 fig05_data <- melt(fig05_data, id=c("Vanus","Asukoht"))
