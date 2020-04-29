@@ -110,7 +110,7 @@ Ehituspärandi mõju on siiski laiem. Külastuspaikade tekke kõrval on sel olul
 
 ```
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Cultural Heritage Counts for Europe raport.
+<span class="imgsource-source">Allikas:</span> Cultural Heritage Counts for Europe 2015.
 ```
 
 Arhitektuuripärandi kaitse ei ole seadnud eesmärgiks ehitatud keskkonna stiiliühtsust või kindla ajalooperioodi ruumiilme taastamist, vaid erinevate kihistuste austamise ja esiletoomise, täiendades neid kvaliteetsete nüüdisaegsete lisandustega. Ent ka ajalooliste ehitiste koopiad ei ole välistatud – needki on vahel omal kohal, kui piirkonna ajaloos väga oluline ehitis on õnnetult hävinud, nagu näiteks Nõmme turuhoone Tallinnas. Lausalist ammuhävinud ehitiste koopiana ülesehitamist ei peeta tänapäeva muinsuskaitses aga eetiliseks eelkõige kahel põhjusel: esiteks oleks see ajaloo võltsimine ning teiseks võtaks see ressursse ja tähelepanu päris kultuuripärandilt selle väärtust ühtlasi vähendades – kui ajaloolise ehitise saab alati vanade piltide järgi üles ehitada, siis milleks seda praegu hoida.
@@ -121,6 +121,19 @@ Olemasoleva hoonestuse suuremas mahus säilitamine ja jätkuv kasutamine on üha
 
 Eestis on riikliku kaitse all 12 muinsuskaitseala ning üle 5000 ehitismälestise (need on peamiselt ajaloolised hooned, aga võivad olla ka rajatised, nagu teed ja sillad, pargid ja militaarrajatised). Ehitismälestise arv moodustab 0,7% ehitisregistris olevatest ehitistest, isegi koos muinsuskaitsealade hoonestusega moodustab riiklikult kaitstav ehituspärand umbes ühe protsendi ehitistest. Riikliku kaitse all olevate ehitiste hulga võrdlemine teiste riikide omaga on keerukas ja arvude võrdlemisel tuleb arvestada, et Eesti mälestiste nimekiri on 1990. aastate tehniliste võimaluste ning maade tükeldamise nägu: kompleksid, mis paljudes riikides loetakse üheks mälestiseks, on Eestis loetletud mitmekümne üksikmälestisena. Kaitse all olemise sisuline tähendus võib samuti olla väga erinev. USAs on näiteks üle 100 000 mälestise ning igal aastal lisatakse nimekirja veel tuhatkond objekti. Samal ajal ei tähenda riiklikku mälestiste nimekirja lisamine isegi keeldu ehitist lammutada, ehitusregulatsioone saavad kohaldada ainult kohalikud omavalitsused ([Page 2016](#Page2016)). Suurbritannias on kaitse all üle 9800 muinsuskaitseala ja 375 588 ajaloolist hoonet, lisaks veel ajaloolised pargid ja aiad, mis Eestis on arvatud ehitismälestiste hulka. Lätis on kultuurimälestisi 8584, sealhulgas riikliku tähtsusega 5183, kohaliku tähtsusega 3401, arhitektuurimälestised on neist 40%. Soomes on ehitismälestiste arv väga väike – 280 ehitist või ehitiste rühma – kuid neile lisaks on automaatselt kaitse all kõik enne 1917. aastat ehitatud kirikud, ligikaudu 800 riigile kuulunud ajaloolist ehitist ja 1258 riiklikult olulist kultuurikeskkonda. Kuna Soomes on juba 1980. aastatest võimalik pärandi kaitse planeeringute kaudu, on mälestiseks tunnistamise asemel suurem osa pärandist kaitstud planeeringutega: nende hulk on hinnanguliselt 15–20 000 ehitist või ehitiste rühma.
 
+```{block, type='casebox'}
+<h3>Tööstuspärand</h3>
+
+Kasutuseta ehitismälestiste seas on palju suuri tööstushooneid, mis ehitatud hiiglasliku Vene Keisririigi vajadusi silmas pidades, ning mida juba ammu sellises mahus tarvis ei lähe. Tallinnas on õnnestunud mitmed tööstuspiirkonnad taaselustada elu- ja ärikvartalitena (nt Rotermanni, Noblessneri, Lutheri, Tselluloosi ja Dvigateli kvartalid), väiksemates linnades on sellistele ehitistele raskem uut kasutust leida.
+Kreenholmi manufaktuur Narvas oli 19. sajandi teisel poolel Vene Keisririigi kõige kaasaegsem tööstusettevõte ja mitu aastakümmet suurim tekstiilivabrik kogu Euroopas. Kõrgaegadel töötas selles üle kümne tuhande töötaja, väiksemas mahus tootmine kestis kuni 2010. aastani. Ambitsioonika detailplaneeringu järgi on Kreenholmi alale kavandatud atraktiivne keskus koos elumajade, meelelahutus- ja kultuuriasutuste, konverentsikeskuse, teaduspargi, hotellide ja kaubandusettevõtetega. Seni pole arendustegevuseni jõutud, kuid vähemalt on omanik mälestistele uued katused peale pannud ning saanud Narva Muuseumiga kokkuleppele, et alale võib korraldada ekskursioone.
+
+<p class="caption" id="figure228"><span class="figure-number">Joonis 2.2.3.</span> Kreenholmi manufaktuur</p>
+
+```
+```{block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Annika Haas.
+```
+
 Eestiski on riikliku muinsuskaitse kõrval hakanud toimima ehituspärandi kaitsmine planeeringute kaudu. Alates 2003. aastast on kohalikel omavalitsustel võimalik kehtestada miljööväärtuslikke alasid ning 2015. aastast väärtuslikke üksikobjekte. Planeeringute kasutamine ehituspärandi kaitsmiseks on uus ning alles arenev praktika, ning eeldus, et kõike, mis pole riigi kaitse all, võib lammutada, on visa taanduma.
 
 Miljööalade ja väärtuslike üksikobjektide kaudu on pärandihoid muutunud laiapõhjalisemaks ja kogukondi kaasavamaks. Planeeringu avalikustamisel saab teoreetiliselt igaüks kaasa rääkida, milliseid väärtusi peaks planeeringualal säilitama, kuid arvamuste tegelik mõju ruumiotsustele võib olla tagasihoidlik. Riiklike mälestiste nimekirjad on koostatud ajal, kui seadused tänapäevasel viisil kaasamist ei nõudnud, ning üksikute uute kaitse alla võtmiste puhul suhtleb Muinsuskaitseamet eelkõige objekti omanike ja kohaliku omavalitsusega. Riikliku kaitse alla võtmise ettepanekuid saab teha iga kodanik, kuid kaitse alla võtmise otsustavad valdkonna spetsialistid. Miljööalade ja väärtuslike üksikobjektide määramine on täielikult kohalike omavalitsuste pädevuses. Kogukondade aktiivse osalemise korral võiks sellest saada tõeliselt demokraatlik muinsuskaitse, mille puhul ei olegi oluline, kas ehitis on riiklikus vaates esinduslik ja eriline, vaid kas seda kohapeal väärtustatakse ja soovitakse jätkuvalt avalikus ruumis näha.
@@ -129,13 +142,12 @@ Pärandihoiu kahetasandiliseks muutumine aitab väärtustada ehituspärandit lai
 
 Probleemiks on paljud vanad detailplaneeringud, mis kehtivad tähtajatult ja lubavad väärtuslike hoonete lammutamist, mis tänapäeval avalikkuse ootustega enam sugugi kooskõlas ei ole. Näiteks kui 2019. aastal asuti lammutama Tallinnas Kadaka tee 141 asuvat juugendlikku 1920. aastatest pärit puumaja, tõusis sellest pahameeletorm nii kohalike elanike kui laiemalt pärandit väärtustavate tallinlaste seas. Hoone oli vahepeal saanud populaarseks restoraniks ja selle kaitseks koguti ligi 4000 allkirja, kirjutati mitmeid pöördumisi ja artikleid. Ka linnaosavanem ütles ajakirjanduses, et tema sellist maja lammutada ei lubaks. Et aga hoone lammutamine oli lubatud 2008. aastal kehtestatud detailplaneeringuga, mis jätkuvalt ja lõputult kehtib, ei õnnestunud lammutamist peatada. Analoogseid tänapäeva kontekstis üllatava sisuga planeeringuid tuleb välja kõikjalt, ning kuigi avalikkus ja ametkonnad on saanud neis kaasa rääkida viimati 10 või isegi 20 aastat tagasi, pole vana planeeringu teostamiseks uued kaasamisringid vajalikud. Kohaliku tasandi pärandihoid peaks hõlmama uute pärandisõbralike planeeringute koostamise kõrval ka vanade detailplaneeringute ülevaatamist ja põhjendatud juhul tühistamist, mida seni ei ole teadaolevalt kohalikes omavalitsustes tehtud.
 
-### Üksikutel ruumiotsustel on suur mõju nii pärandile kui regionaalarengule {-.chapter2_section}
+### Üksikutel ruumiotsustel on suur mõju nii kultuuripärandile kui ka regionaalarengul {-.chapter2_section}
 
 Ehituspärandi seisukorra ja mõju avalikus ruumis määrab peamiselt selle kasutuses või kasutuseta olemine. Väheneva rahvastikuga piirkondades (ehk suures osas Eestist) tähendab hoone tühjaksjätmine tihti seda, et see jääb kasutuseta väga pikaks ajaks. Tühjad hooned muudavad asula või linnapildi trööstituks, vähendavad elanike uhkustunnet oma kodulinna üle ning nende soovi linna arengusse panustada. Mahajäetud majad tekitavad inimestes soovi ära kolida, paljud ettevõtlikumad lahkuvad ja alles jäävad põhiliselt need, kellel valikut ei ole.
 
 ```{block, type='blockquote-left'}
-Toetusmeetmest rohkem mõjutavad ruumilisi arenguid
-riigi eri „silotornides“ sündivad üksikotsused: kuhu rajada kool, kus sulgeda haigla, millised asutused liita ja kuhu need paigutada.
+Toetusmeetmest rohkem mõjutavad ruumilisi arenguid riigi eri „silotornides“ sündivad üksikotsused: kuhu rajada kool, kus sulgeda haigla, millised asutused liita ja kuhu need paigutada.
 ```
 
 Linnaruumi atraktiivsuses ja turvalisuses on oluline roll hoonestuse seisukorral – kinnilöödud akendega lagunevad „tondilossid“ peletavad eemale. Ajaloolise linnaruumi ja hoonestuse korrastamine ei ole ainult pärandihoiu ja jätkusuutlikkuse küsimus, vaid lähtub ka regionaalarengu eesmärkidest. Andes kultuuripärandi toel väikelinnadele uut hingamist, suureneb nende potentsiaal elukeskkonnana. Nii on näiteks Eesti Arhitektide Liidu projekt „Hea avalik ruum“ tõmmanud tähelepanu mitme ajaloolise linna keskväljaku või peatänava uuendamisele ja aidanud kaasata investeeringuid. Uutest linnaväljakutest elukeskkonna parendamiseks siiski ei piisa, kui disainvalgustite ja moodsa sillutise tausta moodustab kehvenevas seisus pooltühi hoonestus. Mõningat abi muinsuskaitsealade majade korrastamiseks saab lähiaastatel Kultuuriministeeriumi kavandatud muinsuskaitsealade programmist, kuid toetusmeetmest rohkem mõjutavad ruumilisi arenguid riigi eri „silotornides“ sündivad üksikotsused: kuhu rajada kool, kus sulgeda haigla, millised asutused liita ja kuhu need paigutada.
@@ -154,9 +166,9 @@ Otsused, millisest hoonest oma asutus välja kolitakse ja mille arendamiseks suu
 
 Kultuuripärandi väärtust ühiskonnas käsitlev Euroopa Nõukogu poliitikadokument Faro konventsioon, millega liitumine on Eestis ettevalmistamisel, käsitleb kultuuripärandit kui universaalset inimõigust. See tähendab, et igaühel on õigus kultuuripärandist osa saada, osaleda selle loomisel ja mõtestamisel enda poolt valitud viisil ja seetõttu on pärandil oluline roll demokraatliku ühiskonna ülesehitamisel ja selle sidususe kandmisel. Elukeskkonna väärtuste hoidmine on praegugi oluline osa Eesti  asumiseltside tegevusest. Kohalikku ehituspärandit väärtustatakse eriti siis, kui seda ohustab lammutamine. Muinsuskaitseamet saab igal aastal kümneid ettepanekuid ehitiste kaitse alla võtmiseks ja enamasti on need seotud elanikkonnale vastumeelsete uusarendustega ja neile ette jääva ajaloolise hoonestuse lammutusohuga. Riikliku kaitse rakendamist ei saa siiski otsustada näiteks rahvahääletuse teel, sest sellisel juhul koosneks mälestiste nimekiri peamiselt ehitistest, mida kunagi on soovitud lammutada.  Mälestiseks tunnistamisega võtab riik kohustuse aidata kaasa nende ehitiste säilimisele. Selle pikaaegse kohustuse võtmiseks on oluline ekspertide hinnang ja lõpuks haldusotsus, et asi vastab riikliku kaitse eeldustele, see tähendab kuulub kultuuripärandi väärtuslikumasse ossa. Seega on oluline Faro konventsioonis sõnastatud põhimõte eristada kogukondlikku pärandiloomet ja avalikes huvides reguleeritud riiklikku pärandikaitset. Esimene on laiem mõiste – see on kollektiivne ja avatud praktika, mis ei ole tingimata seotud riiklike regulatsioonidega. Kultuurimälestiseks tunnistamine kui üks võimalikke pärandiloome akte on enamat kui arvamusküsitlus – enamik kodanike ettepanekuid saab üldjuhul eitava vastuse ning uued mälestised kinnitatakse ekspertide koostatud alusuuringute tulemuste põhjal. Siiski ei ole põhjust ekspertidepõhist riiklikku pärandikaitse protsessi ebademokraatlikuna käsitleda, kuivõrd iga kultuurimälestiseks tunnistamise ettepanekut ning sellega kaasnevaid eri seisukohti kaalutakse menetlusprotsessi raames põhjalikult. Kodanike pidev huvi objektide kaitse alla võtmise vastu on aga oluline märk sellest, et ehituspärandi kaitse on avalikes huvides, ning aitab mõista, mida inimesed oma pärandina käsitlevad.
 
-Riiklikult kaitstud ehituspärand on meie kõikide ühine hüve jalutada vanalinna jõuluturul või pidada pulmi uhkes mõisasaalis, aga samal ajal väheste vastutus. Vastutus mälestiste säilimise ja korrashoiu ees on eelkõige nende omanikel, valdavalt eraisikutel ([joonis 2.2.3](#figure223)). Ligikaudu veerand ehitismälestistest on halvas või avariilises seisus ja umbes veerand on kasutuseta. Hoone kasutamine tagab üldjuhul selle korrashoiu ja kasutusest väljalangemine tähendab tavaliselt lagunemist. Parem on mälestiste olukord suuremates linnades, halvem maapiirkondades ja väikelinnades, kus rahvastiku vähenemine toob endaga kaasa hoonestuse tühjenemise.
+Riiklikult kaitstud ehituspärand on meie kõikide ühine hüve jalutada vanalinna jõuluturul või pidada pulmi uhkes mõisasaalis, aga samal ajal väheste vastutus. Vastutus mälestiste säilimise ja korrashoiu ees on eelkõige nende omanikel, valdavalt eraisikutel ([joonis 2.2.4](#figure223)). Ligikaudu veerand ehitismälestistest on halvas või avariilises seisus ja umbes veerand on kasutuseta. Hoone kasutamine tagab üldjuhul selle korrashoiu ja kasutusest väljalangemine tähendab tavaliselt lagunemist. Parem on mälestiste olukord suuremates linnades, halvem maapiirkondades ja väikelinnades, kus rahvastiku vähenemine toob endaga kaasa hoonestuse tühjenemise.
 
-<p class="caption" id="figure223"><span class="figure-number">Joonis 2.2.3.</span> Ehitismälestiste omanikud</p>
+<p class="caption" id="figure223"><span class="figure-number">Joonis 2.2.4.</span> Ehitismälestiste omanikud</p>
 
 ```{r, figure223, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -194,9 +206,9 @@ fig223_data$percent=percent((fig223_data$value/100), 1)
 <span class="imgsource-source">Allikas:</span> Muinsuskaitseseaduse eelnõu seletuskiri.
 ```
 
-Mälestiste ja muinsuskaitsealade hoonete remonti ja restaureerimist toetab Muinsuskaitseamet iga-aastase eelarve võimaluste piires. Probleemiks on olnud toetussumma vähesus: see oli enne majandussurutist suurusjärgus 1,1–1,3 miljonit eurot aastas, alates 2009. aastast on restaureerimistoetused jäänud vahemikku 0,5–0,7 miljonit eurot. Keskmine toetussumma on umbes 5000 eurot, suurim osa toetustest kulub avariiliste katuste parandamisele ([joonis 2.2.4](#figure224)).
+Mälestiste ja muinsuskaitsealade hoonete remonti ja restaureerimist toetab Muinsuskaitseamet iga-aastase eelarve võimaluste piires. Probleemiks on olnud toetussumma vähesus: see oli enne majandussurutist suurusjärgus 1,1–1,3 miljonit eurot aastas, alates 2009. aastast on restaureerimistoetused jäänud vahemikku 0,5–0,7 miljonit eurot. Keskmine toetussumma on umbes 5000 eurot, suurim osa toetustest kulub avariiliste katuste parandamisele ([joonis 2.2.5](#figure224)).
 
-<p class="caption" id="figure224"><span class="figure-number">Joonis 2.2.4.</span> Aasta 2018 restaureerimistoetuste ülevaade</p>
+<p class="caption" id="figure224"><span class="figure-number">Joonis 2.2.5.</span> Aasta 2018 restaureerimistoetuste ülevaade</p>
 ```{r, figure224, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
@@ -226,9 +238,9 @@ library("tidyverse")
 ```
 
 Lisaks üldisele kinnismälestiste restaureerimistoetusele on riik toetanud eraldi toetusmeetmest aastatel 2004–2018 sakraalehitiste korrastamist (nn pühakodade programm) ning aastatel 2001–2016 mõisakoole (Norra EEA toetuse abil rahastatud mõisakoolide programm). Nii mõisakoolide kui ka pühakodade programmi kogumaht oli üle 12 miljoni euro. Kirikud ja mõisad on enamasti asulate kõige suuremad ja avalikus ruumis kõige tähelepanuväärsemad ehitised, millega on seotud suur osa kohalikust kogukonnast ning mida külastatakse kaugemaltki.
-Mõisakoolide programmi abil on suuremal või vähemal määral restaureeritud enamikku Eesti mõisakoolidest. Pühakodade programmist on toetusi saanud üle 200 kiriku, kabeli ja tsässona ([joonis 2.2.5](#figure225)).
+Mõisakoolide programmi abil on suuremal või vähemal määral restaureeritud enamikku Eesti mõisakoolidest. Pühakodade programmist on toetusi saanud üle 200 kiriku, kabeli ja tsässona ([joonis 2.2.6](#figure225)).
 
-<p class="caption" id="figure225"><span class="figure-number">Joonis 2.2.5.</span> Pühakodade programm</p>
+<p class="caption" id="figure225"><span class="figure-number">Joonis 2.2.6.</span> Pühakodade programm (PÜP, €)</p>
 
 ```{r, figure225, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -260,9 +272,9 @@ library("scales")
 ```
 
 Alates 2019. aastast on senine pühakodade programmi eelarve lisatud Muinsuskaitseameti restaureerimistoetuste eelarvesse, nii et kuigi toetussumma justkui suurenes ligikaudu poole võrra, on eraomanike toetamisvõimalused jäänud samaks. Eraomanike olukorra parandamiseks on 2019. aastast loodud taluarhitektuuri toetamise meede, mille eelarve on esialgu vaid 100 000 eurot. Väljatöötamisel on ka vanalinnade programm, mis peaks lähiaastatel andma hoogu väikelinnade muinsuskaitsealade hoonestuse restaureerimisele.
-Riigi toetus riikliku kaitse all olevale ehituspärandile ei ole kaugeltki piisav: restaureerimistoetuste taotluste maht on mitu korda suurem kui toetamisvõimalused ([joonis 2.2.6](#figure226)). Majandussurutise ajal tehtud kärbe vähendas toetuste eelarvet ligi poole võrra ja kuigi pärast kriisiaastate lõppu on riigieelarve paisunud kolm korda, on riigi toetus mälestistele jäänud sisuliselt kriisiaegsele tasemele ([joonis 2.2.6](#figure226)). Erinevalt mitmest teisest riigist ei ole Eestis mälestiste omanikele ka maksusoodustusi.
+Riigi toetus riikliku kaitse all olevale ehituspärandile ei ole kaugeltki piisav: restaureerimistoetuste taotluste maht on mitu korda suurem kui toetamisvõimalused ([joonis 2.2.7](#figure226)). Majandussurutise ajal tehtud kärbe vähendas toetuste eelarvet ligi poole võrra ja kuigi pärast kriisiaastate lõppu on riigieelarve paisunud kolm korda, on riigi toetus mälestistele jäänud sisuliselt kriisiaegsele tasemele ([joonis 2.2.7](#figure226)). Erinevalt mitmest teisest riigist ei ole Eestis mälestiste omanikele ka maksusoodustusi.
 
-<p class="caption" id="figure226"><span class="figure-number">Joonis 2.2.6.</span> Restaureerimistoetuse võrdlus riigieelarvega.</p>
+<p class="caption" id="figure226"><span class="figure-number">Joonis 2.2.7.</span> Restaureerimistoetuse võrdlus riigieelarvega.</p>
 
 ```{r, figure226, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -289,15 +301,15 @@ library("tidyverse")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Muinsuskaitseamet ning statistikaamet.
+<span class="imgsource-source">Allikas:</span> Muinsuskaitseamet ning Statistikaamet.
 ```
 
-Uuringus Eraomandis oleva kinnismälestise hoidmine ([Tafel-Viia jt 2014](#Tafel2014)) on toodud mälestiste eraomanikke puudutava probleemi ühe tuumana asjaolu, et mälestisele seatud piirangud ja riigi poolt pakutavad toetused ei ole tasakaalus. Kolmveerand eestlastest arvab, et riigiasutused peaksid eraldama kultuuripärandile rohkem vahendeid ([joonis 2.2.7](#figure227)).
+Uuringus Eraomandis oleva kinnismälestise hoidmine ([Tafel-Viia jt 2014](#Tafel2014)) on toodud mälestiste eraomanikke puudutava probleemi ühe tuumana asjaolu, et mälestisele seatud piirangud ja riigi poolt pakutavad toetused ei ole tasakaalus. Kolmveerand eestlastest arvab, et riigiasutused peaksid eraldama kultuuripärandile rohkem vahendeid ([joonis 2.2.8](#figure227)).
 
-<p class="caption" id="figure227"><span class="figure-number">Joonis 2.2.7.</span> Vahendid kultuuripärandile.</p>
+<p class="caption" id="figure227"><span class="figure-number">Joonis 2.2.8.</span> Vahendid kultuuripärandile.</p>
 
 Riigiasutused peaksid eraldama Euroopa kultuuripärandi jaoks rohkem vahendeid (%).
-*Välimine ring: EL28; sisemine ring: EE.*
+*Välimine ring Euroopa Liidu keskmine; Sisemine ring Eesti.*
 
 ```{r, figure227, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -349,10 +361,10 @@ Aastal 2016 läbiviidud uuringus „Riigi omanduses olevate kultuuriväärtuslik
 <h3>Liberty suvemõisa juhtum</h3>
 
 Liberty suvemõisasse presidendi residentsi kavandamisele on kulunud üle 350 000 euro, põhiliselt projekteerimiskulude katmiseks. See on umbes pool riiklikest restaureerimis- toetustest aastas.
-Hooned võeti Eesti Vabaõhumuuseumilt üle 2014. aastal, ehitusprojekt koostati 2015. aastal. 2017. aastal otsustas Kersti Kaljulaid presidendi residentsi siiski mitte rajada ning 2019. aasta alguse seisuga pole otsustatud, mida edasi teha. Muuseumile, mis sooviks hooned kasutusse võtta, neid tagasi ei ole antud. Mõisakompleks on avalikkusele suletud ja selle seisukord halveneb.
-RKAS ootab poliitilist otsust, mida mõisakompleksiga edasi teha – rohkemaks tal põhi- kirja järgi voli ei ole. Kui kultuurpärandi hoidmine ja tutvustamine oleks RKASi põhikirjaline eesmärk, oleks Liberty suvemõisa ja mõne teisegi riigile kuuluva mälestise seisukord tõenäoliselt parem.
+Hooned võeti Eesti Vabaõhumuuseumilt üle 2014. aastal, ehitusprojekt koostati 2015. aastal. 2017. aastal otsustas president Kersti Kaljulaid presidendi residentsi siiski mitte rajada ning 2019. aasta alguse seisuga pole otsustatud, mida edasi teha. Muuseumile, mis sooviks hooned kasutusse võtta, neid tagasi ei ole antud. Mõisakompleks on avalikkusele suletud ja selle seisukord halveneb.
+Riigi Kinnisvara AS (RKAS) ootab poliitilist otsust, mida mõisakompleksiga edasi teha – rohkemaks tal põhi- kirja järgi voli ei ole. Kui kultuurpärandi hoidmine ja tutvustamine oleks RKASi põhikirjaline eesmärk, oleks Liberty suvemõisa ja mõne teisegi riigile kuuluva mälestise seisukord tõenäoliselt parem.
 
-<p class="caption" id="figure228"><span class="figure-number">Joonis 2.2.8.</span> Liberty suvemõisa Egon Kochi suvila</p>
+<p class="caption" id="figure228"><span class="figure-number">Joonis 2.2.9.</span> Liberty suvemõisa Egon Kochi suvila</p>
 
 ```
 ```{block, type='imgsource'}
@@ -370,7 +382,7 @@ Ajalooliste ehitiste, sealhulgas mälestiste ja muinsuskaitsealade kasutuse ja s
 
 ### Viidatud allikad {-.subreferences}
 
-<p id="Cultural2015">Cultural Heritage Counts for Europe 2015. Full Report.</p>
+<p id="Cultural2015">Cultural Heritage Counts for Europe 2015. Full Report. http://blogs.encatc.org/culturalheritagecountsforeurope//wp-content/uploads/2015/06/CHCfE_FULL-REPORT_v2.pdf.</p>
 <p id="Elefante2007">Elefante, C. 2007. The greenest building is ... one that is already built. – Forum Journal, 21 (4), 26–38.</p>
 <p id="Eurobarometer2017">Eurobarometer 2017. Special Eurobarometer 466. Cultural Heritage. European Commission: Directorate-General for Communication.</p>
 <p id="Koolhaas2014">Koolhaas, R. 2014. Preservation is Overtaking Us. https://www.arch.columbia.edu/books/reader/6-preservation-is-overtaking-us.</p>

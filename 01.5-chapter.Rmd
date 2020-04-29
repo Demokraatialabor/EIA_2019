@@ -64,6 +64,8 @@ Ligipääsetavus on inimeste võimalus saada osa oma ühiskonnas tavapärastest 
 Liiklustorudeks muutunud linnatänavate tõttu hakkab autostumine linnades takistama üldist ligipääsetavust. Ligipääsetavus on inimeste võimalus saada osa oma ühiskonnas tavapärastest tegevustest ([Farrington 2007](#Farrington)). Peale liikumisvabaduse hõlmab ligipääsetavus teenuste ja töökohtade toomist või planeerimist inimesele lähemale, et vähendada vajadust liikumiseks ([joonis 1.5.2](#figure152)). Näiteks võib tuua sotsiaalteenuste digitaliseerimise ning kaugtöökohtade loomise. Kuigi Eestis saab riiklikke teenuseid interneti kaudu üsna hõlpsalt kasutada ka kodust lahkumata, eeldab sotsiaalne elu, laste haridus, hobid ja meelelahutus ikkagi aeg-ajalt suurematesse asumitesse või linnakeskustesse minekut. Ligipääsetavuse taandamine autokasutaja vajadustele on ühekülgne, kuna see vähendab teiste liiklejarühmade, sealhulgas jalakäijate, ratturite, eakate, erivajadusega liiklejate liikumisvõimalusi ja -kvaliteeti. Mitmesuguseid asjaolusid arvestav transpordiplaneerimine eeldab arusaamist autode rollist ja kasutusest erinevates keskkondades: hajaasustuses, maapiirkondades, linnaregioonis ja asustusüksuse sees.
 
 ```{block, type='casebox'}
+<h3> Säästva liikuvuse arengukava</h3>
+
 Säästva liikuvuse arengukava eesmärk on luua jätkusuutlik transpordisüsteem. See tähendab inimeste praeguste ja tulevaste liikuvusvajaduste rahuldamist liikumisviisidega, mis ei kahjusta elukeskkonda ([LiLiA 2017](#LiLiA2017)). Selline liikumiskorraldus eeldab mugavat ühistranspordivõrgustikku, liikumisviiside sujuvat ühildamist, aktiivsete liikumisviiside (nt jalgratas ja jalgsi liikumine) arendamist ning autokasutuse vajaduse vähendamist. Euroopa Komisjon kinnitas säästva linnalise liikuvuse arengukava 2009. aastal ning toetab selle rakendamist liikmesriikide kohalikel tasanditel koostöö- ja teadmusvõrgustike loomise, andmete kogumise ning finantsinvesteeringute kaudu ([ELTIS 2019](#ELTIS2019)).  
 
 <p class="caption" id="figure152"><span class="figure-number">Joonis 1.5.2.</span> Ligipääsetavuse elemendid</p>
@@ -86,7 +88,7 @@ print("MAP")
 ```
 
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Statistikaamet 2018, vt veel, k.a. metoodika, Nõmm, 2018.
+<span class="imgsource-source">Allikas:</span> Statistikaamet 2018, vt veel, k.a. metoodika, Nõmm 2018.
 ```
 
 Tihenev autoliiklus vähendab ühistransporti kasutavate reisijate arvu ning see muudab hea teenuse pakkumise hajaasustuses kallimaks ja keerulisemaks. Ühistranspordi kvaliteedi langus ja tiheduse vähenemine soosib omakorda autostumist. Maanteeameti andmetel vähenes aastatel 2003–2016 sõitjate arv maakonnaliinidel peaaegu kaks korda, kusjuures vähenemine oli eriti kiire just perioodil 2003–2009 ([joonis 1.5.4](#figure154)). Need aastad olid kiire jõukuse kasvu periood, mil toimus ka kiire autostumine ja sellega seotud liikumisviiside nihe sõiduautode kasuks. Ühistranspordi kasutajate arvu langus on toimunud vaatamata sellele, et samal ajal ei ole ühissõidukite läbisõit vähenenud.
@@ -134,7 +136,7 @@ Tihenev autoliiklus vähendab ühistransporti kasutavate reisijate arvu ning see
 ```
 Eesti suuremates linnaregioonides on viimasel kahel kümnendil toimunud valglinnastumine: uusi elamu-, kaubandus-, teenuste- ja tootmisalasid on rajatud tiheasustusaladest välja, kuid loodud alad ei ole terviklikult planeeritud, mistõttu toimub elanike pendelliikumine keskuse ja linnaäärsete elurajoonide vahel, selleks sageli isiklikku sõiduautot kasutades. Elanike arv Tallinna lähiregioonis on viimase 20 aasta jooksul oluliselt kasvanud ([joonis 1.5.5](#figure155)), ent Harjumaa kaugemates omavalitsustes on toimunud mõõdukas langus 10–20%. Statistikaameti 2011. aasta rahvaloenduse pendelrände andmete järgi on Eestis kokku 28 üle 5000 elanikuga keskuslinna ümber koondunud toimepiirkonda. Kui paljud neist keskustest on väikesed, eriti just Lõuna-Eestis, siis üks – Tallinn – avaldab mõju inimeste liikumisele üle Eesti.
 
-<p class="caption" id="figure155"><span class="figure-number">Joonis 1.5.5.</span> Autode arv leibkonnas Tallinnas (2016) ja Harjumaal (2017) ning elanike arvu juurdekasv Tallinna lähiregioonis viimase 20 aastal jooksul. 1998 a rahvaarv = 100%</p>
+<p class="caption" id="figure155"><span class="figure-number">Joonis 1.5.5.</span> Autode arv leibkonnas Tallinnas (2016) ja Harjumaal (2017) ning elanike arvu juurdekasv Tallinna lähiregioonis viimase 20 aastal jooksul. 1998 aasta rahvaarv = 100%</p>
 
 
 ```{r, figure155, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
@@ -281,7 +283,7 @@ fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab k
 <span class="imgsource-source">Allikas:</span> Statistikaamet.
 ```
 
-Kõik liikumised ei ole seotud tööle või poodi sõitmisega. Ligi kümnendik kõigist liikumistest sõiduautoga on seotud laste viimisega kooli või lasteaeda. Iga päev tegeleb kellegi sõidutamisega 12% Tallinna tagamaa elanikest, kusjuures suurem roll on selles kuni 34-aastastel naistel ([Kantar Emori 2018](#Kantar2018)). Nii tuleb ka Tallinna linnaregioonis esile mujal maailmas kogetu, et elu linnast väljas tähendab aktiivset autokasutust, laste sõidutamist ja et selle rolli saavad ennekõike emad ([McCarthy jt 2017](#McCarthy2017)).
+Kõik liikumised ei ole seotud tööle või poodi sõitmisega. Ligi kümnendik kõigist liikumistest sõiduautoga on seotud laste viimisega kooli või lasteaeda. Iga päev tegeleb kellegi sõidutamisega 12% Tallinna tagamaa elanikest, kusjuures suurem roll on selles kuni 34-aastastel naistel ([Kantar Emor 2018](#Kantar2018)). Nii tuleb ka Tallinna linnaregioonis esile mujal maailmas kogetu, et elu linnast väljas tähendab aktiivset autokasutust, laste sõidutamist ja et selle rolli saavad ennekõike emad ([McCarthy jt 2017](#McCarthy2017)).
 
 ```{block, type='blockquote-right'}
 Head ühistranspordiühendused ning kergliiklusvõrgustikud eeslinnades aitaks luua mitmekülgsete kasutusvõimalustega keskkonda, kus iga tegevuse või teenuse pärast ei peaks sõitma linna.
@@ -332,7 +334,7 @@ library("tidyverse")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Tallinna rattastrateegia 2018–2027
+<span class="imgsource-source">Allikas:</span> Tallinna rattastrateegia 2018–2027.
 ```
 
 Jalgrattateede tiheduselt jääb Tallinn naaberriikide pealinnadele (Helsingi, Stockholm) üle kahe korra alla ([Otsus 2016](#Otsus2016)). Rattateede võrgustik on näiteks Tallinna kesklinna piirkonnas killustunud üksikuteks teejuppideks ja on puudulikult ühendatud rongi- ja bussijaamaga. Meie kliimavöötmes saaks jalgratast aasta lõikes kasutada oluliselt enam: 2017. aastal käis Statistikaameti andmete järgi vaid 1,6% tallinlastest tööl rattaga, samal ajal kui meie kliimaga võrreldavates lähilinnades Helsingis ja Stockholmis tehti vastavalt 11% ja 9% kõikidest liikumistest jalgrattaga ([ECF 2013](#EFC2013)). Seda selgitab Eesti üldine liikumisvõimaluste kujundamise praktika, mis siiani jalgratastele ruumi loomist ei väärtusta.

@@ -36,7 +36,7 @@ Nii nagu on muutuv avaliku ruumi tähendus, on üheselt määratlematu ka ruumia
 ```{block, type='casebox'}
 **Kogukondade tegutsemisvormid**
 
-Aastal 2014 Linnalabori ja liikumise Kodukant tehtud kogukonnauuringust selgus, et kohalik aktiivsus ei väljendu ainult registreeritud MTÜde kaudu, vaid võib võtta muidki organisatsioonilisi vorme. Liikumine Kodukant on 2013. aastal kokku lugenud 1316 külavanemat, 1188 külades tegutsevat seltsi ning 51 koostööühendust (vallaülest katusorganisatsiooni ja ümarlauda), mis liidavad kohalikku aktiivsust arendavaid MTÜsid, seltsinguid ja külavanemaid. Registreerimata seltsinguid, mis tegelevad kohaliku arenguga, loendati 2006. aastal 45 027. Linnaseltse tegutses Linnalabori andmetel 2014. aastal Eestis aastal kuus ning neile lisandus veel kümmekond ökokogukonda. Seega on ametlikult organiseerunud kogukondi 2014. aastal tehtud kogukonnauuringu andmetel Eestis 3500 ringis. Vastanud kogukondadest on 75% registreeritud MTÜna, 9% kogunevad spontaanselt ametlikult organiseerumata, 6% kogukondadest kogunevad külavanema eestvedamisel ja 6% tegutsevad seltsingulepingu alusel. Puudulik statistika raskendab kogukondade tegutsemisvormide kohta järelduste tegemist.
+Aastal 2014 Linnalabori ja liikumise Kodukant tehtud <a href="https://www.kysk.ee/failid/Upload/files/Uuringud/Kogukonnauuring.pdf">kogukonnauuringust</a> selgus, et kohalik aktiivsus ei väljendu ainult registreeritud MTÜde kaudu, vaid võib võtta muidki organisatsioonilisi vorme. Liikumine Kodukant on 2013. aastal kokku lugenud 1316 külavanemat, 1188 külades tegutsevat seltsi ning 51 koostööühendust (vallaülest katusorganisatsiooni ja ümarlauda), mis liidavad kohalikku aktiivsust arendavaid MTÜsid, seltsinguid ja külavanemaid. Registreerimata seltsinguid, mis tegelevad kohaliku arenguga, loendati 2006. aastal 45 027. Linnaseltse tegutses Linnalabori andmetel 2014. aastal Eestis aastal kuus ning neile lisandus veel kümmekond ökokogukonda. Seega on ametlikult organiseerunud kogukondi 2014. aastal tehtud kogukonnauuringu andmetel Eestis 3500 ringis. Vastanud kogukondadest on 75% registreeritud MTÜna, 9% kogunevad spontaanselt ametlikult organiseerumata, 6% kogukondadest kogunevad külavanema eestvedamisel ja 6% tegutsevad seltsingulepingu alusel. Puudulik statistika raskendab kogukondade tegutsemisvormide kohta järelduste tegemist.
 
 ```
 ```{block, type='imgsource'}
@@ -61,7 +61,7 @@ Aktivismi tekkelugu paigutub Eesti kodanikuühiskonna üldise arengu ajajoonele.
 
 ```
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> autorite joonis.
+<span class="imgsource-source">Allikas:</span> Autorite joonis.
 ```
 
 Vabatahtlikku ja ettevaatavat rolli avaliku ruumi planeerimises hakkasid linnades täitma asumiseltsid, mille liikmed mõtestasid oma tegevust eelkõige kogukonnast lähtuvalt. Uus huvigrupp linnas sündis sageli vastureaktsioonina majandussurutiseaegsele ja -järgsele kinnisvaraarendajate omavolile.
@@ -83,7 +83,7 @@ Kui valdavalt jõuavad asukohapõhised liikumised tegeleda konkreetsete piirkond
 
 ```
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> autorite joonis.
+<span class="imgsource-source">Allikas:</span> Autorite joonis.
 ```
 
 Osapoolte kokkutoomine, sobiliku suhtlusvormi otsimine, ühiste huvide väljaselgitamine ja lahenduste üle arutlemine on osa koosloome reeglite kujunemisest. Seda tegevust mingil viisil sildistades – näiteks kasutades ingliskeelset akronüümi NIMBY (ingl *not in my back yard*, eesti keeles mitte-minu-naabrusse-sündroom) või selle variatsioone NIABY, LULU, NAMBY, BANANA – piirab avalik sektor, kinnisvara arendaja või ka meedia avalikku arutelu.
@@ -129,7 +129,7 @@ Reidi tee juhtumis leidsid kodanikuühendused ühise keele projekti tehtud konkr
 
 ```
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> joonise autor Juho Kalberg.
+<span class="imgsource-source">Allikas:</span> Juho Kalberg.
 ```
 
 ### Kokkuvõte {-.chapter2_section}
@@ -144,7 +144,7 @@ Koosloomest sündiva avalikku ruumi mõjutavate otsuste kujundamise ja elluviimi
 <p id="Kljavin2017">Kljavin, K., Kurik, K.-L. 2017. Balti urbanismi eripärad – ad hoc planeerimisest pehme urbanismini. – Urbanistide väljaanne U, Deep Baltic, 19.</p>
 <p id="Leetmaa2019">Leetmaa, K., Hess, D. B. 2019. Incomplete service networks in enduring socialist housing estates: retrospective evidence from local centres in Estonia. – Hess, D. B., Tammaru, T. (eds.). Housing Estates in the Baltic Countries: The Legacy of Central Planning in Estonia, Latvia and Lithuania. Cham: Springer, 273–299.</p>
 <p id="Leetmaa2014">Leetmaa, K., Tammaru, T., Holvandus, J., Pastak, I., Kamenik, K., Kährik, A. 2014. Governance Arrangements and Initiatives in Tallinn, Estonia. – DIVERCITIES – Governing Urban Diversity: Creating Social Cohesion, Social Mobility and Economic Performance in Today’s Hyper-diversified Cities. Uuringuraport. Tartu: University of Tartu.</p>
-<p id="Lippus2014">Lippus, M., Vihma, P. 2014. Eesti kogukondade hetkeseis. Uuringuraport. Tallinn: Linnalabor ja Eesti Külaliikumine Kodukant.</p>
+<p id="Lippus2014">Lippus, M., Vihma, P. 2014. Eesti kogukondade hetkeseis. Uuringuraport. Tallinn: Linnalabor ja Eesti Külaliikumine Kodukant.https://www.kysk.ee/failid/Upload/files/Uuringud/Kogukonnauuring.pdf.</p>
 <p id="Pastak2014">Pastak, I. 2014. Tööstusalade ümberkujundamine ja selle roll linnaosa arengus Põhja-Tallinna näitel. Magistritöö. Tartu Ülikool.</p>
 <p id="Teppart2017">Teppart, J. 2017. The conflict surrounding Reidi Road Project and its significance to the urban planning of Tallinn. Magistritöö. Eesti Kunstiakadeemia.</p>
 <p id="Tuvikene2011">Tuvikene, T., Pehk, T. 2011. Kodanikualgatuse peadtõstev roll Tallinna ruumilises planeerimises. – Uustal, M. (toim.). Inimmõju Tallinna keskkonnale VI. Konverentsi artiklid. Tallinn: SA Säästva Eesti Instituut ja Tallinna Botaanikaaed, 8–12.</p>
