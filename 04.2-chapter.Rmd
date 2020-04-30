@@ -24,7 +24,7 @@ Digikihistumine – ebavõrdsus soo, rahvuse, vanuse või elukoha alusel.
 Kasutussageduse suurenemist seletab kahtlemata mobiilsete seadmete oluliselt parem kättesaadavus. Aastal 2010 käis telefoni kaudu internetis 31% Eesti lastest, 2018. aastaks oli see näitaja aga kolmekordistunud: 93% vastanutest kasutas mobiil- või nutitelefoni abil internetti vähemalt kord kuus ning 86% tegi seda peaaegu iga päev või sagedamini. Teisi seadmeid kasutasid lapsed harvem: laua- või sülearvuti on peaaegu igapäevane tööriist 43% ning tahvelarvuti üksnes 15% Eesti 9–17-aastaste jaoks. Internetile ligipääsus ja nutiseadmete kättesaadavuses ei esine laste seas märkimisväärset digikihistumist.
 
 ```{block, type='blockquote-right'}
-Digitaalne kaasatus – osasaamine digivõimaluste koguulatusest.
+Internetile ligipääsus ja nutiseadmete kättesaadavuses ei esine laste seas märkimisväärset digikihistumist.
 ```
 Eesti lapsed veedavad internetis märkimisväärselt suure osa oma ärkvelolekuajast. Tavalisel koolipäeval on suurem osa 9–17-aastastest (41%) internetis ligikaudu 2–3 tundi, 26% aga 4–5 tundi või rohkemgi ([Sukk jt 2018](#Sukk2018)). Koolivabadel päevadel kasvab netiavarustes veedetav aeg märgatavalt: nädalavahetustel ja koolivaheaegadel sisustab peaaegu pool lastest 4–5 tundi või rohkem oma päevast netitegevustega ([joonis 4.2.1](#figure421)). Sedavõrd ulatuslik netikasutus iseloomustab enamikku poistest, vene kodukeelega lastest ning 13–17-aastastest.
 
@@ -194,7 +194,7 @@ Passiivsed noored (36,8%) on kõikides osalusvormides keskmisest tagasihoidlikum
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Kalmus ja Beilmann 2017
+<span class="imgsource-source">Allikas:</span> Kalmus ja Beilmann 2017.
 ```
 
 ### Noorte digiosalust takistavad tegurid {-.chapter4_section}
@@ -211,7 +211,7 @@ print("FIG424")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Sukk 2018
+<span class="imgsource-source">Allikas:</span> Sukk 2018.
 ```
 
 ### Noored tajuvad virtuaalse arvamusruumi kitsaskohti {-.chapter4_section}

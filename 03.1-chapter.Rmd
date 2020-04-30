@@ -126,7 +126,7 @@ print(fig312_plot1 + fig_theme_general + fig312_theme)
 
 
 ```{block, type='blockquote-left'}
-Mõne elanikegrupi jaoks, nagu noorukid ja vanurid, on linna rohealad üldse peamine looduse kogemise koht.
+Noortele ja vanuritele on linna rohealad peamine looduse kogemise koht.
 ```
 Linna rohealade kasutus on Eestis hooajaline – suvel sagedasem kui talvel. Seejuures on mõne elanikegrupi jaoks, nagu noorukid ja vanurid, linna rohealad üldse peamine looduse kogemise koht ([joonis 3.1.3](#figure313)). Tallinna elanikud peavad veebiküsitluse andmetel ([Tuhkanen jt 2018](#Tuhkanen2018)) peamisteks rohealade väärtusteks puhkeväärtust, elu säilitavat väärtust, teraapilist ja esteetilist väärtust. Kohalike haljasalade kasutamise peamisteks ajenditeks olid teiste inimestega või lemmikloomadega aja veetmine ning oma füüsilise vormi parandamine, millele vastavad oma elukoha lähedusse soovitud rohealade tüübid ([joonis 3.1.4](#figure314)). Rohealade ökosüsteemiteenustest tähtsustati aga kõige rohkem võimalust hingata värsket õhku (94%), rahus ja vaikuses olla (91%) ning looduses jalutada (90%). Asjaolu, et üldiselt hinnatud looduskülastuse aspekte (marjad-seened, kalastamine) ei peeta linnas eriti oluliseks, näitab, kuidas tänapäeva inimene loob tervikliku elukeskkonna eri tüüpi loodusalade kombineerimisel.
 
@@ -144,7 +144,7 @@ library("reshape")
  fig313_data_melt <- melt (fig313_data, id=c("vanus"))
 
 fig313_data_melt$vanus <- factor(fig313_data_melt$vanus, levels = c("75+","60-74","50-59","40-49","30-39","20-29","15-19"))
-fig313_data_melt$variable <- factor(fig313_data_melt$variable, levels = c("Tallinna pargikülastajad","Jahimehed","Marjulised-seenelised","Välisturistid 2015","Looduspuhkus 2015","Looduspuhkus 2010"))
+fig313_data_melt$variable <- factor(fig313_data_melt$variable, levels = c("Tallinna rohealade külastajad","Jahimehed","Marjulised-seenelised","Välisturistid 2015","Looduspuhkus 2015","Looduspuhkus 2010"))
 
   fig313_plot <- ggplot(data = fig313_data_melt) +
     geom_bar(mapping = aes(x=vanus, y=value, fill=variable), width=0.7, stat="identity", position="dodge") +
@@ -165,7 +165,7 @@ ggsave(path="exported_figures/PDF/chapter3",filename="fig313.pdf",fig313_plot + 
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> autori joonis.
+<span class="imgsource-source">Allikas:</span> Autori joonis.
 ```
 
 <p class="caption" id="figure314"><span class="figure-number">Joonis 3.1.4.</span> Tallinna elanike hinnang eri tüüpi rohealade tähtsusele elukohas</p>
@@ -249,7 +249,7 @@ Marja- ja seenekohtade hoidmiseks ja kujundamiseks on vaja selle tegevuse eripä
 
 Jahipidamine on Eestis looduse rekreatiivsetest kasutusviisidest kõige rangemini reglementeeritud. Selleks on vaja jahitunnistust, jahimaad ja jahiluba, jahiviisist olenevalt veel ka suurulukite küttimise või jahikoeraga seotud lube. Rangest korrast hoolimata on jahipidamine olnud laialdane harrastus, mis püsib traditsioonilise ja prestiižsena tänapäevani. Oluliselt on aga muutunud jahinduse roll: selles on järjest olulisemal kohal potentsiaalseid metsa-, põllu- või aiakahjustusi põhjustavate ulukite arvukuse reguleerimine, mida võib käsitleda jahiseltsidele seatud ühiskondliku ülesandena. Selle ülesande täitmine eeldab piirkonniti piisavat jahimeeste arvu, motivatsiooni ja organiseerumist.
 
-Eestis on 15 500 jahimeest, kuid neist 48% on vähemalt 50-aastased (joonis 3.1.3) ja ainult 2,5% naised. Eesti Jahimeeste Seltsi hinnangul peaks küttimiskohustuste täitmiseks jahimeeste arv just noorte lisandumise kaudu vähemalt kahekordistuma. See kohustus avaldab kaudset survet harrastuslikule jahipidamisele, mille kaudu noored on traditsiooniliselt jahindusse tulnud. Praegu on harrastuseks jäänud peamiselt vaid väikeulukijaht koos koeraga ja harrastaja ei pruugi olla huvitatud jahiseltsi liikmesusest. Soovimatus organiseeruda võib omakorda viia raskusteni jahimaa leidmise ja jahiloa saamisega – niisuguste „maata jahimeeste“ arv on Eestis umbes 3000. Noortele jahihuvilistele väärika väljundi leidmine on Eesti jahinduse tuleviku seisukohalt oluline küsimus.
+Eestis on 15 500 jahimeest, kuid neist 48% on vähemalt 50-aastased ([joonis 3.1.3](#figure313)) ja ainult 2,5% naised. Eesti Jahimeeste Seltsi hinnangul peaks küttimiskohustuste täitmiseks jahimeeste arv just noorte lisandumise kaudu vähemalt kahekordistuma. See kohustus avaldab kaudset survet harrastuslikule jahipidamisele, mille kaudu noored on traditsiooniliselt jahindusse tulnud. Praegu on harrastuseks jäänud peamiselt vaid väikeulukijaht koos koeraga ja harrastaja ei pruugi olla huvitatud jahiseltsi liikmesusest. Soovimatus organiseeruda võib omakorda viia raskusteni jahimaa leidmise ja jahiloa saamisega – niisuguste „maata jahimeeste“ arv on Eestis umbes 3000. Noortele jahihuvilistele väärika väljundi leidmine on Eesti jahinduse tuleviku seisukohalt oluline küsimus.
 
 ### Harrastuskalastajate arv on Eestis püsiv {-.chapter3_section}
 
@@ -268,7 +268,7 @@ knitr::include_graphics("figures/3-chapter/fig315.png")
 ```
 
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> erakogu.
+<span class="imgsource-source">Allikas:</span> Erakogu.
 ```
 
 <div class="casebox">
@@ -290,7 +290,7 @@ knitr::include_graphics("figures/3-chapter/fig316.png")
 ```
 </div>
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> foto autor Joonas Remm.
+<span class="imgsource-source">Allikas:</span> Joonas Remm.
 ```
 
 ### Kokkuvõte {-.chapter3_section}
@@ -322,7 +322,7 @@ Looduse avaliku kasutuse kohta saadaval olevad andmestikud näitavad sedagi, et 
 
 <p id="Kaldaru2008">Kaldaru, H. 2008. Metsa mitmekülgne kasutamine. Elanikkonna, erametsaomanike ja väikeettevõtjate küsitlus. Tallinn: Turu-uuringute AS.</p>
 
-<p id="Kaldaru2011">, H. 2011. Marjade ja seente korjamine elanikkonnas. Tallinn: Turu-uuringute AS.</p>
+<p id="Kaldaru2011">Kaldaru, H. 2011. Marjade ja seente korjamine elanikkonnas. Tallinn: Turu-uuringute AS.</p>
 
 <p id="Margus1974">Margus, M. (koost.) 1974. Eesti NSV puhkealad. Tallinn: Valgus.</p>
 

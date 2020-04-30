@@ -38,7 +38,7 @@ fig431_data$country <- factor(fig431_data$country, levels = c("Soome","Eesti","L
 ```
 
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Reporters without Borders 2018
+<span class="imgsource-source">Allikas:</span> Reporters without Borders 2018.
 ```
 
 Mitmekülgne, eri hääli kaasav ja argumenteeritud arutelu on demokraatliku ühiskonnakorralduse eeltingimus ja jätkumise tagatis – avalikus aruteluruumis räägitakse läbi meie ühiselu aluspõhimõtted ja reeglid ning lepitakse kokku parimad viisid, kuidas reageerida muutuva maailma väljakutsetele.
@@ -76,7 +76,7 @@ print("FIG432")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> autori joonis.
+<span class="imgsource-source">Allikas:</span> Autori joonis.
 ```
 
 ### Ajakirjanduse kontroll arvamusruumi üle traditsioonilistes meediakanalites {-.chapter4_section}
@@ -116,7 +116,7 @@ fig433_data$variable <- factor(fig433_data$variable, levels = c("ettevõtja", "a
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> autori joonis.
+<span class="imgsource-source">Allikas:</span> Autori joonis.
 ```
 
 Poliitikute ligipääsu arvamusmeediale kontrollivad toimetajad eriti tähelepanelikult just valimiseelsel perioodil – toimetuses lepitakse kokku teemad, mille kohta poliitikutelt arvamust küsitakse, ning publikule vahendatakse kõigi institutsionaliseerunud poliitiliste jõudude sõnumid.
@@ -124,6 +124,8 @@ Poliitikute ligipääsu arvamusmeediale kontrollivad toimetajad eriti tähelepan
 Arvamustoimetajate valikud, kuidas arutelusid kujundada, tuginevad ideaalis professionaalse ajakirjanduse aluspõhimõtetele (tasakaalustatus, erapooletus), kuid oma osa mängib valikute tegemisel ka toimetajate maailmavaade. Näiteks Eesti liitumisel Euroopa Liiduga lõi ajakirjandus toetavat fooni liitumisotsusele, esitades suuremas osas arvamuslugudes liitumist sammuna, millele ei ole alternatiivi ([Järvet 2007](#Järvet2007)). Keeruliste teemade puhul, milles on palju osapooli ja mitmesuguseid nii nähtavaid kui ka varjatud huve, näiteks Nord Streami gaasijuhtme ehitamisega seonduv ([Laev 2010](#Laev2010)), võib ajakirjandus jääda teemale alla, sest ei suuda ise piisavalt analüüsida osapoolte huve ja sõnumeid ning seetõttu teha adekvaatseid valikuid kõnejärje edasiandmisel. Süvenemiseks on ajakirjanikel vaja nii aega kui ka teadmisi asjatundliku arvamuse kujundamiseks.
 
 ```{block, type='casebox'}
+<h3>Ajakirjandus toetab arutelu teket</h3>
+
 Arvamusrubriigid on eri toimetustes erinevalt väärtustatud ning mitmed toimetused soovivad oma brändi olulise osana näha avaliku kõneaine kujundaja rolli.
 
 Meediaettevõte Äripäev on loonud enda kui arvamusliidri kuvandit otsustajatele ja ärieliidile suunatud elitaarsete konverentside kaudu ning aruteluruumi pakuvad ka alates 2017. aasta septembrist tegutseva Äripäeva raadio jutusaated.
@@ -146,7 +148,7 @@ Eesti ajakirjandusväljaanded avasid 1999. aastal veebiväljaannete loomisel uks
 Tänapäeva infokülluse olukorras, kus suuremad veebitoimetused toodavad ja paiskavad Eestis arvamusruumi päevas kuni 500 tekstiühikut, on eri tekstidel toimetuse silmis erinev tähtsus. Arvamusžanri väärtustatakse veebitoimetuses rohkem kui uudisžanri. Intervjuud arvamustoimetajatega tõid välja, et kui uudisinfot püütakse veebiväljaandes pihustada igale ajahetkele võrdselt, siis arvamuslugude avaldamiseks valitakse pigem lugemise tippaeg ([Klaassen 2018](#Klaassen2018)).
 
 ```{block, type='blockquote-right'}
-Suuremad veebitoimetused toodavad ja paiskavad Eestis arvamusruumi päevas kuni 500 tekstiühikut.
+Veebitoimetused on võtnud kommentaariumi avades vastutuse tagada selles heade suhtlustavade järgimine.
 ```
 
 Toimetajate sekkumiseta võib kommentaariumist saada netivaenu eskaleerumise koht, kus valdavad mittetsiviliseeritud ja ebaviisakad kommentaarid. Praegu modereerivad kõik avatud kommentaariumidega veebiväljaanded kommentaare nii algoritmide kui ka inimmoderaatorite ja lugejate enda abiga. Samuti tehakse mõne teema puhul toimetuses teadlik valik teemat kommenteerimiseks mitte avada (nt suurkatastroofid, sisserände teemad).
@@ -171,7 +173,7 @@ print("FIG 434")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> autori joonis.
+<span class="imgsource-source">Allikas:</span> Autori joonis.
 ```
 
 Postimees.ee lugeja saab algatada ise arutelu oma sõpruskonnas, kui jagab loo linki oma sotsiaalmeedia kanalis, kuid siis sumbub arutelu enamasti ühe päevaga selsamal „seinal“. Samuti sumbuvad sotsiaalmeedia allkeskkondades ka arvamuslugude autorite sel viisil levitatud lood.
