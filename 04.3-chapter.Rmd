@@ -27,7 +27,7 @@ fig431_data$country <- factor(fig431_data$country, levels = c("Soome","Eesti","L
     scale_colour_manual(values=c("#3A404A","#BC9417","#A8ACA6")) +
     scale_y_reverse(breaks=c(0,5,10,15,20,25,30,35,40,45,50,55)) +
     scale_x_continuous(breaks=c(2004,2006,2008,2010,2012,2014,2016,2018)) +
-    labs(y="koht edetabelis", x="aasta")
+    labs(y="Koht edetabelis", x="")
 
    fig431_theme <- theme(
   )
@@ -68,11 +68,9 @@ Kui vaadata avalikku arvamusruumi ajakirjanduse ja auditooriumide toimevõimekus
 
 <p class="caption" id="figure432"><span class="figure-number">Joonis 4.3.2.</span> Ajakirjanduse ja auditooriumi võimalused arvamusruumi kontrollida eri meediaplatvormidel</p>
 
-```{r, figure432, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure432, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-library("tidyverse")
-
-print("FIG432")
+knitr::include_graphics("figures/4-chapter/fig432.png")
 ```
 
 ``` {block, type='imgsource'}
@@ -87,7 +85,8 @@ Ajalehe toimetus sekkub ühiskonna arvamuskliima kujundamisse jõuliselt näitek
 Ajalehtede arvamuskülgedel arvajate ring on olnud siiski pigem kitsas. Arvajatena eelistatakse isikuid, kes on omandanud arvamusžanri konventsioonid, kelle arvamusi peetakse huvitavaks või kellel on otsustajana piisav tähtsus, et tema arvamusi kajastada. Eestikeelse kultuuriajakirjanduse uuringust ([Kõuts-Klemm 2015](#Kõuts-Klemm2015)), mis hõlmas eri meediakanalite kolme kuu sisu, selgus, et kultuuriteemalistes arvamusartiklites ja arutelusaadetes said kõige rohkem sõna eksperdid ja teadlased (41%), ajakirjanikud ja toimetajad (34%) ning loomeinimesed (17%). Sarnane muster ilmneb arvamusrubriikide puhul ka üldisemalt. Aastal 2018 tehtud kahe üleriigilise päevalehe sisu analüüs näitab, et nende väljaannete arvamustoimetused avaldavad sageli teaduslikke ja eksperdiarvamusi. Kõnekas on ajakirjanike enda nii sage esinemine arvajatena, kuid üldpildis on vähe nähtavad tavakodanike, ametnike ja kultuuritegelaste arvamused ([joonis 4.3.3](#figure433)).
 
 <p class="caption" id="figure433"><span class="figure-number">Joonis 4.3.3.</span> Arvamuslugude autorid eestikeelsetes ülerigiilistes päevalehtedes (%)</p>
-(N = 485, 2018.a. 12 juhuslikult valitud nädalat, argipäevadel ilmunud artiklid).
+(N = 485, 2018.a. 12 juhuslikult valitud nädalat, argipäevadel ilmunud artiklid)
+.
 ```{r, figure433, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
@@ -100,7 +99,8 @@ fig433_data$variable <- factor(fig433_data$variable, levels = c("ettevõtja", "a
   fig433_plot <- ggplot() +
     geom_bar(data = fig433_data, mapping = aes(x=group, y=value, fill=variable), width=0.4, stat="identity") +
     scale_fill_manual(values=c("#E6E3DA","#F2EAD1","#E4D4A2","#C9A945","#BC9417","#8D6F11","#5E4A0C")) +
-
+    scale_y_continuous(expand = c(0, 0), limits=c(0,105)) +
+    expand_limits (y=0) +
     labs(y="%", x="")
 
   fig433_theme <- theme(
@@ -165,13 +165,12 @@ Postimehe platvormidest ilmub kõige rohkem arvamuslugusid uudisteportaalis post
 
 <p class="caption" id="figure433"><span class="figure-number">Joonis 4.3.4.</span> Ajakirjanduse ja auditooriumi agentsus Postimehe näitel</p>
 
+<div class="casebox">
 ```{r, figure434, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
-library("tidyverse")
-
-print("FIG 434")
+knitr::include_graphics("figures/4-chapter/fig434.png")
 ```
-
+</div>
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Autori joonis.
 ```

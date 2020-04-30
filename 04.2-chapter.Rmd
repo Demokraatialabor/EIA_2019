@@ -64,7 +64,7 @@ library("scales")
 
 print(fig421_plot + fig_theme_general+ fig421_theme)
 
-ggsave(path="exported_figures/PDF/chapter4",filename="fig421.pdf", height=200, width=200, units="mm")
+#ggsave(path="exported_figures/PDF/chapter4",filename="fig421.pdf", height=200, width=200, units="mm")
 
 ```
 
@@ -78,7 +78,7 @@ Igapäevane netikasutus on virtuaalses arvamusruumis osalemise eeltingimus, tõe
 <p class="caption" id="figure422"><span class="figure-number">Joonis 4.2.2.</span> Internetivõimaluste redel</p>
 
 Küsimus ankeedis: Kui sageli sa oled viimase kuu (30 päeva) jooksul teinud internetis järgmisi asju? Alus: kõik lapsed (N=1020). Selgitus: tegevus paikneb redeli astmel vasta- valt harrastajate osakaalule vaadeldaval aastal.
-```{r, figure422, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure422, out.width='90%',, fig.align='center', echo=FALSE, message=FALSE}
 
 knitr::include_graphics("figures/4-chapter/fig422.png")
 
@@ -162,7 +162,7 @@ library("dplyr")
 
 print(fig423_plot + fig_theme_general + fig423_theme)
 
-ggsave(path="exported_figures/PDF/chapter4",filename="fig423.pdf", height=230, width=170, units="mm")
+#ggsave(path="exported_figures/PDF/chapter4",filename="fig423.pdf", height=230, width=170, units="mm")
 
 ```
 
@@ -204,9 +204,10 @@ Digiosaluse vähene tajutud ühiskondlik mõjukus ning viisaka ja argumenteeritu
 ```
 Kvalitatiivsetest uuringutest ([Sukk 2018](#Sukk2018)) nähtub samuti, et noored käituvad eri veebigruppides ja foorumites peamiselt passiivsete jälgijatena ning ise teemasid tõstatama või oma arvamust avaldama ei kipu. Õigupoolest ilmnes Euroopa Soolise Võrdõiguslikkuse Instituudi tellimusel 2018. aasta kevadel tehtud fookusgrupiintervjuudest 15–18-aastaste noortega (n=20), et paljud uuringus osalejad peavad digivahendeid osaluse kontekstis pigem ebavajalikeks ja kohati osalust sootuks takistavateks vahenditeks. Noorte keskmisest tagasihoidlikuma digiosaluse põhjustena nimetati nii platvormist tulenevaid probleeme (nt anonüümsus, privaatsusriskid, kehakeele puudumine ja piiratud võimalused tunnete väljendamiseks) kui ka isiklikke takistusi ([Sukk 2018](#Sukk2018)). Näiteks tunnistasid mitmed fookusgruppides osalenud noored, et hoiduvad internetis arvamuse avaldamisest, sest tunnevad end ebakindlalt ning pelgavad teiste, peamiselt vanemate kasutajate negatiivseid reaktsioone ja hukkamõistu. Paljud uuringus osalenud noored tunnistasid, et on loobunud internetis eri teemadel kaasa rääkimast seetõttu, et ei näe, et internetis arvamuse avaldamine või veebikampaaniates osalemine ühiskonnas päriselt loodetud muutust kaasa tooks. Noorte sõnul tunnevad nad internetikeskkondades suheldes puudust viisakast ja argumenteeritud suhtluskultuurist, mistõttu nende endi soov aruteludes aktiivselt kaasa lüüa on tugevalt pärsitud.
 
-```{r, figure424, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure424, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-print("FIG424")
+knitr::include_graphics("figures/4-chapter/fig424.png")
+
 
 ```
 
@@ -239,7 +240,7 @@ Kvalitatiivsetest uuringutest nähtub, et noorte mõõduka digiosaluse põhjusek
 
 Virtuaalse arvamusruumi arengut võiksid soodustada järjestikused päriselt tulemusi toovad veebipõhised kodaniku- või poliitilised algatused – mõned edulooks ja legendiks kujunevad kampaaniad võimalikult paljudele südamelähedasel teemal (kujundlikult öeldes: virtuaalne fosforiidisõda või Facebooki Balti kett). Kahtlemata tuleks kasuks ka küberkiusu leviku senisest palju tõhusam ohjamine ning üldise suhtluskultuuri paranemine. Lühiajalistest kampaaniatest selleks ei piisa – oluline on jätkata teadlikkuse suurendamisega, kasvatada noortes täisleppimatust küberkiusu suhtes ning arendada säilenõtkust ja toimimisoskusi nii küberkiusamise kogemisel kui ka selle pealtnägemisel. Täiskasvanud digikodanike eeskuju arvamuskultuuri viljelemisel ning vähemalt elementaarne viisakus noorte digikodanike panusega arvestamisel on samuti määrava tähtsusega.
 
-###Tänusõnad {-.chapter4_section}
+### Tänusõnad {-.chapter4_section}
 Aastatel 2006–2014 rahastas EU Kids Online’i projekti Euroopa Komisjon turvalisema interneti programmist. EU Kids Online’i Eesti 2018. aasta küsitlust rahastasid Eesti Interneti SA, Haridus- ja Teadusministeerium (Euroopa Sotsiaalfondist), Justiitsministeerium, Sotsiaalministeerium ning uurimisprojektid PUT 44 (Eesti Teadusagentuur) ja IUT 20-38 (Haridus- ja Teadusministeerium).
 
 ### Viidatud allikad {-.subreferences}

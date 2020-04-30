@@ -144,11 +144,11 @@ library("reshape")
  fig313_data_melt <- melt (fig313_data, id=c("vanus"))
 
 fig313_data_melt$vanus <- factor(fig313_data_melt$vanus, levels = c("75+","60-74","50-59","40-49","30-39","20-29","15-19"))
-fig313_data_melt$variable <- factor(fig313_data_melt$variable, levels = c("Tallinna rohealade külastajad","Jahimehed","Marjulised-seenelised","Välisturistid 2015","Looduspuhkus 2015","Looduspuhkus 2010"))
+fig313_data_melt$variable <- factor(fig313_data_melt$variable, levels = c("Tallinna pargikülastajad","Jahimehed","Marjulised-seenelised","Välisturistid 2015","Looduspuhkus 2015","Looduspuhkus 2010"))
 
   fig313_plot <- ggplot(data = fig313_data_melt) +
     geom_bar(mapping = aes(x=vanus, y=value, fill=variable), width=0.7, stat="identity", position="dodge") +
-    labs(y="%", x="vanuserühm") +
+    labs(y="%", x="Vanuserühm") +
     coord_flip()  +
     scale_fill_manual(values=c("#b8ddea","#44a1b1","#79AC2C","#5B8121","#8d76ad","#482683")) +
       guides(fill = guide_legend(reverse = TRUE))
@@ -161,7 +161,7 @@ fig313_data_melt$variable <- factor(fig313_data_melt$variable, levels = c("Talli
 
 print(fig313_plot + fig_theme_general + fig313_theme)
 
-ggsave(path="exported_figures/PDF/chapter3",filename="fig313.pdf",fig313_plot + fig_theme_general + fig313_theme, height=200, width=200, units="mm")
+#ggsave(path="exported_figures/PDF/chapter3",filename="fig313.pdf",fig313_plot + fig_theme_general + fig313_theme, height=200, width=200, units="mm")
 ```
 
 ``` {block, type='imgsource'}

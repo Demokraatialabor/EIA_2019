@@ -16,13 +16,17 @@ Artiklitest tuleb aga välja ka autorite arusaam, et debatis osales eksperdi sil
 
 Ränderaamistiku näide toob ilmekalt esile, kui keerukas võib olla ekspertide roll avalikes aruteludes. Peale põhiteema peavad osapooled ja avalikkus muu hulgas tegelema ka küsimustega, keda ja miks usaldada ekspertidena ning kas ja kuidas arvestada ühiskondlikult kaalukate otsuste langetamisel teaduspõhise infoga.
 
-```{block, type='casebox'}
+<div class="casebox">
 <h3>ÜRO ränderaamistik</h3>
 
 ÜRO globaalne ränderaamistik on ÜRO liikmesriikide poolt ühiselt läbi räägitud deklaratsioon, mis keskendub seaduslikule liikumisele, nagu töö- või õpiränne, ja annab võimaluse parandada rahvusvahelist rändealast koostööd, sealhulgas ennetada ebaseaduslikku rännet ja võidelda inimkaubanduse ja -smugeldamisega. Kokkuleppe teksti lõpetasid ÜRO liikmesriigid 2018. aasta juulis ja see võeti vastu 19. detsembril Marokos Marrakechis peetud valitsustevahelisel konverentsil. Eesti valitsus ei saavutanud raamistiku toetamises konsensust ja saatis teema Riigikogusse, kes võttis vastu raamistikku toetava avalduse. Sellele tuginedes hääletas Eesti Marrakechis raamistiku vastuvõtmise poolt.
-```
 
 <p class="caption" id="figure441"><span class="figure-number">Joonis 4.4.1.</span> Rändelepingu protest Stenbocki maja ees</p>
+```{r, figure441, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
+
+knitr::include_graphics("figures/4-chapter/fig441.png")
+```
+</div>
 
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Ekspress Meedia, Madis Veltman.
@@ -71,14 +75,8 @@ Valitsus algatas eriplaneeringu tehasele sobivaima asukoha leidmiseks ja mõjude
 
 Arutelu edenedes vastasseisud võimendusid. Aasta 2018 jaanipäeva eel teatas valitsus eriplaneeringu lõpetamise protsessi alustamisest ja sama aasta novembris lõpetas selle ametlikult. Seejärel andsid ka arendajad teada, et loobuvad tehase rajamise kavast. Meediamonitooringu ([Joonis 4.4.2](#figure442)) põhjal olid enim kajastatud sündmused eriplaneeringu alustamise ja lõpetamise otsuste vahel kolme ülikooli rektori kokkulepe (detsembris 2017), allkirjade kogumine Tartus (jaanuaris 2018), avalikkuse ette jõudnud puidutarneleping RMKga (jaanuaris 2018), Tartu apelli nime all sõnastatud kodanike pöördumine ja tehase rajamise mõjude arutelu Tartu volikogus, mis otsustas taotleda riigi eriplaneeringu lõpetamist (märtsis 2018), ning tehase rajamise vastu suunatud Emajõe inimkett ja protestid teise võimaliku asukohana nimetatud Tabiveres (mais 2018).
 
-```{block, type='casebox'}
-<h3>Puidurafineerimistehase rajamise plaan</h3>
-
-Uue puidurafineerimistehase rajamise algatasid Eesti ettevõtjad 2017. aasta jaanuaris ja pakkusid selle võimalikuks asukohaks Suur-Emajõe läheduse. Valitsus algatas eriplaneeringu tehasele sobivaima asukoha leidmiseks ja mõjude strateegiliseks hindamiseks mais 2017. Tartus koondusid tehase rajamise kava suhtes kriitilised teadlased ja kodanikuaktivistid Tartu apelli töörühma, kes koostas pöördumisi riigi eriplaneeringu lõpetamiseks. Sama otsustas 2018. aasta märtsis taotleda Tartu linnavolikogu. Sama aasta juunis moodustati nõudmiste toetuseks Emajõe ääres mitme tuhande osalejaga inimkett. 2018. aasta jaanipäeva eel teataski valitsus eriplaneeringu lõpetamise protsessi alustamisest ja sama aasta novembris lõpetas selle ametlikult, mille järel peatasid ettevõtjad tehase arendamise.
-```
-
 <p class="caption" id="figure442"><span class="figure-number">Joonis 4.4.2.</span> Puidurafineerimistehase mainimissagedus meedias perioodil 1.01.2017–20.12.2018</p>
-```{r, figure441, out.width='100%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure442, out.width='100%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 
@@ -111,13 +109,25 @@ fig441_data_cleaned$date <- as.Date(fig441_data_cleaned$Var1)
 
 Kokku mainiti märksõnu „puidurafineerimistehas“ või „tselluloositehas“ 2017. ja 2018. aasta jooksul meedias ligi 4000 artiklis ja saatelõigus. Enim pälvis kajastusi juunikuine valitsuse otsus alustada eriplaneeringu lõpetamine, teise tipu tekitas märtsikuine Tartu volikogu arutelu. 41% meediakajastustest mainis ka ülikoole, teadlasi või teadust üldiselt, andes ligikaudse määra, kuivõrd arutelud teadusega seonduvale toetusid või viitasid. Seejuures oli nende märksõnade mainimine sagedasem just 2018. aasta märtsikuus ja oluliselt harvem juunis, mil oli teema kajastuste üldine tipp.
 
-Teema kohta ilmunud silmapaistvamaid artikleid vaadeldes saab täpsemalt eritleda teadlaste ja teiste ekspertide osalust ja rolli. Nende põhjal võib öelda, et teadmistepõhisus oli debatis oluline märksõna, mida oma sõnades rõhutasid nii tehase rajamise eestvedajad (<a href="http://biorefinery.ee/aadu-polli-puidurafineerimistehas-kui-argumenteeritud-debati-proovikivi">Biorefinery.ee, 7.03.2018</a>), protsessi kriitikud, näiteks Tartu apelli töörühm (<a href="https://www.err.ee/837131/tartu-apelli-tooruhm-6-levinud-eksivaidet-tselluloositehasest-ja-eriplaneeringust">ERR, 5.06.2018</a>) kui ka sõltumatute ekspertidena arvamuslugusid kirjutanud teadlased (<a href="https://ekspress.delfi.ee/kuum/analuus-mida-me-teame-ja-mida-ei-tea-tartu-tselluloositehase-mojust-emajoele?id=82174131">Indrek Aarna, Maaleht, 19.03.2018</a>; <a href="http://maaleht.delfi.ee/news/keskkond/uudised/keemik-tselluloositehasest-valefaktide-kasutamine-ja-emotsioonidest-laetud-arutelud-ei-aita-kaasa-ratsionaalse-ja-argumenteeritud-otsuse-tegemisele?id=81471789">Enn Loigu, Eesti Ekspress, 23.05.2018</a>). Seejuures ei saavutatud siiski üksmeelt selles, millised teadmised on olulised. Suurimad vastuolud tekkisid küsimuses, kas Emajõe äärde tehase rajamise otsuse jaoks on tarvis uuringuid või mitte.
+<div class="casebox">
+<h3>Puidurafineerimistehase rajamise plaan</h3>
+
+Uue puidurafineerimistehase rajamise algatasid Eesti ettevõtjad 2017. aasta jaanuaris ja pakkusid selle võimalikuks asukohaks Suur-Emajõe läheduse. Valitsus algatas eriplaneeringu tehasele sobivaima asukoha leidmiseks ja mõjude strateegiliseks hindamiseks mais 2017. Tartus koondusid tehase rajamise kava suhtes kriitilised teadlased ja kodanikuaktivistid Tartu apelli töörühma, kes koostas pöördumisi riigi eriplaneeringu lõpetamiseks. Sama otsustas 2018. aasta märtsis taotleda Tartu linnavolikogu. Sama aasta juunis moodustati nõudmiste toetuseks Emajõe ääres mitme tuhande osalejaga inimkett. 2018. aasta jaanipäeva eel teataski valitsus eriplaneeringu lõpetamise protsessi alustamisest ja sama aasta novembris lõpetas selle ametlikult, mille järel peatasid ettevõtjad tehase arendamise.
 
 <p class="caption" id="figure443"><span class="figure-number">Joonis 4.4.3.</span> Puidurafineerimistehase vastane meeleavaldus Emajõel, Tartus</p>
 
+```{r, figure443, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
+
+knitr::include_graphics("figures/4-chapter/fig443.png")
+```
+</div>
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Oop.
 ```
+
+Teema kohta ilmunud silmapaistvamaid artikleid vaadeldes saab täpsemalt eritleda teadlaste ja teiste ekspertide osalust ja rolli. Nende põhjal võib öelda, et teadmistepõhisus oli debatis oluline märksõna, mida oma sõnades rõhutasid nii tehase rajamise eestvedajad (<a href="http://biorefinery.ee/aadu-polli-puidurafineerimistehas-kui-argumenteeritud-debati-proovikivi">Biorefinery.ee, 7.03.2018</a>), protsessi kriitikud, näiteks Tartu apelli töörühm (<a href="https://www.err.ee/837131/tartu-apelli-tooruhm-6-levinud-eksivaidet-tselluloositehasest-ja-eriplaneeringust">ERR, 5.06.2018</a>) kui ka sõltumatute ekspertidena arvamuslugusid kirjutanud teadlased (<a href="https://ekspress.delfi.ee/kuum/analuus-mida-me-teame-ja-mida-ei-tea-tartu-tselluloositehase-mojust-emajoele?id=82174131">Indrek Aarna, Maaleht, 19.03.2018</a>; <a href="http://maaleht.delfi.ee/news/keskkond/uudised/keemik-tselluloositehasest-valefaktide-kasutamine-ja-emotsioonidest-laetud-arutelud-ei-aita-kaasa-ratsionaalse-ja-argumenteeritud-otsuse-tegemisele?id=81471789">Enn Loigu, Eesti Ekspress, 23.05.2018</a>). Seejuures ei saavutatud siiski üksmeelt selles, millised teadmised on olulised. Suurimad vastuolud tekkisid küsimuses, kas Emajõe äärde tehase rajamise otsuse jaoks on tarvis uuringuid või mitte.
+
+<p class="caption" id="figure443"><span class="figure-number">Joonis 4.4.3.</span> Puidurafineerimistehase vastane meeleavaldus Emajõel, Tartus</p>
 
 Keskkonnamõju hindamine oleks olnud riigi eriplaneeringu üks osa, sellega aga ei jõutud alustada. Emajõe äärde tehase rajamise vastased, näiteks Urmas Klaas, ütlesid kohati otse välja seisukoha, et nende hinnangul pole täiendavaid uuringuid tarvis (<a href="http://www.delfi.ee/news/paevauudised/eesti/urmas-klaas-astub-kaja-kallasele-vastu-mingeid-uuringuid-tselluloositehase-kohta-pole-vaja?id=81391205">Indrek Tark, Delfi, 9.03.2018</a>). Seda seisukohta kritiseeriti debatis korduvalt kui tunnistust emotsionaalsest, mittetõenduspõhisest käsitlusest; näiteks tegi sellise etteheite Eesti Teaduste Akadeemia president Tarmo Soomere (<a href="https://www.err.ee/875846/soomere-eriplaneeringu-lopetamisest-uks-arenguvoimalus-lasti-lorri-minna.">Tõnu Karjatse, Toomas Pott, ERR, 9.11.2018</a>).
 
