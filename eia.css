@@ -463,6 +463,74 @@ p.caption {
     border-bottom: solid 15px #917DB5;
 }
 
+/* Table 111 */
+
+#table_111 {
+  text-align:center;
+  font-size:0.9em;
+}
+
+@media only screen and (max-width: 768px) {
+  #table_111 {
+    font-size:0.6em;
+  }
+}
+
+#table111_header_main {
+  color: #369B9E !important;
+}
+#table_111 tr {
+  border: none;
+}
+
+#table_111 th {
+  color:#482683;
+  transform: rotate(-70deg);
+  border-top: none;
+  border-bottom: solid 1px #482683;
+  padding:0 0 10px 0;
+}
+
+#table_111 td {
+  background-color:white;
+  border-left: solid 1px #e6e3da;
+  border-right: solid 1px #e6e3da;
+  border-top: none;
+  border-bottom: solid 2px #917DB5;
+  vertical-align: top;
+  padding:10px 0 10px 0;
+  width:50px;
+  font-weight:600;
+}
+
+/* Table 141 */
+
+#table_141 {
+  text-align:left;
+}
+
+#table_141 tr {
+  border: none;
+}
+
+#table_141 td {
+  background-color:white;
+  border-bottom: solid 1px #e6e3da;
+  vertical-align: top;
+}
+
+#table_141 th {
+  color:#482683;
+  border-top: solid 2px #482683;
+  border-bottom: solid 2px #482683;
+  background-color: #e6e3da;
+}
+
+#table_141 .table141_main_header {
+  background-color: white !important;
+  border-top: none !important;
+}
+
 /* Chapter 2 - #369B9E */
 
 .chapter2.intro_section::before{
@@ -556,6 +624,63 @@ p.caption {
 
 .chapter3_section .figure-comment {
     border-bottom: solid 15px #79AC2C;
+}
+
+/* Table 341 */
+
+#table_341 {
+  text-align:left;
+  font-size:0.8em;
+}
+
+@media only screen and (max-width: 768px) {
+  #table_341 {
+    font-size:0.6em;
+  }
+}
+
+#table_341 tr {
+  border: none;
+  background: white;
+}
+
+#table_341 th {
+  border: solid 1px #482683;
+}
+
+#table_341 td {
+  border: solid 1px #482683;
+  background-color: white;
+  font-weight:600;
+}
+
+.table_341_blank {
+  border: none !important;
+  text-align:center;
+  background-color:none !important;
+}
+
+#table_341 .table_341_vertical {
+  transform: rotate(-90deg);
+  padding: -5px !important;
+}
+.table341_dark_green  {
+  background-color:#547a1f;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-weight:600;
+}
+
+.table341_green  {
+  background-color:#79AC2C;
+  color: white;
+}
+
+.table341_purple  {
+  background-color:#c1aed5 !important;
+  vertical-align: middle;
+  font-weight:600;
 }
 
 /* Chapter 4 - #BC9417 */

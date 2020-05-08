@@ -78,7 +78,65 @@ Strateegiliste ja riiklike huvidega seotud, loodusalasid mõjutavate projektide 
 
 <p class="caption" id="table341"><span class="figure-number">Joonis 3.4.1.</span> Eesti keskkonnaotsuste jaotus otsustustasandi ja laadi alusel ning kodanike võimalused neis olukordades kaasa rääkida</p>
 
+<table id="table_341" style="width:100%">
 
+  <tr>
+    <th colspan="5" class="table_341_blank">OTSUSE LIIK</th>
+  </tr>
+  
+  <tr>
+    <th class="table_341_blank"></th>
+    <th class="table_341_blank"></th>
+    <th class="table341_green">Üksikobjekti kavandamine</th>
+    <th class="table341_green">Ruumiline planeering</th>
+    <th class="table341_green">Poliitika/ strateegia</th>
+  </tr>
+  
+  <tr>
+  <th rowspan="3" class="table_341_blank table_341_vertical">RUUMILINE ULATUS</th>
+    <th class="table341_dark_green">KOHALIK</th>
+    <td class="table341_purple">Erinevad load, nt:<br>
+• vee erikasutuseks<br>
+• kaevandamiseks<br>
+• metsaraieks<br>
+• hoonete rajamiseks
+Detailplaneeringud</td>
+
+  <td>Üldplaneeringud</td>
+  <td>Arengukavad, nt:<br>
+• kohaliku omavalit- suse arengukava<br>
+• jäätmehooldus- kava<br>
+• ühisveevärgi arendamise kava</td>
+</tr>
+
+  <tr>
+    <th class="table341_dark_green">REGIONAALNE</th>
+    <td>Erinevad regionaalse tähtsusega taristuobjektid, nt:<br>
+• elektriliinid<br>
+• maanteed<br>
+• raudteed<br>
+• jäätmekeskused</td>
+
+  <td>Maakonnaplaneering</td>
+  <td>Piirkondlikud kavad, nt piirkondlikud arengukavad, arengustra- teegiad</td>
+</tr>
+
+  <tr>
+    <th class="table341_dark_green">RIIKLIK</th>
+    <td class="table341_purple">Üleriigilise tähtsusega objektid, nt:<br>
+• suursadamad<br>
+• põhimaanteed<br>
+• kaitseväe harjutus- väljakud<br>
+• suurtehased</td>
+
+  <td>Üleriigiline planeering</td>
+  <td class="table341_purple">Riiklikud arengukavad ja strateegiad, nt:<br>
+•&nbsp;maapõuepoliitika põhialused<br>
+• looduskaitse arengukava<br>
+• metsanduse arengukava</td>
+</tr>
+
+</table>
 
 ``` {block, type='figure-comment'}
 <span class="figure-comment-start">Märkus:</span> Lillaga märgitud otsuse liigid, milles osalemise võimalused on (teatud otsuste puhul) piiratud.

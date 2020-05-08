@@ -387,9 +387,65 @@ Riiklikult on kõige pikema praktikaga omanikuasustuse toetamine (Eesti elamumaj
 
 <p class="caption" id="table141"><span class="figure-number">Tabel 1.4.1.</span> Eluasemepoliitika kehtivad riiklikud meetmed ja nende sihtrühmad</p>
 
-```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
+<table id="table_141" style="width:100%">
+  <tr>
+    <th class="table141_main_header">TOETUSE TÜÜP</th>
+    <th class="table141_main_header">SIHTRÜHM</th> 
+  </tr>
+  
+  <tr>
+    <th colspan="2">Omanikuasustuse soodustamine</th>
+  </tr>
+  <tr>
+    <td>Eluasemelaenu käendus (vähendab esma- se sissemakse kohustust, omafinantsee- ring minimaalselt 10% laenu tagatisvara väärtusest)</td>
+    <td>Noored pered, noored spetsialistid jt sihtrühmad, kes soovivad võtta laenu eluaseme ostmiseks või olemasoleva renoveerimiseks</td> 
+  </tr>
+    <tr>
+    <td>Tulumaksusoodustus eluasemelaenu intressilt</td>
+    <td>Eluasemelaenu võtnud isikud</td> 
+  </tr>
+  
+  <tr>
+    <th colspan="2">Sotsiaaltoetused</th>
+  </tr>
+  <tr>
+    <td>Toimetulekutoetus (riigi rahaline abi puuduses elavatele inimestele)</td>
+    <td>Väikese sissetulekuga leibkonnad, kelle sissetulek eluasemekulude tasumise järel jääb alla toimetulekupiiri</td> 
+  </tr>
+  
+  <tr>
+    <th colspan="2">Üürielamufondi rajamine</th>
+  </tr>
+  <tr>
+    <td>Elamufondi arendamise investeeringu- toetus kohalikele omavalitsustele</td>
+    <td>Liikuvad töötajad ja majanduslikult vähekindlustatud sihtrühmad (kohalik omavalitsus kehtestab reeglid)</td> 
+  </tr>
+  
+  <tr>
+    <th colspan="2">Elamufondi kvaliteedi parandamine</th>
+  </tr>
+  <tr>
+    <td>Korterelamute rekonstrueerimistoetus</td>
+    <td>Enne 1993. aastat püstitatud korterela- mute omanikud, kelle eluhoone vajab rekonstrueerimist</td> 
+  </tr>
+  
+  <tr>
+    <td>Väikeelamute rekonstrueerimistoetus</td>
+    <td>Enne 1993. aastat püstitatud väikeelamute omanikud, kelle eluhoone vajab rekonst- rueerimist</td> 
+  </tr>
+  
+  <tr>
+    <td>Korterelamute rekonstrueerimistoetus</td>
+    <td>Väikese sissetulekuga kolme või enama lapsega pered, kelle eluase vajab remonti või kellel puudub vajadustele vastav eluase</td> 
+  </tr>
+  
+  <tr>
+    <td>Puuetega inimeste eluruumide füüsilise kohandamise toetus</td>
+    <td>Erivajadustega inimesed, kelle eluase vajab füüsilist kohandamist</td> 
+  </tr>
+  
+</table>
 
-```
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> KredEx; energiamajanduse arengukava aastani 2030; sotsiaalhoolekande seadus (autorite koostatud tabel).
 ```

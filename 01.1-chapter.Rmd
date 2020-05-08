@@ -193,9 +193,50 @@ Väärtuslike maastike planeeringukihil on ootuspäraselt märkimisväärne katt
 Lisaks toetavad maastike säilimist kaitsealad. Kogu Eesti maismaast on kaitse all (NATURA loodus- ja linnualadena, looduskaitsealadena, kohalike kaitsealade ja nende piiranguvöönditena, vääriselupaikadena ning üksikobjektide kaitsetsoonidena) viiendik ([tabel 1.1.1](#table111)). Märkimisväärne osa Eesti territooriumist on aga kahe- või enamakordse kaitse all. Range kaitserežiimiga reservaatide osa sellest on siiski väike (alla 0,2%).
 
 <p class="caption" id="table111"><span class="figure-number">Tabel 1.1.1.</span> Kaitsealade osatähtsus 2019. aastal maakonna territooriumist (%)</p>
-**TABEL 1**
 
-* koos Pandivere veekaitsealaga
+<table id="table_111" style="width:100%">
+
+  <tr>
+    <th>Põlva</th>
+    <th>Jõgeva</th>
+    <th>Järva</th>
+    <th>Lääne-Viru</th>
+    <th>Võru</th>
+    <th>Viljandi</th>
+    <th>Tartu</th>
+    <th>Rapla</th>
+    <th id="table111_header_main">EESTI</th>
+    <th>Harju</th>
+    <th>Ida-Viru</th>
+    <th>Valga</th>
+    <th>Hiiu</th>
+    <th>Saare</th>
+    <th>Pärnu</th>
+    <th>Lääne</th> 
+  </tr>
+  
+  <tr>
+    <td>8,8</td>
+    <td>11,1</td>
+    <td>14,1 (45,5*)</td>
+    <td>14.9 (53.2*)</td>
+    <td>15.7</td>
+    <td>16.1</td>
+    <td>19.2</td>
+    <td>19.3</td>
+    <td>19.6 (24.8)</td>
+    <td>20.1</td>
+    <td>20.4</td>
+    <td>20.9</td>
+    <td>24.3</td>
+    <td>24.8</td>
+    <td>28</td>
+    <td>33.7</td> 
+  </tr>
+  
+</table>
+
+*koos Pandivere veekaitsealaga
 
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> EELIS 2019; Maa-amet 2019.
