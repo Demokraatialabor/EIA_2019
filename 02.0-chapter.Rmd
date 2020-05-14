@@ -3,7 +3,7 @@
 ## Sissejuhatus {-.chapter_section .chapter2_section .intro_section}
 
 ```{block, type='authors'}
-**Epp Lankots**
+**[Epp Lankots](#epp-lankots)**
 ```
 
 ### Põhisõnumid {-.chapter2_section}

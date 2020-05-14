@@ -1,7 +1,7 @@
 ## Ligipääsetavuse muutused autostunud Eestis {.chapter_section .chapter1_section}
 
 ```{block, type='authors'}
-**Tauri Tuvikene, Merlin Rehema, Dago Antov**
+**[Tauri Tuvikene](#tauri-tuvikene), [Merlin Rehema](#merlin-rehema), [Dago Antov](#dago-antov)**
 ```
 
 ```{block, type='points'}

@@ -1,7 +1,7 @@
 ## Loodusalade kujundamine avalikuks kasutuseks {.chapter_section .chapter3_section}
 
 ```{block, type='authors'}
-**Age Poom ja Kalev Sepp**
+**[Age Poom](#age-poom) ja [Kalev Sepp](#kalev-sepp)**
 ```
 
 ```{block, type='points'}

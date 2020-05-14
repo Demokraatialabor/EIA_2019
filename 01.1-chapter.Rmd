@@ -1,7 +1,7 @@
 ## Pikaajalised maakasutuse (ja avaliku ruumina tajutava maastiku) muutused linnas ja maal { .chapter_section .chapter1_section}
 
 ```{block, type='authors'}
-**Tõnu Oja**
+**[Tõnu Oja](#tõnu-oja)**
 ```
 
 ```{block, type='points'}
@@ -194,6 +194,7 @@ Lisaks toetavad maastike säilimist kaitsealad. Kogu Eesti maismaast on kaitse a
 
 <p class="caption" id="table111"><span class="figure-number">Tabel 1.1.1.</span> Kaitsealade osatähtsus 2019. aastal maakonna territooriumist (%)</p>
 
+<div style="overflow-x:auto;">
 <table id="table_111" style="width:100%">
 
   <tr>
@@ -235,7 +236,7 @@ Lisaks toetavad maastike säilimist kaitsealad. Kogu Eesti maismaast on kaitse a
   </tr>
   
 </table>
-
+</div>
 *koos Pandivere veekaitsealaga
 
 ``` {block, type='imgsource'}

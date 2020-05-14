@@ -1,7 +1,7 @@
 ## Kaasarääkimise võimalused avaliku ruumi kujundamises {.chapter_section .chapter3_section}
 
 ```{block, type='authors'}
-**Siim Vahtrus, Liina Remm, Kärt Vaarmari**
+**[Siim Vahtrus](#siim-vahtrus), [Liina Remm](#liina-remm), [Kärt Vaarmari](#kärt-vaarmari)**
 ```
 
 ```{block, type='points'}
@@ -78,6 +78,7 @@ Strateegiliste ja riiklike huvidega seotud, loodusalasid mõjutavate projektide 
 
 <p class="caption" id="table341"><span class="figure-number">Joonis 3.4.1.</span> Eesti keskkonnaotsuste jaotus otsustustasandi ja laadi alusel ning kodanike võimalused neis olukordades kaasa rääkida</p>
 
+<div style="overflow-x:auto;">
 <table id="table_341" style="width:100%">
 
   <tr>
@@ -137,6 +138,7 @@ Detailplaneeringud</td>
 </tr>
 
 </table>
+</div>
 
 ``` {block, type='figure-comment'}
 <span class="figure-comment-start">Märkus:</span> Lillaga märgitud otsuse liigid, milles osalemise võimalused on (teatud otsuste puhul) piiratud.

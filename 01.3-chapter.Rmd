@@ -2,7 +2,7 @@
 ## Planeerimisvabaduse võidukäik eeslinna-Eestis {.chapter_section .chapter1_section}
 
 ```{block, type='authors'}
-**Antti Roose**
+**[Antti Roose](#antti-roose)**
 ```
 
 ```{block, type='points'}

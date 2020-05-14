@@ -1,7 +1,7 @@
 ## Kuidas inimesed Eesti looduskeskkonda kasutavad? {.chapter_section .chapter3_section}
 
 ```{block, type='authors'}
-**Kalev Sepp ja Asko Lõhmus**
+**[Kalev Sepp](#kalev-sepp) ja [Asko Lõhmus](#asko-lõhmus)**
 ```
 
 ```{block, type='points'}

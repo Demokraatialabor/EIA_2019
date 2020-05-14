@@ -1,7 +1,7 @@
 ## Ühiskondlik-poliitiline diskussioon digitaalses avalikus ruumis {.chapter_section .chapter4_section}
 
 ```{block, type='authors'}
-**Andreas Ventsel ja Mari-Liis Madisson**
+**[Andreas Ventsel](#andreas-ventsel) ja [Mari-Liis Madisson](#mari-liis-madisson)**
 ```
 
 ```{block, type='points'}

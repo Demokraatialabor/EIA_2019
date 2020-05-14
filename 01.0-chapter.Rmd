@@ -1,9 +1,9 @@
 # Eesti elukeskkondade mitmekesisus {.chapter1 .chapter1_section}
 
-## Sissejuhatus {-.chapter_section .chapter1_section .intro_section}
+## Sissejuhatus {-.chapter1_section .intro_section}
 
 ```{block, type='authors'}
-**Kadri Leetmaa**
+**[Kadri Leetmaa](#kadri-leetmaa)**
 ```
 
 ### Põhisõnumid {-.chapter1_section}

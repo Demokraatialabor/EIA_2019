@@ -1,7 +1,7 @@
 ## Andmepõhine ruumiloome {.chapter_section .chapter2_section}
 
 ```{block, type='authors'}
-**Renee Puusepp ja Raul Kalvo**
+**[Renee Puusepp](#renee-puusepp) ja [Raul Kalvo](#raul-kalvo)**
 ```
 
 ```{block, type='points'}

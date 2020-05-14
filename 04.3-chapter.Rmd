@@ -1,7 +1,7 @@
 ## Ajakirjanduse kujundatav arvamusruum {.chapter_section .chapter4_section}
 
 ```{block, type='authors'}
-**Ragne Kõuts-Klemm**
+**[Ragne Kõuts-Klemm](#ragne-kõuts-klemm)**
 ```
 
 ```{block, type='points'}

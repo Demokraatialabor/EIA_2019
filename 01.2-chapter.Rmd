@@ -1,7 +1,7 @@
 ## Keskuse-ääremaa lõhe on Eestis viimase 30 aasta jooksul süvenenud {.chapter_section .chapter1_section}
 
 ```{block, type='authors'}
-**Bianka Plüschke-Altof, Bradley Loewen ja Kadri Leetmaa**
+**[Bianka Plüschke-Altof](#bianka-plüschke-altof), [Bradley Loewen](#bradley-loewen) ja [Kadri Leetmaa](#kadri-leetmaa)**
 ```
 
 ```{block, type='points'}

@@ -3,7 +3,7 @@
 ## Sissejuhatus {-.chapter_section .chapter4_section .intro_section}
 
 ```{block, type='authors'}
-**Indrek Ibrus**
+**[Indrek Ibrus](#indrek-ibrus)**
 ```
 
 ```{block, type='points'}

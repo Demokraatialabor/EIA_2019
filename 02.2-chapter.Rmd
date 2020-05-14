@@ -1,7 +1,7 @@
 ## Ehituspärand ja ruumikvaliteet {.chapter_section .chapter2_section}
 
 ```{block, type='authors'}
-**Triin Talk ja Siim Raie**
+**[Triin Talk](#triin-talk) ja [Siim Raie](#siim-raie)**
 ```
 
 ```{block, type='points'}
@@ -125,15 +125,21 @@ Olemasoleva hoonestuse suuremas mahus säilitamine ja jätkuv kasutamine on üha
 
 Eestis on riikliku kaitse all 12 muinsuskaitseala ning üle 5000 ehitismälestise (need on peamiselt ajaloolised hooned, aga võivad olla ka rajatised, nagu teed ja sillad, pargid ja militaarrajatised). Ehitismälestise arv moodustab 0,7% ehitisregistris olevatest ehitistest, isegi koos muinsuskaitsealade hoonestusega moodustab riiklikult kaitstav ehituspärand umbes ühe protsendi ehitistest. Riikliku kaitse all olevate ehitiste hulga võrdlemine teiste riikide omaga on keerukas ja arvude võrdlemisel tuleb arvestada, et Eesti mälestiste nimekiri on 1990. aastate tehniliste võimaluste ning maade tükeldamise nägu: kompleksid, mis paljudes riikides loetakse üheks mälestiseks, on Eestis loetletud mitmekümne üksikmälestisena. Kaitse all olemise sisuline tähendus võib samuti olla väga erinev. USAs on näiteks üle 100 000 mälestise ning igal aastal lisatakse nimekirja veel tuhatkond objekti. Samal ajal ei tähenda riiklikku mälestiste nimekirja lisamine isegi keeldu ehitist lammutada, ehitusregulatsioone saavad kohaldada ainult kohalikud omavalitsused ([Page 2016](#Page2016)). Suurbritannias on kaitse all üle 9800 muinsuskaitseala ja 375 588 ajaloolist hoonet, lisaks veel ajaloolised pargid ja aiad, mis Eestis on arvatud ehitismälestiste hulka. Lätis on kultuurimälestisi 8584, sealhulgas riikliku tähtsusega 5183, kohaliku tähtsusega 3401, arhitektuurimälestised on neist 40%. Soomes on ehitismälestiste arv väga väike – 280 ehitist või ehitiste rühma – kuid neile lisaks on automaatselt kaitse all kõik enne 1917. aastat ehitatud kirikud, ligikaudu 800 riigile kuulunud ajaloolist ehitist ja 1258 riiklikult olulist kultuurikeskkonda. Kuna Soomes on juba 1980. aastatest võimalik pärandi kaitse planeeringute kaudu, on mälestiseks tunnistamise asemel suurem osa pärandist kaitstud planeeringutega: nende hulk on hinnanguliselt 15–20 000 ehitist või ehitiste rühma.
 
-```{block, type='casebox'}
+<div class="casebox">
 <h3>Tööstuspärand</h3>
 
 Kasutuseta ehitismälestiste seas on palju suuri tööstushooneid, mis ehitatud hiiglasliku Vene Keisririigi vajadusi silmas pidades, ning mida juba ammu sellises mahus tarvis ei lähe. Tallinnas on õnnestunud mitmed tööstuspiirkonnad taaselustada elu- ja ärikvartalitena (nt Rotermanni, Noblessneri, Lutheri, Tselluloosi ja Dvigateli kvartalid), väiksemates linnades on sellistele ehitistele raskem uut kasutust leida.
 Kreenholmi manufaktuur Narvas oli 19. sajandi teisel poolel Vene Keisririigi kõige kaasaegsem tööstusettevõte ja mitu aastakümmet suurim tekstiilivabrik kogu Euroopas. Kõrgaegadel töötas selles üle kümne tuhande töötaja, väiksemas mahus tootmine kestis kuni 2010. aastani. Ambitsioonika detailplaneeringu järgi on Kreenholmi alale kavandatud atraktiivne keskus koos elumajade, meelelahutus- ja kultuuriasutuste, konverentsikeskuse, teaduspargi, hotellide ja kaubandusettevõtetega. Seni pole arendustegevuseni jõutud, kuid vähemalt on omanik mälestistele uued katused peale pannud ning saanud Narva Muuseumiga kokkuleppele, et alale võib korraldada ekskursioone.
 
-<p class="caption" id="figure228"><span class="figure-number">Joonis 2.2.3.</span> Kreenholmi manufaktuur</p>
+<p class="caption" id="figure223"><span class="figure-number">Joonis 2.2.3.</span> Kreenholmi manufaktuur</p>
+
+```{r, figure229, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
+
+knitr::include_graphics("figures/2-chapter/fig223.png")
 
 ```
+
+</div>
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Annika Haas.
 ```
@@ -381,25 +387,6 @@ knitr::include_graphics("figures/2-chapter/fig228.png")
 <span class="imgsource-source">Allikas:</span> Kultuurimälestiste riiklik register, Timo Aava 2015.
 ```
 
-<div class="casebox">
-<h3>Tööstuspärand</h3>
-
-Kasutuseta ehitismälestiste seas on palju suuri tööstushooneid, mis ehitatud hiiglasliku Vene Keisririigi vajadusi silmas pidades, ning mida juba ammu sellises mahus tarvis ei lähe. Tallinnas on õnnestunud mitmed tööstuspiirkonnad taaselustada elu- ja ärikvar- talitena (nt Rotermanni, Noblessneri, Lutheri, Tselluloosi ja Dvigateli kvartalid), väiksemates linnades on sellistele ehitistele raskem uut kasutust leida.
-
-Kreenholmi manufaktuur Narvas oli 19. sajandi teisel poolel Vene Keisririigi kõige kaasaegsem tööstusettevõte ja mitu aastakümmet suurim tekstiilivabrik kogu Euroopas. Kõrgaegadel töötas selles üle kümne tuhande töötaja, väiksemas mahus tootmine kestis kuni 2010. aastani. Ambitsioonika detailplaneeringu järgi on Kreenholmi alale kavandatud atraktiivne keskus koos elumajade, meelelahutus- ja kultuuriasutuste, konverentsikeskuse, teaduspargi, hotellide ja kaubandusettevõtetega. Seni pole arendustegevuseni jõutud, kuid vähemalt on omanik mälestistele uued katused peale pannud ning saanud Narva Muuseumiga kokkuleppele, et alale võib korraldada ekskursioone.
-
-<p class="caption" id="figure229"><span class="figure-number">Joonis 2.2.9.</span> Kreenholmi manufaktuur</p>
-
-```{r, figure229, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
-
-knitr::include_graphics("figures/2-chapter/fig229.png")
-
-```
-
-</div>
-```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Annika Haas.
-```
 ### Kokkuvõte {-.chapter2_section}
 
 Avaliku ruumi kui võrgustiku üks läbivaid lõimi on ehituspärand: see on pea igal pool mingil kujul olemas ning moodustab alusmustri, mida tänapäevaste lahendustega täiendades saab luua mitmekihilist, eripärast ja kvaliteetset ruumi. Muinsuskaitse eesmärk ei ole taastada kunagist ruumiilmet ega luua koopiaarhitektuuri, vaid säilitada olemasolevaid väärtusi, et need uue loomise käigus mõtlematult ei häviks.

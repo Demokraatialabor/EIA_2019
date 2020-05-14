@@ -1,7 +1,7 @@
 ## Eesti noored virtuaalses arvamusruumis {.chapter_section .chapter4_section}
 
 ```{block, type='authors'}
-**Veronika Kalmus ja Andra Siibak**
+**[Veronika Kalmus](#veronika-kalmus) ja [Andra Siibak](#andra-siibak)**
 ```
 
 ```{block, type='points'}

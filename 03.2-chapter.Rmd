@@ -1,7 +1,7 @@
 ## Loodusalade mõju inimeste heaolule {.chapter_section .chapter3_section}
 
 ```{block, type='authors'}
-**Kati Orru, Mait Lang ja Hans Orru**
+**[Kati Orru](#kati-orru), [Mait Lang](mait-lang) ja [Hans Orru](#hans-orru)**
 ```
 
 ```{block, type='points'}

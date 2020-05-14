@@ -1,0 +1,29 @@
+# Info {.chapter7 .chapter7_section .chapter_section}
+
+Eesti inimarengu aruanne on iga kahe aasta tagant ilmuv artiklite kogumik, mis peegeldab ja mõtestab Eesti ühiskonna sotsiaal-majanduslikku olukorda ja võimalikke arengusuundi.
+
+Tunnustatud teadlaste koostööna valmiv põhjalik aruanne panustab teadmuspõhiste poliitikate kujundamisse ning sellest kantud mõtteviiside ja teaduse populariseerimisse.
+
+Eesti inimarengu aruanne lähtub oma olemuselt ÜRO poolt välja antavast rahvusvahelisest inimarengu indeksist ja raportist.
+
+Eestis on inimarengu aruanne ilmunud 1995. aastast. 2006. aastast annab kogumikku välja SA Eesti Koostöö Kogu.<br>
+
+
+Peatoimetaja: Helen Sooväli-Sepping<br>
+Retsensent: Mikko Lagerspetz<br>
+Koordinaator ja assistent: Anni Müüripeal<br>
+Keelekorrektuur: Refiner<br>
+Viitamise korrektuur: Anu Printsmann<br>
+Kujundus ja illustratsioonid: DisainKorp<br>
+Fotod: Annika Haas<br>
+
+
+Digitaalne aruanne:  Taavet Kutsar<br>
+Digitaalse aruande lähtekood saadaval: https://github.com/Demokraatialabor/EIA_2019<br>
+Lae alla aruande trükiversioon: FAIL
+
+Trükk: xxx<br>
+Väljaandja: SA Eesti Koostöö Kogu<br>
+Autoriõigused: autorid ja SA Eesti Koostöö Kogu, 2020<br>
+ISSN  123<br>
+ISBN 123

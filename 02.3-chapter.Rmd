@@ -1,7 +1,7 @@
 ## Aktivism avaliku ruumi koosloomes {.chapter_section .chapter2_section}
 
 ```{block, type='authors'}
-**Keiti Kljavin, Johanna Pirrus, Kaija-Luisa Kurik ja Ingmar Pastak**
+**[Keiti Kljavin](#keiti-kljavin), [Johanna Pirrus](#johanna-pirrus), [Kaija-Luisa Kurik](#kaija-luisa-kurik) ja [Ingmar Pastak](#ingmar-pastak)**
 ```
 
 ```{block, type='points'}

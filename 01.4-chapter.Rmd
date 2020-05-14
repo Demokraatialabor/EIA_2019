@@ -1,7 +1,7 @@
 ## Nüüdisaegsed elamistingimused – kelle privileeg? {.chapter_section .chapter1_section}
 
 ```{block, type='authors'}
-**Anneli Kährik ja Annika Väiko**
+**[Anneli Kährik](#anneli-kährik) ja [Annika Väiko](#annika-väiko)**
 ```
 
 ```{block, type='points'}
@@ -387,6 +387,7 @@ Riiklikult on kõige pikema praktikaga omanikuasustuse toetamine (Eesti elamumaj
 
 <p class="caption" id="table141"><span class="figure-number">Tabel 1.4.1.</span> Eluasemepoliitika kehtivad riiklikud meetmed ja nende sihtrühmad</p>
 
+<div style="overflow-x:auto;">
 <table id="table_141" style="width:100%">
   <tr>
     <th class="table141_main_header">TOETUSE TÜÜP</th>
@@ -445,6 +446,7 @@ Riiklikult on kõige pikema praktikaga omanikuasustuse toetamine (Eesti elamumaj
   </tr>
   
 </table>
+</div>
 
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> KredEx; energiamajanduse arengukava aastani 2030; sotsiaalhoolekande seadus (autorite koostatud tabel).

@@ -3,7 +3,7 @@
 ## Sissejuhatus {-.chapter_section .chapter3_section .intro_section}
 
 ```{block, type='authors'}
-**Asko Lõhmus**
+**[Asko Lõhmus](#asko-lõhmus)**
 ```
 
 ### Põhisõnumid {-.chapter3_section}
