@@ -29,10 +29,6 @@ knitr::include_graphics("figures/1-chapter/fig111.png")
 
 ```
 
-``` {block, type='figure-comment'}
-<span class="figure-comment-start">Märkus:</span> Sulgudes olev number legendis näitab vastavasse vahemikku kuuluvate ruutkilomeetrite arvu.
-```
-
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Statistikaamet 2000; 2011.
 ```
@@ -113,13 +109,13 @@ fig_112_plot
 Statistikaameti andmed kliimaaruannetes kajastuva maismaa pindala kohta näitavad, et ajavahemikus 2000–2017 on asustusalade pindala suurenenud 138 km<sup>2</sup> võrra – sajandivahetuse 3287 km<sup>2</sup> asemel oli 2017. aastal 3425 km<sup>2</sup> asustust. Kasv on 4,2%. See arv on enam kui kaks korda suurem, kui CORINE andmestik kajastab. CORINE miinimumkaardistusüksus on 5 hektarit, millest järeldub, et ka sellest väiksema pindalaga uusasustust on linnade ümbruses lisandunud palju.
 
 ```{block, type='blockquote-right'}
-Suur osa karjääre metsastatakse pärast nende ammendumist, ent oluline maakasutuse muutus on see siiski, sest väärtusliku põllumaa taastamine ammendatud karjääride asemel enamasti ei õnnestu.
+Suur osa karjääre metsastatakse pärast nende ammendumist, ent oluline maakasutuse muutus on see siiski, sest väärtusliku põllumaa taastamine ammendatud karjääride asemele enamasti ei õnnestu.
 ```
-Lisaks kitsas tähenduses ehitatud alade suurenemisele on suurenenud ka muud tugeva inimmõjuga alad – kõigil perioodidel on teede, raudteede, lennuväljade ja teiste sarnaste rajatistega kaetud maa suurenenud 3–4 km<sup>2</sup> perioodi kohta. Tugeva inimmõjuga alade hulka võime lugeda ka karjäärid. Perioodil 2006–2012 lisandus karjääre 26 km<sup>2</sup> ning karjääride kogupindala kasvas 21 km<sup>2</sup> võrra (osa karjääridest ammendati), vahemikus 2012–2018 suurenes karjääride kogupindala 13,5 km<sup>2</sup> võrra. Enim on karjääre lisandunud Ida-Virumaal, aga ka Harjumaal. Suur osa karjääre metsastatakse pärast nende ammendumist, ent oluline maakasutuse muutus on see siiski, sest väärtusliku põllumaa taastamine ammendatud karjääride asemel enamasti ei õnnestu.
+Lisaks kitsas tähenduses ehitatud alade suurenemisele on suurenenud ka muud tugeva inimmõjuga alad – kõigil perioodidel on teede, raudteede, lennuväljade ja teiste sarnaste rajatistega kaetud maa suurenenud 3–4 km<sup>2</sup> perioodi kohta. Tugeva inimmõjuga alade hulka võime lugeda ka karjäärid. Perioodil 2006–2012 lisandus karjääre 26 km<sup>2</sup> ning karjääride kogupindala kasvas 21 km<sup>2</sup> võrra (osa karjääridest ammendati), vahemikus 2012–2018 suurenes karjääride kogupindala 13,5 km<sup>2</sup> võrra. Enim on karjääre lisandunud Ida-Virumaal, aga ka Harjumaal. Suur osa karjääre metsastatakse pärast nende ammendumist, ent oluline maakasutuse muutus on see siiski, sest väärtusliku põllumaa taastamine ammendatud karjääride asemele enamasti ei õnnestu.
 
 ### Linnade laialivalgumisega ühtlustub linna ja tagamaa ruumikasutus {-.chapter1_section}
 
-Nägime eespool, et elanike arv ja ehitatud alad on kasvanud ennekõike kolme Eesti linna – Tallinna, Tartu ja Pärnu – ümbruses. Vaatame näitena Tartut ja selle ümbrust ([Anni ja Oja 2016](#Anni2016); [Marksoo 2005](#Marksoo2005)). Tänaste suundumuste mõistmisele aitab kaasa ajalooline tagasivaade.
+Nägime eespool, et elanike arv ja ehitatud alad on kasvanud ennekõike kolme Eesti linna – Tallinna, Tartu ja Pärnu – ümbruses. Vaatame näitena Tartut ja selle ümbrust ([Anni ja Oja 2016](#Anni2016); [Marksoo 2005](#Marksoo2005)). Praeguste suundumuste mõistmisele aitab kaasa ajalooline tagasivaade.
 
 Muistne Tartu toimis kaua kompaktsena. Algne eikellegimaa linna ümber muutus mõisamaaks, mis 500 aasta eest hakkas piirama linna laienemist. Ometi tekkisid muistsed „eeslinnad“ – agulid – Tartu ümber juba 16.–17. sajandil. Linnasarase piirid määratleti esmakordselt 18. sajandil. Edaspidi lisandus linna arengut soodustavaid tegureid (ülikool, rahvakultuuri keskuseks kujunemine, raudtee ja selle mõjul tööstuse ning kaubanduse areng). Hakati tihendama kesklinna ning laiendama linna selle äärealadel. 20. sajandi alguses hakkas linn mõisatelt renditud maa arvelt laienema senistest piiridest välja. Tartu laienemisvajadusi lahendades suurt tähelepanu põllumajandusmaa väärtusele ei pööratud.
 
@@ -173,7 +169,7 @@ Kokkuvõttes on metsamaa pindala peamiselt põllumaade metsastumise tõttu pikaa
 
 ### Suund väärtuslike põllumaade säilitamisele pidurdab maastikumuutusi {-.chapter1_section}
 
-Kõigis 2010. aastate keskel valminud maakonnaplaneeringutes on väärtusliku põllumaa kiht, nendel aladel piiratakse maakasutuse muutuste kavandamist. Näiteks sätestab Viljandi maakonnaplaneering omavalitsuste üldplaneeringute koostamise ja väärtuslike põllumajandusmaade kasutamise põhimõtteid. Eesmärk on tagada väärtusliku põllumajandusmaa sihtotstarbeline kasutamine. Tartumaa maakonnaplaneering nimetab väärtusliku põllumaa üldised kasutustingimused, sealhulgas tuleb see üldjuhul säilitada põllumajanduslikuks tegevuseks ning hoida harimiskõlblikuna. Väärtusliku põllumajandusmaa kasutuselevõtt mittepõllumajanduslikul otstarbel on lubatud vaid avalikes või kogukonna huvides, kui vastavaid tegevusi ei saa ellu viia muul viisil. Kuivõrd väärtuslike põllumaade kajastamine maakonnaplaneeringutes toimus Maaeluministeeriumi juhendi alusel, on põhimõtteline olukord kõigis maakonnaplaneeringutes sarnane.
+Kõigis 2010. aastate keskel valminud maakonnaplaneeringutes on väärtusliku põllumaa kiht, nendel aladel piiratakse maakasutuse muutuste kavandamist. Näiteks sätestab Viljandi maakonnaplaneering omavalitsuste üldplaneeringute koostamise ja väärtuslike põllumajandusmaade kasutamise põhimõtteid. Eesmärk on tagada väärtusliku põllumajandusmaa sihtotstarbeline kasutamine. Tartumaa maakonnaplaneering nimetab väärtusliku põllumaa üldised kasutustingimused, sealhulgas tuleb see üldjuhul säilitada põllumajanduslikuks tegevuseks ning hoida harimiskõlblikuna. Väärtusliku põllumajandusmaa kasutuselevõtt mittepõllumajanduslikul otstarbel on lubatud vaid avalikes või kogukonna huvides, kui soovitud tegevus ei saa toimuda muul viisil. Kuivõrd väärtuslike põllumaade kajastamine maakonnaplaneeringutes toimus Maaeluministeeriumi juhendi alusel, on põhimõtteline olukord kõigis maakonnaplaneeringutes sarnane.
 
 Üldplaneeringute tasemel on juba ka näiteid maakonnaplaneeringu korrigeerimiseks. See on tavaline suurte keskuste ümbruses, kus surve elamuehituseks on suurem. Näiteks 2018. aasta Rae valla põhjapiirkonna põllumajandusmaade uuring leiab, et maakonnaplaneeringuga väärtuslikeks määratud põllumaad kattuvad märgatavalt valla varem kehtestatud üldplaneeringu kohaselt perspektiivseks elamualaks kavandatuga ning seetõttu on tehtud ettepanek osa väärtuslikest (tõsi, kõige vähem olulised neist) põllumaadest sellest kategooriast välja arvata.
 
@@ -213,9 +209,9 @@ Lisaks toetavad maastike säilimist kaitsealad. Kogu Eesti maismaast on kaitse a
     <th>Hiiu</th>
     <th>Saare</th>
     <th>Pärnu</th>
-    <th>Lääne</th> 
+    <th>Lääne</th>
   </tr>
-  
+
   <tr>
     <td>8,8</td>
     <td>11,1</td>
@@ -232,12 +228,12 @@ Lisaks toetavad maastike säilimist kaitsealad. Kogu Eesti maismaast on kaitse a
     <td>24.3</td>
     <td>24.8</td>
     <td>28</td>
-    <td>33.7</td> 
+    <td>33.7</td>
   </tr>
-  
+
 </table>
 </div>
-*koos Pandivere veekaitsealaga
+*Koos Pandivere veekaitsealaga.
 
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> EELIS 2019; Maa-amet 2019.
