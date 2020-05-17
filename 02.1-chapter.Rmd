@@ -8,13 +8,13 @@
 * Avaliku ruumi hoidmine ja arendamine on avaliku sektori ülesanne ning see nõuab loomingulist lähenemist, professionaalsust ja osapoolte koostööd.
 ```
 
-Iga kord, kui oma kodu uksest või väravast välja astume, siseneme avalikku ruumi. See on ühisruum, mille kaudu liigume ka kõigi mitteavalike ruumide vahel. Avalik ruum ei ole üksnes liikumiseks. See on olemisruum, mille terviklikust toimimisest sõltub ühiskonna sidusus ja elukeskkonna kvaliteet. ÜRO linnade tulevikuga ja kestliku inimasustusega tegelev programm ([United Nations 2017](#United2017)) määratleb avaliku ruumina kohti, mis on ligipääsetavad ja nauditavad kõigile ilma kasumitaotluseta. See on igapäevane ruum, aga ka arutluste ja meeleavalduste toimumise koht. Hea avalik ruum aitab tugevdada kogukondi, ergutada kodanikuosalust, vähendada segregatsiooni ja kasvatada sallivust, seega väljendub avaliku ruumi kvaliteedis ühiskonna ja demokraatia tervis.
+Iga kord, kui oma kodu uksest või väravast välja astume, siseneme avalikku ruumi. See on ühisruum, mille kaudu liigume ka kõigi mitteavalike ruumide vahel. Avalik ruum ei ole üksnes liikumiseks. See on olemisruum, mille terviklikust toimimisest sõltub ühiskonna sidusus ja elukeskkonna kvaliteet. ÜRO linnade tulevikuga ja kestliku inimasustusega tegelev programm ([ÜRO 2017](#United2017)) määratleb avaliku ruumina kohti, mis on ligipääsetavad ja nauditavad kõigile ilma kasumitaotluseta. See on igapäevane ruum, aga ka arutluste ja meeleavalduste toimumise koht. Hea avalik ruum aitab tugevdada kogukondi, ergutada kodanikuosalust, vähendada segregatsiooni ja kasvatada sallivust, seega väljendub avaliku ruumi kvaliteedis ühiskonna ja demokraatia tervis.
 
 ```{block, type='blockquote-left'}
 Hea avalik ruum aitab tugevdada kogukondi, ergutada kodanikuosalust, vähendada segregatsiooni ja kasvatada sallivust.
 ```
 Meie elukeskkonda mõjutavad protsessid ja otsused eri valdkondades (transport, keskkonnakaitse, ettevõtlus, haridus, kultuur jm) moodustavad omavahel arvukaid ruumilisi seoseid, mis mõjutavad avaliku ruumi toimimist. See tähendab, et avalik ruum on habras ja kergelt kahjustatav, kui seda arendada tervikut nägemata. Avalik ruum pole eraldiseisev maastikuline või tehniline element, vaid seostub ümbritsevate hoonete ja mitteavalike ruumidega, luues terviklikke kooslusi nii funktsionaalses kui ka esteetilises mõttes.
-Artiklis vaatleme füüsilist avalikku ruumi eelkõige linnakeskkonnas, avaliku sektori vastutust selle kaitsmisel ning selle mõtestamist õigusruumis ja valitsemises. Sissejuhatavas osas selgitame, millest koosneb avalik ruum ja toome välja avaliku ruumi kvaliteedi alused. Küsime, kuidas on taasiseseisvunud Eesti õigusruumis avalikku ruumi mõistet sisustatud, ja kirjeldame, kuidas on avalikku ruumi teadvustanud avalik sektor. Lõpetuseks pakume välja põhimõtted, kuidas kaitsta ja parendada avalikku ruumi.
+Artiklis vaatleme füüsilist avalikku ruumi eelkõige linnakeskkonnas, avaliku sektori vastutust selle kaitsmisel ning selle mõtestamist õigusruumis ja valitsemises. Sissejuhatavas osas selgitame, millest koosneb avalik ruum, ja toome välja avaliku ruumi kvaliteedi alused. Küsime, kuidas on taasiseseisvunud Eesti õigusruumis avalikku ruumi mõistet sisustatud, ja kirjeldame, kuidas on avalikku ruumi teadvustanud avalik sektor. Lõpetuseks pakume välja põhimõtted, kuidas kaitsta ja parendada avalikku ruumi.
 
 
 ### Avalik ruum on võrgustik, mis seob inimeste elu-, töö- ja tegevuskohad {-.chapter2_section}
@@ -50,7 +50,7 @@ Avalik ruum ei ole ühene ega selgepiiriline, sest võib hõlmata eraomandit nin
 
 ### Avaliku ruumi kvaliteedi määrab eelkõige selle sidusus kõigile kasutajatele {-.chapter2_section}
 
-Avaliku ruumi peamine tunnus on vaba ligipääs kõigile nii füüsilises, sotsiaalses kui ka rahalises mõttes. Vaba ligipääs on tagatud siis, kui ruumi kasutajal on võimalik oma igapäevaseid ning ühiskondlike tegevusi iseseisvalt teha järjepidevas ruumis, milles ei ole takistusi või katkestusi. Keskse tähendusega on jalgsi liikuva inimese võrgustik. Kuigi tänavaruumis sisalduv sõidutee on avaliku ruumi vajalik osa, võib sõidukite liigne kiirus ja liiklustihedus selle muuta nii ebaturvaliseks, et see langeb nii-öelda avaliku ruumi kaardilt välja. Sel juhul kujuneb iga ülekäigurada ja kõnnitee väga oluliseks võrgustiku elemendiks. Kui need osad on kitsad, omavahel sidumata, ohtlikud või ebameeldivad, siis võrgustik katkeb, sest tänavad ja ristmikud ei toimi enam kõigile ruumikasutajatele liikumis- ega olemisruumina.
+Avaliku ruumi peamine tunnus on vaba ligipääs kõigile nii füüsilises, sotsiaalses kui ka rahalises mõttes. Vaba ligipääs on tagatud siis, kui ruumi kasutajal on võimalik oma igapäevaseid ning ühiskondlike tegevusi iseseisvalt teha järjepidevas ruumis, milles ei ole takistusi või katkestusi. Keskse tähendusega on jalgsi liikuva inimese võrgustik. Kuigi tänavaruumis sisalduv sõidutee on avaliku ruumi vajalik osa, võib sõidukite liigne kiirus ja liiklustihedus selle muuta nii ebaturvaliseks, et see langeb n-ö avaliku ruumi kaardilt välja. Sel juhul kujuneb iga ülekäigurada ja kõnnitee väga oluliseks võrgustiku elemendiks. Kui need osad on kitsad, omavahel sidumata, ohtlikud või ebameeldivad, siis võrgustik katkeb, sest tänavad ja ristmikud ei toimi enam kõigile ruumikasutajatele liikumis- ega olemisruumina.
 
 <div class="casebox">
 
@@ -75,14 +75,14 @@ Autostumise tulemusel on avalikku ruumi sageli arendatud lihtsustatult, käsitle
 Autostumise tulemusel on avalikku ruumi sageli arendatud lihtsustatult, käsitledes seda pigem transporditaristuna ja juhindudes sõiduautost ja sõiduteede võrgustikust.
 ```
 
-Sidus avalik ruum on üleilmselt oluline arengusuund elukeskkonna kvaliteedi parandamisel. ÜRO säästva arengu üks eesmärke on tagada aastaks 2030 universaalne juurdepääs kaasavale ja ligipääsetavale avalikule ruumile ning rohealadele, sest hästi kujundatud ja hooldatud sidus avalik ruum tagab madalamad kuritegevuse näitajad, võimestab sotsiaalselt tõrjutud ühiskonnarühmi ning on eeldus õnnelike ja tervete kodanike heaolule. Kvaliteetne avalik ruum on linnade majandusliku, keskkondliku ja ka kultuurilise konkurentsivõime alus ([United Nations 2017](#United2017)). Avalikku ruumi esikohale seadev kohaloome katusorganisatsioon mittetulundusühing Project for Public Spaces ([2007](#Project2007)) nimetab avaliku ruumi majandusliku kasuna näiteks kinnisvara väärtuse tõusu, suurenenud väikeäride tihedust ja kasvavat käivet. Hea avalik ruum vähendab õhu- ja mürareostust ning toetab liigirikkuse kasvu
+Sidus avalik ruum on üleilmselt oluline arengusuund elukeskkonna kvaliteedi parandamisel. ÜRO säästva arengu üks eesmärke on tagada aastaks 2030 universaalne juurdepääs kaasavale ja ligipääsetavale avalikule ruumile ning rohealadele, sest hästi kujundatud ja hooldatud sidus avalik ruum tagab madalamad kuritegevuse näitajad, võimestab sotsiaalselt tõrjutud ühiskonnarühmi ning on eeldus õnnelike ja tervete kodanike heaolule. Kvaliteetne avalik ruum on linnade majandusliku, keskkondliku ja ka kultuurilise konkurentsivõime alus ([ÜRO 2017](#United2017)). Avalikku ruumi esikohale seadev kohaloome katusorganisatsioon mittetulundusühing Project for Public Spaces nimetab avaliku ruumi majandusliku kasuna näiteks kinnisvara väärtuse tõusu, suurenenud väikeäride tihedust ja kasvavat käivet ([PPS 2007](#Project2007)). Hea avalik ruum vähendab õhu- ja mürareostust ning toetab liigirikkuse kasvu.
 
 ```{block, type='blockquote-right'}
 Kuigi ühe osa avaliku ruumi kvaliteedist moodustab võimalus liikuda sõiduautoga, on hea elukeskkonna eelduseks arusaam, et avalikus ruumis on inimene alati sõidukitest tähtsam.
 ```
 Avaliku ruumi kui võrgustiku kvaliteedi esmane omadus on teekondade jätkuvus, mugavus ja ohutus nii lastele, eakatele kui ka erivajadustega inimestele, lähtudes igast kodust, töö- ja tegevuskohast; aga niisamuti ka terviklik ökosüsteem. Kvaliteetset avalikku ruumi iseloomustab ka selle üksikosade, iga tänava, platsi ja pargi esteetika, tajuelamused ja sümboolsed tähendused. Ruumikasutajate eri soovidele ja võimalustele vastab mitmekesine avalik ruum, mis võimaldab valikuvabadust ja iseorganiseerumist. Avaliku ruumi terviklikkuse ja kvaliteedi tagab kõikide nende aspektide kohaspetsiifline ning ruumiline läbimõeldus nii ruumi planeerimise, projekteerimise, ehitamise kui ka kasutamise järgus.
 
-### Avalik ruumi mõiste on Eesti õigussüsteemis sisustamata {-.chapter2_section}
+### Avaliku ruumi mõiste on Eesti õigussüsteemis sisustamata {-.chapter2_section}
 
 Nii nagu avalik õigus eraõiguse kõrval võimaldab eraõiguslikel isikutel end riigis kindlalt tunda ja ühiskonnal tervikuna areneda, vajab eraomandis ruum selle hüvede kasutamiseks enda kõrvale avalikku ruumi ([Paaver 2013](#Paaver2013)). Avalik ruum ei teeni ise kasumit, vaid on alus nii ettevõtlusele kui ka elukeskkonna arengule.
 
@@ -91,7 +91,7 @@ Eesti õigusruumis ei ole avaliku ruumi mõistet otsesõnu sisustatud. Meie õig
 <div class="casebox">
 ### Kelle väljak?
 
-Eesti avaliku sektori, sealhulgas riigiettevõtete vastuolulist käitumist avaliku ruumiga iseloomustab juhtum, mil 2018. aastal müüs riik Tallinna linna vastuseisust hoolimata avaliku Kompassi väljaku kinnisvarafirmale, kes seejärel taotles kinnistule kõrghoone rajamist, nähes alternatiivina üksnes suletud eraaeda. Pole seadusi, mis takistaks sellist müüki või avaliku ruumi, näiteks tänava või pargi võõrandamist eraomandisse või nõuaks küsimuse avalikku arutamist. Riik on omavalitsuse asetanud olukorda, mis raskendab omaniku tahte puudumise korral avaliku ruumi kvaliteetset arendamist või isegi hoidmist. Taoline olukord tekib siis, kui riik või omavalitus seisab pigem oma tulude eest, jättes avaliku ruumi tagaplaanile.
+Eesti avaliku sektori, sealhulgas riigiettevõtete vastuolulist käitumist avaliku ruumiga iseloomustab juhtum, mil 2018. aastal müüs riik Tallinna linna vastuseisust hoolimata avaliku Kompassi väljaku kinnisvarafirmale, kes seejärel taotles kinnistule kõrghoone rajamist, nähes alternatiivina üksnes suletud eraaeda. Pole seadusi, mis takistaksid sellist müüki või avaliku ruumi, näiteks tänava või pargi võõrandamist eraomandisse või nõuaks küsimuse avalikku arutamist. Riik on omavalitsuse asetanud olukorda, mis raskendab omaniku tahte puudumise korral avaliku ruumi kvaliteetset arendamist või isegi hoidmist. Taoline olukord tekib siis, kui riik või omavalitsus seisab pigem oma tulude eest, jättes avaliku ruumi tagaplaanile.
 
 <p class="caption" id="figure213"><span class="figure-number">Joonis 2.1.3.</span> Kompassi väljak Tallinnas</p>
 
@@ -103,12 +103,12 @@ knitr::include_graphics("figures/2-chapter/fig213.png")
 
 </div>
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Maaamet.
+<span class="imgsource-source">Allikas:</span> Maa-amet.
 ```
 
 Aastatel 1993–2002 kehtis asjaõigusseaduse § 9 lg 2, mis sisult kattus Rooma eraõiguse *res publicae*’ga ning mõjutas maaomandi struktuuri: „Avalik asi on asi, mis kuulub riigi- või munitsipaalomandisse ja on oma ühiskondliku olemuse tõttu kasutatav igaühe poolt nagu territoriaal- ja sisemeri, laevatatavad veekogud, avalikud tänavad, väljakud ja pargid“. Nüüdseks tühistatud määratlus oli aluseks maareformile ning sedakaudu suurele osale senisest avaliku ruumi struktuurist, sest avalikke tänavaid või parke üldjuhul ei erastatud ega tagastatud. Siiski on nii maareformi kui ka hilisemate tehingute (nt munitsipaal- ja riigimaa müügilepingud) mõjul osa avalikust ruumist saanud eramaaks. Praeguses õigusruumis puudub avaliku asja sarnane üldmõiste, mille alusel saaks avaliku ruumi ulatuses piisavalt selgelt ja püsivalt kokku leppida.
 
-Avalikku ruumi sidusust ja ligipääsetavust mõjutab seegi, kuidas on reguleeritud õigus liikuda eramaal. Aastatel 1993–2014 kehtinud asjaõigusseaduse § 142 keelas omaniku loata erakinnistul viibimise. Aastal 2014 viidi võõra maatüki kasutamist reguleerivad sätted keskkonnaseadustiku üldosa seadusesse, kuhu muu hulgas lisati § 33 lg 3: „Omanik ei või keelata eratee ega raja kasutamist jalgsi, jalgrattaga ega muul sellesarnasel viisil liikumiseks, kui kasutus põhineb väljakujunenud taval ega ole talle koormav“. See säte on veel vähe juurdunud, kuigi on abiks avaliku ruumi sidususe tõstmisele.
+Avalikku ruumi sidusust ja ligipääsetavust mõjutab seegi, kuidas on reguleeritud õigus liikuda eramaal. Aastatel 1993–2014 kehtinud asjaõigusseaduse § 142 keelas omaniku loata erakinnistul viibimise. Aastal 2014 viidi võõra maatüki kasutamist reguleerivad sätted keskkonnaseadustiku üldosa seadusesse, kuhu muu hulgas lisati § 33 lg 3: „Omanik ei või keelata eratee ega raja kasutamist jalgsi, jalgrattaga ega muul sellesarnasel viisil liikumiseks, kui kasutus põhineb väljakujunenud taval ega ole talle koormav.“ See säte on veel vähe juurdunud, kuigi on abiks avaliku ruumi sidususe suurendamisele.
 
 
 Avalik ruum saab toimida ka eramaadel, kuid sel juhul nõuab võrgustiku sidususe ja püsimise tagamine veelgi rohkem tööd avalikult sektorilt. Viimastel aastatel on avaliku ruumi mõiste jõudnud mõnesse planeeringusse ja juhendisse, näiteks 2018. aastal Rahandusministeeriumi koostatud juhend „<a href="https://planeerimine.ee/static/sites/2/uldplaneeringu_juhis_final.pdf">Nõuandeid üldplaneeringu koostamiseks</a>“ ütleb, et õigusruumis määratlemata mõistena „on mõistlik avaliku ruumi ja väärtuste teemad läbi arutada, neis kokku leppida ning sõnastada ja määrata üldplaneeringu koostamisel“. Niisamuti märgib ruumiloome ekspertrühma 2018. aasta lõpparuanne, et „kõigile kättesaadav kvaliteetne avalik ruum on arenenud demokraatliku riigi oluline tunnus“. See tähendab, et eri tasandi planeerimisvaldkonnad on teadvustamas avaliku ruumi mõistet, mis seni on jäänud juhuslikuks või sootuks tähelepanuta.
@@ -180,7 +180,7 @@ Kuna avalik ruum moodustab olulise osa igapäevasest eluruumist,  on mõistlik k
 
 Igal omavalitsusel pole mõistlik oma määrustes või planeeringutes avaliku ruumi olemusele sisu otsida. Üldpõhimõtted saaksid selgelt ja ühesuguselt kehtida kogu riigis. Õigusruumi selguse vajadusele rõhub ka <a href="https://www.riigikantselei.ee/sites/default/files/riigikantselei/strateegiaburoo/ruumiloome_lopparuanne_.pdf">ruumiloome ekspertrühma lõpparuanne</a>:
 
-**„Õigusaktides tuleb luua senisest selgemad alused ruumiloomele tervikuna, haarates seostatuna kõiki ruumiotsuseid. Seaduses tuleb seostatult käsitleda ruumiloome põhimõtteid ja mõisteid. Avaliku ruumi olulisuse rõhutamine ruumiloomes ja kvaliteedinõude sõnastamine annavad parema aluse kvaliteetse avaliku ruumi ja ehitatud keskkonna rajamiseks ning eelnõude ruumimõju hindamiseks“**
+**„Õigusaktides tuleb luua senisest selgemad alused ruumiloomele tervikuna, haarates seostatuna kõiki ruumiotsuseid. Seaduses tuleb seostatult käsitleda ruumiloome põhimõtteid ja mõisteid. Avaliku ruumi olulisuse rõhutamine ruumiloomes ja kvaliteedinõude sõnastamine annavad parema aluse kvaliteetse avaliku ruumi ja ehitatud keskkonna rajamiseks ning eelnõude ruumimõju hindamiseks.“**
 
 Nii riik kui ka omavalitsused peavad teadvustama oma rolli avaliku ruumi võrguvaldajana või tellijana, pidades sealjuures lugu igast ruumikasutajast.
 
@@ -190,7 +190,7 @@ Nii riik kui ka omavalitsused peavad teadvustama oma rolli avaliku ruumi võrguv
 
 Linna ruumilise kvaliteedi tõstmisel on keskne tähtsus avaliku ruumi kui tervikliku võrgusti- ku sidususel, tihedusel ja mitmekesisusel. Näiteks Tallinna vanalinna ümbritsevat pargivööd saab arendada avaliku ruumi osana, võimaldades mugavat ülepääsemist sõiduteedest, laiendades jalakäiguruumi ja avades uusi kvartalisiseseid läbipääse. Nii saab ühendada inimesele mugavalt hulga ülelinnalise tähtsusega ühiskondlikke hooneid, väljakuid, tä- navaid ja parke, mille kaudu saab Tallinn kujuneda tunduvalt inimsõbralikumaks linnaks.
 
-<p class="caption" id="figure215"><span class="figure-number">Joonis 2.1.5.</span> Väljavõte EKA uurimisprojektist "Lõpetamata Linn"</p>
+<p class="caption" id="figure215"><span class="figure-number">Joonis 2.1.5.</span> Väljavõte EKA uurimisprojektist „Lõpetamata Linn“</p>
 
 ```{r, figure215, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
@@ -227,5 +227,5 @@ Turvalisust ja heaolu kasvatab eelkõige aktiivne ruumi kasutus ([Worpole ja Kno
 <p id="Ilus2000">Ilus, E. 2000. Rooma eraõiguse alused. Tallinn: Ilo Print.</p>
 <p id="Paaver2013">Paaver, T. 2013. Mis on avalik ruum – avaliku ruumi käsitlustest ruumilises planeerimises. –Roose, A. (toim.). Peatükke planeerimisest. Protsesse, meetodeid ja näiteid. Tartu: Tartu Ülikool, 51–62.</p>
 <p id="Project2007">Project for Public Spaces 2007. What is placemaking? https://www.pps.org/article/what-is-placemaking.</p>
-<p id="United2017">United Nations 2017. New Urban Agenda. United Nations Conference on Housing and Sustainable Urban Development (Habitat III).</p>
+<p id="United2017">ÜRO 2017. New Urban Agenda. United Nations Conference on Housing and Sustainable Urban Development (Habitat III).</p>
 <p id="Worpole2007">Worpole, K., Knox, K. 2007. The social value of public spaces. Joseph Rowntree Foundation.</p>
