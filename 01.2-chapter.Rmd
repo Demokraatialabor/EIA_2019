@@ -13,7 +13,7 @@
 Piirkondade konkurentsivõimele keskenduv regionaalpoliitika Eestis ja Euroopa Liidus ei ole aidanud ääremaastumist ümber pöörata.
 ```
 
-Viimastel kümnenditel on enamikus Kesk- ja Ida-Euroopa riikides süvenenud ühiskondlik ja ruumiline ebavõrdsus ([Lang ja Görmar 2019](#Lang2019)). Ka Eestis on piirkondlik ebavõrdsus kasvanud, mille tõttu suur osa Eesti asustussüsteemist – varem majanduslikult ja sotsiaalselt elujõulised väikelinnad ja maapiirkonnad – on muutunud riigisiseseks ääremaaks. Kuna enamik töökohti asub suuremates linnades, on maalt lahkumine eriti noorema põlvkonna puhul muutunud tavaliseks. Üha raskem on tagada elutähtsate teenuste võrdset kättesaadavust kogu riigis, sest ääremaade rahvastik väheneb ja vananeb ning endises mahus teenuseid paljudes kohtades enam ei vajata. Selles artiklis lähtume Eestis juurdunud käsitusest, mille kohaselt ääremaastumine tähendab väljarännet ning töökohtade ja teenuste kadu keskustest eemal olevatest piirkondadest ([Eesti inimvara raport 2010](#Säästva-arengu-komisjon2010)), kuid rõhutame, et need objektiivsed protsessid on läbi põimunud ääremaa subjektiivse häbimärgistamisega. Lisaks arutleme, kuivõrd on Eesti ja Euroopa Liidu regionaalpoliitika aidanud keskuse-ääremaa lõhet vähendada. Kahanemisprotsesside kirjeldamiseks tugineb artikkel Statistikaameti rahvastiku- ja majandusstatistika andmetele (jooksev rahvastikustatistika, 2011. aasta rahvaloendus, regionaalse sisemajanduse koguprodukti (SKP) andmed). Regionaalpoliitika suundumuste osas toetume 2018. aastal Tartu Ülikoolis kaitstud Bradley Loeweni doktoritöö tulemustele ([Loewen 2018](#Loewen2018); [Loewen ja Schulz 2019](#Loewen2019)). Doktoritöö analüüsib Eesti ning teiste Kesk- ja Ida-Euroopa riikide regionaalpoliitika arengut ning riikide regionaalpoliitika seoseid Euroopa Liidu ühtekuuluvuspoliitikaga. Subjektiivsete ääremaastumise protsesside kirjeldus tugineb 2017. aastal Tartu Ülikoolis kaitstud Bianka Plüschke-Altofi doktoritöö tulemustele ([Plüschke-Altof 2017](#Plüschke-Altof2017); [Plüschke-Altof ja Grootens 2019](#Plüschke-Altof2019)), et analüüsida Eesti maakohtade ääremaalise kuvandi teket ja sellega vastanduvaid kohalikke algatusi.
+Viimastel kümnenditel on enamikus Kesk- ja Ida-Euroopa riikides süvenenud ühiskondlik ja ruumiline ebavõrdsus ([Lang ja Görmar 2019](#Lang2019)). Ka Eestis on piirkondlik ebavõrdsus kasvanud, mille tõttu suur osa Eesti asustussüsteemist – varem majanduslikult ja sotsiaalselt elujõulised väikelinnad ja maapiirkonnad – on muutunud riigisiseseks ääremaaks. Kuna enamik töökohti asub suuremates linnades, on maalt lahkumine eriti noorema põlvkonna puhul muutunud tavaliseks. Üha raskem on tagada elutähtsate teenuste võrdset kättesaadavust kogu riigis, sest ääremaade rahvastik väheneb ja vananeb ning endises mahus teenuseid paljudes kohtades enam ei vajata. Selles artiklis lähtume Eestis juurdunud käsitusest, mille kohaselt ääremaastumine tähendab väljarännet ning töökohtade ja teenuste kadu keskustest eemal olevatest piirkondadest ([Eesti inimvara raport 2010](#Eesti-inimvara-raport2010)), kuid rõhutame, et need objektiivsed protsessid on läbi põimunud ääremaa subjektiivse häbimärgistamisega. Lisaks arutleme, kuivõrd on Eesti ja Euroopa Liidu regionaalpoliitika aidanud keskuse-ääremaa lõhet vähendada. Kahanemisprotsesside kirjeldamiseks tugineb artikkel Statistikaameti rahvastiku- ja majandusstatistika andmetele (jooksev rahvastikustatistika, 2011. aasta rahvaloendus, regionaalse sisemajanduse koguprodukti (SKP) andmed). Regionaalpoliitika suundumuste osas toetume 2018. aastal Tartu Ülikoolis kaitstud Bradley Loeweni doktoritöö tulemustele ([Loewen 2018](#Loewen2018); [Loewen ja Schulz 2019](#Loewen2019)). Doktoritöö analüüsib Eesti ning teiste Kesk- ja Ida-Euroopa riikide regionaalpoliitika arengut ning riikide regionaalpoliitika seoseid Euroopa Liidu ühtekuuluvuspoliitikaga. Subjektiivsete ääremaastumise protsesside kirjeldus tugineb 2017. aastal Tartu Ülikoolis kaitstud Bianka Plüschke-Altofi doktoritöö tulemustele ([Plüschke-Altof 2017](#Plüschke-Altof2017); [Plüschke-Altof ja Grootens 2019](#Plüschke-Altof2019)), et analüüsida Eesti maakohtade ääremaalise kuvandi teket ja sellega vastanduvaid kohalikke algatusi.
 
 ### Ääremaastumine on iseennast taastootev nõiaring {-.chapter1_section}
 
@@ -238,17 +238,19 @@ Konkurentsivõimel põhinev lähenemine Euroopa ja Eesti regionaalpoliitikas ei 
 
 <p id="Anniste2017">Anniste, K., Pukkonen, L., Paas, T. 2017. Towards incomplete migration: Estonian migration to Finland. – Trames, 21 (71/66), 97–114.</p>
 
+<p id="Eesti-inimvara-raport2010">Eesti inimvara raport 2010. Tallinn: Eesti Koostöö Kogu.</p>
+
 <p id="Euroopa-Komisjon2017">Euroopa Komisjon 2017. Minu piirkond, minu Euroopa, meie tulevik: majanduslikku, sotsiaalset ja territoriaalset ühtekuuluvust käsitlev seitsmes aruanne. Brüssel: Euroopa Liidu Väljaannete Talitus.</p>
 
 <p id="Grootens2018">Grootens, M. 2018. Leading places on the map. Opening up leadership practices in two Estonian peripheral places. – Halduskultuur – Administrative Culture, 18 (2), 203–221.</p>
 
-<p id="Lang2019">Lang, T., Görmar, F. (eds.) 2019. Regional and Local Development in Times of Polarisation. Singapur: Palgrave Macmillan.</p>
+<p id="Lang2019">Lang, T., Görmar, F. (eds.) 2019. Regional and Local Development in Times of Polarisation. Singapore: Palgrave Macmillan.</p>
 
 <p id="Loewen2018">Loewen, B. 2018. Towards Territorial Cohesion? Path Dependence and Path Innovation of Regional Policy in Central and Eastern Europe. PhD-thesis. Tartu: University of Tartu Press.</p>
 
-<p id="Loewen2019">Loewen, B., Schulz, S. 2019. Questioning the Convergence of Cohesion and Innovation Policies in Central and Eastern Europe. – Lang, T., Görmar, F. (eds.). Regional and Local Development in Times of Polarisation. Singapur: Palgrave Macmillan, 121–148.</p>
+<p id="Loewen2019">Loewen, B., Schulz, S. 2019. Questioning the Convergence of Cohesion and Innovation Policies in Central and Eastern Europe. – Lang, T., Görmar, F. (eds.). Regional and Local Development in Times of Polarisation. Singapore: Palgrave Macmillan, 121–148.</p>
 
-<p id="Noorkõiv2009">Noorkõiv, R. (toim.) 2009. Regionaalne areng ja elukeskkond. – Lauristin, M. (toim.). Eesti inimarengu aruanne 2009. Tallinn: Eesti Koostöökogu, 49–72.</p>
+<p id="Noorkõiv2009">Noorkõiv, R. (toim.) 2009. Regionaalne areng ja elukeskkond. – Lauristin, M. (toim.). Eesti inimarengu aruanne 2009. Tallinn: Eesti Koostöö kogu, 49–72.</p>
 
 <p id="Nugin2014">Nugin, R. 2014. “I think that they should go. Let them see something”. The context of rural youth’s out-migration in post-socialist Estonia. – Journal of Rural Studies, 34, 51–64.</p>
 
@@ -257,5 +259,3 @@ Konkurentsivõimel põhinev lähenemine Euroopa ja Eesti regionaalpoliitikas ei 
 <p id="Plüschke-Altof2018">Plüschke-Altof, B., Grootens, M. 2018. Leading through image making? On the limits of emphasising agency in structurally disadvantaged rural places. – Lang, T., Görmar, F. (eds.). Regional Policy in Times of Social and Spatial Polarisation. Basingstoke: Palgrave Macmillan, 319–341.</p>
 
 <p id="Raagmaa2013">Raagmaa, G., Noorkõiv, R. 2013. Globaliseeruv Eesti küla. Avaneva maailma arenguvõimalused ja ohud. Tallinn: Eesti Külaliikumine Kodukant.</p>
-
-<p id="Säästva-arengu-komisjon2010">Säästva arengu komisjon 2010. Eesti inimvara raport: võtmeprobleemid ja lahendused. Tallinn: Eesti Koostöö Kogu.</p>

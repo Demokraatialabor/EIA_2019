@@ -176,7 +176,7 @@ knitr::include_graphics("figures/1-chapter/fig134.png")
 Maakonnaplaneeringud rõhutavad olemasolevat asustusstruktuuri ja taotlevad uushoonestuse paigutamist kompaktselt kas tiheasumite sisse või vahetusse naabrusse. Nii oleks võimalik luua ruumimudel tervikliku hoonestuse ja linnataristu arendamiseks ning eeldused tõhusaks linnahalduseks. Sama ruumipoliitikat ajavad üldplaneeringud. Tänapäeval on tavapärane, et eeslinnastunud ruumi loomise aluseks on üksikud detailplaneeringud, mis tühistavad suuresti omavalitsuste üldplaneeringute tervikliku ja sidusa asustuse arendamise plaani.
 Maakonnaplaneeringute koostamisel tekkis kaks metoodilist võtit. Asustuste arengut Tallinna ümbruskonnas väljendati hägusate aladega, kuid Tartu laienemisel lähtuti tegelikust olukorrast, märkides juba planeeritud ja perspektiivsed eeslinnasumid maha kehtestatud detailplaneeringute, sidusa maakasutuse ja realistliku vajaduse alusel ([joonis 1.3.5](#figure135)).
 
-<p class="caption" id="figure135"><span class="figure-number">Joonis 1.3.5.</span> Hägusate vs. rangete piiridega maakonnaplaneering ‒ Harjumaa vs. Tartumaa</p>
+<p class="caption" id="figure135"><span class="figure-number">Joonis 1.3.5.</span> Hägusate *vs.* rangete piiridega maakonnaplaneering ‒ Harjumaa *vs.* Tartumaa</p>
 
 ```{r, figure135, out.width='90%', fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
@@ -326,7 +326,7 @@ Inimeste liikuvuse suurenedes keskuslinna-eeslinna teljel teisenevad igapäevase
 
 <p id=”Phelps2011”>Phelps, N. A., Wood, A. M. 2011. The new post-suburban politics? – Urban Studies, 48 (12), 2591–2610.</p>
 
-<p id=”Randolph2012”>Randolph, J. 2012. Environmental Land Use Planning and Management. Washington: Island Press, 746.</p>
+<p id=”Randolph2012”>Randolph, J. 2012. Environmental Land Use Planning and Management. Washington: Island Press.</p>
 
 <p id=”Roose2015”>Roose, A., Noorkõiv, R., Gauk, M. 2015. Tartu eeslinnastumine. – Eesti Statistika Kvartalikiri, 1, 80−109.</p>
 

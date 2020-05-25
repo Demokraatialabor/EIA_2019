@@ -227,5 +227,5 @@ Turvalisust ja heaolu kasvatab eelkõige aktiivne ruumi kasutus ([Worpole ja Kno
 <p id="Ilus2000">Ilus, E. 2000. Rooma eraõiguse alused. Tallinn: Ilo Print.</p>
 <p id="Paaver2013">Paaver, T. 2013. Mis on avalik ruum – avaliku ruumi käsitlustest ruumilises planeerimises. –Roose, A. (toim.). Peatükke planeerimisest. Protsesse, meetodeid ja näiteid. Tartu: Tartu Ülikool, 51–62.</p>
 <p id="Project2007">Project for Public Spaces 2007. What is placemaking? https://www.pps.org/article/what-is-placemaking.</p>
-<p id="United2017">ÜRO 2017. New Urban Agenda. United Nations Conference on Housing and Sustainable Urban Development (Habitat III).</p>
-<p id="Worpole2007">Worpole, K., Knox, K. 2007. The social value of public spaces. Joseph Rowntree Foundation.</p>
+<p id="Worpole2007">Worpole, K., Knox, K. 2007. The social value of public spaces. Joseph Rowntree Foundation. https://www.jrf.org.uk/report/social-value-public-spaces</p>
+<p id="United2017">ÜRO 2017 – New Urban Agenda. United Nations Conference on Housing and Sustainable Urban Development (Habitat III).</p>
