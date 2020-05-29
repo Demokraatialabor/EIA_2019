@@ -1,6 +1,7 @@
 # Aruteluruum {.chapter4 .chapter4_section}
 
 ## Sissejuhatus {-.chapter_section .chapter4_section .intro_section}
+<h1>Aruteluruum</h1>
 
 ```{block, type='authors'}
 **[Indrek Ibrus](#indrek-ibrus)**

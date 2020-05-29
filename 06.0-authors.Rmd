@@ -1,6 +1,6 @@
-# Autorid ja toimetajad {.chapter6 .chapter6_section}
+# Autorid ja toimetajad {.chapter6 .chapter6_section .chapter_section}
 
-### Peatoimetaja {-.chapter_section .chapter6_section .intro_section}
+### Peatoimetaja {-.chapter6_section}
 
 <div class="author-container">
 
@@ -17,7 +17,7 @@ on Tallinna Ülikooli jätkusuutliku arengu prorektor, keskkonnakorralduse profe
 </div>
 </div>
 
-### Peatükkide toimetajad {-.chapter_section .chapter6_section}
+### Peatükkide toimetajad {-.chapter6_section}
 
 <div class="author-container">
 
@@ -94,7 +94,7 @@ on loomaökoloog, Tartu Ülikooli juhtivteadur ja loodusressursside õppetooli j
 </div>
 </div>
 
-### Autorid {-.chapter_section .chapter6_section}
+### Autorid {-.chapter6_section}
 
 <div class="author-container">
 <div>

@@ -29,7 +29,11 @@ p {
   margin-top:0;
 }
 
-.page-inner{
+.body-inner {
+  overflow-x:hidden;
+  }
+  
+  .page-inner{
   width:100% !important;
   max-width:none !important;
   padding:0 !important;
@@ -44,6 +48,14 @@ p {
   max-width:800px;
   margin:auto;
   padding:0 42px 0 42px;
+  overflow-x:hidden;
+}
+
+.intro_section {
+  max-width:800px;
+  margin:auto;
+  padding:0 42px 0 42px;
+  overflow-x:hidden;
 }
 
 /* references layout */
@@ -58,18 +70,19 @@ p {
   display:none;
 }
 
+@media only screen and (max-width: 576px) {
+  .chapter_section, .intro_section, .references {
+    padding:0 21px 0 21px;
+  }
+}
 /* supress code output */
 .chapter_section pre {
   display: none;
 }
 
-h1{ font-size: 4em !important; text-transform: uppercase; line-height: 1em; }
 h2{ max-width: 100%; }
 h3{ max-width: 100%; }
 
-.book .book-body .page-wrapper .page-inner section.normal h1{
-	padding-bottom: 0.2em; margin: 0 0 0.3em 0;
-}
 .book .book-body .page-wrapper .page-inner section.normal h2{
 	font-size: 2em;
 	line-height: 1.2em;
@@ -146,7 +159,7 @@ nav > ul > li{
 .book .book-summary ul.summary > li > ul > li a{
       white-space: normal;
 }
-
+ /* hide title number */
 h1 .header-section-number{ display: none; }
 
 .book .book-summary{
@@ -175,12 +188,6 @@ h3 .header-section-number{
 
 /* Block before intro sections */
 
-.intro_section {
-  max-width:800px;
-  margin:auto;
-  padding:0 42px 0 42px;
-}
-
 .intro_section::before{
   
         content: "";
@@ -196,24 +203,42 @@ h3 .header-section-number{
 	      background-size: 100% auto;
 }
 
-.intro_section h2, .intro_section h1 {
+.intro_section h2 {
         margin-top:52vh !important;
 }
 
-@media only screen and (max-width: 768px) {
-.intro_section::before {
-	      height: 25vh;
-}
-
-.intro_section h2, .intro_section h1 {
-        margin-top:27vh !important;
-}
-}
-
 /* Big headers */
-.intro_section h1 { 
+.intro_section h1 {
+  font-size: 4.5em !important; text-transform: uppercase; line-height: 1em; 
+  color:white;
+  position:absolute;
+	top:15vh;
+  max-width:800px;
   margin:auto;
-  padding:15px 15px 0 15px;}
+}
+
+@media only screen and (max-width: 768px) {
+  
+.intro_section::before {
+	      height: 30vh;
+}
+
+.intro_section h1 {
+  font-size:3em !important;
+  top:7vh;
+}
+.intro_section h2 {
+        margin-top:32vh !important;
+}
+
+}
+
+@media only screen and (max-width: 576px) {
+  .intro_section h1 {
+  font-size:2em !important;
+  top:7vh;
+}
+}
   
 /* authors */
   .authors {
@@ -275,6 +300,9 @@ h3 .header-section-number{
   border-bottom: solid 10px #a7aca5;
   font-size:1.3em;
   margin:20px 15px 20px -33px;
+  padding: 17px 20px 8px 20px;
+  background-color:#e6e3da;
+  border-top-left-radius:15px;
 }
 
 .blockquote-left p {
@@ -290,6 +318,9 @@ h3 .header-section-number{
   border-bottom: solid 10px #a7aca5;
   font-size:1.3em;
   margin:20px -33px 20px 15px;
+  padding: 17px 20px 8px 20px;
+  background-color:#e6e3da;
+  border-top-right-radius:15px;
 }
 
 .blockquote-right p {
@@ -343,7 +374,7 @@ h3 .header-section-number{
     font-weight:medium;
 }
 .casebox h3 {
-    margin-top: 1em;
+    margin-top: 0.5em;
 }
 /* figure caption */
 p.caption {
@@ -448,7 +479,9 @@ p.caption {
 	      background-attachment:fixed;
 }
 
-.chapter1 h1{ border-bottom: 3px solid #482683; }
+.chapter1_section h1{ 
+  color: #482683 !important;
+}
 
 .chapter1_section a {
 	color: #482683 !important;
@@ -572,7 +605,9 @@ p.caption {
 	      background-attachment:fixed;
 }
 
-.chapter2 h1{ border-bottom: 3px solid #369B9E; }
+.chapter2_section h1{ 
+  color: white;
+}
 
 .chapter2_section .authors {
   border-bottom: 3px solid #369B9E;
@@ -627,7 +662,9 @@ p.caption {
 	      background-attachment:fixed;
 }
 
-.chapter3 h1{ border-bottom: 3px solid #79AC2C; }
+.chapter3_section h1{ 
+  color: white;
+}
 
 .chapter3_section .authors {
   border-bottom: 3px solid #79AC2C;
@@ -740,7 +777,9 @@ p.caption {
 	      background-attachment:fixed;
 }
 
-.chapter4 h1{ border-bottom: 3px solid #BC9417; }
+.chapter4_section h1{ 
+  color: #BC9417;
+}
 
 .chapter4_section .authors {
   border-bottom: 3px solid #BC9417;
@@ -796,7 +835,9 @@ p.caption {
 	      background-attachment:fixed;
 }
 
-.chapter5 h1{ border-bottom: 3px solid #A01B17; }
+.chapter5_section h1{ 
+  color: white;
+}
 
 .chapter5_section .authors {
   border-bottom: 3px solid #A01B17;
@@ -843,12 +884,25 @@ p.caption {
 
 /* Chapter 6 - Authors #96CBD2 */
 
-.chapter6.intro_section::before{
-        background-color: #96CBD2;
-	      background-image: url(../images/);
+.chapter6 h1{ 
+  border-bottom: 3px solid #96CBD2; 
+  font-size: 4.5em !important; text-transform: uppercase; line-height: 1em;
+  margin-top:5vh !important;
 }
 
-.chapter6 h1{ border-bottom: 3px solid #96CBD2; }
+
+@media only screen and (max-width: 768px) {
+
+.chapter6 h1 {
+  font-size:3em !important;
+}
+}
+
+@media only screen and (max-width: 576px) {
+.chapter6 h1 {
+  font-size:2em !important;
+}
+}
 
 .chapter6_section .authors {
   border-bottom: 3px solid #96CBD2;
@@ -865,7 +919,7 @@ p.caption {
 }
 
 .author-container {
-  margin-top:75px;
+  margin-bottom:75px;
   font-size:0.9em;
   display:grid;
   grid-column-gap:50px;
@@ -911,9 +965,29 @@ p.caption {
 /* Chapter 7 - INFO #a8aca6 */
 
 
-.chapter6 h7{ border-bottom: 3px solid #a8aca6; }
+.chapter7 h7{ border-bottom: 3px solid #a8aca6; }
 
+.chapter7 h1{ 
+  border-bottom: 3px solid #a8aca6; 
+  font-size: 4.5em !important; text-transform: uppercase; line-height: 1em; 
+  margin-top:5vh !important;
+  margin-bottom:0.5em;
+}
+
+@media only screen and (max-width: 768px) {
+
+.chapter7 h1 {
+  font-size:3em !important;
+}
+}
+
+@media only screen and (max-width: 576px) {
+.chapter7 h1 {
+  font-size:2em !important;
+}
+}
   
+
 .chapter7_section h2,
 .chapter7_section h3
 {

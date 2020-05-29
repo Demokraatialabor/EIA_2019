@@ -1,7 +1,10 @@
 # Eesti elukeskkond aastal 2050 {.chapter5 .chapter5_section}
 
-## Eesti elukeskkond aastal 2050 {-.chapter_section .chapter5_section .intro_section}
+## Sissejuhatus {-.chapter_section .chapter5_section .intro_section}
+<h1>Eesti elukeskkond aastal 2050</h1>
 
+
+### Peamised suundumused {-.chapter5_section}
 <p class="caption" id="figure51"><span class="figure-number">Joonis 5.1.</span> Eesti rahvaarvu muutus 2019–2080</p>
 
 ```{r, figure51, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
@@ -81,3 +84,5 @@ fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohtade p
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Cerrone jt 2019.
 ```
+
+### Eesti 2050 stsenaariumid {-.chapter5_section}

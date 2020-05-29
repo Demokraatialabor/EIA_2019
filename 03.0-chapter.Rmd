@@ -1,7 +1,7 @@
 # Loodusruum kui avalik hüve {.chapter3 .chapter3_section}
 
 ## Sissejuhatus {-.chapter_section .chapter3_section .intro_section}
-
+<h1>Loodusruum kui avalik hüve</h1>
 ```{block, type='authors'}
 **[Asko Lõhmus](#asko-lõhmus)**
 ```

@@ -1,7 +1,7 @@
 # Ruumipoliitikad {.chapter2 .chapter2_section}
 
 ## Sissejuhatus {-.chapter_section .chapter2_section .intro_section}
-
+<h1>Ruumipoliitikad</h1>
 ```{block, type='authors'}
 **[Epp Lankots](#epp-lankots)**
 ```

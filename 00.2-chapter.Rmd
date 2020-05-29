@@ -1,5 +1,8 @@
-## Demokraatia ruum {-.chapter_section .chapter0_section}
+## Sissejuhatus. Eesti ruumiline areng {-.chapter_section .chapter0_section}
 
+```{block, type='authors'}
+**[Helen Sooväli-Sepping](#helen-sooväli-sepping) ja [Antti Roose](#antti-roose)**
+```
 <p class="caption" id="figure05"><span class="figure-number">Joonis 0.5.</span> Tallinna eeslinna asumi vs maa-aleviku rahvastikupüramiid</p>
 
 ```{r, joonis05, fig.cap='', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
