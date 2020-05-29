@@ -165,13 +165,13 @@ Võib-olla muutub aja jooksul ka täieliku omanikuühiskonna eeldus eluaseme- ja
 
 <p id="Ahas2000">Ahas R., Mark, Ü., Albre, N. 2000. Hajalinn Eesti. – Luup, 13, 122.</p>
 
-<p id="Bernt2017">Bernt, M., Colini, L., Forste, D. 2017. Privatization, financialization and state restructuring in Eastern Germany: the case of Amsudpark. – International Journal of Urban and Regional Research, 41 (4), 555–571.</p>
+<p id="Bernt2017">Bernt, M., Colini, L., Förste, D. 2017. Privatization, Financialization and State Restructuring in Eastern Germany: The case of Am südpark. – International Journal of Urban and Regional Research, 41 (4), 555–571.</p>
 
-<p id="Boncinelli2015">Boncinelli, F., Pagnotta, G., Riccioli, F., Casini, L. 2015. The Determinants of quality of life in rural areas from a geographic perspective: the case of Tuscany. – Review of Urban & Regional Development Studies, 27 (2), 104–117.</p>
+<p id="Boncinelli2015">Boncinelli, F., Pagnotta, G., Riccioli, F., Casini, L. 2015. The determinants of quality of life in rural areas from a geographic perspective: the case of Tuscany. – Review of Urban & Regional Development Studies, 27 (2), 104–117.</p>
 
-<p id="ESPON2017">ESPON – European Spatial Planning Observation Network 2017. Policy Brief: Shrinking Rural Regions in Europe. Towards sSart and Innovative Approaches to Regional Development Challenges in Depopulating Rural Regions. </p>
+<p id="ESPON2017">ESPON – European Spatial Planning Observation Network 2017. Policy Brief: Shrinking Rural Regions in Europe. Towards smart and innovative approaches to regional development challenges in depopulating rural regions. </p>
 
-<p id="Hörnström2015">Hörnström, L., Perjo, L. 2015. Nordic Ways of Dealing with Depopulation and Ageing in Rural and Peripheral Areas. Stockholm: Nordregio.</p>
+<p id="Hörnström2015">Hörnström, L., Perjo, L. 2015. Nordic ways of dealing with depopulation and ageing in rural and peripheral areas. Stockholm: Nordregio.</p>
 
 <p id="Kährik2016">Kährik, A., Temelová, J., Kadarik, K., Kubeš, J. 2016. What attracts people to inner city areas? The cases of two post-socialist cities in Estonia and the Czech Republic. – Urban Studies, 53 (2), 355–372.</p>
 
@@ -181,7 +181,7 @@ Võib-olla muutub aja jooksul ka täieliku omanikuühiskonna eeldus eluaseme- ja
 
 <p id="Lihtmaa2018">Lihtmaa, L., Hess, D. B., Leetmaa, K. 2018. Intersection of the Global Climate Agenda with regional development: unequal distribution of energy efficiency-based renovaton subsidies for apartment buildings. – Energy Policy, 119 (8), 327–338.</p>
 
-<p id="Marksoo1985">Marksoo, A. 1985. Rahvastiku rändest. – Raig, I. (toim.). Maaelu: maa sotsiaalse arengu probleeme Eestis. Tallinn: Valgus, 28–34.</p>
+<p id="Marksoo1985">Marksoo, A. 1985. Rahvastiku rändest. – Raig, I. (toim.). Maaelu. Maa sotsiaalse arengu probleeme Eestis. Tallinn: Valgus, 28–34.</p>
 
 <p id="Miggelbrink2016">Miggelbrink, J., Meyer, F. 2016. Lost in complexity? Researching the role of socio-spatial ascriptions in the process of peripheraliztion. – Lang, T., Henn, S., Ehrlich, K., Sgibnev, W. (eds.). Understanding Geographies of Polarization and Peripheralization: Perspectives from Eastern and Central Europe and Beyond. London: Palgrave Macmillan, 62–79.</p>
 
@@ -193,10 +193,10 @@ Võib-olla muutub aja jooksul ka täieliku omanikuühiskonna eeldus eluaseme- ja
 
 <p id="Tiit2015">Tiit, E.-M. 2015. Eesti viimase veerandsajandi välisränne. Statistiline hinnang. – Tammur, A. (toim.). Rahvastiku areng. Tallinn: Statistikaamet, 56–75.</p>
 
-<p id="Tõnurist2014">Tõnurist, A., Servinski, M., Valgma, Ü. 2014. Toimepiirkondade määramine. Tallinn: Siseministeerium ja Statistikaamet.</p>
+<p id="Tintera2019">Tintera, J. 2019. Kahanev elanikkond vajab väiksemat linnaruumi. – Postimees, 23.05.2019. https://arvamus.postimees.ee/6695087/jiri-tintera-kahanev-elanikkond-vajab-vaiksemat-linnaruumi.</p>
 
-<p id="Tintera2019">Tintera, J. 2019. Kahanev elanikkond vajab väiksemat linnaruumi. – Postimees 23.05.2019. https://arvamus.postimees.ee/6695087/jiri-tintera-kahanev-elanikkond-vajab-vaiksemat-linnaruumi.</p>
+<p id="Tõnurist2014">Tõnurist, A., Servinski, M., Valgma, Ü. 2014. Toimepiirkondade määramine. Tallinn: Siseministeerium ja Statistikaamet.</p>
 
 <p id="Velaga2012">Velaga, N. R., Beecroft, M., Nelson, J. D., Corsar, D., Edwards, P. 2012. Transport poverty meets the digital divide: accessibility and connectivity in rural communities. – Journal of Transport Geography, 21 (3), 102–112.</p>
 
-<p id="Watt2016">Watt, P., Minton, A. 2016. London’s housing crisis and its activisms. City, 20 (2), 204–221.</p>
+<p id="Watt2016">Watt, P., Minton, A. 2016. London’s housing crisis and its activisms. – City, 20 (2), 204–221.</p>

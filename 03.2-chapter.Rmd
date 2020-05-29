@@ -73,7 +73,7 @@ Seda metoodikat on Eestis rakendatud näiteks Tallinna Peatänava 2016. aasta ar
 
 Niimoodi mõõdetud tervisekasu või -kahju on võimalik ümber arvestada ka rahasse. Näiteks on välja arvutatud, et Londoni kesklinna rohealad vähendavad tervisekahju ja kulutusi Suurbritannia haigekassale hinnanguliselt 1,82 miljoni naela väärtuses (<a href="https://www.gov.uk/government/organisations/natural-england">Natural England</a>). Hollandi loodusalade suurendamine praeguselt 13,9%-lt territooriumist 10% võrra aitaks aastas ära hoida ligikaudu 84 000 perearsti poole pöördumist ja säästa 65 miljonit eurot haigekassa kulutustelt (<a href="https://home.kpmg/nl/nl/home.html">www.kpmg.nl</a>).
 
-<p class="caption" id="figure323"><span class="figure-number">Joonis 3.2.3.</span> Tallinna kesklinna peenosakeste (PM10) aasta keskmine sisaldus (μg/m3) ja müratasemed (dB(A)) päeval (Ld 7.00–23.00)</p>
+<p class="caption" id="figure323"><span class="figure-number">Joonis 3.2.3.</span> Tallinna kesklinna peenosakeste (PM10) aasta keskmine sisaldus (μg/m3) ja müratase (dB(A)) päeval (Ld 7.00–23.00)</p>
 
 ```{r, figure323, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -119,7 +119,7 @@ Kuigi seoses linnastumisega vähenevad inimeste kokkupuuted looduskeskkonnaga, n
 
 <p id="Chiabai2018">Chiabai, A., Quigora, S., Martinez-Juarez, P., Higgins, S., Taylor, T. 2018. The nexus between climate change, ecosystem services and human health: towards a conceptual framework. – Science of the Total Environment, 635, 1191−1204.</p>
 
-<p id="Clayton2017">Clayton, S., Manning, C. M., Krygsman, K., Speiser, M. 2017. Mental Health and Our Changing Climate: Impacts, Implications, and Guidance. Washington: American Psychological Association, and ecoAmerica.</p>
+<p id="Clayton2017">Clayton, S., Manning, C. M., Krygsman, K., Speiser, M. 2017. Mental Health and Our Changing Climate: Impacts, Implications, and Guidance. Washington: American Psychological Association, ecoAmerica.</p>
 
 <p id="Davis2014”>Davis, J. (ed.) 2014. Young Children and the Environment: Early Education for Sustainability. Cambridge: Cambridge University Press.</p>
 
@@ -131,7 +131,7 @@ Kuigi seoses linnastumisega vähenevad inimeste kokkupuuted looduskeskkonnaga, n
 
 <p id="Kantar2017">Kantar Emor 2017. Elanikkonna hädaolukorraks valmisoleku alase teadlikkuse indeksuuring 2017.</p>
 
-<p id="Orru2016">Orru, H., Kaasik, M., Pindus, M., Tamm, T., Kärbla, V. 2016a. Tallinna kesklinna ja Vanasadama vahelise liikumisruumi õhusaaste ja müra muutuste modelleerimine Tallinna uue peatänava rajamisel ning sellest tulenevate tervisemõjude vähenemise hindamine. Tartu Ülikool: Peremeditsiini ja rahvatervishoiu instituut.</p>
+<p id="Orru2016">Orru, H., Kaasik, M., Pindus, M., Tamm, T., Kärbla, V. 2016a. Tallinna kesklinna ja Vanasadama vahelise liikumisruumi õhusaaste ja müra muutuste modelleerimine Tallinna uue peatänava rajamisel ning sellest tulenevate tervisemõjude vähenemise hindamine. Tartu Ülikool: Peremeditsiini ja Rahvatervishoiu Instituut.</p>
 
 <p id="Orru2015">Orru, K., Lilleoja, L. 2015. Contextual drivers of environmental values cross-culturally: evidence from Europe between 2004 and 2012. – Studies of Transition States and Societies, 7 (3), 38−51.</p>
 

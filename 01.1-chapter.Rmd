@@ -233,7 +233,7 @@ Lisaks toetavad maastike säilimist kaitsealad. Kogu Eesti maismaast on kaitse a
 
 </table>
 </div>
-*Koos Pandivere veekaitsealaga.
+* Koos Pandivere veekaitsealaga.
 
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> EELIS 2019; Maa-amet 2019.
@@ -259,9 +259,9 @@ Tulevikku vaadates väga pöördelisi muutusi maastikku muutvates trendides ilms
 
 <p id="Antrop2004">Antrop, M. 2004. Landscape change and the urbanization process in Europe. – Landscape and Urban Planning, 67 (1–4), 9–26.</p>
 
-<p id="CORINE">CORINE Land Cover – COoRdination of INformation on the Environment. – European Union Earth Observation Programme Copernicus Land Monitoring Service Pan-European Component.</p>
+<p id="CORINE">CORINE Land Cover – COoRdination of INformation on the Environment. European Union Earth Observation Programme Copernicus Land Monitoring Service Pan-European Component.</p>
 
-<p id="Marksoo">Marksoo, A. 2005. Linnasiire. – Pullerits, H. (koost. ja toim.), Tõnisson, U., Liim, A., Andresen, A. (toim.). Tartu: ajalugu ja kultuurilugu. Tartu: Tartu Linnamuuseum ja Ilmamaa.</p>
+<p id="Marksoo">Marksoo, A. 2005. Linnasiire. – Pullerits, H. (koost. ja toim.), Tõnisson, U., Liim, A., Andresen, A. (toim.). Tartu. Ajalugu ja kultuurilugu. Tartu: Tartu Linnamuuseum, Ilmamaa.</p>
 
 <p id="Oja2009">Oja, T. 2009. Maakasutuse muutused (ptk 7.2). Valglinnastumine (ptk 7.3). – Kaukver, K. (toim.). Keskkonnaülevaade 2009. Tallinn: Keskkonnaministeeriumi Info- ja Tehnokeskus, 115–123.</p>
 
