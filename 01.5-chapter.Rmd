@@ -315,7 +315,7 @@ Valglinnastumine ja sellega seotud autostumine mõjutab linnakeskuste avaliku ru
 ```{block, type='blockquote-left'}
 Avaliku ruumi, sealhulgas tänavaruumi kvaliteet mõjutab oluliselt inimeste valmidust, soovi ja võimalust linnaruumis liikuda ja viibida.
 ```
-Eesti suuremates linnades on liikuvuse arendamine siiani lähtunud jätkuvast autostumise kasvu prognoosist. Suured Tallinna teeprojektid, nagu Reidi tee, Haabersti ringristmik ja planeeritav Rävala läbimurre, samuti Tartut läbiv riikliku maantee osaks olev Ringtee, illustreerivad poliitilist soovi parandada just autoliikumise kvaliteeti. Nende väga kulukate tee-ehitusprojektide kõrval jäävad vajaliku tähelepanuta võimalused soodustada teisi liikumisviise, mis oleksid võrdselt kasutatavad nii väiksema kui ka suurema sissetulekuga inimestele. Tee-ehituse suurvormid lõhuvad jalakäijale sobivat inimmõõtmelist ruumi ja soodustavad autosõitu seetõttu veelgi. Planeeringutes on reeglina parkimiskohtade arv määratud normide järgi, arvestamata planeeringu asukohta või ühistranspordi lähedust. Meetmed, nagu asustuse planeerimine ühistranspordi lähedusse või jalgrattateede rajamine ja korrastamine, aitaksid soosida mitmekesist liikumisviiside valikut. Ning seega vähendada vajadust omada ja kasutada isiklikku autot. Täna räägitakse nii linna, eeslinna kui ka maapiirkonna planeeringutes jalgratturitest ja jalakäijatest pigem ohutuse vaatepunktist. Kergliiklustaristu strateegiline eelisarendamine alternatiiviks autoga liiklemisele ei ole üheski omavalituses prioriteetne.
+Eesti suuremates linnades on liikuvuse arendamine siiani lähtunud jätkuvast autostumise kasvu prognoosist. Suured Tallinna teeprojektid, nagu Reidi tee, Haabersti ringristmik ja planeeritav Rävala läbimurre, samuti Tartut läbiv riikliku maantee osaks olev Ringtee, illustreerivad poliitilist soovi parandada just autoliikumise kvaliteeti. Nende väga kulukate tee-ehitusprojektide kõrval jäävad vajaliku tähelepanuta võimalused soodustada teisi liikumisviise, mis oleksid võrdselt kasutatavad nii väiksema kui ka suurema sissetulekuga inimestele. Tee-ehituse suurvormid lõhuvad jalakäijale sobivat inimmõõtmelist ruumi ja soodustavad autosõitu seetõttu veelgi. Planeeringutes on reeglina parkimiskohtade arv määratud normide järgi, arvestamata planeeringu asukohta või ühistranspordi lähedust. Meetmed, nagu asustuse planeerimine ühistranspordi lähedusse või jalgrattateede rajamine ja korrastamine, aitaksid soosida mitmekesist liikumisviiside valikut. Ning seega vähendada vajadust omada ja kasutada isiklikku autot. Täna räägitakse nii linna, eeslinna kui ka maapiirkonna planeeringutes jalgratturitest ja jalakäijatest pigem ohutuse vaatepunktist. Kergliiklustaristu strateegiline eelisarendamine alternatiiviks autoga liiklemisele ei ole üheski omavalitsuses prioriteetne.
 
 Autosõiduks mõeldud tänavate kõrval pole loodud piisavalt konkurentsivõimelisi ja atraktiivseid alternatiive jalgsi ja rattaga liikumiseks, kuigi tipptundidel ning alla 3-kilomeetristel distantsidel on jalgratas üks kiiremaid liikumisviise ([joonis 1.5.8](#figure158)). Tallinna linna andmetel (vt statistikakogumik „Tallinn arvudes 2018“) oli 2017. aasta seisuga 273 km jalg- ja jalgrattateid, millest peaaegu 90% olid jalakäijatega jagatud kergliiklusteed.
 
@@ -383,13 +383,13 @@ On tõsi, et auto on liikuvuse võimaldaja teatud olukordades, kindlasti osa eak
 
 <p id="Banister2008">Banister, D. 2008. The sustainable mobility paradigm. – Transport Policy, 15 (2), 73–80.</p>
 
-<p id="Bassett2008">Bassett, D. R., Pucher, J., Buehler, R., Thompson, D. L., Crouter. S. E. 2008. Walking, cycling, and obesity rates in Europe, North America, and Australia. – Journal of Physical Activity and Health, 5 (6), 795–814.</p>
+<p id="Bassett2008">Bassett, D. R., Pucher, J., Buehler, R., Thompson, D. L., Crouter., S. E. 2008. Walking, cycling, and obesity rates in Europe, North America, and Australia. – Journal of Physical Activity and Health, 5 (6), 795–814.</p>
 
 <p id="Discovering2010">Discovering Urbanism 2010. From a mobility to an accessibility orientation. http://discoveringurbanism.blogspot.com/2010/02/from-mobility-to-accessibility.html.</p>
 
 <p id="ECF2013">ECF – European Cyclist Federations 2013. The benefits of cycling: unlocking their potential for Europe. https://ecf.com/resources/cycling-facts-and-figures.</p>
 
-<p id="ELTIS2019">Eltis – The Urban Mobility Observatory 2019. The SUMP [Sustainable Urban Mobility Plan] concept and guidelines. https://www.eltis.org/mobility-plans/sump-concept.</p>
+<p id="ELTIS2019">Eltis – The Urban Mobility Observatory 2019. The Sustainable Urban Mobility Plan concept and guidelines. https://www.eltis.org/mobility-plans/sump-concept.</p>
 
 <p id="Farrington2007">Farrington, J. H. 2007. The new narrative of accessibility: its potential contribution to discourses in (transport) geography. – Journal of Transport Geography, 15 (5), 319–30.</p>
 
@@ -409,11 +409,11 @@ On tõsi, et auto on liikuvuse võimaldaja teatud olukordades, kindlasti osa eak
 
 <p id="Otsus2016">Otsus, E. 2016. Tallinna jalgrattateede sidusus. Bakalaureusetöö. Tartu Ülikool.</p>
 
-<p id="Poom2017">Poom, A. 2017. Spatial Aspects of the Environmental Load of Consumption and Mobility. PhD-thesis. Tartu: University of Tartu Press.</p>
+<p id="Poom2017">Poom, A. 2017. Spatial Aspects of the Environmental Load of Consumption and Mobility. PhD thesis. Tartu: University of Tartu Press.</p>
 
-<p id="Pucher2005">Pucher, J., Buehler, R. 2005. Transport policies in Central and Eastern Europe. – Button, K. J., Hensher, D. A. (eds.). Transport Strategy, Policy, and Institutions). Oxford: Elsevier Press, 725–744.</p>
+<p id="Pucher2005">Pucher, J., Buehler, R. 2005. Transport policies in Central and Eastern Europe. – Button, K. J., Hensher, D. A. (eds.). Transport Strategy, Policy, and Institutions. Oxford: Elsevier Press, 725–744.</p>
 
 <p id="Rakendusliku2018">Rakendusliku antropoloogia keskus 2018. Liikuvusuuring Saaremaal nõudluspõhise transpordi korraldamiseks.. http://www.antropoloogia.ee/uuringud.</p>
 
 
-<p id="TNS2015">TNS Emor 2015. Liikumisviiside uuring elektrisõidukite lühirendi ja säästva transpordi kasutamise arendamiseks Tallinnas. Tallinn: Majandus- ja Kommunikatsiooniministeerium ja KredEx.</p>
+<p id="TNS2015">TNS Emor 2015. Liikumisviiside uuring elektrisõidukite lühirendi ja säästva transpordi kasutamise arendamiseks Tallinnas. Tallinn: Majandus- ja Kommunikatsiooniministeerium, KredEx.</p>

@@ -106,7 +106,7 @@ Kõrgendatud avaliku huviga aladeks on 3,5% RMK hallatavaid metsamaid, mis külg
 
 Suur osa Eesti riigi omandis olevate loodusalade haldusest on delegeeritud Riigimetsa Majandamise Keskusele (RMK) ehk eraõiguslikule juriidilisele isikule. Era- ja avalike, riiklike ja kohalike huvide tasakaalustamiseks metsamaa majandamisel on RMK alates 2017. aastast määratlenud kõrgendatud avaliku huviga alad (KAH alad) ning nende majandamisvõtted. Sellisteks aladeks on RMK hallatavad metsamaad, mis külgnevad puhkemetsade, tiheasustusalade või eramutega või mis on olulised kultuuripärandi seisukohast. Nende alade majandamiseks on kogukonnaga kokku lepitud rangemad ja enam konteksti arvestavad põhimõtted. Alade majandamisel tähtsustatakse huvirühmade kaasamist ja maastikuga arvestamist, kuid neid alasid ei jäeta majandamisest välja. 2019. aasta alguseks on RMK teatel kõrgendatud avaliku huviga aladena määratletud 51 134 hektarit metsamaad, mis moodustab 3,5% kogu RMK hallatavast metsamaast.
 
-<p class="caption" id="figure334"><span class="figure-number">Joonis 3.3.4.</span> Avalik-õiguslike asutuste ja RMK tööjaotus loodusalade maakasutuse ja kaitse planeerimisel ning korraldusel</p>
+<p class="caption" id="figure334"><span class="figure-number">Joonis 3.3.4.</span> Avalik-õiguslike asutuste ja RMK tööjaotus loodusalade maakasutuse ja kaitse planeerimisel ja korraldamisel</p>
 
 ```{r, figure334, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -214,13 +214,13 @@ Eestis kehtivad ruumilise planeerimise ja looduskaitse nõuded, mis toetavad loo
 
 <p id="ECTP-CEU2013">ECTP-CEU 2013. Euroopa planeerimise harta: visioon Euroopa linnade ja piirkondade jaoks 21. sajandil. Barcelona: Euroopa Ruumiliste Planeerijate Nõukogu.</p>
 
-<p id="European2019">European Environmental Agency 2019. Share of country designated as terrestrial protected area and the overlap between Natura 2000 or Emerald sites and national designations. https://www.eea.europa.eu/ds_resolveuid/13e289d0367a4cf2b4ddfb7aac31efee.</p>
+<p id="European2019">EEA – European Environmental Agency 2019. Share of country designated as terrestrial protected area and the overlap between Natura 2000 or Emerald sites and national designations. https://www.eea.europa.eu/ds_resolveuid/13e289d0367a4cf2b4ddfb7aac31efee.</p>
 
-<p id="Irbis2017">Irbis Konsultatsioonid OÜ, Tartu Ülikooli Sotsiaalteaduslike rakendusuuringute keskus, Hendrikson & Ko OÜ 2017. Arengu ruumiline ja strateegiline kavandamine, sh regionaaltasandi funktsioonid ruumilise arengu suunamisel. Aruanne Rahandusministeeriumile. Tartu–Tallinn. https://planeerimine.ee/static/sites/2/arengu-ruumiline-ja-strateegiline-kavandamine-1.pdf.</p>
+<p id="Irbis2017">Irbis Konsultatsioonid OÜ, Tartu Ülikooli Sotsiaalteaduslike rakendusuuringute keskus, Hendrikson & Ko OÜ 2017. Arengu ruumiline ja strateegiline kavandamine, sh regionaaltasandi funktsioonid ruumilise arengu suunamisel. Aruanne Rahandusministeeriumile. https://planeerimine.ee/static/sites/2/arengu-ruumiline-ja-strateegiline-kavandamine-1.pdf.</p>
 
-<p id="Kask2015">Kask, O., Lopman, E., Relve, K., Kuusk, P., Triipan, M., Vaarmari, K., Vahtrus, S., Veinla, H., 2015. Keskkonnaseadustiku üldosa seaduse kommentaarid. Tartu: Keskkonnaõiguse Keskus.</p>
+<p id="Kask2015">Kask, O., Lopman, E., Relve, K., Kuusk, P., Triipan, M., Vaarmari, K., Vahtrus, S., Veinla, H. 2015. Keskkonnaseadustiku üldosa seaduse kommentaarid. Tartu: Keskkonnaõiguse Keskus.</p>
 
-<p id="Kutsar2018">Kutsar, R., Metspalu, P., Eschbaum, K., Vahtrus, S., Sepp, K. 2018. Rohevõrgustiku planeerimisjuhend. Tallinn–Tartu: Keskkonnaagentuur, Hendrikson & Ko OÜ.</p>
+<p id="Kutsar2018">Kutsar, R., Metspalu, P., Eschbaum, K., Vahtrus, S., Sepp, K. 2018. Rohevõrgustiku planeerimisjuhend. Tallinn, Tartu: Keskkonnaagentuur, Hendrikson & Ko OÜ.</p>
 
 <p id="Levald2018">Levald, A. 2018. Kohandav planeerimine ja ruumiloome kahaneva rahvastikuga piirkondades. – Ettekanne Riigikogu probleemkomisjoni istungil Toompeal 3.12.2018. Tallinn: Rahandusministeerium.</p>
 
@@ -228,8 +228,8 @@ Eestis kehtivad ruumilise planeerimise ja looduskaitse nõuded, mis toetavad loo
 
 <p id="Mander2018">Mander, Ü., Kull, A., Uuemaa, E., Mõisja, K., Külvik, M., Kikas, T., Raet, J., Tournebize, J., Sepp, K. 2018. Green and brown infrastructures support a landscape-level implementation of ecological engineering. – Ecological Engineering, 120, 23–35.</p>
 
-<p id="Nuga2015">Nuga, M., Metspalu, P., Org, A., Leetmaa, K. 2015. Planning post-summurbia: from spontaneous pragmatism to collaborative planning? Moravian Geographical Reports, 23 (4), 36−46.</p>
+<p id="Nuga2015">Nuga, M., Metspalu, P., Org, A., Leetmaa, K. 2015. Planning post-summurbia: from spontaneous pragmatism to collaborative planning? – Moravian Geographical Reports, 23 (4), 36−46.</p>
 
 <p id="Rahandusministeerium2019">Rahandusministeerium 2019. Ruumilise planeerimise rohelise raamatu eelnõu 26.07.2019. https://planeerimine.ee/prr.</p>
 
-<p id="Riigikontroll2015">Riigikontroll 2015. Kallasradade kasutamine. Kas omavalitsused ja Keskkonnainspektsioon on teinud kõik endast sõltuva, et inimene pääseks randa ja saaks kallasrajal liikuda? Riigikontrolli aruanne Riigikogule. Tallinn, 8. detsember 2015.</p>
+<p id="Riigikontroll2015">Riigikontroll 2015. Kallasradade kasutamine. Kas omavalitsused ja Keskkonnainspektsioon on teinud kõik endast sõltuva, et inimene pääseks randa ja saaks kallasrajal liikuda? Riigikontrolli aruanne Riigikogule. Tallinn, 08.12.2015.</p>
