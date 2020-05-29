@@ -243,11 +243,10 @@ h3 .header-section-number{
 /* authors */
   .authors {
   font-size:1.2em;
-  color: black;
   margin-top:-10px;
   margin-bottom: 20px;
 }
- 
+
 /* points */
   .points {
     margin-bottom:5em;
@@ -442,10 +441,11 @@ p.caption {
 
  .chapter0_section .authors a {
    color: black !important;
+    text-decoration:underline !important;
  }
  
   .chapter0_section .authors a:hover {
-   text-decoration:none !important;
+    color:#3a404a !important;
  }
 
 .chapter0_section .figure-number {
@@ -499,10 +499,11 @@ p.caption {
 
  .chapter1_section .authors a {
    color: black !important;
+    text-decoration:underline !important;
  }
  
   .chapter1_section .authors a:hover {
-   text-decoration:none !important;
+    color:#3a404a !important;
  }
 
 .chapter1_section .figure-number {
@@ -625,11 +626,13 @@ p.caption {
 
  .chapter2_section .authors a {
    color: black !important;
+    text-decoration:underline !important;
  }
  
   .chapter2_section .authors a:hover {
-   text-decoration:none !important;
+    color:#3a404a !important;
  }
+
 
 .chapter2_section .figure-number {
 	color: #369B9E !important;
@@ -682,10 +685,11 @@ p.caption {
 
  .chapter3_section .authors a {
    color: black !important;
+    text-decoration:underline !important;
  }
  
   .chapter3_section .authors a:hover {
-   text-decoration:none !important;
+    color:#3a404a !important;
  }
 
 .chapter3_section .figure-number {
@@ -797,10 +801,11 @@ p.caption {
 
  .chapter4_section .authors a {
    color: black !important;
+    text-decoration:underline !important;
  }
  
   .chapter4_section .authors a:hover {
-   text-decoration:none !important;
+    color:#3a404a !important;
  }
  
 .chapter4_section .figure-number {
@@ -855,11 +860,13 @@ p.caption {
 
  .chapter5_section .authors a {
    color: black !important;
+    text-decoration:underline !important;
  }
  
   .chapter5_section .authors a:hover {
-   text-decoration:none !important;
+    color:#3a404a !important;
  }
+
 
 .chapter5_section .figure-number {
 	color: #A01B17 !important;
