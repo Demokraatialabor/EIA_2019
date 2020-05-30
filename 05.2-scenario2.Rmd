@@ -1,4 +1,4 @@
-## Ühe tunni Eesti {.chapter_section .chapter5_section}
+## Ühe tunni Eesti {-.chapter_section .chapter5_section}
 Rahvastik linnades: 80%
 Varanduslik kihistumine: väike
 Ruumiline ebavõrdsus: väike

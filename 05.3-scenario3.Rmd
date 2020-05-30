@@ -1,4 +1,4 @@
-## Krattide ja Marakrattide Eesti {.chapter_section .chapter5_section}
+## Krattide ja Marakrattide Eesti {-.chapter_section .chapter5_section}
 
 Rahvastik linnades: 70%
 Varanduslik kihistumine: suur

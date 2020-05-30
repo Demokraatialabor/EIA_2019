@@ -74,7 +74,10 @@ p {
   .chapter_section, .intro_section, .references {
     padding:0 21px 0 21px;
   }
-}
+  
+  h1, h2 {
+    margin-top:2em!important;
+  }}
 /* supress code output */
 .chapter_section pre {
   display: none;
@@ -178,12 +181,6 @@ h3 .header-section-number{
 	color: inherit;
 	font-size: 1em;
 	line-height: 1em;
-}
-
-/* title page */
-
-.title {
-  display:none !important;
 }
 
 /* Block before intro sections */
@@ -421,16 +418,57 @@ p.caption {
 .subreferences p {
   text-align:left;
 }
+/* title page */
+
+.title {
+  display:none !important;
+}
+/* Foreword - #0872ba */
+
+.foreword_section h2 {
+	color: #0872ba;
+}
+
+.foreword_section .authors {
+  border-bottom: 3px solid #0872ba;
+  }
+  
+.president-photo-container {
+  float:right;
+  width:300px;
+}
+
+.president-photo-container img {
+  width:100%;
+  border-top-right-radius:30px;
+  margin:0;
+  padding-left:5px;
+}
+
+@media only screen and (max-width: 576px) {
+.president-photo-container {
+  float:none;
+  display:block;
+  width:90%;
+  margin:auto;
+  padding:0;
+}
+}
+
+#head-lugemist {
+  font-size:2em;
+  color:#0872ba;
+}
 
 /* Chapter 0 - INTRO  #C54409 */
 
-.chapter0.intro_section::before{
-        background-color: #C54409;
-	      *background-image: url();
+.chapter0_section.intro_section::before{
+	      background-image: url(figures/0-intro/chapter0_cover.jpg);
+	      background-attachment:fixed;
 }
 
-.chapter0 h1{ 
-  border-bottom: 3px solid #C54409;
+.chapter1_section h1{ 
+  color: white !important;
 }
 
 .chapter0_section .authors {
@@ -447,14 +485,21 @@ p.caption {
 	color: #C54409 !important;
 }
 
- .chapter0_section .authors a {
+.chapter0_section .authors a {
    color: black !important;
     text-decoration:underline !important;
  }
  
-  .chapter0_section .authors a:hover {
+.chapter0_section .authors a:hover {
     color:#3a404a !important;
  }
+
+.bullet-heading::before  {
+  content: "\2022  "; 
+  color: #C54409;
+  font-weight: bold;
+  width: 2em;
+  }
 
 .chapter0_section .figure-number {
 	color: #C54409 !important;

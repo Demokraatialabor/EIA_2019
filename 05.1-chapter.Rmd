@@ -1,4 +1,4 @@
-## Vabatahtlikult linnadesse sunnitud Eesti {.chapter_section .chapter5_section}
+## Vabatahtlikult linnadesse sunnitud Eesti {-.chapter_section .chapter5_section}
 Vabatahtlikult linnadesse sunnitud Eesti
 
 Rahvastik linnades: 80%

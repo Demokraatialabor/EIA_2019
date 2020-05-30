@@ -1,8 +1,15 @@
-## Eessõna {-.chapter_section .chapter0_section}
+## Eessõna {-.chapter_section .foreword_section}
 
 ```{block, type='authors'}
 **Kersti Kaljulaid**
 ```
+
+<div class="president-photo-container">
+```{r, out.width='50%', fig.align='left'}
+knitr::include_graphics('figures/0-intro/Kersti_Kaljulaid_ametlik_2019.jpg')
+```
+</div>
+
 Kallis lugeja!
 
 Kirjutan neid ridu kroonviirushaiguse puhangu esimese laine viimastel nädalatel. See aruanne on valminud valdavalt enne pandeemiat, erandiks vaid sissejuhatus ja käesolev eessõna.
@@ -21,7 +28,7 @@ Kallis lugeja – Sa ei leia neile küsimustele siit aruandest vastuseid. Aga Sa
 
 <span id="head-lugemist">Head lugemist!</span>
 
-Kersti Kaljulaid
+**Kersti Kaljulaid**<br>
 Vabariigi President
 
 Kadriorus, 11. mail 2020

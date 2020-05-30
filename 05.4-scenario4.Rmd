@@ -1,4 +1,4 @@
-## Isemajandav Eesti {.chapter_section .chapter5_section}
+## Isemajandav Eesti {-.chapter_section .chapter5_section}
 
 Rahvastik linnades: 60%
 Varanduslik kihistumine: väike, aga ühiskond pole kuigi rikas
