@@ -1,13 +1,34 @@
-## Vabatahtlikult linnadesse sunnitud Eesti {-.chapter_section .chapter5_section}
-Vabatahtlikult linnadesse sunnitud Eesti
+## Eesti 2050 stsenaariumid {-.chapter_section .chapter5_section }
 
-Rahvastik linnades: 80%
-Varanduslik kihistumine: suur
-Ruumiline ebavõrdsus: suur
-Hea avalik ruum: privilegeeritutele
-Andmed: suurettevõtetel „kõikenägev silm“, õigused ebavõrdselt jaotunud
-Ühiskonna kulutused baastaristule: suured ja kasvavad
-Sotsiaal-majanduslik efektiivsus: vähene
-Säästva arengu eesmärgid: ei ole saavutatud, kuigi mõni valdkond on teistest tugevam
- 
-„Nähtamatu käe“ juhtimisel on eestlased ja ka üsna paljud uuseestlased kogunenud Tallinna, Tartu ja Pärnu linnaregiooni – hoogne elamuarendus on haaranud linnalähedased põllud, kuid ajaloolised linnad ise ei ole samas tempos kasvanud. Puuduvate kesklinnade asemel saadakse kokku kauba- ja meelelahutuskeskustes. Linnaväljakute asemel vajatakse parklaid ja laiu teid, sest tavaline eestlane ei taha näha vaeseid ja võõraid. Pealegi on tänaval ohtlik. Regioonid on tugevalt kihistunud: jõukam rahvas elab heade koolide, tenniseklubide ja kaunite rohealade piirkonnas, mille ümber on aed ja valvurid. Linnad ise on rõhuvas osas vaeste ja uussisserändajate elukorterite päralt, äärelinnades on kehvad koolid, kehvad ühendused ja ohtlik õhtuti väljas käia. Tallinn ja Pärnu on hästi maailmaga ühendatud – Helsingi tunnel ja Rail Baltica loovad hea ühenduse neile, kes selle eest maksta jaksavad. Ent Tartussegi saab kiirelt rongiga või isikliku droonikapsliga. Inimestel ei ole märkimisväärset ühistunnet, pigem õigustatakse rikkust tubliduse ja vaesust laiskusega. Nende n-ö laisemate andmed on igaühele müügiks, peenem rahvas maksab teatava privaatsuse eest suurettevõtetele lunaraha. Ühiskonda vaevavad elustiilihaigused ja kuivõrd puudub toetav küünarnukitunne, siis tunneb suurem osa eestimaalasi end üksikuna. SKP asemel ühiskonna edukuse peamiseks mõõdupuuks saanud õnneindeksis on Eestis mitu aastat järjest kukkunud ning langemist ei pidurda ka suuremat ühtsust taotlevad kampaaniad.
+```{block, type='authors'}
+**[Kristi Grišakov](#kristi-grišakov) ja [Mihkel Kaevats](#mihkel-kaevats)** (stsenaariumitekstid)
+```
+
+Eelnevalt kirjeldatud muutuste mõju näitlikustamiseks on koostatud neli stsenaariumi. Need on avastuslikud ([Börjeson 2006](#Börjeson2006)) ja illustreerivad võimalikult erinevaid tulevikutrajektoore. Avastuslikud stsenaariumid erinevad teistest stsenaariumitüüpidest (prognoosidest ja normatiivsetest stsenaariumidest) sellepoolest, et nad keskenduvad eri muutujate koosmõjule ega määra kindlaks konkreetset eesmärki, mis peab kõigis stsenaariumides olema saavutatud (samas). Avastuslike stsenaariumide roll on näitlikustada iga telje võimalikke äärmusi, mis ei pruugi tegelikkuses kirjeldatud viisil realiseeruda. Näiteks avaliku ruumi puhul on raske ette kujutada täielikult individualistlikku (liberaalset) või täielikult kogukondliku kasutust, küll aga võidakse kalduda rohkem ühte või teise suunda.
+
+```{block, type='blockquote-left'}
+Avastuslike stsenaariumide roll on näitlikustada iga telje võimalikke äärmusi.
+```
+Stsenaariumide teljed on valitud selliselt, et need haaravad kombineeritult nii laiemal skaalal Eesti asustusstuktuuris toimuvaid muutusi kui ka kitsamal skaalal avaliku ruumiga toimuvat. Ülemaailmse haardega muutusi (nt kliimamuutus, isejuhtivad sõidukid) kasutatakse tulevikulugudes valikuliselt selleks, et illustreerida muutuste koosmõju tagajärgi. Stsenaariumide teljed valiti ja esialgsed kavandid koostati kõigi käesoleva aruande peatüki toimetajate töötubade raames ([joonis 5.5](#figure55)). 
+
+Stsenaariumides mainitud õnneindeks ei ole konkreetne indeks, vaid tulevikumaailmas kasutatav uus indeks, mis kombineerib vastutustundliku majanduskasvu, säästva arengu näitajad ja inimeste hinnangu oma elu õnnelikkusele ning füüsilisele ja vaimsele tervisele. 
+
+### Tulevikustsenaarumide põhiteljed on asustusstruktuur ja avalik ruum {-.chapter5_section }
+
+Kahe telje ristumisel tekib neli stsenaariumi. Eesti elu erinevates tulevikes kirjeldatakse lugude kaudu. Stsenaariumilood kirjeldavad tulevikku olevikuvormis, kas üldise kirjelduse või mõne tegelase silme läbi ([Schwartz 1991](#Schwartz1991)). Stsenaariumid kirjutatakse taotluslikult reljeefsete lugudena, et tuua välja nende erinevused ning ärgitada lugejat kaasa mõtlema. Stsenaariumide eesmärk on teadvustada võimalike muutuste tagajärgi. 
+
+Asustusstruktuuri telg näitab elanike elukohavalikut ja regionaalse arengu suundumust. Telje ülemine ots lähtub prognoosidest ([Statistikaamet 2018](#Statistikaamet2018a)), mille kohaselt rahvastik koondub suurematesse linnadesse. Seejuures kasvavad hoogsamalt linnaregioonid, kuid linnade keskuste kasv jääb pigem mõõdukaks. Telje alumine ots (elu maal) lähtub tasakaalustatud regionaalsest arengust, kus linnaliste asustuspiirkondade rahvastik protsentuaalselt ei kasva või pigem kahaneb. Selle suundumuse ellurakendumiseks on vaja linnade konkurentsieelise tasakaalustamist näiteks hajainnovatsiooni näol, kus innovatsiooniprojektide, teenuste ja majandustegevuse mitmekesistamiseks suunatakse investeeringuid kahanevatesse keskustesse ja hajaasustusse. Praegu elab linnalistes ja väikelinnalistes asustuspiirkondades 69% rahvastikust ([Statistikaamet, 2019](#Statistikaamet2019)), Tallinna, Tartu ja Pärnu maakonnas 45% rahvastikust. Aastal 1989 elas linnalistes asustuspiirkondades 71% rahvastikust. Statistikaameti 2019. aasta rahvastikuprognoosi baasstsenaariumi järgi on nende nimetatud kolme maakonna rahvastiku osatähtsus 2040. aastaks 71%.
+
+Avaliku ruumi telg näitab avaliku ruumi rolli ühiskonnas, keskendudes spetsiifilisemalt andmete, liikuvuse ja ligipääsetavuse küsimustele. Telje individuaalse ruumi otsas on tavakodanikul ligipääs avalikule ruumile ja teenustele vastavalt isiklikule tarbimisvõimekusele. Ligipääs andmetele, liikuvusteenustele ja avalikule ruumile (nt rohealad) oleneb sissetulekust ja sotsiaalsest staatusest. Telje jagatud ruumi otsas on kõigile ühiskonnaliikmetele tagatud võrdne ligipääs avalikule hüvele nii andmete, avaliku ruumi kui ka liikuvusteenuste puhul. Kogukonna liikmeks olek ja ühistegevustesse panustamine on väärtustatud. 
+
+<p class="caption" id="figure55"><span class="figure-number">Joonis 5.5.</span> Eesti 2050 elukeskkonna stsenaariumid asustusstruktuuri ja avaliku ruumi teljel</p>
+
+```{r, figure55, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
+
+knitr::include_graphics("figures/5-chapter/fig55.png")
+
+```
+
+``` {block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Autori joonis.
+```

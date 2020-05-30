@@ -1,11 +1,61 @@
-## Ühe tunni Eesti {-.chapter_section .chapter5_section}
-Rahvastik linnades: 80%
-Varanduslik kihistumine: väike
-Ruumiline ebavõrdsus: väike
-Hea avalik ruum: jagatud ja ligipääs tagatud
-Andmed: igaühe omad, õigused on kaitstud
-Ühiskonna kulutused baastaristule: suured, aga võrdsemalt jagatud
-Sotsiaal-majanduslik efektiivsus: keskmisest suurem
-Säästva arengu eesmärgid: oleme maailmas eeskujuks
- 
+## Ühe tunni Eesti {-.chapter_section .chapter5_section .future_section}
+
+<table class="future-table">
+<tbody>
+
+<tr>
+<td align="left" class="future-table-black">Rahvastik linnades:</td>
+<td align="right" class="future-table-red">80%</td>
+</tr>
+
+<tr>
+<td align="left" class="future-table-black">Varanduslik kihistumine:</td>
+<td align="right" class="future-table-red">väike</td>
+</tr>
+
+<tr>
+<td align="left" class="future-table-black">Ruumiline ebavõrdsus:</td>
+<td align="right" class="future-table-red">väike</td>
+</tr>
+
+<tr>
+<td align="left" class="future-table-black">Hea avalik ruum:</td>
+<td align="right" class="future-table-red">jagatud ja ligipääs tagatud</td>
+</tr>
+
+<tr>
+<td align="left" class="future-table-black">Andmed:</td>
+<td align="right" class="future-table-red">igaühe omad, õigused on kaitstud</td>
+</tr>
+
+<tr>
+<td align="left" class="future-table-black">Ühiskonna kulutused baastaristule:</td>
+<td align="right" class="future-table-red">suured, aga võrdsemalt jagatud</td>
+</tr>
+
+<tr>
+<td align="left" class="future-table-black">Sotsiaal-majanduslik efektiivsus:</td>
+<td align="right" class="future-table-red">keskmisest suurem</td>
+</tr>
+
+<tr>
+<td align="left" class="future-table-black">Säästva arengu eesmärgid:</td>
+<td align="right" class="future-table-red">oleme maailmas eeskujuks</td>
+</tr>
+</tbody></table>
+
+```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
+
+knitr::include_graphics("figures/5-chapter/kaart-2.png")
+
+```
+
 Põhjaliku regionaalse planeerimise tulemusena on terves Eestis elamuarendus ja liikuvusteenused omavahel seotud, mistõttu on esmajärgus ehitatud rongiühendusega kohtadesse. Arendajatele tundus see alguses liiga piirav, aga inimesed on rahul ega igatse sõltuvust isiklikust sõidukist. Igal linnaregioonil on oma nägu ja keskused, mis töötavad ringmajanduse põhimõttel. Uue ärkamise on läbi teinud kunagine murelaps Ida-Virumaa, mis on esmalt kunstnike ja seejärel idusektori sinna kolimise tulemusena nüüd Eesti atraktiivsemaid ja kosmopoliitsemaid elupiirkondi, kus on teine kodu nii Peterburi, Eesti kui ka teiste maade loovinimestel. Eestimaalastele meeldib aega veeta parkides ja linnaväljakutel, kuhu nad liiguvad parajasti sobivaima liiklusvahendiga – trammiga, isejuhtiva kapsliga, vesinikrattaga või kõiki neid kombineerides. Linnades on elamuslik tänava- ja katkematu rohevõrgustik, mis aitab kliimakriisiga kohaneda, ning avalikus ruumis toimub palju möödujate tähelepanu paeluvaid tegevusi. Rakendatud on nn 8-80-põhimõte, mis tähendab, et nii 8- kui ka 80-aastased saavad avalikus ruumis kõrvalise abita liikuda. Räägitakse palju vaimse tervise hoidmisest ja ollakse tähelepanelikud, kui lähedasel inimesel võivad rasked ajad olla. Inimesed on kogukondlikult pühendunud mõnele varem avalikule võimule kuulunud tööle: aidatakse kõige nooremaid ja kõige vanemaid, rajatakse ühisaedu, kujundatakse tänavaid ja hoove. Suuremates linnades läheb uussisserändajatel sisseelamine üsna ladusalt, ehkki väiksemates kohtades võidakse neile ikka viltu vaadata. Õnneindeksis on Eesti suhteliselt eesotsas ja viimased paar aastat isegi tõusnud.
+
+<div class="future-illustration">
+```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
+
+knitr::include_graphics("figures/5-chapter/tulevik-2.png")
+
+```
+</div>

@@ -42,6 +42,7 @@ p {
 .page-inner section {
   padding:0 !important;
   color:black;
+  margin-top:50px;
 }
 
 .chapter_section {
@@ -902,7 +903,8 @@ p.caption {
   }
   
 .chapter5_section h2,
-.chapter5_section h3
+.chapter5_section h3,
+.chapter5_section h4
 {
 	color: #A01B17;
 }
@@ -942,12 +944,64 @@ p.caption {
     border-bottom: solid 15px #A01B17;
 }
 
+.chapter5_section .casebox {
+    background-color: #e4f4f7;
+    border-bottom: solid 15px #A01B17;
+}
+
+.chapter5_section .bullet-heading::before{
+  color:#A01B17;
+}
+
+.future_section img {
+  margin-top:50px !important;
+  margin-bottom:50px !important;
+}
+
+
+.future_section h2 {
+  text-transform:uppercase;
+  color:#482683 !important;
+  border-top:solid 2px #A01B17;
+  border-bottom:solid 2px #A01B17;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.future-table {
+margin-top:100px !important;
+ margin-bottom:100px !important;
+}
+
+.future-table tr {
+  border:none;
+  border-bottom:solid 1px #e6e3da;
+}
+.future-table td {
+  border:none;
+  background-color:white;
+}
+
+.future-table-red {
+  font-weight:bold;
+  color:#A01B17;
+}
+
+.future-table-black {
+  font-weight:bold;
+  color:#3a404a;
+}
+
+.future-illustration {
+  bottom:0;
+  width:100%;
+}
+
 /* Chapter 6 - Authors #96CBD2 */
 
 .chapter6 h1{ 
   border-bottom: 3px solid #96CBD2; 
   font-size: 4.5em !important; text-transform: uppercase; line-height: 1em;
-  margin-top:5vh !important;
 }
 
 
@@ -1030,7 +1084,6 @@ p.caption {
 .chapter7 h1{ 
   border-bottom: 3px solid #a8aca6; 
   font-size: 4.5em !important; text-transform: uppercase; line-height: 1em; 
-  margin-top:5vh !important;
   margin-bottom:0.5em;
 }
 
