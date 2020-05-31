@@ -36,7 +36,7 @@ library("tidyverse")
     scale_x_continuous(breaks=c(1990,1992,1994,1996,1998,2000,2002,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(1990,2016.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,550)) +
     scale_colour_manual(values=c("#482683","#369B9E","#b1e0f9"), labels=c("Eesti","Ida-Euroopa","Lääne-Euroopa")) +
-    labs(y="Autot 1000-e elaniku kohta", x="") +
+    labs(y="Autot 1000 elaniku kohta", x="") +
     expand_limits (y=0)
 
   fig151_theme <- theme (
@@ -96,7 +96,7 @@ Maanteeameti tehtud ühistranspordiga rahulolu küsitlused näitavad, et elanike
 
 ```{r, figure153, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
-print("MAP")
+knitr::include_graphics("figures/1-chapter/fig153.png")
 ```
 
 ```{block, type='imgsource'}
@@ -151,7 +151,7 @@ Eesti suuremates linnaregioonides on viimasel kahel kümnendil toimunud valglinn
 <p class="caption" id="figure155"><span class="figure-number">Joonis 1.5.5.</span> Autode arv leibkonnas Tallinnas (2016) ja Harjumaal (2017) ning elanike arvu juurdekasv Tallinna lähiregioonis viimase 20 aastal jooksul. 1998 aasta rahvaarv = 100%</p>
 
 
-```{r, figure155, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure155, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 library(gridExtra)
@@ -184,13 +184,17 @@ library(grid)
     fig155_theme1 <- theme(
           panel.grid.major.x = element_blank() ,
           panel.grid.minor.x = element_blank(),
-          legend.position = "none"
+          legend.position = "none",
+          strip.text.x = element_text(size = 8),
+          text = element_text(size = 9)
     )
 
         fig155_theme2 <- theme(
           panel.grid.major.x = element_blank() ,
           panel.grid.minor.x = element_blank(),
-          legend.position = "none"
+          legend.position = "none",
+           text = element_text(size = 10)
+      
     )
 
 grid.arrange(fig155_plot1 + fig_theme_general + fig155_theme1, fig155_plot2  + fig_theme_general + fig155_theme2, ncol = 2)
@@ -321,7 +325,7 @@ Autosõiduks mõeldud tänavate kõrval pole loodud piisavalt konkurentsivõimel
 
 <p class="caption" id="figure158"><span class="figure-number">Joonis 1.5.8.</span> Liikumisviiside ajalise konkurentsivõime võrdlus</p>
 
-```{r, figure158, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure158, fig.align='center', out.width='80%', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 

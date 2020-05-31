@@ -34,7 +34,7 @@ Artiklis nimetame eri aktivismivorme liikumisteks, näiteks linnalised liikumise
 Nii nagu on muutuv avaliku ruumi tähendus, on üheselt määratlematu ka ruumiaktivisti roll. Aktivism on sotsiaalsete, poliitiliste või muude muutuste esilekutsumine ja alternatiivsete seisukohtade esitamine – ruumiloomes esindab ruumiaktivist eelkõige isiklikke ja/või kogukonna huvidest lähtuvaid seisukohti. Mõistetega „(ruumi)aktivist“ ja „(ruumi)aktivism“ viidatakse Eestis nii asumiseltside eestvedajatele, konkreetse ehitise või planeeringulahenduse rajamise vastu koondunud liikumistele, aga ka ruumiloomes osalevatele erialaliitudele ning kodanikuühiskonna ühendustele ja organisatsioonidele. Ruumiaktivism võib olla nii reaktiivne kui ka proaktiivne tegevus. Reaktiivsus tähistab enamasti konkreetsele arendusprojektile või arengusuunale vastuseisu, proaktiivsus osutab pigem laiemale huvide eest seismisele ning soovile mõjutada ruumiloome protsessi kaudu nii kohalikku arengut kui ka protsessi ennast. Reaktiivsusel ja proaktiivsusel on ühisosa ning kumbki ei ole liikumiste ja aktivistide kaupa kategoriseeritav – algselt reaktiivsed liikumised on kujunenud aja jooksul proaktiivseteks. See aga ei tähenda, et praegu proaktiivsed liikumised ei võiks tulevikus olla taas reaktiivses rollis.
 
 ```{block, type='casebox'}
-**Kogukondade tegutsemisvormid**
+<h3>Kogukondade tegutsemisvormid</h3>
 
 Aastal 2014 Linnalabori ja liikumise Kodukant tehtud <a href="https://www.kysk.ee/failid/Upload/files/Uuringud/Kogukonnauuring.pdf">kogukonnauuringust</a> selgus, et kohalik aktiivsus ei väljendu ainult registreeritud MTÜde kaudu, vaid võib võtta muidki organisatsioonilisi vorme. Liikumine Kodukant on 2013. aastal kokku lugenud 1316 külavanemat, 1188 külades tegutsevat seltsi ning 51 koostööühendust (vallaülest katusorganisatsiooni ja ümarlauda), mis liidavad kohalikku aktiivsust arendavaid MTÜsid, seltsinguid ja külavanemaid. Registreerimata seltsinguid, mis tegelevad kohaliku arenguga, loendati 2006. aastal 45 027. Linnaseltse tegutses Linnalabori andmetel 2014. aastal Eestis aastal 6 ning neile lisandus veel kümmekond ökokogukonda. Seega on ametlikult organiseerunud kogukondi 2014. aastal tehtud kogukonnauuringu andmetel Eestis 3500 ringis. Vastanud kogukondadest on 75% registreeritud MTÜna, 9% kogunevad spontaanselt ametlikult organiseerumata, 6% kogukondadest kogunevad külavanema eestvedamisel ja 6% tegutsevad seltsingulepingu alusel. Puudulik statistika raskendab kogukondade tegutsemisvormide kohta järelduste tegemist.
 
@@ -60,7 +60,7 @@ Aktivismi tekkelugu paigutub Eesti kodanikuühiskonna üldise arengu ajajoonele.
 
 2000\. aastate eel oli ruumiloome osapoolte suhtluses maaomanike huvid ebaselged ning kasutaja vaade määratlemata. Sealhulgas ei olnud kohalik omavalitsus ja riik enne 1995. aasta planeerimis- ja ehitusseaduse vastuvõtmist ruumikorralduslikes ülesannetes kokku leppinud. Kasutaja vaatenurga lisandumisega muutus riigi, kohaliku omavalitsuse ja maaomaniku roll selgemaks, kuid kasutaja ise on endiselt määratlemata staatuses.
 
-```{r, figure231, fig.align='center', out.width='80%', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure231, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
 knitr::include_graphics("figures/2-chapter/fig231.png")
 
@@ -85,7 +85,7 @@ Ruumiaktivismi eesmärgid teisenevad vastavalt organisatsiooni sisemisele arengu
 Kui valdavalt jõuavad asukohapõhised liikumised tegeleda konkreetsete piirkondlike teemadega, siis järjest enam on ruumiaktiviste ja nende ühendusi koondavad või nõustavad katusorganisatsioonid üle võtnud arutelude vedaja ja osapoolte vahendaja ülesanded (nt Tallinna Asumiseltside Liit, ekspertide rühmitus Merelinna Kaitseks). Vahendaja ise võib olla samal ajal mõne ekspertorganisatsiooni või erialaliidu liige, asumiseltsi eestvedaja või sama omavalitsuse endine ametnik. Selle käigus hägustub paratamatult nii ruumiaktivisti kui ka eksperdi roll ([joonis 2.3.2](#figure232)).
 
 <p class="caption" id="figure232"><span class="figure-number">Joonis 2.3.2.</span> Ruumiaktivisti rollid</p>
-```{r, figure232, fig.align='center', out.width='80%', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure232, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
 knitr::include_graphics("figures/2-chapter/fig232.png")
 
@@ -136,7 +136,7 @@ Reidi tee juhtumis leidsid kodanikuühendused ühise keele projekti tehtud konkr
 
 <p class="caption" id="figure233"><span class="figure-number">Joonis 2.3.3.</span> Vasakul K-Projekti projekteeritud tänavakoridor, paremal ruumiekspertide ettepanek</p>
 
-```{r, figure233, fig.align='center', out.width='80%', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure233, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
 knitr::include_graphics("figures/2-chapter/fig233.png")
 

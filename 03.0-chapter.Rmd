@@ -90,8 +90,9 @@ library("tidyverse")
 
 ```
 
-*Märkus:
-Seos põhineb inimarengu indeksi (HDI) puhul ÜRO arenguprogrammi (http://hdr.undp.org/en/data) ja ECO puhul Wendling jt (2018) andmetel. ECO puhul on kompleksindeksi osakaaludest arvutatud kesk- mine lähteaasta (2005; algandmed 2001–2007) ja lõpuaasta (2014; algandmed 2010–2017), viimasega ongi seosta- tud HDI (2014). Rõhtjoon tähistab ECO taset Eesti 2014. aasta inimarengu aruandes ([Terasmaa ja Pajula 2015](#Terasmaa2015)), mida ei ole tagasiulatuvalt korrigeeritud ja mille seisundiaasta oli täpsustamata.*
+``` {block, type='figure-comment'}
+<span class="figure-comment-start">Märkus:</span> Seos põhineb inimarengu indeksi (HDI) puhul ÜRO arenguprogrammi (http://hdr.undp.org/en/data) ja ECO puhul Wendling jt (2018) andmetel. ECO puhul on kompleksindeksi osakaaludest arvutatud kesk- mine lähteaasta (2005; algandmed 2001–2007) ja lõpuaasta (2014; algandmed 2010–2017), viimasega ongi seosta- tud HDI (2014). Rõhtjoon tähistab ECO taset Eesti 2014. aasta inimarengu aruandes ([Terasmaa ja Pajula 2015](#Terasmaa2015)), mida ei ole tagasiulatuvalt korrigeeritud ja mille seisundiaasta oli täpsustamata.
+```
 
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Autori joonis.

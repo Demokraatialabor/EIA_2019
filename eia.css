@@ -383,9 +383,9 @@ h3 .header-section-number{
 }
 /* figure caption */
 p.caption {
-  color: #3a404a;
+  color: #86858a;
   margin-top: 3em !important;
-  font-weight:500;
+  font-weight:bold;
 }
 
 /* image source */

@@ -91,7 +91,7 @@ fig142_data$area <- factor(fig142_data$area, levels = c("Tallinn","Harjumaa (v.a
   fig142_plot <- ggplot(data = fig142_data) +
     geom_bar(mapping = aes(x=years, y=value, fill=area), size=1.2, stat = "identity", position="dodge") +
     scale_fill_manual(values=c("#482683", "#917db5","#369B9E","#b1e0f9")) +
-    labs(y="% eluasemetest", x="ajavahemik") +
+    labs(y="% eluasemetest", x="") +
     guides(fill=guide_legend(nrow=2,byrow=TRUE))
 
   fig142_theme <- theme(
@@ -155,7 +155,7 @@ Ligikaudu pool Eesti elanikest elab eluruumides, mis nende enda hinnangul vajava
 
 <p class="caption" id="figure144"><span class="figure-number">Joonis 1.4.4.</span> Inimeste hinnang eluaseme seisukorrale eluhoone vanuse (üleval) ning tüübi (all) järgi</p>
 
-```{r, figure144, out.width='85%', fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure144, out.width='80%', fig.asp=1.0, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 library(gridExtra)
@@ -232,7 +232,7 @@ library("tidyverse")
 
 fig147_data <- read.csv ("data/14_fig7_data.csv", header=TRUE, fileEncoding="utf-8")
 
-fig147_data$income_size <- factor(fig147_data$income_size, levels = c("Kõrge sissetulek","Madal sissetulek"))
+fig147_data$income_size <- factor(fig147_data$income_size, levels = c("Suur sissetulek","Väike sissetulek"))
 fig147_data$condition <- factor(fig147_data$condition, levels = c("Esineb suuri puudusi","Esineb puudusi","Hea seisukord","Värskelt remonditud"))
 
  fig147_data$percent=percent((fig147_data$value/100), 1)
@@ -482,9 +482,10 @@ Eesti maakondades ja eri asustustüüpides paiknevate eluruumide omanikud on Kre
 
 Andmed toetuste väljamaksmiste kohta kogu toetuste väljamaksmise perioodil. Korterelamute rekonstrueerimistoetus (1), väikeelamute rekonstrueerimistoetus (2) ning „Kodutoetus“ (3).
 
-```{r, figure1411, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure1411, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
-print("MAP")
+knitr::include_graphics("figures/1-chapter/fig1411.png")
+
 ```
 
 ``` {block, type='imgsource'}

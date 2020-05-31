@@ -21,9 +21,9 @@ Süveneva piirkondliku ebavõrdsuse kõige selgem ilming on majandusliku ja inim
 
 <p class="caption" id="figure121"><span class="figure-number">Joonis 1.2.1.</span> Eesti regionaalne polariseerumine: rahvastikumuutus ja sisemajanduse koguprodukti jaotumine maakonniti 1995. ja 2017. aastal</p>
 
-```{r, figure121, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure121, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
-print("KAART")
+knitr::include_graphics("figures/1-chapter/fig121.png")
 ```
 
 ``` {block, type='figure-comment'}
@@ -150,11 +150,11 @@ set.seed(27)
 #  text = element_text(color = "#292b2c", size = 12, family="Montserrat")
  # )
 
-fig124_plot <- wordcloud(words=fig124_data$location_est,freq=fig124_data$freq,scale=c(3,0.5),min.freq=3,max.words=Inf,
-	random.order=TRUE, random.color=FALSE, rot.per=0, colors=c("#917DB5","#917DB5","#917DB5","#6D519C","#6D519C","#482683"),ordered.colors=FALSE,use.r.layout=FALSE,fixed.asp=TRUE,family = "",font = 2)
+#fig124_plot <- wordcloud(words=fig124_data$location_est,freq=fig124_data$freq,scale=c(3,0.5),min.freq=3,max.words=Inf,
+#	random.order=TRUE, random.color=FALSE, rot.per=0, colors=c("#917DB5","#917DB5","#917DB5","#6D519C","#6D519C","#482683"),ordered.colors=FALSE,use.r.layout=FALSE,fixed.asp=TRUE,family = "",font = 2)
 
-print(fig124_plot + fig_theme_general + fig123_theme)
-
+#print(fig124_plot + fig_theme_general + fig123_theme)
+knitr::include_graphics("figures/1-chapter/fig124.png")
 #ggsave(path="exported_figures/PDF/chapter1",filename="fig124.pdf", height=120, width=200, units="mm")
 
 ```

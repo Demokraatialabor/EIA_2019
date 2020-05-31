@@ -31,15 +31,14 @@ Rohealade pindala seos kõigi heaolu- ja tervisenäitajatega kehtis üksnes väi
 
 <p class="caption" id="figure321"><span class="figure-number">Joonis 3.2.1.</span> Koduümbruse loodusalade pindala ning heaolu- ja tervisenäitajate analüüs ning tulemused</p>
 
+``` {block, type='figure-comment'}
+<span class="figure-comment-start">Märkus:</span> Šansid on arvutatud logistilise regressiooni mudelites, mis võtsid arvesse soo, vanuse, haridusaastad ja tunnetatud toimetuleku praeguse sissetuleku juures. Oma tervist hinnati 5 palliskaalal, teisendades „heaks“ väärtused 4–5. Füüsilist aktiivsust vähemalt 20 minutit viimase 7 päeva jooksul hinnati 8 palli skaalal (8 = iga päev). Väidet, et tunnen lähedust ümbruskonna elanikega, hinnati 5 palli skaalal, kus 1 on „täiesti nõus“ ja 5 „ei ole üldse nõus“ (teisendus „nõus“ on väärtused 1-2). Depressiivsuse tundmist viimase nädala jooksul mõõdeti 4 palli skaalal, millest uuriti väärtust 1 („mitte kunagi“).
+```
+
 ```{r, figure321, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
 
 knitr::include_graphics("figures/3-chapter/fig321.png")
 
-```
-
-
-``` {block, type='figure-comment'}
-<span class="figure-comment-start">Märkus:</span> Šansid on arvutatud logistilise regressiooni mudelites, mis võtsid arvesse soo, vanuse, haridusaastad ja tunnetatud toimetuleku praeguse sissetuleku juures. Oma tervist hinnati 5 palliskaalal, teisendades „heaks“ väärtused 4–5. Füüsilist aktiivsust vähemalt 20 minutit viimase 7 päeva jooksul hinnati 8 palli skaalal (8 = iga päev). Väidet, et tunnen lähedust ümbruskonna elanikega, hinnati 5 palli skaalal, kus 1 on „täiesti nõus“ ja 5 „ei ole üldse nõus“ (teisendus „nõus“ on väärtused 1-2). Depressiivsuse tundmist viimase nädala jooksul mõõdeti 4 palli skaalal, millest uuriti väärtust 1 („mitte kunagi“).
 ```
 
 ``` {block, type='imgsource'}

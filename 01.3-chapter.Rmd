@@ -51,11 +51,11 @@ library("tidyverse")
 
   fig131_plot <- ggplot(subset(fig131_data, area %in% c("Tallinna eeslinn", "Tartu eeslinn", "Pärnu eeslinn"))) +
     geom_line(mapping = aes(x=year, y = as.numeric(value), colour=area, group=area), size=1) +
-    geom_text(mapping = aes(x=year, y=as.numeric(value), label=value), stat="identity", vjust=-1) +
+    geom_text(mapping = aes(x=year, y=as.numeric(value), label=value), stat="identity", vjust=-1, size=2) +
     scale_colour_manual(values=c("#3A404A","#482683","#369B9E")) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,100000)) +
     scale_x_continuous(breaks=c(2001,2006,2011,2015,2016,2017,2018),expand = c(0, 0), limits=c(2000,2018.5)) +
-    labs(y="eeslinlaste arv", x="aasta")
+    labs(y="Eeslinlaste arv", x="")
     expand_limits (y=0)
 
    fig131_theme <- theme(
@@ -92,7 +92,7 @@ fig132_data$area <- factor(fig132_data$area, levels = c("Tallinn","Tallinna eesl
 
   fig132_plot <- ggplot(data = fig132_data) +
     geom_col(mapping = aes(x=area, y=value, fill=area), width=0.7) +
-    geom_text(aes(label = value, x=area, y=value), nudge_x = 0, nudge_y = 500, color="#777777") +
+    geom_text(aes(label = value, x=area, y=value), nudge_x = 0, nudge_y = 2500, color="#777777") +
     labs(y="%", x="") +
     labs(y="", x="", fill="") +
     scale_fill_manual(values=c("#482683", "#482683", "#917db5","#917db5","#369B9E","#369B9E", "#abd9d6"))
@@ -134,7 +134,7 @@ library("reshape")
     geom_line(mapping = aes(x=year, y = as.numeric(value), colour=area, group=area), size=1) +
     #scale_x_continuous(expand = c(0, 0), limits=c(2002,2018)) +
     scale_y_continuous (expand = c(0, 0), limits=c(0,3200)) +
-    labs(y="uute eluruumide arv", x="aasta") +
+    labs(y="Uute eluruumide arv", x="") +
     expand_limits (y=0) +
     scale_colour_manual(values=c("#482683", "#917db5","#369B9E", "#abd9d6","#03bdf2","#b1e0f9"))
 
@@ -178,7 +178,7 @@ Maakonnaplaneeringute koostamisel tekkis kaks metoodilist võtit. Asustuste aren
 
 <p class="caption" id="figure135"><span class="figure-number">Joonis 1.3.5.</span> Hägusate *vs.* rangete piiridega maakonnaplaneering ‒ Harjumaa *vs.* Tartumaa</p>
 
-```{r, figure135, out.width='90%', fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+```{r, figure135, out.width='100%', fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
 knitr::include_graphics("figures/1-chapter/fig135.png")
 
@@ -197,7 +197,7 @@ Tegelikult määratlevad eeslinnaasustuse arengut väikesepindalalised, killusta
 
 <p class="caption" id="figure136"><span class="figure-number">Joonis 1.3.6.</span> Killustatud uus eeslinnaasustus: Rae ja Raasiku valla detailplaneeringu alad alates 1999. aastast</p>
 
-```{r, figure136, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+```{r, figure136, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
 knitr::include_graphics("figures/1-chapter/fig136.png")
 
@@ -214,7 +214,7 @@ Sirgjooneline eeslinna tihendamise näide on Veskimöldre uusasumi laiendus Koru
 
 <p class="caption" id="figure137"><span class="figure-number">Joonis 1.3.7.</span> Alliku küla Koruserva kinnistu detailplaneering – eeslinna tihendamise näide</p>
 
-```{r, figure137, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure137, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
 knitr::include_graphics("figures/1-chapter/fig137.png")
 
@@ -241,7 +241,7 @@ Konkurentsiolukorras on koduostjatel valida kas linnakodu või eeslinnakodu vahe
 
 *„Väljaku 5 kortermaja – mugav elukeskkond noortele ja tegusatele / Võimalusterohke lapsepõlv / Linnalähedane kodu Jüris / Aleviku elanike arvu kasvu taga on toimiv taristu, valla edusam- mud täisväärtusliku elukeskkonna tagamisel ning pidevas vabaaja veetmise ja tervisespordi harrastusvõimaluste täiendamises“*
 
-```{r, figure138, out.width='90%',, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+```{r, figure138, out.width='100%',, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
 knitr::include_graphics("figures/1-chapter/fig138.png")
 ```

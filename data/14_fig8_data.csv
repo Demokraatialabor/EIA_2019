@@ -1,17 +1,17 @@
 ﻿area,condition,value,income
-Tallinn,Värskelt remonditud või hea seisukord,69,Madal sissetulek
-Tallinn,Remonti vajav,31,Madal sissetulek
-Harjumaa (v.a Tallinn),Värskelt remonditud või hea seisukord,55.1,Madal sissetulek
-Harjumaa (v.a Tallinn),Remonti vajav,44.9,Madal sissetulek
-Regionaalsed keskused (v.a Tallinn),Värskelt remonditud või hea seisukord,54.6,Madal sissetulek
-Regionaalsed keskused (v.a Tallinn),Remonti vajav,45.3,Madal sissetulek
-Väikelinnad ja maa (v.a Harjumaa),Värskelt remonditud või hea seisukord,39,Madal sissetulek
-Väikelinnad ja maa (v.a Harjumaa),Remonti vajav,60.9,Madal sissetulek
-Tallinn,Värskelt remonditud või hea seisukord,83.9,Kõrge sissetulek
-Tallinn,Remonti vajav,16.1,Kõrge sissetulek
-Harjumaa (v.a Tallinn),Värskelt remonditud või hea seisukord,71.9,Kõrge sissetulek
-Harjumaa (v.a Tallinn),Remonti vajav,28.1,Kõrge sissetulek
-Regionaalsed keskused (v.a Tallinn),Värskelt remonditud või hea seisukord,78.6,Kõrge sissetulek
-Regionaalsed keskused (v.a Tallinn),Remonti vajav,21.3,Kõrge sissetulek
-Väikelinnad ja maa (v.a Harjumaa),Värskelt remonditud või hea seisukord,79,Kõrge sissetulek
-Väikelinnad ja maa (v.a Harjumaa),Remonti vajav,21,Kõrge sissetulek
+Tallinn,Värskelt remonditud või hea seisukord,69,Väike sissetulek
+Tallinn,Remonti vajav,31,Väike sissetulek
+Harjumaa (v.a Tallinn),Värskelt remonditud või hea seisukord,55.1,Väike sissetulek
+Harjumaa (v.a Tallinn),Remonti vajav,44.9,Väike sissetulek
+Regionaalsed keskused (v.a Tallinn),Värskelt remonditud või hea seisukord,54.6,Väike sissetulek
+Regionaalsed keskused (v.a Tallinn),Remonti vajav,45.3,Väike sissetulek
+Väikelinnad ja maa (v.a Harjumaa),Värskelt remonditud või hea seisukord,39,Väike sissetulek
+Väikelinnad ja maa (v.a Harjumaa),Remonti vajav,60.9,Väike sissetulek
+Tallinn,Värskelt remonditud või hea seisukord,83.9,Suur sissetulek
+Tallinn,Remonti vajav,16.1,Suur sissetulek
+Harjumaa (v.a Tallinn),Värskelt remonditud või hea seisukord,71.9,Suur sissetulek
+Harjumaa (v.a Tallinn),Remonti vajav,28.1,Suur sissetulek
+Regionaalsed keskused (v.a Tallinn),Värskelt remonditud või hea seisukord,78.6,Suur sissetulek
+Regionaalsed keskused (v.a Tallinn),Remonti vajav,21.3,Suur sissetulek
+Väikelinnad ja maa (v.a Harjumaa),Värskelt remonditud või hea seisukord,79,Suur sissetulek
+Väikelinnad ja maa (v.a Harjumaa),Remonti vajav,21,Suur sissetulek

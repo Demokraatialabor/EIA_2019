@@ -213,7 +213,7 @@ fig54_data <- melt(fig54_data, id=c("Linnaosa"))
 
 #fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohtade pindala (20m²/pk)","Parkimiskohtade pindala (25m²/pk)","Parkimiskohtade pindala (30m²/pk)","Parkimiskohtade pindala (40m²/pk)","Tänavavõrgu pindala (m²)","Jalakäija ruumi pindala (m²)","Eluruumide pindala (m²)","Bürooruumide pindala (m²)","Kaubandus- ja teeninduruumide pindala (m²)","Meelelahutus-, haridus- tervishoiu- ja muude avalike ruumide pindala (m²)","Tööstus- ja laoruumide pindala (m²)"))
 
-fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohtade pindala (25m²/pk)","Tänavavõrk","Jalakäijate ruum","Eluruumid","Bürooruumid","Kaubandus- ja teenindusruumid","Meelelahutus-, haridus-, tervishoiu- ja muud avalikud ruumid","Tööstus- ja laoruumid"))
+fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohad (25m²/pk)","Tänavavõrk","Jalakäijate ruum","Eluruumid","Bürooruumid","Kaubandus- ja teenindusruumid","Meelelahutus-, haridus-, tervishoiu- ja muud avalikud ruumid","Tööstus- ja laoruumid"))
 
   fig54_plot <- ggplot(data = fig54_data) +
     geom_col(mapping = aes(x=variable, y = as.numeric(as.character(value)), fill=variable), size=0.7) +

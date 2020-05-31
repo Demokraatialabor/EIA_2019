@@ -44,7 +44,7 @@ Kahanemine ääremaal ei jää ainult kaugete maakohtade mureks, järgmisena haa
 
 <p class="caption" id="figure101"><span class="figure-number">Joonis 1.0.1.</span> Elanike arvu muutus Eesti maakonnakeskustes, 2000–2017, rahvaarv 1.jaanuari seisuga 2000 = 100%</p>
 
-```{r, figure101, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure101, fig.align='center', out.width='100%', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 

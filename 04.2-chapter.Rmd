@@ -181,15 +181,15 @@ Digiosalust vaadeldakse tavapäraselt koos üldise poliitilise ja kodanikuaktiiv
 
 
 ```{block, type='casebox'}
-**Eesti noorte osalustüübid**
+<h3>Eesti noorte osalustüübid</h3>
 
-Poliitiliselt meelestatud aktivistid (5,5%) harrastavad keskmisest enam kõiki poliitilisi tegevusi, veebiosalust ja vabatahtlikku tööd. Nad on pigem gümnaasiumiealised, rohkem on noormehi, eesti ja vene noori on võrdselt, nad on pärit pigem maakohast või väikelinnast, nende emad on sagedamini keskhariduseta. Võrreldes teiste tüüpidega usaldavad nad professionaalset ajakirjandust vähem, kuid alternatiivset võrgumeediat rohkem.
+**Poliitiliselt meelestatud aktivistid (5,5%)** harrastavad keskmisest enam kõiki poliitilisi tegevusi, veebiosalust ja vabatahtlikku tööd. Nad on pigem gümnaasiumiealised, rohkem on noormehi, eesti ja vene noori on võrdselt, nad on pärit pigem maakohast või väikelinnast, nende emad on sagedamini keskhariduseta. Võrreldes teiste tüüpidega usaldavad nad professionaalset ajakirjandust vähem, kuid alternatiivset võrgumeediat rohkem.
 
-Vabatahtlikud-heategijad (30%) paistavad silma vabatahtliku töö ja heategevusega. Nad on pigem kahekümnendates aastates, rohkem on neide. Valdavalt on nad eestlased, pärit suurlinnast või selle ümbrusest, nende emad on pigem kesk- või kõrgharidusega. Nad usaldavad professionaalset ajakirjandust teistest tüüpidest rohkem, alternatiivset võrgumeediat aga vähem.
+**Vabatahtlikud-heategijad (30%)** paistavad silma vabatahtliku töö ja heategevusega. Nad on pigem kahekümnendates aastates, rohkem on neide. Valdavalt on nad eestlased, pärit suurlinnast või selle ümbrusest, nende emad on pigem kesk- või kõrgharidusega. Nad usaldavad professionaalset ajakirjandust teistest tüüpidest rohkem, alternatiivset võrgumeediat aga vähem.
 
-Digiaktivistid (27,6%) ilmutavad enim võrgu- ja tarbijaaktiivsust. Nad on pigem kahekümnendates aastates, veidi rohkem on noormehi, valdavalt on nad eestlased ja pärit suurlinnast või selle ümbrusest, nende emad on sagedamini kõrgharidusega. Digiaktivistid usaldavad alternatiivset võrgumeediat teistest tüüpidest vähem.
+**Digiaktivistid (27,6%)** ilmutavad enim võrgu- ja tarbijaaktiivsust. Nad on pigem kahekümnendates aastates, veidi rohkem on noormehi, valdavalt on nad eestlased ja pärit suurlinnast või selle ümbrusest, nende emad on sagedamini kõrgharidusega. Digiaktivistid usaldavad alternatiivset võrgumeediat teistest tüüpidest vähem.
 
-Passiivsed noored (36,8%) on kõikides osalusvormides keskmisest tagasihoidlikumad. Nad on pigem gümnaasiumiealised, noormehi-neidusid on üpris võrdselt, palju on vene noori. Nad on pärit pigem maakohast või väikelinnast, nende emadel on enamasti keskharidus või alla selle. Ka nende pere ja sõprade ühiskondlik aktiivsus on vähene.
+**Passiivsed noored (36,8%)** on kõikides osalusvormides keskmisest tagasihoidlikumad. Nad on pigem gümnaasiumiealised, noormehi-neidusid on üpris võrdselt, palju on vene noori. Nad on pärit pigem maakohast või väikelinnast, nende emadel on enamasti keskharidus või alla selle. Ka nende pere ja sõprade ühiskondlik aktiivsus on vähene.
 
 ```
 
@@ -204,6 +204,8 @@ Digiosaluse vähene tajutud ühiskondlik mõjukus ning viisaka ja argumenteeritu
 ```
 
 Kvalitatiivsetest uuringutest ([Sukk 2018](#Sukk2018)) nähtub samuti, et noored käituvad eri veebigruppides ja foorumites peamiselt passiivsete jälgijatena ning ise teemasid tõstatama või oma arvamust avaldama ei kipu. Õigupoolest ilmnes Euroopa Soolise Võrdõiguslikkuse Instituudi tellimusel 2018. aasta kevadel tehtud fookusgrupiintervjuudest 15–18-aastaste noortega (N = 20), et paljud uuringus osalejad peavad digivahendeid osaluse kontekstis pigem ebavajalikeks ja kohati osalust sootuks takistavateks vahenditeks. Noorte keskmisest tagasihoidlikuma digiosaluse põhjustena nimetati nii platvormist tulenevaid probleeme (nt anonüümsus, privaatsusriskid, kehakeele puudumine ja piiratud võimalused tunnete väljendamiseks) kui ka isiklikke takistusi ([Sukk 2018](#Sukk2018)). Näiteks tunnistasid mitmed fookusgruppides osalenud noored, et hoiduvad internetis arvamuse avaldamisest, sest tunnevad end ebakindlalt ning pelgavad teiste, peamiselt vanemate kasutajate negatiivseid reaktsioone ja hukkamõistu. Paljud uuringus osalenud noored tunnistasid, et on loobunud internetis eri teemadel kaasa rääkimast seetõttu, et ei näe, et internetis arvamuse avaldamine või veebikampaaniates osalemine ühiskonnas päriselt loodetud muutust kaasa tooks. Noorte sõnul tunnevad nad internetikeskkondades suheldes puudust viisakast ja argumenteeritud suhtluskultuurist, mistõttu nende endi soov aruteludes aktiivselt kaasa lüüa on tugevalt pärsitud.
+
+<p class="caption" id="figure424"><span class="figure-number">Joonis 4.2.4.</span> Digiosalust takistavad tegurid: noorte vaade</p>
 
 ```{r, figure424, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
@@ -241,8 +243,8 @@ Kvalitatiivsetest uuringutest nähtub, et noorte mõõduka digiosaluse põhjusek
 
 Virtuaalse arvamusruumi arengut võiksid soodustada järjestikused päriselt tulemusi toovad veebipõhised kodaniku- või poliitilised algatused – mõned edulooks ja legendiks kujunevad kampaaniad võimalikult paljudele südamelähedasel teemal (kujundlikult öeldes: virtuaalne fosforiidisõda või Facebooki Balti kett). Kahtlemata tuleks kasuks ka küberkiusu leviku senisest palju tõhusam ohjamine ning üldise suhtluskultuuri paranemine. Lühiajalistest kampaaniatest selleks ei piisa – oluline on jätkata teadlikkuse suurendamisega, kasvatada noortes täisleppimatust küberkiusu suhtes ning arendada säilenõtkust ja toimimisoskusi nii küberkiusamise kogemisel kui ka selle pealtnägemisel. Täiskasvanud digikodanike eeskuju arvamuskultuuri viljelemisel ning vähemalt elementaarne viisakus noorte digikodanike panusega arvestamisel on samuti määrava tähtsusega.
 
-### Tänusõnad {-.chapter4_section}
-Aastatel 2006–2014 rahastas EU Kids Online’i projekti Euroopa Komisjon turvalisema interneti programmist. EU Kids Online’i Eesti 2018. aasta küsitlust rahastasid Eesti Interneti SA, Haridus- ja Teadusministeerium (Euroopa Sotsiaalfondist), Justiitsministeerium, Sotsiaalministeerium ning uurimisprojektid PUT 44 (Eesti Teadusagentuur) ja IUT 20-38 (Haridus- ja Teadusministeerium).
+### *Tänusõnad* {-.chapter4_section}
+*Aastatel 2006–2014 rahastas EU Kids Online’i projekti Euroopa Komisjon turvalisema interneti programmist. EU Kids Online’i Eesti 2018. aasta küsitlust rahastasid Eesti Interneti SA, Haridus- ja Teadusministeerium (Euroopa Sotsiaalfondist), Justiitsministeerium, Sotsiaalministeerium ning uurimisprojektid PUT 44 (Eesti Teadusagentuur) ja IUT 20-38 (Haridus- ja Teadusministeerium).*
 
 ### Viidatud allikad {-.subreferences}
 <p id="Allaste2019">Allaste, A.-A., Beilmann, M., Tiidenberg, K. 2018. Digitaalne osalus. – Noorteseire aastaraamat 2017–2018. Noored ja osalus. Tallinn: Eesti Noorsootöö Keskus, Tallinna Ülikool, 119–139.</p>

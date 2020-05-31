@@ -1,7 +1,29 @@
-﻿pop,answer,value,ymin,ymax,x
-EE,Nõustun,75,0,75,1.5
-EE,Ei nõustu,12,75,87,1.5
-EE,Ei oska öelda,13,87,100,1.5
-EL28,Nõustun,74,0,74,3.5
-EL28,Ei nõustu,17,74,91,3.5
-EL28,Ei oska öelda,9,91,100,3.5
+year,value,type
+2005,1147214.00,"Restaureerimistoetus (€)"
+2006,1118453.00,"Restaureerimistoetus (€)"
+2007,1326166.00,"Restaureerimistoetus (€)"
+2008,1243081.00,"Restaureerimistoetus (€)"
+2009,775567.00,"Restaureerimistoetus (€)"
+2010,575204.00,"Restaureerimistoetus (€)"
+2011,575205.00,"Restaureerimistoetus (€)"
+2012,575205.00,"Restaureerimistoetus (€)"
+2013,575205.00,"Restaureerimistoetus (€)"
+2014,600000.00,"Restaureerimistoetus (€)"
+2015,650000.00,"Restaureerimistoetus (€)"
+2016,675000.00,"Restaureerimistoetus (€)"
+2017,775000.00,"Restaureerimistoetus (€)"
+2018,775000.00,"Restaureerimistoetus (€)"
+2005,3662166.61,"Riigieelarve kulud (tuhat €)"
+2006,4413715.89,"Riigieelarve kulud (tuhat €)"
+2007,5248185.87,"Riigieelarve kulud (tuhat €)"
+2008,6157208.85,"Riigieelarve kulud (tuhat €)"
+2009,5720221.04,"Riigieelarve kulud (tuhat €)"
+2010,5503020.64,"Riigieelarve kulud (tuhat €)"
+2011,6491056.88,"Riigieelarve kulud (tuhat €)"
+2012,6977616.01,"Riigieelarve kulud (tuhat €)"
+2013,6978602.46,"Riigieelarve kulud (tuhat €)"
+2014,7111369.30,"Riigieelarve kulud (tuhat €)"
+2015,7601095.19,"Riigieelarve kulud (tuhat €)"
+2016,7884730.97,"Riigieelarve kulud (tuhat €)"
+2017,9896786.85,"Riigieelarve kulud (tuhat €)"
+2018,10825737.92,"Riigieelarve kulud (tuhat €)"

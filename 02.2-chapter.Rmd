@@ -133,7 +133,7 @@ Kreenholmi manufaktuur Narvas oli 19. sajandi teisel poolel Vene Keisririigi kõ
 
 <p class="caption" id="figure223"><span class="figure-number">Joonis 2.2.3.</span> Kreenholmi manufaktuur</p>
 
-```{r, figure229, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure223, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
 knitr::include_graphics("figures/2-chapter/fig223.png")
 
@@ -178,25 +178,25 @@ Kultuuripärandi väärtust ühiskonnas käsitlev Euroopa Nõukogu poliitikadoku
 
 Riiklikult kaitstud ehituspärand on meie kõikide ühine hüve jalutada vanalinna jõuluturul või pidada pulmi uhkes mõisasaalis, aga samal ajal väheste vastutus. Vastutus mälestiste säilimise ja korrashoiu ees on eelkõige nende omanikel, valdavalt eraisikutel ([joonis 2.2.4](#figure223)). Ligikaudu veerand ehitismälestistest on halvas või avariilises seisus ja umbes veerand on kasutuseta. Hoone kasutamine tagab üldjuhul selle korrashoiu ja kasutusest väljalangemine tähendab tavaliselt lagunemist. Parem on mälestiste olukord suuremates linnades, halvem maapiirkondades ja väikelinnades, kus rahvastiku vähenemine toob endaga kaasa hoonestuse tühjenemise.
 
-<p class="caption" id="figure223"><span class="figure-number">Joonis 2.2.4.</span> Ehitismälestiste omanikud</p>
+<p class="caption" id="figure224"><span class="figure-number">Joonis 2.2.4.</span> Ehitismälestiste omanikud</p>
 
-```{r, figure223, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure224, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
 library("scales")
 
- fig223_data <- read.csv ("data/22_fig3_data.csv", header=TRUE, fileEncoding="utf-8")
+ fig224_data <- read.csv ("data/22_fig4_data.csv", header=TRUE, fileEncoding="utf-8")
 
-fig223_data$percent=percent((fig223_data$value/100), 1)
+fig224_data$percent=percent((fig224_data$value/100), 1)
 
-  fig223_plot <- ggplot(data = fig223_data, aes(x = "", y = value, fill = owners)) +
+  fig224_plot <- ggplot(data = fig224_data, aes(x = "", y = value, fill = owners)) +
   geom_bar(stat = "identity") +
-  scale_fill_manual(values=c("#c4dcdf","#369b9e","#297477")) +
+  scale_fill_manual(values=c("#dbd8d7","#a18bbb","#297477")) +
   geom_text(aes(label = percent), position = position_stack(vjust = 0.5), color="white") +
   coord_polar(theta = "y") +
   labs(x="", y="")
 
-  fig223_theme <- theme(
+  fig224_theme <- theme(
                     panel.grid.major.x = element_blank() ,
                     panel.grid.major.y = element_blank(),
                     panel.grid.minor.x = element_blank() ,
@@ -206,9 +206,9 @@ fig223_data$percent=percent((fig223_data$value/100), 1)
                  )
 
 
-  print(fig223_plot + fig_theme_general + fig223_theme)
+  print(fig224_plot + fig_theme_general + fig224_theme)
 
-  ggsave(path="exported_figures/PDF/chapter2",filename="fig223.pdf", height=120, width=200, units="mm")
+  ggsave(path="exported_figures/PDF/chapter2",filename="fig224.pdf", height=120, width=200, units="mm")
 
 ```
 
@@ -218,29 +218,29 @@ fig223_data$percent=percent((fig223_data$value/100), 1)
 
 Mälestiste ja muinsuskaitsealade hoonete remonti ja restaureerimist toetab Muinsuskaitseamet iga-aastase eelarve võimaluste piires. Probleemiks on olnud toetussumma vähesus: see oli enne majandussurutist suurusjärgus 1,1–1,3 miljonit eurot aastas, alates 2009. aastast on restaureerimistoetused jäänud vahemikku 0,5–0,7 miljonit eurot. Keskmine toetussumma on umbes 5000 eurot, suurim osa toetustest kulub avariiliste katuste parandamisele ([joonis 2.2.5](#figure224)).
 
-<p class="caption" id="figure224"><span class="figure-number">Joonis 2.2.5.</span> Aasta 2018 restaureerimistoetuste ülevaade</p>
-```{r, figure224, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+<p class="caption" id="figure225"><span class="figure-number">Joonis 2.2.5.</span> Aasta 2018 restaureerimistoetuste ülevaade (€)</p>
+```{r, figure225, out.width='80%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
 
- fig224_data <- read.csv ("data/22_fig4_data.csv", header=TRUE, fileEncoding="utf-8")
+ fig225_data <- read.csv ("data/22_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
 
-  fig224_plot <- ggplot() +
-    geom_bar(data = fig224_data, mapping = aes(x=type, y=sum, fill=type), width=0.4, stat="identity") +
-    scale_fill_manual(values=c("#369b9e","#c4dcdf")) +
-    labs(y="€", x="")+
+  fig225_plot <- ggplot() +
+    geom_bar(data = fig225_data, mapping = aes(x=type, y=sum, fill=type), width=0.4, stat="identity") +
+    scale_fill_manual(values=c("#369b9e","#a18bbb")) +
+    labs(y="", x="")+
     scale_y_continuous(labels = number)
 
-  fig224_theme <- theme(
+  fig225_theme <- theme(
     legend.position=0,
     text = element_text(size = 12),
     panel.grid.major.x = element_blank() ,
     panel.grid.minor.x = element_blank(),
   )
 
-  print(fig224_plot + fig_theme_general + fig224_theme)
+  print(fig225_plot + fig_theme_general + fig225_theme)
 
-  ggsave(path="exported_figures/PDF/chapter2",filename="fig224.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
+  ggsave(path="exported_figures/PDF/chapter2",filename="fig225.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
 
 ``` {block, type='imgsource'}
@@ -250,31 +250,31 @@ library("tidyverse")
 Lisaks üldisele kinnismälestiste restaureerimistoetusele on riik toetanud eraldi toetusmeetmest aastatel 2004–2018 sakraalehitiste korrastamist (nn pühakodade programm) ning aastatel 2001–2016 mõisakoole (Norra EEA toetuse abil rahastatud mõisakoolide programm). Nii mõisakoolide kui ka pühakodade programmi kogumaht oli üle 12 miljoni euro. Kirikud ja mõisad on enamasti asulate kõige suuremad ja avalikus ruumis kõige tähelepanuväärsemad ehitised, millega on seotud suur osa kohalikust kogukonnast ning mida külastatakse kaugemaltki.
 Mõisakoolide programmi abil on suuremal või vähemal määral restaureeritud enamikku Eesti mõisakoolidest. Pühakodade programmist on toetusi saanud üle 200 kiriku, kabeli ja tsässona ([joonis 2.2.6](#figure225)).
 
-<p class="caption" id="figure225"><span class="figure-number">Joonis 2.2.6.</span> Pühakodade programm (PÜP, €)</p>
+<p class="caption" id="figure226"><span class="figure-number">Joonis 2.2.6.</span> Pühakodade programm (PÜP, €)</p>
 
-```{r, figure225, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure226, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
 library("scales")
 
- fig225_data <- read.csv ("data/22_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
+ fig226_data <- read.csv ("data/22_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
 
 
-  fig225_plot <- ggplot(data = fig225_data) +
+  fig226_plot <- ggplot(data = fig226_data) +
     geom_line(mapping = aes(x=year, y = value, colour=type, group=type), size=1) +
-    scale_colour_manual(values=c("#c4dcdf","#369b9e"))+
-    labs(y="€", x="aasta") +
+    scale_colour_manual(values=c("#a18bbb","#369b9e"))+
+    labs(y="", x="") +
     scale_x_continuous(breaks = c(2004,2006,2008,2010,2012,2014,2016,2018), expand = c(0, 0), limits=c(2004,2018.5))+
-    scale_y_continuous(breaks = c(0,1000000,2000000,3000000,4000000,5000000), labels = number, expand = c(0, 0), limits=c(0,6000000))+
+    scale_y_continuous(breaks = c(0,1000000,2000000,3000000,4000000,5000000), labels = number, expand = c(0, 0), limits=c(0,5500000))+
     expand_limits (y=0)
 
-   fig225_theme <- theme(
+   fig226_theme <- theme(
      panel.grid.minor.x = element_blank()
   )
 
-  print(fig225_plot + fig_theme_general + fig225_theme)
+  print(fig226_plot + fig_theme_general + fig226_theme)
 
-  ggsave(path="exported_figures/PDF/chapter2",filename="fig225.pdf", height=90, width=160, units="mm",encoding = "ISOLatin9.enc")
+  ggsave(path="exported_figures/PDF/chapter2",filename="fig226.pdf", height=90, width=160, units="mm",encoding = "ISOLatin9.enc")
 ```
 
 ``` {block, type='imgsource'}
@@ -284,30 +284,30 @@ library("scales")
 Alates 2019. aastast on senine pühakodade programmi eelarve lisatud Muinsuskaitseameti restaureerimistoetuste eelarvesse, nii et kuigi toetussumma justkui suurenes ligikaudu poole võrra, on eraomanike toetamisvõimalused jäänud samaks. Eraomanike olukorra parandamiseks on 2019. aastast loodud taluarhitektuuri toetamise meede, mille eelarve on esialgu vaid 100 000 eurot. Väljatöötamisel on ka vanalinnade programm, mis peaks lähiaastatel andma hoogu väikelinnade muinsuskaitsealade hoonestuse restaureerimisele.
 Riigi toetus riikliku kaitse all olevale ehituspärandile ei ole kaugeltki piisav: restaureerimistoetuste taotluste maht on mitu korda suurem kui toetamisvõimalused ([joonis 2.2.7](#figure226)). Majandussurutise ajal tehtud kärbe vähendas toetuste eelarvet ligi poole võrra ja kuigi pärast kriisiaastate lõppu on riigieelarve paisunud kolm korda, on riigi toetus mälestistele jäänud sisuliselt kriisiaegsele tasemele ([joonis 2.2.7](#figure226)). Erinevalt mitmest teisest riigist ei ole Eestis mälestiste omanikele ka maksusoodustusi.
 
-<p class="caption" id="figure226"><span class="figure-number">Joonis 2.2.7.</span> Restaureerimistoetuse võrdlus riigieelarvega.</p>
+<p class="caption" id="figure227"><span class="figure-number">Joonis 2.2.7.</span> Restaureerimistoetuse võrdlus riigieelarvega.</p>
 
-```{r, figure226, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure227, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
 
- fig226_data <- read.csv ("data/22_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
+ fig227_data <- read.csv ("data/22_fig7_data.csv", header=TRUE, fileEncoding="utf-8")
 
 
-  fig226_plot <- ggplot(data = fig226_data) +
+  fig227_plot <- ggplot(data = fig227_data) +
     geom_line(mapping = aes(x=year, y = value, colour=type, group=type), size=1) +
-    scale_colour_manual(values=c("#c4dcdf","#369b9e"))+
+    scale_colour_manual(values=c("#a18bbb","#369b9e"))+
     labs(y="", x="aasta") +
     scale_x_continuous(breaks = c(2006,2008,2010,2012,2014,2016,2018), expand = c(0, 0), limits=c(2005,2018.5))+
     scale_y_continuous(breaks = c(0,2000000,4000000,6000000,8000000,10000000),labels = number, expand = c(0, 0), limits=c(0,11500000)) +
     expand_limits (y=0)
 
-   fig226_theme <- theme(
+   fig227_theme <- theme(
      panel.grid.minor.x = element_blank()
   )
 
-  print(fig226_plot + fig_theme_general + fig226_theme)
+  print(fig227_plot + fig_theme_general + fig227_theme)
 
-  ggsave(path="exported_figures/PDF/chapter2",filename="fig226.pdf", height=90, width=160, units="mm")
+  ggsave(path="exported_figures/PDF/chapter2",filename="fig227.pdf", height=90, width=160, units="mm")
 ```
 
 ``` {block, type='imgsource'}
@@ -319,31 +319,30 @@ Uuringus „Eraomandis oleva kinnismälestise hoidmine“ ([Tafel-Viia jt 2014](
 <p class="caption" id="figure227"><span class="figure-number">Joonis 2.2.8.</span> Vahendid kultuuripärandile.</p>
 
 Riigiasutused peaksid eraldama Euroopa kultuuripärandi jaoks rohkem vahendeid (%).
-*Välimine ring Euroopa Liidu keskmine; Sisemine ring Eesti.*
 
-```{r, figure227, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure228, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
 library("scales")
 
-fig227_data <- read.csv ("data/22_fig7_data.csv", header=TRUE, fileEncoding="utf-8")
+fig228_data <- read.csv ("data/22_fig8_data.csv", header=TRUE, fileEncoding="utf-8")
 
-fig227_data$answer <- factor(fig227_data$answer, levels = c("Nõustun","Ei nõustu","Ei oska öelda"))
+fig228_data$answer <- factor(fig228_data$answer, levels = c("Nõustun","Ei nõustu","Ei oska öelda"))
 
-fig227_data$percent=percent((fig227_data$value/100), 1)
+fig228_data$percent=percent((fig228_data$value/100), 1)
 
-  fig227_plot <- ggplot() +
-  geom_rect(data= subset(fig227_data, pop %in% c("EE")), aes(fill=answer, ymax=ymax, ymin=ymin, xmax=2.9, xmin=0)) +
-  geom_rect(data= subset(fig227_data, pop %in% c("EL28")), aes(fill=answer, ymax=ymax, ymin=ymin, xmax=3, xmin=4)) +
-  geom_text(data=fig227_data, aes(label = percent, x=x, y=value), position = position_stack(vjust = 0.5), color="white") +
+  fig228_plot <- ggplot() +
+  geom_rect(data= subset(fig228_data, pop %in% c("EE")), aes(fill=answer, ymax=ymax, ymin=ymin, xmax=2.9, xmin=0)) +
+  geom_rect(data= subset(fig228_data, pop %in% c("EL28")), aes(fill=answer, ymax=ymax, ymin=ymin, xmax=3, xmin=4)) +
+  geom_text(data=fig228_data, aes(label = percent, x=x, y=value), position = position_stack(vjust = 0.5), color="white") +
   xlim(c(0, 4)) +
   coord_polar(theta = "y") +
 
 
-  scale_fill_manual(values=c("#369b9e","#c4dcdf","#A8ACA6")) +
+  scale_fill_manual(values=c("#369b9e","#dbd8d7","#a18bbb")) +
   labs(x="", y="")
 
-  fig227_theme <- theme(
+  fig228_theme <- theme(
                     aspect.ratio=1,
                     panel.grid.major.x = element_blank() ,
                     panel.grid.major.y = element_blank(),
@@ -354,12 +353,13 @@ fig227_data$percent=percent((fig227_data$value/100), 1)
                     axis.text.y = element_blank(),
                  )
 
-  print(fig227_plot + fig_theme_general + fig227_theme)
+  print(fig228_plot + fig_theme_general + fig228_theme)
 
-  ggsave(path="exported_figures/PDF/chapter2",filename="fig227.pdf", height=120, width=200, units="mm")
+  ggsave(path="exported_figures/PDF/chapter2",filename="fig228.pdf", height=120, width=200, units="mm")
 
 ```
-
+Välimine ring **Euroopa Liidu keskmine**<br>
+Sisemine ring **Eesti**
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Eurobaromeeter 2017.
 ```
@@ -374,11 +374,11 @@ Liberty suvemõisasse presidendi residentsi kavandamisele on kulunud üle 350 00
 Hooned võeti Eesti Vabaõhumuuseumilt üle 2014. aastal, ehitusprojekt koostati 2015. aastal. 2017. aastal otsustas president Kersti Kaljulaid presidendi residentsi siiski mitte rajada ning 2019. aasta alguse seisuga pole otsustatud, mida edasi teha. Muuseumile, mis sooviks hooned kasutusse võtta, neid tagasi ei ole antud. Mõisakompleks on avalikkusele suletud ja selle seisukord halveneb.
 Riigi Kinnisvara AS (RKAS) ootab poliitilist otsust, mida mõisakompleksiga edasi teha – rohkemaks tal põhi- kirja järgi voli ei ole. Kui kultuurpärandi hoidmine ja tutvustamine oleks RKASi põhikirjaline eesmärk, oleks Liberty suvemõisa ja mõne teisegi riigile kuuluva mälestise seisukord tõenäoliselt parem.
 
-<p class="caption" id="figure228"><span class="figure-number">Joonis 2.2.9.</span> Liberty suvemõisa Egon Kochi suvila</p>
+<p class="caption" id="figure229"><span class="figure-number">Joonis 2.2.9.</span> Liberty suvemõisa Egon Kochi suvila</p>
 
-```{r, figure228, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure229, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/2-chapter/fig228.png")
+knitr::include_graphics("figures/2-chapter/fig229.png")
 
 ```
 

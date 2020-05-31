@@ -62,7 +62,7 @@ Ruumiandmete kättesaadavus on Eestis ebaühtlane, andmete kvaliteet kõikuv nin
 
 <p class="caption" id="figure241"><span class="figure-number">Joonis 2.4.1.</span> Eesti põhilised ruumiloomega seotud ruumiandmekogud ja nende kirjete seotus</p>
 
-```{r, figure241, out.width='90%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure241, out.width='100%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 knitr::include_graphics("figures/2-chapter/fig241.png")
 ```
@@ -92,7 +92,7 @@ Järgmiste aastate jooksul ootab Eestit ees olulise tähtsusega muudatus ruumian
 Positiivne muutus andmepõhiste juhtimisotsuste tegemise suunas on Eestis siiski üldiselt tuntav. Selle üks näiteid on hiljutine Majandus- ja Kommunikatsiooniministeeriumi ning Statistikaameti koostöölepe andmepõhiste otsustusmehhanismide kasutuselevõtuks avalikus sektoris ([(MKM 2018)](#Majandus2018)). Üsna ambitsioonika eesmärgi kohaselt peaks saama juhtimisotsuseid teha reaalajas. Lisaks on Majandus- ja Kommunikatsiooniministeerium võtnud ametisse andmejuhi (ingl *chief data officer*), kelle ülesanne on ühtse andmestrateegia paikaseadmine. Muutustele vihjab ka Tallinna ideekorje platvormi AvaLinn käivitamine, mis töötati välja Baltic Urban Labi projekti raames. Hea näide on ka Tartu ühistranspordi analüüs ja uue liinivõrgu andmepõhine modelleerimine (vt Tartu linna koduleht 2018). Samuti on Maanteeamet teinud andmepõhiseid otsuseid liiklusohtlike teelõikude ja ristmike muutmiseks liiklusõnnetuste statistika alusel ning planeerinud müratõkkeid arvutusliku mürakaardi andmete alusel.
 
 <p class="caption" id="figure242"><span class="figure-number">Joonis 2.4.2.</span> Tallinna rattateede põhivõrgu potensiaal elukohtadest lähtuvalt.</p>
-```{r, figure242, out.width='90%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure242, out.width='100%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 knitr::include_graphics("figures/2-chapter/fig242.png")
 
@@ -129,7 +129,7 @@ Jõulisem edasiminek avaandmete laiema kasutuse, läbipaistva ruumiloome ja demo
 Jalakäijate liikumisuuring ([Puusepp jt 2017](#Puusepp2017)) Tallinna kesklinnas on näide andmepõhisest planeerimisest. Uuringu käigus vaadeldi avaliku ruumi kvaliteedi mõju jalgsikäijavoogudele Tallinna peatänava planeeringu kontekstis. Võrdluses vasakpoolse pildiga illustreerib parempoolne pilt olukorda, kus välisruumi on muudetud jalgsi liikujatele atraktiivsemaks. Võrdluseks kasutati arvutisimulatsiooni, mis rajanes andmepõhisele jalakäijate liikumisuuringule antud piirkonnas.
 
 <p class="caption" id="figure243"><span class="figure-number">Joonis 2.4.3.</span> Arvutuslikud jalakäijate liikumisrajad Tallinna kesklinnas.</p>
-```{r, figure243, out.width='90%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure243, out.width='100%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("figures/2-chapter/fig243.png")
 ```
 </div>

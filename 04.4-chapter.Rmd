@@ -22,7 +22,7 @@ Ränderaamistiku näide toob ilmekalt esile, kui keerukas võib olla ekspertide 
 ÜRO globaalne ränderaamistik on ÜRO liikmesriikide poolt ühiselt läbi räägitud deklaratsioon, mis keskendub seaduslikule liikumisele, nagu töö- või õpiränne, ja annab võimaluse parandada rahvusvahelist rändealast koostööd, sealhulgas ennetada ebaseaduslikku rännet ja võidelda inimkaubanduse ja -smugeldamisega. Kokkuleppe teksti lõpetasid ÜRO liikmesriigid 2018. aasta juulis ja see võeti vastu 19. detsembril Marokos Marrakechis peetud valitsustevahelisel konverentsil. Eesti valitsus ei saavutanud raamistiku toetamises konsensust ja saatis teema Riigikogusse, kes võttis vastu raamistikku toetava avalduse. Sellele tuginedes hääletas Eesti Marrakechis raamistiku vastuvõtmise poolt.
 
 <p class="caption" id="figure441"><span class="figure-number">Joonis 4.4.1.</span> Rändelepingu protest Stenbocki maja ees</p>
-```{r, figure441, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure441, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
 knitr::include_graphics("figures/4-chapter/fig441.png")
 ```
@@ -115,7 +115,7 @@ Uue puidurafineerimistehase rajamise algatasid Eesti ettevõtjad 2017. aasta jaa
 
 <p class="caption" id="figure443"><span class="figure-number">Joonis 4.4.3.</span> Puidurafineerimistehase vastane meeleavaldus Emajõel, Tartus</p>
 
-```{r, figure443, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure443, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
 knitr::include_graphics("figures/4-chapter/fig443.png")
 ```

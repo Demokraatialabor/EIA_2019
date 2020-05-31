@@ -23,7 +23,7 @@ Maakasutuse muutused muudavad maastikke. Maakasutus muutub inimtegevuse ja eluvi
 
 <p class="caption" id="figure111"><span class="figure-number">Joonis 1.1.1.</span> Elanike arvu muutus 2000. ja 2011. aasta rahvaloenduste vahel  (km<sup>2</sup>)</p>
 
-```{r, figure111, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure111, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 knitr::include_graphics("figures/1-chapter/fig111.png")
 
@@ -90,7 +90,7 @@ fig_112_plot <- tm_shape(fig112_maakonnad) +
       tm_borders(col="white", alpha=0)
 
 tmap_mode("view")
-fig_112_plot
+#fig_112_plot
 
 #tmap_save(tm = fig_153_plot, filename = "figure153.png")
 #tmap_save(tm = fig_112_plot, filename = "fig112.pdf")
@@ -98,6 +98,8 @@ fig_112_plot
 #svg(filename="figure.svg")
 #fig_153_plot
 #dev.off()
+
+knitr::include_graphics("figures/1-chapter/fig112.png")
 
 ```
 

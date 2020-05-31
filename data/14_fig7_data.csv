@@ -1,9 +1,9 @@
 income_size,condition,value
-Madal sissetulek,Värskelt remonditud,5
-Madal sissetulek,Hea seisukord,43
-Madal sissetulek,Esineb puudusi,38
-Madal sissetulek,Esineb suuri puudusi,14
-Kõrge sissetulek,Värskelt remonditud,18
-Kõrge sissetulek,Hea seisukord,61
-Kõrge sissetulek,Esineb puudusi,16
-Kõrge sissetulek,Esineb suuri puudusi,5
+Väike sissetulek,Värskelt remonditud,5
+Väike sissetulek,Hea seisukord,43
+Väike sissetulek,Esineb puudusi,38
+Väike sissetulek,Esineb suuri puudusi,14
+Suur sissetulek,Värskelt remonditud,18
+Suur sissetulek,Hea seisukord,61
+Suur sissetulek,Esineb puudusi,16
+Suur sissetulek,Esineb suuri puudusi,5

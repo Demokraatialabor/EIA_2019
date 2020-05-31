@@ -7,6 +7,8 @@
 **[Indrek Ibrus](#indrek-ibrus)**
 ```
 
+### Põhisõnumid {- .chapter4_section}
+
 ```{block, type='points'}
 * Eesti toimetusliku kontrollita aruteluruum on afektiivne
 

@@ -36,7 +36,7 @@ Loodushoiu ja turismi ühisele arengule aitas kaasa 1938. aastal loodud Loodusho
 
 <p class="caption" id="figure311"><span class="figure-number">Joonis 3.1.1.</span> Vilsandi ümbruskonnas on alati käinud palju turiste. Aastal 1939 oli neid vedava paadi roolis kaitseala eestvedaja Artur Toom</p>
 
-```{r, figure311, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure311, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
 knitr::include_graphics("figures/3-chapter/fig311.png")
 
@@ -67,7 +67,7 @@ RMK viimased külastajauuringud näitavad, et nii 2010. kui ka 2015. aastal käi
 
 ### Linnades on palju rohealasid, kuid nende kvaliteet vajab tähelepanu {-.chapter3_section}
 
-2017. aasta analüüsi põhjal oli Eestis „väga hea ligipääs“ (kuni 200 m) avalikule rohealale 790 900 inimesel ehk ligikaudu 90%-l tiheasustusaladel elavatest inimestest, mis on võrreldav Rootsi 92%-ga ([Säästva arengu näitajad 2018](#saastva-arengu-naitajad2018)). Rohealade kvaliteeti käsitles põgusalt 2009. aasta inimarengu aruanne, kus toodi mõõdikuna välja elanike rahulolu ning probleemina rohealade killustumine suuremates linnades ja hävimine valglinnastumise tagajärjel linnade ümber ([Peterson 2010](#Peterson2010)). Tallinnas näitab 2009. aasta andmete võrdlus 2017. aasta linnavalitsuse tellitud rahuloluküsitlusega elanike stabiilset (u 80%) rahulolu parkide ja haljasalade piisavuse ja seisukorraga. Sarnane üldhinnang saadi Tartus, kus sedastati isegi rahulolu kasvu aastatel 2006–2016. Tartu andmete täpsem analüüs tõi aga välja, et oma elukoha ümbruses pidas parkide ja haljasalade piisavust ja seisundit väga suureks probleemiks 7% ja (teatavaks) probleemiks veel 30% linnaelanikest (eeskätt annelinlased; elanikegruppidest sagedamini eestlased ja naised). Selline lokaalse probleemina tajumine ei olnud 10 aastaga vähenenud. Ka Tallinnas on lähikonna rohealadega just piirkondlikku rahulolematust, näiteks kesklinnas, Kristiines ja Lasnamäel ([Tuhkanen jt 2018](#Tuhkanen2018)). Siit nähtub, et rahulolu kogu linna tasemel ei ole Eestis rohealade hindamiseks piisav mõõdik.
+2017&#8291;. aasta analüüsi põhjal oli Eestis „väga hea ligipääs“ (kuni 200 m) avalikule rohealale 790 900 inimesel ehk ligikaudu 90%-l tiheasustusaladel elavatest inimestest, mis on võrreldav Rootsi 92%-ga ([Säästva arengu näitajad 2018](#saastva-arengu-naitajad2018)). Rohealade kvaliteeti käsitles põgusalt 2009. aasta inimarengu aruanne, kus toodi mõõdikuna välja elanike rahulolu ning probleemina rohealade killustumine suuremates linnades ja hävimine valglinnastumise tagajärjel linnade ümber ([Peterson 2010](#Peterson2010)). Tallinnas näitab 2009. aasta andmete võrdlus 2017. aasta linnavalitsuse tellitud rahuloluküsitlusega elanike stabiilset (u 80%) rahulolu parkide ja haljasalade piisavuse ja seisukorraga. Sarnane üldhinnang saadi Tartus, kus sedastati isegi rahulolu kasvu aastatel 2006–2016. Tartu andmete täpsem analüüs tõi aga välja, et oma elukoha ümbruses pidas parkide ja haljasalade piisavust ja seisundit väga suureks probleemiks 7% ja (teatavaks) probleemiks veel 30% linnaelanikest (eeskätt annelinlased; elanikegruppidest sagedamini eestlased ja naised). Selline lokaalse probleemina tajumine ei olnud 10 aastaga vähenenud. Ka Tallinnas on lähikonna rohealadega just piirkondlikku rahulolematust, näiteks kesklinnas, Kristiines ja Lasnamäel ([Tuhkanen jt 2018](#Tuhkanen2018)). Siit nähtub, et rahulolu kogu linna tasemel ei ole Eestis rohealade hindamiseks piisav mõõdik.
 
 <p class="caption" id="figure312"><span class="figure-number">Joonis 3.1.2.</span> Riigimetsa Majandamise Keskuse hallatavate loodusobjektide külastus- kordade koguarv ning rahvusparkide külastuskordade arv loenduritel põhineva seire andmetel, 2010–2017</p>
 
@@ -261,7 +261,7 @@ Harrastuskalastajate arvu muutusi saab jälgida püügilubade statistika põhjal
 
 <p class="caption" id="figure315"><span class="figure-number">Joonis 3.1.5.</span> Harrastuskalamehed Otepääl Vahejärvel 1945. aastal</p>
 
-```{r, figure315, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure315, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
 knitr::include_graphics("figures/3-chapter/fig315.png")
 
@@ -283,7 +283,7 @@ Marjuliste ruumikäitumist uuriti 2017. aastal, küsitledes mustikakorjajaid, ke
 Seega on marja- ja seenekohad Eestis kultuuriliselt olulised ja püsivad ning neid tajutakse privaatsetena. See põhjustas näiteks 1990. aastatel probleeme setude jaoks, kelle korjekohad jäid teisele poole riigipiiri ([Runnel 2002](#Runnel2002)). Peamine probleem mustikakorjajate jaoks on korjekohtade raie, mida ei kompenseeri kaitsealad ega uute marjakohtade võimalik tekkimine maastikel. Probleemi lahendamiseks tuleks marjametsade kaitset planeerida moel, mis ei eelda inimestelt oma korjekohtade avalikustamist või kiiret vahetamist.
 
 <p class="caption" id="figure316"><span class="figure-number">Joonis 3.1.6.</span> Mustikate korjamine</p>
-```{r, figure316, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure316, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
 knitr::include_graphics("figures/3-chapter/fig316.png")
 
