@@ -101,7 +101,7 @@ knitr::include_graphics("figures/2-chapter/fig242.png")
 <span class="imgsource-source">Allikas:</span> Tallinna rattastrateegia 2018-2027.
 ```
 
-Tallinna rattastrateegias 2018–2027 ([Jüssi jt 2018](#Jüssi2018)) võrreldi rattateede võimalikku paiknemist. Üks kasutatud meetodeid oli potentsiaalsete 500 m raadiuses olevate kasutajate arvutuslik võrdlus. Eesmärk oli leida jalgrattateede põhivõrgule asukoht, mis oleks võimalikult lähedal suuremale hulgale elanikele. [Joonis 2.4.2](#figure242) on võrgustiku ühe stsenaariumi andmepõhine visualiseering, kus rattateede värvus näitab potentsiaalsete kasutajate lähedust.
+Tallinna rattastrateegias 2018–2027 võrreldi rattateede võimalikku paiknemist. Üks kasutatud meetodeid oli potentsiaalsete 500 m raadiuses olevate kasutajate arvutuslik võrdlus. Eesmärk oli leida jalgrattateede põhivõrgule asukoht, mis oleks võimalikult lähedal suuremale hulgale elanikele. [Joonis 2.4.2](#figure242) on võrgustiku ühe stsenaariumi andmepõhine visualiseering, kus rattateede värvus näitab potentsiaalsete kasutajate lähedust.
 
 ### Sabassörkijast on võimalik tõusta eestvedajaks {-.chapter2_section}
 
