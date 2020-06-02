@@ -501,7 +501,10 @@ p.caption {
   font-weight: bold;
   width: 2em;
   }
-
+  
+.bullet-heading {
+  color: #3a404a;
+}
 .chapter0_section .figure-number {
 	color: #C54409 !important;
 }
@@ -895,7 +898,7 @@ p.caption {
 }
 
 .chapter5_section h1{ 
-  color: white;
+  color: #A01B17;
 }
 
 .chapter5_section .authors {
