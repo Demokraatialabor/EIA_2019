@@ -465,8 +465,8 @@ fig02_data$Asukoht <- factor(fig02_data$Asukoht, levels = c("Tallinna eeslinn","
 
 fig02_data$percent=percent((fig02_data$Protsent/100), 1)
 
-  fig02_plot <- ggplot(data = fig02_data, 
-       mapping = aes(x = Vanus, y = ifelse(test = Sugu == "Mehed", yes = -Protsent, no = Protsent), 
+  fig02_plot <- ggplot(data = fig02_data,
+       mapping = aes(x = Vanus, y = ifelse(test = Sugu == "Mehed", yes = -Protsent, no = Protsent),
                      fill = Sugu)) +
       geom_col() +
       coord_flip() +
@@ -474,7 +474,7 @@ fig02_data$percent=percent((fig02_data$Protsent/100), 1)
       scale_fill_manual(values=c("#369b9e","#c54409")) +
       labs(y = "%") +
       facet_wrap(~Asukoht, nrow=1, strip.position="top")
-  
+
     fig_theme_general <- theme(
                      text = element_text(color = "#292b2c", size = 12, family=""),
                      panel.background = element_rect(fill = "white", colour = "white"),
@@ -566,7 +566,7 @@ Säästva arengu põhimõtteid järgivale ja head elukvaliteeti pakkuvale linnak
 Eesti ei ole oma ääremaastumisega erand, kuid tulenevalt Eesti geopoliitilisest asendist võib see osutuda riikluse probleemiks.
 ```
 
-Ei Põhjala ega ülejäänud Euroopa pole suutnud seni maapiirkondadele kahanemist pidurdavat poliitikat välja pakkuda. Mõningaid Eestile sobivaid häid näiteid pakuvad eeskujuks Põhjamaad ([Nordregio 2017](#Nordregio2017)). Eesti ei ole oma ääremaastumisega erand, kuid tulenevalt Eesti geopoliitilisest asendist võib see osutuda riikluse probleemiks. Järjest hõredam püsiasustus piirialadel loob ruumilise vaakumi, kus tegutsevad Eesti sõjaväelised ja jõustruktuurid. See on tihti ainus võimalus tagada riigi kohalolek. Piiriäärsete piirkondade teema eeldab tihedamat koostöös teiste Balti riikidega. Haldusreformi järel vajavad maapiirkondade inimesed kindlustunnet, et kvaliteetsed teenused on kättesaadavad kõigile elanikkonna eagruppidele. Teiste riikide kogemusele tuginedes (samas) võib elanikkonna piirkonda püsimajäämise ja noorte piirkonda meelitamise võti peituda kodanike aktiivses osalemises piirkonna arenguprotsessides ja nende suunamisel. Kohaliku omavalituse jõustav, koostööle kutsuv avatud valitsemine tagab usaldusväärse õhkkonna, et koha arengu kavandamine ja elluviimine muutub inimestele oluliseks ning kohalikel elanikel on võimalus ise piirkonna arengut suunata. Need on strateegilised pikaajalised kokkulepped, mis rajanevad usaldusel ja kestavad poliitikaüleselt.
+Ei Põhjala ega ülejäänud Euroopa pole suutnud seni maapiirkondadele kahanemist pidurdavat poliitikat välja pakkuda. Mõningaid Eestile sobivaid häid näiteid pakuvad eeskujuks Põhjamaad ([Nordregio 2017](#Nordregio2017)). Eesti ei ole oma ääremaastumisega erand, kuid tulenevalt Eesti geopoliitilisest asendist võib see osutuda riikluse probleemiks. Järjest hõredam püsiasustus piirialadel loob ruumilise vaakumi, kus tegutsevad Eesti sõjaväelised ja jõustruktuurid. See on tihti ainus võimalus tagada riigi kohalolek. Piiriäärsete piirkondade teema eeldab tihedamat koostöös teiste Balti riikidega. Haldusreformi järel vajavad maapiirkondade inimesed kindlustunnet, et kvaliteetsed teenused on kättesaadavad kõigile elanikkonna eagruppidele. Teiste riikide kogemusele tuginedes (samas) võib elanikkonna piirkonda püsimajäämise ja noorte piirkonda meelitamise võti peituda kodanike aktiivses osalemises piirkonna arenguprotsessides ja nende suunamisel. Kohaliku omavalitsuse jõustav, koostööle kutsuv avatud valitsemine tagab usaldusväärse õhkkonna, et koha arengu kavandamine ja elluviimine muutub inimestele oluliseks ning kohalikel elanikel on võimalus ise piirkonna arengut suunata. Need on strateegilised pikaajalised kokkulepped, mis rajanevad usaldusel ja kestavad poliitikaüleselt.
 
 Eesti kodanikuühiskonna lõimimisel valitsuse, ametiasutuste ja kohaliku tasandi otsustusprotsessidesse on kasutamata potentsiaal. Osalusdemokraatia edendamiseks vajame esiteks senisest enam toimivaid, läbipaistvaid ning tagasisidestamisel põhinevaid kodanikkonna kaasamisviise. Need tagavad teadmiste vahetuse ning loovad laiemat usaldust riigi ja tema kodanike vahel. Teine usalduse loomise mehhanism ühiskonnas on andmete kättesaadavus ja nende täpsus. Ühiskonna innovatsiooni veab tark linn, mis põhineb reaalajas jälgitavate avaandmete tõlgendamisel ning eraettevõtete, ülikoolide ja kodanikualgatuste lõimitud teadmussiirdel. Avaandmetel põhinev kodanikuteadus saab täiendavalt pakkuda sotsiaalse innovatsiooni lahendusi linna- ja maakogukondadele ning ühtlasi olla partner riigile ja kohalikele omavalitsustele spetsiifiliste probleemide lahendamisel. Seeläbi on kodanikuühiskond ühiskonna sidusust loov partner, kes kaasamise kaudu mõjutab valitsemise protsesse.
 
@@ -574,7 +574,7 @@ Seda aruannet lõpetades on tervet maailma haaranud tervishoiukriis. Eriti haava
 
 ### Viidatud allikad {-.subreferences}
 
-<p id="Ainsaar2019">Ainsaar, M., Strenze, T. (toim.) 2019. Väärtused kui inimvara ja nende seos ühiskonna arenguga. Tallinn, Tartu: Arenguseire Keskus, Tartu Ülikool.</p>
+<p id="Ainsaar2019">Ainsaar, M., Strenze, T. (toim.) 2019. Väärtused kui inimvara ja nende seos ühiskonna arenguga. Tallinn, Tartu: Arenguseire Keskus, Tartu Ülikool.</p>
 <p id="Brenner2019">Brenner, N. 2019. New Urban Spaces: Urban Theory and the Scale Question. Oxford: Oxford University Press.</p>
 <p id="Clark2019">Clark, G., Moonen, T., Nunley, J. 2019. The Story of Your City: Europe and its Urban Development 1970 to 2020. European Investment Bank.</p>
 <p id="EEA2019">EEA – European Environmental Agency 2019a. Land and soil in Europe. EEA Signals 2019. Luxembourg: Publications Office of the European Union.</p>
@@ -592,7 +592,7 @@ Seda aruannet lõpetades on tervet maailma haaranud tervishoiukriis. Eriti haava
 <p id="Nijkamp2013">Nijkamp, P., Kourtit, K. 2013. The “New Urban Europe”: Global Challenges and Local Responses in the Urban Century. – European Planning Studies, 21 (3), 291–315.</p>
 <p id="Nordregio2017">Nordregio 2017. White paper on Nordic sustainable cities. Stockholm: Nordregio.</p>
 <p id="Raagmaa2014">Raagmaa, G., Kalvet, T., Kasesalu, R. 2014. Europeanization and De-Europeanization of Estonian Regional Policy. – European Planning Studies, 22 (4), 775–795.</p>
-<p id="RahvastikuterviseAK2030">Rahvastiku tervise arengukava 2020–2030.Tööversioon. Tallinn: Sotsiaalministeerium, 2020.</p>
+<p id="RahvastikuterviseAK2030">Rahvastiku tervise arengukava 2020–2030. Tööversioon. Tallinn: Sotsiaalministeerium, 2020.</p>
 <p id="Schmidt2018">Schmidt, C. 2018. Journeys through planetary urbanization: Decentering perspectives on the urban. – Environment and Planning D: Society and Space, 36 (3), 591–610.</p>
 <p id="Statistikaamet2018">Säästva arengu näitajad 2018. Tallinn: Statistikaamet.
 Tambaum, T. 2016. 55+ rahvastiku internetikasutus ja sotsiaalne aktiivsus. – Sakkeus, L., Leppik, L. (toim.). Pilk hallile alale. SHARE Eesti uuringu esimene ülevaade ja soovitused eakate poliitika kujundamiseks. Tallinn: Tallinna Ülikool, 182−205.</p>
