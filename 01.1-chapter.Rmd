@@ -1,4 +1,4 @@
-## Pikaajalised maakasutuse (ja avaliku ruumina tajutava maastiku) muutused linnas ja maal { .chapter_section .chapter1_section}
+## Maakasutuse muutused - linna ja maa tähenduse moondumine { .chapter_section .chapter1_section}
 
 ```{block, type='authors'}
 **[Tõnu Oja](#tõnu-oja)**
@@ -17,7 +17,7 @@ Maastik – meid ümbritsev looduslik ja inimtekkeline keskkond nii, nagu me sed
 ```
 Maakasutuse muutuste analüüsimiseks saame kasutada nii otseselt ruumiandmeid ([nt CORINE maakatte andmed](#CORINE)) kui ka ruumikasutusega kaudselt seotud andmeid (nt Statistikaameti avalikud andmestikud). CORINE on üleeuroopaline projekt, mille käigus kaardistati eri riikide maakate. Eestis on CORINE maakate kaardistatud 1990., 2000., 2006., 2012. ja 2018. aasta seisuga, need andmed on avalikud. Maakate on maapinna elutust või elusainest kate, ka tehislikud pinnakatted, põllumajandustaimed, metsad, (pool)looduslikud alad, märgalad ja veekogud. Maakate väljendab suurel määral maakasutuse mõju maa pinna väljanägemisele – maastikule. CORINE kaardistus on üldine ning väga detailseid maakatte muutusi jälgida ei luba. Ka erinevad Statistikaameti andmed võimaldavad saada pildi maakasutuse muutumisest, näiteks on ruumiliselt (ruutkilomeetri kaupa, linnades hektari kaupa) esitatud viimaste rahvaloenduste (2000, 2011) andmed. Teatud määral saab maakasutuse muutusi jälgida ka avaliku Eesti topograafilise andmekogu alusel, mida haldab Maa-amet. Kaitsealadega seotud maakasutuse muutusi peegeldavad Eesti looduse infosüsteemi (EELIS) andmed. Järgnevas ongi nimetatud andmeid analüüsitud ja mõtestatud.
 
-### Rahvastiku vähenemine ja ränna linnalistele aladele mõjutab maastikke {-.chapter1_section}
+### Rahvastiku vähenemine ja ränne linnaregioonidesse mõjutab maastikke {-.chapter1_section}
 
 Maakasutuse muutused muudavad maastikke. Maakasutus muutub inimtegevuse ja eluviisi muutustega. Esimene huvipakkuv tegur on Eesti elanike arvu vähenemine – 2017. aastal oli Statistikaameti andmetel Eestis peaaegu 57 000 elanikku vähem kui sajandivahetusel, vähenemine 4,1%. Teine tegur on inimeste riigisisene ümberasumine. Siserände mõjul on elanike arv suurenenud Tallinna, Tartu ja Pärnu lähiümbruses, üle Eesti on enamikus piirkondades ([joonis 1.1.1](#figure111)) elanike arv vähenenud.
 
@@ -126,7 +126,7 @@ Uut hüppelist linna pindala suurenemist võimaldas mõisamaade natsionaliseerim
 ```{block, type='blockquote-left'}
 Linna ümbritsevate omavalitsuste üldplaneeringud on soosinud valglinnastumist, nähes ette linnalise maakasutuse jätkumist linnapiiride taga.
 ```
-Linna ümbritsevate omavalitsuste üldplaneeringud on soosinud valglinnastumist, nähes ette linnalise maakasutuse jätkumist linnapiiride taga. Endised põllumajandusmaad linna piiri lähedal on ehitatud täis elamuid, tootmishooneid jmt. Paljudes kohtades on äärelinna elamurajoonid kokku kasvanud Tartu linnaga. Koos inimestega on linna äärtesse kolinud ka teenused. Sama kinnitab Statistikaameti arvutatud linna administratiivpiiridest väljuv tiheasustusala piir ([joonis 1.1.2](#figure112)). Laialivalgumist peegeldab ka kahe viimase rahvaloenduse (2000, 2011) rahvastikutiheduse andmete võrdlemine. Rahvastikutiheduse kasv (mis peegeldab muutusi maakasutuses) on suurem Tartu linnapiiri taga kui linnas sees.
+Linna ümbritsevate omavalitsuste üldplaneeringud on soosinud valglinnastumist, nähes ette linnalise maakasutuse jätkumist linnapiiride taga. Endised põllumajandusmaad linna piiri lähedal on ehitatud täis elamuid, tootmishooneid jmt. Paljudes kohtades on äärelinna elamurajoonid kokku kasvanud Tartu linnaga. Koos inimestega on linna äärtesse kolinud ka teenused. Sama kinnitab Statistikaameti arvutatud linna administratiivpiiridest väljuv tiheasustusala piir ([joonis 1.1.3](#figure113)). Laialivalgumist peegeldab ka kahe viimase rahvaloenduse (2000, 2011) rahvastikutiheduse andmete võrdlemine. Rahvastikutiheduse kasv (mis peegeldab muutusi maakasutuses) on suurem Tartu linnapiiri taga kui linnas sees.
 
 <p class="caption" id="figure113"><span class="figure-number">Joonis 1.1.3.</span> Rahvastikutiheduse muutus Tartus kahe rahvaloenduse (2000, 2011) vahel näitab ruumikasutuse intensiivsuse ühtlustumist linnas ja tagamaal</p>
 
@@ -142,7 +142,7 @@ knitr::include_graphics("figures/1-chapter/fig113.png")
 
 Linnapiiride laienemist mõjutab ka uute ärikeskuste tekkimine linna äärealadele või vahetult linnapiiri taha, muu hulgas linnaümbruse transporditaristu, näiteks ringtee linnaruumi nihutava mõju tõttu. Tööstus- ja tootmisalade linnaruumist välja kolimine mõjutab taristu arengut, mis omakorda hakkab mõjutama uute tõmbekeskuste teket. Sarnaseid suundumusi on Euroopas kirjeldatud alates 19. sajandist ([Antrop 2004](#Antrop2004)). Ka need ehitatud alad lisanduvad põllumajandusmaade, harvem metsamaa asemele.
 
-Tartus näeme varem tihedamate linnaosade sõrenemist ehk asustustiheduse vähenemist ([joonis 1.1.2](#figure112)), samal ajal linnasiseste tõmbekeskuste suhtes hea paiknemisega sõredad linnaosad tihenevad, avaldades survet sotsiaal- ja ühiskasutusega maa ning puhke- ja virgestusalade kadumiseks. Asustustihedus linnalise ala sees ühtlustub (toimub omalaadne difusiooniprotsess). Tartu linnas ja lähiümbruses on asustamata alade hulk vähenenud nii ruutkilomeetri kui ka hektari kohta, samal ajal kui tihedaima asustusega alad (nt Annelinn, Tähtvere) on hõrenenud. Keskmised asustustiheduse näitajad on kokkuvõttes siiski kasvanud. Vähenenud on suure ja väga väikese asustustihedusega ala ning suurenenud keskmise asustustihedusega ala.
+Tartus näeme varem tihedamate linnaosade sõrenemist ehk asustustiheduse vähenemist ([joonis 1.1.3](#figure113)), samal ajal linnasiseste tõmbekeskuste suhtes hea paiknemisega sõredad linnaosad tihenevad, avaldades survet sotsiaal- ja ühiskasutusega maa ning puhke- ja virgestusalade kadumiseks. Asustustihedus linnalise ala sees ühtlustub (toimub omalaadne difusiooniprotsess). Tartu linnas ja lähiümbruses on asustamata alade hulk vähenenud nii ruutkilomeetri kui ka hektari kohta, samal ajal kui tihedaima asustusega alad (nt Annelinn, Tähtvere) on hõrenenud. Keskmised asustustiheduse näitajad on kokkuvõttes siiski kasvanud. Vähenenud on suure ja väga väikese asustustihedusega ala ning suurenenud keskmise asustustihedusega ala.
 
 Sarnased protsessid toimuvad ka teistes Eesti suuremates linnaregioonides. Linnamudelite seisukohalt on tegemist keskuspiirkondade füüsilise laienemisega. Kasutusintensiivsuse varieeruvus aga selle piirkonna eri osades (vana keskuslinna eriilmelistes linnaosades ja uusasumites linna äärealadel) väheneb. Valglinnastumine ei puuduta ainult linna äärealasid – maakatte ja asustustiheduse muutused näitavad, et kogu linnaline ala muutub kasutusintensiivsuselt ühtlasemaks.
 
@@ -156,7 +156,7 @@ Ka kliimaaruandluses kajastuva maismaa pindala andmed (Statistikaamet) ütlevad,
 
 Ka CORINE andmestikus on põllumajandusliku kasutusega maade eri tüübid küll märgatavalt muutunud, ent suurel määral on tegemist ühe põllumajandusliku kasutusega ala muutumisega teiseks põllumajandusliku kasutusega alaks. Siiski on põllumajandusliku maa vähenemine maakatteandmestikus märgatav.
 
-### Metsamaa pindala kasvab, kuid väheneb okasmetsa pindala ja metsad noorenevad {-.chapter1_section}
+### Metsamaa pindala kasvab, kuid okasmetsi on vähem ja metsad noorenevad {-.chapter1_section}
 
 Ajavahemikul 2000–2006 jätkusid maakatte muutustes eelmise sajandi viimase kümnendiga sarnased trendid. Kõige enam lisandus maakatteklassi üleminekulised metsaalad ehk raiesmikud, mis osutab metsaraie määrale. Põldude võsastumise protsess võrreldes 1990. aastatega aeglustus. Samal ajal oli 1990. aastate raietegevuse jätkumõjuna osa üleminekulisi metsaalasid kadunud. Peamiselt on need muutunud heitlehisteks ja segametsadeks. Märkimisväärselt vähe võrreldes raiega on aga lisandunud okasmetsi ([CORINE](#CORINE)).
 
@@ -182,7 +182,7 @@ Menetlemisel on maaelu ja põllumajandusturu korraldamise seaduse muutmise seadu
 
 Üldistatuna tähendavad kavandatud meetmed piiranguid maakasutuse muutmisele (nii täisehitamisele kui ka metsastamisele) ja põllumassiivide lõhkumisele. Kohustus põllumaa säilimise tagamiseks pannakse maaomanikele. Põllumajandusmaastiku üksluiseks ja igavaks muutumist pidurdab Euroopa ühtsest põllumajanduspoliitikast tulenev ökoloogiliste elementide säilitamise nõue (mis lisaks toetab ka elurikkust) ning selle toetusmeetmed. Kokkuvõttes põhjustavad kavandavad muutused regulatsioonides küll jätkuvaid vaidlusi, ent väga suure tõenäosusega on tegu linnade laialivalgumist pidurdavate meetmetega.
 
-### Väärtuslike maastike kaitse ja kaitsealad toetavad maastike konservatiivsust {-.chapter1_section}
+### Väärtuslikud maastikud ja kaitsealad toetavad maastike üldilme säilimist {-.chapter1_section}
 
 Väärtuslikud maastikud kaardistati maakonnaplaneeringute eraldi teemaplaneeringuna juba eelmises planeerimisringis käesoleva sajandi alguses. Üle kandusid need ka viimastesse praegu kehtivatesse maakonnaplaneeringutesse. Tüüpiliste piirangutena väärtuslike maastike maakasutuse säilitamisel võib tuua taas näite Viljandi maakonnaplaneeringust. Väärtuslikule maastikualale hoonestust planeerides on eesmärk säilitada võimalikult hästi olemasolev ajalooline asustus, arvestada ajaloolist teede- ja tänavavõrku ning ehitustraditsioone. Uute ehitiste kavandamisel tuleb arvestada piirkonnale iseloomuliku traditsioonilise ehituslaadiga. Soovitakse säilitada põllumajandusmaastiku avatust ja vaateid, traditsioonilisi maastikuelemente ja -struktuure. Välditakse vaateid häirivaid rajatisi.
 
@@ -263,7 +263,7 @@ Tulevikku vaadates väga pöördelisi muutusi maastikku muutvates trendides ilms
 
 <p id="CORINE">CORINE Land Cover – COoRdination of INformation on the Environment. European Union Earth Observation Programme Copernicus Land Monitoring Service Pan-European Component.</p>
 
-<p id="Marksoo">Marksoo, A. 2005. Linnasiire. – Pullerits, H. (koost. ja toim.), Tõnisson, U., Liim, A., Andresen, A. (toim.). Tartu. Ajalugu ja kultuurilugu. Tartu: Tartu Linnamuuseum, Ilmamaa.</p>
+<p id="Marksoo2005">Marksoo, A. 2005. Linnasiire. – Pullerits, H. (koost. ja toim.), Tõnisson, U., Liim, A., Andresen, A. (toim.). Tartu. Ajalugu ja kultuurilugu. Tartu: Tartu Linnamuuseum, Ilmamaa.</p>
 
 <p id="Oja2009">Oja, T. 2009. Maakasutuse muutused (ptk 7.2). Valglinnastumine (ptk 7.3). – Kaukver, K. (toim.). Keskkonnaülevaade 2009. Tallinn: Keskkonnaministeeriumi Info- ja Tehnokeskus, 115–123.</p>
 
