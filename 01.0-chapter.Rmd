@@ -185,7 +185,7 @@ Võib-olla muutub aja jooksul ka täieliku omanikuühiskonna eeldus eluaseme- ja
 
 <p id="Marksoo1985">Marksoo, A. 1985. Rahvastiku rändest. – Raig, I. (toim.). Maaelu. Maa sotsiaalse arengu probleeme Eestis. Tallinn: Valgus, 28–34.</p>
 
-<p id="Miggelbrink2016">Miggelbrink, J., Meyer, F. 2016. Lost in complexity? Researching the role of socio-spatial ascriptions in the process of peripheraliztion. – Lang, T., Henn, S., Ehrlich, K., Sgibnev, W. (eds.). Understanding Geographies of Polarization and Peripheralization: Perspectives from Eastern and Central Europe and Beyond. London: Palgrave Macmillan, 62–79.</p>
+<p id="Miggelbrink2015">Miggelbrink, J., Meyer, F. 2015. Lost in complexity? Researching the role of socio-spatial ascriptions in the process of peripheraliztion. – Lang, T., Henn, S., Ehrlich, K., Sgibnev, W. (eds.). Understanding Geographies of Polarization and Peripheralization: Perspectives from Eastern and Central Europe and Beyond. London: Palgrave Macmillan, 62–79.</p>
 
 <p id="Owen2009">Owen, S., Herlin, I. S. 2009. A sustainable development framework for a landscape of dispersed historic settlement. – Landscape Research, 34 (1), 33–54.</p>
 
