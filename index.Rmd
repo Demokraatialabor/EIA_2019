@@ -8,4 +8,58 @@ css: eia.css
 lang: et
 ---
 
-# Eesti Inimarengu aruanne 2019 {-.chapter0 .intro_section .chapter0_section}
+# Eesti inimarengu aruanne 2019/2020 {-.cover-page}
+
+<div class="cover-container">
+<div id="cover-hero">
+<h1>Eesti inimarengu aruanne 2019/2020</h1>
+<h2>Linnastunud ühiskonna ruumilised valikud</h2>
+
+
+```{block, type='poem1'}
+Sest agulist, mis ääristas<br>
+me linna, vilets mulje saadi,<br>
+kesklinna see-eest vääristas<br>
+kuus-seitse gooti kelpfassaadi.<br>
+Siin – sulgund õued, müürid, kivid.<br>
+Toas plüüš ja koid ja papagoid.<br>
+Seal – kapsamaad, tuul, hütirivid,<br>
+Paar lahjat veist – ja lapsi, noid<br>
+kriim, kilav kari... Tehkem mööndus:<br>
+see polnud kõik. Seal vahel vööndus<br>
+veel hooneid asfaltteede veeris<br>
+ja villakesi pargipeidus,<br>
+kust võõrad käskiv silt pareeris...
+
+<p id="jaankross"> Jaan Kross </p>
+```
+</div>
+</div>
+
+<div id="cover-body">
+<div class="cover-container">
+Eesti inimarengu aruanne on iga kahe aasta tagant ilmuv artiklite kogumik, mis peegeldab ja mõtestab Eesti ühiskonna sotsiaalmajanduslikku olukorda ja võimalikke arengusuundi.
+
+Tunnustatud teadlaste koostööna valmiv põhjalik aruanne panustab teadmuspõhise poliitika kujundamisse ning sellest kantud mõtteviiside ja teaduse populariseerimisse.
+
+Eesti inimarengu aruanne lähtub ÜRO väljaantavast rahvusvahelisest inimarengu indeksist ja raportist.
+
+Eestis on inimarengu aruanne ilmunud 1995. aastast. 2006. aastast annab kogumikku välja SA Eesti Koostöö Kogu. Aruande digiversioon on avatud lähtekoodiga ja andmetega.
+</div>
+</div>
+
+<div id="cover-footer">
+<div class="cover-container">
+```{block, type='poem2'}
+**ÜKSMEEL**<br>
+Eks ole pahemgi käsi parema käe vend<br>
+Ehkki nad teevad erinevaid tegusid,<br>
+Kuigi nad teineteist ei teretagi.<br>
+Ühte hoiavad nad ometi,<br>
+Sind armastades,<br>
+Oi!<br>
+
+<p id="handorunnel">Hando Runnel</p>
+```
+</div>
+</div>
