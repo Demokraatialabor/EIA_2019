@@ -1,7 +1,7 @@
 ## Loodusalade mõju inimeste heaolule {.chapter_section .chapter3_section}
 
 ```{block, type='authors'}
-**[Kati Orru](#kati-orru), [Mait Lang](mait-lang) ja [Hans Orru](#hans-orru)**
+**[Kati Orru](#kati-orru), [Mait Lang](#mait-lang) ja [Hans Orru](#hans-orru)**
 ```
 
 ```{block, type='points'}
@@ -13,7 +13,7 @@ Loodusalad pakuvad inimestele võimalust olla füüsiliselt aktiivne, ammutada p
 ```{block, type='blockquote-right'}
 Hoolimata kasust heaolule ja tervisele, teadvustatakse loodusala tervistatavat mõju Eestis vähe.
 ```
-Käesolevas peatükis selgitame, milline on Eestis kodulähedase looduse seos inimese vaimse ja füüsilise tervisega, kuidas seda arvestatakse loodusalade kujundamisel ning kuidas arendada inimeste võimet looduse ootamatustega toime tulla. Keskkonnaõigluse ühe aspektina võib lähilooduse tervistav mõju olla suhteliselt olulisem just vähem kindlustatutele ([Chiabai jt 2018](#Chiabai2018)), see tähendab, avalikult kasutatavad elukohalähedased loodusalad võivad vähendada lõhet erineva sissetulekuga inimeste tervisenäitajates. Hoolimata selgest kasust heaolule ja tervisele, teadvustatakse loodusala tervistavat mõju Eestis vähe. Näiteks 2018. aasta Eesti elanike keskkonnateadlikkuse uuringu alusel teadvustas metsade tervistavat mõju vaid 7% Eesti elanikkonnast ([Turu-uuringute AS 2018](#Turu-uuringute2018)).
+Käesolevas peatükis selgitame, milline on Eestis kodulähedase looduse seos inimese vaimse ja füüsilise tervisega, kuidas seda arvestatakse loodusalade kujundamisel ning kuidas arendada inimeste võimet looduse ootamatustega toime tulla. Keskkonnaõigluse ühe aspektina võib lähilooduse tervistav mõju olla suhteliselt olulisem just vähem kindlustatutele ([Chiabai jt 2018](#Chiabai2018)), see tähendab, avalikult kasutatavad elukohalähedased loodusalad võivad vähendada lõhet erineva sissetulekuga inimeste tervisenäitajates. Hoolimata selgest kasust heaolule ja tervisele, teadvustatakse loodusala tervistavat mõju Eestis vähe. Näiteks 2018. aasta Eesti elanike keskkonnateadlikkuse uuringu alusel teadvustas metsade tervistavat mõju vaid 7% Eesti elanikkonnast ([Turu-uuringute AS 2018](#3Turu-uuringute2018)).
 
 Elukoha tervisemõju varasemad uuringud Euroopas, sealhulgas Eestis, kinnitavad, et näiteks õhusaaste halvendab inimeste tervist ja vähendab oodatavat eluiga nii maal kui ka linnas ([Orru jt 2016b](#Orru2016)). Inimese sotsiaalset tausta ja terviseseisundit arvesse võttes vähendab isegi vähene õhu saastatus oluliselt hinnanguid heaolule. Teistes riikides on selgitatud, et loodusalade lähedal elavatel inimestel on vähem hingamisteede ja südame-veresoonkonnahaigusi ja vaimse tervise häireid ning neil on tugevam immuunsüsteem ([WHO 2017](#WHO2017)). Neis uuringutes on paremaid tervisenäitajaid seletatud muu hulgas sellega, et loodusalade lähedus soosib inimeste füüsilist aktiivsust ja loob suhtluskeskkonna. Näiteks Hollandis veedavad lapsed, kelle kodust 500 m raadiuses on ühe elamu kohta vähemalt 75 m2 roheala, 15% rohkem aega õues mängides, keskmiselt 1,5 tundi nädalas (<a href="https://home.kpmg/nl/nl/home.html">www.kpmg.nl</a>).
 
@@ -86,7 +86,7 @@ knitr::include_graphics("figures/3-chapter/fig323.png")
 
 ### Inimesed seisavad silmitsi loodusalade nõrgenenud puhverdusvõimega {-.chapter3_section}
 
-Rohealad puhverdavad kliimamuutustest inimeste heaolule tingitud ohtusid, mida Eestis ennustatakse metsatulekahjude, paduvihmade ja tormikahjustuste tõttu suurenevat. Muu hulgas püüavad rohealad kinni liigse sadevee, vähendavad tormituulte laastavat mõju ning leevendavad kuumasaare efekti ([Demuzere jt 2014](#Demuzere2014)). Ka kuumapäevadel, mil ööpäeva keskmine temperatuur ei lange alla 21 kraadi, suurenevad terviseriskid. Aastatel 1980–2015 suurenes kuumaga seotud enneaegsete surmade arv Eestis 2,4 korda, eriti märgatavalt krooniliste haigustega inimestel, eakatel ning Ida- ja Kesk-Eestis ([Orru jt 2018](#Orru2018)). Nende ohtude vähendamiseks on asulates olulised nii (puudega) rohealad kui ka veekogud, kuid suure arendushuvi ja lünkliku planeerimisvõttestiku tõttu on surve selliste alade vähenemiseks Eestis tugev ([Poom ja Sepp, käesolev kogumik](#chapter33)).
+Rohealad puhverdavad kliimamuutustest inimeste heaolule tingitud ohtusid, mida Eestis ennustatakse metsatulekahjude, paduvihmade ja tormikahjustuste tõttu suurenevat. Muu hulgas püüavad rohealad kinni liigse sadevee, vähendavad tormituulte laastavat mõju ning leevendavad kuumasaare efekti ([Demuzere jt 2014](#Demuzere2014)). Ka kuumapäevadel, mil ööpäeva keskmine temperatuur ei lange alla 21 kraadi, suurenevad terviseriskid. Aastatel 1980–2015 suurenes kuumaga seotud enneaegsete surmade arv Eestis 2,4 korda, eriti märgatavalt krooniliste haigustega inimestel, eakatel ning Ida- ja Kesk-Eestis ([Orru jt 2018](#Orru2018)). Nende ohtude vähendamiseks on asulates olulised nii (puudega) rohealad kui ka veekogud, kuid suure arendushuvi ja lünkliku planeerimisvõttestiku tõttu on surve selliste alade vähenemiseks Eestis tugev ([Poom ja Sepp, käesolev kogumik](#loodusalade-kujundamine-avalikuks-kasutuseks)).
 
 ```{block, type='blockquote-right'}
 Muu hulgas püüavad rohealad kinni liigse sadevee, vähendavad tormituulte laastavat mõju ning leevendavad kuumasaare efekti.
@@ -120,7 +120,7 @@ Kuigi seoses linnastumisega vähenevad inimeste kokkupuuted looduskeskkonnaga, n
 
 <p id="Clayton2017">Clayton, S., Manning, C. M., Krygsman, K., Speiser, M. 2017. Mental Health and Our Changing Climate: Impacts, Implications, and Guidance. Washington: American Psychological Association, ecoAmerica.</p>
 
-<p id="Davis2014”>Davis, J. (ed.) 2014. Young Children and the Environment: Early Education for Sustainability. Cambridge: Cambridge University Press.</p>
+<p id="Davis2014">Davis, J. (ed.) 2014. Young Children and the Environment: Early Education for Sustainability. Cambridge: Cambridge University Press.</p>
 
 <p id="Demuzere2014">Demuzere, M., Orru, K., Heidrich, O., Olazabal, E., Geneletti, D., Orru, H., Bhave, A. G., Mittal, N., Feliu, E., Faehnle, M. 2014. Mitigating and adapting to climate change: multi-functional and multi-scale assessment of green urban infrastructure. – Journal of Environmental Management, 146, 107–115.</p>
 
@@ -142,6 +142,6 @@ Kuigi seoses linnastumisega vähenevad inimeste kokkupuuted looduskeskkonnaga, n
 
 <p id="Saar2015">Saar, T. 2015. Loodus on hirmutav ja ebamugav: Y-generatsiooni kogemused looduses. Magistritöö. Eesti Maaülikool.</p>
 
-<p id="Turu-uuringute2018">Turu-uuringute AS 2018. Eesti elanike keskkonnateadlikkuse uuring.</p>
+<p id="3Turu-uuringute2018">Turu-uuringute AS 2018. Eesti elanike keskkonnateadlikkuse uuring.</p>
 
 <p id="WHO2017">WHO – World Health Organization 2017. Urban Green Space Interventions and Health. A Review of Impacts and Effectiveness. Copenhagen: WHO Regional Office for Europe.</p>
