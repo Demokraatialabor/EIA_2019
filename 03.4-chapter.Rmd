@@ -1,4 +1,4 @@
-## Kaasarääkimise võimalused avaliku ruumi kujundamises {.chapter_section .chapter3_section}
+## Kaasarääkimise võimalused loodusalade kasutamisel {.chapter_section .chapter3_section}
 
 ```{block, type='authors'}
 **[Siim Vahtrus](#siim-vahtrus), [Liina Remm](#liina-remm), [Kärt Vaarmari](#kärt-vaarmari)**
