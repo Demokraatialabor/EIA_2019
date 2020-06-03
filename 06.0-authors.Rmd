@@ -267,7 +267,7 @@ on Tartu Ülikooli semiootika teadur, kelle peamised uurimisteemad on identiteed
 <div class="author-container">
 <div>
 ```{r, out.width='50%', fig.align='left'}
-knitr::include_graphics('figures/6-authors/TõnuOja.png')
+knitr::include_graphics('figures/6-authors/TonuOja.png')
 ```
 </div>
 

@@ -1,4 +1,4 @@
-## Maakasutuse muutused - linna ja maa tähenduse moondumine { .chapter_section .chapter1_section}
+## Maakasutuse muutused – linna ja maa tähenduse moondumine { .chapter_section .chapter1_section}
 
 ```{block, type='authors'}
 **[Tõnu Oja](#tõnu-oja)**
@@ -98,6 +98,12 @@ tmap_mode("view")
 #svg(filename="figure.svg")
 #fig_153_plot
 #dev.off()
+
+knitr::include_graphics("figures/1-chapter/fig112.png")
+
+```
+
+```{r, figure112a, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
 knitr::include_graphics("figures/1-chapter/fig112.png")
 
@@ -235,7 +241,8 @@ Lisaks toetavad maastike säilimist kaitsealad. Kogu Eesti maismaast on kaitse a
 
 </table>
 </div>
-* Koos Pandivere veekaitsealaga.
+
+\*Koos Pandivere veekaitsealaga.
 
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> EELIS 2019; Maa-amet 2019.
