@@ -54,20 +54,21 @@ Heaolu kasv on märkimisväärne ning toonud käibele loosungi „Eestil pole ku
 
 Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõrjudes saavutatud elustandardi kiire kasv. Kuid tänapäeval on maailm uue ebavõrdsuslaine võimuses ning 2019. aasta lõpus ilmunud globaalse inimarengu aruande keskne teema on ebavõrdsus kui inimeste heaolu kõige suurem takistaja. Aruannet raamistab tulevikku suunatud sõnum, et viimasel aastakümnel on lisandunud kaks uut üleilmset suundumust, mis mõjutavad inimeste heaolu kõikjal maailmas: tehnoloogia kättesaadavus ja kliimamuutus. Tehnoloogilised edulood nagu tehisintellekt ja masinõpe süvendavad lõhet nende elanikerühmade ja riikide vahel, kel ei ole võimalusi tehnoloogilise arenguga kaasa minna. Kliimakriis tabab juba praegu valusamini vaesemaid maailma piirkondi ja vähekindlustatud elanikerühmi. Hinnanguliselt põhjustab kliimamuutus maailmas aastatel 2030–2050 alatoitumise, malaaria, kõhulahtisuse ja kuumarabanduse tõttu 250 000 lisasurma aastas ([ÜRO 2019](#ÜRO2019)).
 
-<p class="caption" id="table01"><span class="figure-number">Tabel 0.1</span> Inimarengu indeks ja selle alusnäitajad valitud riikides (2018)</p>
+<p class="caption" id="table_01"><span class="figure-number">Tabel 0.1</span> Inimarengu indeks ja selle alusnäitajad valitud riikides (2018)</p>
 
-<table class="table table-bordered table-hover table-condensed">
-<thead><tr><th title="Field #1">Järjekoht</th>
-<th title="Field #2">Riik</th>
+<div style="overflow-x:auto;">
+<table class="table table-bordered table-hover table-condensed" id="table_01">
+<thead><tr><th title="Field #1"" align="left !important">Järje- koht</th>
+<th title="Field #2" class="table_01_country">Riik</th>
 <th title="Field #3">Inimarengu indeksi väärtus</th>
 <th title="Field #4">Oodatav eluiga sünnihetkel (a)</th>
-<th title="Field #5">Eeldatav kooliaastate arv</th>
-<th title="Field #6">Keskmine kooliaastate arv</th>
+<th title="Field #5">Eeldatav kooli- aastate arv</th>
+<th title="Field #6">Keskmine kooli- aastate arv</th>
 <th title="Field #7">SKP inimese kohta (2011 ostujõu pariteedi alusel, USD)</th>
 </tr></thead>
 <tbody><tr>
-<td align="right">1</td>
-<td>Norra</td>
+<td align="left" class="table_01_nr">1</td>
+<td class="table_01_country">Norra</td>
 <td>0,954</td>
 <td>82,3</td>
 <td>18,1</td>
@@ -75,8 +76,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>68 059</td>
 </tr>
 <tr>
-<td align="right">2</td>
-<td>Šveits</td>
+<td align="left" class="table_01_nr">2</td>
+<td class="table_01_country">Šveits</td>
 <td>0,946</td>
 <td>83,6</td>
 <td>16,2</td>
@@ -84,8 +85,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>59 375</td>
 </tr>
 <tr>
-<td align="right">3</td>
-<td>Iirimaa</td>
+<td align="left" class="table_01_nr">3</td>
+<td class="table_01_country">Iirimaa</td>
 <td>0,942</td>
 <td>82,1</td>
 <td>18,8</td>
@@ -93,8 +94,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>55 660</td>
 </tr>
 <tr>
-<td align="right">4</td>
-<td>Saksamaa</td>
+<td align="left" class="table_01_nr">4</td>
+<td class="table_01_country">Saksamaa</td>
 <td>0,939</td>
 <td>81,2</td>
 <td>17,1</td>
@@ -102,8 +103,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>46 946</td>
 </tr>
 <tr>
-<td align="right">4</td>
-<td>Hongkong</td>
+<td align="left" class="table_01_nr">4</td>
+<td class="table_01_country">Hongkong</td>
 <td>0,939</td>
 <td>84,7</td>
 <td>16,5</td>
@@ -111,8 +112,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>60 221</td>
 </tr>
 <tr>
-<td align="right">6</td>
-<td>Austraalia</td>
+<td align="left" class="table_01_nr">6</td>
+<td class="table_01_country">Austraalia</td>
 <td>0,938</td>
 <td>83,3</td>
 <td>22,1</td>
@@ -120,8 +121,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>44 097</td>
 </tr>
 <tr>
-<td align="right">6</td>
-<td>Island</td>
+<td align="left" class="table_01_nr">6</td>
+<td class="table_01_country">Island</td>
 <td>0,938</td>
 <td>82,9</td>
 <td>19,2</td>
@@ -129,8 +130,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>47 566</td>
 </tr>
 <tr>
-<td align="right">8</td>
-<td>Rootsi</td>
+<td align="left" class="table_01_nr">8</td>
+<td class="table_01_country">Rootsi</td>
 <td>0,937</td>
 <td>82,7</td>
 <td>18,8</td>
@@ -138,8 +139,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>47 955</td>
 </tr>
 <tr>
-<td align="right">9</td>
-<td>Singapur</td>
+<td align="left" class="table_01_nr">9</td>
+<td class="table_01_country">Singapur</td>
 <td>0,935</td>
 <td>83,5</td>
 <td>16,3</td>
@@ -147,8 +148,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>83 793</td>
 </tr>
 <tr>
-<td align="right">10</td>
-<td>Holland</td>
+<td align="left" class="table_01_nr">10</td>
+<td class="table_01_country">Holland</td>
 <td>0,933</td>
 <td>82,1</td>
 <td>18</td>
@@ -156,8 +157,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>50 013</td>
 </tr>
 <tr>
-<td align="right">11</td>
-<td>Taani</td>
+<td align="left" class="table_01_nr">11</td>
+<td class="table_01_country">Taani</td>
 <td>0,93</td>
 <td>80,8</td>
 <td>19,1</td>
@@ -165,8 +166,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>48 836</td>
 </tr>
 <tr>
-<td align="right">12</td>
-<td>Soome</td>
+<td align="left" class="table_01_nr">12</td>
+<td class="table_01_country">Soome</td>
 <td>0,925</td>
 <td>81,7</td>
 <td>19,3</td>
@@ -174,8 +175,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>41 779</td>
 </tr>
 <tr>
-<td align="right">13</td>
-<td>Kanada</td>
+<td align="left" class="table_01_nr">13</td>
+<td class="table_01_country">Kanada</td>
 <td>0,922</td>
 <td>82,3</td>
 <td>16,1</td>
@@ -183,8 +184,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>43 602</td>
 </tr>
 <tr>
-<td align="right">14</td>
-<td>Uus-Meremaa</td>
+<td align="left" class="table_01_nr">14</td>
+<td class="table_01_country">Uus-Meremaa</td>
 <td>0,921</td>
 <td>82,1</td>
 <td>18,8</td>
@@ -192,8 +193,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>35 108</td>
 </tr>
 <tr>
-<td align="right">15</td>
-<td>Suurbritannia</td>
+<td align="left" class="table_01_nr">15</td>
+<td class="table_01_country">Suurbritannia</td>
 <td>0,92</td>
 <td>81,2</td>
 <td>17,4</td>
@@ -201,8 +202,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>39 507</td>
 </tr>
 <tr>
-<td align="right">15</td>
-<td>USA</td>
+<td align="left" class="table_01_nr">15</td>
+<td class="table_01_country">USA</td>
 <td>0,92</td>
 <td>78,9</td>
 <td>16,3</td>
@@ -210,8 +211,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>56 140</td>
 </tr>
 <tr>
-<td align="right">17</td>
-<td>Belgia</td>
+<td align="left" class="table_01_nr">17</td>
+<td class="table_01_country">Belgia</td>
 <td>0,919</td>
 <td>81,5</td>
 <td>19,7</td>
@@ -219,8 +220,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>43 821</td>
 </tr>
 <tr>
-<td align="right">18</td>
-<td>Lichtenstein</td>
+<td align="left" class="table_01_nr">18</td>
+<td class="table_01_country">Lichtenstein</td>
 <td>0,917</td>
 <td>80,5</td>
 <td>14,7</td>
@@ -228,8 +229,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>99 732</td>
 </tr>
 <tr>
-<td align="right">19</td>
-<td>Jaapan</td>
+<td align="left" class="table_01_nr">19</td>
+<td class="table_01_country">Jaapan</td>
 <td>0,915</td>
 <td>84,5</td>
 <td>15,2</td>
@@ -237,8 +238,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>40 799</td>
 </tr>
 <tr>
-<td align="right">20</td>
-<td>Austria</td>
+<td align="left" class="table_01_nr">20</td>
+<td class="table_01_country">Austria</td>
 <td>0,914</td>
 <td>81,4</td>
 <td>16,3</td>
@@ -246,8 +247,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>46 231</td>
 </tr>
 <tr>
-<td align="right">21</td>
-<td>Luksemburg </td>
+<td align="left" class="table_01_nr">21</td>
+<td class="table_01_country">Luksemburg </td>
 <td>0,909</td>
 <td>82,1</td>
 <td>14,2</td>
@@ -255,8 +256,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>65 543</td>
 </tr>
 <tr>
-<td align="right">22</td>
-<td>Iisreal</td>
+<td align="left" class="table_01_nr">22</td>
+<td class="table_01_country">Iisreal</td>
 <td>0,906</td>
 <td>82,8</td>
 <td>16</td>
@@ -264,8 +265,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>33 650</td>
 </tr>
 <tr>
-<td align="right">22</td>
-<td>Lõuna-Korea</td>
+<td align="left" class="table_01_nr">22</td>
+<td class="table_01_country">Lõuna-Korea</td>
 <td>0,906</td>
 <td>82,8</td>
 <td>16,4</td>
@@ -273,8 +274,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>36 757</td>
 </tr>
 <tr>
-<td align="right">24</td>
-<td>Sloveenia</td>
+<td align="left" class="table_01_nr">24</td>
+<td class="table_01_country">Sloveenia</td>
 <td>0,902</td>
 <td>81,2</td>
 <td>17,4</td>
@@ -282,8 +283,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>32 143</td>
 </tr>
 <tr>
-<td align="right">25</td>
-<td>Hispaania</td>
+<td align="left" class="table_01_nr">25</td>
+<td class="table_01_country">Hispaania</td>
 <td>0,893</td>
 <td>83,4</td>
 <td>17,9</td>
@@ -291,8 +292,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>35 041</td>
 </tr>
 <tr>
-<td align="right">26</td>
-<td>Tšehhi</td>
+<td align="left" class="table_01_nr">26</td>
+<td class="table_01_country">Tšehhi</td>
 <td>0,891</td>
 <td>79,2</td>
 <td>16,8</td>
@@ -300,8 +301,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>31 597</td>
 </tr>
 <tr>
-<td align="right">26</td>
-<td>Prantsusmaa</td>
+<td align="left" class="table_01_nr">26</td>
+<td class="table_01_country">Prantsusmaa</td>
 <td>0,891</td>
 <td>82,5</td>
 <td>15,5</td>
@@ -309,8 +310,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>40 511</td>
 </tr>
 <tr>
-<td align="right">28</td>
-<td>Malta</td>
+<td align="left" class="table_01_nr">28</td>
+<td class="table_01_country">Malta</td>
 <td>0,885</td>
 <td>82,4</td>
 <td>15,9</td>
@@ -318,8 +319,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>34 795</td>
 </tr>
 <tr>
-<td align="right">29</td>
-<td>Itaalia</td>
+<td align="left" class="table_01_nr">29</td>
+<td class="table_01_country">Itaalia</td>
 <td>0,883</td>
 <td>83,4</td>
 <td>16,2</td>
@@ -327,16 +328,16 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>36 141</td>
 </tr>
 <tr>
-<td align="right">30</td>
-<td>Eesti</td>
-<td>0,882</td>
-<td>78,6</td>
-<td>16,1</td>
-<td>13</td>
-<td>30 379</td>
+<td align="left" class="table_01_nr">30</td>
+<td class="table_01_est table_01_country">Eesti</td>
+<td class="table_01_est">0,882</td>
+<td class="table_01_est">78,6</td>
+<td class="table_01_est">16,1</td>
+<td class="table_01_est">13</td>
+<td class="table_01_est">30 379</td>
 </tr>
 <tr>
-<td align="right"></td>
+<td align="left" class="table_01_nr"></td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -345,8 +346,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td> </td>
 </tr>
 <tr>
-<td align="right">34</td>
-<td>Leedu</td>
+<td align="left" class="table_01_nr">34</td>
+<td class="table_01_country">Leedu</td>
 <td>0,869</td>
 <td>75,7</td>
 <td>16,5</td>
@@ -354,8 +355,8 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>29 775</td>
 </tr>
 <tr>
-<td align="right">39</td>
-<td>Läti</td>
+<td align="left" class="table_01_nr">39</td>
+<td class="table_01_country">Läti</td>
 <td>0,854</td>
 <td>75,2</td>
 <td>16</td>
@@ -363,7 +364,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>26 301</td>
 </tr>
 <tr>
-<td align="right">49</td>
+<td align="left" class="table_01_nr">49</td>
 <td>Venemaa</td>
 <td>0,824</td>
 <td>72,4</td>
@@ -372,6 +373,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 <td>25 036</td>
 </tr>
 </tbody></table>
+</div>
 
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> ÜRO 2019.
@@ -404,35 +406,43 @@ Linna tähendust ja mõju ei saa mõõta üksnes linnavormi, tiheduse ja teiste 
 
 <p class="caption" id="table02"><span class="figure-number">Tabel 0.2</span> Euroopa ja Eesti linnapoliitika võtmearengud</p>
 
-<table class="table table-bordered table-hover table-condensed">
+<div style="overflow-x:auto;">
+<table class="table table-bordered table-hover table-condensed" id="table_02">
 <thead><tr><th title="Field #1">Aastakümnend</th>
-<th title="Field #2">Euroopa arengud</th>
+<th title="Field #2">Euroopa areng</th>
 <th title="Field #3">Euroopa võtmeprotsessid</th>
-<th title="Field #4">Linnapoliitika võtmeteemad ‘vanas’ Euroopas</th>
+<th title="Field #4">Linnapoliitika võtmeteemad „vanas” Euroopas</th>
 <th title="Field #5">Linnapoliitika võtmeteemad Eestis</th>
 </tr></thead>
 <tbody><tr>
-<td align="right">1990</td>
-<td>Ühisturu integratsioon ja üleeuroopalised taristud, sh transpordivõrk </td>
-<td>Demokratiseerimine ja riigireformid Ida-Kesk-Euroopas</td>
-<td>Kultuur ja turism; konkurentsipoliitika</td>
-<td>Üleminekureformid, sh ma- ja omandireform ning linnahaldus; erastamine ja kinnisvaraturu teke</td>
+<td class="table_02_red">1990</td>
+<td>Ühisturu integratsioon ja üleeuroopalised taristud, sh transpordivõrk.</td>
+<td>Demokratiseerimine ja riigireformid Kesk- ja Ida-Euroopas.</td>
+<td>Kultuur ja turism. Konkurentsipoliitika.</td>
+<td>Üleminekureformid, sh maa- ja omandireform ning linnahaldus. Erastamine ja kinnisvaraturu teke.</td>
 </tr>
 <tr>
-<td align="right">2000</td>
-<td>Euroopa Liidu idalaienemine </td>
-<td>Majandusbuum ja finantskriis; terrorism</td>
-<td>Suurlinnastute haldus; elukvaliteet</td>
-<td>Linnaplaneerimine; kinnisvarabuum sh eeslinnastumislaine; uued keskused ja linnataristud ning ärilinnak</td>
+<td class="table_02_red">2000</td>
+<td>Euroopa Liidu itta laienemine. Terrorism.</td>
+<td>Majandusbuum ja finantskriis.</td>
+<td>Suurlinnastud. Elukvaliteet.</td>
+<td>Linnaplaneerimine. Kinnisvarabuum, sh eeslinnastumislaine, uued keskused ja linnataristud ning ärilinnak.</td>
 </tr>
 <tr>
-<td align="right">2010</td>
-<td>Megaregioonid suurlinnastute võrgustikuna</td>
-<td>Majanduse taastumine; kokkuhoiupoliitikad</td>
-<td>Nutikas spetsialiseerumine; tehnoloogiline areng ja innovatsioon’</td>
-<td>Suurarendused ja suurtaristud; keskklassistumine; avaliku ruumi teema tõus; kaasav linn ja kodanikuaktivismi teke</td>
+<td class="table_02_red">2010</td>
+<td>Hiigelregioonid suurlinnastute võrgustikuna.</td>
+<td>Majanduse taastumine. Kokkuhoiupoliitika.</td>
+<td>Nutikas spetsialiseerumine. Tehnoloogiline areng ja innovatsioon.</td>
+<td>Suurarendused ja suurtaristud. Keskklassistumine. Avaliku ruumi teema esilekerkimine. Kaasav linn ja kodanikuaktivismi teke.</td>
+</tr>
+<td class="table_02_red">2020 ja tulevik</td>
+<td>Deglobaliseerumine. Euroopa geopoliitilise positsiooni hoidmine maailmas. Kliimaneutraalsus.</td>
+<td>Majanduskriis. Brexit. Roheline lepe. Digitaalsus. Populism. Euroopa kultuuri kaitse.</td>
+<td>Säästlik, tark hooliv linn. „Uus” demokraatia.</td>
+<td>Rail Baltica. Talsinki. Kestlik kahanemine. Sotsiaalsüsteemid.</td>
 </tr>
 </tbody></table>
+</div>
 
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Clark jt 2018; Mäntysalo jt 2019; Raagmaa jt 2014.

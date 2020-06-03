@@ -529,6 +529,73 @@ p.caption {
      color:  #C54409 !important;
 }
 
+/* Table 01 */
+
+#table_01 {
+  font-size:0.8em;
+}
+
+#table_01 th {
+  padding:3px 5px !important;
+  text-align:right;
+  background:#daeef0;
+  border-bottom: 1px solid #86858a;
+  border-top: 1px solid #86858a;
+  color:#3a404a;
+  vertical-align:top;
+}
+
+#table_01 td {
+  padding:3px 5px !important;
+  text-align:right;
+  background:white;
+  border-bottom: 1px solid #C54409;
+  color:black;
+}
+
+#table_01 .table_01_nr {
+  text-align:left;
+  font-weight:bold;
+  color: #C54409 !important;
+}
+
+#table_01 .table_01_country {
+    text-align:left;
+}
+
+#table_01 .table_01_est {
+  font-weight:bold;
+  color: #C54409 !important;
+}
+
+/* Table 02 */
+
+#table_02 {
+  font-size:0.8em;
+  text-align:left;
+}
+
+#table_02 th {
+  padding:5px 10px !important;
+  background:#daeef0;
+  border: 1px solid #86858a;
+  color:#3a404a;
+  vertical-align:top;
+}
+
+#table_02 td {
+  padding:5px 10px !important;
+  background:white;
+  border: 1px solid #86858a;
+  color:black;
+  vertical-align:top;
+}
+
+#table_02 .table_02_red {
+  font-weight:bold;
+  color: #C54409 !important;
+}
+
 /* Chapter 1 - #482683 */
 
 .chapter1_section.intro_section::before{
