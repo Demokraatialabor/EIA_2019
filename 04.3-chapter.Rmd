@@ -163,7 +163,7 @@ Postimehe platvormide analüüs kahe kuu jooksul (september kuni oktoober 2018) 
 
 Postimehe platvormidest ilmub kõige rohkem arvamuslugusid uudisteportaalis postimees.ee, kus sõltuvalt päevast ilmub 10–15 arvamuslugu. Nendest kuni pooled (5–7 lugu) trükitakse ära ka järgmise päeva paberlehes. Postimees oma Facebooki lõimes arvamuslugusid enamasti ei levita, kuigi mõni üksik väga suure arutelupotentsiaaliga lugu jõuab ka sinna. Postimehe Facebooki lehekülg on uudiste päralt ning seal levitatu saab jälgijatelt reaktsioone (laike, jagamisi, soovitamisi), kuid enamasti seal sisukat ja argumenteeritud diskussiooni ei teki. Postimees levitab arvamuslugusid eraldi loodud Facebooki arvamuslehel, pihustades konkreetse päeva lood pikemale perioodile (sh nädalavahetused). Selliselt levitatud lugude jälgitav resonants on siiski enamasti vähene. Arvestades lehtede jälgijate arve, on vähene vastukaja ootuspärane – 2018. aasta oktoobri seisuga oli Postimehe Facebooki arvamuslehel natuke üle 5000 jälgija, Postimehe Facebooki põhilehel aga samal ajal üle 160 000 jälgija ([joonis 4.3.4](#figure434)).
 
-<p class="caption" id="figure433"><span class="figure-number">Joonis 4.3.4.</span> Ajakirjanduse ja auditooriumi agentsus Postimehe näitel</p>
+<p class="caption" id="figure434"><span class="figure-number">Joonis 4.3.4.</span> Ajakirjanduse ja auditooriumi agentsus Postimehe näitel</p>
 
 <div class="casebox">
 ```{r, figure434, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
