@@ -22,6 +22,16 @@ BODY{}
 	border: none;
 }
 
+/* header */
+
+.book .book-header .btn:hover {
+  color:#C54409;
+}
+
+.book .book-header .btn:last-of-type {
+  display:none !important;
+}
+  
 /* page layout */
 
 p {

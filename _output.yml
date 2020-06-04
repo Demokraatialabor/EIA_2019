@@ -12,15 +12,17 @@ bookdown::gitbook:
       edit : null
       download: null
       search: yes
+    fontsettings: no
     sharing:
-      facebook: no
-      twitter: no
+      facebook: yes
+      twitter: yes
       google: no
-      linkedin: no
+      linkedin: yes
       weibo: no
       instapaper: no
       vk: no
-      all: ['facebook', 'twitter', 'linkedin']
+      all: no
+    cover-image: "figures/cover.png"
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
