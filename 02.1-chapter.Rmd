@@ -8,7 +8,7 @@
 * Avaliku ruumi hoidmine ja arendamine on avaliku sektori ülesanne ning see nõuab loomingulist lähenemist, professionaalsust ja osapoolte koostööd.
 ```
 
-Iga kord, kui oma kodu uksest või väravast välja astume, siseneme avalikku ruumi. See on ühisruum, mille kaudu liigume ka kõigi mitteavalike ruumide vahel. Avalik ruum ei ole üksnes liikumiseks. See on olemisruum, mille terviklikust toimimisest sõltub ühiskonna sidusus ja elukeskkonna kvaliteet. ÜRO linnade tulevikuga ja kestliku inimasustusega tegelev programm ([ÜRO 2017](#United2017)) määratleb avaliku ruumina kohti, mis on ligipääsetavad ja nauditavad kõigile ilma kasumitaotluseta. See on igapäevane ruum, aga ka arutluste ja meeleavalduste toimumise koht. Hea avalik ruum aitab tugevdada kogukondi, ergutada kodanikuosalust, vähendada segregatsiooni ja kasvatada sallivust, seega väljendub avaliku ruumi kvaliteedis ühiskonna ja demokraatia tervis.
+Iga kord, kui oma kodu uksest või väravast välja astume, siseneme avalikku ruumi. See on ühisruum, mille kaudu liigume ka kõigi mitteavalike ruumide vahel. Avalik ruum ei ole üksnes liikumiseks. See on olemisruum, mille terviklikust toimimisest sõltub ühiskonna sidusus ja elukeskkonna kvaliteet. ÜRO linnade tulevikuga ja kestliku inimasustusega tegelev programm ([ÜRO 2017](#2United2017)) määratleb avaliku ruumina kohti, mis on ligipääsetavad ja nauditavad kõigile ilma kasumitaotluseta. See on igapäevane ruum, aga ka arutluste ja meeleavalduste toimumise koht. Hea avalik ruum aitab tugevdada kogukondi, ergutada kodanikuosalust, vähendada segregatsiooni ja kasvatada sallivust, seega väljendub avaliku ruumi kvaliteedis ühiskonna ja demokraatia tervis.
 
 ```{block, type='blockquote-left'}
 Hea avalik ruum aitab tugevdada kogukondi, ergutada kodanikuosalust, vähendada segregatsiooni ja kasvatada sallivust.
@@ -75,7 +75,7 @@ Autostumise tulemusel on avalikku ruumi sageli arendatud lihtsustatult, käsitle
 Autostumise tulemusel on avalikku ruumi sageli arendatud lihtsustatult, käsitledes seda pigem transporditaristuna ja juhindudes sõiduautost ja sõiduteede võrgustikust.
 ```
 
-Sidus avalik ruum on üleilmselt oluline arengusuund elukeskkonna kvaliteedi parandamisel. ÜRO säästva arengu üks eesmärke on tagada aastaks 2030 universaalne juurdepääs kaasavale ja ligipääsetavale avalikule ruumile ning rohealadele, sest hästi kujundatud ja hooldatud sidus avalik ruum tagab madalamad kuritegevuse näitajad, võimestab sotsiaalselt tõrjutud ühiskonnarühmi ning on eeldus õnnelike ja tervete kodanike heaolule. Kvaliteetne avalik ruum on linnade majandusliku, keskkondliku ja ka kultuurilise konkurentsivõime alus ([ÜRO 2017](#United2017)). Avalikku ruumi esikohale seadev kohaloome katusorganisatsioon mittetulundusühing Project for Public Spaces nimetab avaliku ruumi majandusliku kasuna näiteks kinnisvara väärtuse tõusu, suurenenud väikeäride tihedust ja kasvavat käivet ([PPS 2007](#Project2007)). Hea avalik ruum vähendab õhu- ja mürareostust ning toetab liigirikkuse kasvu.
+Sidus avalik ruum on üleilmselt oluline arengusuund elukeskkonna kvaliteedi parandamisel. ÜRO säästva arengu üks eesmärke on tagada aastaks 2030 universaalne juurdepääs kaasavale ja ligipääsetavale avalikule ruumile ning rohealadele, sest hästi kujundatud ja hooldatud sidus avalik ruum tagab madalamad kuritegevuse näitajad, võimestab sotsiaalselt tõrjutud ühiskonnarühmi ning on eeldus õnnelike ja tervete kodanike heaolule. Kvaliteetne avalik ruum on linnade majandusliku, keskkondliku ja ka kultuurilise konkurentsivõime alus ([ÜRO 2017](#2United2017)). Avalikku ruumi esikohale seadev kohaloome katusorganisatsioon mittetulundusühing Project for Public Spaces nimetab avaliku ruumi majandusliku kasuna näiteks kinnisvara väärtuse tõusu, suurenenud väikeäride tihedust ja kasvavat käivet ([PPS 2007](#Project2007)). Hea avalik ruum vähendab õhu- ja mürareostust ning toetab liigirikkuse kasvu.
 
 ```{block, type='blockquote-right'}
 Kuigi ühe osa avaliku ruumi kvaliteedist moodustab võimalus liikuda sõiduautoga, on hea elukeskkonna eelduseks arusaam, et avalikus ruumis on inimene alati sõidukitest tähtsam.
@@ -188,7 +188,7 @@ Nii riik kui ka omavalitsused peavad teadvustama oma rolli avaliku ruumi võrguv
 
 ### Visioon ühendatud linnaruumist
 
-Linna ruumilise kvaliteedi tõstmisel on keskne tähtsus avaliku ruumi kui tervikliku võrgusti- ku sidususel, tihedusel ja mitmekesisusel. Näiteks Tallinna vanalinna ümbritsevat pargivööd saab arendada avaliku ruumi osana, võimaldades mugavat ülepääsemist sõiduteedest, laiendades jalakäiguruumi ja avades uusi kvartalisiseseid läbipääse. Nii saab ühendada inimesele mugavalt hulga ülelinnalise tähtsusega ühiskondlikke hooneid, väljakuid, tä- navaid ja parke, mille kaudu saab Tallinn kujuneda tunduvalt inimsõbralikumaks linnaks.
+Linna ruumilise kvaliteedi tõstmisel on keskne tähtsus avaliku ruumi kui tervikliku võrgusti- ku sidususel, tihedusel ja mitmekesisusel. Näiteks Tallinna vanalinna ümbritsevat pargivööd saab arendada avaliku ruumi osana, võimaldades mugavat ülepääsemist sõiduteedest, laiendades jalakäiguruumi ja avades uusi kvartalisiseseid läbipääse. Nii saab ühendada inimesele mugavalt hulga ülelinnalise tähtsusega ühiskondlikke hooneid, väljakuid, tänavaid ja parke, mille kaudu saab Tallinn kujuneda tunduvalt inimsõbralikumaks linnaks.
 
 <p class="caption" id="figure215"><span class="figure-number">Joonis 2.1.5.</span> Väljavõte EKA uurimisprojektist „Lõpetamata Linn“</p>
 
@@ -228,4 +228,4 @@ Turvalisust ja heaolu kasvatab eelkõige aktiivne ruumi kasutus ([Worpole ja Kno
 <p id="Paaver2013">Paaver, T. 2013. Mis on avalik ruum – avaliku ruumi käsitlustest ruumilises planeerimises. –Roose, A. (toim.). Peatükke planeerimisest. Protsesse, meetodeid ja näiteid. Tartu: Tartu Ülikool, 51–62.</p>
 <p id="Project2007">Project for Public Spaces 2007. What is placemaking? https://www.pps.org/article/what-is-placemaking.</p>
 <p id="Worpole2007">Worpole, K., Knox, K. 2007. The social value of public spaces. Joseph Rowntree Foundation. https://www.jrf.org.uk/report/social-value-public-spaces</p>
-<p id="United2017">ÜRO 2017 – New Urban Agenda. United Nations Conference on Housing and Sustainable Urban Development (Habitat III).</p>
+<p id="2United2017">ÜRO 2017 – New Urban Agenda. United Nations Conference on Housing and Sustainable Urban Development (Habitat III).</p>
