@@ -463,6 +463,10 @@ p.caption {
 
 @media only screen and (max-width: 576px) {
   
+  .cover-container {
+    padding:0 21px 0 21px;
+  }
+  
   #cover-hero h1 {
     padding-top:25px;
   }
