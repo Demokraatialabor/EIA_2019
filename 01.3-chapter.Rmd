@@ -33,7 +33,7 @@ Kui otsida ühist ja erinevat võrdluses Euroopa eeslinnadega, siis Madalmaades,
 ```{block, type='blockquote-left'}
 Sarnaselt Eestiga on Ida- ja Kesk-Euroopa eeslinnad kerkinud maakasutust killustades üheotstarbeliste elamualade ja äri-logistikaparkidena.
 ```
-Kesk- ja Ida-Euroopa linnad jõudsid eeslinnastumiseni turujõudude küpsedes nii pakkumise kui ka nõudluse poolel alles 1990. aastate lõpus, misjärel on eeslinnastumise kasvumäär arenenud kooskõlas majanduskasvuga, väljendades heaoluühiskonna edenemist ([Phelphs 2017](#Phelps)). Sarnaselt Eestiga on Ida- ja Kesk-Euroopa eeslinnad kerkinud maakasutust killustades üheotstarbeliste elamualade ja äri-logistikaparkidena, lisaks mõned tarbimis- ja autoühiskonna vajadustest tingitud suured kaubanduskeskused ja Euroopa Liidu kaasrahastatud taristusõlmed ([Leetmaa jt 2014](#Leetmaa)). Eesti linnastumine on jätkuvalt modernistlikus etapis ega ole ka Suur-Tallinnas jõudnud hilismoderismi, rääkimata tagasilinnastumisest või tugevast linnapiirkonnastumisest.
+Kesk- ja Ida-Euroopa linnad jõudsid eeslinnastumiseni turujõudude küpsedes nii pakkumise kui ka nõudluse poolel alles 1990. aastate lõpus, misjärel on eeslinnastumise kasvumäär arenenud kooskõlas majanduskasvuga, väljendades heaoluühiskonna edenemist ([Phelphs 2017](#Phelps2017)). Sarnaselt Eestiga on Ida- ja Kesk-Euroopa eeslinnad kerkinud maakasutust killustades üheotstarbeliste elamualade ja äri-logistikaparkidena, lisaks mõned tarbimis- ja autoühiskonna vajadustest tingitud suured kaubanduskeskused ja Euroopa Liidu kaasrahastatud taristusõlmed ([Leetmaa jt 2014](#Leetmaa2014)). Eesti linnastumine on jätkuvalt modernistlikus etapis ega ole ka Suur-Tallinnas jõudnud hilismoderismi, rääkimata tagasilinnastumisest või tugevast linnapiirkonnastumisest.
 
 ### Eeslinnas elab kümnendik Eesti rahvast {-.chapter1_section}
 
@@ -76,7 +76,7 @@ Suur-Tallinnas eeslinnastuvad kõige intensiivsemalt Viimsi, Rae, Harku ja Kiili
 ```{block, type='blockquote-right'}
 Omaette nähtus uus-Eesti asustuses on Viimsi, kus lisaks kahele alevikule ‒ Viimsi ja Haabneeme ‒ on jätkuvalt 14 küla, millest mitu (Randvere, Pärnamäe ja Püünsi) on väikelinna mõõtu.
 ```
-Ametlik statistika ei väljenda tegelikku eeslinlaste arvu. Uute eluruumide arv, 2011. aasta loendusandmed kõrvutatuna rahvastikuregistriga ning teised eeslinnauuringud kinnitavad oluliselt suuremat rännet eeslinna. Eluruumide statistika alusel võime uus-eeslinlaste arvu tõsta ametlikult 45 000-lt 70 000-le. Hinnanguliselt on Tallinna eeslinna kolinud sel sajandil 55 000 ja Tartu eeslinna 11 000 inimest. 2011. aasta rahvaloenduse ja rahvastikuregistri elanike arvu võrdluse kohaselt elas Tallinna eeslinnas 10‒18% ning Tartu eeslinnas 13‒25% sissekirjutatutest rohkem elanikke ([Roose jt 2015](#Roose)). Vormiline elukoha registreerimine keskuslinnas kindlustab eeslinna lastega peredele juurdepääsu linna sotsiaal- ja haridusteenustele. Eeslinna kolivadki põhiliselt pereealised inimesed (30‒49 aastat).
+Ametlik statistika ei väljenda tegelikku eeslinlaste arvu. Uute eluruumide arv, 2011. aasta loendusandmed kõrvutatuna rahvastikuregistriga ning teised eeslinnauuringud kinnitavad oluliselt suuremat rännet eeslinna. Eluruumide statistika alusel võime uus-eeslinlaste arvu tõsta ametlikult 45 000-lt 70 000-le. Hinnanguliselt on Tallinna eeslinna kolinud sel sajandil 55 000 ja Tartu eeslinna 11 000 inimest. 2011. aasta rahvaloenduse ja rahvastikuregistri elanike arvu võrdluse kohaselt elas Tallinna eeslinnas 10‒18% ning Tartu eeslinnas 13‒25% sissekirjutatutest rohkem elanikke ([Roose jt 2015](#Roose2015)). Vormiline elukoha registreerimine keskuslinnas kindlustab eeslinna lastega peredele juurdepääsu linna sotsiaal- ja haridusteenustele. Eeslinna kolivadki põhiliselt pereealised inimesed (30‒49 aastat).
 
 Lisaks elukohamuutustele on tõusvas joones kasvanud eeslinna pendelränne. Pendelränne on muutunud mõlemasuunaliseks, kuivõrd tööle ei käida vaid keskuslinna, vaid üha rohkem ka eeslinna, kuhu on tekkinud logistika- ja tööstuspargid. Aasta 2016 rahvastiku prooviloendus näitas päevarahvastiku suurenemist Tallinnas 57 000 inimese võrra ning Tartus 21 000 võrra. Tallinna eeslinnavaldadest käib linnakoolidesse kolmandik lastest.
 
@@ -318,20 +318,20 @@ Inimeste liikuvuse suurenedes keskuslinna-eeslinna teljel teisenevad igapäevase
 
 ### Viidatud allikad {-.subreferences}
 
-<p id=”Bruegmann2008”>Bruegmann, R. 2008. Sprawl: A Compact History. Chicago: University of Chicago Press.</p>
+<p id="Bruegmann2008">Bruegmann, R. 2008. Sprawl: A Compact History. Chicago: University of Chicago Press.</p>
 
-<p id=”Leetmaa2014”>Leetmaa, K., Kährik, A., Nuga, M., Tammaru, T. 2014. Suburbanization in the Tallinn metropolitan area. – Stanilov, K., Sykora, L. (eds.). Confronting Suburbanisation: Urban Decentralization in Post-Socialist Central and Eastern Europe. Oxford: Wiley-Blackwell, 192–224.</p>
+<p id="Leetmaa2014">Leetmaa, K., Kährik, A., Nuga, M., Tammaru, T. 2014. Suburbanization in the Tallinn metropolitan area. – Stanilov, K., Sykora, L. (eds.). Confronting Suburbanisation: Urban Decentralization in Post-Socialist Central and Eastern Europe. Oxford: Wiley-Blackwell, 192–224.</p>
 
-<p id=”Phelps2017”>Phelps, N. A. (ed.) 2017. Old Europe, New Suburbanization? Governance, Land, and Infrastructure in European Suburbanization. Toronto: University of Toronto Press.</p>
+<p id="Phelps2017">Phelps, N. A. (ed.) 2017. Old Europe, New Suburbanization? Governance, Land, and Infrastructure in European Suburbanization. Toronto: University of Toronto Press.</p>
 
-<p id=”Phelps2011”>Phelps, N. A., Wood, A. M. 2011. The new post-suburban politics? – Urban Studies, 48 (12), 2591–2610.</p>
+<p id="Phelps2011">Phelps, N. A., Wood, A. M. 2011. The new post-suburban politics? – Urban Studies, 48 (12), 2591–2610.</p>
 
-<p id=”Randolph2012”>Randolph, J. 2012. Environmental Land Use Planning and Management. Washington: Island Press.</p>
+<p id="Randolph2012">Randolph, J. 2012. Environmental Land Use Planning and Management. Washington: Island Press.</p>
 
-<p id=”Roose2015”>Roose, A., Noorkõiv, R., Gauk, M. 2015. Tartu eeslinnastumine. – Eesti Statistika Kvartalikiri, 1, 80−109.</p>
+<p id="Roose2015">Roose, A., Noorkõiv, R., Gauk, M. 2015. Tartu eeslinnastumine. – Eesti Statistika Kvartalikiri, 1, 80−109.</p>
 
-<p id=”Tammaru2004”>Tammaru, T., Kulu, H., Kask, I. 2004. Urbanization, suburbanization and counterurbanization in Estonia. – Eurasian Geography and Economics, 45 (3), 159–176.</p>
+<p id="Tammaru2004">Tammaru, T., Kulu, H., Kask, I. 2004. Urbanization, suburbanization and counterurbanization in Estonia. – Eurasian Geography and Economics, 45 (3), 159–176.</p>
 
-<p id=”Tammaru2009”>Tammaru, T., Leetmaa, K., Silm, S., Ahas, R. 2009. Temporal and spatial dynamics of the new residential areas around Tallinn. – European Planning Studies, 17 (3), 423−439.</p>
+<p id="Tammaru2009">Tammaru, T., Leetmaa, K., Silm, S., Ahas, R. 2009. Temporal and spatial dynamics of the new residential areas around Tallinn. – European Planning Studies, 17 (3), 423−439.</p>
 
-<p id=”van-Dijk2009”>van Dijk, T. 2009. Who is in charge of the urban fringe? Neoliberalism, open space preservation and growth control. – Planning Practice and Research, 24, 343–361.</p>
+<p id="van-Dijk2009">van Dijk, T. 2009. Who is in charge of the urban fringe? Neoliberalism, open space preservation and growth control. – Planning Practice and Research, 24, 343–361.</p>

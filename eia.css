@@ -72,7 +72,7 @@ p {
 }
 
 @media only screen and (max-width: 576px) {
-  .chapter_section, .intro_section, .references {
+  .chapter_section, .intro_section, .references .cover-container {
     padding:0 21px 0 21px;
   }
   
@@ -419,10 +419,112 @@ p.caption {
 .subreferences p {
   text-align:left;
 }
-/* title page */
+
+/* COVER PAGE  #C54409 */
 
 .title {
   display:none !important;
+}
+
+.cover-page {
+  top:0;
+  left:0;
+  right:0;
+  background-color:#C54409;
+  color:#e9e8e1;
+}
+
+.cover-page h1 {
+  display:none;
+}
+
+.cover-container {
+  max-width:800px;
+  margin:auto;
+  padding:0 42px 0 42px;
+  overflow-x:hidden;
+}
+
+#cover-hero {
+  min-height:75vh;
+}
+
+#cover-hero h1 {
+  display:block;
+  font-size:1.5em;
+  font-weight:bold;
+}
+
+#cover-hero h2 {
+  font-size:5em !important;
+  font-weight:bold;
+  margin-top:75px !important;
+}
+
+@media only screen and (max-width: 576px) {
+  
+  .cover-container {
+    padding:0 21px 0 21px;
+  }
+  
+  #cover-hero h1 {
+    padding-top:25px;
+  }
+  #cover-hero h2 {
+  font-size:3em !important;
+  font-weight:bold;
+  margin-top:50px !important;
+}
+}
+
+.poem1, .poem2 {
+  width: 100%;
+  padding-bottom:25px;
+}
+
+.poem1 p, .poem2 p {
+  margin:auto;
+  text-align:center;
+}
+
+@media only screen and (max-width: 576px) {
+  .poem1, .poem2 {
+  font-size:0.9em;
+}
+
+.poem1 {
+  padding-top:50px;
+}
+}
+
+#jaankross {
+  color:#482683;
+}
+
+#cover-body {
+  padding:2em 0;
+  background-color:#e6e3da;
+  font-weight:bold;
+  color:#482683;
+}
+
+#cover-footer {
+  background-image: url(figures/0-intro/cover-footer.png);
+  background-position: center top;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	min-height:600px;
+  padding:2em 0;
+  background-color: #C54409;;
+  color:#482683;
+}
+
+.poem2 {
+  padding-top:80px;
+}
+
+#handorunnel {
+  color:#C54409;
 }
 /* Foreword - #0872ba */
 
@@ -460,6 +562,7 @@ p.caption {
   font-size:2em;
   color:#0872ba;
 }
+
 
 /* Chapter 0 - INTRO  #C54409 */
 
@@ -501,7 +604,10 @@ p.caption {
   font-weight: bold;
   width: 2em;
   }
-
+  
+.bullet-heading {
+  color: #3a404a;
+}
 .chapter0_section .figure-number {
 	color: #C54409 !important;
 }
@@ -524,6 +630,73 @@ p.caption {
 
 .chapter0_section + h3 + #refs  a{
      color:  #C54409 !important;
+}
+
+/* Table 01 */
+
+#table_01 {
+  font-size:0.8em;
+}
+
+#table_01 th {
+  padding:3px 5px !important;
+  text-align:right;
+  background:#daeef0;
+  border-bottom: 1px solid #86858a;
+  border-top: 1px solid #86858a;
+  color:#3a404a;
+  vertical-align:top;
+}
+
+#table_01 td {
+  padding:3px 5px !important;
+  text-align:right;
+  background:white;
+  border-bottom: 1px solid #C54409;
+  color:black;
+}
+
+#table_01 .table_01_nr {
+  text-align:left;
+  font-weight:bold;
+  color: #C54409 !important;
+}
+
+#table_01 .table_01_country {
+    text-align:left;
+}
+
+#table_01 .table_01_est {
+  font-weight:bold;
+  color: #C54409 !important;
+}
+
+/* Table 02 */
+
+#table_02 {
+  font-size:0.8em;
+  text-align:left;
+}
+
+#table_02 th {
+  padding:5px 10px !important;
+  background:#daeef0;
+  border: 1px solid #86858a;
+  color:#3a404a;
+  vertical-align:top;
+}
+
+#table_02 td {
+  padding:5px 10px !important;
+  background:white;
+  border: 1px solid #86858a;
+  color:black;
+  vertical-align:top;
+}
+
+#table_02 .table_02_red {
+  font-weight:bold;
+  color: #C54409 !important;
 }
 
 /* Chapter 1 - #482683 */
@@ -895,7 +1068,7 @@ p.caption {
 }
 
 .chapter5_section h1{ 
-  color: white;
+  color: #A01B17;
 }
 
 .chapter5_section .authors {

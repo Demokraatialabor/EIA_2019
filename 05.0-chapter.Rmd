@@ -7,12 +7,15 @@
 **[Kristi Grišakov](#kristi-grišakov)**
 ```
 
+
+### Põhisõnumid {-.chapter5_section}
+
 ```{block, type='points'}
-**Tulevikumuutused mõjutavad füüsilist ruumi – loodus- ja tehiskeskkonda – ning jagavad selle uute kasutusviiside põhjal ümber.**
+* Tulevikumuutused mõjutavad füüsilist ruumi – loodus- ja tehiskeskkonda – ning jagavad selle uute kasutusviiside põhjal ümber.
 
 Muutused elukeskkonnas on seotud muutustega maailmas ja meie võimega muutustega kohaneda. Meie elukeskkonna arengut mõjutab nii kliimamuutus kui ka rahvusvahelised ettevõtted ja poliitika, uued tehnoloogiad ja teenused, samuti rahvastiku vananemine ja linnastumine. Oma elukeskkonna ümberkujundamisel peame arvestama, et juba tehtut ei ole võimalik tagasi pöörata, see võtab aastakümneid aega ning on kallis ja keeruline. Seetõttu on oluline elukeskkonda puudutavate valikute tegemisel mõista muutuste pikemaajalist mõju elukeskkonna kvaliteedile.
 
-**Eesti ees on ruumiline valik: kas arendada edasi liberaalset elukeskkonda, mis pakub mugavusi vaid heal majanduslikul järjel ja kohustustest vabadele inimestele, või kaasavamat elukeskkonda, mis keskendub kõigi heaolu parandamisele.**
+* Eesti ees on ruumiline valik: kas arendada edasi liberaalset elukeskkonda, mis pakub mugavusi vaid heal majanduslikul järjel ja kohustustest vabadele inimestele, või kaasavamat elukeskkonda, mis keskendub kõigi heaolu parandamisele.
 
 Ruumilise valiku tegemist toetavad käesolevas peatükis esitatud neli stsenaariumi, mis näitlikustavad maailmas ja Eestis toimuvaid muutusi ning nende tagajärgi. Stsenaariumid on jutustused, mis aitavad tulevikku ette kujutada ja rääkida sellest ühistel alustel. Nende abil kutsume lugejat kaasa mõtlema, millises elukeskkonnas me soovime tulevikus elada ja milliseid tulevikke vältida.
 ```
