@@ -1,7 +1,8 @@
 ## Eesti 2050 stsenaariumid {-.chapter_section .chapter5_section }
 
 ```{block, type='authors'}
-**[Kristi Grišakov](#kristi-grišakov) ja [Mihkel Kaevats](#mihkel-kaevats)** (stsenaariumitekstid)
+<div class="author-links">**[Kristi Grišakov](#kristi-grišakov) ja [Mihkel Kaevats](#mihkel-kaevats)** (stsenaariumitekstid)</div>
+<div><a class="print-btn" href="print/EIA-2019-5.1-Tulevikustsenaariumid.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 Eelnevalt kirjeldatud muutuste mõju näitlikustamiseks on koostatud neli stsenaariumi. Need on avastuslikud ([Börjeson 2006](#Börjeson2006)) ja illustreerivad võimalikult erinevaid tulevikutrajektoore. Avastuslikud stsenaariumid erinevad teistest stsenaariumitüüpidest (prognoosidest ja normatiivsetest stsenaariumidest) sellepoolest, et nad keskenduvad eri muutujate koosmõjule ega määra kindlaks konkreetset eesmärki, mis peab kõigis stsenaariumides olema saavutatud (samas). Avastuslike stsenaariumide roll on näitlikustada iga telje võimalikke äärmusi, mis ei pruugi tegelikkuses kirjeldatud viisil realiseeruda. Näiteks avaliku ruumi puhul on raske ette kujutada täielikult individualistlikku (liberaalset) või täielikult kogukondliku kasutust, küll aga võidakse kalduda rohkem ühte või teise suunda.

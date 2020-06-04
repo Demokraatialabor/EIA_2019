@@ -1,5 +1,7 @@
 ## Ühe tunni Eesti {-.chapter_section .chapter5_section .future_section}
 
+<div><a class="print-btn" href="print/EIA-2019-5.1-UhetunniEesti.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+
 <table class="future-table">
 <tbody>
 

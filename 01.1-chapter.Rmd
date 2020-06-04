@@ -1,7 +1,8 @@
 ## Maakasutuse muutused – linna ja maa tähenduse moondumine { .chapter_section .chapter1_section}
 
 ```{block, type='authors'}
-**[Tõnu Oja](#tõnu-oja)**
+<div class="author-links">**[Tõnu Oja](#tõnu-oja)**</div>
+<div><a class="print-btn" href="print/EIA-2019-1.1.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ```{block, type='points'}

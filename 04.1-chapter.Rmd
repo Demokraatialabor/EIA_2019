@@ -1,7 +1,8 @@
 ## Ühiskondlik-poliitiline diskussioon digitaalses avalikus ruumis {.chapter_section .chapter4_section}
 
 ```{block, type='authors'}
-**[Andreas Ventsel](#andreas-ventsel) ja [Mari-Liis Madisson](#mari-liis-madisson)**
+<div class="author-links">**[Andreas Ventsel](#andreas-ventsel) ja [Mari-Liis Madisson](#mari-liis-madisson)**</div>
+<div><a class="print-btn" href="print/EIA-2019-4.1.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ```{block, type='points'}

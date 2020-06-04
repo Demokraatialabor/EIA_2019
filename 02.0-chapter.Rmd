@@ -1,9 +1,12 @@
-# Ruumipoliitikad {.chapter2 .chapter2_section}
-
+# Avalik linnaruum {.chapter2 .chapter2_section}
+ <script>
+  window.location = "sissejuhatus-2.html";
+  </script>
 ## Sissejuhatus {-.chapter_section .chapter2_section .intro_section}
-<h1>Ruumipoliitikad</h1>
+<h1>Avalik linnaruum</h1>
 ```{block, type='authors'}
-**[Epp Lankots](#epp-lankots)**
+<div class="author-links">**[Epp Lankots](#epp-lankots)**</div>
+<div><a class="print-btn" href="print/EIA-2019-2.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ### Põhisõnumid {-.chapter2_section}

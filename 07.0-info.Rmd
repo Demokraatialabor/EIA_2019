@@ -13,7 +13,8 @@ Fotod: Annika Haas, Kaupo Kalda<br>
 
 Digitaalne aruanne:  Taavet Kutsar<br>
 Digitaalse aruande lähtekood saadaval: https://github.com/Demokraatialabor/EIA_2019<br>
-Lae alla aruande trükiversioon: FAIL
+Laadi alla aruande <a href="print/EIA-2019.pdf">trükiversioon</a>.
+
 
 Aruande trükkimiseks kasutatud paberipuit on saadud jätkusuutlikult majandatud metsast.<br>
 

@@ -1,11 +1,15 @@
 # Eesti elukeskkondade mitmekesisus {.chapter1 .chapter1_section}
-
+ <script>
+  window.location = "sissejuhatus-1.html";
+  </script>
+  
 ## Sissejuhatus {-.chapter1_section .intro_section}
 
 <h1>Eesti elukeskkondade mitmekesisus</h1>
 
 ```{block, type='authors'}
-**[Kadri Leetmaa](#kadri-leetmaa)**
+<div class="author-links">**[Kadri Leetmaa](#kadri-leetmaa)**</div>
+<div><a class="print-btn" href="print/EIA-2019-1.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ### Põhisõnumid {-.chapter1_section}

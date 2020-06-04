@@ -1,7 +1,8 @@
 ## Aktivism avaliku ruumi koosloomes {.chapter_section .chapter2_section}
 
 ```{block, type='authors'}
-**[Keiti Kljavin](#keiti-kljavin), [Johanna Pirrus](#johanna-pirrus), [Kaija-Luisa Kurik](#kaija-luisa-kurik) ja [Ingmar Pastak](#ingmar-pastak)**
+<div class="author-links">**[Keiti Kljavin](#keiti-kljavin), [Johanna Pirrus](#johanna-pirrus), [Kaija-Luisa Kurik](#kaija-luisa-kurik) ja [Ingmar Pastak](#ingmar-pastak)**</div>
+<div><a class="print-btn" href="print/EIA-2019-2.3.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ```{block, type='points'}

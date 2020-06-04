@@ -44,7 +44,7 @@ Tunnustatud teadlaste koostööna valmiv põhjalik aruanne panustab teadmuspõhi
 
 Eesti inimarengu aruanne lähtub ÜRO väljaantavast rahvusvahelisest inimarengu indeksist ja raportist.
 
-Eestis on inimarengu aruanne ilmunud 1995. aastast. 2006. aastast annab kogumikku välja SA Eesti Koostöö Kogu. Aruande digiversioon on avatud lähtekoodiga ja andmetega.
+Eestis on inimarengu aruanne ilmunud 1995. aastast. 2006. aastast annab kogumikku välja SA Eesti Koostöö Kogu. Aruande digiversioon on avatud lähtekoodiga ja avatud andmetega.
 </div>
 </div>
 

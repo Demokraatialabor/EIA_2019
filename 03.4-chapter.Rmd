@@ -1,7 +1,8 @@
 ## Kaasarääkimise võimalused loodusalade kasutamisel {.chapter_section .chapter3_section}
 
 ```{block, type='authors'}
-**[Siim Vahtrus](#siim-vahtrus), [Liina Remm](#liina-remm), [Kärt Vaarmari](#kärt-vaarmari)**
+<div class="author-links">**[Siim Vahtrus](#siim-vahtrus), [Liina Remm](#liina-remm), [Kärt Vaarmari](#kärt-vaarmari)**</div>
+<div><a class="print-btn" href="print/EIA-2019-3.3.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ```{block, type='points'}

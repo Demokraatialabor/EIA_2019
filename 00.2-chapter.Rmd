@@ -2,8 +2,10 @@
 
 <h1>Eesti ruumiline areng</h1>
 
+
 ```{block, type='authors'}
-**[Helen Sooväli-Sepping](#helen-sooväli-sepping) ja [Antti Roose](#antti-roose)**
+<div class="author-links">**[Helen Sooväli-Sepping](#helen-sooväli-sepping) ja [Antti Roose](#antti-roose)**</div>
+<div><a class="print-btn" href="print/EIA-2019-0-Sissejuhatus.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ### Põhisõnumid {-.chapter0_section}

@@ -1,7 +1,8 @@
 ## Ekspertide roll ja staatus ühiskondlikes meediaaruteludes {.chapter_section .chapter4_section}
 
 ```{block, type='authors'}
-**[Arko Olesk](#arko-olesk)**
+<div class="author-links">**[Arko Olesk](#arko-olesk)**</div>
+<div><a class="print-btn" href="print/EIA-2019-4.4.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ```{block, type='points'}

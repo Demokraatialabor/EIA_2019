@@ -1,7 +1,8 @@
 ## Ajakirjanduse kujundatav arvamusruum {.chapter_section .chapter4_section}
 
 ```{block, type='authors'}
-**[Ragne Kõuts-Klemm](#ragne-kõuts-klemm)**
+<div class="author-links">**[Ragne Kõuts-Klemm](#ragne-kõuts-klemm)**</div>
+<div><a class="print-btn" href="print/EIA-2019-4.3.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ```{block, type='points'}

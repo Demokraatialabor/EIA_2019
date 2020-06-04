@@ -1,7 +1,8 @@
 ## Eessõna {-.chapter_section .foreword_section}
 
 ```{block, type='authors'}
-**Kersti Kaljulaid**
+<div class="author-links">**Kersti Kaljulaid**</div>
+<div><a class="print-btn" href="print/EIA-2019-0-Eessona.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 <div class="president-photo-container">

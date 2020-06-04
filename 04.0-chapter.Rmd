@@ -1,10 +1,13 @@
-# Aruteluruum {.chapter4 .chapter4_section}
-
+# Eesti Aruteluruum {.chapter4 .chapter4_section}
+ <script>
+  window.location = "sissejuhatus-4.html";
+  </script>
 ## Sissejuhatus {-.chapter_section .chapter4_section .intro_section}
-<h1>Aruteluruum</h1>
+<h1>Eesti Aruteluruum</h1>
 
 ```{block, type='authors'}
-**[Indrek Ibrus](#indrek-ibrus)**
+<div class="author-links">**[Indrek Ibrus](#indrek-ibrus)**</div>
+<div><a class="print-btn" href="print/EIA-2019-4.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ### Põhisõnumid {- .chapter4_section}

@@ -256,11 +256,47 @@ h3 .header-section-number{
 }
 }
   
-/* authors */
+/* authors and print button*/
   .authors {
-  font-size:1.2em;
+  display:grid;
+  grid-template-columns: auto 175px;
   margin-top:-10px;
   margin-bottom: 20px;
+}
+
+.author-links {
+  font-size:1.2em;
+}
+
+.print-btn {
+  width:100%;
+  height: 40px;
+  line-height:40px;
+  padding:8px;
+  border: solid 2px #e6e3da;
+  border-top-right-radius: 8px;
+  background:white;
+  text-align:center;
+  font-size:0.8em;
+  font-weight:bold;
+  text-transform:uppercase;
+  text-decoration: none !important;
+  color: #e6e3da !important;
+}
+
+.print-btn i {
+  padding-right:10px;
+}
+
+@media only screen and (max-width: 576px) {
+.authors {
+  display:block;
+}
+  
+.print-btn {
+  float:none;
+  max-width:175px;
+}
 }
 
 /* points */
@@ -546,6 +582,16 @@ p.caption {
   border-bottom: 3px solid #0872ba;
   }
   
+ .foreword_section a.print-btn {
+  color: #e6e3da !important;
+  text-decoration:none !important;
+}
+
+.foreword_section a.print-btn:hover {
+  border: solid 2px #0872ba;
+  color: #0872ba !important;
+}
+  
 .president-photo-container {
   float:right;
   width:300px;
@@ -607,6 +653,16 @@ p.caption {
 .chapter0_section .authors a:hover {
     color:#3a404a !important;
  }
+ 
+.chapter0_section a.print-btn {
+  color: #e6e3da !important;
+  text-decoration:none !important;
+}
+
+.chapter0_section a.print-btn:hover {
+  border: solid 2px #C54409;
+  color: #C54409 !important;
+}
 
 .bullet-heading::before  {
   content: "\2022  "; 
@@ -711,6 +767,10 @@ p.caption {
 
 /* Chapter 1 - #482683 */
 
+#eesti-elukeskkondade-mitmekesisus h1 {
+  display:none;
+}
+
 .chapter1_section.intro_section::before{
 	      background-image: url(figures/1-chapter/chapter1_cover.jpg);
 	      background-attachment:fixed;
@@ -742,6 +802,16 @@ p.caption {
   .chapter1_section .authors a:hover {
     color:#3a404a !important;
  }
+ 
+ .chapter1_section a.print-btn {
+  color: #e6e3da !important;
+  text-decoration:none !important;
+}
+
+.chapter1_section a.print-btn:hover {
+  border: solid 2px #482683;
+  color: #482683 !important;
+}
 
 .chapter1_section .figure-number {
 	color:  #482683 !important;
@@ -838,6 +908,10 @@ p.caption {
 
 /* Chapter 2 - #369B9E */
 
+#avalik-linnaruum h1 {
+  display:none;
+}
+
 .chapter2_section.intro_section::before{
 	      background-image: url(figures/2-chapter/chapter2_cover.jpg);
 	      background-attachment:fixed;
@@ -870,6 +944,15 @@ p.caption {
     color:#3a404a !important;
  }
 
+ .chapter2_section a.print-btn {
+  color: #e6e3da !important;
+  text-decoration:none !important;
+}
+
+.chapter2_section a.print-btn:hover {
+  border: solid 2px #369B9E;
+  color: #369B9E !important;
+}
 
 .chapter2_section .figure-number {
 	color: #369B9E !important;
@@ -896,6 +979,10 @@ p.caption {
 }
 
 /* Chapter 3 - #79AC2C */
+
+#looduskeskkond-kui-avalik-hüve h1 {
+  display:none;
+}
 
 .chapter3_section.intro_section::before{
 	      background-image: url(figures/3-chapter/chapter3_cover.jpg);
@@ -925,9 +1012,19 @@ p.caption {
     text-decoration:underline !important;
  }
  
-  .chapter3_section .authors a:hover {
+.chapter3_section .authors a:hover {
     color:#3a404a !important;
  }
+ 
+.chapter3_section a.print-btn {
+  color: #e6e3da !important;
+  text-decoration:none !important;
+}
+
+.chapter3_section a.print-btn:hover {
+  border: solid 2px #79AC2C;
+  color: #79AC2C !important;
+}
 
 .chapter3_section .figure-number {
 	color: #79AC2C !important;
@@ -1013,6 +1110,11 @@ p.caption {
 
 /* Chapter 4 - #BC9417 */
 
+#eesti-aruteluruum h1 {
+  display:none;
+}
+
+
 .chapter4_section.intro_section::before{
 	      background-image: url(figures/4-chapter/chapter4_cover.jpg);
 	      background-attachment:fixed;
@@ -1044,6 +1146,16 @@ p.caption {
   .chapter4_section .authors a:hover {
     color:#3a404a !important;
  }
+ 
+ .chapter4_section a.print-btn {
+  color: #e6e3da !important;
+  text-decoration:none !important;
+}
+
+.chapter4_section a.print-btn:hover {
+  border: solid 2px #BC9417;
+  color: #BC9417 !important;
+}
  
 .chapter4_section .figure-number {
 	color: #BC9417 !important;
@@ -1105,6 +1217,15 @@ p.caption {
     color:#3a404a !important;
  }
 
+.chapter5_section a.print-btn {
+  color: #e6e3da !important;
+  text-decoration:none !important;
+}
+
+.chapter5_section a.print-btn:hover {
+  border: solid 2px #A01B17;
+  color: #A01B17 !important;
+}
 
 .chapter5_section .figure-number {
 	color: #A01B17 !important;
@@ -1152,7 +1273,7 @@ p.caption {
 }
 
 .future-table {
-margin-top:100px !important;
+margin-top:50px !important;
  margin-bottom:100px !important;
 }
 
@@ -1205,6 +1326,16 @@ margin-top:100px !important;
   border-bottom: 3px solid #96CBD2;
   }
   
+.chapter6_section a.print-btn {
+  color: #e6e3da !important;
+  text-decoration:none !important;
+}
+
+.chapter6_section a.print-btn:hover {
+  border: solid 2px #96CBD2;
+  color: #96CBD2 !important;
+}
+  
 .chapter6_section h2,
 .chapter6_section h3
 {
@@ -1240,7 +1371,7 @@ margin-top:100px !important;
 }
 
 .editor-name {
-    color: #7F6498 !important;
+    color: #246AAF !important;
 }
 
 .author-name {

@@ -1,7 +1,8 @@
 ## Ligipääsetavuse muutused autostunud Eestis {.chapter_section .chapter1_section}
 
 ```{block, type='authors'}
-**[Tauri Tuvikene](#tauri-tuvikene), [Merlin Rehema](#merlin-rehema), [Dago Antov](#dago-antov)**
+<div class="author-links">**[Tauri Tuvikene](#tauri-tuvikene), [Merlin Rehema](#merlin-rehema), [Dago Antov](#dago-antov)**</div>
+<div><a class="print-btn" href="print/EIA-2019-1.5.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ```{block, type='points'}

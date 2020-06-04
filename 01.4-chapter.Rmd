@@ -1,7 +1,8 @@
 ## Nüüdisaegsed elamistingimused – kelle privileeg? {.chapter_section .chapter1_section}
 
 ```{block, type='authors'}
-**[Anneli Kährik](#anneli-kährik) ja [Annika Väiko](#annika-väiko)**
+<div class="author-links">**[Anneli Kährik](#anneli-kährik) ja [Annika Väiko](#annika-väiko)**</div>
+<div><a class="print-btn" href="print/EIA-2019-1.4.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ```{block, type='points'}

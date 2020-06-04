@@ -1,7 +1,8 @@
 ## Keskuse ja ääremaa lõhe Eestis {.chapter_section .chapter1_section}
 
 ```{block, type='authors'}
-**[Bianka Plüschke-Altof](#bianka-plüschke-altof), [Bradley Loewen](#bradley-loewen) ja [Kadri Leetmaa](#kadri-leetmaa)**
+<div class="author-links">**[Bianka Plüschke-Altof](#bianka-plüschke-altof), [Bradley Loewen](#bradley-loewen) ja [Kadri Leetmaa](#kadri-leetmaa)**</div>
+<div><a class="print-btn" href="print/EIA-2019-1.2.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ```{block, type='points'}

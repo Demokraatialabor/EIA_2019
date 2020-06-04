@@ -1,9 +1,12 @@
-# Looduskeskond kui avalik hüve {.chapter3 .chapter3_section}
-
+# Looduskeskkond kui avalik hüve {.chapter3 .chapter3_section}
+ <script>
+  window.location = "sissejuhatus-3.html";
+  </script>
 ## Sissejuhatus {-.chapter_section .chapter3_section .intro_section}
-<h1>Loodusruum kui avalik hüve</h1>
+<h1>Looduskeskkond kui avalik hüve</h1>
 ```{block, type='authors'}
-**[Asko Lõhmus](#asko-lõhmus)**
+<div class="author-links">**[Asko Lõhmus](#asko-lõhmus)**</div>
+<div><a class="print-btn" href="print/EIA-2019-3.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ### Põhisõnumid {-.chapter3_section}

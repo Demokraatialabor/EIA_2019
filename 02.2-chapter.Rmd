@@ -1,7 +1,8 @@
 ## Ehituspärand ja ruumikvaliteet {.chapter_section .chapter2_section}
 
 ```{block, type='authors'}
-**[Triin Talk](#triin-talk) ja [Siim Raie](#siim-raie)**
+<div class="author-links">**[Triin Talk](#triin-talk) ja [Siim Raie](#siim-raie)**</div>
+<div><a class="print-btn" href="print/EIA-2019-2.2.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ```{block, type='points'}

@@ -1,7 +1,8 @@
 ## Avalik ruum kui elukeskkonda siduv võrgustik {.chapter_section .chapter2_section}
 
 ```{block, type='authors'}
-**[Toomas Paaver](#toomas-paaver) ja [Elo Kiivet](#elo-kiivet)**
+<div class="author-links">**[Toomas Paaver](#toomas-paaver) ja [Elo Kiivet](#elo-kiivet)**</div>
+<div><a class="print-btn" href="print/EIA-2019-2.1.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ```{block, type='points'}

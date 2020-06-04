@@ -1,10 +1,13 @@
 # Eesti elukeskkond aastal 2050 {.chapter5 .chapter5_section}
-
+ <script>
+  window.location = "sissejuhatus-5.html";
+  </script>
 ## Sissejuhatus {-.chapter_section .chapter5_section .intro_section}
 <h1>Eesti elukeskkond aastal 2050</h1>
 
 ```{block, type='authors'}
-**[Kristi Grišakov](#kristi-grišakov)**
+<div class="author-links">**[Kristi Grišakov](#kristi-grišakov)**</div>
+<div><a class="print-btn" href="print/EIA-2019-5.0-Tulevik.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 
