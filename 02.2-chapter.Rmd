@@ -322,7 +322,7 @@ library("tidyverse")
 
 Uuringus „Eraomandis oleva kinnismälestise hoidmine“ ([Tafel-Viia jt 2014](#Tafel2014)) on toodud mälestiste eraomanikke puudutava probleemi ühe tuumana asjaolu, et mälestisele seatud piirangud ja riigi poolt pakutavad toetused ei ole tasakaalus. Kolmveerand eestlastest arvab, et riigiasutused peaksid eraldama kultuuripärandile rohkem vahendeid ([joonis 2.2.8](#figure228)).
 
-<p class="caption" id="figure227"><span class="figure-number">Joonis 2.2.8.</span> Vahendid kultuuripärandile.</p>
+<p class="caption" id="figure228"><span class="figure-number">Joonis 2.2.8.</span> Vahendid kultuuripärandile.</p>
 
 Riigiasutused peaksid eraldama Euroopa kultuuripärandi jaoks rohkem vahendeid (%).
 
