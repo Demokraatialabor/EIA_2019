@@ -2,6 +2,12 @@
 
 <div><a class="print-btn" href="print/EIA-2019-5.1-Isemajandav.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 
+```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
+
+knitr::include_graphics("figures/5-chapter/kaart-2.png")
+
+```
+
 <table class="future-table">
 <tbody>
 

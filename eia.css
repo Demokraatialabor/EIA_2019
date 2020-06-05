@@ -443,7 +443,7 @@ p.caption {
   margin-bottom:3em;
   font-size:0.8em;
   display:grid;
-  grid-template-columns: auto 100px;
+  grid-template-columns: auto 105px;
 }
 
 .data-btn {
@@ -472,7 +472,7 @@ p.caption {
 }
   
 .data-btn-btn {
-  max-width:100px;
+  max-width:105px;
 }
 }
 
