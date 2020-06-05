@@ -81,14 +81,7 @@ knitr::include_graphics("figures/1-chapter/fig152.png")
 <h3> Säästva liikuvuse arengukava</h3>
 
 Säästva liikuvuse arengukava eesmärk on luua jätkusuutlik transpordisüsteem. See tähendab inimeste praeguste ja tulevaste liikuvusvajaduste rahuldamist liikumisviisidega, mis ei kahjusta elukeskkonda ([LiLiA 2017](#LiLiA2017)). Selline liikumiskorraldus eeldab mugavat ühistranspordivõrgustikku, liikumisviiside sujuvat ühildamist, aktiivsete liikumisviiside (nt jalgratas ja jalgsi liikumine) arendamist ning autokasutuse vajaduse vähendamist. Euroopa Komisjon kinnitas säästva linnalise liikuvuse arengukava 2009. aastal ning toetab selle rakendamist liikmesriikide kohalikel tasanditel koostöö- ja teadmusvõrgustike loomise, andmete kogumise ning finantsinvesteeringute kaudu ([Eltis 2019](#ELTIS2019)).  
-
-<p class="caption" id="figure152"><span class="figure-number">Joonis 1.5.2.</span> Ligipääsetavuse elemendid</p>
-
 ```
-```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Discovering Urbanism 2010. Säästva linna liikuvuse arengukava.
-```
-
 
 ### Hajaasustuse elu on autokeskne {-.chapter1_section}
 
