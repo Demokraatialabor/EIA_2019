@@ -80,31 +80,32 @@ Arutelu edenedes vastasseisud võimendusid. Aasta 2018 jaanipäeva eel teatas va
 
 library("tidyverse")
 
- fig441_data <- read.csv ("data/44_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
+ fig442_data <- read.csv ("data/44_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
 
-fig441_data_cleaned <- as.data.frame(table(fig441_data$date))
-fig441_data_cleaned$date <- as.Date(fig441_data_cleaned$Var1)
+fig442_data_cleaned <- as.data.frame(table(fig442_data$date))
+fig442_data_cleaned$date <- as.Date(fig442_data_cleaned$Var1)
 
 
-  fig441_plot <- ggplot(data = fig441_data_cleaned) +
+  fig442_plot <- ggplot(data = fig442_data_cleaned) +
     geom_line(mapping = aes(x=date, y=Freq), size=.8, group="date", colour="#BC9417") +
     scale_x_date(date_breaks="2 months",date_labels =  "%d.%m.%y") +
     labs(y="Sagedus", x="Kuupäev")
 
-    fig441_theme <- theme(
+    fig442_theme <- theme(
                      axis.line = element_line(size = 0.2, colour = "#cccccc"),
                      axis.text.x = element_text(angle=45, margin = margin(t = 7, r = 0, b = 0, l = 0), hjust=1.1),
                     axis.title.x = element_text(margin = margin(t = 15, r = 0, b = 0, l = 0)),
                  )
 
-  print(fig441_plot + fig_theme_general + fig441_theme)
+  print(fig442_plot + fig_theme_general + fig442_theme)
 
-  ggsave(path="exported_figures/PNG",filename="fig441.png",height=150, width=300, units="mm")
-  ggsave(path="exported_figures/PDF",filename="fig441.pdf", height=120, width=200, units="mm")
+  #ggsave(path="exported_figures/PNG",filename="fig442.png",height=150, width=300, units="mm")
+  #ggsave(path="exported_figures/PDF",filename="fig442.pdf", height=120, width=200, units="mm")
 ```
 
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Station.ee meediamonitooring, otsisõnad „puidurafineerimistehas“ ja „tselluloositehas“.
+<div><span class="imgsource-source">Allikas:</span> Station.ee meediamonitooring, otsisõnad „puidurafineerimistehas“ ja „tselluloositehas“.</div>
+<div><a class="data-btn" href="data/44_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 Kokku mainiti märksõnu „puidurafineerimistehas“ või „tselluloositehas“ 2017. ja 2018. aasta jooksul meedias ligi 4000 artiklis ja saatelõigus. Enim pälvis kajastusi juunikuine valitsuse otsus alustada eriplaneeringu lõpetamine, teise tipu tekitas märtsikuine Tartu volikogu arutelu. 41% meediakajastustest mainis ka ülikoole, teadlasi või teadust üldiselt, andes ligikaudse määra, kuivõrd arutelud teadusega seonduvale toetusid või viitasid. Seejuures oli nende märksõnade mainimine sagedasem just 2018. aasta märtsikuus ja oluliselt harvem juunis, mil oli teema kajastuste üldine tipp.

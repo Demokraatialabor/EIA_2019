@@ -70,7 +70,8 @@ print(fig421_plot + fig_theme_general+ fig421_theme)
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> EU Kids Online Eesti uuring 2018; Sukk ja Soo 2018.
+<div><span class="imgsource-source">Allikas:</span> EU Kids Online Eesti uuring 2018; Sukk ja Soo 2018.</div>
+<div><a class="data-btn" href="data/42_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 Igapäevane netikasutus on virtuaalses arvamusruumis osalemise eeltingimus, tõeliselt aktiivset kaasarääkimist soodustab aga digitaalse kaasatuse kõrge tase ehk võimalikult paljude noorte osasaamine digivõimaluste koguulatusest, mis tähendab jõudmist internetivõimaluste redeli kõrgematele ehk edasijõudnute astmetele. Kui redeli alumistel astmetel on netitegevused seotud infootsingu, suhtluse ning meelelahutusega ega nõua spetsiifilisi digioskusi, siis kõrgematel astmetel tegutsemine nõuab nii täiendavat pädevust kui ka motivatsiooni ([Livingstone ja Helsper 2007](#Livingstone2007); [Pruulmann-Vengerfeldt ja Runnel 2012](#Pruulmann-Vengerfeldt2012)) ning nendele jõuab väike osa lastest (alla 50%). [Joonis 4.2.2](#figure422) näitab, et kõrgematele ehk edasijõudnute astmetele paigutuvad nii loomingulised (nt blogi või kodulehe pidamine) kui ka digiosalusega seotud tegevused (nt petitsioonide allkirjastamine).
@@ -168,7 +169,8 @@ print(fig423_plot + fig_theme_general + fig423_theme)
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> EU Kids Online Eesti uuring 2018; Sukk ja Soo 2018.
+<div><span class="imgsource-source">Allikas:</span> EU Kids Online Eesti uuring 2018; Sukk ja Soo 2018.</div>
+<div><a class="data-btn" href="data/42_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 Samal ajal pidasid fookusgruppides osalenud noored oluliseks tõika, et digitehnoloogiate tekkega on avanenud hulgaliselt võimalusi maailma muutmiseks. Sotsiaalmeediast alguse saanud kampaaniad (nt #minaka, milles seksuaalselt ahistatud või rünnatud inimesed postitasid oma kogemustest ajendatud lugusid) võivad julgustada oma kogemusest teada andma ning häält kuuldavaks tegema. Noored leidsid, et üksikisiku tasandil võivad sellised kampaaniad luua võimalusi mõttekaaslaste leidmiseks ja positiivsete emotsioonide tekkeks; ühiskondlikus plaanis aitavad need aga murda vananenud tabusid ja suurendada teadlikkust ([Sukk 2018](#Sukk2018)).

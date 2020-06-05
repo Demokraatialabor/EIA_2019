@@ -99,9 +99,6 @@ tmap_mode("view")
 #svg(filename="figure.svg")
 #fig_153_plot
 #dev.off()
-
-knitr::include_graphics("figures/1-chapter/fig112.png")
-
 ```
 
 ```{r, figure112a, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
@@ -111,9 +108,9 @@ knitr::include_graphics("figures/1-chapter/fig112.png")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> CORINE 2000; 2006; 2012; 2018.
+<div><span class="imgsource-source">Allikas:</span> CORINE 2000; 2006; 2012; 2018.</div>
+<div><a class="data-btn" href="data/11_fig2_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
-
 
 Statistikaameti andmed kliimaaruannetes kajastuva maismaa pindala kohta näitavad, et ajavahemikus 2000–2017 on asustusalade pindala suurenenud 138 km<sup>2</sup> võrra – sajandivahetuse 3287 km<sup>2</sup> asemel oli 2017. aastal 3425 km<sup>2</sup> asustust. Kasv on 4,2%. See arv on enam kui kaks korda suurem, kui CORINE andmestik kajastab. CORINE miinimumkaardistusüksus on 5 hektarit, millest järeldub, et ka sellest väiksema pindalaga uusasustust on linnade ümbruses lisandunud palju.
 

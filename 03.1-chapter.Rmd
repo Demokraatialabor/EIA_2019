@@ -122,7 +122,8 @@ print(fig312_plot1 + fig_theme_general + fig312_theme)
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Riigimetsa Majandamise Keskus 2018.
+<div><span class="imgsource-source">Allikas:</span> Riigimetsa Majandamise Keskus 2018.</div>
+<div><a class="data-btn" href="data/31_fig2_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 
@@ -166,8 +167,10 @@ print(fig313_plot + fig_theme_general + fig313_theme)
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Autori joonis.
+<div><span class="imgsource-source">Allikas:</span> Autori joonis.</div>
+<div><a class="data-btn" href="data/31_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
+
 
 <p class="caption" id="figure314"><span class="figure-number">Joonis 3.1.4.</span> Tallinna elanike hinnang eri tüüpi rohealade tähtsusele elukohas</p>
 
@@ -211,8 +214,10 @@ ggsave(path="exported_figures/PDF/chapter3",filename="fig314.pdf", height=120, w
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Tuhkanen jt 2018.
+<div><span class="imgsource-source">Allikas:</span> Tuhkanen jt 2018.</div>
+<div><a class="data-btn" href="data/31_fig4_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
+
 
 ### Teave inimeste looduskasutuse kohta on lünklik {-.chapter3_section}
 

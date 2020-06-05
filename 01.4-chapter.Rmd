@@ -67,7 +67,8 @@ ggsave(path="exported_figures/PDF/chapter1",filename="fig141.pdf", height=140, w
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).
+<div><span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).</div>
+<div><a class="data-btn" href="data/14_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 
@@ -109,7 +110,8 @@ fig142_data$area <- factor(fig142_data$area, levels = c("Tallinn","Harjumaa (v.a
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).
+<div><span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).</div>
+<div><a class="data-btn" href="data/14_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Eluruumidega varustatus on aastatega paranenud ning ka ruumi inimese kohta on rohkem. Kui rahvaloenduse andmetel oli aastatuhande vahetuse ajal elaniku kohta 24,4 m<sup>2</sup> elamispinda ning 1,08 tuba, siis 2011. aastaks juba 31,4 m<sup>2</sup> ning 1,28 tuba. Selle näitaja alusel oleme Euroopa Liidu riikidega võrreldes suhteliselt kõrgel positsioonil.
@@ -149,7 +151,8 @@ library("tidyverse")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).
+<div><span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).</div>
+<div><a class="data-btn" href="data/14_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Ligikaudu pool Eesti elanikest elab eluruumides, mis nende enda hinnangul vajavad ajakohastamist, olles kas väga viletsas seisundis või oluliste puudustega. Elamistingimustega rahulolu mõjutab eluhoone vanus ja ka tüüp – probleeme on rohkem vanemates elamutes asuvate eluasemetega, samuti väiksemate hoonetega (nii korterelamud kui ka eramajad) ([joonis 1.4.4](#figure144)). Suurte kortermajade (suhteliselt uuemad) elanikud hindavad eluasemete seisukorda veidi paremaks. Kehvem on väikelinnade ja maapiirkondade eluasemete olukord ning üürisektor tervikuna on mõnevõrra suuremate puudustega kui omanike poolt asustatud eluasemed.
@@ -195,7 +198,8 @@ ggsave(path="exported_figures/PDF/chapter1",fig144_plot2 + fig144_theme + fig_th
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).
+<div><span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).</div>
+<div><a class="data-btn" href="data/14_fig4_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 <div class="casebox">
@@ -262,7 +266,8 @@ ggsave(path="exported_figures/PDF/chapter1",filename="fig147.pdf", height=140, w
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).
+<div><span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).</div>
+<div><a class="data-btn" href="data/14_fig7_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 ```{block, type='blockquote-right'}
@@ -302,7 +307,8 @@ ggsave(path="exported_figures/PDF/chapter1",filename="fig148.pdf", height=140, w
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).
+<div><span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).</div>
+<div><a class="data-btn" href="data/14_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 ### Taasiseseisvumise järel oli eluasemekorraldus täielikult suunatud turupõhisele eluasemefondile {-.chapter1_section}
@@ -377,7 +383,8 @@ ggsave(path="exported_figures/PDF/chapter1",filename="fig149b.pdf",fig149_plot2 
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).
+<div><span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).</div>
+<div><a class="data-btn" href="data/14_fig9_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Kuni 2000. aastateni oli riik eluasemepoliitikast peaaegu täielikult taandunud ning eluasemeturg toimis turumajanduslikel põhimõtetel. Siis aga selgus, et turg ja elanike oma algatus üksi ei taga eluasemete kättesaadavust, eluasemefondi kvaliteedi parandamist ja piisavat uuendamist, ning nii on 2000. aastatel lisandunud ka elamufondi kvaliteedi tõstmist ning ka üürielamufondi arendamist soodustavaid meetmeid.

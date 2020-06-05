@@ -43,7 +43,7 @@ p {
   overflow-x:hidden;
   }
   
-  .page-inner{
+.page-inner{
   width:100% !important;
   max-width:none !important;
   padding:0 !important;
@@ -299,6 +299,7 @@ h3 .header-section-number{
 }
 }
 
+
 /* points */
   .points {
     margin-bottom:5em;
@@ -434,13 +435,45 @@ p.caption {
   font-weight:bold;
 }
 
-/* image source */
+/* image source and data button*/
 
 .imgsource {
   color:#86858a;
-  margin-top:0;
+  margin-top:10px;
   margin-bottom:3em;
   font-size:0.8em;
+  display:grid;
+  grid-template-columns: auto 100px;
+}
+
+.data-btn {
+  width:100%;
+  height: 30px;
+  line-height:30px;
+  padding:8px;
+  border: solid 2px #e6e3da;
+  border-bottom-right-radius: 8px;
+  background:white;
+  text-align:center;
+  font-size:0.6em;
+  font-weight:bold;
+  text-transform:uppercase;
+  text-decoration: none !important;
+  color: #e6e3da !important;
+}
+
+.data-btn i {
+  padding-right:5px;
+}
+
+@media only screen and (max-width: 576px) {
+.imgsource {
+  display:block;
+}
+  
+.data-btn-btn {
+  max-width:100px;
+}
 }
 
 /* figure comment */
@@ -583,6 +616,16 @@ p.caption {
   }
   
  .foreword_section a.print-btn {
+  color: #e6e3da !important;
+  text-decoration:none !important;
+}
+
+.foreword_section a.data-btn:hover {
+  border: solid 2px #0872ba;
+  color: #0872ba !important;
+}
+
+ .foreword_section a.data-btn {
   color: #e6e3da !important;
   text-decoration:none !important;
 }
@@ -799,7 +842,7 @@ p.caption {
     text-decoration:underline !important;
  }
  
-  .chapter1_section .authors a:hover {
+.chapter1_section .authors a:hover {
     color:#3a404a !important;
  }
  
@@ -809,6 +852,16 @@ p.caption {
 }
 
 .chapter1_section a.print-btn:hover {
+  border: solid 2px #482683;
+  color: #482683 !important;
+}
+
+ .chapter1_section a.data-btn {
+  color: #e6e3da !important;
+  text-decoration:none !important;
+}
+
+.chapter1_section a.data-btn:hover {
   border: solid 2px #482683;
   color: #482683 !important;
 }
@@ -954,6 +1007,16 @@ p.caption {
   color: #369B9E !important;
 }
 
+ .chapter2_section a.data-btn {
+  color: #e6e3da !important;
+  text-decoration:none !important;
+}
+
+.chapter2_section a.data-btn:hover {
+  border: solid 2px #369B9E;
+  color: #369B9E !important;
+}
+
 .chapter2_section .figure-number {
 	color: #369B9E !important;
 }
@@ -1022,6 +1085,16 @@ p.caption {
 }
 
 .chapter3_section a.print-btn:hover {
+  border: solid 2px #79AC2C;
+  color: #79AC2C !important;
+}
+
+.chapter3_section a.data-btn {
+  color: #e6e3da !important;
+  text-decoration:none !important;
+}
+
+.chapter3_section a.data-btn:hover {
   border: solid 2px #79AC2C;
   color: #79AC2C !important;
 }
@@ -1156,6 +1229,16 @@ p.caption {
   border: solid 2px #BC9417;
   color: #BC9417 !important;
 }
+
+ .chapter4_section a.data-btn {
+  color: #e6e3da !important;
+  text-decoration:none !important;
+}
+
+.chapter4_section a.data-btn:hover {
+  border: solid 2px #BC9417;
+  color: #BC9417 !important;
+}
  
 .chapter4_section .figure-number {
 	color: #BC9417 !important;
@@ -1183,6 +1266,10 @@ p.caption {
 }
 
 /* Chapter 5 - #A01B17 */
+
+#eesti-elukeskkond-aastal-2050 h1 {
+  display:none;
+}
 
 .chapter5_section.intro_section::before{
 	      background-image: url(figures/5-chapter/chapter5_cover.jpg);
@@ -1223,6 +1310,16 @@ p.caption {
 }
 
 .chapter5_section a.print-btn:hover {
+  border: solid 2px #A01B17;
+  color: #A01B17 !important;
+}
+
+.chapter5_section a.data-btn {
+  color: #e6e3da !important;
+  text-decoration:none !important;
+}
+
+.chapter5_section a.data-btn:hover {
   border: solid 2px #A01B17;
   color: #A01B17 !important;
 }

@@ -69,7 +69,8 @@ library("tidyverse")
 ```
 
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Statistikaamet.
+<div><span class="imgsource-source">Allikas:</span> Statistikaamet.</div>
+<div><a class="data-btn" href="data/13_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Suur-Tallinnas eeslinnastuvad kõige intensiivsemalt Viimsi, Rae, Harku ja Kiili vald, vähemal määral Saue, Saku ja Jõelähtme vald. Omaette nähtus uus-Eesti asustuses on Viimsi, kus lisaks kahele alevikule ‒ Viimsi ja Haabneeme ‒ on jätkuvalt 14 küla, millest mitu (Randvere, Pärnamäe ja Püünsi) on väikelinna mõõtu. Tartus on jõuliselt vedanud eeslinnastumist Ülenurme ja Tartu vald, vähemal määral ka Luunja, Haaslava ja Tähtvere vald. Pärnu on valgunud Audru, Sauga ja Paikuse, aga ka Tahkuranna valda.
@@ -112,7 +113,8 @@ fig132_data$area <- factor(fig132_data$area, levels = c("Tallinn","Tallinna eesl
 ```
 
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Statistikaamet.
+<div><span class="imgsource-source">Allikas:</span> Statistikaamet.</div>
+<div><a class="data-btn" href="data/13_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Eeslinna uuselamud (18 794 eluruumi) moodustavad 29% kogu Eesti elamuehitusest (1999‒2018). Tallinna eeslinnas on uusi kodusid 13 438, Tartu eeslinnas 4091 ning Pärnu eeslinnas 1265 ([joonis 1.3.2](#figure132)). Neile lisandub veel umbes veerandi jagu asustatud, ent vormiliselt jätkuvalt ehitamisel olevad uusi eluhooneid ([Roose jt 2015](#Roose2015)). Tallinna linnasiseste arenduste maht on alates 2013. aastast kasvanud eeslinnaarenduste mahust kiiremini, ületades eeslinnaarendusi juba kolmekordselt ([joonis 1.3.3](#figure133)). Elamutüübiti läks Tallinna eeslinnas ülekaal 2000. aastate keskel ühepereelamutelt paarismajadele ja ridaelamutele ning 2010. aastatel on olnud juhtpositsioonil uued korterid. Tartus on püsinud linnaarenduste maht eeslinna omaga enam-vähem tasakaalus, kuigi viimastel aastal on eeslinnastumine kiirenenud. Tartu eeslinnas on alates 2015. aastast valitsenud ridaelamud korterelamute kõrval. Pärnu eeslinnastumine on püsinud läbi kahe kümnendi keskmiselt 50 uue eluruumi tasemel aastas.
@@ -149,7 +151,8 @@ library("reshape")
 ```
 
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Statistikaamet.
+<div><span class="imgsource-source">Allikas:</span> Statistikaamet.</div>
+<div><a class="data-btn" href="data/13_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 ### Eeslinnaasumeid iseloomustab katkendlik asustusstruktuur {-.chapter1_section}

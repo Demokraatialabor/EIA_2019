@@ -50,7 +50,8 @@ library("tidyverse")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Eurostat 2019.
+<div><span class="imgsource-source">Allikas:</span> Eurostat 2019.</div>
+<div><a class="data-btn" href="data/15_fig1_data2.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Seega saab 1990. aastate ja uue sajandi esimese kümnendi Ida-Euroopa, sealhulgas Eesti kiiret autostumist käsitleda ka kui poliitiliste süsteemide tekitatud erinevuse kompenseerimist. Kui aga vaadata senist auto kasutamise kogemust (nt USA), siis autostumise kasv varem või hiljem lõpeb. Põhjused on erinevad, aga oluline on, et enamik, kes autot on soovinud, on selle ka endale hankinud, ning samal ajal on autode arvu suur kasv tekitanud igale uuele kasutajale takistusi auto parkimisel ja ummikutes. Sel põhjusel ei saa tuleviku prognoosimisel aluseks võtta autostumise kiiret kasvu eelmistel perioodidel ning selle põhjal otsuseid teha, näiteks välja töötada tee-ehituskavu.
@@ -133,7 +134,8 @@ library("tidyverse")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Maanteeamet.
+<div><span class="imgsource-source">Allikas:</span> Maanteeamet.</div>
+<div><a class="data-btn" href="data/15_fig4_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 ```{block, type='casebox'}
@@ -205,7 +207,8 @@ ggsave(path="exported_figures/PDF/chapter1",filename="fig155b.pdf",fig155_plot2 
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Kantar Emor 2018; Statistikaamet, 1998; 2018.
+<div><span class="imgsource-source">Allikas:</span> Kantar Emor 2018; Statistikaamet, 1998; 2018.</div>
+<div><a class="data-btn" href="data/15_fig5_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Nagu ka hajaasustatud maapiirkondades, on linnade tagamaadel elu autota keeruline. Harjumaal väljaspool Tallinna on keskmiselt kaheksal perel kümnest isiklik sõiduauto, peaaegu pooltel leibkondadest on kaks või enam autot ([joonis 1.5.5](#figure155)). Maanteeameti tellimusel valminud Kantar Emori 2018. aasta Tallinna lähipiirkonna liikumisviiside uuringu alusel saab öelda, et peaaegu kolmest käigust kahel võtab Tallinnast väljas elav harjumaalane kasutusse auto, samal ajal kui Tallinna sees tehakse autoga vaid umbes pool käikudest. TNS Emori 2015. aasta andmetel kasutavad linnakeskuses elavad inimesed autot vähem kui inimesed, kes elavad linna serval. Ühistranspordi kasutuses on trend vastupidine. Tallinnas on ühistranspordi kasutajaid protsentuaalselt rohkem kui Tallinna tagamaal. Erinevused on ka tagamaa sees. Lääne-Harju vallas, mille koosseisu kuulub Keila linn ning kus on hea elektriraudtee ühendus Tallinnaga, teevad elanikud rongiga 16% oma käikudest. Seevastu Saku vallas, mida raudtee küll läbib, on rongiliiklus hõredam ja ühendus Tallinnaga on halvem – rongiga tehakse ainult 1% kõigist pealinna käikudest.
@@ -245,7 +248,8 @@ library("tidyverse")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Statistikaamet.
+<div><span class="imgsource-source">Allikas:</span> Statistikaamet.</div>
+<div><a class="data-btn" href="data/15_fig6_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Võime öelda, et autostumine on olnud suundumus üle Eesti. Maanteeameti ([2017](#Maanteeamet2017)) andmetel on autode läbisõidu kilometraaž aastatel 2013–2017 kasvanud 16% võrra. Kui regioonikeskustes suudab ühistransport püsida konkurentsivõimelisena, siis linnade tagamaade ja kaugemate Eesti äärealade elanikkond on järjest enam sõltuv autost. Seega ei ole riigi ja omavalitsuste tasandil suudetud teha piisavaid edusamme autokasutuse vähendamiseks.
@@ -301,7 +305,8 @@ fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab k
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Statistikaamet.
+<div><span class="imgsource-source">Allikas:</span> Statistikaamet.</div>
+<div><a class="data-btn" href="data/15_fig7_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Kõik liikumised ei ole seotud tööle või poodi sõitmisega. Ligi kümnendik kõigist liikumistest sõiduautoga on seotud laste viimisega kooli või lasteaeda. Iga päev tegeleb kellegi sõidutamisega 12% Tallinna tagamaa elanikest, kusjuures suurem roll on selles kuni 34-aastastel naistel ([Kantar Emor 2018](#Kantar2018)). Nii tuleb ka Tallinna linnaregioonis esile mujal maailmas kogetu, et elu linnast väljas tähendab aktiivset autokasutust, laste sõidutamist ja et selle rolli saavad ennekõike emad ([McCarthy jt 2017](#McCarthy2017)).
@@ -355,7 +360,8 @@ library("tidyverse")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Tallinna rattastrateegia 2018–2027.
+<div><span class="imgsource-source">Allikas:</span> Tallinna rattastrateegia 2018–2027.</div>
+<div><a class="data-btn" href="data/15_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Jalgrattateede tiheduselt jääb Tallinn naaberriikide pealinnadele (Helsingi, Stockholm) üle kahe korra alla ([Otsus 2016](#Otsus2016)). Rattateede võrgustik on näiteks Tallinna kesklinna piirkonnas killustunud üksikuteks teejuppideks ja on puudulikult ühendatud rongi- ja bussijaamaga. Meie kliimavöötmes saaks jalgratast aasta lõikes kasutada oluliselt enam: 2017. aastal käis Statistikaameti andmete järgi vaid 1,6% tallinlastest tööl rattaga, samal ajal kui meie kliimaga võrreldavates lähilinnades Helsingis ja Stockholmis tehti vastavalt 11% ja 9% kõikidest liikumistest jalgrattaga ([ECF 2013](#ECF2013)). Seda selgitab Eesti üldine liikumisvõimaluste kujundamise praktika, mis siiani jalgratastele ruumi loomist ei väärtusta.

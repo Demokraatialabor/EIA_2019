@@ -73,7 +73,8 @@ library("svglite")
 ggsave(path="exported_figures/PDF/chapter1",filename="fig122.pdf", height=140, width=200, units="mm")
 ```
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Statistikaamet, rahvaloendused 2008 ja 2011.
+<div><span class="imgsource-source">Allikas:</span> Statistikaamet, rahvaloendused 2008 ja 2011.</div>
+<div><a class="data-btn" href="data/12_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 ### Maapiirkondade ja väikelinnade häbimärgistamine süvendab ääremaastumist {-.chapter1_section}
@@ -120,7 +121,8 @@ library("scales")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Plüschke-Altof 2017.
+<div><span class="imgsource-source">Allikas:</span> Plüschke-Altof 2017.</div>
+<div><a class="data-btn" href="data/12_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Küsimuses, kuidas ääremaalist kuvandit luuakse, näitab analüüs ([joonis 1.2.4](#figure124)), et arvamusartiklites seostatakse sõna „ääremaa“ enamasti just maapiirkondadega (52% juhtudest), viidates konkreetsetele maakohtadele või -piirkondadele üldiselt, jättes konkreetsed kohad nimetamata (nt „kauge metsaküla“). Osati (7,3%) kirjeldatakse ääremaana ka kogu Eestit väljaspool Tallinna ja selle ümbrust, mis peegeldab taas piirkondlikku koondumist. Harvem kui maakohtade kontekstis (42%) käsitletakse ääremaad ülemaailmses või Euroopa Liidu kontekstis (nt Eesti puudulik lennuühendus, majanduslik sõltuvus EList, Eesti poliitiline roll maailmas). Üksikutel juhtudel kõneldakse ka linnalisest ääremaast (nt probleemsed linnaosad või linna äärealad, 3%). Maapiirkondade samastamine ääremaaga võib olla nendele häbimärk seetõttu, et ääremaad ei kirjeldata neutraalselt, vaid majanduslikult mahajäänu, geograafiliselt kauge, poliitiliselt sõltuva, institutsiooniliselt nõrga ja tuntavate sotsiaalsete probleemidega kohana. Mõnel juhul võimendab maapiirkondade – või õieti mittelinnaliste piirkondade – ääremaakuvandit ka narratiiv, mis rõhutab ääremaa kogukondade enda vastutust kohaliku arengu (ja ühtlasi mahajäämuse) eest või kujutab neid omal süül läbikukkumise näidetena. Ajalehtede arvamusartiklites viidatakse näiteks kohalikule „kolhoosimentaliteedile“ või ebamõistlikule vastuseisule „tänapäevase“ arengu suhtes. Seega maapiirkondi mitte ainult ei seostata negatiivse ääremaisusega, vaid pannakse neile ka vastutus, jättes mulje, et „maal pole midagi head“. Kordamise kaudu muutub seos lugejaskonna ja laiema üldsuse silmis iseenesestmõistetavaks.
@@ -165,7 +167,8 @@ knitr::include_graphics("figures/1-chapter/fig124.png")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Plüschke-Altof 2017.
+<div><span class="imgsource-source">Allikas:</span> Plüschke-Altof 2017.</div>
+<div><a class="data-btn" href="data/12_fig4_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 Olgugi et arvamusartiklite meediaanalüüsis domineerib maapiirkondade negatiivne ääremaakuvand, on olemas ka vastupidine mõttemall, mida väljendavad eelkõige maapiirkondade esindajad (ettevõtjad, kohalikud poliitikud, huviühingute esindajad jt) ja mis toetub maaelu positiivsetele tähendustele. Seda mõttemustrit peegeldavad arvamusartiklid, mis kirjeldavad maapiirkondi Eesti rahva hällina ühes pärandkultuuri ja puhta loodusega või keskenduvad maaelu arengueeldustele näiteks turismi või mahepõllumajandusliku toidutootmise vallas. Selliste artiklite autorid esitavad omasüülise läbikukkumise kuvandile vastukaaluks aktiivse toimetuleku parimaid näiteid või rõhutavad vastutuse piire kohalikul tasandil (nt omavalitsuste piiratud tulubaas, maakohtade ettevõtjate lisaprobleemid). Tuuakse välja, et kohalik areng sõltub kõrgemal võimutasandil toimuvast ning ääremaale pööratakse praeguses Eesti neoliberaalses regionaalpoliitikas liialt vähe tähelepanu. See vastupidine mõttekäik on maapiirkondade kui omasüüliste ebaõnnestujate kujundiga võrreldes siiski tagaplaanil ja oli vaadeldud perioodil ennekõike esindatud Maalehes.

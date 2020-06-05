@@ -166,7 +166,8 @@ ggsave(path="exported_figures/PDF/chapter3",filename="fig335.pdf", height=140, w
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Kutsar jt 2018.
+<div><span class="imgsource-source">Allikas:</span> Kutsar jt 2018.</div>
+<div><a class="data-btn" href="data/33_fig5_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 Rohevõrgustiku vajaduse sätestab rahvusvaheliselt Euroopa Liidu rohetaristu strateegia ja riiklikult Eesti looduskaitse arengukava. Võrgustikku kuuluvad alad määratakse maakonna- ja üldplaneeringuga. Rohevõrgustiku planeerimisel on abiks rohevõrgustiku planeerimisjuhend ([Kutsar jt 2018](#Kutsar2018)) ja Rahandusministeeriumi 2018. aasta juhend „<a href="https://planeerimine.ee/static/sites/2/uldplaneeringu_juhis_final.pdf">Nõuandeid üldplaneeringu koostamiseks</a>“. Idee ise ulatub Eestis tagasi 1960. aastatesse, mil Jaan Eilart ja Vaike Parker tegid esimesed katsetused puhkemaastike ja rohekoridoride planeerimisel Tartu ümbruses ning Heino Luik ja Veljo Ranniku tegelesid põlevkivi tootmisalade funktsionaalse tsoneerimisega Ida-Virumaal. 1980. aastate alguses arendati teadustöös uuenduslikku käsitlust ökovõrgustikest kui maastikul inimmõju ökoloogiliselt kompenseerivatest aladest ([Mander jt 2018](#Mander2018)). Erineva täpsusastmega ökovõrgustike kaarte koostati kuni 1980. aastate lõpuni, neist täpseimad loodi Tallinna, Kirde-Eesti ning Saare- ja Hiiumaa kohta. „Roheline võrgustik“ võeti terminina kasutusele 2000. aastal kehtestatud üleriigilises planeeringus Eesti 2010+. Praegu käsitleb planeerimisseadus rohevõrgustikke koos väärtuslike maastike, põllumajandusmaade ja miljööaladega, viidates muu hulgas nende alade omavahelisele seosele ja rohevõrgustiku kultuurilisele tähtsusele.

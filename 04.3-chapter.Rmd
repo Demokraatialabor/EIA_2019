@@ -39,7 +39,8 @@ fig431_data$country <- factor(fig431_data$country, levels = c("Soome","Eesti","L
 ```
 
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Reporters without Borders 2018.
+<div><span class="imgsource-source">Allikas:</span> Reporters without Borders 2018.</div>
+<div><a class="data-btn" href="data/43_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 Mitmekülgne, eri hääli kaasav ja argumenteeritud arutelu on demokraatliku ühiskonnakorralduse eeltingimus ja jätkumise tagatis – avalikus aruteluruumis räägitakse läbi meie ühiselu aluspõhimõtted ja reeglid ning lepitakse kokku parimad viisid, kuidas reageerida muutuva maailma väljakutsetele.
@@ -117,7 +118,8 @@ fig433_data$variable <- factor(fig433_data$variable, levels = c("ettevõtja", "a
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Autori joonis.
+<div><span class="imgsource-source">Allikas:</span> Autori joonis.</div>
+<div><a class="data-btn" href="data/43_fig3_data1.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 Poliitikute ligipääsu arvamusmeediale kontrollivad toimetajad eriti tähelepanelikult just valimiseelsel perioodil – toimetuses lepitakse kokku teemad, mille kohta poliitikutelt arvamust küsitakse, ning publikule vahendatakse kõigi institutsionaliseerunud poliitiliste jõudude sõnumid.

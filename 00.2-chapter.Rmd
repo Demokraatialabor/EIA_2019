@@ -531,7 +531,8 @@ fig02_data$percent=percent((fig02_data$Protsent/100), 1)
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Rahvastikuregister.
+<div><span class="imgsource-source">Allikas:</span> Rahvastikuregister.</div>
+<div><a class="data-btn" href="data/0_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Kahanemisküsimus ei taandu pelgalt töörändele ja suurema sissetuleku otsingutele. Elamufondi ülejääk ja vananemine nii elutingimuste poolest kui ka ehitustehniliselt on muutnud paljud Eesti pered kinnismaisteks, kuivõrd nende kodu turuhind on madal. Samal ajal puudub maakondades noortel peredel võimalus alustada elu uuselamus, uues kodus. Ebavõrdsus elamistingimustes ja kinnisvarahindades, alaealist ja pensioniealist elanikkonda liikuvusvaesusesse lükkav harv ühistransport süvendab üldist regionaalset ebavõrdsust Eestis ([Kährik ja Väiko, ptk 1](#nüüdisaegsed-elamistingimused-kelle-privileeg); [Tuvikene jt, ptk 1](#ligipääsetavuse-muutused-autostunud-eestis)).

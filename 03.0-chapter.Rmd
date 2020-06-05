@@ -89,7 +89,7 @@ library("tidyverse")
 
   print(fig301_plot + fig_theme_general)
 
-  ggsave(path="exported_figures/PDF/chapter3",filename="fig301.pdf", height=140, width=200, units="mm")
+  #ggsave(path="exported_figures/PDF/chapter3",filename="fig301.pdf", height=140, width=200, units="mm")
 
 ```
 
@@ -98,7 +98,8 @@ library("tidyverse")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Autori joonis.
+<div><span class="imgsource-source">Allikas:</span> Autori joonis.</div>
+<div><a class="data-btn" href="data/30_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 ### Looduses viibimiseks on palju valikuid, kuid need ahenevad {-.chapter3_section}
@@ -152,7 +153,8 @@ fig302_theme <- theme(
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Raudsaar jt 2018.
+<div><span class="imgsource-source">Allikas:</span> Raudsaar jt 2018.</div>
+<div><a class="data-btn" href="data/30_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 ### Koduümbruse loodus ja asulate rohealad vajavad senisest enam tähelepanu {-.chapter3_section}

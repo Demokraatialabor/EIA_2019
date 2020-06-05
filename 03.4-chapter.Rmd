@@ -274,7 +274,8 @@ ggsave(path="exported_figures/PDF/chapter3",filename="fig344.pdf",fig344_plot + 
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Loodusvaatluste andmebaasi koduleht. PlutoF andmebaas, koostanud Veljo Runnel.
+<div><span class="imgsource-source">Allikas:</span> Loodusvaatluste andmebaasi koduleht. PlutoF andmebaas, koostanud Veljo Runnel.</div>
+<div><a class="data-btn" href="data/34_fig4_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 

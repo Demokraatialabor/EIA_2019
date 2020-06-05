@@ -102,7 +102,8 @@ knitr::include_graphics("figures/2-chapter/fig221.png")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Eurobaromeeter 2017.
+<div><span class="imgsource-source">Allikas:</span> Eurobaromeeter 2017.</div>
+<div><a class="data-btn" href="data/22_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Ehituspärandi mõju on siiski laiem. Külastuspaikade tekke kõrval on sel oluline roll piirkondade elujõu ja elukeskkonna kvaliteedi kujundajana. Pärandi potentsiaali uurimisele keskendunud Euroopa Liidu koostööprojekti Cultural Heritage Counts for Europe 2015. aasta raportis on sõnastatud pärandist tulenevad ühiskonnakasud ([joonis 2.2.2](#figure222)).
@@ -214,7 +215,8 @@ fig224_data$percent=percent((fig224_data$value/100), 1)
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Muinsuskaitseseaduse eelnõu seletuskiri.
+<div><span class="imgsource-source">Allikas:</span> Muinsuskaitseseaduse eelnõu seletuskiri.</div>
+<div><a class="data-btn" href="data/22_fig4_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Mälestiste ja muinsuskaitsealade hoonete remonti ja restaureerimist toetab Muinsuskaitseamet iga-aastase eelarve võimaluste piires. Probleemiks on olnud toetussumma vähesus: see oli enne majandussurutist suurusjärgus 1,1–1,3 miljonit eurot aastas, alates 2009. aastast on restaureerimistoetused jäänud vahemikku 0,5–0,7 miljonit eurot. Keskmine toetussumma on umbes 5000 eurot, suurim osa toetustest kulub avariiliste katuste parandamisele ([joonis 2.2.5](#figure225)).
@@ -245,7 +247,8 @@ library("tidyverse")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Muinsuskaitseamet.
+<div><span class="imgsource-source">Allikas:</span> Muinsuskaitseamet.</div>
+<div><a class="data-btn" href="data/22_fig5_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Lisaks üldisele kinnismälestiste restaureerimistoetusele on riik toetanud eraldi toetusmeetmest aastatel 2004–2018 sakraalehitiste korrastamist (nn pühakodade programm) ning aastatel 2001–2016 mõisakoole (Norra EEA toetuse abil rahastatud mõisakoolide programm). Nii mõisakoolide kui ka pühakodade programmi kogumaht oli üle 12 miljoni euro. Kirikud ja mõisad on enamasti asulate kõige suuremad ja avalikus ruumis kõige tähelepanuväärsemad ehitised, millega on seotud suur osa kohalikust kogukonnast ning mida külastatakse kaugemaltki.
@@ -279,7 +282,8 @@ library("scales")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Muinsuskaitseamet.
+<div><span class="imgsource-source">Allikas:</span> Muinsuskaitseamet.</div>
+<div><a class="data-btn" href="data/22_fig6_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Alates 2019. aastast on senine pühakodade programmi eelarve lisatud Muinsuskaitseameti restaureerimistoetuste eelarvesse, nii et kuigi toetussumma justkui suurenes ligikaudu poole võrra, on eraomanike toetamisvõimalused jäänud samaks. Eraomanike olukorra parandamiseks on 2019. aastast loodud taluarhitektuuri toetamise meede, mille eelarve on esialgu vaid 100 000 eurot. Väljatöötamisel on ka vanalinnade programm, mis peaks lähiaastatel andma hoogu väikelinnade muinsuskaitsealade hoonestuse restaureerimisele.
@@ -312,7 +316,8 @@ library("tidyverse")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Muinsuskaitseamet ning Statistikaamet.
+<div><span class="imgsource-source">Allikas:</span> Muinsuskaitseamet ning Statistikaamet.</div>
+<div><a class="data-btn" href="data/22_fig7_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Uuringus „Eraomandis oleva kinnismälestise hoidmine“ ([Tafel-Viia jt 2014](#Tafel2014)) on toodud mälestiste eraomanikke puudutava probleemi ühe tuumana asjaolu, et mälestisele seatud piirangud ja riigi poolt pakutavad toetused ei ole tasakaalus. Kolmveerand eestlastest arvab, et riigiasutused peaksid eraldama kultuuripärandile rohkem vahendeid ([joonis 2.2.8](#figure228)).
@@ -362,7 +367,8 @@ fig228_data$percent=percent((fig228_data$value/100), 1)
 Välimine ring **Euroopa Liidu keskmine**<br>
 Sisemine ring **Eesti**
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Eurobaromeeter 2017.
+<div><span class="imgsource-source">Allikas:</span> Eurobaromeeter 2017.</div>
+<div><a class="data-btn" href="data/22_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 Riigi panust kultuuripärandisse näitab restaureerimistoetuste kõrval ka riigile kuuluva ehituspärandi haldamine. Ligi 60% mälestiste eraomanikest tajub, et riik ja kohalikud omavalitsused ei näita mälestiste haldamisel head eeskuju, kuna eelistavad tihti restaureerimisele uue maja ehitamist ([Tafel-Viia jt 2014](#Tafel2014)).

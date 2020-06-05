@@ -80,7 +80,8 @@ fig101_line <- data.frame(x=c(0, 19),
 ```
 
 ``` {block, type='figure-comment'}
-<span class="figure-comment-start">Märkus:</span> Ida-Virumaal on kaasatud kõik suuremad linnad. Kärdla, Rapla, Põlva, Jõhvi puhul on andmed esitatud vallasisese linna kohta.
+<div><span class="figure-comment-start">Märkus:</span> Ida-Virumaal on kaasatud kõik suuremad linnad. Kärdla, Rapla, Põlva, Jõhvi puhul on andmed esitatud vallasisese linna kohta.</div>
+<div><a class="data-btn" href="data/10_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 ``` {block, type='imgsource'}
