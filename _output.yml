@@ -1,6 +1,8 @@
 bookdown::gitbook:
   split_by: section
   split_bib: yes
+  includes:
+    in_header: ["ga_script.html", "favicon.html"]
   config:
     toc:
       collapse: subsection

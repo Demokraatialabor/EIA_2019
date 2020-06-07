@@ -45,7 +45,9 @@ Perioodil 2012–2018 on ehitatud alade lisandumine mõnevõrra aeglustunud. Ela
 
 Täisehitatud maade osatähtsuse kasv alates sajandi algusest ei ole küll suur — umbes 1,3‰ maismaast – ent erinevalt mitmest teisest muutusest pole see protsess tagasipööratav. Ehitiste aluseks ja nende lähiümbruseks muudetud põllumaid ei ole võimalik enam endises kasutuses taastada. Regionaalselt on enamik uusehituse piirkondadest koondunud Harjumaale, Tartumaale ja Pärnumaale ([joonis 1.1.2](#figure112)). Sama näitavad Statistikaameti rahvastikuandmed ([vt joonis 1.1.1](#figure111)).
 
-<p class="caption" id="figure112"><span class="figure-number">Joonis 1.1.2.</span> Uute elamualade lisandumine (liigu kaardil, et näha täpsemalt)</p>
+<p class="caption" id="figure112"><span class="figure-number">Joonis 1.1.2.</span> Uute elamualade lisandumine</p>
+
+Täpsemalt nägemiseks liigu kaardil.
 
 ```{r, figure112, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -88,8 +90,13 @@ fig_112_plot <- #tm_shape(fig112_maakonnad) +
       tm_borders(col="white", alpha=0) +
 
       tm_shape(Muutus_2012...2018) + tm_fill("year", legend.fill.show = TRUE, title="", palette=c("#241342"),popup.vars=FALSE) +
-      tm_borders(col="white", alpha=0)
-
+      tm_borders(col="white", alpha=0) +
+  
+      tm_view (
+        set.zoom.limits = c(7, 16),
+        set.bounds = c(21.6397953631, 57.4745283067, 28.1316992531,59.8110903998)
+      )
+   
 tmap_mode("view")
 fig_112_plot
 
@@ -99,12 +106,6 @@ fig_112_plot
 #svg(filename="figure.svg")
 #fig_153_plot
 #dev.off()
-```
-
-```{r, figure112a, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
-
-#knitr::include_graphics("figures/1-chapter/fig112.png")
-
 ```
 
 ``` {block, type='imgsource'}

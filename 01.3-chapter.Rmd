@@ -64,7 +64,7 @@ library("plotly")
      panel.grid.minor.x = element_blank(),
   )
 
-  ggplotly(fig131_plot + fig_theme_general + fig131_theme)
+print(fig131_plot + fig_theme_general + fig131_theme)
 
   ggsave(path="exported_figures/PDF/chapter1",filename="fig131.pdf", height=160, width=250, units="mm")
 ```

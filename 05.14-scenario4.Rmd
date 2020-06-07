@@ -4,7 +4,7 @@
 
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/5-chapter/kaart-2.png")
+knitr::include_graphics("figures/5-chapter/kaart-4.png")
 
 ```
 
@@ -51,12 +51,6 @@ knitr::include_graphics("figures/5-chapter/kaart-2.png")
 <td align="right" class="future-table-red">oleme teistest veidi ees</td>
 </tr>
 </tbody></table>
-
-```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
-
-knitr::include_graphics("figures/5-chapter/kaart-4.png")
-
-```
 
 Kliimakatastroofi, kaugtöövõimaluste ja uuskogukondliku majanduse tulemusena on suur osa eestlasi kolinud maale, mõne väiksema tõmbekeskuse lähedale. Vajadusi teenuste järele rahuldavad nii digitaalsed lahendused kui ka korralik talgukultuur ja naturaalmajandus – inimesed aitavad üksteist pidevalt, kuigi ka pisut sunnitult, sest väike riik ei suuda nii hajali elavatele inimestele kõike vajalikku tagada. Omajagu sõltub toimetulek ja teenuste kvaliteet ka kogukonna võimekusest: kus on häid eestvedajaid, seal elu edeneb, kuid kahjuks esineb ka vastupidist. Peale järelelonkijate on ka teisitimõtlejaid, kes peavad muud rahvast väärituks. Uussisserändajaid on kõikjal, eriti kogukondades, kes on uute tulijate kasulikkusest aru saanud. Neist peetakse väga lugu, sest nad panevad õla alla seal, kus meil omal jõudu napib. Sotsiaal-majanduslikult on suur rõhk omakasvatatud toidul, oma 3D-prinditud asjadel ja ühistulisel energiatootmisel. Just nagu kunagistes taludes, tehakse päris palju ära ise ja pereringis. Terve Eesti on ühendatud raudteevõrguga, mis on üsna hästi seotud ka mitmesuguste „viimase kilomeetri“ lahendustega, mille seast saab valida sobiva ja taskukohase liikumisviisi. Avalik ruum on pigem looduslik keskkond ja looduses aktiivselt liikumisest on saanud eestluse lahutamatu osa. Eesti on Euroopas kuulus oma elujõuliste metsade ja puhaste randade poolest. Õnneindeksis on Eesti tubli, tõusis hiljuti mitu kohta, aga nüüd paistab, et klaaslagi on ees. Tühja neist indeksitest, elu on ju mõnus, mõtlevad eestimaalased omakeskis, ning panevad suitsusauna küdema.
 

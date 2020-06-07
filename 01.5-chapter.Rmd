@@ -89,20 +89,71 @@ Säästva liikuvuse arengukava eesmärk on luua jätkusuutlik transpordisüsteem
 <span class="imgsource-source">Allikas:</span> Discovering Urbanism 2010. Säästva linna liikuvuse arengukava.
 ```
 
-
 ### Hajaasustuse elu on autokeskne {-.chapter1_section}
 
 Maanteeameti tehtud ühistranspordiga rahulolu küsitlused näitavad, et elanike rahulolu ühistranspordi kvaliteedi ja kättesaadavusega on maakonnasiseste liinide puhul vähenenud. Eriti rahulolematud ollakse kohalejõudmise aegadega, marsruutidega ja ümberistumisvõimalustega. Isegi kui peatuse asukoht ja paar väljumist päevas teevad ühistranspordi suurele osale inimestele kättesaadavaks ([joonis 1.5.3](#figure153)), ei tähenda see, et ühistransport suudaks aja ja ühenduste arvu poolest tegelikult autoliiklusega võistelda. Saar Polli 2014. aasta uuringu „Elanike rahulolu kohalike avalike teenustega“ andmetel on rahuolu ühistranspordiga parem ning selle konkurentsivõime linnades suurem kui hõredamalt asustatud piirkondades, olgu need siis linna tagamaa või keskustest eemale jäävad ääremaad. Hajaasustuses, eriti väikese nõudlusega piirkondades, jäävad liikumisgraafikud harvaks, nende järgi on keeruline tegevusi ajastada eriti juhul, kui on vaja sõitusid kombineerida.
 
 <p class="caption" id="figure153"><span class="figure-number">Joonis 1.5.3.</span> Ühistranspordi kättesaadavus Eestis (hinnatuna peatuste läheduse ja väljumiste sageduse kaudu)</p>
 
-```{r, figure153, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+Täpsemalt nägemiseks liigu kaardil.
 
-knitr::include_graphics("figures/1-chapter/fig153.png")
+```{r, figure153, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
+
+library(sf)          # classes and functions for vector data
+library(raster)      # classes and functions for raster data
+library(tmap)
+library(svglite)
+
+Asutusüksused <- st_read(dsn ="data/15_fig3_data/EKSPORT_3301-N0RqvBQsFGT19Q0M-t7.shp")
+head(as.data.frame(Asutusüksused))
+
+Asutusüksused$VAARTUS <- as.numeric(as.factor(Asutusüksused$VAARTUS)) -1
+
+names(Asutusüksused)[names(Asutusüksused) == "VAARTUS"] <- "Elanike osatähtsus (%)"
+
+Maanteed <- st_read(dsn ="data/15_fig3_data/tee.shp")
+head(as.data.frame(Maanteed))
+
+Maanteed <- subset (Maanteed, TYYP != c("Tänav"), select=c(NIMETUS,TYYP, geometry))
+Maanteed <- subset (Maanteed, TYYP != c("Kõrvalmaantee"), select=c(NIMETUS,TYYP, geometry))
+Maanteed <- subset (Maanteed, TYYP != c("Muu tee"), select=c(NIMETUS,TYYP, geometry))
+Maanteed <- subset (Maanteed, TYYP != c("Ramp või ühendustee"), select=c(NIMETUS,TYYP, geometry))
+
+Maanteed$TYYP <- "Põhi- või tugimaantee"
+
+fig_153_plot <- tm_shape(Asutusüksused) + 
+    tm_fill("Elanike osatähtsus (%)", title="Elanike osatähtsus, kellel on hea ühistranspordi kättesaadavus (%)", popup.vars="Elanike osatähtsus (%)",id="NIMI", breaks=c(0,1,25,50,75,100), palette = c("#E6E3DA", "#DAD4E6","#B6A8CD", "#917DB5","#482683")) +
+    tm_borders(col="white", alpha=0) +
+  
+    tm_layout(
+      outer.margins=0, inner.margins=c(.02, .1, .02, .02),asp=1920/1080,
+      legend.outside = FALSE,
+      legend.format=list(text.separator="..."),
+      frame = FALSE) +
+
+    tm_shape(Maanteed) + tm_lines(col = "TYYP", legend.col.show = TRUE,palette = c("#3A404A", "#3A404A"), title.col="",popup.vars=NULL) +
+  
+      tm_view (
+        set.zoom.limits = c(7, 16),
+        view.legend.position = c("left","bottom"),
+        set.bounds = c(21.6397953631, 57.4745283067, 28.1316992531,59.8110903998)
+      )
+
+tmap_mode("view")
+fig_153_plot
+  
+#tmap_save(tm = fig_153_plot, filename = "figure153.png")
+#tmap_save(tm = fig_153_plot, filename = "figure153.pdf")
+
+#svg(filename="figure.svg")
+#fig_153_plot
+#dev.off()
+
 ```
 
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Statistikaamet 2018, Nõmm 2018.
+<div><span class="imgsource-source">Allikas:</span> Statistikaamet 2018, Nõmm 2018.</div>
+<div><a class="data-btn" href="data/15_fig3_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 Tihenev autoliiklus vähendab ühistransporti kasutavate reisijate arvu ning see muudab hea teenuse pakkumise hajaasustuses kallimaks ja keerulisemaks. Ühistranspordi kvaliteedi langus ja tiheduse vähenemine soosib omakorda autostumist. Maanteeameti andmetel vähenes aastatel 2003–2016 sõitjate arv maakonnaliinidel peaaegu kaks korda, kusjuures vähenemine oli eriti kiire just perioodil 2003–2009 ([joonis 1.5.4](#figure154)). Need aastad olid kiire jõukuse kasvu periood, mil toimus ka kiire autostumine ja sellega seotud liikumisviiside nihe sõiduautode kasuks. Ühistranspordi kasutajate arvu langus on toimunud vaatamata sellele, et samal ajal ei ole ühissõidukite läbisõit vähenenud.
