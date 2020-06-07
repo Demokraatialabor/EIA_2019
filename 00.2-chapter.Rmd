@@ -367,7 +367,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">49</td>
-<td>Venemaa</td>
+<td class="table_01_country">Venemaa</td>
 <td>0,824</td>
 <td>72,4</td>
 <td>15,5</td>

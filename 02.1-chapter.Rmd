@@ -17,7 +17,6 @@ Hea avalik ruum aitab tugevdada kogukondi, ergutada kodanikuosalust, vähendada 
 Meie elukeskkonda mõjutavad protsessid ja otsused eri valdkondades (transport, keskkonnakaitse, ettevõtlus, haridus, kultuur jm) moodustavad omavahel arvukaid ruumilisi seoseid, mis mõjutavad avaliku ruumi toimimist. See tähendab, et avalik ruum on habras ja kergelt kahjustatav, kui seda arendada tervikut nägemata. Avalik ruum pole eraldiseisev maastikuline või tehniline element, vaid seostub ümbritsevate hoonete ja mitteavalike ruumidega, luues terviklikke kooslusi nii funktsionaalses kui ka esteetilises mõttes.
 Artiklis vaatleme füüsilist avalikku ruumi eelkõige linnakeskkonnas, avaliku sektori vastutust selle kaitsmisel ning selle mõtestamist õigusruumis ja valitsemises. Sissejuhatavas osas selgitame, millest koosneb avalik ruum, ja toome välja avaliku ruumi kvaliteedi alused. Küsime, kuidas on taasiseseisvunud Eesti õigusruumis avalikku ruumi mõistet sisustatud, ja kirjeldame, kuidas on avalikku ruumi teadvustanud avalik sektor. Lõpetuseks pakume välja põhimõtted, kuidas kaitsta ja parendada avalikku ruumi.
 
-
 ### Avalik ruum on võrgustik, mis seob inimeste elu-, töö- ja tegevuskohad {-.chapter2_section}
 
 ```{block, type='blockquote-right'}
@@ -181,7 +180,7 @@ Kuna avalik ruum moodustab olulise osa igapäevasest eluruumist,  on mõistlik k
 
 Igal omavalitsusel pole mõistlik oma määrustes või planeeringutes avaliku ruumi olemusele sisu otsida. Üldpõhimõtted saaksid selgelt ja ühesuguselt kehtida kogu riigis. Õigusruumi selguse vajadusele rõhub ka <a href="https://www.riigikantselei.ee/sites/default/files/riigikantselei/strateegiaburoo/ruumiloome_lopparuanne_.pdf">ruumiloome ekspertrühma lõpparuanne</a>:
 
-**„Õigusaktides tuleb luua senisest selgemad alused ruumiloomele tervikuna, haarates seostatuna kõiki ruumiotsuseid. Seaduses tuleb seostatult käsitleda ruumiloome põhimõtteid ja mõisteid. Avaliku ruumi olulisuse rõhutamine ruumiloomes ja kvaliteedinõude sõnastamine annavad parema aluse kvaliteetse avaliku ruumi ja ehitatud keskkonna rajamiseks ning eelnõude ruumimõju hindamiseks.“**
+*„Õigusaktides tuleb luua senisest selgemad alused ruumiloomele tervikuna, haarates seostatuna kõiki ruumiotsuseid. Seaduses tuleb seostatult käsitleda ruumiloome põhimõtteid ja mõisteid. Avaliku ruumi olulisuse rõhutamine ruumiloomes ja kvaliteedinõude sõnastamine annavad parema aluse kvaliteetse avaliku ruumi ja ehitatud keskkonna rajamiseks ning eelnõude ruumimõju hindamiseks.“*
 
 Nii riik kui ka omavalitsused peavad teadvustama oma rolli avaliku ruumi võrguvaldajana või tellijana, pidades sealjuures lugu igast ruumikasutajast.
 

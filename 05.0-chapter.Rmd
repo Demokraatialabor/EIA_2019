@@ -36,7 +36,7 @@ Aruande eelmistes peatükkides on selgitatud, kuidas on viimase 30 aasta jooksul
 
 Stsenaariumide abil kutsume lugejat kaasa mõtlema, millises tulevikumaailmas soovime elada ja milliseid tulevikke vältida. Kuidas oleme võimelised kohanema nii globaalse arengu kui ka Eesti-siseste tulevikuväljakutsetega? Peatükk koosneb kolmest osast. Esmalt anname ülevaade stsenaariumiplaneerimise meetodist ja peamistest põhimõtetest. Seejärel kirjeldame peamisi suundumusi, mis mõjutavad Eesti elukeskkonda. Peatüki lõpus kirjeldame Eesti tuleviku elukeskkonda nelja stsenaariumina.
 
-#### Mis on stsenaariumiplaneerimine? {-.chapter5_section}
+### Mis on stsenaariumiplaneerimine? {-.chapter5_section}
 
 Stsenaariumiplaneerimine on üks planeerimise meetodeid, mille eesmärk on mõista olevikus toimuvate muutuste ja otsuste mõju tulevikumaailma kujunemisel. Stsenaarium on strateegilise mõtlemise tööriist, mida kasutatakse olukordades, kus hoolimata teadmatusest peab tulevikuks valmistuma ja otsuseid vastu võtma. Siin koostatud stsenaariumid põhinevad klassikalise intuitiivse loogika meetodil, mis kasutab olemasolevaid prognoose ja andmeid ning loob nende põhjal erinevate muutuste tagajärgi illustreerivad tulevikulood ([Wright jt 2013](#Wright2013)).
 

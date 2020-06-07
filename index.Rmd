@@ -1,5 +1,5 @@
 --- 
-title: "Eesti inimarengu aruanne 2019"
+title: "Eesti inimarengu aruanne 2019/2020"
 site: bookdown::bookdown_site
 biblatexoptions: [refsegment=chapter]
 link-citations: yes
