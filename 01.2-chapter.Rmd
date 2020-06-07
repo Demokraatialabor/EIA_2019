@@ -22,13 +22,66 @@ Süveneva piirkondliku ebavõrdsuse kõige selgem ilming on majandusliku ja inim
 
 <p class="caption" id="figure121"><span class="figure-number">Joonis 1.2.1.</span> Eesti regionaalne polariseerumine: rahvastikumuutus ja sisemajanduse koguprodukti jaotumine maakonniti 1995. ja 2017. aastal</p>
 
+Täpsemate andmete nägemiseks kliki maakondadel.
+
 ```{r, figure121, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/1-chapter/fig121.png")
+library(sf)          # classes and functions for vector data
+library(raster)      # classes and functions for raster data
+library(tmap)
+library(svglite)
+
+Maakonnad <- st_read(dsn ="data/12_fig1_data/maakond_20200101.shp")
+head(as.data.frame(Maakonnad))
+Maakonnad <- Maakonnad[order(Maakonnad$MNIMI),]
+
+fig_data <- read.csv("data/12_fig1_data/fig_121_data.csv", header=TRUE, sep=";")
+fig_data <- fig_data[order(fig_data$county_est),]
+
+Maakonnad$Rahvaarvu_muutus <- fig_data$pop_change
+Maakonnad$SKP1995 <- fig_data$GDP95
+Maakonnad$SKP2016 <- fig_data$GDP16
+
+names(Maakonnad)[names(Maakonnad) == "Rahvaarvu_muutus"] <- "Rahvaarvu muutus (%)"
+names(Maakonnad)[names(Maakonnad) == "SKP1995"] <- "SKP osamaht 1995 (%)"
+names(Maakonnad)[names(Maakonnad) == "SKP2016"] <- "SKP osamaht 2016 (%)"
+
+fig_121_plot <- tm_shape(Maakonnad) + 
+    tm_fill("Rahvaarvu muutus (%)", title="Rahvaarvu muutus (protsentides), 1995-2016",
+    breaks = c(-30,-20, -10,0,10), palette = c("#B6A8CD","#6D519C","#361C62","#96CBD2"), popup.vars=c("Rahvaarvu muutus (%)","SKP osamaht 1995 (%)","SKP osamaht 2016 (%)")) +
+    tm_borders(col="white") +
+    
+  tm_layout(
+      legend.format=list(text.separator="...")) +
+
+  tm_shape(Maakonnad) +
+      tm_bubbles(col = "#dbe9da",alpha = 0.6, size = "SKP osamaht 1995 (%)", scale = 541/640 * 8*1.7, border.col=NULL,xmod=-5, title.size="SKP osamaht 1995 (%)", popup.vars=c("Rahvaarvu muutus (%)","SKP osamaht 1995 (%)","SKP osamaht 2016 (%)") ) +
+      tm_text (col="white", text="SKP osamaht 1995 (%)",xmod=-5) +
+      
+    tm_shape(Maakonnad) +
+    tm_bubbles(col = "#369B9E",alpha = 0.6, size = "SKP osamaht 2016 (%)", scale = 8*1.7, border.col=NULL,xmod=2, title.size="SKP osamaht 2016 (%)",popup.vars=c("Rahvaarvu muutus (%)","SKP osamaht 1995 (%)","SKP osamaht 2016 (%)")) +
+      tm_text (col="white", text="SKP osamaht 2016 (%)", xmod=2) +
+
+      tm_view (
+        set.zoom.limits = c(7, 16),
+        view.legend.position = c("left","bottom"),
+        set.bounds = c(21.6397953631, 57.4745283067, 28.1316992531,59.8110903998)
+      )
+
+tmap_mode("view")
+fig_121_plot 
+  
+#tmap_save(tm = Rahvastiku_muutus + SKP, filename = "figure2.pdf")
+
+#svg(filename="figure.svg")
+#pop_change + GDP
+#dev.off()
+
 ```
 
 ``` {block, type='figure-comment'}
-<span class="figure-comment-start">Märkus:</span> Enne 1995. aastat kujundas rahvastikumuutust oluliselt tagasipöördumine endisesse Nõukogude Liitu. Vaadeldaval ajavahemikul suurenes SKP elaniku kohta kõigis maakondades, kuid proportsionaalselt koondus kasv suhteliselt enam Harju- ja Tartumaale.
+<div><span class="figure-comment-start">Märkus:</span> Enne 1995. aastat kujundas rahvastikumuutust oluliselt tagasipöördumine endisesse Nõukogude Liitu. Vaadeldaval ajavahemikul suurenes SKP elaniku kohta kõigis maakondades, kuid proportsionaalselt koondus kasv suhteliselt enam Harju- ja Tartumaale.</div>
+<div><a class="data-btn" href="data/12_fig1_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 ``` {block, type='imgsource'}

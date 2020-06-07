@@ -46,6 +46,7 @@ Tallinna, Tartu ja Pärnu eeslinnavöös elab kokku 130 000 inimest. Tallinna ee
 ```{r, figure131, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
 library("tidyverse")
+library("plotly")
 
  fig131_data <- read.csv ("data/13_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
 
@@ -63,7 +64,7 @@ library("tidyverse")
      panel.grid.minor.x = element_blank(),
   )
 
-  print(fig131_plot + fig_theme_general + fig131_theme)
+print(fig131_plot + fig_theme_general + fig131_theme)
 
   ggsave(path="exported_figures/PDF/chapter1",filename="fig131.pdf", height=160, width=250, units="mm")
 ```
