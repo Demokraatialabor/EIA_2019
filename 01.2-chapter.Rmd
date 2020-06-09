@@ -65,7 +65,8 @@ fig_121_plot <- tm_shape(Maakonnad) +
       tm_view (
         set.zoom.limits = c(7, 16),
         view.legend.position = c("left","bottom"),
-        set.bounds = c(21.6397953631, 57.4745283067, 28.1316992531,59.8110903998)
+        set.bounds = c(21.6397953631, 57.4745283067, 28.1316992531,59.8110903998),
+        basemaps = NULL
       )
 
 tmap_mode("view")
@@ -80,12 +81,12 @@ fig_121_plot
 ```
 
 ``` {block, type='figure-comment'}
-<div><span class="figure-comment-start">Märkus:</span> Enne 1995. aastat kujundas rahvastikumuutust oluliselt tagasipöördumine endisesse Nõukogude Liitu. Vaadeldaval ajavahemikul suurenes SKP elaniku kohta kõigis maakondades, kuid proportsionaalselt koondus kasv suhteliselt enam Harju- ja Tartumaale.</div>
-<div><a class="data-btn" href="data/12_fig1_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<span class="figure-comment-start">Märkus:</span> Enne 1995. aastat kujundas rahvastikumuutust oluliselt tagasipöördumine endisesse Nõukogude Liitu. Vaadeldaval ajavahemikul suurenes SKP elaniku kohta kõigis maakondades, kuid proportsionaalselt koondus kasv suhteliselt enam Harju- ja Tartumaale.
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Statistikaamet 2000; 2011.
+<div><span class="imgsource-source">Allikas:</span> Statistikaamet 2000; 2011.</div>
+<div><a class="data-btn" href="data/12_fig1_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 Rööpselt rahvastiku koondumisega aastatel 1995–2017 soosis majanduskasv Harjumaad, mille panus SKPsse suurenes 54%-lt 64%-le. Ka Tartumaa panus SKPsse suurenes, muude maakondade oma aga vähenes ning suurim oli langus Kirde-Eesti tööstuspiirkondades. Keskustest väljaspool on töökohti üha vähem. Tavaline on maalt linna tööl käimine. Hiljutised kvaliteetsed pendelrände andmed puuduvad, kuid juba 2007–2009 tehtud uuringu ([Ahas jt 2011](#Ahas2011)) andmetel oli Eestis pendelrändajaid 28% elanikkonnast (380 000 inimest).

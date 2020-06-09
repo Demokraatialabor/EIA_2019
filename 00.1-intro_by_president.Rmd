@@ -5,12 +5,6 @@
 <div><a class="print-btn" href="print/EIA-2019-0-Eessona.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
-<div class="president-photo-container">
-```{r, out.width='50%', fig.align='left'}
-knitr::include_graphics('figures/0-intro/Kersti_Kaljulaid_ametlik_2019.jpg')
-```
-</div>
-
 Kallis lugeja!
 
 Kirjutan neid ridu kroonviirushaiguse puhangu esimese laine viimastel nädalatel. See aruanne on valminud valdavalt enne pandeemiat, erandiks vaid sissejuhatus ja käesolev eessõna.
@@ -27,9 +21,19 @@ Kas ja kuidas suudame sooritada aktiivse kliimapöörde ja toetada sedakaudu ka 
 
 Kallis lugeja – Sa ei leia neile küsimustele siit aruandest vastuseid. Aga Sa saad teada, kuidas meie Eesti elab ja hingab. Eesti, kes on maailma inimarengu indeksis kõrgel 30. kohal – paigas, mis võimaldab suurelt unistada, kiirelt otsustada ja kogu ühiskonnale üheldasa kasu toovaid lahendusi leida.
 
-<span id="head-lugemist">Head lugemist!</span>
+<div class=president-grid-container>
+<div president-title-container>
+<p id="head-lugemist">Head lugemist!</p>
 
 **Kersti Kaljulaid**<br>
 Eesti Vabariigi President
 
 Kadriorus, 11. mail 2020
+</div>
+
+<div class="president-photo-container">
+```{r, out.width='50%', fig.align='left'}
+knitr::include_graphics('figures/0-intro/Kersti_Kaljulaid_ametlik_2019.jpg')
+```
+</div>
+</div>

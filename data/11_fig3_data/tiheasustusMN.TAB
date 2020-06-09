@@ -1,0 +1,20 @@
+!table
+!version 300
+!charset WindowsBalticRim
+
+Definition Table
+  Type NATIVE Charset "WindowsBalticRim"
+  Fields 7
+    VID Integer ;
+    KOOD Char (50) ;
+    NIMI Char (100) ;
+    VAARTUS Char (10) ;
+    STAMP_CRE Date ;
+    JUHUSLIK Integer ;
+    GEOKODEERITUD Integer ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "96436d08-40b4-4972-909a-812cdcdc9e4c"
+"\MapInfo\ParentTableID" = "a2a2dfb0-3d0e-4eeb-a56c-7ecb109a337d"
+end_metadata

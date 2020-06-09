@@ -5,9 +5,9 @@
 
 ### Peatoimetaja {-.chapter6_section}
 
-<div class="author-container">
+<div class="author-container" id="helen-sooväli-sepping">
 
-<div>
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/HelenSoovali-Sepping.png')
 ```
@@ -22,9 +22,9 @@ on Tallinna Ülikooli jätkusuutliku arengu prorektor, keskkonnakorralduse profe
 
 ### Peatükkide toimetajad {-.chapter6_section}
 
-<div class="author-container">
+<div class="author-container" id="kristi-grišakov">
 
-<div>
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/KristiGrisakov.png')
 ```
@@ -38,8 +38,8 @@ on Tallinna Tehnikaülikooli arhitektuuri ja urbanistika akadeemia lektor ja maa
 </div>
 
 
-<div class="author-container">
-<div>
+<div class="author-container" id="indrek-ibrus">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/IndrekIbrus.png')
 ```
@@ -53,8 +53,8 @@ on Tallinna Ülikooli Balti filmi, meedia, kunstide ja kommunikatsiooni instituu
 </div>
 
 
-<div class="author-container">
-<div>
+<div class="author-container" class="epp-lankots">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/EppLankots.png')
 ```
@@ -68,8 +68,8 @@ on Eesti Kunstiakadeemia teadusprorektor ning kunstiteaduse ja visuaalkultuuri i
 </div>
 
 
-<div class="author-container">
-<div>
+<div class="author-container" id="kadri-leetmaa">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/KadriLeetmaa.png')
 ```
@@ -83,8 +83,8 @@ on Tartu Ülikooli ökoloogia ja maateaduste instituudi inimgeograafia vanemtead
 </div>
 
 
-<div class="author-container">
-<div>
+<div class="author-container" id="asko-lõhmus">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/AskoLohmus.png')
 ```
@@ -99,8 +99,8 @@ on loomaökoloog, Tartu Ülikooli juhtivteadur ja loodusressursside õppetooli j
 
 ### Autorid {-.chapter6_section}
 
-<div class="author-container">
-<div>
+<div class="author-container" id="dago-antov">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/DagoAntov.png')
 ```
@@ -113,8 +113,8 @@ on Tallinna Tehnikaülikooli transpordiplaneerimise professor ning transpordi ja
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="mihkel-kaevats">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/MihkelKaevats.png')
 ```
@@ -127,8 +127,8 @@ on luuletaja, kriitik, TLÜ doktorant ja kodanikuaktivist, kes on praegu Tallinn
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="veronika-kalmus">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/VeronikaKalmus.png')
 ```
@@ -141,8 +141,8 @@ on Tartu Ülikooli sotsioloogia professor. Tema uurimishuvid on seotud põlvkond
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="raul-kalvo">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/RaulKalvo.png')
 ```
@@ -155,8 +155,8 @@ on arhitekt, ettevõtte Inphysica Technology asutaja, Eesti Kunstiakadeemia digi
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="elo-kiivet">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/EloKiivet.png')
 ```
@@ -169,8 +169,8 @@ on arhitekt ja urbanist, Linnalabori juhatuse liige, Paide linnaarhitekt ning ne
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="keiti-kljavin">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/KeitiKljavin.png')
 ```
@@ -183,8 +183,8 @@ on urbanist, Linnalabori juhatuse liige ja urbanistide väljaande U toimetaja. P
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="kaija-luisa-kurik">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/Kaija-LuisaKurik.png')
 ```
@@ -197,8 +197,8 @@ on Manchesteri arhitektuuriülikooli doktorant ning Heritage Action Zone’i reg
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="ragne-kõuts-klemm">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/RagneKouts-Klemm.png')
 ```
@@ -211,8 +211,8 @@ on Tartu Ülikooli ajakirjandussotsioloogia dotsent ja ühiskonnateaduste instit
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="anneli-kährik">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/AnneliKahrik.png')
 ```
@@ -225,8 +225,8 @@ on Tartu Ülikooli linnageograafia vanemteadur. Tema peamised uurimisteemad on r
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="mait-lang">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/MaitLang.png')
 ```
@@ -239,8 +239,8 @@ on Tartu Ülikooli Tartu Observatooriumi vanemteadur ja Eesti Maaülikooli metsa
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="bradley-loewen">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/BradleyLoewen.png')
 ```
@@ -253,8 +253,8 @@ on kaitsnud doktorikraadi Tartu Ülikooli majandusteaduskonnas ning oli Marie Cu
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="mari-liis-madisson">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/Mari-LiisMadisson.png')
 ```
@@ -267,8 +267,8 @@ on Tartu Ülikooli semiootika teadur, kelle peamised uurimisteemad on identiteed
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="tõnu-oja">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/TonuOja.png')
 ```
@@ -281,8 +281,8 @@ on Tartu Ülikooli geoinformaatika ja kartograafia õppetooli juhataja ning prof
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="arko-olesk">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/ArkoOlesk.png')
 ```
@@ -295,8 +295,8 @@ on teadusajakirjanik ja Tallinna Ülikooli Balti filmi, meedia, kunstide ja komm
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="hans-orru">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/HansOrru.png')
 ```
@@ -309,8 +309,8 @@ on Tartu Ülikooli keskkonnatervishoiu dotsent ning Umea ülikooli külalisteadu
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="kati-orru">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/KatiOrru.png')
 ```
@@ -323,8 +323,8 @@ on kestlikkuse sotsioloogia vanemteadur Tartu Ülikooli ühiskonnateaduste insti
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="toomas-paaver">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/ToomasPaaver.png')
 ```
@@ -337,8 +337,8 @@ on Eesti Kunstiakadeemia arhitektuuri ja linnaplaneerimise eriala doktorant. Tem
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="ingmar-pastak">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/IngmarPastak.png')
 ```
@@ -351,8 +351,8 @@ on omandamas doktorikraadi geograafias ja töötab Tartu Ülikooli inimgeograafi
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="johanna-pirrus">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/JohannaPirrus.png')
 ```
@@ -365,8 +365,8 @@ on Tartu Ülikooli geograafia osakonna inimgeograafia doktorant. Tema peamine uu
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="bianka-plüschke-altof">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/BiankaPluschke-Altof.png')
 ```
@@ -379,8 +379,8 @@ on Tallinna Ülikooli keskkonnasotsioloogia teadur. Ta on õppinud ja töötanud
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="age-poom">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/AgePoom.png')
 ```
@@ -393,8 +393,8 @@ on Helsingi Ülikooli järeldoktorantuuri teadur ja Tartu Ülikooli keskkonnakai
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="renee-puussepp">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/ReneePuusepp.png')
 ```
@@ -407,8 +407,8 @@ on arhitekt, ettevõtte Creatomus Solutions asutaja ja tegevjuht, Eesti Kunstiak
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="siim-raie">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/SiimRaie.png')
 ```
@@ -421,8 +421,8 @@ on Muinsuskaitseameti peadirektor. Õppinud ärijuhtimist Estonian Business Scho
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="merlin-rehema">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/MerlinRehema.png')
 ```
@@ -435,8 +435,8 @@ on Tallinna Ülikooli humanitaarteaduste instituudi kultuurigeograafia suuna dok
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="liina-remm">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/LiinaRemm.png')
 ```
@@ -449,8 +449,8 @@ on Tartu Ülikooli looduskaitsebioloogia teadur. Oma uurimistöödes tegeleb ta 
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="antti-roose">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/AnttiRoose.png')
 ```
@@ -463,8 +463,8 @@ on Tartu Regiooni Energiaagentuuri kliima- ja energiaprojektide juht. Tema linna
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="kalev-sepp">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/KalevSepp.png')
 ```
@@ -477,8 +477,8 @@ on Eesti Maaülikooli keskkonnakaitse ja maastikukorralduse professor ning saman
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="andra-siibak">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/AndraSiibak.png')
 ```
@@ -491,8 +491,8 @@ on Tartu Ülikooli ühiskonnateaduste instituudi meediauuringute professor ning 
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="triin-talk">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/TriinTalk.png')
 ```
@@ -505,8 +505,8 @@ on restauraator ja muinsuskaitsja, kes on töötanud Tallinna Kultuuriväärtust
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="tauri-tuvikene">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/TauriTuvikene.png')
 ```
@@ -519,8 +519,8 @@ on linnageograaf, kes töötab Tallinna Ülikooli humanitaarteaduste instituudi 
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="kärt-vaarmari">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/KartVaarmari.png')
 ```
@@ -533,8 +533,8 @@ on Eestimaa Looduse Fondi arendusjuht ja juhatuse liige. Varem tegutsenud keskko
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="siim-vahtrus">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/SiimVahtrus.png')
 ```
@@ -547,8 +547,8 @@ töötab Keskkonnaõiguse Keskuses. Ta on koostanud juhendeid keskkonnamõju hin
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="andreas-ventsel">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/AndreasVentsel.png')
 ```
@@ -561,8 +561,8 @@ on Tartu Ülikooli semiootika vanemteadur. Tema peamised uurimisteemad on poliit
 </div>
 </div>
 
-<div class="author-container">
-<div>
+<div class="author-container" id="annika-väiko">
+<div class="author-img-container">
 ```{r, out.width='50%', fig.align='left'}
 knitr::include_graphics('figures/6-authors/AnnikaVaiko.png')
 ```

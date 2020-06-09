@@ -1,0 +1,19 @@
+!table
+!version 300
+!charset WindowsBalticRim
+
+Definition Table
+  Type NATIVE Charset "WindowsBalticRim"
+  Fields 6
+    GRD_INSPIR Char (50) ;
+    Shape_Leng Float ;
+    Shape_Area Float ;
+    rahvaarv_kokku Float ;
+    rahvaarv_eluhoones Float ;
+    rahvaarv_kylakeskuses Float ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "770c5653-0fbb-4b4d-a7ea-fce9cd6c6f00"
+"\MapInfo\ParentTableID" = "f5bbf813-2857-42f5-8bcf-79b67a365e63"
+end_metadata

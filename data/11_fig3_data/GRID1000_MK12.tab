@@ -1,0 +1,10 @@
+!table
+!version 300
+!charset WindowsBalticRim
+
+Definition Table
+  Type NATIVE Charset "WindowsBalticRim"
+  Fields 3
+    GRD_INSPIR Char (50) ;
+    Shape_Leng Float ;
+    Shape_Area Float ;

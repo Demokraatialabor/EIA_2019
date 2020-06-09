@@ -110,12 +110,57 @@ Kasvutempo Tallinna ja Tartu linnapiirkonnas on pikaajaliselt ületanud teiste E
 
 ```{r, figure52, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/5-chapter/fig52.png")
+library(sf)          # classes and functions for vector data
+library(raster)      # classes and functions for raster data
+library(tmap)
+library(svglite)
+
+Brutotulu <- st_read(dsn ="data/5_fig2_data/EKSPORT_3301-r2JoQJvv97bKfi7L-t7.shp")
+head(as.data.frame(Brutotulu))
+
+Brutotulu$VAARTUS <- as.numeric(as.factor(Brutotulu$VAARTUS)) -1
+Brutotulu <- Brutotulu[order(Brutotulu$NIMI),]
+
+fig52_data <- read.csv("data/5_fig2_data/fig52_data.csv", header=TRUE, sep=";")
+fig52_data <- fig52_data[order(fig52_data$Üksus),]
+
+Brutotulu$palk <- fig52_data$Väärtus
+
+names(Brutotulu)[names(Brutotulu) == "palk"] <- "Keskmine Brutotulu (€)"
+
+fig_52_plot <- tm_shape(Brutotulu) + 
+    tm_fill("Keskmine Brutotulu (€)",title="Keskmine brutotulu (eurot)", palette = c("#E6E3DA","#d7bf74","#a01b17"), breaks=c(925,1043,1075,1107,1144,1209,1349,1711), popup.vars="Keskmine Brutotulu (€)", id="NIMI") +
+  
+  tm_borders(col="white") +
+  
+  tm_text (col="black", text="NIMI",xmod=0) +
+  
+    tm_layout(
+      outer.margins=0, inner.margins=c(.02, .1, .02, .02),asp=1920/1080,
+      legend.outside = FALSE,
+      legend.format=list(text.separator="..."),
+      frame = FALSE) +
+
+      tm_view (
+        set.zoom.limits = c(9, 12),
+        set.bounds = c(23.6397953631, 58.9745283067, 26.1316992531,59.8110903998),
+        view.legend.position = c("right","bottom"),
+      )
+   
+tmap_mode("view")
+fig_52_plot
+
+#tmap_save(tm = fig52_plot, filename = "fig52.pdf")
+
+#svg(filename="figure.svg")
+#fig_153_plot
+#dev.off()
 
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Statistikaamet 2019.
+<div><span class="imgsource-source">Allikas:</span> Statistikaamet 2019.</div>
+<div><a class="data-btn" href="data/5_fig2_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 <span class="bullet-heading">**Taristuinvesteeringud, eelkõige kiired rongiühendused, võimaldavad toetada kestlikku ruumiplaneerimist.**</span>

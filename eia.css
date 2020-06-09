@@ -22,6 +22,12 @@ BODY{}
 	border: none;
 }
 
+/* tmaps overwrite */
+
+.leaflet-retina .leaflet-control-layers-toggle {
+    background-image: url(images/layers-2x.png) !important;
+    background-size: 26px 26px;}
+    
 /* header */
 
 .book .book-header .btn:hover {
@@ -229,7 +235,7 @@ h3 .header-section-number{
 @media only screen and (max-width: 768px) {
   
 .intro_section::before {
-	      height: 30vh;
+	      height: 35vh;
 }
 
 .intro_section h1 {
@@ -244,15 +250,15 @@ h3 .header-section-number{
 
 @media only screen and (max-width: 576px) {
   .intro_section h1 {
-  font-size:2em !important;
-  top:7vh;
+  font-size:1.9em !important;
+  top:65px;
 }
 }
 
 @media only screen and (max-height: 576px) {
   .intro_section h1 {
   font-size:2.5em !important;
-  top:5vh;
+  top:65px;
 }
 }
   
@@ -420,8 +426,8 @@ h3 .header-section-number{
   
 /* casebox */
 .casebox {
-    padding: 25px 25px 15px 25px;
-    margin: 20px -30px 30px -30px;
+    padding: 5px 30px 15px 30px;
+    margin: 20px -30px 5px -30px;
     border-top-left-radius:15px;
     font-weight:medium;
 }
@@ -566,27 +572,20 @@ p.caption {
   text-align:center;
 }
 
-@media only screen and (max-width: 576px) {
-  .poem1, .poem2 {
-  font-size:0.9em;
-}
-
-.poem1 {
-  padding-top:50px;
-}
-}
-
 #jaankross {
   color:#482683;
 }
 
 #cover-body {
-  padding:2em 0;
+  padding:50px 0;
   background-color:#e6e3da;
   font-weight:bold;
   color:#482683;
 }
 
+#cover-body a {
+  color:#C54409;
+}
 #cover-footer {
   background-image: url(figures/0-intro/cover-footer.png);
   background-position: center top;
@@ -605,6 +604,26 @@ p.caption {
 #handorunnel {
   color:#C54409;
 }
+
+
+@media only screen and (max-width: 576px) {
+  .poem1, .poem2 {
+  font-size:0.9em;
+}
+
+.poem1 {
+  padding-top:50px;
+}
+
+.poem2 {
+  padding-top:100px;
+}
+
+#cover-footer {
+	background-size: auto 500px;
+}
+}
+
 /* Foreword - #0872ba */
 
 .foreword_section h2 {
@@ -634,10 +653,15 @@ p.caption {
   border: solid 2px #0872ba;
   color: #0872ba !important;
 }
+
+.president-grid-container {
+  display: grid;
+  grid-template-columns: auto 250px;
+}
   
 .president-photo-container {
   float:right;
-  width:300px;
+  width:100%;
 }
 
 .president-photo-container img {
@@ -647,21 +671,28 @@ p.caption {
   padding-left:5px;
 }
 
-@media only screen and (max-width: 576px) {
-.president-photo-container {
-  float:none;
-  display:block;
-  width:90%;
-  margin:auto;
-  padding:0;
-}
-}
-
 #head-lugemist {
+  padding-top:100px;
   font-size:2em;
   color:#0872ba;
 }
 
+@media only screen and (max-width: 576px) {
+.president-grid-container {
+  display: block;
+}
+
+.president-photo-container {
+  float:none;
+  width:90%;
+  margin:auto;
+  margin-top:50px;
+}
+
+#head-lugemist {
+  padding-top:50px;
+}
+}
 
 /* Chapter 0 - INTRO  #C54409 */
 
@@ -703,6 +734,16 @@ p.caption {
 }
 
 .chapter0_section a.print-btn:hover {
+  border: solid 2px #C54409;
+  color: #C54409 !important;
+}
+
+ .chapter0_section a.data-btn {
+  color: #e6e3da !important;
+  text-decoration:none !important;
+}
+
+.chapter0_section a.data-btn:hover {
   border: solid 2px #C54409;
   color: #C54409 !important;
 }
@@ -1403,6 +1444,8 @@ margin-top:50px !important;
 .chapter6 h1{ 
   border-bottom: 3px solid #96CBD2; 
   font-size: 4.5em !important; text-transform: uppercase; line-height: 1em;
+  margin-bottom:0.5em !important;
+  margin-top:50px !important;
 }
 
 
@@ -1416,6 +1459,7 @@ margin-top:50px !important;
 @media only screen and (max-width: 576px) {
 .chapter6 h1 {
   font-size:2em !important;
+  margin-top:65px !important;
 }
 }
 
@@ -1478,11 +1522,11 @@ margin-top:50px !important;
 @media only screen and (max-width: 576px) {
     .author-container {
       display:block;
-      justify-content:center;
+      padding-top:55px;
     }
     
-    .author-container img {
-    max-width:300px !important;
+    .author-img-container {
+    width:100%;
     margin:auto;
 }
 }
@@ -1495,7 +1539,8 @@ margin-top:50px !important;
 .chapter7 h1{ 
   border-bottom: 3px solid #a8aca6; 
   font-size: 4.5em !important; text-transform: uppercase; line-height: 1em; 
-  margin-bottom:0.5em;
+  margin-bottom:0.5em !important;
+  margin-top:50px !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1508,6 +1553,7 @@ margin-top:50px !important;
 @media only screen and (max-width: 576px) {
 .chapter7 h1 {
   font-size:2em !important;
+  margin-top:65px !important;
 }
 }
   

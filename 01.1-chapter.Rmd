@@ -31,7 +31,8 @@ knitr::include_graphics("figures/1-chapter/fig111.png")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Statistikaamet 2000; 2011.
+<div><span class="imgsource-source">Allikas:</span> Statistikaamet 2000; 2011.</div>
+<div><a class="data-btn" href="data/11_fig1_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 ### Ehitatud alade pindala suureneb peamiselt linnade ümbruses {-.chapter1_section}
@@ -142,7 +143,8 @@ knitr::include_graphics("figures/1-chapter/fig113.png")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Statistikaamet 2000; 2011.
+<div><span class="imgsource-source">Allikas:</span> Statistikaamet 2000; 2011.</div>
+<div><a class="data-btn" href="data/11_fig3_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 Linnapiiride laienemist mõjutab ka uute ärikeskuste tekkimine linna äärealadele või vahetult linnapiiri taha, muu hulgas linnaümbruse transporditaristu, näiteks ringtee linnaruumi nihutava mõju tõttu. Tööstus- ja tootmisalade linnaruumist välja kolimine mõjutab taristu arengut, mis omakorda hakkab mõjutama uute tõmbekeskuste teket. Sarnaseid suundumusi on Euroopas kirjeldatud alates 19. sajandist ([Antrop 2004](#Antrop2004)). Ka need ehitatud alad lisanduvad põllumajandusmaade, harvem metsamaa asemele.

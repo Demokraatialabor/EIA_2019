@@ -1,0 +1,24 @@
+!table
+!version 300
+!charset WindowsBalticRim
+
+Definition Table
+  Type NATIVE Charset "WindowsBalticRim"
+  Fields 11
+    GRD_INSPIR Char (50) ;
+    Shape_Leng Float ;
+    Shape_Area Float ;
+    ra2011_kokku Float Index 1 ;
+    ra2011_eluhoones Float ;
+    ra2011_kylakeskuses Float ;
+    RA2000_KOKKU Float Index 4 ;
+    RA2000_ELUHOONES Float ;
+    RA2000_KESKUSES Float ;
+    ravahe Float Index 2 ;
+    rasuhe Float Index 3 ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "1c18498f-fe64-43c4-a4dc-8dbd7ac846bb"
+"\MapInfo\ParentTableID" = "8c12c117-3c1c-4028-a57a-4a40f591b1cb"
+end_metadata

@@ -50,13 +50,13 @@ Ruumil on ühtlasi oluline roll ühiskondlike protsesside kujundamisel. Avaliku 
 
 ### Eesti on inimarengus edenenud maailma riikide hulgas 30. positsioonile, kuid jäänud sinna püsima {-.chapter0_section}
 
-Aastast 1990 ÜRO Arenguprogrammi poolt kasutusele võetud inimarengu indeksi kohaselt kuulub Eesti väga kõrge inimarengu tasemega riikide hulka. Eesti on 30. kohal indeksiga 0,882 ning püsinud samal positsioonil viimased kuus aastat ([tabel 0.1](#table_01)). Indeks võtab arvesse oodatavat eluiga, keskmiselt koolis käidud aastaid ning võrreldavates hindades SKPd ühe elaniku kohta. Euroopa Liidu keskmise oodatava elueaga võrreldes elavad Eesti elanikud (78,6 aastat) keskmiselt 3 aastat vähem. Oodatav eluiga sõltub mitmest mõjutajast: keskkonnast, tervishoiuteenuste kättesaadavusest, inimeste elatustasemest ja terviseteadlikkusest. Eestis on oodatav eluiga pikem linnalistes piirkondades, eesti rahvusest ja kõrgemalt haritud elanikkonna hulgas ([Säästva arengu näitajad 2018](#Statistikaamet2018)). Haridus on jätkuvalt au sees ja väga oluline. Eestist käivad õpilased maailmas kauem koolis vaid Šveitsis, Ameerika Ühendriikides ja Kanadas.
+Aastast 1990 ÜRO Arenguprogrammi poolt kasutusele võetud inimarengu indeksi kohaselt kuulub Eesti väga kõrge inimarengu tasemega riikide hulka. Eesti on 30. kohal indeksiga 0,882 ning püsinud samal positsioonil viimased kuus aastat ([tabel 0.1](#table01)). Indeks võtab arvesse oodatavat eluiga, keskmiselt koolis käidud aastaid ning võrreldavates hindades SKPd ühe elaniku kohta. Euroopa Liidu keskmise oodatava elueaga võrreldes elavad Eesti elanikud (78,6 aastat) keskmiselt 3 aastat vähem. Oodatav eluiga sõltub mitmest mõjutajast: keskkonnast, tervishoiuteenuste kättesaadavusest, inimeste elatustasemest ja terviseteadlikkusest. Eestis on oodatav eluiga pikem linnalistes piirkondades, eesti rahvusest ja kõrgemalt haritud elanikkonna hulgas ([Säästva arengu näitajad 2018](#Statistikaamet2018)). Haridus on jätkuvalt au sees ja väga oluline. Eestist käivad õpilased maailmas kauem koolis vaid Šveitsis, Ameerika Ühendriikides ja Kanadas.
 
 Heaolu kasv on märkimisväärne ning toonud käibele loosungi „Eestil pole kunagi nii hästi läinud kui täna“. Mõõtmisest ja indeksisüsteemist olulisem on andmete kvaliteet ja nende sisusse süvenemine. Kett on täpselt nii tugev, kui on tema nõrgim lüli, ehk teisisõnu, elanikkond on nii jõukas, kui tema materiaalselt kõige nõrgemalt kindlustatud ühiskonnagrupid. Statistikaameti andmetel elas 2019. aastal suhtelises vaesuses 284 300 (21,7%) ja absoluutses vaesuses 31 400 (2,4%) Eesti inimest. Ligikaudu pool eakatest kogevad suhtelist vaesust. Kui vaesusriskis elavate elanike osatähtsus on viimastel aastatel aeglaselt, aga siiski vähenenud, ei ole elanikkonna rikkama ja vaesema viiendiku erinevus võrreldes 2017. aastaga muutunud. Eesti heaolu suurenemisest ei ole osa saanud kõik elanikkonna grupid, saati kõik piirkonnad. Erinevused keskmises elueas, haridustasemes ja sissetulekutes avalduvad piirkondlikult ning on seotud ühtlasi keskkonnaseisundiga ([Rahvastiku tervise arengukava 2020–2030](#RahvastikuterviseAK2030)).
 
 Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõrjudes saavutatud elustandardi kiire kasv. Kuid tänapäeval on maailm uue ebavõrdsuslaine võimuses ning 2019. aasta lõpus ilmunud globaalse inimarengu aruande keskne teema on ebavõrdsus kui inimeste heaolu kõige suurem takistaja. Aruannet raamistab tulevikku suunatud sõnum, et viimasel aastakümnel on lisandunud kaks uut üleilmset suundumust, mis mõjutavad inimeste heaolu kõikjal maailmas: tehnoloogia kättesaadavus ja kliimamuutus. Tehnoloogilised edulood nagu tehisintellekt ja masinõpe süvendavad lõhet nende elanikerühmade ja riikide vahel, kel ei ole võimalusi tehnoloogilise arenguga kaasa minna. Kliimakriis tabab juba praegu valusamini vaesemaid maailma piirkondi ja vähekindlustatud elanikerühmi. Hinnanguliselt põhjustab kliimamuutus maailmas aastatel 2030–2050 alatoitumise, malaaria, kõhulahtisuse ja kuumarabanduse tõttu 250 000 lisasurma aastas ([ÜRO 2019](#ÜRO2019)).
 
-<p class="caption" id="table_01"><span class="figure-number">Tabel 0.1</span> Inimarengu indeks ja selle alusnäitajad valitud riikides (2018)</p>
+<p class="caption" id="table01"><span class="figure-number">Tabel 0.1</span> Inimarengu indeks ja selle alusnäitajad valitud riikides (2018)</p>
 
 <div style="overflow-x:auto;">
 <table class="table table-bordered table-hover table-condensed" id="table_01">
@@ -390,13 +390,75 @@ Järjest enam arutleb teadlaskond planetaarse linnastumise teemadel, selgitades 
 <p class="caption" id="figure01"><span class="figure-number">Joonis 0.1</span> Eesti linnasüsteem (alates 2000 elanikust, 2019. aasta rahvaarvu alusel)</p>
 
 ```{r, figure01, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
+library(sf)          # classes and functions for vector data
+library(raster)      # classes and functions for raster data
+library(tmap)
+library(svglite)
+
+fig_04_map_data <- st_read(dsn ="data/0_fig1_data/maakond_20200101.shp")
+head(as.data.frame(fig_04_map_data))
+
+fig_04_map_settlements <- st_read(dsn ="data/0_fig1_data/asustusyksus_20200301.shp")
+head(as.data.frame(fig_04_map_settlements))
+
+fig_04_map_counties <- st_read(dsn ="data/0_fig1_data/omavalitsus_20200301.shp")
+head(as.data.frame(fig_04_map_counties))
+
+fig_04_data_settlements <- read.csv("data/0_fig1_data/fig_04_data_settlements.csv", header=TRUE, sep=";", check.names=FALSE)
+fig_04_data_counties <- read.csv("data/0_fig1_data/fig_04_data_counties.csv", header=TRUE, sep=";", check.names=FALSE)
+
+fig_04_settlements <- merge(fig_04_map_settlements,fig_04_data_settlements, by="ANIMI")
+fig_04_counties <- merge(x=fig_04_map_counties,y=fig_04_data_counties, by="ONIMI")
+
+
+fig_04_settlements$Asula[fig_04_settlements$TYYP==c(4)]<- "Linn"
+fig_04_settlements$Asula[fig_04_settlements$TYYP==c(5)]<- "Linn"
+fig_04_settlements$Asula[fig_04_settlements$TYYP==c(6)]<- "Linnaosa"
+fig_04_counties$Asula[fig_04_counties$TYYP==c(1)]<- "Vald"
+fig_04_counties$Asula[fig_04_counties$TYYP==c(4)]<- "Linn"
+
+fig_04_settlements <- fig_04_settlements[c(-2,-3,-4,-5,-6,-7,-9,-10)]
+fig_04_counties <- fig_04_counties[c(-2,-3,-4,-5,-7,-8)]
+
+colnames(fig_04_settlements)[1] <- "Nimi"
+colnames(fig_04_counties)[1] <- "Nimi"
+
+fig_04_data <- rbind(fig_04_settlements, fig_04_counties)
+
+fig_04_map <- tm_shape(fig_04_map_data) + 
+    tm_fill("#e6e3da") +
+    tm_borders(col="white") +
+    tm_layout (
+      frame = FALSE
+              )
+
+fig_04_population <-  tm_shape(fig_04_data) +
+      tm_bubbles(col = "Asula",alpha = 0.5, border.col= "white", size = "Elanike arv",scale= 10, xmod=0, sizes.legend=c(2000,10000,50000), title.size="Elanike arv", palette= c("#c54409","#79ac2c","#369b9e")) 
+     # tm_text (col="#3a404a", text="Nimi",xmod=1, size=0.5, auto.placement=TRUE)
+  
+    tm_layout(
+      outer.margins=0, inner.margins=c(.02, .1, .02, .02), asp=1920/1080,
+      legend.text.size=1,
+      legend.title.size=1,
+      legend.outside = FALSE,
+      legend.width=.25, legend.height = .7,
+      legend.format=list(text.separator="kuni"),
+      frame = FALSE)
+  
+#tmap_save(tm = fig_04_map + fig_04_population, filename = "fig_04_notext.pdf")
+
+#svg(filename="figure.svg")
+#pop_change + GDP
+#dev.off()
+
 
 knitr::include_graphics("figures/0-intro/fig01.png")
 
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Statistikaamet.
+<div><span class="imgsource-source">Allikas:</span> Statistikaamet.</div>
+<div><a class="data-btn" href="data/0_fig1_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
 

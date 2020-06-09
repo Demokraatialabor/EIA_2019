@@ -1,0 +1,195 @@
+!Workspace
+!Version  950
+!Charset WindowsBalticRim
+Open Table "C:\Users\toja\pohjad\haldusjaotus\20130903_omavalitsus_map (2)\omavalitsus_20130901" As omavalitsus_20130901 Interactive
+Open Table "C:\Users\toja\muud\eesti_statistika\Rahvaloendus_2012\1km\GRID1000_MK12_rahvaarvudega2" As GRID1000_MK12_rahvaarvudega2 Interactive
+Open Table "C:\Users\toja\muud\eesti_statistika\Rahvaloendus_2012\1km\GRID1000_MK12" As GRID1000_MK12 Interactive
+Open Table "C:\Users\toja\muud\eesti_statistika\Rahvaloendus_2012\100m\GRD100_L12" As GRD100_L12 Interactive
+Open Table "C:\Users\toja\muud\eesti_statistika\Rahvaloendus_2012\100m\GRD100_L12_muutus" As GRD100_L12_muutus Interactive
+Open Table "C:\Users\toja\muud\eesti_statistika\Rahvaloendus_2000\REL_2000\Tabel_1_rahvaarv_GRD_100_REL_2000" As Tabel_1_rahvaarv_GRD_100_REL_2 Interactive
+Open Table "C:\Users\toja\muud2\kertu_anni\tiheasustusMN" As tiheasustusMN Interactive
+Open Table "C:\Users\toja\muud\eesti_statistika\Rahvaloendus_2012\500m\GRID500_LT12_rmuutus" As GRID500_LT12_rmuutus Interactive
+Add Column "GRD100_L12_muutus" (RAHVAARV_KOKKU_2) From Tabel_1_rahvaarv_GRD_100_REL_2 Set To RAHVAARV_KOKKU Where COL1 = COL1  Dynamic
+Map From tiheasustusMN,omavalitsus_20130901,GRD100_L12_muutus,GRID500_LT12_rmuutus,GRID1000_MK12_rahvaarvudega2 
+  Position (2.16667,0.46875) Units "in"
+  Width 6.90625 Units "in" Height 6.97917 Units "in" 
+Set Window FrontWindow() ScrollBars Off Autoscroll On Enhanced On Smooth Text Antialias Image High
+Set Map
+  CoordSys Earth Projection 3, 115, "m", 24, 57.51755393056, 58, 59.33333333, 500000, 6375000
+  Center (658621.3848,6472726.079)
+  Zoom 25.33471562 Units "km"
+  Preserve Zoom Display Position
+  Distance Units "km" Area Units "sq km" XY Units "m"
+  Distance Type Cartesian
+shade 5 with ravahe ranges apply all use all Brush (2,5672960,16777215) 
+  -2510: -200 Brush (2,14680288,16777215) Pen (1,1,12595200) ,
+  -200: -60 Brush (2,16728319,16777215) Pen (1,1,11556864) ,
+  -60: -15 Brush (2,16740607,16777215) Pen (1,1,14708736) ,
+  -15: -5 Brush (2,16752895,16777215) Pen (1,1,16760832) ,
+  -5: -2 Brush (2,16765183,16777215) Pen (1,1,16776960) ,
+  -2: 2 Brush (2,16777168,16777215) Pen (1,1,12632064) ,
+  2: 5 Brush (2,14745520,16777215) Pen (1,1,10526720) ,
+  5: 15 Brush (2,13500288,16777215) Pen (1,1,10526720) ,
+  15: 60 Brush (2,9498624,16777215) Pen (1,1,5672960) ,
+  60: 200 Brush (2,7585792,16777215) Pen (1,1,5672960) ,
+  200: 2300 Brush (2,5672960,16777215) Pen (1,1,5672960) 
+  default Brush (1,16777215,16777215) Pen (1,1,0) 
+  style  replace  off 
+  # use 0 round 1 inflect on Brush (2,16777168,16777215) at 5 by 0 color 1 # 
+shade 4 with (rahvaarv_kokku-RAHVAARV_KOKKU_2)*4 ranges apply all use all Brush (2,5672960,16777215) 
+  -2510: -200 Brush (2,14680288,16777215) Pen (1,1,12595200) ,
+  -200: -60 Brush (2,16728319,16777215) Pen (1,1,11556864) ,
+  -60: -15 Brush (2,16740607,16777215) Pen (1,1,14708736) ,
+  -15: -5 Brush (2,16752895,16777215) Pen (1,1,16760832) ,
+  -5: -2 Brush (2,16765183,16777215) Pen (1,1,16776960) ,
+  -2: 2 Brush (2,16777168,16777215) Pen (1,1,12632064) ,
+  2: 5 Brush (2,14745520,16777215) Pen (1,1,10526720) ,
+  5: 15 Brush (2,13500288,16777215) Pen (1,1,10526720) ,
+  15: 60 Brush (2,9498624,16777215) Pen (1,1,5672960) ,
+  60: 200 Brush (2,7585792,16777215) Pen (1,1,5672960) ,
+  200: 2300 Brush (2,5672960,16777215) Pen (1,1,5672960) 
+  default Brush (1,16777215,16777215) Pen (1,1,0) 
+  # use 0 round 100 inflect on Brush (2,16777168,16777215) at 5 by 0 color 1 # 
+shade 3 with (rahvaarv_kokku-RAHVAARV_KOKKU_2)*100 ranges apply all use all Brush (2,5672960,16777215) 
+  -2510: -200 Brush (2,14680288,16777215) Pen (1,1,12595200) ,
+  -200: -60 Brush (2,16728319,16777215) Pen (1,1,11556864) ,
+  -60: -15 Brush (2,16740607,16777215) Pen (1,1,14708736) ,
+  -15: -5 Brush (2,16752895,16777215) Pen (1,1,16760832) ,
+  -5: -2 Brush (2,16765183,16777215) Pen (1,1,16776960) ,
+  -2: 2 Brush (2,16777168,16777215) Pen (1,1,12632064) ,
+  2: 5 Brush (2,14745520,16777215) Pen (1,1,10526720) ,
+  5: 15 Brush (2,13500288,16777215) Pen (1,1,10526720) ,
+  15: 60 Brush (2,9498624,16777215) Pen (1,1,5672960) ,
+  60: 200 Brush (2,7585792,16777215) Pen (1,1,5672960) ,
+  200: 2300 Brush (2,5672960,16777215) Pen (1,1,5672960) 
+  default Brush (1,16777215,16777215) Pen (1,1,0) 
+  # use 0 round 1000 inflect on Brush (2,16777168,16777215) at 5 by 0 color 1 # 
+Set Map
+  Layer 1
+    Display Global
+    Global Pen (2,2,16711680) Brush (1,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With KOOD
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 2
+    Display Global
+    Global Pen (1,2,10516480) Brush (1,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Selectable Off
+    Label Line None Position Center Font ("Arial",256,14,0,16777215) Pen (1,2,0) 
+      With ONIMI
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+   Object 149 Anchor (662081.99848986603,6477123.2005156055) 
+   Object 190 Anchor (666209.66816878039,6475795.4271482341) 
+   Object 86 Anchor (655768.04107498052,6465960.7483479884) 
+   Object 151 Anchor (654034.8731904889,6475565.4167149421) 
+   Object 41 Anchor (651013.00091238646,6461359.6971161943) 
+   Object 141 Anchor (663332.97800273716,6465471.6790223178) 
+   Object 212 Anchor (661030.37606397457,6471632.5201638322) 
+  Layer 3
+    Display Value
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Selectable Off
+  Layer 4
+    Display Off
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With GRD_INSPIR
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 5
+    Display Value
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Selectable Off
+  Layer 6
+    Display Off
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With GRD_INSPIR
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 7
+    Display Value
+    Global Pen (1,1,0)  Brush (1,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Selectable Off
+  Layer 8
+    Display Graphic
+    Global Pen (1,1,0) Brush (1,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Selectable Off
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With GRD_INSPIR
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+set legend 
+  layer 3 
+    display on 
+    shades on 
+    symbols off 
+    lines off 
+    count off 
+    title auto Font ("Arial",0,9,0)
+    subtitle auto Font ("Arial",0,8,0)
+    ascending off 
+    ranges Font ("Arial",0,8,0)
+      auto display off ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on  
+set legend 
+  layer 5 
+    display on 
+    shades on 
+    symbols off 
+    lines off 
+    count off 
+    title auto Font ("Arial",0,9,0)
+    subtitle auto Font ("Arial",0,8,0)
+    ascending off 
+    ranges Font ("Arial",0,8,0)
+      auto display off ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on  
+set legend 
+  layer 7 
+    display on 
+    shades on 
+    symbols off 
+    lines off 
+    count off 
+    title auto Font ("Arial",0,9,0)
+    subtitle auto Font ("Arial",0,8,0)
+    ascending off 
+    ranges Font ("Arial",0,8,0)
+      auto display off ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on  
+Set Window FrontWindow() Printer
+ Name "Nitro PDF Creator (Reader 3)" Orientation Portrait Copies 1
+ Papersize 9

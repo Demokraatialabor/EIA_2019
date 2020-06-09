@@ -1,0 +1,15 @@
+!table
+!version 1000
+!charset WindowsBalticRim
+
+Definition Table
+  File "tabel_1_rahvaarv_grd_100_rel_2000.xlsx"
+  Type XLS Titles Range "Tabel_1_rahvaarv_GRD_100_REL_20!A2:B8733"
+  Fields 2
+    GRD_INSPIR_100 Char (32) Index 1 ;
+    RAHVAARV_KOKKU Float ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "b19d8afb-5103-45cb-ad53-6a0c8738510e"
+end_metadata

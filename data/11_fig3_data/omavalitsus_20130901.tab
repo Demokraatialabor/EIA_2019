@@ -1,0 +1,18 @@
+!table
+!version 300
+!charset WindowsBalticRim
+!edit_version 450
+
+Definition Table
+  Type NATIVE Charset "WindowsBalticRim"
+  Fields 5
+    ONIMI Char (100) ;
+    OKOOD Char (4) ;
+    MNIMI Char (100) ;
+    MKOOD Char (4) ;
+    area Float ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "de633ad5-35cb-49cf-9d42-24e25fd17df0"
+end_metadata
