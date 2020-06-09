@@ -52,7 +52,7 @@ fig_121_plot <- tm_shape(Maakonnad) +
     tm_borders(col="white") +
     
   tm_layout(
-      legend.format=list(text.separator="...")) +
+    legend.format=list(text.separator="...")) +
 
   tm_shape(Maakonnad) +
       tm_bubbles(col = "#dbe9da",alpha = 0.6, size = "SKP osamaht 1995 (%)", scale = 541/640 * 8*1.7, border.col=NULL,xmod=-5, title.size="SKP osamaht 1995 (%)", popup.vars=c("Rahvaarvu muutus (%)","SKP osamaht 1995 (%)","SKP osamaht 2016 (%)") ) +

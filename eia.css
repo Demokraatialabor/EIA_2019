@@ -227,6 +227,7 @@ h3 .header-section-number{
   color:white;
   position:absolute;
 	top:15vh;
+	width:100%;
   max-width:800px;
   margin-top:0 !important;
   margin:auto;
@@ -243,21 +244,14 @@ h3 .header-section-number{
   top:7vh;
 }
 .intro_section h2 {
-        margin-top:32vh !important;
+        margin-top:37vh !important;
 }
 
 }
 
 @media only screen and (max-width: 576px) {
   .intro_section h1 {
-  font-size:1.9em !important;
-  top:65px;
-}
-}
-
-@media only screen and (max-height: 576px) {
-  .intro_section h1 {
-  font-size:2.5em !important;
+  font-size:1.7em !important;
   top:65px;
 }
 }
@@ -684,7 +678,7 @@ p.caption {
 
 .president-photo-container {
   float:none;
-  width:90%;
+  width:100%;
   margin:auto;
   margin-top:50px;
 }
