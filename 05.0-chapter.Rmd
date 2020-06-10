@@ -148,7 +148,6 @@ Elanike tervisekäitumise kujundamisel ja terviseriskide maandamisel on suur, ku
 
 ```{block, type='blockquote-right'}
 Peaaegu kolmandik ehk 30,7% eestimaalastest liigub vähem kui 15 minutit päevas jalgsi või jalgrattaga tööle või töölt koju.
-Eesti inimarengu aruanne 2019/2020.
 ```
 
 Euroopa Tervise Foorumi stsenaariumide ([EHFG 2017](#EHFG2017)) kohaselt muutub elanike tervisekäitumise jälgimine ja tervislike eluviiside toetamine vananevat ühiskonda ja suurenevaid tervishoiukulusid arvesse võttes üha olulisemaks. Euroopa Tervise Foorumi 2037 stsenaariumid kirjeldavad kolme võimalust, kuidas on tulevikus jaotunud elanike ja ühiskonna vastutus inimeste tervise eest. Esimene võimalus on tervise jälgimine siduda heaoluühiskonna riigiga, mis paralleelselt jagab ka kodanikupalka. Teise võimaluse kohaselt jälgib oma tervist tulevikus iga kodanik ise, kes vastutab sel juhul ka ainuisikuliselt, kui ta ülesandega hakkama ei saa. Kolmanda võimaluse puhul antakse tervisevalvuri roll tehnoloogiale, mis selgitab võimalikud terviseprobleemid välja nii geenianalüüside kui ka kodanike igapäevaelu jälgivate sensorite abil.
