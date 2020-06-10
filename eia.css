@@ -93,8 +93,9 @@ p {
   }
   
   h1, h2 {
-    margin-top:2em!important;
+    margin-top:65px!important;
   }}
+  
 /* supress code output */
 .chapter_section pre {
   display: none;
@@ -296,6 +297,7 @@ h3 .header-section-number{
 .print-btn {
   float:none;
   max-width:175px;
+  font-size:0.6em;
 }
 }
 
@@ -1402,6 +1404,29 @@ p.caption {
   border-bottom:solid 2px #A01B17;
   padding-top:15px;
   padding-bottom:15px;
+  width:60%;
+  display:inline-block;
+}
+
+.future_section .map-icon {
+  width:220px;
+  float:right;
+  margin:35px 0px 0px 0px;
+}
+
+.future_section .map-icon {
+  width:220px;
+  float:right;
+  margin:0px 0px 0px 0px;
+}
+
+#vabatahtlikult-linnadesse-sunnitud-eesti .map-icon {
+    margin:35px 0px 0px 0px;
+}
+
+.future_section .map-icon img {
+  margin:0 !important;
+  width:100%;
 }
 
 .future-table {
@@ -1432,6 +1457,34 @@ margin-top:50px !important;
   bottom:0;
   width:100%;
 }
+
+@media only screen and (max-width: 768px) {
+
+.future_section .map-icon {
+  width:180px;
+}
+}
+
+@media only screen and (max-width: 576px) {
+.future_section h2 {
+  display:block;
+  width:100%;
+}
+
+.future_section .map-icon {
+  width:130px;
+  margin-top:-15px !important;
+}
+}
+
+@media only screen and (max-width: 340px) {
+
+.future_section .map-icon {
+  width:100px;
+  margin-top:-15px !important;
+}
+}
+
 
 /* Chapter 6 - Authors #96CBD2 */
 
@@ -1520,7 +1573,7 @@ margin-top:50px !important;
     }
     
     .author-img-container {
-    width:100%;
+    width:90%;
     margin:auto;
 }
 }

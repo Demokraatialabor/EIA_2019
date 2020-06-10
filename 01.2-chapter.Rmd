@@ -66,7 +66,6 @@ fig_121_plot <- tm_shape(Maakonnad) +
         set.zoom.limits = c(7, 16),
         view.legend.position = c("left","bottom"),
         set.bounds = c(21.6397953631, 57.4745283067, 28.1316992531,59.8110903998),
-        basemaps = NULL
       )
 
 tmap_mode("view")

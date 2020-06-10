@@ -1,5 +1,11 @@
 ## Krattide ja Marakrattide Eesti {-.chapter_section .chapter5_section .future_section}
 
+<div class="map-icon">
+```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
+knitr::include_graphics("figures/5-chapter/krattide.png")
+```
+</div>
+
 <div><a class="print-btn" href="print/EIA-2019-5.1-Kratid.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
