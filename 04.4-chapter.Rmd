@@ -95,6 +95,7 @@ fig442_data_cleaned$date <- as.Date(fig442_data_cleaned$Var1)
                      axis.line = element_line(size = 0.2, colour = "#cccccc"),
                      axis.text.x = element_text(angle=45, margin = margin(t = 7, r = 0, b = 0, l = 0), hjust=1.1),
                     axis.title.x = element_text(margin = margin(t = 15, r = 0, b = 0, l = 0)),
+                      text = element_text(family="Montserrat"),
                  )
 
   print(fig442_plot + fig_theme_general + fig442_theme)

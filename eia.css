@@ -34,6 +34,7 @@ BODY{}
   display:none !important;
 }
 
+
 /* header */
 
 .book .book-header .btn:hover {
@@ -118,6 +119,24 @@ h3{ max-width: 100%; }
 
 .book .book-header h1{ display: none; }
 
+/* switch plots */
+
+.desktop-plot {
+  margin-bottom:25px;
+}
+.mobile-plot {
+  display:none;
+}
+
+@media only screen and (max-width: 576px) {
+  .desktop-plot {
+  display:none;
+}
+  
+.mobile-plot {
+  display:block;
+}}
+
 /* menu */
 
 nav > ul > li > a{
@@ -197,7 +216,7 @@ h1 .header-section-number{ display: none; }
 h2 .header-section-number{
 	display: block;
 	color: #E6E3D9;
-	font-size: 3em;
+	font-size: 2.8em;
 	line-height: 1em;
 }
 

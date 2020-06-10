@@ -259,6 +259,10 @@ Eestis on toimumas linnaliste alade suurenemine – ajavahemikus 2000–2017 on 
 
 Kokku oleme viimase kolme aastakümnega kaotanud 250 km<sup>2</sup> põllumaid ja 239 km<sup>2</sup> rohumaid. Osa sellest on täis ehitatud, veelgi suurem osa metsa kasvanud. Maastik ühtlustub asustussüsteemi eri osades – linnade lähialadel toimub kiire endiste põllualade (ja vähemal määral metsa) täisehitamine; Eesti äärealadel aga põllu- ja karjamaade võsastumine ning tasakaalustamata metsaraie tulemusena maastik vaesub.
 
+```{block, type='blockquote-right'}
+Väärtusliku põllumaa püsimine on oluline nii Eesti julgeoleku kui ka meie traditsiooniliste tegevusalade ja kultuuri säilimise seisukohalt. Samuti vähendab metsade vanusstruktuuri muutus elurikkust meie looduses.
+```
+
 Maastik muutub alati. Mõnda suundumust ei ole aga võimalik tagasi pöörata. Nii ei ole tänapäeval praktiliselt ja mõistliku kiirusega tagasipööratav põllumaa kadumine. Seevastu kodumaine toit läheb järjest rohkem hinda. Viimastel kümnenditel näeme ka, et alles jäänud põllumaa on muutunud järjest hinnalisemaks. Väärtusliku põllumaa püsimine on oluline nii Eesti julgeoleku kui ka meie traditsiooniliste tegevusalade ja kultuuri säilimise seisukohalt. Samuti vähendab metsade vanusstruktuuri muutus elurikkust meie looduses. Eesti asustussüsteemi üks väärtusi on seni olnud inimese võimalus valida erinevate linnaliste ja maaliste elukeskkondade vahel. Valglinnastumise ja ääremaastumisega kaasnev ühtlustumine maastikus kitsendab valikuvõimalusi.
 
 Tulevikku vaadates väga pöördelisi muutusi maastikku muutvates trendides ilmselt ei teki. Siiski, elanike arvu vähenemine ääremaal vähendab siserännet, rändevoogude kahanemise märgid on juba näha. Mitmed vahendid, mille kaudu maastike üksluisemaks muutumist saaks ära hoida, on Eestis juba kasutusele võetud. Väärtuslike põllumaade süsteemne säilitamine nii linna tagamaal kui ka ääremaal pidurdab valglinnastumist ja maastiku metsastumist. Meetmed väärtuslikel maastikel ja kaitsealadel toetavad maastike säilimist ning ökoloogiliste elementide väärtustamine põllumaadel nende üksluiseks muutumist. Nende meetmete mõju ilmneb tõenäoliselt lähematel kümnenditel.

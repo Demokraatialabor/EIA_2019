@@ -61,6 +61,7 @@ library("scales")
   fig421_theme <- theme(
                     panel.grid.major.y = element_blank() ,
                      panel.grid.minor.y = element_blank(),
+                    text = element_text(family="Montserrat"),
                  )
 
 print(fig421_plot + fig_theme_general+ fig421_theme)
@@ -156,7 +157,7 @@ library("dplyr")
      guides(fill = guide_legend(reverse = TRUE))
 
     fig423_theme <- theme(
-      text = element_text(color = "#292b2c", size = 10),
+      text = element_text(color = "#292b2c", size = 10, family="Montserrat"),
       axis.text.y = element_text(size=8),
       panel.grid.major.y = element_blank() ,
       panel.grid.minor.y = element_blank(),

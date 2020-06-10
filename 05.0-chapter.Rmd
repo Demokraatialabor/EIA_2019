@@ -84,11 +84,12 @@ fig51_data$year <- as.numeric(as.character(fig51_data$year))
       guides(colour=guide_legend(nrow=4,byrow=TRUE))
 
    fig51_theme <- theme(
+        text = element_text(family="Montserrat"),
   )
 
   print(fig51_plot + fig_theme_general + fig51_theme)
 
-  ggsave(path="exported_figures/PDF/chapter5",filename="fig51.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
+  #ggsave(path="exported_figures/PDF/chapter5",filename="fig51.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
 
 ``` {block, type='imgsource'}
@@ -108,7 +109,7 @@ Kasvutempo Tallinna ja Tartu linnapiirkonnas on pikaajaliselt ületanud teiste E
 
 <p class="caption" id="figure52"><span class="figure-number">Joonis 5.2.</span> Kuu keskmine brutotulu Tallinna regioonis</p>
 
-```{r, figure52, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure52, out.width='100%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library(sf)          # classes and functions for vector data
 library(raster)      # classes and functions for raster data
@@ -283,12 +284,13 @@ fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohad (25
     panel.grid.major.y = element_blank() ,
     panel.grid.minor.y = element_blank(),
     axis.line.y = element_blank(),
-    axis.ticks.y = element_blank()
+    axis.ticks.y = element_blank(),
+    text = element_text(family="Montserrat"),
   )
 
   print(fig54_plot + fig_theme_general + fig54_theme)
 
-  ggsave(path="exported_figures/PDF/chapter5",filename="fig54.pdf", height=260, width=195, units="mm",encoding = "ISOLatin9.enc")
+  #ggsave(path="exported_figures/PDF/chapter5",filename="fig54.pdf", height=260, width=195, units="mm",encoding = "ISOLatin9.enc")
 ```
 
 ``` {block, type='imgsource'}

@@ -57,6 +57,7 @@ fig141_data$percent=percent((fig141_data$value/100), 1)
                      panel.grid.minor.y = element_blank(),
                      axis.line = element_blank(),
                      axis.text.x = element_blank(),
+                    text=element_text(family="Montserrat")
                  )
 
 
@@ -100,6 +101,7 @@ fig142_data$area <- factor(fig142_data$area, levels = c("Tallinn","Harjumaa (v.a
                   axis.text.x = element_text(hjust=0.5),
                   panel.grid.major.x = element_blank(),
                   panel.grid.minor.x = element_blank(),
+                  text=element_text(family="Montserrat")
                  )
 
 
@@ -141,6 +143,7 @@ library("tidyverse")
     fig143_theme <- theme(
                   panel.grid.major.y = element_blank() ,
                   panel.grid.minor.y = element_blank(),
+                  text=element_text(family="Montserrat")
                  )
 
 
@@ -188,6 +191,7 @@ fig144_data2 <- read.csv ("data/14_fig4_data2.csv", header=TRUE, fileEncoding="u
     fig144_theme <- theme(
                     panel.grid.major.y = element_blank() ,
                      panel.grid.minor.y = element_blank(),
+                      text=element_text(family="Montserrat")
                  )
 
 grid.arrange(fig144_plot1 + fig144_theme + fig_theme_general, fig144_plot2 + fig144_theme + fig_theme_general, ncol = 1)
@@ -258,6 +262,7 @@ fig147_data$condition <- factor(fig147_data$condition, levels = c("Esineb suuri 
                     panel.grid.minor.y = element_blank(),
                     axis.line = element_blank(),
                     axis.text.x = element_blank(),
+                    text=element_text(family="Montserrat")
                  )
 
 print(fig147_plot + fig_theme_general +   fig147_theme)
@@ -299,6 +304,7 @@ library("tidyverse")
                     panel.grid.minor.x = element_blank(),
                     axis.line = element_blank(),
                     axis.text.x = element_blank(),
+                    text=element_text(family="Montserrat")
                  )
 
 print(fig148_plot + fig148_theme + fig_theme_general)

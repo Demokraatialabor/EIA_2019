@@ -103,7 +103,7 @@ fig312_plot_palette <- c("#b8ddea","#44a1b1","#388085","#8d76ad","#79AC2C","#5B8
     scale_x_discrete(labels=fig312_plot2_labels)
 
   fig312_theme <- theme(
-      text = element_text(color = "#292b2c"),
+      text = element_text(color = "#292b2c", family="Montserrat"),
       panel.grid.major.x = element_blank() ,
       panel.grid.minor.x = element_blank(),
                  )
@@ -156,7 +156,7 @@ fig313_data_melt$variable <- factor(fig313_data_melt$variable, levels = c("Talli
       guides(fill = guide_legend(reverse = TRUE))
 
   fig313_theme <- theme(
-      text = element_text(color = "#292b2c"),
+      text = element_text(color = "#292b2c", family="Montserrat"),
       panel.grid.major.y = element_blank() ,
       panel.grid.minor.y = element_blank(),
                  )
@@ -205,11 +205,12 @@ fig314_plot <- ggplot(data = fig314_data) +
   fig314_theme <- theme(
                     panel.grid.major.y = element_blank() ,
                      panel.grid.minor.y = element_blank(),
+                    text = element_text(family="Montserrat"),
                  )
 
 print(fig314_plot + fig_theme_general+ fig314_theme)
 
-ggsave(path="exported_figures/PDF/chapter3",filename="fig314.pdf", height=120, width=200, units="mm")
+#ggsave(path="exported_figures/PDF/chapter3",filename="fig314.pdf", height=120, width=200, units="mm")
 
 ```
 

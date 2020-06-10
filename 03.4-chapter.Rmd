@@ -265,6 +265,7 @@ fig344_data$variable <- factor(fig344_data$variable, levels = c("Isikuid","Vaatu
     panel.spacing = unit(2, "lines"),
     strip.text.y = element_text(size = 10),
     strip.placement = "outside",
+    text = element_text(family="Montserrat"),
   )
 
   print(fig344_plot + fig_theme_general + fig344_theme)

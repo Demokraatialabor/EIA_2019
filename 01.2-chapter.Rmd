@@ -118,7 +118,8 @@ library("svglite")
 
  fig122_theme <- theme(
           panel.grid.major.x = element_blank() ,
-          panel.grid.minor.x = element_blank()
+          panel.grid.minor.x = element_blank(),
+          text=element_text(family="Montserrat")
                  )
 
   print(fig122_plot + fig_theme_general + fig122_theme)
@@ -161,7 +162,8 @@ library("scales")
 
   fig123_theme <- theme(
                   panel.grid.major.y = element_blank() ,
-                  panel.grid.minor.y = element_blank()
+                  panel.grid.minor.y = element_blank(),
+                  text=element_text(family="Montserrat")
                  )
 
   print(fig123_plot + fig_theme_general + fig123_theme)
@@ -271,6 +273,10 @@ Katseid parandada piirkondade konkurentsivõimet mainekujunduse abil pärsib aga
 3) nähtavusele püüdlemine.
 
 Need ei ole alati teadlikud strateegiad, sest kuvandeid loovad nii sihilikult kui ka alateadlikult paljud osapooled. Sellegipoolest mõjutavad nimetatud mainekujunduse võtted piirkonna tajumist nii seest- kui ka väljastpoolt ning seeläbi ka tehtavaid rände- ja investeerimisotsuseid.
+
+```{block, type='blockquote-left'}
+Kuvandi ümberpööramisel kasutatakse ääremaisust „trumpkaardina“. Nii väidavad kohalikud otsustajad näiteks Kihnus ja Setomaal, et just ääremaastaatus on võimaldanud neil maaelu idülli ja kultuurilist pärandit säilitada.
+```
 Kuvandi ümberpööramisel kasutatakse ääremaisust „trumpkaardina“ ([Grootens 2018](#Grootens2018)). Nii väidavad kohalikud otsustajad näiteks Kihnus ja Setomaal, et just ääremaastaatus on võimaldanud neil maaelu idülli ja kultuurilist pärandit säilitada. Tavapärane linn-maa-hierarhia pööratakse pea peale, rõhutades maaelu positiivseid ja linnaelu negatiivseid külgi, näiteks iseloomustades linnaelu sõnadega „kuritegevus, narkomaania, liiklus ja muu selline jama” (intervjueeritud võtmeisik Setomaal). Kuvandi ümberpööramise pooldajad on tihti väga teadlikud kohakuvandi tähtsusest: „Asi ei ole niivõrd geograafilises asukohas, vaid selles, kus me inimeste mõtlemises paikneme“ (intervjueeritud võtmeisik Mulgimaal). Enese strateegilise ääremaastamise puhul ei püüta ääremaakuvandit vältida, vastupidi, seda kasutatakse ära, sealjuures rõhutades kohalike võimaluste piiratust ääremaastumise ohjamisel ning eeldades, et ääremaad tulebki toetada. Küsitakse kriitiliselt, kuidas peaks omavalitsus suurendama piirkonna konkurentsivõimet väga piiratud kohalike ressurssidega olukorras, kus „elatakse peost suhu“ (intervjueeritud kohalik elanik Mulgimaal). Kui aga ääremaaks olemist kogetakse, nagu koht oleks n-ö valge laik kaardil ([Grootens 2018](#Grootens2018)), on peamine eesmärk saada nähtavamaks ehk „olla suurel pildil ja suures plaanis“ (intervjueeritud võtmeisik Järvamaal).
 
 Hoolimata neist püüdlustest pärsib ääremaastumine ise maapiirkondade võimalust mainekujunduse abil konkurentsivõimet suurendada. Kuigi kuvandi ümberpööramine ja nähtavusele püüdlemine on sisuliselt kooskõlas konkurentsivõimet tugevdava kohaturunduse ideega, nõuab nende edukas rakendamine kultuurilisi, poliitilisi, majanduslikke ja inimressursse, mis ääremaapiirkondades sageli puuduvad. Piiranguid seavad koha ääremaastaatusest tulenevad objektiivsed tegurid, nagu näiteks rahapuudus, vähe inimesi või sidemete puudumine mõjukate ajakirjanike ja riigi tasandi otsustajatega. Peale selle on oht püsivaid kohalikke probleeme pisendada ja neist üle libiseda või luua õõnes kuvand, mis ei põhine tegelikul kohalikul olukorral; samuti võib juhtuda, et mainekujunduses keskendutakse kõiki maapiirkondi iseloomustavatele liialt üldistele omadustele ([Grootens 2018](#Grootens2018); [Plüschke-Altof 2017](#Plüschke-Altof2017)). Nii ei jää paljudel maapiirkondadel ja väikelinnadel muud üle, kui valida enese ääremaastamise strateegia. Ehkki see lähenemine kuvandikasutusele võimaldab avatult tegeleda kohalike probleemidega ning nõuda rohkem ümberjaotamisele suunatud regionaalpoliitikat, võib see muutuda häbimärgistava toime tõttu koormaks kohalikule arengule.

@@ -31,6 +31,7 @@ fig431_data$country <- factor(fig431_data$country, levels = c("Soome","Eesti","L
     labs(y="Koht edetabelis", x="")
 
    fig431_theme <- theme(
+        text = element_text(family="Montserrat"),
   )
 
   print(fig431_plot + fig_theme_general + fig431_theme)
@@ -107,7 +108,7 @@ fig433_data$variable <- factor(fig433_data$variable, levels = c("ettevõtja", "a
 
   fig433_theme <- theme(
     legend.position="right",
-    text = element_text(size = 12),
+    text = element_text(size = 12, family="Montserrat"),
     panel.grid.major.x = element_blank() ,
     panel.grid.minor.x = element_blank(),
   )

@@ -41,12 +41,13 @@ library("tidyverse")
     expand_limits (y=0)
 
   fig151_theme <- theme (
+         text=element_text(family="Montserrat")
 
   )
 
   print(fig151_plot + fig_theme_general)
 
-  ggsave(path="exported_figures/PDF/chapter1",filename="fig151.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
+  #ggsave(path="exported_figures/PDF/chapter1",filename="fig151.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
 
 ``` {block, type='imgsource'}
@@ -170,12 +171,12 @@ library("tidyverse")
     expand_limits (y=0)
 
   fig154_theme <- theme (
-
+         text=element_text(family="Montserrat")
   )
 
   print(fig154_plot + fig_theme_general)
 
-  ggsave(path="exported_figures/PDF/chapter1",filename="fig154.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
+ # ggsave(path="exported_figures/PDF/chapter1",filename="fig154.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
 
 ``` {block, type='imgsource'}
@@ -247,8 +248,8 @@ library(grid)
 
 grid.arrange(fig155_plot1 + fig_theme_general + fig155_theme1, fig155_plot2  + fig_theme_general + fig155_theme2, ncol = 2)
 
-ggsave(path="exported_figures/PDF/chapter1",filename="fig155a.pdf",fig155_plot1 +fig_theme_general + fig155_theme1, height=140, width=140, units="mm")
-ggsave(path="exported_figures/PDF/chapter1",filename="fig155b.pdf",fig155_plot2 + fig_theme_general +  fig155_theme2, height=140, width=140, units="mm")
+#ggsave(path="exported_figures/PDF/chapter1",filename="fig155a.pdf",fig155_plot1 +fig_theme_general + fig155_theme1, height=140, width=140, units="mm")
+#ggsave(path="exported_figures/PDF/chapter1",filename="fig155b.pdf",fig155_plot2 + fig_theme_general +  fig155_theme2, height=140, width=140, units="mm")
 ```
 
 ``` {block, type='imgsource'}
@@ -285,11 +286,12 @@ library("tidyverse")
 
   fig156_theme <- theme (
            axis.text.x = element_text(angle=45, margin = margin(t = 0, r = 0, b = 0, l = 0), hjust=1.1),
+            text=element_text(family="Montserrat")
   )
 
   print(fig156_plot + fig_theme_general + fig156_theme)
 
-  ggsave(path="exported_figures/PDF/chapter1",filename="fig156.pdf",fig156_plot + fig156_theme +fig_theme_general, height=90, width=150, units="mm")
+  #ggsave(path="exported_figures/PDF/chapter1",filename="fig156.pdf",fig156_plot + fig156_theme +fig_theme_general, height=90, width=150, units="mm")
 ```
 
 ``` {block, type='imgsource'}
@@ -301,7 +303,7 @@ Võime öelda, et autostumine on olnud suundumus üle Eesti. Maanteeameti ([2017
 
 <p class="caption" id="figure157"><span class="figure-number">Joonis 1.5.7.</span> Kogu Eesti tööga hõivatute peamine tööle liikumise viis, selleks kuluv aeg ning töökoha kaugus, 1997–2017</p>
 
-```{r, figure157, fig.align='center', echo=FALSE, message=FALSE, fig.asp=1.25}
+```{r, figure157, fig.align='center', echo=FALSE, message=FALSE, fig.asp=0.75}
 
 library("tidyverse")
 library("scales")
@@ -335,18 +337,21 @@ fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab k
           panel.grid.major.x = element_blank() ,
           panel.grid.minor.x = element_blank(),
           axis.text.x = element_text(angle=45, margin = margin(t = 7, r = 0, b = 0, l = 0), hjust=1.1),
-          legend.position = "right"
+          legend.position = "right",
+            text=element_text(family="Montserrat")
 
   )
     fig157_theme2 <- theme (
+           text=element_text(family="Montserrat")
   )
 
-  grid.arrange(fig157_plot1 + fig_theme_general + fig157_theme1, fig157_plot2 + fig_theme_general + fig157_theme2, ncol = 1)
+  print(fig157_plot1 + fig_theme_general + fig157_theme1)
+  print(fig157_plot2 + fig_theme_general + fig157_theme2)
 
 
-  ggsave(path="exported_figures/PDF/chapter1",filename="fig157a.pdf",fig157_plot1  +fig_theme_general + fig157_theme1, height=120, width=210, units="mm")
+  #ggsave(path="exported_figures/PDF/chapter1",filename="fig157a.pdf",fig157_plot1  +fig_theme_general + fig157_theme1, height=120, width=210, units="mm")
 
-    ggsave(path="exported_figures/PDF/chapter1",filename="fig157b.pdf",fig157_plot2  +fig_theme_general + fig157_theme2, height=100, width=210, units="mm")
+    #ggsave(path="exported_figures/PDF/chapter1",filename="fig157b.pdf",fig157_plot2  +fig_theme_general + fig157_theme2, height=100, width=210, units="mm")
 ```
 
 ``` {block, type='imgsource'}
@@ -397,11 +402,12 @@ library("tidyverse")
 
 
     fig158_theme <- theme (
+           text=element_text(family="Montserrat")
   )
 
   print(fig158_plot + fig_theme_general + fig158_theme)
 
-  ggsave(path="exported_figures/PDF/chapter1",filename="fig158.pdf",fig158_plot  +fig_theme_general + fig158_theme, height=90, width=100, units="mm")
+  #ggsave(path="exported_figures/PDF/chapter1",filename="fig158.pdf",fig158_plot  +fig_theme_general + fig158_theme, height=90, width=100, units="mm")
 ```
 
 ``` {block, type='imgsource'}

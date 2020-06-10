@@ -205,6 +205,7 @@ fig224_data$percent=percent((fig224_data$value/100), 1)
                      panel.grid.minor.y = element_blank(),
                      axis.line = element_blank(),
                      axis.text.x = element_blank(),
+                         text=element_text(family="Montserrat")
                  )
 
 
@@ -236,7 +237,7 @@ library("tidyverse")
 
   fig225_theme <- theme(
     legend.position=0,
-    text = element_text(size = 12),
+    text = element_text(size = 12, family="Montserrat"),
     panel.grid.major.x = element_blank() ,
     panel.grid.minor.x = element_blank(),
   )
@@ -273,7 +274,9 @@ library("scales")
     expand_limits (y=0)
 
    fig226_theme <- theme(
-     panel.grid.minor.x = element_blank()
+     panel.grid.minor.x = element_blank(),
+      text = element_text(size = 12, family="Montserrat"),
+     
   )
 
   print(fig226_plot + fig_theme_general + fig226_theme)
@@ -307,7 +310,8 @@ library("tidyverse")
     expand_limits (y=0)
 
    fig227_theme <- theme(
-     panel.grid.minor.x = element_blank()
+     panel.grid.minor.x = element_blank(),
+    text = element_text(size = 12, family="Montserrat"),
   )
 
   print(fig227_plot + fig_theme_general + fig227_theme)
@@ -357,6 +361,7 @@ fig228_data$percent=percent((fig228_data$value/100), 1)
                     axis.line = element_blank(),
                     axis.text.x = element_blank(),
                     axis.text.y = element_blank(),
+                    text = element_text(size = 12, family="Montserrat"),
                  )
 
   print(fig228_plot + fig_theme_general + fig228_theme)

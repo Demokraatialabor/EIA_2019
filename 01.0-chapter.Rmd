@@ -48,7 +48,8 @@ Kahanemine ääremaal ei jää ainult kaugete maakohtade mureks, järgmisena haa
 
 <p class="caption" id="figure101"><span class="figure-number">Joonis 1.0.1.</span> Elanike arvu muutus Eesti maakonnakeskustes, 2000–2017, rahvaarv 1. jaanuari seisuga 2000 = 100%</p>
 
-```{r, figure101, fig.align='center', out.width='100%', echo=FALSE, message=FALSE}
+<div class="desktop-plot">
+```{r, figure101, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
 
@@ -79,13 +80,20 @@ names(fig101_data)[names(fig101_data) == "change"] <- "Osakaal"
                  )
   
   ggplotly((fig101_plot + fig_theme_general + fig101_theme), tooltip = c("Osakaal")) %>%
-  layout(legend = list(orientation = "h",y = 1.15, x=0)
-  )
+    config(displayModeBar = F) %>% 
+    layout(legend = list(orientation = "h",y = 1.15)) %>% 
+    layout(xaxis = list(fixedrange = TRUE)) %>%
+    layout(yaxis = list(fixedrange = TRUE))
 
 #ggsave(path="exported_figures/PDF/chapter1",filename="fig101.pdf", height=140, width=210, units="mm")
 
 ```
-
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+print(fig101_plot + fig_theme_general + fig101_theme)
+```
+</div>
 ``` {block, type='figure-comment'}
 <span class="figure-comment-start">Märkus:</span> Ida-Virumaal on kaasatud kõik suuremad linnad. Kärdla, Rapla, Põlva, Jõhvi puhul on andmed esitatud vallasisese linna kohta.
 ```

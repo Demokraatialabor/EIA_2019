@@ -42,7 +42,7 @@ Eeslinnastumine avaldub inimeste ja majandustegevuse liikumisena keskuslinnast e
 Tallinna, Tartu ja Pärnu eeslinnavöös elab kokku 130 000 inimest. Tallinna eeslinnastumine algas juba 1990. aastatel, mida kinnitab 1989‒2001 rahvaloenduse vahelisel perioodil Tallinna ümbritsevate omavalitsuste rahvastiku kasv kümnendiku võrra. Perioodil 2001‒2018 on eeslinlaste arv Suur-Tallinnas kasvanud 37 000 (64%), Tartu eeslinnavaldades 5000 (27%) ning Pärnu eeslinnavaldades 3500 (28%) elaniku võrra ([joonis 1.3.1](#figure131)).
 
 <p class="caption" id="figure131"><span class="figure-number">Joonis 1.3.1.</span> Eeslinlaste arv 2001‒2018 Tallinna, Tartu ja Pärnu lähiümbruses</p>
-
+<div class="desktop-plot">
 ```{r, figure131, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
 library("tidyverse")
@@ -70,13 +70,22 @@ fig131_data$Eeslinlasi <- as.numeric(fig131_data$value)
   )
 
 ggplotly(fig131_plot + fig_theme_general + fig131_theme, tooltip = c("Piirkond","Aasta","Eeslinlasi") ) %>%
-config(displayModeBar = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)
-  )
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
 #ggsave(path="exported_figures/PDF/chapter1",filename="fig131.pdf", height=160, width=250, units="mm")
 ```
+</div>
 
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+print(fig131_plot + fig_theme_general + fig131_theme)
+
+```
+</div>
 ```{block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Statistikaamet.</div>
 <div><a class="data-btn" href="data/13_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
@@ -113,6 +122,7 @@ fig132_data$area <- factor(fig132_data$area, levels = c("Tallinn","Tallinna eesl
                   panel.grid.major.x = element_blank() ,
                   panel.grid.minor.x = element_blank(),
                   legend.position = 0,
+                  text=element_text(family="Montserrat")
   )
 
   print(fig132_plot + fig_theme_general + fig132_theme)
@@ -152,6 +162,7 @@ library("reshape")
 
    fig133_theme <- theme(
         axis.text.x = element_text(angle=45, margin = margin(t = 7, r = 0, b = 0, l = 0), hjust=1.1),
+        text=element_text(family="Montserrat")
   )
 
   print(fig133_plot + fig_theme_general + fig133_theme)
