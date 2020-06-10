@@ -1,9 +1,10 @@
 --- 
 title: "Eesti inimarengu aruanne 2019/2020"
+cover-image: "figures/cover.png"
+description: "Linnastunud ühiskonna ruumilised valikud"
 site: bookdown::bookdown_site
 biblatexoptions: [refsegment=chapter]
 link-citations: yes
-description: "Eesti inimarengu aruanne 2019"
 css: eia.css
 lang: et
 ---

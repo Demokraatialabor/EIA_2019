@@ -24,7 +24,6 @@ bookdown::gitbook:
       instapaper: no
       vk: no
       all: no
-    cover-image: "figures/cover.png"
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex

@@ -535,6 +535,7 @@ library("tidyverse")
 library("scales")
 library("reshape")
 library("showtext")
+library("plotly")
 
 showtext_auto()
 font_add_google(name = "Montserrat", family = "Montserrat")
@@ -551,9 +552,10 @@ fig02_data$Asukoht <- factor(fig02_data$Asukoht, levels = c("Tallinna eeslinn","
 
 fig02_data$percent=percent((fig02_data$Protsent/100), 1)
 
+fig02_data$Osakaal <- ifelse(test = fig02_data$Sugu == "Mehed", yes = -fig02_data$Protsent, no = fig02_data$Protsent)
+                   
   fig02_plot <- ggplot(data = fig02_data,
-       mapping = aes(x = Vanus, y = ifelse(test = Sugu == "Mehed", yes = -Protsent, no = Protsent),
-                     fill = Sugu)) +
+       mapping = aes(x = Vanus, y = Osakaal,fill = Sugu)) +
       geom_col() +
       coord_flip() +
       scale_y_continuous(labels = abs, breaks=c(-15,-10,-5,0,5,10,15), limits = max(fig02_data$Protsent) * c(-1.2,1.2)) +
@@ -564,15 +566,15 @@ fig02_data$percent=percent((fig02_data$Protsent/100), 1)
     fig_theme_general <- theme(
                      text = element_text(color = "#292b2c", size = 12, family=""),
                      panel.background = element_rect(fill = "white", colour = "white"),
-                     panel.grid.major = element_line(colour="#cccccc", size = (0.2)),
-                     panel.grid.minor = element_line(size = (0.2), colour="#cccccc"),
+                     panel.grid.major = element_line(colour="#eaeaea", size = (0.2)),
+                     panel.grid.minor = element_line(size = (0.2), colour="#eaeaea"),
 
-                     axis.line = element_line(size = 0.2, colour = "#cccccc"),
-                     axis.ticks = element_line(colour = "#cccccc", size=(0.2)),
+                     axis.line = element_line(size = 0.2, colour = "#eaeaea"),
+                     axis.ticks = element_line(colour = "#eaeaea", size=(0.2)),
                      axis.text.x = element_text(margin = margin(t = 10, r = 0, b = 0, l = 0)),
                      axis.text.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
-                    axis.title.y = element_text(margin = margin(t = 0, r = 12, b = 0, l = 0)),
-                     axis.title.x = element_text(margin = margin(t = 8, r = 0, b = 0, l = 0)),
+                    axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0)),
+                    axis.title.x = element_text(margin = margin(t = 15, r = 0, b = 0, l = 0)),
                     plot.margin = unit(c(0.5,0,0,0), "cm"),
 
                      legend.position="top",
@@ -585,11 +587,15 @@ fig02_data$percent=percent((fig02_data$Protsent/100), 1)
   )
 
   fig02_theme <- theme(
+    text=element_text(family="Montserrat")
                  )
 
-  print(fig02_plot + fig_theme_general + fig02_theme)
+ggplotly(fig02_plot + fig_theme_general + fig02_theme, tooltip = c("Vanus", "Sugu")) %>%
+  layout(legend = list(orientation = "h",y = 1.15, x=0)
+  )
+  
 
-  ggsave(path="exported_figures/PDF/chapter0",filename="fig05.pdf", height=130, width=200, units="mm")
+#ggsave(path="exported_figures/PDF/chapter0",filename="fig05.pdf", height=130, width=200, units="mm")
 ```
 
 ``` {block, type='imgsource'}

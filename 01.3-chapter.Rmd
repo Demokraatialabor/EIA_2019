@@ -43,17 +43,21 @@ Tallinna, Tartu ja Pärnu eeslinnavöös elab kokku 130 000 inimest. Tallinna ee
 
 <p class="caption" id="figure131"><span class="figure-number">Joonis 1.3.1.</span> Eeslinlaste arv 2001‒2018 Tallinna, Tartu ja Pärnu lähiümbruses</p>
 
-```{r, figure131, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+```{r, figure131, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
 library("tidyverse")
 library("plotly")
 
  fig131_data <- read.csv ("data/13_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
 
+names(fig131_data)[names( fig131_data) == "year"] <- "Aasta"
+names(fig131_data)[names(fig131_data) == "area"] <- "Piirkond"
 
-  fig131_plot <- ggplot(subset(fig131_data, area %in% c("Tallinna eeslinn", "Tartu eeslinn", "Pärnu eeslinn"))) +
-    geom_line(mapping = aes(x=year, y = as.numeric(value), colour=area, group=area), size=1) +
-    geom_text(mapping = aes(x=year, y=as.numeric(value), label=value), stat="identity", vjust=-1, size=2) +
+fig131_data$Eeslinlasi <- as.numeric(fig131_data$value)
+
+  fig131_plot <- ggplot(subset(fig131_data, Piirkond %in% c("Tallinna eeslinn", "Tartu eeslinn", "Pärnu eeslinn"))) +
+    geom_line(mapping = aes(colour=Piirkond, x=Aasta, y = Eeslinlasi), size=1) +
+    #geom_text(mapping = aes(x=year, y=as.numeric(value), label=value), stat="identity", vjust=-1, size=2) +
     scale_colour_manual(values=c("#3A404A","#482683","#369B9E")) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,100000)) +
     scale_x_continuous(breaks=c(2001,2006,2011,2015,2016,2017,2018),expand = c(0, 0), limits=c(2000,2018.5)) +
@@ -62,11 +66,15 @@ library("plotly")
 
    fig131_theme <- theme(
      panel.grid.minor.x = element_blank(),
+     text=element_text(family="Montserrat")
   )
 
-print(fig131_plot + fig_theme_general + fig131_theme)
+ggplotly(fig131_plot + fig_theme_general + fig131_theme, tooltip = c("Piirkond","Aasta","Eeslinlasi") ) %>%
+config(displayModeBar = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)
+  )
 
-  ggsave(path="exported_figures/PDF/chapter1",filename="fig131.pdf", height=160, width=250, units="mm")
+#ggsave(path="exported_figures/PDF/chapter1",filename="fig131.pdf", height=160, width=250, units="mm")
 ```
 
 ```{block, type='imgsource'}
