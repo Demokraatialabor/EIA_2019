@@ -1,0 +1,224 @@
+## Ekspertide roll ja staatus ühiskondlikes meediaaruteludes {.chapter_section .chapter4_section}
+
+```{block, type='authors'}
+<div class="author-links">**[Arko Olesk](#arko-olesk)**</div>
+<div><a class="print-btn" href="../print/EIA-2019-4.4.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+```
+
+```{block, type='points'}
+* Eksperdid ja teadlased suudavad Eestis käivitada olulisi ühiskondlikke arutelusid ning rikastada neid teaduspõhise teabega. See aga ei tähenda, et avalikkus tajuks neid arutelusid alati teadmistepõhistena.
+```
+
+Aasta 2018 lõpus kerkis Eesti päevapoliitika üheks keskseks teemaks küsimus Eesti ühinemisest ÜRO ränderaamistikuga. Valitsus selles üksmeelele ei jõudnud ning mitme päeva jooksul oli õhus valitsuskoalitsiooni lagunemise võimalus. Liitumise vastu olnud justiitsminister Urmas Reinsalu põhjendas avalikes esinemistes, et tugineb rahvusvahelise õiguse ekspertide hinnangutele, mille kohaselt võtavad riigid raamistikuga liitudes endale ulatuslikke kohustusi migrantide kohtlemisel. Välisminister Sven Mikser rõhutas omakorda õiguskantsleri hinnangut, et ränderaamistik ei ole õiguslikult siduv ega too kaasa uusi kohustusi.
+
+Sisulise arutelu kõrval ilmus Eesti ajakirjanduses sel teemal ka arvamuslugusid pealkirjadega „Püha ekspert eksitab“ (<a href="https://majandus24.postimees.ee/6457147/harry-tuul-puha-ekspert-eksitab">Harry Tuul, Postimees, 20.11.2018</a>), „Pooltoonideta Eesti viib ühiskonda, kus ekspert vaikib“ (<a href="https://arvamus.postimees.ee/6455198/allar-joks-pooltoonideta-eesti-viib-uhiskonda-kus-ekspert-vaikib.">Allar Jõks, Postimees, 16.11.2018</a>) ja „Ränderaamistiku poleemikas on vastutus nii poliitikutel kui ka teadlastel“ (<a href="https://novaator.err.ee/878140/oigusteadlane-randeraamistiku-poleemikas-on-vastutus-nii-poliitikutel-kui-ka-teadlastel">Birgit Aasa, ERR, 19.11.2018</a>). Arutelu ei käinud seega mitte ainult ÜRO dokumendi õiguslike tagajärgede üle, vaid ka selle üle, kes on pädev sõna võtma ja kuidas peaks avalikkus ekspertide seisukohtadega ümber käima. Arvamuslugude autorid, kes ise olid enamasti valdkonna eksperdid, heitsid meediale ette keerulise teema liigset lihtsustamist. Nagu viitas Tartu Ülikooli Euroopa õiguse dotsent Carri Ginter (<a href="https://www.err.ee/878530/ginter-uksteise-pihta-loobitud-oigusarvamused-randeraamistikust-erinevad-vahe">ERR, 21.11.2018</a>), erinesid ränderaamistiku kohta esitatud õigusarvamused üksteisest sisulises mõttes vähe, „küll polariseerus ühiskond nende ümber ja hakkas nende arvamusi üksteise pihta loopima, et asi oleks mustem ja valgem“.
+
+Artiklitest tuleb aga välja ka autorite arusaam, et debatis osales eksperdi sildi all nii mõnigi, kes ei teinud seda objektiivselt ja faktipõhiselt aluselt, vaid enda või kellegi teise huvide edendamiseks või ideoloogilise seisukoha toetamiseks. Avalikus teemakäsitluse käigus tajuti mitmesuguseid ohte teadmistepõhise arutelu võimalikkusele üldiselt, näiteks: „Kui teadlastelt ei saa enam eeldada poliitilist erapooletust, põhjalikkust ja tasakaalustatust nende ekspertiisi kuuluva esitamisel, kannatab sellega lisaks konkreetse teadlase autoriteedile ka kogu teaduse tõsiseltvõetavus“ (<a href="https://novaator.err.ee/878140/oigusteadlane-randeraamistiku-poleemikas-on-vastutus-nii-poliitikutel-kui-ka-teadlastel">Birgit Aasa, ERR, 19.11.2018</a>).
+
+Ränderaamistiku näide toob ilmekalt esile, kui keerukas võib olla ekspertide roll avalikes aruteludes. Peale põhiteema peavad osapooled ja avalikkus muu hulgas tegelema ka küsimustega, keda ja miks usaldada ekspertidena ning kas ja kuidas arvestada ühiskondlikult kaalukate otsuste langetamisel teaduspõhise infoga.
+
+<div class="casebox">
+<h3>ÜRO ränderaamistik</h3>
+
+ÜRO globaalne ränderaamistik on ÜRO liikmesriikide poolt ühiselt läbi räägitud deklaratsioon, mis keskendub seaduslikule liikumisele, nagu töö- või õpiränne, ja annab võimaluse parandada rahvusvahelist rändealast koostööd, sealhulgas ennetada ebaseaduslikku rännet ja võidelda inimkaubanduse ja -smugeldamisega. Kokkuleppe teksti lõpetasid ÜRO liikmesriigid 2018. aasta juulis ja see võeti vastu 19. detsembril Marokos Marrakechis peetud valitsustevahelisel konverentsil. Eesti valitsus ei saavutanud raamistiku toetamises konsensust ja saatis teema Riigikogusse, kes võttis vastu raamistikku toetava avalduse. Sellele tuginedes hääletas Eesti Marrakechis raamistiku vastuvõtmise poolt.
+
+<p class="caption" id="figure441"><span class="figure-number">Joonis 4.4.1.</span> Rändelepingu protest Stenbocki maja ees</p>
+```{r, figure441, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
+
+knitr::include_graphics("../figures/4-chapter/fig441.png")
+```
+</div>
+
+```{block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Ekspress Meedia, Madis Veltman.
+```
+
+Need küsimused ei ole uued. Paljud arenenud riikide viimaste aastakümnete tähelepanuväärsed ühiskondlikud vaidlused ja vastuolud taanduvad lähemal vaatlusel just ekspertide või faktide usaldamise küsimusele. On olnud olukordi, kus teadus on alt vedanud suurõnnetuste ärahoidmisel (nt Tšornobõli ja Fukushima tuumaõnnetused, hullulehmatõbi, linnu- ja seagripp), kus peljatakse uute või olemasolevate teadusrakenduste negatiivseid mõjusid (nt vaktsiinid, geneetiliselt muundatud põllukultuurid) või kus ühiskondade ette on kerkinud ootamatud väljakutsed ja n-ö nurjatud probleemid (nt kliimamuutus, rändekriis). Nii on ekspertide ja faktide staatust puudutavad küsimused ülemaailmselt üha enam päevakorral, nagu on tõestanud ka Brexiti-kampaania, Donald Trumpi „alternatiivsete faktide“ maailm ning Venemaaga seostatavad infooperatsioonid sotsiaalmeedias.
+
+```{block, type='blockquote-right'}
+Teaduslike teadmiste arusaadavas ja selges keeles vahendamine ei teeni ainult teadustulemuste populariseerimise eesmärki, vaid on oluline komponent ühiskonna demokraatlikus toimimises.
+```
+
+Tõnis Saarts (<a href="https://sirp.ee/s1-artiklid/c9-sotsiaalia/huvasti-postkommunistlik-eesti/">2018</a>) tõdeb, et Eesti poliitika ja ühiskonna kesksed küsimused on kiiresti lähenenud postindustriaalse läänemaailma põhivoolule, keskendudes näiteks üleilmastumise mõjudele, eneseväljenduse väärtustele (nt seoses vähemuste õiguste ja keskkonnakaitsega) ning osalusdemokraatiaga seonduvale. Need on ühtlasi valdkonnad, kust pärineb suurem osa eeltoodud näidetest olulise ekspertide osalusega ühiskondlike arutelude kohta. Nii on asjakohane küsida, milline on olukord sarnaste debattidega Eestis.
+
+Siinses artiklis vaatlen ekspertide osalust Eesti ühiskondlikes aruteludes peamiselt keskkonnateemaliste näidete toel ja analüüsin, mil määral on teadlased ja teised eksperdid päevakajalistes debattides nähtaval ja milline on nende roll arutelude kujundamisel. Seejuures keskendun just meedia vahendusel peetavatele debattidele, sest meedia on ühiskonnas kõige avalikum areen. Meedias toimuval on võime jõuda kõige suurema osani elanikest, kujundada nende teadmisi, hoiakuid ja jagatud arusaamu.
+
+Ekspertide osaluse kohta aruteludes ei ole Eestis seni tehtud süstemaatilisi uuringuid. Siinsel püüdel suundumusi analüüsida on abiks illustreerivad väljavõtted ajakirjandusest koos mõningase üldkirjeldava statistikaga station.ee meediamonitooringust.
+
+### Teadlaste roll ühiskondlikes aruteludes {-.chapter4_section}
+
+Arutleva demokraatia ideaali kohaselt (ja ka avatud valitsemise põhimõtete järgi,<a href="https://www.opengovpartnership.org/process/joining-ogp/open-government-declaration/"> vt Open Government Declaration 2011</a>) sünnivad otsused ühiskonnas sellise arutelu tulemusel, kuhu on kaasatud kõik olulised osapooled ning mille keskmes on argumenteerimine ja põhjendamine. Ekspertide osalus tagab, et arutlejate käsutuses on parim olemasolev teadmine, et jõuda informeeritud otsuseni. Seetõttu rõhutavad ka teaduskommunikatsiooni teoreetilised käsitlused, et teaduslike teadmiste arusaadavas ja selges keeles vahendamine ei teeni ainult teadustulemuste populariseerimise eesmärki, vaid on oluline komponent ühiskonna demokraatlikus toimimises.
+
+Teadlaste avalikku arutellu kaasamise nimel on viimastel aastakümnetel teinud suuri pingutusi paljud teadusinstitutsioonid. Aastal 1977 lisas Rootsi seadusesse sätte, mille kohaselt on ülikoolide kolmas ülesanne teaduse tegemise ja õppetöö kõrval ka teadusliku teadmise vahendamine avalikkusele ([Kasperowski ja Nolin 2003](#Kasperowski2003)). Briti Kuningliku Seltsi (<a href="https://royalsociety.org/~/media/Royal_Society_Content/policy/publications/1985/10700.pdf">The Royal Society</a>) 1985. aasta mõjukas raport „The Public Understanding of Science“ sõnastas, et avalikkusega suhtlemine on iga teadlase kohustus. Eestis toovad nii Tartu Ülikooli eetikakeskuses välja töötatud <a href="https://www.ut.ee/sites/default/files/www_ut/hea_teadustava_est.pdf">Hea teadustava</a> kui ka <a href="http://www.akadeemia.ee/_repository/File/ALUSDOKUD/Eetikakoodeks2002.pdf">Eesti teadlaste eetikakoodeks</a> esile teadlase ülesande teadustulemusi „populariseerida“ või „propageerida“, eetikakoodeks lisab ka vajaduse vastu seista ebateadusele.
+
+Poliitikadokumentides leiab see teema Eestis käsitlust aga vähem. Keskkonnaministeeriumi 2005. aasta
+„<a href="https://www.riigikantselei.ee/sites/default/files/content-editors/Failid/saastev_eesti_21.pdf">Säästev Eesti 21</a>“ arengu strateegia küll toob ainsa Eesti jätkusuutlikkust tagava arenguteena esile teadmistepõhisuse (selles dokumendis „teadmuspõhisus“) mitte ainult majanduses, vaid ka riigivalitsemises ja ühiskonnas laiemalt. Haridus- ja Teadusministeeriumi 2014. aastal avaldatud Eesti teadus- ja arendustegevuse ning innovatsiooni strateegia „<a href="https://www.hm.ee/sites/default/files/59705_teadmistepohine_eesti_est.pdf">Teadmistepõhine Eesti</a>“ käsitleb teaduse panust ühiskonda aga pea eranditult majandusvõtmes.
+
+```{block, type='blockquote-left'}
+Kui teadlane osaleb avalikes aruteludes, on see pigem kodanikuaktiivsuse väljendamine, mitte erialaselt eeldatud ja toetatud tegevus.
+```
+Eesti teadlased on ajalooliselt olnud ühiskonnas nähtavas rollis. Eurobaromeetri 2010. aasta uuringu kohaselt soovivad eestlased teadusteemade kohta enim kuulda teadlastelt ning Euroopa Liidu keskmisega võrreldes vähem teistelt ühiskondlikelt tegutsejatelt. Toetus teadusele on tugev ning samuti on kõrged ootused selle positiivsele mõjule. Sealsamas uuringus tunnistas aga 40% eestlastest, et pole teaduse arenguga kursis nii palju, kui tahaks, viidates, et toetus teadusele on pigem ootuste- kui teadmistepõhine.
+
+Seega võib öelda, et ühelt poolt ootab meie ühiskond teadlaste sõnumeid. Suhtlemise soodustamiseks on viimase kümmekonna aasta jooksul tekkinud ka parem tugi: on loodud tugistruktuurid ülikoolides, suurenenud teaduskajastus meedias (nt telesaade „Rakett 69“ ja portaal ERR Novaator), antakse teaduse populariseerimise auhindu ning struktuurivahendite toel toimivad riiklikud programmid (TeaMe ja TeaMe+).
+
+
+```{block, type='blockquote-right'}
+Ekspert – oma valdkonda teadmistepõhiselt tutvustav spetsialist.
+```
+Teiselt poolt seostub nõudlus kas teaduse populariseerimisega (s.o teadlaste töö või üldiste teaduslike põhimõtete selgitamine) või oodatakse teaduselt eeskätt rakenduslikku panust majanduse hüvanguks. Kummalgi juhul puudub otseselt eelkirjeldatud demokraatlik mõõde, mis tekib osalemisest avalikes debattides. Samuti ei ole Eesti ülikoolides veel sisse töötatud viise, kuidas väärtustada teadlase panust ühiskonda, sealhulgas osalemist avalikes aruteludes ja poliitikakujundamises ning teaduskommunikatsioonis laiemalt, ega soosi seda ka teaduse ja ülikoolide rahastamismudelid. Nii võib öelda, et kui teadlane osaleb avalikes aruteludes, on see pigem kodanikuaktiivsuse väljendamine, mitte erialaselt eeldatud ja toetatud tegevus. Sama võib eeldada teiste oma valdkonda teadmistepõhiselt tutvustavate spetsialistide kohta. Neil põhjustel ei ole ekspertide pidev aktiivne osalus ühiskondlikes aruteludes sugugi enesestmõistetav.
+
+### Puidurafineerimistehase kava ärgitas teadlasi vedama avalikku arutelu  {-.chapter4_section}
+
+Jaanuaris 2017 teatas rühm Eesti ettevõtjaid, et kaalub „tänapäevase ja keskkonnasõbraliku puidurafineerimistehase ehitamist Eestisse“ (<a href="http://biorefinery.ee/eestisse-kavandatakse-1-miljardi-euro-suurust-toostusinvesteeringut.">Biorefinery.ee, 10.01.2017</a>). Paar nädalat hiljem lisas tehase arendamiseks loodud ettevõte Est-For Invest, et „eelanalüüsi kohaselt oleks kõige otstarbekam rajada tehas Tartu- või Viljandimaale, Suure Emajõe jõgikonda. Tehase asukoha valiku tegemiseks, sealhulgas keskkonnamõjude hindamiseks, taotlevad projekti arendajad riigi eriplaneeringut“ (<a href="http://biorefinery.ee/planeeritav-tehas-voiks-asuda-suur-emajoe-jogikonnas">Biorefinery.ee, 27.01.2017</a>).
+
+Valitsus algatas eriplaneeringu tehasele sobivaima asukoha leidmiseks ja mõjude strateegiliseks hindamiseks mais 2017. Samal ajal ajakirjanduses ilmuma hakanud hinnangutes võib eristada kolme peamist muret: tehase võimalik mõju Eesti metsadele (mis seondus samal ajal käinud laiema aruteluga metsanduse arengukava üle), mure Emajõe ja Peipsi järve seisundi pärast ning mõju inimeste elukeskkonnale (eeskätt võimalike haisulekete tõttu). Lisandus kartus, et riigi eriplaneeringut kasutades minnakse otsuste tegemisel mööda kohalikest elanikest ja kohalikest omavalitsustest.
+
+Arutelu edenedes vastasseisud võimendusid. Aasta 2018 jaanipäeva eel teatas valitsus eriplaneeringu lõpetamise protsessi alustamisest ja sama aasta novembris lõpetas selle ametlikult. Seejärel andsid ka arendajad teada, et loobuvad tehase rajamise kavast. Meediamonitooringu ([Joonis 4.4.2](#figure442)) põhjal olid enim kajastatud sündmused eriplaneeringu alustamise ja lõpetamise otsuste vahel kolme ülikooli rektori kokkulepe (detsembris 2017), allkirjade kogumine Tartus (jaanuaris 2018), avalikkuse ette jõudnud puidutarneleping RMKga (jaanuaris 2018), Tartu apelli nime all sõnastatud kodanike pöördumine ja tehase rajamise mõjude arutelu Tartu volikogus, mis otsustas taotleda riigi eriplaneeringu lõpetamist (märtsis 2018), ning tehase rajamise vastu suunatud Emajõe inimkett ja protestid teise võimaliku asukohana nimetatud Tabiveres (mais 2018).
+
+<p class="caption" id="figure442"><span class="figure-number">Joonis 4.4.2.</span> Puidurafineerimistehase mainimissagedus meedias perioodil 1.01.2017–20.12.2018</p>
+```{r, figure442, out.width='100%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
+
+library("tidyverse")
+
+ fig442_data <- read.csv ("../data/44_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
+
+fig442_data_cleaned <- as.data.frame(table(fig442_data$date))
+fig442_data_cleaned$date <- as.Date(fig442_data_cleaned$Var1)
+
+
+  fig442_plot <- ggplot(data = fig442_data_cleaned) +
+    geom_line(mapping = aes(x=date, y=Freq), size=.8, group="date", colour="#BC9417") +
+    scale_x_date(date_breaks="2 months",date_labels =  "%d.%m.%y") +
+    labs(y="Sagedus", x="Kuupäev")
+
+    fig442_theme <- theme(
+                     axis.line = element_line(size = 0.2, colour = "#cccccc"),
+                     axis.text.x = element_text(angle=45, margin = margin(t = 7, r = 0, b = 0, l = 0), hjust=1.1),
+                    axis.title.x = element_text(margin = margin(t = 15, r = 0, b = 0, l = 0)),
+                      text = element_text(family="Montserrat"),
+                 )
+
+  print(fig442_plot + fig_theme_general + fig442_theme)
+
+  #ggsave(path="exported_figures/PNG",filename="fig442.png",height=150, width=300, units="mm")
+  #ggsave(path="exported_figures/PDF",filename="fig442.pdf", height=120, width=200, units="mm")
+```
+
+```{block, type='imgsource'}
+<div><span class="imgsource-source">Allikas:</span> Station.ee meediamonitooring, otsisõnad „puidurafineerimistehas“ ja „tselluloositehas“.</div>
+<div><a class="data-btn" href="../data/44_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+```
+
+Kokku mainiti märksõnu „puidurafineerimistehas“ või „tselluloositehas“ 2017. ja 2018. aasta jooksul meedias ligi 4000 artiklis ja saatelõigus. Enim pälvis kajastusi juunikuine valitsuse otsus alustada eriplaneeringu lõpetamine, teise tipu tekitas märtsikuine Tartu volikogu arutelu. 41% meediakajastustest mainis ka ülikoole, teadlasi või teadust üldiselt, andes ligikaudse määra, kuivõrd arutelud teadusega seonduvale toetusid või viitasid. Seejuures oli nende märksõnade mainimine sagedasem just 2018. aasta märtsikuus ja oluliselt harvem juunis, mil oli teema kajastuste üldine tipp.
+
+<div class="casebox">
+<h3>Puidurafineerimistehase rajamise plaan</h3>
+
+Uue puidurafineerimistehase rajamise algatasid Eesti ettevõtjad 2017. aasta jaanuaris ja pakkusid selle võimalikuks asukohaks Suure Emajõe läheduse. Valitsus algatas eriplaneeringu tehasele sobivaima asukoha leidmiseks ja mõjude strateegiliseks hindamiseks mais 2017. Tartus koondusid tehase rajamise kava suhtes kriitilised teadlased ja kodanikuaktivistid Tartu apelli töörühma, kes koostas pöördumisi riigi eriplaneeringu lõpetamiseks. Sama otsustas 2018. aasta märtsis taotleda Tartu linnavolikogu. Sama aasta juunis moodustati nõudmiste toetuseks Emajõe ääres mitme tuhande osalejaga inimkett. 2018. aasta jaanipäeva eel teataski valitsus eriplaneeringu lõpetamise protsessi alustamisest ja sama aasta novembris lõpetas selle ametlikult, mille järel peatasid ettevõtjad tehase arendamise.
+
+<p class="caption" id="figure443"><span class="figure-number">Joonis 4.4.3.</span> Puidurafineerimistehase vastane meeleavaldus Emajõel, Tartus</p>
+
+```{r, figure443, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
+
+knitr::include_graphics("../figures/4-chapter/fig443.png")
+```
+</div>
+```{block, type='imgsource'}
+<span class="imgsource-source">Allikas:</span> Oop.
+```
+
+Teema kohta ilmunud silmapaistvamaid artikleid vaadeldes saab täpsemalt eritleda teadlaste ja teiste ekspertide osalust ja rolli. Nende põhjal võib öelda, et teadmistepõhisus oli debatis oluline märksõna, mida oma sõnades rõhutasid nii tehase rajamise eestvedajad (<a href="http://biorefinery.ee/aadu-polli-puidurafineerimistehas-kui-argumenteeritud-debati-proovikivi">Biorefinery.ee, 7.03.2018</a>), protsessi kriitikud, näiteks Tartu apelli töörühm (<a href="https://www.err.ee/837131/tartu-apelli-tooruhm-6-levinud-eksivaidet-tselluloositehasest-ja-eriplaneeringust">ERR, 5.06.2018</a>), kui ka sõltumatute ekspertidena arvamuslugusid kirjutanud teadlased (<a href="http://maaleht.delfi.ee/news/keskkond/uudised/keemik-tselluloositehasest-valefaktide-kasutamine-ja-emotsioonidest-laetud-arutelud-ei-aita-kaasa-ratsionaalse-ja-argumenteeritud-otsuse-tegemisele?id=81471789">Indrek Aarna, Maaleht, 19.03.2018</a>; <a href="https://ekspress.delfi.ee/kuum/analuus-mida-me-teame-ja-mida-ei-tea-tartu-tselluloositehase-mojust-emajoele?id=82174131">Enn Loigu, Eesti Ekspress, 23.05.2018</a>). Seejuures ei saavutatud siiski üksmeelt selles, millised teadmised on olulised. Suurimad vastuolud tekkisid küsimuses, kas Emajõe äärde tehase rajamise otsuse jaoks on tarvis uuringuid või mitte.
+
+Keskkonnamõju hindamine oleks olnud riigi eriplaneeringu üks osa, sellega aga ei jõutud alustada. Emajõe äärde tehase rajamise vastased, näiteks Tartu linnapea Urmas Klaas, ütlesid kohati otse välja seisukoha, et nende hinnangul pole täiendavaid uuringuid tarvis (<a href="http://www.delfi.ee/news/paevauudised/eesti/urmas-klaas-astub-kaja-kallasele-vastu-mingeid-uuringuid-tselluloositehase-kohta-pole-vaja?id=81391205">Indrek Tark, Delfi, 9.03.2018</a>). Seda seisukohta kritiseeriti debatis korduvalt kui tunnistust emotsionaalsest, mittetõenduspõhisest käsitlusest; näiteks tegi sellise etteheite Eesti Teaduste Akadeemia president Tarmo Soomere (<a href="https://www.err.ee/875846/soomere-eriplaneeringu-lopetamisest-uks-arenguvoimalus-lasti-lorri-minna.">Tõnu Karjatse, Toomas Pott, ERR, 9.11.2018</a>).
+
+Väidet, et uuringuid pole tarvis, esitleti samuti teaduspõhisena. Näiteks kirjutas Kristjan Zobel (<a href="https://arvamus.postimees.ee/4473813/kristjan-zobel-innukas-ja-enesekindel-harimatus">Postimees, 20.04.2018</a>): „Võrtsjärve-Emajõe-Peipsi vesikond on kahtlemata üks läbiuuritumaid siseveekogude ökosüsteeme maailmas. [---] Mina ei oska ökoloogina tõesti pakkuda, mida olulist me selle veeökosüsteemi juures ei tea“. Erik Puura (<a href="https://tartu.postimees.ee/4435723/erik-puura-kusimus-pole-selles-kas-tehas-muudab-keskkonna-seisundi-halvemaks-vaid-selles-kui-palju-ta-seda-teeb">Postimees, 11.03.2018</a>) sõnul „ei hakata uurima mitte seda, kas keskkond jääks pärast tehase käivitumist sama puhtaks, vaid seda, kui palju halvemaks võiks Tartu, Emajõe ja Peipsi keskkonnaseisund vastavalt seadustele ja normatiividele minna“.
+
+Kuna argumendi kohaselt on Emajõe ja Peipsi seisund halb ega tohi halveneda, välistab see mis tahes reostusallika lisamise vesikonda. Vastusena on teised teadlased (<a href="https://ekspress.delfi.ee/kuum/analuus-mida-me-teame-ja-mida-ei-tea-tartu-tselluloositehase-mojust-emajoele?id=82174131">Enn Loigu, Eesti Ekspress, 23.05.2018</a>)  jällegi rõhutanud veekogude seisundi olulist paranemist viimasel ajal ning mitmeid eri aspekte (<a href="http://maaleht.delfi.ee/news/keskkond/uudised/keemik-tselluloositehasest-valefaktide-kasutamine-ja-emotsioonidest-laetud-arutelud-ei-aita-kaasa-ratsionaalse-ja-argumenteeritud-otsuse-tegemisele?id=81471789">Indrek Aarna, Maaleht, 19.03.2018</a>; <a href="https://www.postimees.ee/5904523/emajoe-teadlased-tselluloositehase-moju-pidanuks-uurima">Tiina Kaukvere, Postimees, 23.07.2018</a>), mida me uuringuteta teada ei saa, kui ka sooviksime teadmistepõhiselt tehase rajamist välistada.
+
+Teadlaste eri arusaamad ja tõlgendused näiteks seoses lubatud fosforitasemega tõid kaasa vastastikused etteheited avalikkuse eksitamises (<a href="https://ekspress.delfi.ee/kuum/analuus-mida-me-teame-ja-mida-ei-tea-tartu-tselluloositehase-mojust-emajoele?id=82174131">Enn Loigu, Eesti Ekspress, 23.05.2018</a>; <a href="https://www.err.ee/823117/tartu-apelli-tooruhm-professori-vaited-ringvaates-olid-eksitavad">Tartu apelli töörühm 2018</a>), või suisa valefaktide kasutamises (<a href="http://maaleht.delfi.ee/news/keskkond/uudised/keemik-tselluloositehasest-valefaktide-kasutamine-ja-emotsioonidest-laetud-arutelud-ei-aita-kaasa-ratsionaalse-ja-argumenteeritud-otsuse-tegemisele?id=81471789">Indrek Aarna, Maaleht, 19.03.2018</a>), kusjuures mõnikord seati avalikult kahtluse alla teise teadlase asjatundlikkus (<a href="https://epl.delfi.ee/arvamus/ulo-mander-protesteerib-tselluloositehase-osas-marandi-artikkel-naitab-piiratud-teadmisi-veesusteemide-okoloogiast?id=82700929">Ülo Mander, Eesti Päevaleht, 19.06.2018</a>; vt ka <a href="https://www.err.ee/823117/tartu-apelli-tooruhm-professori-vaited-ringvaates-olid-eksitavad">Tartu apelli töörühm 2018</a>). Neid käsitluste ja arusaamade erinevusi käsitles mõnevõrra ka meedia, tehes seda nii naeruvääristavalt, väites, et „argumente varjutasid emotsioonid“ (<a href="https://www.err.ee/689935/teadlaste-vaitluses-tselluloositehase-ule-varjutasid-argumente-emotsioonid">Madis Hindre, ERR, 16.03.2018</a>),  kui ka tasakaalustatult (<a href="https://www.postimees.ee/5904523/emajoe-teadlased-tselluloositehase-moju-pidanuks-uurima">Tiina Kaukvere, Postimees, 23.07.2018</a>), viimast alles pärast valitsuse otsust algatada eriplaneeringu lõpetamine.
+
+Toodud viited, aga ka mitme teise teadlase, nt Ülo Manderi, Jaan Kersi, Tõnu Kurissoo ja Andres Marandi sõnavõtud, näitavad, et debatis osales arvestatav hulk teadlasi, kes panustasid arutellu teadusliku teadmise ja argumenteeritud väidetega. Ka kodanike pöördumise sõnastanud ja allkirju kogunud Tartu apelli töörühm koosnes peamiselt Tartu Ülikooli teadlastest. Mitmed meedias ilmunud teadlaste sõnavõtud osutusid kaalukateks, neile viidati diskussiooni käigus korduvalt.
+
+Sellegipoolest on kogu puidurafineerimistehase rajamise plaani ümber arenenud ühiskondlikku protsessi tagantjärele meedias hinnatud peamiselt või isegi üksnes emotsioonidest juhituks, mitteratsionaalseks (nt <a href="https://www.aripaev.ee/uudised/2018/12/28/vare-eesti-tulistab-endale-ise-jalga">Raivo Vare – Äripäev, 28.12.2018</a>, <a href="https://arvamus.postimees.ee/6498915/argo-rosin-eestis-kuulatakse-liiga-vahe-inseneride-arvamust.">Argo Rosin – Postimees, 14.01.2019</a>, <a href="https://www.err.ee/888574/alar-karis-eestlased-on-vaga-osavad-millegi-vastu-olema">Alar Karis – ERR, 31.12.2018 </a>). Ühelt poolt võib selle põhjuseks olla asjaolu, et teaduslikud küsimused jäid lahenduseta, enne algatas valitsus eriplaneeringu menetlemise lõpetamise, põhjendades seda eeskätt kohalike vastuseisuga (<a href="https://www.aripaev.ee/uudised/2018/06/21/valitsus-lopetab-est-fori-tselluloositehase-planeeringu">Äripäev, 21.06.2018</a>) . Tartu apelli eestvedajadki hindasid toimunut oma <a href="https://tartuapell.voog.com/meedias-ilmunud-artiklid">kodulehel</a>  kui kodanikuühiskonna, mitte niivõrd oma argumentide võitu. Samuti puudus teadlaskonna seas ühtsus, mille tõttu oli nende debatti lihtne seada emotsionaalsemate vastaseisude (Tartu–Tallinn, ärimehed–looduskaitsjad) raamistusse.
+```{block, type='blockquote-right'}
+Puidurafineerimistehase rajamise plaani ümber arenenud ühiskondlikku protsessi on tagantjärele meedias hinnatud peamiselt või isegi üksnes emotsioonidest juhituks, mitteratsionaalseks.
+```
+Puidurafineerimistehasele, aga ka teistele suurarendustele viidates tõstatas veel laiema küsimuse Mihkel Kangur (<a href="https://meieeesti.postimees.ee/6449150/miks-ei-saa-usaldada-uuringuid?_ga=2.222894303.59909593.1542142137-1958740714.1541782303&fbclid=IwAR3xVUnUB_MdoQKbFYEG7iXtmSPi36Ij9Q9HuqJINIlBGEt3g10f7aDM9sU.">Postimees, 9.11.2018</a>): kas praegune uuringute tellimise viis tagab nende objektiivsuse ja kvaliteedi? Samuti aktiveeris teadlasi avalikku arutellu astuma 2017. aastal lõpus sõlmitud kolme ülikooli rektori lepe, mille sõnastuse kohaselt määravad ülikoolid „suuremate teemade“ puhul „oma seisukohtade avalikustamiseks kõneisikud“ (<a href="https://heureka.postimees.ee/4337427/rektorite-kokkulepe-tekitab-tartu-teadlastes-suukorvistamise-hirmu">Kaur Maran, Postimees, 8.12.2017</a>) . Ka need teadlased, kes ei olnud otseselt tehasedebatiga seotud, lugesid sellest välja soovi piirata kriitilisi hääli ning asusid avalikkusele selgitama akadeemilise vabaduse olemust ja olulisust.
+
+```{block, type='blockquote-left'}
+Seal, kus üks osapool nägi argumenteerimist ja teaduslikke väiteid, tajusid teised avalikkuse eksitamist ja emotsionaalsust ning vastupidi.
+```
+Ilmselt on vähesed teemad iseseisvuse taastanud Eestis siinseid teadlasi sedavõrd innustanud avalikus arutelus osalema, kui seda suutis puidurafineerimistehase rajamise plaan. Peamised meediakanalid võimaldasid eri pooltel oma seisukohti väljendada. Kuigi tänu sellele oli avalikkuse käsutuses piisavalt teaduslikke argumente (pikemad ja põhjalikumad artiklid olid mittetellijatele enamasti küll n-ö maksumüüri taga), ei tajutud arutelu tervikuna teadmistepõhisena. Ekspertide vahel toimus debatt teaduslike väidete üle, kuid valitses ka vastuolu kogu protsessi mõtestamisel: seal, kus ühed nägid argumenteerimist ja teaduslikke väiteid, tajusid teised avalikkuse eksitamist ja emotsionaalsust ning vastupidi.
+
+Paljude omaduste poolest oli puidurafineerimistehase debatt Eestile esma- ja erakordne, kuid loomu poolest meenutab see suuresti Lääne-Euroopas juba 1970. aastatest tuntud vastasseise, mis on saanud tuntuks akronüümiga NIMBY (ingl *not in my back yard* ehk tõlkes "mitte minu tagahoovis"). Ka neis on suurarenduste tekitav vastasseis ühelt poolt nähtav emotsionaalse ja irratsionaalsena, teiselt poolt aga kodanike adekvaatse riskitaju väljendusena (vt nt [Kraft ja Clary 1991](#Kraft1991)). Tõsiasi, et Eestis asetusid kohalike rolli muidu ühiskonnas ekspertidena tunnustatud inimesed, ei tundunud seda mustrit Eestis muutvat.
+
+### Metsandusdebatis ei toonud avalik arutelu eksperte üksteisele lähemale  {-.chapter4_section}
+
+Kui puidurafineerimistehase debatis said – üldise taju kohaselt – määravaks emotsioonid, mitte argumendid, siis kas mõne Eesti lähiajaloos peetud arutelu puhul saab välja tuua ekspertide rolli otsuste teadmistepõhisel suunamisel?
+
+Tselluloositehase aruteluga samaaegne, samalaadne, haakuv ja vastastikku võimendav oli debatt Eesti metsamajanduse üle. Ka metsaarutelu puhul saame öelda, et teadlaste hääl oli kuuldav: avaliku debati üks käivitajaid oli teadlaste Raul Rosenvaldi, Asko Lõhmuse ja Kaie Kriiska Postimehes ilmunud arvamuslugu (<a href="https://arvamus.postimees.ee/3946035/tartu-teadlased-keskkonnaministeerium-varjab-mittesaastlikku-metsaraiet">14.12.2016</a>), mis juhtis tähelepanu teadlaste tajutud probleemidele Keskkonnaministeeriumi metsa juurdekasvu arvutustes. Samal ajal alustas vastusena plaanitud metsaseaduse muudatustele rahvaliikumine Eesti Metsa Abiks, mis tõi lageraiete küsimuse ühiskonna tähelepanu alla. Keskkonnaorganisatsioonide protestid saavutasid plaanitavas metsaseaduses mõningaid kohandusi ning lubaduse huvigruppe paremini kaasata (<a href="https://www.postimees.ee/3949625/ministeerium-otsustas-parast-keskkonnauhendustega-kohtumist-metsaseadusega-edasi-minna">Liis Velsker, Postimees, 16.12.2016</a>). Teema on püsinud aktuaalne seoses 2018. aastal alanud metsanduse arengukava koostamise protsessiga.
+
+```{block, type='casebox'}
+<h3>Mure Eesti metsade pärast</h3>
+
+Aastal 2016 algatas Keskkonnaministeerium metsaseaduse muutmise, millega langetati kuuskede raievanust. Muudatuse vastu protesteerimiseks loodud kodanikuliikumise Eesti Metsa Abiks sõnul on raietegevus Eestis kontrolli alt väljunud. Samal ajal väitsid ökoloogiateadlased, et metsaseaduse muutmise õigustamiseks kasutatud Keskkonnaministeeriumi arvutused metsa juurdekasvu kohta on avalikkust eksitavad. Vastanduste tulemusel kujundati käimasolev metsanduse arengukava koostamise protsess kaasavam, kuid pinged on püsinud.
+```
+
+Selleski olid eksperdid meedias nähtavad ja pidasid omavahelist, kohati üsna tehnilist arutelu. Kaks rühma, keda võib üldistatult nimetada „ökoloogideks“ ja „metsakorraldajateks“ (kelle sekka saab arvestada ka Keskkonnaministeeriumi esindajad), vaidlesid mõistete, metsa juurdekasvu mõõtmise metoodikate ja muu statistika tõlgendamise üle. Kahel juhtumi avalikus arutelus oli veelgi sarnasusi: siingi tundsid mitmed eksperdid vajadust rõhutada, et senine arutelu on olnud liiga emotsionaalne ja väärinfot täis ning et otsustamisel peaks usaldama asjatundjaid (<a href="https://www.sirp.ee/s1-artiklid/c21-teadus/veel-metsadest-ja-metsandusest/">Veiko Uri, Sirp, 24.03.2017)</a>), vältides müüte, emotsioone ja eelarvamusi.
+
+```{block, type='blockquote-right'}
+Teadlaskonna seas puudus ühtsus, mille tõttu oli nende debatti lihtne seada emotsionaalsemate vastaseisude (Tartu–Tallinn, ärimehed–looduskaitsjad) raamistusse.
+```
+Ekspertide debatiga samal ajal toimusid avalikkuses aktsioonid – puidurafineerimistehase puhul allkirjade kogumine või inimkett Emajõe ääres (<a href="https://www.err.ee/832746/tartus-kogunes-emajoe-aarde-mitu-tuhat-tselluloositehase-vastast">ERR, 19.05.2018</a>) ning metsateema puhul protest Haabersti hõberemmelga langetamise vastu (<a href="https://www.postimees.ee/4158863/galerii-videod-ja-blogi-haabersti-hoberemmelgas-voeti-politsei-jouga-maha">Liis Velsker, Hanneli Rudi, Postimees, 27.06.2017</a>) –, mida sai nimetada emotsioonidele tuginevaks. See võimaldas oponentidel laiendada hinnangut kogu teemakäsitlusele, sealhulgas ekspertide panusele. Nii kohtab metsandusdebatiski „metsakorraldajate“ poolelt (konkreetselt isikutele või tegudele viitamata) hinnanguid, et puhkenud on „mõistetamatu paanika“ (<a href="https://www.emu.ee/ylikoolist/uudised/pressiteated/uudis/2017/03/30/henn-korjus-uue-metsaseadusega-kaasnev-paanika-on-valdkonnaga-seotud-inimestele-moistetamatu">Henn Korjus, Eesti Maaülikooli pressiteade, 30.03.2017</a>), käib „pooltõdedega tähelepanu taotlemine“ (<a href="https://maaleht.delfi.ee/news/maaleht/uudised/andres-talijarv-alati-ei-ole-must-nii-must-kui-seda-naidata-puutakse?id=83060249">Andres Talijärv intervjuus Maalehele, 19.07.2018</a>) , või vihjeid lamemaalastele (<a href="https://www.pollumajandus.ee/uudised/2017/04/20/marko-pomerants-must-valge-debatt-rohelisel-taustal">Marko Pomerants, Põllumajandus.ee, 20.04.2017</a>).
+
+On ka selgemalt ekspertide vastu suunatud väiteid: nende kriitika on mitteteaduspõhine (<a href="https://heureka.postimees.ee/4388981/ministeeriumi-vastulause-teaduste-akadeemia-metsamajanduse-kriitika-ei-ole-teaduspohine">Riina Martverk, Postimees, 26.01.2018</a>)  või tuleneb piiratud vaatest, millele vastandub metsandusasjatundjate oskus näha metsa eluringi (Andres Talijärv „Bioloogid on õppinud bioloogilist poolt. [---] Metsamehed on hariduse poolelt rikkamad.“ – <a href="https://maaelu.postimees.ee/5790475/andres-talijarv-arusaam-metsa-eluringist-on-justkui-kadunud.">Viio Aitsam, Postimees, 19.07.2018</a>). Rõhutatakse seniste otsuste teaduspõhisust (<a href="https://arvamus.postimees.ee/3947059/keskkonnaministeeriumi-vastulause-metsa-juurdekasv-on-suurem-kui-seni-arvatud">Riina Martverk, Postimees, 15.12.2016</a>) . „Ökoloogide“ leer heidab omakorda ette, et „metsakorraldajad“ eitavad ökoloogilisi probleeme ja eksitavad statistikat tõlgendades tahtlikult, seejuures metsatööstuse kasuks (<a href="https://www.sirp.ee/s1-artiklid/c21-teadus/mida-on-naidanud-aasta-metsapoleemikat/">Asko Lõhmus, Sirp, 1.09.2017 </a> ja <a href="https://www.sirp.ee/s1-artiklid/c21-teadus/metsapoleemika-teine-aasta-ragastiku-voim/">14.09.2018</a>), neid iseloomustab piiratud mõtteviis, mis käsitleb ainult metsa majanduslikku väärtust (<a href="https://arvamus.postimees.ee/3969739/indrek-talpsep-metsade-majandamine-peab-olema-uhiskonnale-vastuvoetav">Indrek Talpsep, Postimees, 5.01.2017</a>). Seatakse kahtluse alla ekspertide ja riigiametnike sõltumatus: riigi metsanduspoliitikat ja seda toetavate eksperdiarvamuste taga nähti „suurtöösturite kõrvu“ ja seda käsitati majanduslike huvide, kohati otseselt metsatööstuse teenistuses olevana (<a href="https://arvamus.postimees.ee/4137775/kaul-nurm-kuusikute-raievanuse-langetamise-tagant-paistavad-suurtoosturite-korvad">Kaul Nurm, Postimees, 6.06.2017</a>; <a href="https://www.sirp.ee/s1-artiklid/c21-teadus/metsapoleemika-teine-aasta-ragastiku-voim/">Asko Lõhmus, Sirp, 14.09.2018</a>).
+
+Vähe oli märke sellest, et poolte seisukohad oleksid arutelu jooksul teineteisele lähemale liikunud, kumbki jäi oma arusaamisele kindlaks. Üks arutelu algataja, Asko Lõhmus (<a href="https://www.sirp.ee/s1-artiklid/c21-teadus/metsapoleemika-teine-aasta-ragastiku-voim/">Sirp, 14.09.2018</a>), võttis debati olemuse kokku, nimetades seda eelkõige argumentidega raskesti lahendatavaks ning metsanduse juhtide kapseldunud hoiakutesse kinni jäänud väärtuskonfliktiks.
+
+Ekspertidena said avalikkuses rohkem tunnustust siiski metsanduspoliitika kriitikud, näiteks nimetas Postimees Asko Lõhmuse metsandusdebatis osalemise eest 2017. aastal aasta inimeseks.
+
+### Kokkuvõte {-.chapter4_section}
+
+Kuidas tunnevad eksperdid end Eesti aruteluruumis? Selles artiklis kirjeldatud kolm näidet (ränderaamistik, puidurafineerimistehas, metsandus) osutavad sellele, kui keeruka olukorraga peab kokku puutuma vastuolulist teemat käsitlevasse avalikku debatti sekkuda sooviv asjatundja. Peamiselt on raskused seotud sellega, kuidas eksperdi esitatud fakte ja argumente arutelus teiste osaliste poolt käsitletakse.
+
+```{block, type='blockquote-left'}
+Tumeekspertiis on teadlaste ja ekspertide teadmine, mis ei ole jõudnud ülejäänud ühiskonnani, kuigi see aitaks lahendada või käsitleda olulisi probleeme.
+```
+
+Esmalt on julgustav siiski asjaolu, et iga teema puhul on eksperdid meedias hästi esindatud. Sellele viitab ka Ragne Kõuts-Klemmi [artikkel](#ajakirjanduse-kujundatav-arvamusruum) siinses peatükis. Sõna saab mitu eksperti, nad esitavad eri seisukohti ning vajaduse korral üsna põhjalikult. See näitab, et meediakanalitel on põhimõtteline tahe teadmistepõhiste debattide toetamiseks olemas. Ka edukad populariseerimise näited (Geenivaramu, ESTCube) tõestavad, et eksperdid võivad end teinekord meedias tunda hoituna ning saavutada hea nähtavuse ja ühiskondliku mõju. Selle kõrval on teemasid ja eksperte, kes pole tahtnud või pole eri põhjustel suutnud meediakünnist ületada. Meil on teadmised, mis on ühiskonnale kättesaadavad tänu ekspertide osalusele avalikes aruteludes, ning tumeekspertiis ehk teadmine, mis pole (väljaspool akadeemilist ringkonda) kättesaadav ja ühiskond ei pruugi teadagi, et see on meie ekspertidel olemas.
+
+Ühiskonna huvides on, et oluliste küsimuste aruteludes ei jääks vajalikud teadmised varjule pelgalt seetõttu, et nende avalikkusele vahendamine on vaevanõudev.
+
+
+```{block, type='blockquote-right'}
+Ühiskonna huvides on, et oluliste küsimuste aruteludes ei jääks vajalikud teadmised varjule pelgalt seetõttu, et nende avalikkusele vahendamine on vaevanõudev.
+```
+Vastuoluliste teemade puhul peab ekspert arvestama tõenäolise vastupanuga tema esitatud faktidele, väidetele ja tõlgendustele. Siinsete näidete puhul on sageli vaidlustajaks olnud teine ekspert ning sisuliste aspektidega samavõrra oluliseks kerkib arutelu eksperdi või tema väidete usaldusväärsuse kriteeriumide üle. Need arutelu aspektid võivad tagada meile parema diskussiooni, kui neid aga kasutatakse ideoloogiliselt, siis võivad need arutelu hoopis tasalülitada.
+
+Seega võib debatis osalemine olla eksperdile rusuv kogemus. Harva, kui meedias väljaastumisel on nähtav mõju otsustele või isegi debati kulule. Palveid lõpetada emotsioonidele mängimine ja alustada argumenteeritud arutelu ilmselt ei võeta kuulda. Halvemal juhul võib keegi noppida valikuliselt üles mõne eksperdi väite ja hakata seda enda tõlgenduses ideoloogiliselt ära kasutama. Kui lisada, et enamasti ei ole eksperdil arutelus kaasa löömiseks muud põhjust peale tunnetatud kodanikukohuse, näeme palju põhjusi, miks nii meedia, auditooriumid kui ka eksperdid ise peaksid pingutama Eestis argumenteeritud arutelu toetavate keskkondade alalhoidmise ja arendamise nimel. Muu hulgas ka seetõttu, et ühiskondlike probleemide keerukus eeldatavasti vaid süveneb.
+
+Siinsed näited tõid esile, et teadlased-eksperdid on Eestis eri tüüpi ühiskondlikes aruteludes täitnud eri rolle: teadlane võib osa võtta aktivistina, tegutsedes teatud eesmärgi saavutamise nimel; ta võib olla selgitaja, maailma teadmise vahendaja, aga ka kriitiline mõtestaja, küsimuste püstitaja. Näited tõestavad, et keerukustest hoolimata suudavad eksperdid Eestis käima tõmmata olulisi ühiskondlikke arutelusid ning rikastada neid teaduspõhise teabega.
+
+Parima eksperditeadmise nähtavale toomine ja sellele kasutusse aitamine on pidev väljakutse, millega seisab silmitsi ka inimarengu aruanne. Olgu lugejale kaasa antud teadmine, et kui nii 2013. kui ka 2015. aasta aruande puhul koondus pool aruandeperioodi kõigist meediakajastusest aruande ilmumise järgsele paarile nädalale, siis 2017. aasta aruande mõju on püsinud kauem: kaks kolmandikku kajastustest on ilmunud hiljem kui vahetult aruande väljatuleku järel (station.ee meediamonitooringu andmeil).
+
+### Viidatud allikad {-.subreferences}
+
+<p id="Eesti2002">Eesti teadlaste eetikakoodeks. Tallinn: Eesti Teaduste Akadeemia, 2002. http://www.akadeemia.ee/_repository/file/ALUSDOKUD/Eetikakoodeks2002.pdf</p>
+
+<p id="Eurobarometer2010">Eurobarometer 2010. Special Eurobarometer 304. Science and Technology. European Commission Research Directorate-General.</p>
+
+<p id="Hea2017">Hea teadustava. Tartu: Tartu Ülikooli eetikakeskus, 2017.</p>
+
+<p id="Kasperowski2003">Kasperowski, D., Nolin, J. 2003. Initiatives on public understanding of science in Sweden. – Optimising public understanding of Science and Technology. Brussels: European Commission, 562–588.</p>
+
+<p id="Kraft1991">Kraft, M. E., Clary, B. B. 1991. Citizen participation and the NIMBY syndrome: public response to radioactive waste disposal. – The Western Political Quarterly, 44 (2), 299–328.</p>
+
+<p id="Open2011">Open Government Declaration. 2011. https://www.opengovpartnership.org/process/joining-ogp/open-government-declaration/</p>
+
+<p id="Saarts2018">Saarts, T. 2018. Hüvasti, postikommunistlik Eesti! – Sirp, 14.12.2018.</p>
+
+<p id="Saastev2005">Säästev Eesti 21. Tallinn: Eesti Keskkonnaministeerium, 2005.</p>
+
+<p id="Teadmistepohine2014">Teadmistepõhine Eesti. Tartu: Haridus- ja Teadusministeerium, 2014.</p>
+
+<p id="TheRoyal1985">The Royal Society 1985. The public understanding of science. https://royalsociety.org/~/media/Royal_Society_Content/policy/publications/1985/10700.pdf</p>

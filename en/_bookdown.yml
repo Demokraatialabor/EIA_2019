@@ -1,0 +1,10 @@
+book_filename: "EIA_2019_digi_eng"
+language:
+  label:
+    fig: 'Figure '
+    tab: 'Table '
+    eq: 'Equation '
+  ui:
+    chapter_name: ""
+delete_merged_file: true
+output_dir: "../../tkutsar.github.io/en"
