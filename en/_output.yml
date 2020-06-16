@@ -1,0 +1,33 @@
+bookdown::gitbook:
+  split_by: section
+  split_bib: yes
+  includes:
+    in_header: ["../ga_script.html", "../favicon.html"]
+  config:
+    toc:
+      collapse: subsection
+      scroll_highlight: yes
+      before: null
+      after: null
+      toolbar:
+      position: fixed
+      edit : null
+      download: null
+      search: yes
+    fontsettings: no
+    sharing:
+      facebook: yes
+      twitter: yes
+      google: no
+      linkedin: yes
+      weibo: no
+      instapaper: no
+      vk: no
+      all: no
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
+bookdown::epub_book: default
