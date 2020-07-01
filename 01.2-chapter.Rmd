@@ -46,18 +46,18 @@ names(Maakonnad)[names(Maakonnad) == "Rahvaarvu_muutus"] <- "Rahvaarvu muutus (%
 names(Maakonnad)[names(Maakonnad) == "SKP1995"] <- "SKP osamaht 1995 (%)"
 names(Maakonnad)[names(Maakonnad) == "SKP2016"] <- "SKP osamaht 2016 (%)"
 
-fig_121_plot <- tm_shape(Maakonnad) + 
+fig_121_plot <- tm_shape(Maakonnad) +
     tm_fill("Rahvaarvu muutus (%)", title="Rahvaarvu muutus (protsentides), 1995-2016",
     breaks = c(-30,-20, -10,0,10), palette = c("#B6A8CD","#6D519C","#361C62","#96CBD2"), popup.vars=c("Rahvaarvu muutus (%)","SKP osamaht 1995 (%)","SKP osamaht 2016 (%)")) +
     tm_borders(col="white") +
-    
+
   tm_layout(
       legend.format=list(text.separator="...")) +
 
   tm_shape(Maakonnad) +
       tm_bubbles(col = "#dbe9da",alpha = 0.6, size = "SKP osamaht 1995 (%)", scale = 541/640 * 8*1.7, border.col=NULL,xmod=-5, title.size="SKP osamaht 1995 (%)", popup.vars=c("Rahvaarvu muutus (%)","SKP osamaht 1995 (%)","SKP osamaht 2016 (%)") ) +
       tm_text (col="white", text="SKP osamaht 1995 (%)",xmod=-5) +
-      
+
     tm_shape(Maakonnad) +
     tm_bubbles(col = "#369B9E",alpha = 0.6, size = "SKP osamaht 2016 (%)", scale = 8*1.7, border.col=NULL,xmod=2, title.size="SKP osamaht 2016 (%)",popup.vars=c("Rahvaarvu muutus (%)","SKP osamaht 1995 (%)","SKP osamaht 2016 (%)")) +
       tm_text (col="white", text="SKP osamaht 2016 (%)", xmod=2) +
@@ -69,8 +69,8 @@ fig_121_plot <- tm_shape(Maakonnad) +
       )
 
 tmap_mode("view")
-fig_121_plot 
-  
+fig_121_plot
+
 #tmap_save(tm = Rahvastiku_muutus + SKP, filename = "figure2.pdf")
 
 #svg(filename="figure.svg")
@@ -279,7 +279,7 @@ Hoolimata neist püüdlustest pärsib ääremaastumine ise maapiirkondade võima
 
 Kui nõukogude aja lõpu põllumajanduse õitseng soosis maaelu, siis järgnevad kolm kümnendit on suundumus olnud vastupidine. Ehkki suure löögi ääremaa piirkondadele andis sotsialismiaja majanduse kokkuvarisemine, on ääremaa võimalused ümbermõtestamisel praegu kogu Euroopas ([Lang ja Görmar 2019](#Lang2019)). Eesti praeguse ääremaa majanduslikku olukorda ei saa ühegi toetusmeetmega kiiresti pöörata seisu, kus oldi 1980. aastate lõpus. Rääkida saab aga ääremaastumise ja ääremaastamise peatamisest – uuest majandusliku ja rahvastiku arengu tasakaalust maakohtades ja väikelinnades ning võimalustest praegustele aktiivsetele kogukondadele.
 
-Eestis on kahanemine haaranud maakonnakeskused ning isegi tugevamad regioonikeskused. Võime öelda, et objektiivne ääremaastumine, riigi kiire majanduskasvu hüvedest kõrvalejäämine, on peaaegu kogu Eesti probleem. Siinses artiklis viidatud kohakuvandi analüüsid tõid aga ilmekalt välja tõsiasja, et ääremaad Eesti inimeste mõttemaailmades luuakse ülalt alla – pealinnast ääremaa ning eliidi poolt vähem edukate tavakodanike suunas. Ääremaa negatiivset kuvandit saab leevendada üksnes siis, kui kohakuvandi loomises ja arutelus pealinnast kaugemal asuvate maapiirkondade ja väikelinnade arengu üle osalevad rohkem neis kohtades elavad inimesed ise.
+Eestis on kahanemine haaranud maakonnakeskused ning isegi tugevamad regioonikeskused. Võime öelda, et objektiivne ääremaastumine, riigi kiire majanduskasvu hüvedest kõrvalejäämine, on peaaegu kogu Eesti probleem. Siinses artiklis viidatud kohakuvandi analüüsid tõid aga ilmekalt välja tõsiasja, et ääremaad Eesti inimeste mõttemaailmades luuakse ülalt alla – pealinnast ääremaa ning eliidi poolt tavakodanike suunas. Ääremaa negatiivset kuvandit saab leevendada üksnes siis, kui kohakuvandi loomises ja arutelus pealinnast kaugemal asuvate maapiirkondade ja väikelinnade arengu üle osalevad rohkem neis kohtades elavad inimesed ise.
 
 Konkurentsivõimel põhinev lähenemine Euroopa ja Eesti regionaalpoliitikas ei ole aidanud Eesti piirkondade ebaühtlast arengut peatada. Ääremaade väiksemate ressursside tõttu on nendel piirkondadel raske riigi majanduse tuumikpiirkondadega võistelda ka konkurentsis Euroopa Liidu toetuste saamisel. Eesti on Euroopa Liidu rahastuse kasutamisel seni olnud terviklik, justkui ühetaolise arenguga sihtala. See eeldus ei ole võimaldanud Euroopa toetusrahadega sihipäraselt toetada riigi vähem arenenud piirkondi. Tõenäoliselt muutub Eesti staatus Euroopa liidu ühtekuuluvuspoliitikas üsna pea – Eestit ei loeta enam Euroopa vähem arenenud piirkonnaks, projektide omaosalusmäär hakkab olema suurem, eeldatavasti väheneb kogu Euroopa toetusrahade maht. See olukord tekitab võimaluse ja vajaduse aru pidada, millistest vahenditest ääremaastumisse sekkumine peaks tulevikus toimuma, mis võimalused on väheneva välisraha sihipärasemaks suunamiseks ääremaale ning kas riigi tulevane regionaalpoliitika rahastusmudel suudab olla senisest kohatundlikum.
 

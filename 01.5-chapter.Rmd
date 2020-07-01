@@ -115,10 +115,10 @@ Maanteed <- subset (Maanteed, TYYP != c("Ramp või ühendustee"), select=c(NIMET
 
 Maanteed$TYYP <- "Põhi- või tugimaantee"
 
-fig_153_plot <- tm_shape(Asutusüksused) + 
+fig_153_plot <- tm_shape(Asutusüksused) +
     tm_fill("Elanike osatähtsus (%)", title="Elanike osatähtsus, kellel on hea ühistranspordi kättesaadavus (%)", popup.vars="Elanike osatähtsus (%)",id="NIMI", breaks=c(0,1,25,50,75,100), palette = c("#E6E3DA", "#DAD4E6","#B6A8CD", "#917DB5","#482683")) +
     tm_borders(col="white", alpha=0) +
-  
+
     tm_layout(
       outer.margins=0, inner.margins=c(.02, .1, .02, .02),asp=1920/1080,
       legend.outside = FALSE,
@@ -126,7 +126,7 @@ fig_153_plot <- tm_shape(Asutusüksused) +
       frame = FALSE) +
 
     tm_shape(Maanteed) + tm_lines(col = "TYYP", legend.col.show = TRUE,palette = c("#3A404A", "#3A404A"), title.col="",popup.vars=NULL) +
-  
+
       tm_view (
         set.zoom.limits = c(7, 16),
         view.legend.position = c("left","bottom"),
@@ -135,7 +135,7 @@ fig_153_plot <- tm_shape(Asutusüksused) +
 
 tmap_mode("view")
 fig_153_plot
-  
+
 #tmap_save(tm = fig_153_plot, filename = "figure153.png")
 #tmap_save(tm = fig_153_plot, filename = "figure153.pdf")
 
@@ -242,7 +242,7 @@ library(grid)
           panel.grid.minor.x = element_blank(),
           legend.position = "none",
            text = element_text(size = 10)
-      
+
     )
 
 grid.arrange(fig155_plot1 + fig_theme_general + fig155_theme1, fig155_plot2  + fig_theme_general + fig155_theme2, ncol = 2)
@@ -434,6 +434,10 @@ Liikumisviiside kombineerimine linnakeskustes ning eeslinnades lubaks ühendada 
 Säästev planeerimine linnalises keskkonnas eeldab tähelepanu pööramist ka autokasutusvõimaluseta ühiskonnaliikmetele. Vananeva rahvastikuga ühiskonnas on oluline, et kõigil ühiskonnagruppidel oleks võimalus saada osa heast avalikust ruumist ning pääseda teenusteni. Linnakeskus saab vastu seista valglinnastumise mõjudele, kui see on planeeritud jalgsi liikuvale inimesele, nii et olemas on mugavad kõnniteed, piisavalt turvalised ja mugavad teeületusvõimalused, meeldiv ja sotsiaalseid tegevusi soosiv tänavafront. Linna füüsilist ruumi kaasavaks kujundades soosime kokkuvõttes kõiki ühiskonnagruppe.
 
 On tõsi, et auto on liikuvuse võimaldaja teatud olukordades, kindlasti osa eakate ja liikumisraskustega inimeste puhul. Samuti on autostumine aidanud Eesti eri piirkondi ühendada, mis teeb võimalikuks elamise ka riigi äärealadel. Ometi on liigne autopõhisus ühiskonna toimimisele kahjulik. See teeb ligipääsetavuse privileegiks vaid osale ühiskonnast ning vähendab ka sotsiaalset suhtlemist. Ligipääsetavuse ja hea avaliku ruumi tagamine üle Eesti eeldab nii konkreetset sekkumist linnade avaliku ruumi disaini kui ka loovate lahenduste pakkumist hajaasustatud piirkondades.
+
+### *Tänusõnad* {-.chapter1_section}
+
+*Tauri Tuvikene osa selles publikatsioonis on osaliselt valminud projekti „Ühistransport kui avalik ruum Euroopa linnades: narratiivid, kogemused, vastuolud (PUTSPACE)“ raames, mis on rahastatud HERA (Humanities in the European Research Area) avaliku ruumi uurimisprogrammi poolt (www.heranet.info), mida kaasrahastab AKA, BMBF via DLRPT, ETAg ja Euroopa Komisjon Horisont 2020 programmi kaudu.*
 
 ### Viidatud allikad {-.subreferences}
 
