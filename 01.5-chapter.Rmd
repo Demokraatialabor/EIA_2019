@@ -24,8 +24,8 @@ Liikuvus tähendab võimet oma igapäevaste vajaduste rahuldamiseks ühest kohas
 Kiire autostumine Eestis on sarnane teiste idabloki riikide omaga. Autostumise tasemed mõõdetuna sõiduautode arvus 1000 elaniku kohta vahetult pärast Teist maailmasõda Ida- ja Lääne-Euroopas oluliselt ei erinenud. Juba kümmekond aastat hiljem oli aga autostumise tase väga erinev. 1990. aastate alguseks oli nii Euroopa Liidu riikides kui ka USAs autostumine ajaloolist tipptaset saavutamas või oluliselt aeglustunud, samal ajal kui idabloki riikides eelmistel kümnenditel välja kujundatud erinevuse kompenseerimine alles algas. Näiteks kui Lääne-Saksamaal saavutati praegune autostumise tase 1980. aastatel, siis Ida-Saksamaal jõudis see riigi ühendamise järel samale tasemele 2000. aastateks ([Pucher ja Buehler 2005](#Pucher2005)). Isiklike sõiduautode kättesaadavuse piiratus nõukogude perioodil asendus autoomamise entusiasmiga 1990. aastatel. Sellest ajast peale on Eesti oma autokasutuses järjepidevalt Lääne-Euroopa riikidele järele liikunud ja need lõpuks kinni püüdnud ([joonis 1.5.1](#figure151)). Kuigi autostumine jätkus ka Lääne-Euroopas, on piirkondade võrdluses sealne kasvutempo olnud aeglasem. Praegu jääb Eesti registreeritud autode arvu poolest 1000 elaniku kohta maha veel vaid Euroopa Liidu kõige autostunumatest maadest, nagu Itaalia, Luksemburg, Malta ja Soome, kuid on enamikust Euroopa Liidu n-ö läänepoolsetest riikidest möödunud.
 
 <p class="caption" id="figure151"><span class="figure-number">Joonis 1.5.1.</span> Autostumise muutus Lääne-Euroopa (siin EL-15) ja Ida-Euroopa riikides (siin alates 2004. aastal ELi astunud riigid, v.a Küpros ja Malta)</p>
-
-```{r, figure151, out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
+<div class="desktop-plot">
+```{r, figure151, out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
 
@@ -33,7 +33,9 @@ library("tidyverse")
 
 
   fig151_plot <- ggplot(data = fig151_data) +
-    geom_line(mapping = aes(x=year, y=value, colour=area, group=area), size=1) +
+    geom_line(mapping = aes(x=year, y=value, colour=area, group=area, text = paste("", area,
+                         "<br>", year,
+                         "<br>", value)), size=0.75) +
     scale_x_continuous(breaks=c(1990,1992,1994,1996,1998,2000,2002,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(1990,2016.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,550)) +
     scale_colour_manual(values=c("#482683","#369B9E","#b1e0f9"), labels=c("Eesti","Ida-Euroopa","Lääne-Euroopa")) +
@@ -45,10 +47,22 @@ library("tidyverse")
 
   )
 
-  print(fig151_plot + fig_theme_general)
+ggplotly(fig151_plot + fig_theme_general + fig151_theme, tooltip = "text" ) %>%
+config(displayModeBar = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
   #ggsave(path="exported_figures/PDF/chapter1",filename="fig151.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+print(fig151_plot + fig_theme_general + fig151_theme)
+
+```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Eurostat 2019.</div>
@@ -154,7 +168,7 @@ fig_153_plot
 Tihenev autoliiklus vähendab ühistransporti kasutavate reisijate arvu ning see muudab hea teenuse pakkumise hajaasustuses kallimaks ja keerulisemaks. Ühistranspordi kvaliteedi langus ja tiheduse vähenemine soosib omakorda autostumist. Maanteeameti andmetel vähenes aastatel 2003–2016 sõitjate arv maakonnaliinidel peaaegu kaks korda, kusjuures vähenemine oli eriti kiire just perioodil 2003–2009 ([joonis 1.5.4](#figure154)). Need aastad olid kiire jõukuse kasvu periood, mil toimus ka kiire autostumine ja sellega seotud liikumisviiside nihe sõiduautode kasuks. Ühistranspordi kasutajate arvu langus on toimunud vaatamata sellele, et samal ajal ei ole ühissõidukite läbisõit vähenenud.
 
 <p class="caption" id="figure154"><span class="figure-number">Joonis 1.5.4.</span> Reisijate arvu ja läbisõidu muutus maakonnaliinidel Eestis, 2003–2016</p>
-
+<div class="desktop-plot">
 ```{r, figure154, out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
@@ -163,7 +177,9 @@ library("tidyverse")
 
 
   fig154_plot <- ggplot(data = fig154_data) +
-    geom_line(mapping = aes(x=year, y=value, colour=variable, group=variable), size=1) +
+    geom_line(mapping = aes(x=year, y=value, colour=variable, group=variable, text = paste("", variable,
+                         "<br>", year,
+                         "<br>", value)), size=0.75) +
     scale_x_continuous(breaks=c(2003,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(2003,2016.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,40)) +
     scale_colour_manual(values=c("#482683","#369B9E"), labels=c("Läbisõit (mln km)","Sõitjate arv (mln)")) +
@@ -174,10 +190,22 @@ library("tidyverse")
          text=element_text(family="Montserrat")
   )
 
-  print(fig154_plot + fig_theme_general)
+ggplotly(fig154_plot + fig_theme_general + fig154_theme, tooltip = "text" ) %>%
+config(displayModeBar = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
  # ggsave(path="exported_figures/PDF/chapter1",filename="fig154.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+print(fig154_plot + fig_theme_general + fig154_theme)
+
+```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Maanteeamet.</div>
@@ -266,7 +294,7 @@ Tööle liikumise trendid viimasel kümnendil näitavad sõiduauto kasutamise po
 
 
 <p class="caption" id="figure156"><span class="figure-number">Joonis 1.5.6.</span> Tallinna ja muu Harjumaa elanike tööle liikumise viiside osatähtsus aastatel 2000–2017</p>
-
+<div class="desktop-plot">
 ```{r, figure156, out.width='95%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
@@ -276,7 +304,9 @@ library("tidyverse")
  fig156_data$value=as.numeric(levels(fig156_data$value))[fig156_data$value]
 
   fig156_plot <- ggplot(subset(fig156_data, variable %in% c("Jalgsi", "Sõiduautoga", "Ühissõidukiga"))) +
-    geom_line(mapping = aes(x=year, y=value, colour=variable, group=variable), size=1.2) +
+    geom_line(mapping = aes(x=year, y=value, colour=variable, group=variable, text = paste("", variable,
+                         "<br>", year,
+                         "<br>", value)), size=0.75) +
     scale_x_continuous(breaks=c(2000,2002,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(2000,2017.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,71)) +
     scale_colour_manual(values=c("#1f9a9e","#482683","#83d0f5"))+
@@ -289,10 +319,22 @@ library("tidyverse")
             text=element_text(family="Montserrat")
   )
 
-  print(fig156_plot + fig_theme_general + fig156_theme)
+ggplotly(fig156_plot + fig_theme_general + fig156_theme, tooltip = "text" ) %>%
+config(displayModeBar = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
   #ggsave(path="exported_figures/PDF/chapter1",filename="fig156.pdf",fig156_plot + fig156_theme +fig_theme_general, height=90, width=150, units="mm")
 ```
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+  print(fig156_plot + fig_theme_general + fig156_theme)
+
+```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Statistikaamet.</div>
@@ -302,7 +344,7 @@ library("tidyverse")
 Võime öelda, et autostumine on olnud suundumus üle Eesti. Maanteeameti ([2017](#Maanteeamet2017)) andmetel on autode läbisõidu kilometraaž aastatel 2013–2017 kasvanud 16% võrra. Kui regioonikeskustes suudab ühistransport püsida konkurentsivõimelisena, siis linnade tagamaade ja kaugemate Eesti äärealade elanikkond on järjest enam sõltuv autost. Seega ei ole riigi ja omavalitsuste tasandil suudetud teha piisavaid edusamme autokasutuse vähendamiseks.
 
 <p class="caption" id="figure157"><span class="figure-number">Joonis 1.5.7.</span> Kogu Eesti tööga hõivatute peamine tööle liikumise viis, selleks kuluv aeg ning töökoha kaugus, 1997–2017</p>
-
+<div class="desktop-plot">
 ```{r, figure157, fig.align='center', echo=FALSE, message=FALSE, fig.asp=0.75}
 
 library("tidyverse")
@@ -315,7 +357,9 @@ fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab k
  fig157_data2 <- read.csv ("data/15_fig7_data2.csv", header=TRUE, fileEncoding="utf-8")
 
   fig157_plot1 <- ggplot() +
-    geom_bar(data = fig157_data1, mapping = aes(x=year, y=value, fill=variable), width=0.7, stat="identity") +
+    geom_bar(data = fig157_data1, mapping = aes(x=year, y=value, fill=variable, text = paste("", variable,
+                         "<br>", year,
+                         "<br>", value,"%")), width=0.7, stat="identity") +
     scale_fill_manual(values=c("#2d6a6d","#b1e0f9","#4bb1ca","#6D519C","#369B9E","#241342")) +
 
     scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017)) +
@@ -325,9 +369,11 @@ fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab k
 
 
   fig157_plot2 <- ggplot() +
-    geom_line(data = fig157_data2, mapping = aes(x=year, y=value, colour=variable), size=1) +
+    geom_line(data = fig157_data2, mapping = aes(x=year, y=value, colour=variable, group=variable, text = paste("", variable,
+                         "<br>", value,
+                         "<br>", year)), size=0.75) +
     scale_colour_manual(values=c("#369B9E","#482683")) +
-    labs(y="", x="aasta") +
+    labs(y="", x="") +
     scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017), expand = c(0, 0), limits=c(1997,2017.5)) +
     scale_y_continuous(breaks=c(5, 10,15,20,25), expand = c(0, 0), limits=c(0,25)) +
     expand_limits (y=0)
@@ -345,14 +391,34 @@ fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab k
            text=element_text(family="Montserrat")
   )
 
-  print(fig157_plot1 + fig_theme_general + fig157_theme1)
-  print(fig157_plot2 + fig_theme_general + fig157_theme2)
+
+ggplotly(fig157_plot1 + fig_theme_general + fig157_theme1, tooltip = "text" ) %>%
+config(displayModeBar = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
+
+
+ggplotly(fig157_plot2 + fig_theme_general + fig157_theme2, tooltip = "text" ) %>%
+config(displayModeBar = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
 
   #ggsave(path="exported_figures/PDF/chapter1",filename="fig157a.pdf",fig157_plot1  +fig_theme_general + fig157_theme1, height=120, width=210, units="mm")
 
     #ggsave(path="exported_figures/PDF/chapter1",filename="fig157b.pdf",fig157_plot2  +fig_theme_general + fig157_theme2, height=100, width=210, units="mm")
 ```
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+  print(fig157_plot1 + fig_theme_general + fig157_theme1)
+  print(fig157_plot2 + fig_theme_general + fig157_theme2)
+
+```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Statistikaamet.</div>

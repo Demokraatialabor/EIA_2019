@@ -12,7 +12,7 @@
 Ajakirjanduse ja aruteluruumi omavaheline suhe on 21. sajandil keerukam kui kunagi varem. Ajakirjanduse võimalused avalikku aruteluruumi kujundada on teisenenud, keerulisemaks on muutunud ühise inforuumi tekke, elanikkonda ühendava enesetaju ning kaasavate ja avatud vestlussituatsioonide toetamine. Ka avalik aruteluruum ise on mitmekesisem, sisaldades täiesti avalikke, poolavalikke ja laiemale avalikkusele suletud ruume. Internetis võimenduse saanud aruteluruumis saavad nüüd osaleda toimijad, kelle arvamused ei ole seni avalikkuse ette jõudnud. Muutuste hindamine positiivse või negatiivsena on keeruline, kuid rahvusvahelisi pressi- ja arvamusvabaduse hinnanguid aluseks võttes paistab, et Eestis olukord halveneb – oleme langenud pressivabaduse hinnangutes tagasi teise kümnesse ([joonis 4.3.1](#figure431)). Selle olukorra taga võib näha ajakirjanduse vähenenud ressursse ja võimalusi majanduslikust ja poliitilisest mõjust sekkumata toimida ([Vihalemm 2013](#Vihalemm2013)), et anda tõest, igakülgset ja ausat teavet ühiskonnas toimuva kohta, nagu see on sõnastatud ajakirjanduse ülesandena Eesti ajakirjanduseetika koodeksis. Ajakirjanduse olukorra halvenemist märgib indeks juhul, kui riigis esineb nii sõna kui ka teoga rünnakuid ajakirjanike, meediaorganisatsioonide, sõnavabaduse või nende eest seisjate vastu. Ka Eesti ajakirjanikud on viimastel aastatel teada andnud ähvardustest oma elule ja tervisele. Samuti on pressivabaduse vähenemise taga avalikkusesse jõudnud teated toimetuse autonoomia kahanemisest Eesti ühes suurimas meediakontsernis ja ajakirjanike vähenenud töökohakindlus ootamatute vallandamiste tõttu.
 
 <p class="caption" id="figure431"><span class="figure-number">Joonis 4.3.1.</span> Eesti positsiooni muutumine pressivabaduse hinnangutes 15 aasta jooksul Soome ja Lätiga võrreldes</p>
-
+<div class="desktop-plot">
 ```{r, figure431, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
@@ -23,8 +23,9 @@ fig431_data$country <- factor(fig431_data$country, levels = c("Soome","Eesti","L
 
 
   fig431_plot <- ggplot(data = fig431_data) +
-    geom_line(mapping = aes(x=year, y = as.numeric(value), colour=country, group=country), size=1) +
     geom_text(mapping = aes(x=year, y=as.numeric(value), label=position), stat="identity", vjust=-0.3) +
+    geom_line(mapping = aes(x=year, y = as.numeric(value), colour=country, group=country, text = paste("", country,
+                         "<br>", value)), size=0.75) +
     scale_colour_manual(values=c("#3A404A","#BC9417","#A8ACA6")) +
     scale_y_reverse(breaks=c(0,5,10,15,20,25,30,35,40,45,50,55)) +
     scale_x_continuous(breaks=c(2004,2006,2008,2010,2012,2014,2016,2018)) +
@@ -34,11 +35,23 @@ fig431_data$country <- factor(fig431_data$country, levels = c("Soome","Eesti","L
         text = element_text(family="Montserrat"),
   )
 
+ggplotly(fig431_plot + fig_theme_general + fig431_theme, tooltip = "text") %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
+
+  #ggsave(path="exported_figures/PDF/chapter4",filename="fig431.pdf", height=140, width=210, units="mm")
+```
+</div>
+
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
   print(fig431_plot + fig_theme_general + fig431_theme)
 
-  ggsave(path="exported_figures/PDF/chapter4",filename="fig431.pdf", height=140, width=210, units="mm")
 ```
-
+</div>
 ```{block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Reporters without Borders 2018.</div>
 <div><a class="data-btn" href="data/43_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
@@ -88,8 +101,9 @@ Ajalehe toimetus sekkub ühiskonna arvamuskliima kujundamisse jõuliselt näitek
 Ajalehtede arvamuskülgedel arvajate ring on olnud siiski pigem kitsas. Arvajatena eelistatakse isikuid, kes on omandanud arvamusžanri konventsioonid, kelle arvamusi peetakse huvitavaks või kellel on otsustajana piisav tähtsus, et tema arvamusi kajastada. Eestikeelse kultuuriajakirjanduse uuringust ([Kõuts-Klemm 2015](#Kõuts-Klemm2015)), mis hõlmas eri meediakanalite kolme kuu sisu, selgus, et kultuuriteemalistes arvamusartiklites ja arutelusaadetes said kõige rohkem sõna eksperdid ja teadlased (41%), ajakirjanikud ja toimetajad (34%) ning loomeinimesed (17%). Sarnane muster ilmneb arvamusrubriikide puhul ka üldisemalt. Aastal 2018 tehtud kahe üleriigilise päevalehe sisu analüüs näitab, et nende väljaannete arvamustoimetused avaldavad sageli teaduslikke ja eksperdiarvamusi. Kõnekas on ajakirjanike enda nii sage esinemine arvajatena, kuid üldpildis on vähe nähtavad tavakodanike, ametnike ja kultuuritegelaste arvamused ([joonis 4.3.3](#figure433)).
 
 <p class="caption" id="figure433"><span class="figure-number">Joonis 4.3.3.</span> Arvamuslugude autorid eestikeelsetes ülerigiilistes päevalehtedes (%)</p>
-(N = 485, 2018.a. 12 juhuslikult valitud nädalat, argipäevadel ilmunud artiklid)
-.
+(N = 485, 2018.a. 12 juhuslikult valitud nädalat, argipäevadel ilmunud artiklid).
+
+<div class="desktop-plot">
 ```{r, figure433, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
@@ -100,7 +114,8 @@ fig433_data$group <- factor(fig433_data$group, levels = c("Postimees","Eesti Pä
 fig433_data$variable <- factor(fig433_data$variable, levels = c("ettevõtja", "ametnik","kultuuritegelane","kodanik","poliitik","ajakirjanik","teadlane, ekspert"))
 
   fig433_plot <- ggplot() +
-    geom_bar(data = fig433_data, mapping = aes(x=group, y=value, fill=variable), width=0.4, stat="identity") +
+    geom_bar(data = fig433_data, mapping = aes(x=group, y=value, fill=variable, text = paste("", variable,
+                         "<br>", value,"%")), width=0.4, stat="identity") +
     scale_fill_manual(values=c("#E6E3DA","#F2EAD1","#E4D4A2","#C9A945","#BC9417","#8D6F11","#5E4A0C")) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,105)) +
     expand_limits (y=0) +
@@ -113,11 +128,26 @@ fig433_data$variable <- factor(fig433_data$variable, levels = c("ettevõtja", "a
     panel.grid.minor.x = element_blank(),
   )
 
-  print(fig433_plot + fig_theme_general + fig433_theme)
+ggplotly(fig433_plot + fig_theme_general + fig433_theme, tooltip = "text") %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
-  ggsave(path="exported_figures/PDF/chapter4",filename="fig433.pdf", height=120, width=200, units="mm")
+
+  #ggsave(path="exported_figures/PDF/chapter4",filename="fig433.pdf", height=120, width=200, units="mm")
 ```
+</div>
 
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+print(fig433_plot + fig_theme_general + fig433_theme)
+
+```
+</div>
+
+<div 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Autori joonis.</div>
 <div><a class="data-btn" href="data/43_fig3_data1.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>

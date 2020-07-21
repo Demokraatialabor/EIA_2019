@@ -229,7 +229,8 @@ Arenenud harrastusteadusega riikides, nagu Suurbritannia, on kodanikud kutsutud 
 
 <p class="caption" id="figure344"><span class="figure-number">Joonis 3.4.4.</span> Riikliku loodusvaatluste andmebaasi üleüldine kasutamine (A1, A2) ja Tartu Ülikooli loodusmuuseumi PlutoF andmebaasi kasutmine linnuvaatlejate poolt (B1, B2) 9 aasta jooksul</p>
 
-```{r, figure344, fig.asp=1.5, message=FALSE, echo=FALSE, warning=FALSE}
+<div class="desktop-plot">
+```{r, figure344, out.width="90%", fig.asp=1.5, message=FALSE, echo=FALSE, warning=FALSE}
 
 library("tidyverse")
 library("reshape")
@@ -253,7 +254,8 @@ fig344_data$variable <- factor(fig344_data$variable, levels = c("Isikuid","Vaatu
 
 
   fig344_plot <- ggplot() +
-    geom_line(data = fig344_data, mapping = aes(x=year, y=as.numeric(value), group=variable, colour=variable), size=1.2) +
+    geom_line(data = fig344_data, mapping = aes(x=year, y=as.numeric(value), group=variable, colour=variable, text = paste("", year,
+                         "<br>", value)), size=0.75) +
     labs(y="", x="") +
     expand_limits (y=0) +
     scale_x_continuous(expand = c(0, 0), limits=c(2008,2017.5), breaks=c(2009,2011,2013,2015,2017)) +
@@ -268,11 +270,24 @@ fig344_data$variable <- factor(fig344_data$variable, levels = c("Isikuid","Vaatu
     text = element_text(family="Montserrat"),
   )
 
-  print(fig344_plot + fig_theme_general + fig344_theme)
+ggplotly(fig344_plot + fig_theme_general + fig344_theme, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
-ggsave(path="exported_figures/PDF/chapter3",filename="fig344.pdf",fig344_plot + fig_theme_general+    fig344_theme, height=217, width=142, units="mm")
+# ggsave(path="exported_figures/PDF/chapter3",filename="fig344.pdf",fig344_plot + fig_theme_general+    fig344_theme, height=217, width=142, units="mm")
 
 ```
+</div>
+
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=1.5, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+print(fig344_plot + fig_theme_general + fig344_theme)
+
+```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Loodusvaatluste andmebaasi koduleht. PlutoF andmebaas, koostanud Veljo Runnel.</div>

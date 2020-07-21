@@ -52,6 +52,7 @@ Kahanemine ääremaal ei jää ainult kaugete maakohtade mureks, järgmisena haa
 ```{r, figure101, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
+library("plotly")
 
 
 fig101_data <- read.csv ("data/10_fig1_data.csv", header=TRUE, fileEncoding="utf-8")

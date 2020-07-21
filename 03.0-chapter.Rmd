@@ -142,7 +142,7 @@ Looduses viibimist soodustavad Eestis piirkonna ja looduse suhteline turvalisus,
 
 <p class="caption" id="figure302"><span class="figure-number">Joonis 3.0.2.</span> Metsamaa, sealhulgas riigimetsa (eristatud puistud ja metsata metsamaa) osakaal maakondade üldpindalast 2017. aastal</p>
 
-```{r, figure302, out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure302, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 library("reshape")
@@ -173,7 +173,7 @@ fig302_theme <- theme(
 
   print(fig302_plot + fig_theme_general + fig302_theme)
 
-  ggsave(path="exported_figures/PDF/chapter3",filename="fig302.pdf", height=140, width=210, units="mm")
+  #ggsave(path="exported_figures/PDF/chapter3",filename="fig302.pdf", height=140, width=210, units="mm")
 
 ```
 

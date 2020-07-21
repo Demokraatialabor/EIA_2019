@@ -124,7 +124,7 @@ library("svglite")
 
   print(fig122_plot + fig_theme_general + fig122_theme)
 
-ggsave(path="exported_figures/PDF/chapter1",filename="fig122.pdf", height=140, width=200, units="mm")
+#ggsave(path="exported_figures/PDF/chapter1",filename="fig122.pdf", height=140, width=200, units="mm")
 ```
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Statistikaamet, rahvaloendused 2008 ja 2011.</div>

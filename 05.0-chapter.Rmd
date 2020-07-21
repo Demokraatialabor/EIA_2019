@@ -260,6 +260,7 @@ Tuues paralleeli sotsiaalmeediaga, võib avalikku ruumi kirjeldada kui hiiglasli
 library("tidyverse")
 library("scales")
 library("reshape2")
+library("plotly")
 
 fig54_data <- read.csv ("data/5_fig4_data2.csv", header=TRUE, fileEncoding="utf-8", sep=";", check.names=FALSE)
 fig54_data <- melt(fig54_data, id=c("Linnaosa"))
@@ -289,9 +290,10 @@ fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohad (25
   )
 
   print(fig54_plot + fig_theme_general + fig54_theme)
-
+     
   #ggsave(path="exported_figures/PDF/chapter5",filename="fig54.pdf", height=260, width=195, units="mm",encoding = "ISOLatin9.enc")
 ```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Cerrone jt 2019.</div>

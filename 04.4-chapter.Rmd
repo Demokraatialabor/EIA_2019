@@ -76,7 +76,8 @@ Valitsus algatas eriplaneeringu tehasele sobivaima asukoha leidmiseks ja mõjude
 Arutelu edenedes vastasseisud võimendusid. Aasta 2018 jaanipäeva eel teatas valitsus eriplaneeringu lõpetamise protsessi alustamisest ja sama aasta novembris lõpetas selle ametlikult. Seejärel andsid ka arendajad teada, et loobuvad tehase rajamise kavast. Meediamonitooringu ([Joonis 4.4.2](#figure442)) põhjal olid enim kajastatud sündmused eriplaneeringu alustamise ja lõpetamise otsuste vahel kolme ülikooli rektori kokkulepe (detsembris 2017), allkirjade kogumine Tartus (jaanuaris 2018), avalikkuse ette jõudnud puidutarneleping RMKga (jaanuaris 2018), Tartu apelli nime all sõnastatud kodanike pöördumine ja tehase rajamise mõjude arutelu Tartu volikogus, mis otsustas taotleda riigi eriplaneeringu lõpetamist (märtsis 2018), ning tehase rajamise vastu suunatud Emajõe inimkett ja protestid teise võimaliku asukohana nimetatud Tabiveres (mais 2018).
 
 <p class="caption" id="figure442"><span class="figure-number">Joonis 4.4.2.</span> Puidurafineerimistehase mainimissagedus meedias perioodil 1.01.2017–20.12.2018</p>
-```{r, figure442, out.width='100%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
+<div class="desktop-plot">
+```{r, figure442, out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 
@@ -85,11 +86,12 @@ library("tidyverse")
 fig442_data_cleaned <- as.data.frame(table(fig442_data$date))
 fig442_data_cleaned$date <- as.Date(fig442_data_cleaned$Var1)
 
+names(fig442_data_cleaned)[names(fig442_data_cleaned) == "Freq"] <- "Sagedus"
 
   fig442_plot <- ggplot(data = fig442_data_cleaned) +
-    geom_line(mapping = aes(x=date, y=Freq), size=.8, group="date", colour="#BC9417") +
+    geom_line(mapping = aes(x=date, y=Sagedus),group="date", size=.75, colour="#BC9417") +
     scale_x_date(date_breaks="2 months",date_labels =  "%d.%m.%y") +
-    labs(y="Sagedus", x="Kuupäev")
+    labs(y="Sagedus", x="")
 
     fig442_theme <- theme(
                      axis.line = element_line(size = 0.2, colour = "#cccccc"),
@@ -98,11 +100,23 @@ fig442_data_cleaned$date <- as.Date(fig442_data_cleaned$Var1)
                       text = element_text(family="Montserrat"),
                  )
 
-  print(fig442_plot + fig_theme_general + fig442_theme)
+ggplotly(fig442_plot + fig_theme_general + fig442_theme, tooltip = "Sagedus") %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
   #ggsave(path="exported_figures/PNG",filename="fig442.png",height=150, width=300, units="mm")
   #ggsave(path="exported_figures/PDF",filename="fig442.pdf", height=120, width=200, units="mm")
 ```
+</div>
+
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+  print(fig442_plot + fig_theme_general + fig442_theme)
+```
+</div>
 
 ```{block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Station.ee meediamonitooring, otsisõnad „puidurafineerimistehas“ ja „tselluloositehas“.</div>

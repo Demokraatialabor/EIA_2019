@@ -256,7 +256,7 @@ Lisaks üldisele kinnismälestiste restaureerimistoetusele on riik toetanud eral
 Mõisakoolide programmi abil on suuremal või vähemal määral restaureeritud enamikku Eesti mõisakoolidest. Pühakodade programmist on toetusi saanud üle 200 kiriku, kabeli ja tsässona ([joonis 2.2.6](#figure226)).
 
 <p class="caption" id="figure226"><span class="figure-number">Joonis 2.2.6.</span> Pühakodade programm (PÜP, €)</p>
-
+<div class="desktop-plot">
 ```{r, figure226, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
@@ -266,7 +266,9 @@ library("scales")
 
 
   fig226_plot <- ggplot(data = fig226_data) +
-    geom_line(mapping = aes(x=year, y = value, colour=type, group=type), size=1) +
+    geom_line(mapping = aes(x=year, y = value, colour=type, group=type, text = paste("", type,
+                         "<br>", year,
+                         "<br>", value,"€")), size=0.75) +
     scale_colour_manual(values=c("#a18bbb","#369b9e"))+
     labs(y="", x="") +
     scale_x_continuous(breaks = c(2004,2006,2008,2010,2012,2014,2016,2018), expand = c(0, 0), limits=c(2004,2018.5))+
@@ -279,10 +281,23 @@ library("scales")
      
   )
 
+ggplotly(fig226_plot + fig_theme_general + fig226_theme, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
+
+  #ggsave(path="exported_figures/PDF/chapter2",filename="fig226.pdf", height=90, width=160, units="mm",encoding = "ISOLatin9.enc")
+```
+</div>
+
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
   print(fig226_plot + fig_theme_general + fig226_theme)
 
-  ggsave(path="exported_figures/PDF/chapter2",filename="fig226.pdf", height=90, width=160, units="mm",encoding = "ISOLatin9.enc")
 ```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Muinsuskaitseamet.</div>
@@ -293,7 +308,7 @@ Alates 2019. aastast on senine pühakodade programmi eelarve lisatud Muinsuskait
 Riigi toetus riikliku kaitse all olevale ehituspärandile ei ole kaugeltki piisav: restaureerimistoetuste taotluste maht on mitu korda suurem kui toetamisvõimalused ([joonis 2.2.7](#figure227)). Majandussurutise ajal tehtud kärbe vähendas toetuste eelarvet ligi poole võrra ja kuigi pärast kriisiaastate lõppu on riigieelarve paisunud kolm korda, on riigi toetus mälestistele jäänud sisuliselt kriisiaegsele tasemele ([joonis 2.2.7](#figure227)). Erinevalt mitmest teisest riigist ei ole Eestis mälestiste omanikele ka maksusoodustusi.
 
 <p class="caption" id="figure227"><span class="figure-number">Joonis 2.2.7.</span> Restaureerimistoetuse võrdlus riigieelarvega.</p>
-
+<div class="desktop-plot">
 ```{r, figure227, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
@@ -302,9 +317,11 @@ library("tidyverse")
 
 
   fig227_plot <- ggplot(data = fig227_data) +
-    geom_line(mapping = aes(x=year, y = value, colour=type, group=type), size=1) +
+    geom_line(mapping = aes(x=year, y = value, colour=type, group=type, text = paste("", type,
+                         "<br>", year,
+                         "<br>", value)), size=0.75) +
     scale_colour_manual(values=c("#a18bbb","#369b9e"))+
-    labs(y="", x="aasta") +
+    labs(y="", x="") +
     scale_x_continuous(breaks = c(2006,2008,2010,2012,2014,2016,2018), expand = c(0, 0), limits=c(2005,2018.5))+
     scale_y_continuous(breaks = c(0,2000000,4000000,6000000,8000000,10000000),labels = number, expand = c(0, 0), limits=c(0,11500000)) +
     expand_limits (y=0)
@@ -313,11 +330,23 @@ library("tidyverse")
      panel.grid.minor.x = element_blank(),
     text = element_text(size = 12, family="Montserrat"),
   )
+  
+  ggplotly(fig227_plot + fig_theme_general + fig227_theme, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
+
+  #ggsave(path="exported_figures/PDF/chapter2",filename="fig227.pdf", height=90, width=160, units="mm")
+```
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
   print(fig227_plot + fig_theme_general + fig227_theme)
 
-  ggsave(path="exported_figures/PDF/chapter2",filename="fig227.pdf", height=90, width=160, units="mm")
 ```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Muinsuskaitseamet ning Statistikaamet.</div>
