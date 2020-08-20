@@ -187,11 +187,17 @@ Riiklikult kaitstud ehituspärand on meie kõikide ühine hüve jalutada vanalin
 library("tidyverse")
 library("scales")
 
- fig224_data <- read.csv ("../data/22_fig4_data.csv", header=TRUE, fileEncoding="utf-8")
+fig224_data <- read.csv ("../data/22_fig4_data.csv", header=TRUE, fileEncoding="utf-8")
+
+fig224_data$owners_eng[grepl("Eraomanik", fig224_data$owners)]<-"Private owner"
+fig224_data$owners_eng[grepl("Omavalitsus", fig224_data$owners)]<-"Municipality"
+fig224_data$owners_eng[grepl("Riik", fig224_data$owners)]<-"State"
+
+fig224_data$owners_eng <- factor (fig224_data$owners_eng, levels = c("Private owner","Municipality", "State"))
 
 fig224_data$percent=percent((fig224_data$value/100), 1)
 
-  fig224_plot <- ggplot(data = fig224_data, aes(x = "", y = value, fill = owners)) +
+  fig224_plot <- ggplot(data = fig224_data, aes(x = "", y = value, fill = owners_eng)) +
   geom_bar(stat = "identity") +
   scale_fill_manual(values=c("#dbd8d7","#a18bbb","#297477")) +
   geom_text(aes(label = percent), position = position_stack(vjust = 0.5), color="white") +
@@ -229,8 +235,12 @@ library("tidyverse")
 
  fig225_data <- read.csv ("../data/22_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
 
+ fig225_data$type_eng[grepl("Taotluste maht", fig225_data$type)]<-"Applied for"
+  fig225_data$type_eng[grepl("Toetused", fig225_data$type)]<-"Granted"
+
+ 
   fig225_plot <- ggplot() +
-    geom_bar(data = fig225_data, mapping = aes(x=type, y=sum, fill=type), width=0.4, stat="identity") +
+    geom_bar(data = fig225_data, mapping = aes(x=type_eng, y=sum, fill=type), width=0.4, stat="identity") +
     scale_fill_manual(values=c("#369b9e","#a18bbb")) +
     labs(y="", x="")+
     scale_y_continuous(labels = number)
@@ -256,7 +266,7 @@ Lisaks üldisele kinnismälestiste restaureerimistoetusele on riik toetanud eral
 Mõisakoolide programmi abil on suuremal või vähemal määral restaureeritud enamikku Eesti mõisakoolidest. Pühakodade programmist on toetusi saanud üle 200 kiriku, kabeli ja tsässona ([joonis 2.2.6](#figure226)).
 
 <p class="caption" id="figure226"><span class="figure-number">Joonis 2.2.6.</span> Pühakodade programm (PÜP, €)</p>
-
+<div class="desktop-plot">
 ```{r, figure226, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
@@ -264,9 +274,15 @@ library("scales")
 
  fig226_data <- read.csv ("../data/22_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
 
+ fig226_data$type_eng[grepl("Taotluste kogusumma", fig226_data$type)]<-"Total applications"
+fig226_data$type_eng[grepl("PÜPi eelarve kogusumma", fig226_data$type)]<-"Total programme budget"
+
+fig226_data$type_eng <- factor (fig226_data$type_eng, levels = c("Total applications","Total programme budget"))
 
   fig226_plot <- ggplot(data = fig226_data) +
-    geom_line(mapping = aes(x=year, y = value, colour=type, group=type), size=1) +
+    geom_line(mapping = aes(x=year, y = value, colour=type_eng, group=type_eng, text = paste("", type_eng,
+                         "<br>", year,
+                         "<br>", value,"€")), size=0.75) +
     scale_colour_manual(values=c("#a18bbb","#369b9e"))+
     labs(y="", x="") +
     scale_x_continuous(breaks = c(2004,2006,2008,2010,2012,2014,2016,2018), expand = c(0, 0), limits=c(2004,2018.5))+
@@ -279,10 +295,23 @@ library("scales")
      
   )
 
-  print(fig226_plot + fig_theme_general + fig226_theme)
+ggplotly(fig226_plot + fig_theme_general + fig226_theme, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
   ggsave(path="../exported_figures/PDF/chapter2",filename="fig226.pdf", height=90, width=160, units="mm",encoding = "ISOLatin9.enc")
 ```
+</div>
+
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+  print(fig226_plot + fig_theme_general + fig226_theme)
+
+```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Muinsuskaitseamet.</div>
@@ -293,16 +322,20 @@ Alates 2019. aastast on senine pühakodade programmi eelarve lisatud Muinsuskait
 Riigi toetus riikliku kaitse all olevale ehituspärandile ei ole kaugeltki piisav: restaureerimistoetuste taotluste maht on mitu korda suurem kui toetamisvõimalused ([joonis 2.2.7](#figure227)). Majandussurutise ajal tehtud kärbe vähendas toetuste eelarvet ligi poole võrra ja kuigi pärast kriisiaastate lõppu on riigieelarve paisunud kolm korda, on riigi toetus mälestistele jäänud sisuliselt kriisiaegsele tasemele ([joonis 2.2.7](#figure227)). Erinevalt mitmest teisest riigist ei ole Eestis mälestiste omanikele ka maksusoodustusi.
 
 <p class="caption" id="figure227"><span class="figure-number">Joonis 2.2.7.</span> Restaureerimistoetuse võrdlus riigieelarvega.</p>
-
+<div class="desktop-plot">
 ```{r, figure227, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
 
  fig227_data <- read.csv ("../data/22_fig7_data.csv", header=TRUE, fileEncoding="utf-8")
 
+ fig227_data$type_eng[grepl("Restaureerimistoetus", fig227_data$type)]<-"Restoration grants (€)"
+fig227_data$type_eng[grepl("Riigieelarve kulud", fig227_data$type)]<-"State budget expenditure (€)"
 
   fig227_plot <- ggplot(data = fig227_data) +
-    geom_line(mapping = aes(x=year, y = value, colour=type, group=type), size=1) +
+    geom_line(mapping = aes(x=year, y = value, colour=type_eng, group=type_eng, text = paste("", type_eng,
+                         "<br>", year,
+                         "<br>", value)), size=0.75) +
     scale_colour_manual(values=c("#a18bbb","#369b9e"))+
     labs(y="", x="aasta") +
     scale_x_continuous(breaks = c(2006,2008,2010,2012,2014,2016,2018), expand = c(0, 0), limits=c(2005,2018.5))+
@@ -314,10 +347,23 @@ library("tidyverse")
     text = element_text(size = 12, family="Montserrat"),
   )
 
+  ggplotly(fig227_plot + fig_theme_general + fig227_theme, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
+
+  #ggsave(path="../exported_figures/PDF/chapter2",filename="fig227.pdf", height=90, width=160, units="mm")
+```
+
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
   print(fig227_plot + fig_theme_general + fig227_theme)
 
-  ggsave(path="../exported_figures/PDF/chapter2",filename="fig227.pdf", height=90, width=160, units="mm")
 ```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Muinsuskaitseamet ning Statistikaamet.</div>
@@ -328,7 +374,7 @@ Uuringus „Eraomandis oleva kinnismälestise hoidmine“ ([Tafel-Viia jt 2014](
 
 <p class="caption" id="figure228"><span class="figure-number">Joonis 2.2.8.</span> Vahendid kultuuripärandile.</p>
 
-Riigiasutused peaksid eraldama Euroopa kultuuripärandi jaoks rohkem vahendeid (%).
+State authorities should allocate more resources for cultural heritage (%).
 
 ```{r, figure228, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -337,13 +383,17 @@ library("scales")
 
 fig228_data <- read.csv ("../data/22_fig8_data.csv", header=TRUE, fileEncoding="utf-8")
 
-fig228_data$answer <- factor(fig228_data$answer, levels = c("Nõustun","Ei nõustu","Ei oska öelda"))
+fig228_data$answer_eng[grepl("Nõustun", fig228_data$answer)]<-"Agree"
+fig228_data$answer_eng[grepl("Ei nõustu", fig228_data$answer)]<-"Disagree"
+fig228_data$answer_eng[grepl("Ei oska öelda", fig228_data$answer)]<-"Don't know"
+
+fig228_data$answer <- factor(fig228_data$answer, levels = c("Agree","Disagree","Don't know"))
 
 fig228_data$percent=percent((fig228_data$value/100), 1)
 
   fig228_plot <- ggplot() +
-  geom_rect(data= subset(fig228_data, pop %in% c("EE")), aes(fill=answer, ymax=ymax, ymin=ymin, xmax=2.9, xmin=0)) +
-  geom_rect(data= subset(fig228_data, pop %in% c("EL28")), aes(fill=answer, ymax=ymax, ymin=ymin, xmax=3, xmin=4)) +
+  geom_rect(data= subset(fig228_data, pop %in% c("EE")), aes(fill=answer_eng, ymax=ymax, ymin=ymin, xmax=2.9, xmin=0)) +
+  geom_rect(data= subset(fig228_data, pop %in% c("EL28")), aes(fill=answer_eng, ymax=ymax, ymin=ymin, xmax=3, xmin=4)) +
   geom_text(data=fig228_data, aes(label = percent, x=x, y=value), position = position_stack(vjust = 0.5), color="white") +
   xlim(c(0, 4)) +
   coord_polar(theta = "y") +
@@ -366,11 +416,11 @@ fig228_data$percent=percent((fig228_data$value/100), 1)
 
   print(fig228_plot + fig_theme_general + fig228_theme)
 
-  ggsave(path="../exported_figures/PDF/chapter2",filename="fig228.pdf", height=120, width=200, units="mm")
+  #ggsave(path="../exported_figures/PDF/chapter2",filename="fig228.pdf", height=120, width=200, units="mm")
 
 ```
-Välimine ring **Euroopa Liidu keskmine**<br>
-Sisemine ring **Eesti**
+Outside **EU average**<br>
+Inside **Estonia**
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Eurobaromeeter 2017.</div>
 <div><a class="data-btn" href="../data/22_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
