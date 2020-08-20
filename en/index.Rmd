@@ -1,7 +1,7 @@
 --- 
 title: "Estonian Human Development Report 2019/2020"
 cover-image: "https://inimareng.ee/cover.png"
-description: "Linnastunud ühiskonna ruumilised valikud"
+description: "Spatial Choices for an Urbanised Society"
 site: bookdown::bookdown_site
 biblatexoptions: [refsegment=chapter]
 link-citations: yes
@@ -9,12 +9,12 @@ css: "../eia.css"
 lang: en
 ---
 
-# Eesti inimarengu aruanne 2019/2020 {-.cover-page}
+# Estonian Human Development Report 2019/2020 {-.cover-page}
 
 <div class="cover-container">
 <div id="cover-hero">
-<h1>Eesti inimarengu aruanne 2019/2020</h1>
-<h2>Linnastunud ühiskonna ruumilised valikud</h2>
+<h1>Estonian Human Development Report 2019/2020</h1>
+<h2>Spatial Choices for an Urbanised Society</h2>
 
 
 ```{block, type='poem1'}

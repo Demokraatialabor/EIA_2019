@@ -1,9 +1,9 @@
-# Eesti Aruteluruum {.chapter4 .chapter4_section}
+# Estonian deliberative space {.chapter4 .chapter4_section}
  <script>
-  window.location = "sissejuhatus-4.html";
+  window.location = "introduction-4.html";
   </script>
-## Sissejuhatus {-.chapter_section .chapter4_section .intro_section}
-<h1>Eesti Aruteluruum</h1>
+## Introduction {-.chapter_section .chapter4_section .intro_section}
+<h1>Estonian deliberative space</h1>
 
 ```{block, type='authors'}
 <div class="author-links">**[Indrek Ibrus](#indrek-ibrus)**</div>

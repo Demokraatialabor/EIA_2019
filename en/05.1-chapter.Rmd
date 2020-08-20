@@ -1,4 +1,4 @@
-## Eesti 2050 stsenaariumid {-.chapter_section .chapter5_section }
+## Estonia 2050 scenarios {-.chapter_section .chapter5_section }
 
 ```{block, type='authors'}
 <div class="author-links">**[Kristi Grišakov](#kristi-grišakov) ja [Mihkel Kaevats](#mihkel-kaevats)** (stsenaariumitekstid)</div>

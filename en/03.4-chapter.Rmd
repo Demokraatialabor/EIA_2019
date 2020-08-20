@@ -1,4 +1,4 @@
-## Kaasarääkimise võimalused loodusalade kasutamisel {.chapter_section .chapter3_section}
+## Public participation in decisions on the use of natural areas {.chapter_section .chapter3_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Siim Vahtrus](#siim-vahtrus), [Liina Remm](#liina-remm), [Kärt Vaarmari](#kärt-vaarmari)**</div>

@@ -1,4 +1,4 @@
-## Andmepõhine ruumiloome {.chapter_section .chapter2_section}
+## Data-driven spatial planning {.chapter_section .chapter2_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Renee Puusepp](#renee-puusepp) ja [Raul Kalvo](#raul-kalvo)**</div>

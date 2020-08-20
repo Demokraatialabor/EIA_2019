@@ -1,4 +1,4 @@
-## Maakasutuse muutused – linna ja maa tähenduse moondumine { .chapter_section .chapter1_section}
+## Changes in land use: distortion of the meaning of urban and rural { .chapter_section .chapter1_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Tõnu Oja](#tõnu-oja)**</div>

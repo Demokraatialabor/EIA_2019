@@ -298,6 +298,7 @@ Tööle liikumise trendid viimasel kümnendil näitavad sõiduauto kasutamise po
 ```{r, figure156, out.width='95%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
+library("plotly")
 
  fig156_data <- read.csv ("data/15_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
 

@@ -1,4 +1,4 @@
-## Avalik ruum kui elukeskkonda siduv võrgustik {.chapter_section .chapter2_section}
+## Public space as an interconnecting network within the living environment {.chapter_section .chapter2_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Toomas Paaver](#toomas-paaver) ja [Elo Kiivet](#elo-kiivet)**</div>

@@ -1,4 +1,4 @@
-## Ehituspärand ja ruumikvaliteet {.chapter_section .chapter2_section}
+## Built heritage and spatial quality {.chapter_section .chapter2_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Triin Talk](#triin-talk) ja [Siim Raie](#siim-raie)**</div>

@@ -1,4 +1,4 @@
-## Kuidas inimesed Eesti looduskeskkonda kasutavad? {.chapter_section .chapter3_section}
+## How do people use the natural environment in Estonia? {.chapter_section .chapter3_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Kalev Sepp](#kalev-sepp) ja [Asko Lõhmus](#asko-lõhmus)**</div>

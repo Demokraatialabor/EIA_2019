@@ -1,4 +1,4 @@
-## Loodusalade kujundamine avalikuks kasutuseks {.chapter_section .chapter3_section}
+## Shaping natural areas for public use {.chapter_section .chapter3_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Age Poom](#age-poom) ja [Kalev Sepp](#kalev-sepp)**</div>

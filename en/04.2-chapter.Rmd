@@ -1,4 +1,4 @@
-## Eesti noored virtuaalses arvamusruumis {.chapter_section .chapter4_section}
+## Estonian youth in the virtual opinion space {.chapter_section .chapter4_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Veronika Kalmus](#veronika-kalmus) ja [Andra Siibak](#andra-siibak)**</div>

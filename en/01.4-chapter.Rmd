@@ -1,4 +1,4 @@
-## Nüüdisaegsed elamistingimused – kelle privileeg? {.chapter_section .chapter1_section}
+## Modern living conditions – whose privilege? {.chapter_section .chapter1_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Anneli Kährik](#anneli-kährik) ja [Annika Väiko](#annika-väiko)**</div>
@@ -39,16 +39,19 @@ library("scales")
 
 
  fig141_data <- read.csv ("../data/14_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
+  
+fig141_data$area_eng[grepl("Tallinn",fig141_data$area)]<-"Tallinn"
+fig141_data$area_eng[grepl("Maapiirkonnad",fig141_data$area)]<-"Rural areas (excl. Harjumaa)"
 
 fig141_data$percent=percent((fig141_data$value/100), 1)
 
   fig141_plot <- ggplot(data = fig141_data, aes(x = "", y = value, fill = variable)) +
   geom_bar(stat = "identity") +
-  scale_fill_manual(values=c("#b1e0f9","#482683","#369B9E")) +
+  scale_fill_manual(values=c("#b1e0f9","#482683","#369B9E"), labels=c("Single-family house","Apartment in a large building","Apartment in a small building")) +
   geom_text(aes(label = percent), position = position_stack(vjust = 0.5), color="white") +
   coord_polar(theta = "y") +
   labs(x="", y="")+
-  facet_grid(~area)
+  facet_grid(~area_eng)
 
   fig141_theme <- theme(
                     panel.grid.major.x = element_blank() ,
@@ -81,20 +84,26 @@ Suurem osa Eesti eluasemefondist pärineb nõukogude perioodist ([joonis 1.4.2](
 Uuselamuehitus sai uue suurema tõuke pärast 2000. aastat, kui paranesid üldine elujärg ja laenuvõimalused. Tallinnas ja Harjumaal on ehitustegevus olnud hoogsam kui mujal Eestis ([joonis 1.4.2](#figure142)). Tallinnas elab iga viies pere pärast 1991. aastat ehitatud eluasemel, Harjumaal väljaspool Tallinna koguni iga kolmas. Mujal Eestis on elamute ehitusaktiivsus olnud oluliselt väiksem. Seega on suurema osa eestimaalaste elamistingimuste paranemine saanud toimuda vaid vana eluaset renoveerides.
 
 <p class="caption" id="figure142"><span class="figure-number">Joonis 1.4.2.</span> Eluasemete ehitusaeg (regionaalsed keskused on maakonnakeskused)</p>
-
+<div class="desktop-plot">
 ```{r, figure142, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 
  fig142_data <- read.csv ("../data/14_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
 
-fig142_data$area <- factor(fig142_data$area, levels = c("Tallinn","Harjumaa (v.a Tallinn)","Regionaalsed keskused (v.a Tallinn)","Väikelinnad ja maa (v.a Harjumaa)"))
+fig142_data$area_eng[grepl("Tallinn",fig142_data$area)]<-"Tallinn"
+fig142_data$area_eng[grepl("Harjumaa",fig142_data$area)]<-"Harjumaa (excl. Tallinn)"
+fig142_data$area_eng[grepl("Regionaalsed",fig142_data$area)]<-"Regional centres (excl. Tallinn)"
+fig142_data$area_eng[grepl("Väikelinnad",fig142_data$area)]<-"Small towns and rural areas (excl. Harjumaa)"
 
+fig142_data$area_eng <- factor(fig142_data$area_eng, levels = c("Tallinn","Harjumaa (excl. Tallinn)","Regional centres (excl. Tallinn)","Small towns and rural areas (excl. Harjumaa)"))
 
   fig142_plot <- ggplot(data = fig142_data) +
-    geom_bar(mapping = aes(x=years, y=value, fill=area), size=1.2, stat = "identity", position="dodge") +
+    geom_bar(mapping = aes(x=years, y=value, fill=area_eng, text = paste("", area_eng,
+                         "<br>", years,
+                         "<br>", value, "%")), size=1.2, stat = "identity", position="dodge") +
     scale_fill_manual(values=c("#482683", "#917db5","#369B9E","#b1e0f9")) +
-    labs(y="% eluasemetest", x="") +
+    labs(y="% of dwellings", x="") +
     guides(fill=guide_legend(nrow=2,byrow=TRUE))
 
   fig142_theme <- theme(
@@ -105,12 +114,23 @@ fig142_data$area <- factor(fig142_data$area, levels = c("Tallinn","Harjumaa (v.a
                  )
 
 
-  print(fig142_plot + fig_theme_general + fig142_theme)
+ggplotly(fig142_plot + fig_theme_general + fig142_theme, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
   #ggsave(path="../exported_figures/PDF/chapter1",filename="fig142.pdf", height=140, width=200, units="mm")
 
 ```
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
+print(fig142_plot + fig_theme_general + fig142_theme)
+
+```
+</div>
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).</div>
 <div><a class="data-btn" href="../data/14_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
@@ -133,12 +153,16 @@ library("tidyverse")
 
  fig143_data <- read.csv ("../data/14_fig3_data.csv", header=TRUE, fileEncoding="utf-8")
 
+fig143_data$area_eng[grepl("Tallinn",fig143_data$area)]<-"Tallinn"
+fig143_data$area_eng[grepl("Harjumaa",fig143_data$area)]<-"Harjumaa (excl. Tallinn)"
+fig143_data$area_eng[grepl("Regionaalsed",fig143_data$area)]<-"Regional centres (excl. Tallinn)"
+fig143_data$area_eng[grepl("Väikelinnad",fig143_data$area)]<-"Small towns and rural areas (excl. Harjumaa)"
 
   fig143_plot <- ggplot(data = fig143_data) +
-    geom_bar(mapping = aes(x=reorder(area, -value), y=value, fill=variable),position = "dodge", width=0.7, stat="identity") +
+    geom_bar(mapping = aes(x=reorder(area_eng, -value), y=value, fill=variable),position = "dodge", width=0.7, stat="identity") +
     coord_flip()+
     labs(y="%", x="") +
-    scale_fill_manual(values=c("#482683","#917DB5"))
+    scale_fill_manual(values=c("#482683","#917DB5"), labels=c("Decayed or damp","Lacking a toilet or shower/bath"))
 
     fig143_theme <- theme(
                   panel.grid.major.y = element_blank() ,
@@ -160,8 +184,8 @@ library("tidyverse")
 
 Ligikaudu pool Eesti elanikest elab eluruumides, mis nende enda hinnangul vajavad ajakohastamist, olles kas väga viletsas seisundis või oluliste puudustega. Elamistingimustega rahulolu mõjutab eluhoone vanus ja ka tüüp – probleeme on rohkem vanemates elamutes asuvate eluasemetega, samuti väiksemate hoonetega (nii korterelamud kui ka eramajad) ([joonis 1.4.4](#figure144)). Suurte kortermajade (suhteliselt uuemad) elanikud hindavad eluasemete seisukorda veidi paremaks. Kehvem on väikelinnade ja maapiirkondade eluasemete olukord ning üürisektor tervikuna on mõnevõrra suuremate puudustega kui omanike poolt asustatud eluasemed.
 
-<p class="caption" id="figure144"><span class="figure-number">Joonis 1.4.4.</span> Inimeste hinnang eluaseme seisukorrale eluhoone vanuse (üleval) ning tüübi (all) järgi</p>
-
+<p class="caption" id="figure144"><span class="figure-number">Joonis 1.4.4.</span> People’s assessment of the condition of their housing based on the age (top) and type (bottom) of the residential building</p>
+<div class="desktop-plot">
 ```{r, figure144, out.width='80%', fig.asp=1.0, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
@@ -172,8 +196,24 @@ fig144_data1 <- read.csv ("../data/14_fig4_data1.csv", header=TRUE, fileEncoding
 fig144_data2 <- read.csv ("../data/14_fig4_data2.csv", header=TRUE, fileEncoding="utf-8")
 
 
+fig144_data1$condition_eng[grepl("Värskelt",fig144_data1$condition)]<-"Newly renovated"
+fig144_data1$condition_eng[grepl("Hea seisukord",fig144_data1$condition)]<-"Good condition"
+fig144_data1$condition_eng[grepl("Esinevad suured puudused",fig144_data1$condition)]<-"Major defects"
+fig144_data1$condition_eng[grepl("Esineb puudusi",fig144_data1$condition)]<-"Some defects"
+
+fig144_data2$condition_eng[grepl("Värskelt",fig144_data2$condition)]<-"Newly renovated"
+fig144_data2$condition_eng[grepl("Hea seisukord",fig144_data2$condition)]<-"Good condition"
+fig144_data2$condition_eng[grepl("Esinevad suured puudused",fig144_data2$condition)]<-"Major defects"
+fig144_data2$condition_eng[grepl("Esineb puudusi",fig144_data2$condition)]<-"Some defects"
+
+fig144_data2$type_of_residence_eng[grepl("Väike korterelamu",fig144_data2$type_of_residence)]<-"Small apartment building"
+fig144_data2$type_of_residence_eng[grepl("Suur korterelamu",fig144_data2$type_of_residence)]<-"Large apartment building"
+fig144_data2$type_of_residence_eng[grepl("Eramaja",fig144_data2$type_of_residence)]<-"Single-family home"
+
   fig144_plot1 <- ggplot(data = fig144_data1) +
-    geom_bar(mapping = aes(x=condition, y=value, fill=year), width=0.7, stat="identity") +
+    geom_bar(mapping = aes(x=condition_eng, y=value, fill=year, text = paste("", condition_eng,
+                         "<br>", year,
+                         "<br>", value,"%")), width=0.7, stat="identity") +
     coord_flip() +
     labs(y="%", x="") +
     scale_fill_manual(values=c("#DAD4E6","#B6A8CD","#b1e0f9","#6D519C","#369B9E","#361C62")) +
@@ -181,7 +221,9 @@ fig144_data2 <- read.csv ("../data/14_fig4_data2.csv", header=TRUE, fileEncoding
       scale_x_discrete(labels = wrap_format(20))
 
   fig144_plot2 <- ggplot(data = fig144_data2) +
-    geom_bar(mapping = aes(x=condition, y=value, fill=type_of_residence), width=0.7, stat="identity") +
+    geom_bar(mapping = aes(x=condition_eng, y=value, fill=type_of_residence_eng, text = paste("", condition_eng,
+                         "<br>", type_of_residence_eng,
+                         "<br>", value,"%")), width=0.7, stat="identity") +
     coord_flip() +
     labs(y="%", x="") +
     scale_fill_manual(values=c("#369B9E","#b1e0f9","#482683")) +
@@ -194,12 +236,31 @@ fig144_data2 <- read.csv ("../data/14_fig4_data2.csv", header=TRUE, fileEncoding
                       text=element_text(family="Montserrat")
                  )
 
-grid.arrange(fig144_plot1 + fig144_theme + fig_theme_general, fig144_plot2 + fig144_theme + fig_theme_general, ncol = 1)
+  ggplotly(fig144_plot1 + fig144_theme + fig_theme_general, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.25)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
+  
+ggplotly(fig144_plot2 + fig144_theme + fig_theme_general, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
 #ggsave(path="exported_figures/PDF/chapter1",fig144_plot1 + fig144_theme + fig_theme_general,filename="fig144a.pdf", height=100, width=170, units="mm")
 
 #ggsave(path="exported_figures/PDF/chapter1",fig144_plot2 + fig144_theme + fig_theme_general,filename="fig144b.pdf", height=100, width=170, units="mm")
 ```
+
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=1.0, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+grid.arrange(fig144_plot1 + fig144_theme + fig_theme_general, fig144_plot2 + fig144_theme + fig_theme_general, ncol = 1)
+
+```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).</div>
@@ -244,15 +305,18 @@ fig147_data <- read.csv ("../data/14_fig7_data.csv", header=TRUE, fileEncoding="
 fig147_data$income_size <- factor(fig147_data$income_size, levels = c("Suur sissetulek","Väike sissetulek"))
 fig147_data$condition <- factor(fig147_data$condition, levels = c("Esineb suuri puudusi","Esineb puudusi","Hea seisukord","Värskelt remonditud"))
 
+fig147_data$income_size_eng[grepl("Suur sissetulek",fig147_data$income_size)]<-"High income"
+fig147_data$income_size_eng[grepl("Väike sissetulek",fig147_data$income_size)]<-"Low income"
+
  fig147_data$percent=percent((fig147_data$value/100), 1)
 
   fig147_plot <- ggplot(data = fig147_data,aes(x="", y=value, fill=condition)) +
     geom_bar(width=0.7, stat="identity") +
-    scale_fill_manual(values=c("#b1e0f9","#369B9E","#482683","#361C62")) +
+    scale_fill_manual(values=c("#b1e0f9","#369B9E","#482683","#361C62"), labels=c("Major defects","Some defects","Good condition","Newly renovated")) +
 
     geom_text(aes(label = percent), position = position_stack(vjust = 0.5), color="white") +
     coord_polar("y", start=0)+
-    facet_wrap(~income_size, nrow=1)+
+    facet_wrap(~income_size_eng, nrow=1)+
     labs (x="", y="")
 
     fig147_theme <- theme(
@@ -280,21 +344,33 @@ Väikese sissetulekuga peredel moodustab eluaseme ülalpidamisele kuluv summa su
 ```
 Ootuspäraselt on Tallinnas ja Harjumaal paremal majanduslikul järjel olevaid leibkondi rohkem. Sellest tulenevalt on pealinna regiooni elanikel rohkem võimalusi oma eluaseme kvaliteeti parandada. Asulatüüpide erinevused jäävad aga kehtima ka siis, kui võrrelda sarnast tulu teenivate leibkondade elamistingimusi. Pealinna eluasemete seisukorda hinnatakse paremaks ka siis, kui leibkonna enda ressursid nii suured ei ole ([joonis 1.4.8](#figure148)). Keskmiselt 70% pealinlastest elab renoveeritud või heas seisukorras oleval eluasemel. Siin võib rolli mängida Tallinna elamufondi noorem keskmine vanus, kuid edutegur võib olla seotud ka suurema sotsiaalse mitmekesisusega pealinna kortermajades ja asumites – kui ühes eluhoones elab peale väiksema sissetulekuga elanike ka majanduslikult paremal järjel inimesi, avaldab see kokkuvõttes positiivset mõju kõigile.
 
-<p class="caption" id="figure148"><span class="figure-number">Joonis 1.4.8.</span> Hinnangud oma eluasemete seisukorrale sissetuleku ja asustustüübi alusel (regionaalsed keskused on maakonnakeskused), vasakul: suurimat tulu saav viiendik, paremal: väikseimat tulu saav viiendik</p>
-
+<p class="caption" id="figure148"><span class="figure-number">Joonis 1.4.8.</span> People’s assessment of the condition of their dwellings by income and settlement type (left: 20% of the population with the lowest income; right: 20% of the population with the highest income; ‘regional centres’ refers to county towns)</p>
+<div class="desktop-plot">
 ```{r, figure148, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 
  fig148_data <- read.csv ("../data/14_fig8_data.csv", header=TRUE, fileEncoding="utf-8")
- fig148_data$area <- factor(fig148_data$area, levels = c("Väikelinnad ja maa (v.a Harjumaa)","Regionaalsed keskused (v.a Tallinn)","Harjumaa (v.a Tallinn)","Tallinn"))
 
+fig148_data$area_eng[grepl("Tallinn",fig148_data$area)]<-"Tallinn"
+fig148_data$area_eng[grepl("Harjumaa",fig148_data$area)]<-"Harjumaa (excl. Tallinn)"
+fig148_data$area_eng[grepl("Regionaalsed",fig148_data$area)]<-"Regional centres (excl. Tallinn)"
+fig148_data$area_eng[grepl("Väikelinnad",fig148_data$area)]<-"Small towns and rural areas (excl. Harjumaa)"
+fig148_data$condition_eng[grepl("Värskelt remonditud",fig148_data$condition)]<-"Newly renovated or in good condition"
+fig148_data$condition_eng[grepl("Remonti vajav",fig148_data$condition)]<-"In need of repair"
+fig148_data$income_eng[grepl("Suur sissetulek",fig148_data$income)]<-"High income"
+fig148_data$income_eng[grepl("Väike sissetulek",fig148_data$income)]<-"Low income"
+
+fig148_data$area_eng <- factor(fig148_data$area_eng, levels = c("Small towns and rural areas (excl. Harjumaa)","Regional centres (excl. Tallinn)","Harjumaa (excl. Tallinn)","Tallinn"))
+ 
   fig148_plot <- ggplot(data = fig148_data) +
-    geom_bar(mapping = aes(x=area, y=value, fill=condition), width=0.6, stat="identity") +
+    geom_bar(mapping = aes(x=area_eng, y=value, fill=condition_eng ,text = paste("", condition_eng,
+                         "<br>", area_eng,
+                         "<br>", value, "%")), width=0.6, stat="identity") +
     scale_fill_manual(values=c("#369B9E","#482683")) +
     coord_flip() +
     labs(y="%", x="") +
-    facet_wrap(~income, nrow=1) +
+    facet_wrap(~income_eng, nrow=1) +
     scale_x_discrete(labels = wrap_format(23)) +
     guides(fill = guide_legend(reverse = TRUE))
 
@@ -307,11 +383,22 @@ library("tidyverse")
                     text=element_text(family="Montserrat")
                  )
 
-print(fig148_plot + fig148_theme + fig_theme_general)
-ggsave(path="../exported_figures/PDF/chapter1",filename="fig148.pdf", height=140, width=200, units="mm")
+ggplotly(fig148_plot + fig148_theme + fig_theme_general, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.25)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
+#ggsave(path="../exported_figures/PDF/chapter1",filename="fig148.pdf", height=140, width=200, units="mm")
 
 ```
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
+print(fig148_plot + fig148_theme + fig_theme_general)
+
+```
+</div>
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).</div>
 <div><a class="data-btn" href="../data/14_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
@@ -339,15 +426,26 @@ library("scales")
 fig149_data1 <- read.csv ("../data/14_fig9_data1.csv", header=TRUE, fileEncoding="utf-8")
 fig149_data2 <- read.csv ("../data/14_fig9_data2.csv", header=TRUE, fileEncoding="utf-8")
 
+
+fig149_data1$group_eng[grepl("Omanik",fig149_data1$group)]<-"Owners"
+fig149_data1$group_eng[grepl("erasektor",fig149_data1$group)]<-"Tenants (private sector)"
+fig149_data1$group_eng[grepl("avalik sektor",fig149_data1$group)]<-"Tenants (public sector)"
+
+fig149_data2$area_eng[grepl("Tallinn",fig149_data2$area)]<-"Tallinn"
+fig149_data2$area_eng[grepl("Harjumaa",fig149_data2$area)]<-"Harjumaa (excl. Tallinn)"
+fig149_data2$area_eng[grepl("Regionaalsed",fig149_data2$area)]<-"Regional centres (excl. Tallinn)"
+fig149_data2$area_eng[grepl("Väikelinnad",fig149_data2$area)]<-"Small towns and rural areas (excl. Harjumaa)"
+
+
 fig149_data1$group <- factor(fig149_data1$group, levels = c("Omanik","Üürnik (erasektor)","Üürnik (avalik sektor)"))
 fig149_data2$variable <- factor(fig149_data2$variable, levels = c("Üürnik (avalik sektor)","Üürnik (erasektor)","Omanik"))
 
-fig149_data2$area <- factor(fig149_data2$area, levels = c("Väikelinnad ja maa (v.a Harjumaa)","Regionaalsed keskused (v.a Tallinn)","Harjumaa (v.a Tallinn)","Tallinn"))
+fig149_data2$area_eng <- factor(fig149_data2$area_eng, levels = c("Small towns and rural areas (excl. Harjumaa)","Regional centres (excl. Tallinn)","Harjumaa (excl. Tallinn)","Tallinn"))
 
 fig149_data1$percent=percent((fig149_data1$value/100), 1)
 
 
-  fig149_plot1 <- ggplot(data = fig149_data1, aes(x="", y=value, fill=group)) +
+  fig149_plot1 <- ggplot(data = fig149_data1, aes(x="", y=value, fill=group_eng)) +
     geom_bar( width=0.7, stat="identity") +
     geom_text(aes(x=1.15,label = percent), position = position_stack(vjust = 0.5), color="white") +
     scale_fill_manual(values=c("#482683","#369B9E","#b1e0f9")) +
@@ -358,7 +456,7 @@ fig149_data1$percent=percent((fig149_data1$value/100), 1)
 
 
   fig149_plot2 <- ggplot(data = fig149_data2) +
-    geom_bar(mapping = aes(x=area, y=value, fill=variable), width=0.7, stat="identity") +
+    geom_bar(mapping = aes(x=area_eng, y=value, fill=variable), width=0.7, stat="identity") +
     scale_fill_manual(values=c("#b1e0f9","#369B9E","#482683")) +
     coord_flip() +
     labs(y="%", x="") +
@@ -404,59 +502,59 @@ Riiklikult on kõige pikema praktikaga omanikuasustuse toetamine (Eesti elamumaj
 <div style="overflow-x:auto;">
 <table id="table_141" style="width:100%">
   <tr>
-    <th class="table141_main_header">TOETUSE TÜÜP</th>
-    <th class="table141_main_header">SIHTRÜHM</th>
+    <th class="table141_main_header">GRANT TYPE</th>
+    <th class="table141_main_header">TARGET GROUP</th>
   </tr>
 
   <tr>
-    <th colspan="2">Omanikuasustuse soodustamine</th>
+    <th colspan="2">Promoting owner-occupancy</th>
   </tr>
   <tr>
-    <td>Eluasemelaenu käendus (vähendab esma- se sissemakse kohustust, omafinantsee- ring minimaalselt 10% laenu tagatisvara väärtusest)</td>
-    <td>Noored pered, noored spetsialistid jt sihtrühmad, kes soovivad võtta laenu eluaseme ostmiseks või olemasoleva renoveerimiseks</td>
+    <td>Home loan guarantee (down-payment obligation reduced, 10% of the collateral value of the loan must be self-financed as a minimum)</td>
+    <td>Young families, young professionals and other target groups wanting to get a loan to purchase or renovate a home.</td>
   </tr>
     <tr>
-    <td>Tulumaksusoodustus eluasemelaenu intressilt</td>
-    <td>Eluasemelaenu võtnud isikud</td>
+    <td>Income tax incentive on home loan interest</td>
+    <td>Persons who have taken out a home loan</td>
   </tr>
 
   <tr>
-    <th colspan="2">Sotsiaaltoetused</th>
+    <th colspan="2">Social benefits</th>
   </tr>
   <tr>
-    <td>Toimetulekutoetus (riigi rahaline abi puuduses elavatele inimestele)</td>
-    <td>Väikese sissetulekuga leibkonnad, kelle sissetulek eluasemekulude tasumise järel jääb alla toimetulekupiiri</td>
-  </tr>
-
-  <tr>
-    <th colspan="2">Üürielamufondi rajamine</th>
-  </tr>
-  <tr>
-    <td>Elamufondi arendamise investeeringu- toetus kohalikele omavalitsustele</td>
-    <td>Liikuvad töötajad ja majanduslikult vähekindlustatud sihtrühmad (kohalik omavalitsus kehtestab reeglid)</td>
+    <td>Subsistence benefit (state financial aid for people in need)</td>
+    <td>Low-income households whose income after paying housing costs is below the subsistence level</td>
   </tr>
 
   <tr>
-    <th colspan="2">Elamufondi kvaliteedi parandamine</th>
+    <th colspan="2">Establishing rental housing stock</th>
   </tr>
   <tr>
-    <td>Korterelamute rekonstrueerimistoetus</td>
-    <td>Enne 1993. aastat püstitatud korterela- mute omanikud, kelle eluhoone vajab rekonstrueerimist</td>
-  </tr>
-
-  <tr>
-    <td>Väikeelamute rekonstrueerimistoetus</td>
-    <td>Enne 1993. aastat püstitatud väikeelamute omanikud, kelle eluhoone vajab rekonst- rueerimist</td>
+    <td>Investment grants to local governments for developing housing stock</td>
+    <td>Mobile workers and economically disadvantaged target groups (rules set by the local government)</td>
   </tr>
 
   <tr>
-    <td>Korterelamute rekonstrueerimistoetus</td>
-    <td>Väikese sissetulekuga kolme või enama lapsega pered, kelle eluase vajab remonti või kellel puudub vajadustele vastav eluase</td>
+    <th colspan="2">Improving the quality of the housing stock</th>
+  </tr>
+  <tr>
+    <td>Reconstruction grants for apartment buildings</td>
+    <td>Owners of apartment buildings erected before 1993 whose residential building needs reconstruction</td>
   </tr>
 
   <tr>
-    <td>Puuetega inimeste eluruumide füüsilise kohandamise toetus</td>
-    <td>Erivajadustega inimesed, kelle eluase vajab füüsilist kohandamist</td>
+    <td>Reconstruction grants for small residential buildings</td>
+    <td>Owners of small residential buildings erected before 1993 whose residential building needs reconstruction</td>
+  </tr>
+
+  <tr>
+    <td>Home support for large families</td>
+    <td>Low-income families with three or more children whose home needs to be renovated or who do not have adequate housing</td>
+  </tr>
+
+  <tr>
+    <td>Aid for modifying the housing for people with disabilities</td>
+    <td>People with special needs whose housing requires modification</td>
   </tr>
 
 </table>

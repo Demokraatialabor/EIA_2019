@@ -1,9 +1,9 @@
-# Avalik linnaruum {.chapter2 .chapter2_section}
+# Public urban space {.chapter2 .chapter2_section}
  <script>
-  window.location = "sissejuhatus-2.html";
+  window.location = "introduction-2.html";
   </script>
-## Sissejuhatus {-.chapter_section .chapter2_section .intro_section}
-<h1>Avalik linnaruum</h1>
+## Introduction {-.chapter_section .chapter2_section .intro_section}
+<h1>Public urban space</h1>
 ```{block, type='authors'}
 <div class="author-links">**[Epp Lankots](#epp-lankots)**</div>
 <div><a class="print-btn" href="../print/EIA-2019-2.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>

@@ -1,4 +1,4 @@
-## Loodusalade mõju inimeste heaolule {.chapter_section .chapter3_section}
+## The impact of natural areas on people’s well-being {.chapter_section .chapter3_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Kati Orru](#kati-orru), [Mait Lang](#mait-lang) ja [Hans Orru](#hans-orru)**</div>

@@ -1,9 +1,9 @@
-# Autorid ja toimetajad {.chapter6 .chapter6_section .chapter_section}
+# Contributors and Editors {.chapter6 .chapter6_section .chapter_section}
 
 <div><a class="print-btn" href="../print/EIA-2019-6-Autorid.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 
 
-### Peatoimetaja {-.chapter6_section}
+### Editor-in-chief {-.chapter6_section}
 
 <div class="author-container" id="helen-sooväli-sepping">
 
@@ -20,7 +20,7 @@ on Tallinna Ülikooli jätkusuutliku arengu prorektor, keskkonnakorralduse profe
 </div>
 </div>
 
-### Peatükkide toimetajad {-.chapter6_section}
+### Editors {-.chapter6_section}
 
 <div class="author-container" id="kristi-grišakov">
 
@@ -97,7 +97,7 @@ on loomaökoloog, Tartu Ülikooli juhtivteadur ja loodusressursside õppetooli j
 </div>
 </div>
 
-### Autorid {-.chapter6_section}
+### Contributors {-.chapter6_section}
 
 <div class="author-container" id="dago-antov">
 <div class="author-img-container">

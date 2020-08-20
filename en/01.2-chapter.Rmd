@@ -1,4 +1,4 @@
-## Keskuse ja ääremaa lõhe Eestis {.chapter_section .chapter1_section}
+## Increasing regional polarisation in Estonia {.chapter_section .chapter1_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Bianka Plüschke-Altof](#bianka-plüschke-altof), [Bradley Loewen](#bradley-loewen) ja [Kadri Leetmaa](#kadri-leetmaa)**</div>
@@ -34,6 +34,7 @@ library(svglite)
 Maakonnad <- st_read(dsn ="../data/12_fig1_data/maakond_20200101.shp")
 head(as.data.frame(Maakonnad))
 Maakonnad <- Maakonnad[order(Maakonnad$MNIMI),]
+Maakonnad$MNIMI <- c("Harju county", "Hiiu county", "Ida-Viru county", "Järva county", "Jõgeva county", "Lääne county", "Lääne-Viru county", "Pärnu county", "Põlva county", "Rapla county", "Saare county", "Tartu county", "Valga county", "Viljandi county", "Võru county")
 
 fig_data <- read.csv("../data/12_fig1_data/fig_121_data.csv", header=TRUE, sep=";")
 fig_data <- fig_data[order(fig_data$county_est),]
@@ -42,25 +43,25 @@ Maakonnad$Rahvaarvu_muutus <- fig_data$pop_change
 Maakonnad$SKP1995 <- fig_data$GDP95
 Maakonnad$SKP2016 <- fig_data$GDP16
 
-names(Maakonnad)[names(Maakonnad) == "Rahvaarvu_muutus"] <- "Rahvaarvu muutus (%)"
-names(Maakonnad)[names(Maakonnad) == "SKP1995"] <- "SKP osamaht 1995 (%)"
-names(Maakonnad)[names(Maakonnad) == "SKP2016"] <- "SKP osamaht 2016 (%)"
+names(Maakonnad)[names(Maakonnad) == "Rahvaarvu_muutus"] <- "Population change (%)"
+names(Maakonnad)[names(Maakonnad) == "SKP1995"] <- "Share of national GDP in 1995 (%)"
+names(Maakonnad)[names(Maakonnad) == "SKP2016"] <- "Share of national GDP in 2016 (%)"
 
 fig_121_plot <- tm_shape(Maakonnad) + 
-    tm_fill("Rahvaarvu muutus (%)", title="Rahvaarvu muutus (protsentides), 1995-2016",
-    breaks = c(-30,-20, -10,0,10), palette = c("#B6A8CD","#6D519C","#361C62","#96CBD2"), popup.vars=c("Rahvaarvu muutus (%)","SKP osamaht 1995 (%)","SKP osamaht 2016 (%)")) +
+    tm_fill("Population change (%)", title="Population change (percentage) 1995–2016",
+    breaks = c(-30,-20, -10,0,10), palette = c("#B6A8CD","#6D519C","#361C62","#96CBD2"), popup.vars=c("Population change (%)","Share of national GDP in 1995 (%)","Share of national GDP in 2016 (%)")) +
     tm_borders(col="white") +
     
   tm_layout(
     legend.format=list(text.separator="...")) +
 
   tm_shape(Maakonnad) +
-      tm_bubbles(col = "#dbe9da",alpha = 0.6, size = "SKP osamaht 1995 (%)", scale = 541/640 * 8*1.7, border.col=NULL,xmod=-5, title.size="SKP osamaht 1995 (%)", popup.vars=c("Rahvaarvu muutus (%)","SKP osamaht 1995 (%)","SKP osamaht 2016 (%)") ) +
-      tm_text (col="white", text="SKP osamaht 1995 (%)",xmod=-5) +
+      tm_bubbles(col = "#dbe9da",alpha = 0.6, size = "Share of national GDP in 1995 (%)", scale = 541/640 * 8*1.7, border.col=NULL,xmod=-5, title.size="Share of national GDP in 1995 (%)", popup.vars=c("Population change (%)","Share of national GDP in 1995 (%)","Share of national GDP in 2016 (%)") ) +
+      tm_text (col="white", text="Share of national GDP in 1995 (%)",xmod=-5) +
       
     tm_shape(Maakonnad) +
-    tm_bubbles(col = "#369B9E",alpha = 0.6, size = "SKP osamaht 2016 (%)", scale = 8*1.7, border.col=NULL,xmod=2, title.size="SKP osamaht 2016 (%)",popup.vars=c("Rahvaarvu muutus (%)","SKP osamaht 1995 (%)","SKP osamaht 2016 (%)")) +
-      tm_text (col="white", text="SKP osamaht 2016 (%)", xmod=2) +
+    tm_bubbles(col = "#369B9E",alpha = 0.6, size = "Share of national GDP in 2016 (%)", scale = 8*1.7, border.col=NULL,xmod=2, title.size="Share of national GDP in 2016 (%)",popup.vars=c("Population change (%)","Share of national GDP in 1995 (%)","Share of national GDP in 2016 (%)")) +
+      tm_text (col="white", text="Share of national GDP in 2016 (%)", xmod=2) +
 
       tm_view (
         set.zoom.limits = c(7, 16),
@@ -69,7 +70,7 @@ fig_121_plot <- tm_shape(Maakonnad) +
       )
 
 tmap_mode("view")
-#fig_121_plot 
+fig_121_plot 
   
 #tmap_save(tm = Rahvastiku_muutus + SKP, filename = "figure2.pdf")
 
@@ -110,11 +111,12 @@ library("tidyverse")
 library("svglite")
 
   fig122_data <- read.csv ("../data/12_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
+  
   fig122_plot <- ggplot(data = fig122_data) +
   geom_col(mapping = aes(x=county, y=value, fill=location_est), width=0.7) +
   facet_wrap(~year, nrow=1) +
-  labs(y="Töökohtade arv", x="", fill="Töökoha paiknemine") +
-  scale_fill_manual(values=c("#482683", "#917db5", "#369B9E"))
+  labs(y="Number of jobs", x="", fill="Location of jobs") +
+  scale_fill_manual(values=c("#482683", "#917db5", "#369B9E"), labels = c("In county of residence", "Elsewhere in Estonia", "Outside Estonia"))
 
  fig122_theme <- theme(
           panel.grid.major.x = element_blank() ,
@@ -127,8 +129,8 @@ library("svglite")
 #ggsave(path="exported_figures/PDF/chapter1",filename="fig122.pdf", height=140, width=200, units="mm")
 ```
 ``` {block, type='imgsource'}
-<div><span class="imgsource-source">Allikas:</span> Statistikaamet, rahvaloendused 2008 ja 2011.</div>
-<div><a class="data-btn" href="../data/12_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><span class="imgsource-source">Source:</span> Statistics Estonia, 2008 and 2011 population censuses.</div>
+<div><a class="data-btn" href="../data/12_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 ### Maapiirkondade ja väikelinnade häbimärgistamine süvendab ääremaastumist {-.chapter1_section}
@@ -155,8 +157,8 @@ library("scales")
  fig123_data$percent=percent((fig123_data$proportion/100), 1)
 
   fig123_plot <- ggplot(data = fig123_data) +
-    geom_col(mapping = aes(x=reorder(body_est, proportion), y=proportion), fill="#482683", width=0.7, show.legend = NA) +
-    geom_text(aes(label = percent, x=body_est, y=proportion), nudge_x = 0, nudge_y = 3, color="#777777") +
+    geom_col(mapping = aes(x=reorder(body_eng, proportion), y=proportion), fill="#482683", width=0.7, show.legend = NA) +
+    geom_text(aes(label = percent, x=body_eng, y=proportion), nudge_x = 0, nudge_y = 3, color="#777777") +
     labs(y="%", x="") +
     coord_flip ()
 
@@ -176,8 +178,8 @@ library("scales")
 ```
 
 ``` {block, type='imgsource'}
-<div><span class="imgsource-source">Allikas:</span> Plüschke-Altof 2017.</div>
-<div><a class="data-btn" href="../data/12_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><span class="imgsource-source">Source:</span> Plüschke-Altof 2017.</div>
+<div><a class="data-btn" href="../data/12_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download Data</a></div>
 ```
 
 Küsimuses, kuidas ääremaalist kuvandit luuakse, näitab analüüs ([joonis 1.2.4](#figure124)), et arvamusartiklites seostatakse sõna „ääremaa“ enamasti just maapiirkondadega (52% juhtudest), viidates konkreetsetele maakohtadele või -piirkondadele üldiselt, jättes konkreetsed kohad nimetamata (nt „kauge metsaküla“). Osati (7,3%) kirjeldatakse ääremaana ka kogu Eestit väljaspool Tallinna ja selle ümbrust, mis peegeldab taas piirkondlikku koondumist. Harvem kui maakohtade kontekstis (42%) käsitletakse ääremaad ülemaailmses või Euroopa Liidu kontekstis (nt Eesti puudulik lennuühendus, majanduslik sõltuvus EList, Eesti poliitiline roll maailmas). Üksikutel juhtudel kõneldakse ka linnalisest ääremaast (nt probleemsed linnaosad või linna äärealad, 3%). Maapiirkondade samastamine ääremaaga võib olla nendele häbimärk seetõttu, et ääremaad ei kirjeldata neutraalselt, vaid majanduslikult mahajäänu, geograafiliselt kauge, poliitiliselt sõltuva, institutsiooniliselt nõrga ja tuntavate sotsiaalsete probleemidega kohana. Mõnel juhul võimendab maapiirkondade – või õieti mittelinnaliste piirkondade – ääremaakuvandit ka narratiiv, mis rõhutab ääremaa kogukondade enda vastutust kohaliku arengu (ja ühtlasi mahajäämuse) eest või kujutab neid omal süül läbikukkumise näidetena. Ajalehtede arvamusartiklites viidatakse näiteks kohalikule „kolhoosimentaliteedile“ või ebamõistlikule vastuseisule „tänapäevase“ arengu suhtes. Seega maapiirkondi mitte ainult ei seostata negatiivse ääremaisusega, vaid pannakse neile ka vastutus, jättes mulje, et „maal pole midagi head“. Kordamise kaudu muutub seos lugejaskonna ja laiema üldsuse silmis iseenesestmõistetavaks.

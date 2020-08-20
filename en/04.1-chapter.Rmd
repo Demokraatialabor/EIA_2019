@@ -1,4 +1,4 @@
-## Ühiskondlik-poliitiline diskussioon digitaalses avalikus ruumis {.chapter_section .chapter4_section}
+## Socio-political discussion in the digital public space {.chapter_section .chapter4_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Andreas Ventsel](#andreas-ventsel) ja [Mari-Liis Madisson](#mari-liis-madisson)**</div>

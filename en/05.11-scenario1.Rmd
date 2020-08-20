@@ -1,5 +1,5 @@
 
-## Vabatahtlikult linnadesse sunnitud Eesti {-.chapter_section .chapter5_section .future_section}
+## Estonia voluntarily forced into cities {-.chapter_section .chapter5_section .future_section}
 
 <div class="map-icon">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}

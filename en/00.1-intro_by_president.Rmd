@@ -1,4 +1,4 @@
-## Eessõna {-.chapter_section .foreword_section}
+## Foreword {-.chapter_section .foreword_section}
 
 ```{block, type='authors'}
 <div class="author-links">**Kersti Kaljulaid**</div>

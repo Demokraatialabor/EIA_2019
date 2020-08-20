@@ -1,9 +1,9 @@
-# Eesti elukeskkond aastal 2050 {.chapter5 .chapter5_section}
+# Estonian living environment in 2050 {.chapter5 .chapter5_section}
  <script>
-  window.location = "sissejuhatus-5.html";
+  window.location = "introduction-5.html";
   </script>
-## Sissejuhatus {-.chapter_section .chapter5_section .intro_section}
-<h1>Eesti elukeskkond aastal 2050</h1>
+## Introduction {-.chapter_section .chapter5_section .intro_section}
+<h1>Estonian living environment in 2050</h1>
 
 ```{block, type='authors'}
 <div class="author-links">**[Kristi Grišakov](#kristi-grišakov)**</div>

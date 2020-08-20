@@ -1,4 +1,4 @@
-## Sissejuhatus {-.chapter_section .chapter0_section .intro_section}
+## Introduction {-.chapter_section .chapter0_section .intro_section}
 
 <h1>Eesti ruumiline areng</h1>
 

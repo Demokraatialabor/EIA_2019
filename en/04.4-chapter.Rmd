@@ -1,4 +1,4 @@
-## Ekspertide roll ja staatus ühiskondlikes meediaaruteludes {.chapter_section .chapter4_section}
+## The role and status of experts in societal media discussions {.chapter_section .chapter4_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Arko Olesk](#arko-olesk)**</div>

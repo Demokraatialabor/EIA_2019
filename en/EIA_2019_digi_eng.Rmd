@@ -1,7 +1,7 @@
 --- 
 title: "Estonian Human Development Report 2019/2020"
 cover-image: "https://inimareng.ee/cover.png"
-description: "Linnastunud ühiskonna ruumilised valikud"
+description: "Spatial Choices for an Urbanised Society"
 site: bookdown::bookdown_site
 biblatexoptions: [refsegment=chapter]
 link-citations: yes
@@ -9,12 +9,12 @@ css: "../eia.css"
 lang: en
 ---
 
-# Eesti inimarengu aruanne 2019/2020 {-.cover-page}
+# Estonian Human Development Report 2019/2020 {-.cover-page}
 
 <div class="cover-container">
 <div id="cover-hero">
-<h1>Eesti inimarengu aruanne 2019/2020</h1>
-<h2>Linnastunud ühiskonna ruumilised valikud</h2>
+<h1>Estonian Human Development Report 2019/2020</h1>
+<h2>Spatial Choices for an Urbanised Society</h2>
 
 
 ```{block, type='poem1'}
@@ -67,7 +67,7 @@ Oi!<br>
 
 <!--chapter:end:index.Rmd-->
 
-## Eessõna {-.chapter_section .foreword_section}
+## Foreword {-.chapter_section .foreword_section}
 
 ```{block, type='authors'}
 <div class="author-links">**Kersti Kaljulaid**</div>
@@ -109,7 +109,7 @@ knitr::include_graphics('../figures/0-intro/Kersti_Kaljulaid_ametlik_2019.jpg')
 
 <!--chapter:end:00.1-intro_by_president.Rmd-->
 
-## Sissejuhatus {-.chapter_section .chapter0_section .intro_section}
+## Introduction {-.chapter_section .chapter0_section .intro_section}
 
 <h1>Eesti ruumiline areng</h1>
 
@@ -820,14 +820,14 @@ Tambaum, T. 2016. 55+ rahvastiku internetikasutus ja sotsiaalne aktiivsus. – S
 
 <!--chapter:end:00.2-chapter.Rmd-->
 
-# Eesti elukeskkondade mitmekesisus {.chapter1 .chapter1_section}
+# Diversity in the Estonian living environment {.chapter1 .chapter1_section}
  <script>
-  window.location = "sissejuhatus-1.html";
+  window.location = "introduction-1.html";
   </script>
   
-## Sissejuhatus {-.chapter1_section .intro_section}
+## Introduction {-.chapter1_section .intro_section}
 
-<h1>Eesti elukeskkondade mitmekesisus</h1>
+<h1>Diversity in the Estonian living environment</h1>
 
 ```{block, type='authors'}
 <div class="author-links">**[Kadri Leetmaa](#kadri-leetmaa)**</div>
@@ -1048,7 +1048,7 @@ Võib-olla muutub aja jooksul ka täieliku omanikuühiskonna eeldus eluaseme- ja
 
 <!--chapter:end:01.0-chapter.Rmd-->
 
-## Maakasutuse muutused – linna ja maa tähenduse moondumine { .chapter_section .chapter1_section}
+## Changes in land use: distortion of the meaning of urban and rural { .chapter_section .chapter1_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Tõnu Oja](#tõnu-oja)**</div>
@@ -1333,7 +1333,7 @@ Tulevikku vaadates väga pöördelisi muutusi maastikku muutvates trendides ilms
 
 <!--chapter:end:01.1-chapter.Rmd-->
 
-## Keskuse ja ääremaa lõhe Eestis {.chapter_section .chapter1_section}
+## Increasing regional polarisation in Estonia {.chapter_section .chapter1_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Bianka Plüschke-Altof](#bianka-plüschke-altof), [Bradley Loewen](#bradley-loewen) ja [Kadri Leetmaa](#kadri-leetmaa)**</div>
@@ -1369,6 +1369,7 @@ library(svglite)
 Maakonnad <- st_read(dsn ="../data/12_fig1_data/maakond_20200101.shp")
 head(as.data.frame(Maakonnad))
 Maakonnad <- Maakonnad[order(Maakonnad$MNIMI),]
+Maakonnad$MNIMI <- c("Harju county", "Hiiu county", "Ida-Viru county", "Järva county", "Jõgeva county", "Lääne county", "Lääne-Viru county", "Pärnu county", "Põlva county", "Rapla county", "Saare county", "Tartu county", "Valga county", "Viljandi county", "Võru county")
 
 fig_data <- read.csv("../data/12_fig1_data/fig_121_data.csv", header=TRUE, sep=";")
 fig_data <- fig_data[order(fig_data$county_est),]
@@ -1377,25 +1378,25 @@ Maakonnad$Rahvaarvu_muutus <- fig_data$pop_change
 Maakonnad$SKP1995 <- fig_data$GDP95
 Maakonnad$SKP2016 <- fig_data$GDP16
 
-names(Maakonnad)[names(Maakonnad) == "Rahvaarvu_muutus"] <- "Rahvaarvu muutus (%)"
-names(Maakonnad)[names(Maakonnad) == "SKP1995"] <- "SKP osamaht 1995 (%)"
-names(Maakonnad)[names(Maakonnad) == "SKP2016"] <- "SKP osamaht 2016 (%)"
+names(Maakonnad)[names(Maakonnad) == "Rahvaarvu_muutus"] <- "Population change (%)"
+names(Maakonnad)[names(Maakonnad) == "SKP1995"] <- "Share of national GDP in 1995 (%)"
+names(Maakonnad)[names(Maakonnad) == "SKP2016"] <- "Share of national GDP in 2016 (%)"
 
 fig_121_plot <- tm_shape(Maakonnad) + 
-    tm_fill("Rahvaarvu muutus (%)", title="Rahvaarvu muutus (protsentides), 1995-2016",
-    breaks = c(-30,-20, -10,0,10), palette = c("#B6A8CD","#6D519C","#361C62","#96CBD2"), popup.vars=c("Rahvaarvu muutus (%)","SKP osamaht 1995 (%)","SKP osamaht 2016 (%)")) +
+    tm_fill("Population change (%)", title="Population change (percentage) 1995–2016",
+    breaks = c(-30,-20, -10,0,10), palette = c("#B6A8CD","#6D519C","#361C62","#96CBD2"), popup.vars=c("Population change (%)","Share of national GDP in 1995 (%)","Share of national GDP in 2016 (%)")) +
     tm_borders(col="white") +
     
   tm_layout(
     legend.format=list(text.separator="...")) +
 
   tm_shape(Maakonnad) +
-      tm_bubbles(col = "#dbe9da",alpha = 0.6, size = "SKP osamaht 1995 (%)", scale = 541/640 * 8*1.7, border.col=NULL,xmod=-5, title.size="SKP osamaht 1995 (%)", popup.vars=c("Rahvaarvu muutus (%)","SKP osamaht 1995 (%)","SKP osamaht 2016 (%)") ) +
-      tm_text (col="white", text="SKP osamaht 1995 (%)",xmod=-5) +
+      tm_bubbles(col = "#dbe9da",alpha = 0.6, size = "Share of national GDP in 1995 (%)", scale = 541/640 * 8*1.7, border.col=NULL,xmod=-5, title.size="Share of national GDP in 1995 (%)", popup.vars=c("Population change (%)","Share of national GDP in 1995 (%)","Share of national GDP in 2016 (%)") ) +
+      tm_text (col="white", text="Share of national GDP in 1995 (%)",xmod=-5) +
       
     tm_shape(Maakonnad) +
-    tm_bubbles(col = "#369B9E",alpha = 0.6, size = "SKP osamaht 2016 (%)", scale = 8*1.7, border.col=NULL,xmod=2, title.size="SKP osamaht 2016 (%)",popup.vars=c("Rahvaarvu muutus (%)","SKP osamaht 1995 (%)","SKP osamaht 2016 (%)")) +
-      tm_text (col="white", text="SKP osamaht 2016 (%)", xmod=2) +
+    tm_bubbles(col = "#369B9E",alpha = 0.6, size = "Share of national GDP in 2016 (%)", scale = 8*1.7, border.col=NULL,xmod=2, title.size="Share of national GDP in 2016 (%)",popup.vars=c("Population change (%)","Share of national GDP in 1995 (%)","Share of national GDP in 2016 (%)")) +
+      tm_text (col="white", text="Share of national GDP in 2016 (%)", xmod=2) +
 
       tm_view (
         set.zoom.limits = c(7, 16),
@@ -1404,7 +1405,7 @@ fig_121_plot <- tm_shape(Maakonnad) +
       )
 
 tmap_mode("view")
-#fig_121_plot 
+fig_121_plot 
   
 #tmap_save(tm = Rahvastiku_muutus + SKP, filename = "figure2.pdf")
 
@@ -1445,11 +1446,12 @@ library("tidyverse")
 library("svglite")
 
   fig122_data <- read.csv ("../data/12_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
+  
   fig122_plot <- ggplot(data = fig122_data) +
   geom_col(mapping = aes(x=county, y=value, fill=location_est), width=0.7) +
   facet_wrap(~year, nrow=1) +
-  labs(y="Töökohtade arv", x="", fill="Töökoha paiknemine") +
-  scale_fill_manual(values=c("#482683", "#917db5", "#369B9E"))
+  labs(y="Number of jobs", x="", fill="Location of jobs") +
+  scale_fill_manual(values=c("#482683", "#917db5", "#369B9E"), labels = c("In county of residence", "Elsewhere in Estonia", "Outside Estonia"))
 
  fig122_theme <- theme(
           panel.grid.major.x = element_blank() ,
@@ -1462,8 +1464,8 @@ library("svglite")
 #ggsave(path="exported_figures/PDF/chapter1",filename="fig122.pdf", height=140, width=200, units="mm")
 ```
 ``` {block, type='imgsource'}
-<div><span class="imgsource-source">Allikas:</span> Statistikaamet, rahvaloendused 2008 ja 2011.</div>
-<div><a class="data-btn" href="../data/12_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><span class="imgsource-source">Source:</span> Statistics Estonia, 2008 and 2011 population censuses.</div>
+<div><a class="data-btn" href="../data/12_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 ### Maapiirkondade ja väikelinnade häbimärgistamine süvendab ääremaastumist {-.chapter1_section}
@@ -1490,8 +1492,8 @@ library("scales")
  fig123_data$percent=percent((fig123_data$proportion/100), 1)
 
   fig123_plot <- ggplot(data = fig123_data) +
-    geom_col(mapping = aes(x=reorder(body_est, proportion), y=proportion), fill="#482683", width=0.7, show.legend = NA) +
-    geom_text(aes(label = percent, x=body_est, y=proportion), nudge_x = 0, nudge_y = 3, color="#777777") +
+    geom_col(mapping = aes(x=reorder(body_eng, proportion), y=proportion), fill="#482683", width=0.7, show.legend = NA) +
+    geom_text(aes(label = percent, x=body_eng, y=proportion), nudge_x = 0, nudge_y = 3, color="#777777") +
     labs(y="%", x="") +
     coord_flip ()
 
@@ -1511,8 +1513,8 @@ library("scales")
 ```
 
 ``` {block, type='imgsource'}
-<div><span class="imgsource-source">Allikas:</span> Plüschke-Altof 2017.</div>
-<div><a class="data-btn" href="../data/12_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><span class="imgsource-source">Source:</span> Plüschke-Altof 2017.</div>
+<div><a class="data-btn" href="../data/12_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download Data</a></div>
 ```
 
 Küsimuses, kuidas ääremaalist kuvandit luuakse, näitab analüüs ([joonis 1.2.4](#figure124)), et arvamusartiklites seostatakse sõna „ääremaa“ enamasti just maapiirkondadega (52% juhtudest), viidates konkreetsetele maakohtadele või -piirkondadele üldiselt, jättes konkreetsed kohad nimetamata (nt „kauge metsaküla“). Osati (7,3%) kirjeldatakse ääremaana ka kogu Eestit väljaspool Tallinna ja selle ümbrust, mis peegeldab taas piirkondlikku koondumist. Harvem kui maakohtade kontekstis (42%) käsitletakse ääremaad ülemaailmses või Euroopa Liidu kontekstis (nt Eesti puudulik lennuühendus, majanduslik sõltuvus EList, Eesti poliitiline roll maailmas). Üksikutel juhtudel kõneldakse ka linnalisest ääremaast (nt probleemsed linnaosad või linna äärealad, 3%). Maapiirkondade samastamine ääremaaga võib olla nendele häbimärk seetõttu, et ääremaad ei kirjeldata neutraalselt, vaid majanduslikult mahajäänu, geograafiliselt kauge, poliitiliselt sõltuva, institutsiooniliselt nõrga ja tuntavate sotsiaalsete probleemidega kohana. Mõnel juhul võimendab maapiirkondade – või õieti mittelinnaliste piirkondade – ääremaakuvandit ka narratiiv, mis rõhutab ääremaa kogukondade enda vastutust kohaliku arengu (ja ühtlasi mahajäämuse) eest või kujutab neid omal süül läbikukkumise näidetena. Ajalehtede arvamusartiklites viidatakse näiteks kohalikule „kolhoosimentaliteedile“ või ebamõistlikule vastuseisule „tänapäevase“ arengu suhtes. Seega maapiirkondi mitte ainult ei seostata negatiivse ääremaisusega, vaid pannakse neile ka vastutus, jättes mulje, et „maal pole midagi head“. Kordamise kaudu muutub seos lugejaskonna ja laiema üldsuse silmis iseenesestmõistetavaks.
@@ -1660,8 +1662,7 @@ Konkurentsivõimel põhinev lähenemine Euroopa ja Eesti regionaalpoliitikas ei 
 
 <!--chapter:end:01.2-chapter.Rmd-->
 
-
-## Planeerimisvabaduse võidukäik eeslinna-Eestis {.chapter_section .chapter1_section}
+## The triumph of planning freedom in suburban Estonia {.chapter_section .chapter1_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Antti Roose](#antti-roose)**</div>
@@ -1712,18 +1713,16 @@ library("plotly")
 
  fig131_data <- read.csv ("../data/13_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
 
-names(fig131_data)[names( fig131_data) == "year"] <- "Aasta"
-names(fig131_data)[names(fig131_data) == "area"] <- "Piirkond"
 
-fig131_data$Eeslinlasi <- as.numeric(fig131_data$value)
-
-  fig131_plot <- ggplot(subset(fig131_data, Piirkond %in% c("Tallinna eeslinn", "Tartu eeslinn", "Pärnu eeslinn"))) +
-    geom_line(mapping = aes(colour=Piirkond, x=Aasta, y = Eeslinlasi), size=1) +
+  fig131_plot <- ggplot(subset(fig131_data, area_eng %in% c("Tallinn suburbs", "Tartu suburbs", "Pärnu suburbs"))) +
+    geom_line(mapping = aes(colour=area_eng, x=year, y = value, group = area_eng, text = paste("", value,
+                         "<br>", area_eng,
+                         "<br>", year)), size=1) +
     #geom_text(mapping = aes(x=year, y=as.numeric(value), label=value), stat="identity", vjust=-1, size=2) +
     scale_colour_manual(values=c("#3A404A","#482683","#369B9E")) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,100000)) +
     scale_x_continuous(breaks=c(2001,2006,2011,2015,2016,2017,2018),expand = c(0, 0), limits=c(2000,2018.5)) +
-    labs(y="Eeslinlaste arv", x="")
+    labs(y="Number of suburban residents", x="")
     expand_limits (y=0)
 
    fig131_theme <- theme(
@@ -1731,7 +1730,7 @@ fig131_data$Eeslinlasi <- as.numeric(fig131_data$value)
      text=element_text(family="Montserrat")
   )
 
-ggplotly(fig131_plot + fig_theme_general + fig131_theme, tooltip = c("Piirkond","Aasta","Eeslinlasi") ) %>%
+ggplotly(fig131_plot + fig_theme_general + fig131_theme, tooltip = c("text") ) %>%
 config(displayModeBar = F, collaborate = F)   %>% 
 layout(legend = list(orientation = "h",y = 1.15)) %>% 
 layout(xaxis = list(fixedrange = TRUE)) %>%
@@ -1770,11 +1769,11 @@ library("tidyverse")
 
  fig132_data <- read.csv ("../data/13_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
 
-fig132_data$area <- factor(fig132_data$area, levels = c("Tallinn","Tallinna eeslinn","Tartu","Tartu eeslinn","Pärnu","Pärnu eeslinn", "Mujal Eestis"))
+fig132_data$area_eng <- factor(fig132_data$area_eng, levels = c("Tallinn","Tallinn suburbs","Tartu","Tartu suburbs","Pärnu","Pärnu suburbs", "Rest of Estonia"))
 
   fig132_plot <- ggplot(data = fig132_data) +
-    geom_col(mapping = aes(x=area, y=value, fill=area), width=0.7) +
-    geom_text(aes(label = value, x=area, y=value), nudge_x = 0, nudge_y = 2500, color="#777777") +
+    geom_col(mapping = aes(x=area_eng, y=value, fill=area_eng), width=0.7) +
+    geom_text(aes(label = value, x=area_eng, y=value), nudge_x = 0, nudge_y = 2500, color="#777777") +
     labs(y="%", x="") +
     labs(y="", x="", fill="") +
     scale_fill_manual(values=c("#482683", "#482683", "#917db5","#917db5","#369B9E","#369B9E", "#abd9d6"))
@@ -1794,14 +1793,14 @@ fig132_data$area <- factor(fig132_data$area, levels = c("Tallinn","Tallinna eesl
 ```
 
 ```{block, type='imgsource'}
-<div><span class="imgsource-source">Allikas:</span> Statistikaamet.</div>
-<div><a class="data-btn" href="../data/13_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><span class="imgsource-source">Source:</span> Statistikaamet.</div>
+<div><a class="data-btn" href="../data/13_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download Data</a></div>
 ```
 
 Eeslinna uuselamud (18 794 eluruumi) moodustavad 29% kogu Eesti elamuehitusest (1999‒2018). Tallinna eeslinnas on uusi kodusid 13 438, Tartu eeslinnas 4091 ning Pärnu eeslinnas 1265 ([joonis 1.3.2](#figure132)). Neile lisandub veel umbes veerandi jagu asustatud, ent vormiliselt jätkuvalt ehitamisel olevad uusi eluhooneid ([Roose jt 2015](#Roose2015)). Tallinna linnasiseste arenduste maht on alates 2013. aastast kasvanud eeslinnaarenduste mahust kiiremini, ületades eeslinnaarendusi juba kolmekordselt ([joonis 1.3.3](#figure133)). Elamutüübiti läks Tallinna eeslinnas ülekaal 2000. aastate keskel ühepereelamutelt paarismajadele ja ridaelamutele ning 2010. aastatel on olnud juhtpositsioonil uued korterid. Tartus on püsinud linnaarenduste maht eeslinna omaga enam-vähem tasakaalus, kuigi viimastel aastal on eeslinnastumine kiirenenud. Tartu eeslinnas on alates 2015. aastast valitsenud ridaelamud korterelamute kõrval. Pärnu eeslinnastumine on püsinud läbi kahe kümnendi keskmiselt 50 uue eluruumi tasemel aastas.
 
 <p class="caption" id="figure133"><span class="figure-number">Joonis 1.3.3.</span> Uute eluruumide arv Tallinnas, Tartus ja Pärnus võrrelduna nende linnade eeslinnadega 2002‒2018</p>
-
+<div class="desktop-plot">
 ```{r, figure133, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
 library("tidyverse")
@@ -1812,25 +1811,48 @@ library("reshape")
  fig133_data_clean <- melt (fig133_data, id=c("area"))
  colnames( fig133_data_clean) <- c("area", "year","value")
 
- fig133_data_clean$area <- factor (fig133_data_clean$area, levels = c("Tallinn","Tallinna eeslinn", "Tartu","Tartu eeslinn","Pärnu","Pärnu eeslinn"))
+fig133_data_clean$area_eng[grepl("Tallinn",fig133_data_clean$area)]<-"Tallinn"
+fig133_data_clean$area_eng[grepl("Tartu",fig133_data_clean$area)]<-"Tartu"
+fig133_data_clean$area_eng[grepl("Pärnu",fig133_data_clean$area)]<-"Pärnu"
+fig133_data_clean$area_eng[grepl("Tallinna eeslinn",fig133_data_clean$area)]<-"Tallinn suburbs"
+fig133_data_clean$area_eng[grepl("Tartu eeslinn",fig133_data_clean$area)]<-"Tartu suburbs"
+fig133_data_clean$area_eng[grepl("Pärnu eeslinn",fig133_data_clean$area)]<-"Pärnu suburbs"
+
+fig133_data_clean$area_eng <- factor (fig133_data_clean$area_eng, levels = c("Tallinn","Tallinn suburbs", "Tartu","Tartu suburbs","Pärnu","Pärnu suburbs"))
+
 
   fig133_plot <- ggplot(fig133_data_clean) +
-    geom_line(mapping = aes(x=year, y = as.numeric(value), colour=area, group=area), size=1) +
+    geom_line(mapping = aes(x=year, y = as.numeric(value), colour=area_eng, group=area_eng, text = paste("", area_eng,
+                         "<br>", year,
+                         "<br>", value)), size=1) +
     #scale_x_continuous(expand = c(0, 0), limits=c(2002,2018)) +
     scale_y_continuous (expand = c(0, 0), limits=c(0,3200)) +
-    labs(y="Uute eluruumide arv", x="") +
+    labs(y="Number of new dwellings", x="") +
     expand_limits (y=0) +
-    scale_colour_manual(values=c("#482683", "#917db5","#369B9E", "#abd9d6","#03bdf2","#b1e0f9"))
+    scale_colour_manual(values=c("#482683", "#917db5","#369B9E", "#abd9d6","#03bdf2","#b1e0f9"), labels=c("Tallinn","Tallinn suburbs", "Tartu","Tartu suburbs","Pärnu","Pärnu suburbs"))
 
    fig133_theme <- theme(
         axis.text.x = element_text(angle=45, margin = margin(t = 7, r = 0, b = 0, l = 0), hjust=1.1),
         text=element_text(family="Montserrat")
   )
 
-  print(fig133_plot + fig_theme_general + fig133_theme)
+  ggplotly(fig133_plot + fig_theme_general + fig133_theme, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
   #ggsave(path="exported_figures/PDF/chapter1",filename="fig133.pdf", height=120, width=200, units="mm")
 ```
+
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+print(fig133_plot + fig_theme_general + fig133_theme)
+
+```
+</div>
 
 ```{block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Statistikaamet.</div>
@@ -2024,7 +2046,7 @@ Inimeste liikuvuse suurenedes keskuslinna-eeslinna teljel teisenevad igapäevase
 
 <!--chapter:end:01.3-chapter.Rmd-->
 
-## Nüüdisaegsed elamistingimused – kelle privileeg? {.chapter_section .chapter1_section}
+## Modern living conditions – whose privilege? {.chapter_section .chapter1_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Anneli Kährik](#anneli-kährik) ja [Annika Väiko](#annika-väiko)**</div>
@@ -2065,16 +2087,19 @@ library("scales")
 
 
  fig141_data <- read.csv ("../data/14_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
+  
+fig141_data$area_eng[grepl("Tallinn",fig141_data$area)]<-"Tallinn"
+fig141_data$area_eng[grepl("Maapiirkonnad",fig141_data$area)]<-"Rural areas (excl. Harjumaa)"
 
 fig141_data$percent=percent((fig141_data$value/100), 1)
 
   fig141_plot <- ggplot(data = fig141_data, aes(x = "", y = value, fill = variable)) +
   geom_bar(stat = "identity") +
-  scale_fill_manual(values=c("#b1e0f9","#482683","#369B9E")) +
+  scale_fill_manual(values=c("#b1e0f9","#482683","#369B9E"), labels=c("Single-family house","Apartment in a large building","Apartment in a small building")) +
   geom_text(aes(label = percent), position = position_stack(vjust = 0.5), color="white") +
   coord_polar(theta = "y") +
   labs(x="", y="")+
-  facet_grid(~area)
+  facet_grid(~area_eng)
 
   fig141_theme <- theme(
                     panel.grid.major.x = element_blank() ,
@@ -2107,20 +2132,26 @@ Suurem osa Eesti eluasemefondist pärineb nõukogude perioodist ([joonis 1.4.2](
 Uuselamuehitus sai uue suurema tõuke pärast 2000. aastat, kui paranesid üldine elujärg ja laenuvõimalused. Tallinnas ja Harjumaal on ehitustegevus olnud hoogsam kui mujal Eestis ([joonis 1.4.2](#figure142)). Tallinnas elab iga viies pere pärast 1991. aastat ehitatud eluasemel, Harjumaal väljaspool Tallinna koguni iga kolmas. Mujal Eestis on elamute ehitusaktiivsus olnud oluliselt väiksem. Seega on suurema osa eestimaalaste elamistingimuste paranemine saanud toimuda vaid vana eluaset renoveerides.
 
 <p class="caption" id="figure142"><span class="figure-number">Joonis 1.4.2.</span> Eluasemete ehitusaeg (regionaalsed keskused on maakonnakeskused)</p>
-
+<div class="desktop-plot">
 ```{r, figure142, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 
  fig142_data <- read.csv ("../data/14_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
 
-fig142_data$area <- factor(fig142_data$area, levels = c("Tallinn","Harjumaa (v.a Tallinn)","Regionaalsed keskused (v.a Tallinn)","Väikelinnad ja maa (v.a Harjumaa)"))
+fig142_data$area_eng[grepl("Tallinn",fig142_data$area)]<-"Tallinn"
+fig142_data$area_eng[grepl("Harjumaa",fig142_data$area)]<-"Harjumaa (excl. Tallinn)"
+fig142_data$area_eng[grepl("Regionaalsed",fig142_data$area)]<-"Regional centres (excl. Tallinn)"
+fig142_data$area_eng[grepl("Väikelinnad",fig142_data$area)]<-"Small towns and rural areas (excl. Harjumaa)"
 
+fig142_data$area_eng <- factor(fig142_data$area_eng, levels = c("Tallinn","Harjumaa (excl. Tallinn)","Regional centres (excl. Tallinn)","Small towns and rural areas (excl. Harjumaa)"))
 
   fig142_plot <- ggplot(data = fig142_data) +
-    geom_bar(mapping = aes(x=years, y=value, fill=area), size=1.2, stat = "identity", position="dodge") +
+    geom_bar(mapping = aes(x=years, y=value, fill=area_eng, text = paste("", area_eng,
+                         "<br>", years,
+                         "<br>", value, "%")), size=1.2, stat = "identity", position="dodge") +
     scale_fill_manual(values=c("#482683", "#917db5","#369B9E","#b1e0f9")) +
-    labs(y="% eluasemetest", x="") +
+    labs(y="% of dwellings", x="") +
     guides(fill=guide_legend(nrow=2,byrow=TRUE))
 
   fig142_theme <- theme(
@@ -2131,12 +2162,23 @@ fig142_data$area <- factor(fig142_data$area, levels = c("Tallinn","Harjumaa (v.a
                  )
 
 
-  print(fig142_plot + fig_theme_general + fig142_theme)
+ggplotly(fig142_plot + fig_theme_general + fig142_theme, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
   #ggsave(path="../exported_figures/PDF/chapter1",filename="fig142.pdf", height=140, width=200, units="mm")
 
 ```
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
+print(fig142_plot + fig_theme_general + fig142_theme)
+
+```
+</div>
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).</div>
 <div><a class="data-btn" href="../data/14_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
@@ -2159,12 +2201,16 @@ library("tidyverse")
 
  fig143_data <- read.csv ("../data/14_fig3_data.csv", header=TRUE, fileEncoding="utf-8")
 
+fig143_data$area_eng[grepl("Tallinn",fig143_data$area)]<-"Tallinn"
+fig143_data$area_eng[grepl("Harjumaa",fig143_data$area)]<-"Harjumaa (excl. Tallinn)"
+fig143_data$area_eng[grepl("Regionaalsed",fig143_data$area)]<-"Regional centres (excl. Tallinn)"
+fig143_data$area_eng[grepl("Väikelinnad",fig143_data$area)]<-"Small towns and rural areas (excl. Harjumaa)"
 
   fig143_plot <- ggplot(data = fig143_data) +
-    geom_bar(mapping = aes(x=reorder(area, -value), y=value, fill=variable),position = "dodge", width=0.7, stat="identity") +
+    geom_bar(mapping = aes(x=reorder(area_eng, -value), y=value, fill=variable),position = "dodge", width=0.7, stat="identity") +
     coord_flip()+
     labs(y="%", x="") +
-    scale_fill_manual(values=c("#482683","#917DB5"))
+    scale_fill_manual(values=c("#482683","#917DB5"), labels=c("Decayed or damp","Lacking a toilet or shower/bath"))
 
     fig143_theme <- theme(
                   panel.grid.major.y = element_blank() ,
@@ -2186,8 +2232,8 @@ library("tidyverse")
 
 Ligikaudu pool Eesti elanikest elab eluruumides, mis nende enda hinnangul vajavad ajakohastamist, olles kas väga viletsas seisundis või oluliste puudustega. Elamistingimustega rahulolu mõjutab eluhoone vanus ja ka tüüp – probleeme on rohkem vanemates elamutes asuvate eluasemetega, samuti väiksemate hoonetega (nii korterelamud kui ka eramajad) ([joonis 1.4.4](#figure144)). Suurte kortermajade (suhteliselt uuemad) elanikud hindavad eluasemete seisukorda veidi paremaks. Kehvem on väikelinnade ja maapiirkondade eluasemete olukord ning üürisektor tervikuna on mõnevõrra suuremate puudustega kui omanike poolt asustatud eluasemed.
 
-<p class="caption" id="figure144"><span class="figure-number">Joonis 1.4.4.</span> Inimeste hinnang eluaseme seisukorrale eluhoone vanuse (üleval) ning tüübi (all) järgi</p>
-
+<p class="caption" id="figure144"><span class="figure-number">Joonis 1.4.4.</span> People’s assessment of the condition of their housing based on the age (top) and type (bottom) of the residential building</p>
+<div class="desktop-plot">
 ```{r, figure144, out.width='80%', fig.asp=1.0, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
@@ -2198,8 +2244,24 @@ fig144_data1 <- read.csv ("../data/14_fig4_data1.csv", header=TRUE, fileEncoding
 fig144_data2 <- read.csv ("../data/14_fig4_data2.csv", header=TRUE, fileEncoding="utf-8")
 
 
+fig144_data1$condition_eng[grepl("Värskelt",fig144_data1$condition)]<-"Newly renovated"
+fig144_data1$condition_eng[grepl("Hea seisukord",fig144_data1$condition)]<-"Good condition"
+fig144_data1$condition_eng[grepl("Esinevad suured puudused",fig144_data1$condition)]<-"Major defects"
+fig144_data1$condition_eng[grepl("Esineb puudusi",fig144_data1$condition)]<-"Some defects"
+
+fig144_data2$condition_eng[grepl("Värskelt",fig144_data2$condition)]<-"Newly renovated"
+fig144_data2$condition_eng[grepl("Hea seisukord",fig144_data2$condition)]<-"Good condition"
+fig144_data2$condition_eng[grepl("Esinevad suured puudused",fig144_data2$condition)]<-"Major defects"
+fig144_data2$condition_eng[grepl("Esineb puudusi",fig144_data2$condition)]<-"Some defects"
+
+fig144_data2$type_of_residence_eng[grepl("Väike korterelamu",fig144_data2$type_of_residence)]<-"Small apartment building"
+fig144_data2$type_of_residence_eng[grepl("Suur korterelamu",fig144_data2$type_of_residence)]<-"Large apartment building"
+fig144_data2$type_of_residence_eng[grepl("Eramaja",fig144_data2$type_of_residence)]<-"Single-family home"
+
   fig144_plot1 <- ggplot(data = fig144_data1) +
-    geom_bar(mapping = aes(x=condition, y=value, fill=year), width=0.7, stat="identity") +
+    geom_bar(mapping = aes(x=condition_eng, y=value, fill=year, text = paste("", condition_eng,
+                         "<br>", year,
+                         "<br>", value,"%")), width=0.7, stat="identity") +
     coord_flip() +
     labs(y="%", x="") +
     scale_fill_manual(values=c("#DAD4E6","#B6A8CD","#b1e0f9","#6D519C","#369B9E","#361C62")) +
@@ -2207,7 +2269,9 @@ fig144_data2 <- read.csv ("../data/14_fig4_data2.csv", header=TRUE, fileEncoding
       scale_x_discrete(labels = wrap_format(20))
 
   fig144_plot2 <- ggplot(data = fig144_data2) +
-    geom_bar(mapping = aes(x=condition, y=value, fill=type_of_residence), width=0.7, stat="identity") +
+    geom_bar(mapping = aes(x=condition_eng, y=value, fill=type_of_residence_eng, text = paste("", condition_eng,
+                         "<br>", type_of_residence_eng,
+                         "<br>", value,"%")), width=0.7, stat="identity") +
     coord_flip() +
     labs(y="%", x="") +
     scale_fill_manual(values=c("#369B9E","#b1e0f9","#482683")) +
@@ -2220,12 +2284,31 @@ fig144_data2 <- read.csv ("../data/14_fig4_data2.csv", header=TRUE, fileEncoding
                       text=element_text(family="Montserrat")
                  )
 
-grid.arrange(fig144_plot1 + fig144_theme + fig_theme_general, fig144_plot2 + fig144_theme + fig_theme_general, ncol = 1)
+  ggplotly(fig144_plot1 + fig144_theme + fig_theme_general, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.25)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
+  
+ggplotly(fig144_plot2 + fig144_theme + fig_theme_general, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
 #ggsave(path="exported_figures/PDF/chapter1",fig144_plot1 + fig144_theme + fig_theme_general,filename="fig144a.pdf", height=100, width=170, units="mm")
 
 #ggsave(path="exported_figures/PDF/chapter1",fig144_plot2 + fig144_theme + fig_theme_general,filename="fig144b.pdf", height=100, width=170, units="mm")
 ```
+
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=1.0, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+grid.arrange(fig144_plot1 + fig144_theme + fig_theme_general, fig144_plot2 + fig144_theme + fig_theme_general, ncol = 1)
+
+```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).</div>
@@ -2270,15 +2353,18 @@ fig147_data <- read.csv ("../data/14_fig7_data.csv", header=TRUE, fileEncoding="
 fig147_data$income_size <- factor(fig147_data$income_size, levels = c("Suur sissetulek","Väike sissetulek"))
 fig147_data$condition <- factor(fig147_data$condition, levels = c("Esineb suuri puudusi","Esineb puudusi","Hea seisukord","Värskelt remonditud"))
 
+fig147_data$income_size_eng[grepl("Suur sissetulek",fig147_data$income_size)]<-"High income"
+fig147_data$income_size_eng[grepl("Väike sissetulek",fig147_data$income_size)]<-"Low income"
+
  fig147_data$percent=percent((fig147_data$value/100), 1)
 
   fig147_plot <- ggplot(data = fig147_data,aes(x="", y=value, fill=condition)) +
     geom_bar(width=0.7, stat="identity") +
-    scale_fill_manual(values=c("#b1e0f9","#369B9E","#482683","#361C62")) +
+    scale_fill_manual(values=c("#b1e0f9","#369B9E","#482683","#361C62"), labels=c("Major defects","Some defects","Good condition","Newly renovated")) +
 
     geom_text(aes(label = percent), position = position_stack(vjust = 0.5), color="white") +
     coord_polar("y", start=0)+
-    facet_wrap(~income_size, nrow=1)+
+    facet_wrap(~income_size_eng, nrow=1)+
     labs (x="", y="")
 
     fig147_theme <- theme(
@@ -2306,21 +2392,33 @@ Väikese sissetulekuga peredel moodustab eluaseme ülalpidamisele kuluv summa su
 ```
 Ootuspäraselt on Tallinnas ja Harjumaal paremal majanduslikul järjel olevaid leibkondi rohkem. Sellest tulenevalt on pealinna regiooni elanikel rohkem võimalusi oma eluaseme kvaliteeti parandada. Asulatüüpide erinevused jäävad aga kehtima ka siis, kui võrrelda sarnast tulu teenivate leibkondade elamistingimusi. Pealinna eluasemete seisukorda hinnatakse paremaks ka siis, kui leibkonna enda ressursid nii suured ei ole ([joonis 1.4.8](#figure148)). Keskmiselt 70% pealinlastest elab renoveeritud või heas seisukorras oleval eluasemel. Siin võib rolli mängida Tallinna elamufondi noorem keskmine vanus, kuid edutegur võib olla seotud ka suurema sotsiaalse mitmekesisusega pealinna kortermajades ja asumites – kui ühes eluhoones elab peale väiksema sissetulekuga elanike ka majanduslikult paremal järjel inimesi, avaldab see kokkuvõttes positiivset mõju kõigile.
 
-<p class="caption" id="figure148"><span class="figure-number">Joonis 1.4.8.</span> Hinnangud oma eluasemete seisukorrale sissetuleku ja asustustüübi alusel (regionaalsed keskused on maakonnakeskused), vasakul: suurimat tulu saav viiendik, paremal: väikseimat tulu saav viiendik</p>
-
+<p class="caption" id="figure148"><span class="figure-number">Joonis 1.4.8.</span> People’s assessment of the condition of their dwellings by income and settlement type (left: 20% of the population with the lowest income; right: 20% of the population with the highest income; ‘regional centres’ refers to county towns)</p>
+<div class="desktop-plot">
 ```{r, figure148, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 
  fig148_data <- read.csv ("../data/14_fig8_data.csv", header=TRUE, fileEncoding="utf-8")
- fig148_data$area <- factor(fig148_data$area, levels = c("Väikelinnad ja maa (v.a Harjumaa)","Regionaalsed keskused (v.a Tallinn)","Harjumaa (v.a Tallinn)","Tallinn"))
 
+fig148_data$area_eng[grepl("Tallinn",fig148_data$area)]<-"Tallinn"
+fig148_data$area_eng[grepl("Harjumaa",fig148_data$area)]<-"Harjumaa (excl. Tallinn)"
+fig148_data$area_eng[grepl("Regionaalsed",fig148_data$area)]<-"Regional centres (excl. Tallinn)"
+fig148_data$area_eng[grepl("Väikelinnad",fig148_data$area)]<-"Small towns and rural areas (excl. Harjumaa)"
+fig148_data$condition_eng[grepl("Värskelt remonditud",fig148_data$condition)]<-"Newly renovated or in good condition"
+fig148_data$condition_eng[grepl("Remonti vajav",fig148_data$condition)]<-"In need of repair"
+fig148_data$income_eng[grepl("Suur sissetulek",fig148_data$income)]<-"High income"
+fig148_data$income_eng[grepl("Väike sissetulek",fig148_data$income)]<-"Low income"
+
+fig148_data$area_eng <- factor(fig148_data$area_eng, levels = c("Small towns and rural areas (excl. Harjumaa)","Regional centres (excl. Tallinn)","Harjumaa (excl. Tallinn)","Tallinn"))
+ 
   fig148_plot <- ggplot(data = fig148_data) +
-    geom_bar(mapping = aes(x=area, y=value, fill=condition), width=0.6, stat="identity") +
+    geom_bar(mapping = aes(x=area_eng, y=value, fill=condition_eng ,text = paste("", condition_eng,
+                         "<br>", area_eng,
+                         "<br>", value, "%")), width=0.6, stat="identity") +
     scale_fill_manual(values=c("#369B9E","#482683")) +
     coord_flip() +
     labs(y="%", x="") +
-    facet_wrap(~income, nrow=1) +
+    facet_wrap(~income_eng, nrow=1) +
     scale_x_discrete(labels = wrap_format(23)) +
     guides(fill = guide_legend(reverse = TRUE))
 
@@ -2333,11 +2431,22 @@ library("tidyverse")
                     text=element_text(family="Montserrat")
                  )
 
-print(fig148_plot + fig148_theme + fig_theme_general)
-ggsave(path="../exported_figures/PDF/chapter1",filename="fig148.pdf", height=140, width=200, units="mm")
+ggplotly(fig148_plot + fig148_theme + fig_theme_general, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.25)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
+#ggsave(path="../exported_figures/PDF/chapter1",filename="fig148.pdf", height=140, width=200, units="mm")
 
 ```
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
+print(fig148_plot + fig148_theme + fig_theme_general)
+
+```
+</div>
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Eesti sotsiaaluuring 2017 (Statistikaamet).</div>
 <div><a class="data-btn" href="../data/14_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
@@ -2365,15 +2474,26 @@ library("scales")
 fig149_data1 <- read.csv ("../data/14_fig9_data1.csv", header=TRUE, fileEncoding="utf-8")
 fig149_data2 <- read.csv ("../data/14_fig9_data2.csv", header=TRUE, fileEncoding="utf-8")
 
+
+fig149_data1$group_eng[grepl("Omanik",fig149_data1$group)]<-"Owners"
+fig149_data1$group_eng[grepl("erasektor",fig149_data1$group)]<-"Tenants (private sector)"
+fig149_data1$group_eng[grepl("avalik sektor",fig149_data1$group)]<-"Tenants (public sector)"
+
+fig149_data2$area_eng[grepl("Tallinn",fig149_data2$area)]<-"Tallinn"
+fig149_data2$area_eng[grepl("Harjumaa",fig149_data2$area)]<-"Harjumaa (excl. Tallinn)"
+fig149_data2$area_eng[grepl("Regionaalsed",fig149_data2$area)]<-"Regional centres (excl. Tallinn)"
+fig149_data2$area_eng[grepl("Väikelinnad",fig149_data2$area)]<-"Small towns and rural areas (excl. Harjumaa)"
+
+
 fig149_data1$group <- factor(fig149_data1$group, levels = c("Omanik","Üürnik (erasektor)","Üürnik (avalik sektor)"))
 fig149_data2$variable <- factor(fig149_data2$variable, levels = c("Üürnik (avalik sektor)","Üürnik (erasektor)","Omanik"))
 
-fig149_data2$area <- factor(fig149_data2$area, levels = c("Väikelinnad ja maa (v.a Harjumaa)","Regionaalsed keskused (v.a Tallinn)","Harjumaa (v.a Tallinn)","Tallinn"))
+fig149_data2$area_eng <- factor(fig149_data2$area_eng, levels = c("Small towns and rural areas (excl. Harjumaa)","Regional centres (excl. Tallinn)","Harjumaa (excl. Tallinn)","Tallinn"))
 
 fig149_data1$percent=percent((fig149_data1$value/100), 1)
 
 
-  fig149_plot1 <- ggplot(data = fig149_data1, aes(x="", y=value, fill=group)) +
+  fig149_plot1 <- ggplot(data = fig149_data1, aes(x="", y=value, fill=group_eng)) +
     geom_bar( width=0.7, stat="identity") +
     geom_text(aes(x=1.15,label = percent), position = position_stack(vjust = 0.5), color="white") +
     scale_fill_manual(values=c("#482683","#369B9E","#b1e0f9")) +
@@ -2384,7 +2504,7 @@ fig149_data1$percent=percent((fig149_data1$value/100), 1)
 
 
   fig149_plot2 <- ggplot(data = fig149_data2) +
-    geom_bar(mapping = aes(x=area, y=value, fill=variable), width=0.7, stat="identity") +
+    geom_bar(mapping = aes(x=area_eng, y=value, fill=variable), width=0.7, stat="identity") +
     scale_fill_manual(values=c("#b1e0f9","#369B9E","#482683")) +
     coord_flip() +
     labs(y="%", x="") +
@@ -2430,59 +2550,59 @@ Riiklikult on kõige pikema praktikaga omanikuasustuse toetamine (Eesti elamumaj
 <div style="overflow-x:auto;">
 <table id="table_141" style="width:100%">
   <tr>
-    <th class="table141_main_header">TOETUSE TÜÜP</th>
-    <th class="table141_main_header">SIHTRÜHM</th>
+    <th class="table141_main_header">GRANT TYPE</th>
+    <th class="table141_main_header">TARGET GROUP</th>
   </tr>
 
   <tr>
-    <th colspan="2">Omanikuasustuse soodustamine</th>
+    <th colspan="2">Promoting owner-occupancy</th>
   </tr>
   <tr>
-    <td>Eluasemelaenu käendus (vähendab esma- se sissemakse kohustust, omafinantsee- ring minimaalselt 10% laenu tagatisvara väärtusest)</td>
-    <td>Noored pered, noored spetsialistid jt sihtrühmad, kes soovivad võtta laenu eluaseme ostmiseks või olemasoleva renoveerimiseks</td>
+    <td>Home loan guarantee (down-payment obligation reduced, 10% of the collateral value of the loan must be self-financed as a minimum)</td>
+    <td>Young families, young professionals and other target groups wanting to get a loan to purchase or renovate a home.</td>
   </tr>
     <tr>
-    <td>Tulumaksusoodustus eluasemelaenu intressilt</td>
-    <td>Eluasemelaenu võtnud isikud</td>
+    <td>Income tax incentive on home loan interest</td>
+    <td>Persons who have taken out a home loan</td>
   </tr>
 
   <tr>
-    <th colspan="2">Sotsiaaltoetused</th>
+    <th colspan="2">Social benefits</th>
   </tr>
   <tr>
-    <td>Toimetulekutoetus (riigi rahaline abi puuduses elavatele inimestele)</td>
-    <td>Väikese sissetulekuga leibkonnad, kelle sissetulek eluasemekulude tasumise järel jääb alla toimetulekupiiri</td>
-  </tr>
-
-  <tr>
-    <th colspan="2">Üürielamufondi rajamine</th>
-  </tr>
-  <tr>
-    <td>Elamufondi arendamise investeeringu- toetus kohalikele omavalitsustele</td>
-    <td>Liikuvad töötajad ja majanduslikult vähekindlustatud sihtrühmad (kohalik omavalitsus kehtestab reeglid)</td>
+    <td>Subsistence benefit (state financial aid for people in need)</td>
+    <td>Low-income households whose income after paying housing costs is below the subsistence level</td>
   </tr>
 
   <tr>
-    <th colspan="2">Elamufondi kvaliteedi parandamine</th>
+    <th colspan="2">Establishing rental housing stock</th>
   </tr>
   <tr>
-    <td>Korterelamute rekonstrueerimistoetus</td>
-    <td>Enne 1993. aastat püstitatud korterela- mute omanikud, kelle eluhoone vajab rekonstrueerimist</td>
-  </tr>
-
-  <tr>
-    <td>Väikeelamute rekonstrueerimistoetus</td>
-    <td>Enne 1993. aastat püstitatud väikeelamute omanikud, kelle eluhoone vajab rekonst- rueerimist</td>
+    <td>Investment grants to local governments for developing housing stock</td>
+    <td>Mobile workers and economically disadvantaged target groups (rules set by the local government)</td>
   </tr>
 
   <tr>
-    <td>Korterelamute rekonstrueerimistoetus</td>
-    <td>Väikese sissetulekuga kolme või enama lapsega pered, kelle eluase vajab remonti või kellel puudub vajadustele vastav eluase</td>
+    <th colspan="2">Improving the quality of the housing stock</th>
+  </tr>
+  <tr>
+    <td>Reconstruction grants for apartment buildings</td>
+    <td>Owners of apartment buildings erected before 1993 whose residential building needs reconstruction</td>
   </tr>
 
   <tr>
-    <td>Puuetega inimeste eluruumide füüsilise kohandamise toetus</td>
-    <td>Erivajadustega inimesed, kelle eluase vajab füüsilist kohandamist</td>
+    <td>Reconstruction grants for small residential buildings</td>
+    <td>Owners of small residential buildings erected before 1993 whose residential building needs reconstruction</td>
+  </tr>
+
+  <tr>
+    <td>Home support for large families</td>
+    <td>Low-income families with three or more children whose home needs to be renovated or who do not have adequate housing</td>
+  </tr>
+
+  <tr>
+    <td>Aid for modifying the housing for people with disabilities</td>
+    <td>People with special needs whose housing requires modification</td>
   </tr>
 
 </table>
@@ -2573,11 +2693,11 @@ Ebavõrdsus elamistingimustes süvendab üldist regionaalset ebavõrdsust Eestis
 
 <!--chapter:end:01.4-chapter.Rmd-->
 
-## Ligipääsetavuse muutused autostunud Eestis {.chapter_section .chapter1_section}
+## Accessibility changes in motorised Estonia {.chapter_section .chapter1_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Tauri Tuvikene](#tauri-tuvikene), [Merlin Rehema](#merlin-rehema), [Dago Antov](#dago-antov)**</div>
-<div><a class="print-btn" href="../print/EIA-2019-1.5.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../print/EIA-2019-1.5.pdf"><i class="fa fa-file" aria-hidden="true"></i>Print</a></div>
 ```
 
 ```{block, type='points'}
@@ -2599,20 +2719,25 @@ Liikuvus tähendab võimet oma igapäevaste vajaduste rahuldamiseks ühest kohas
 Kiire autostumine Eestis on sarnane teiste idabloki riikide omaga. Autostumise tasemed mõõdetuna sõiduautode arvus 1000 elaniku kohta vahetult pärast Teist maailmasõda Ida- ja Lääne-Euroopas oluliselt ei erinenud. Juba kümmekond aastat hiljem oli aga autostumise tase väga erinev. 1990. aastate alguseks oli nii Euroopa Liidu riikides kui ka USAs autostumine ajaloolist tipptaset saavutamas või oluliselt aeglustunud, samal ajal kui idabloki riikides eelmistel kümnenditel välja kujundatud erinevuse kompenseerimine alles algas. Näiteks kui Lääne-Saksamaal saavutati praegune autostumise tase 1980. aastatel, siis Ida-Saksamaal jõudis see riigi ühendamise järel samale tasemele 2000. aastateks ([Pucher ja Buehler 2005](#Pucher2005)). Isiklike sõiduautode kättesaadavuse piiratus nõukogude perioodil asendus autoomamise entusiasmiga 1990. aastatel. Sellest ajast peale on Eesti oma autokasutuses järjepidevalt Lääne-Euroopa riikidele järele liikunud ja need lõpuks kinni püüdnud ([joonis 1.5.1](#figure151)). Kuigi autostumine jätkus ka Lääne-Euroopas, on piirkondade võrdluses sealne kasvutempo olnud aeglasem. Praegu jääb Eesti registreeritud autode arvu poolest 1000 elaniku kohta maha veel vaid Euroopa Liidu kõige autostunumatest maadest, nagu Itaalia, Luksemburg, Malta ja Soome, kuid on enamikust Euroopa Liidu n-ö läänepoolsetest riikidest möödunud.
 
 <p class="caption" id="figure151"><span class="figure-number">Joonis 1.5.1.</span> Autostumise muutus Lääne-Euroopa (siin EL-15) ja Ida-Euroopa riikides (siin alates 2004. aastal ELi astunud riigid, v.a Küpros ja Malta)</p>
-
+<div class="desktop-plot">
 ```{r, figure151, out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 
  fig151_data <- read.csv ("../data/15_fig1_data2.csv", header=TRUE, fileEncoding="utf-8")
 
+fig151_data$area_eng[grepl("Eesti",fig151_data$area)]<-"Estonia"
+fig151_data$area_eng[grepl("Ida",fig151_data$area)]<-"Eastern Europe"
+fig151_data$area_eng[grepl("Lääs",fig151_data$area)]<-"Western Europe"
 
   fig151_plot <- ggplot(data = fig151_data) +
-    geom_line(mapping = aes(x=year, y=value, colour=area, group=area), size=1) +
+    geom_line(mapping = aes(x=year, y=value, colour=area_eng, group=area_eng,text = paste("", area_eng,
+                         "<br>", year,
+                         "<br>", value)), size=0.75) +
     scale_x_continuous(breaks=c(1990,1992,1994,1996,1998,2000,2002,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(1990,2016.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,550)) +
-    scale_colour_manual(values=c("#482683","#369B9E","#b1e0f9"), labels=c("Eesti","Ida-Euroopa","Lääne-Euroopa")) +
-    labs(y="Autot 1000 elaniku kohta", x="") +
+    scale_colour_manual(values=c("#482683","#369B9E","#b1e0f9")) +
+    labs(y="Cars per 1,000 inhabitants", x="") +
     expand_limits (y=0)
 
   fig151_theme <- theme (
@@ -2620,10 +2745,23 @@ library("tidyverse")
 
   )
 
-  print(fig151_plot + fig_theme_general)
+ggplotly(fig151_plot + fig_theme_general + fig151_theme, tooltip = "text" ) %>%
+config(displayModeBar = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
   #ggsave(path="exported_figures/PDF/chapter1",filename="fig151.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
+
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+print(fig151_plot + fig_theme_general + fig151_theme)
+
+```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Eurostat 2019.</div>
@@ -2679,7 +2817,7 @@ head(as.data.frame(Asutusüksused))
 
 Asutusüksused$VAARTUS <- as.numeric(as.factor(Asutusüksused$VAARTUS)) -1
 
-names(Asutusüksused)[names(Asutusüksused) == "VAARTUS"] <- "Elanike osatähtsus (%)"
+names(Asutusüksused)[names(Asutusüksused) == "VAARTUS"] <- "Residents with good access (%)"
 
 Maanteed <- st_read(dsn ="../data/15_fig3_data/tee.shp")
 head(as.data.frame(Maanteed))
@@ -2689,10 +2827,10 @@ Maanteed <- subset (Maanteed, TYYP != c("Kõrvalmaantee"), select=c(NIMETUS,TYYP
 Maanteed <- subset (Maanteed, TYYP != c("Muu tee"), select=c(NIMETUS,TYYP, geometry))
 Maanteed <- subset (Maanteed, TYYP != c("Ramp või ühendustee"), select=c(NIMETUS,TYYP, geometry))
 
-Maanteed$TYYP <- "Põhi- või tugimaantee"
+Maanteed$TYYP <- "Main and support roads"
 
 fig_153_plot <- tm_shape(Asutusüksused) + 
-    tm_fill("Elanike osatähtsus (%)", title="Elanike osatähtsus, kellel on hea ühistranspordi kättesaadavus (%)", popup.vars="Elanike osatähtsus (%)",id="NIMI", breaks=c(0,1,25,50,75,100), palette = c("#E6E3DA", "#DAD4E6","#B6A8CD", "#917DB5","#482683")) +
+    tm_fill("Residents with good access (%)", title="Residents with good access to public transport (%)", popup.vars="Residents with good access (%)",id="NIMI", breaks=c(0,1,25,50,75,100), palette = c("#E6E3DA", "#DAD4E6","#B6A8CD", "#917DB5","#482683")) +
     tm_borders(col="white", alpha=0) +
   
     tm_layout(
@@ -2729,30 +2867,48 @@ tmap_mode("view")
 Tihenev autoliiklus vähendab ühistransporti kasutavate reisijate arvu ning see muudab hea teenuse pakkumise hajaasustuses kallimaks ja keerulisemaks. Ühistranspordi kvaliteedi langus ja tiheduse vähenemine soosib omakorda autostumist. Maanteeameti andmetel vähenes aastatel 2003–2016 sõitjate arv maakonnaliinidel peaaegu kaks korda, kusjuures vähenemine oli eriti kiire just perioodil 2003–2009 ([joonis 1.5.4](#figure154)). Need aastad olid kiire jõukuse kasvu periood, mil toimus ka kiire autostumine ja sellega seotud liikumisviiside nihe sõiduautode kasuks. Ühistranspordi kasutajate arvu langus on toimunud vaatamata sellele, et samal ajal ei ole ühissõidukite läbisõit vähenenud.
 
 <p class="caption" id="figure154"><span class="figure-number">Joonis 1.5.4.</span> Reisijate arvu ja läbisõidu muutus maakonnaliinidel Eestis, 2003–2016</p>
-
+<div class="desktop-plot">
 ```{r, figure154, out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 
  fig154_data <- read.csv ("../data/15_fig4_data.csv", header=TRUE, fileEncoding="utf-8", sep=";")
+ 
+ fig154_data$variable_eng[grepl("Läbisõit",fig154_data$variable)]<-"Distance travelled (million km)"
+fig154_data$variable_eng[grepl("Sõitjate arv",fig154_data$variable)]<-"Number of passengers (million)"
 
 
   fig154_plot <- ggplot(data = fig154_data) +
-    geom_line(mapping = aes(x=year, y=value, colour=variable, group=variable), size=1) +
+    geom_line(mapping = aes(x=year, y=value, colour=variable_eng, group=variable, text = paste("", variable_eng,
+                         "<br>", value,
+                         "<br>", year)), size=0.75) +
     scale_x_continuous(breaks=c(2003,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(2003,2016.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,40)) +
-    scale_colour_manual(values=c("#482683","#369B9E"), labels=c("Läbisõit (mln km)","Sõitjate arv (mln)")) +
-    labs(y="", x="aasta") +
+    scale_colour_manual(values=c("#482683","#369B9E")) +
+    labs(y="", x="") +
     expand_limits (y=0)
 
   fig154_theme <- theme (
          text=element_text(family="Montserrat")
   )
 
-  print(fig154_plot + fig_theme_general)
+ggplotly(fig154_plot + fig_theme_general + fig154_theme, tooltip = "text" ) %>%
+config(displayModeBar = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
  # ggsave(path="exported_figures/PDF/chapter1",filename="fig154.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
+
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+print(fig154_plot + fig_theme_general + fig154_theme)
+
+```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Maanteeamet.</div>
@@ -2783,23 +2939,32 @@ library(grid)
 
   fig155_data1 <- read.csv ("../data/15_fig5_data1.csv", header=TRUE, fileEncoding="utf-8")
 
-  fig155_data1$number_of_cars <- factor (  fig155_data1$number_of_cars, levels = c("Pole autot", "1 auto", "2 või enam autot"))
-
   fig155_data2 <- read.csv ("../data/15_fig5_data2.csv", header=TRUE, fileEncoding="utf-8")
 
   fig155_line <- data.frame(x=c(0, 5),
                 y=c(100, 100))
+  
+  fig155_data1$number_of_cars_eng[grepl("1 auto",fig155_data1$number_of_cars)]<-"1 car"
+  fig155_data1$number_of_cars_eng[grepl("2 või enam autot",fig155_data1$number_of_cars)]<-"2 or more cars"
+  fig155_data1$number_of_cars_eng[grepl("Pole autot",fig155_data1$number_of_cars)]<-"No car"
+    
+  fig155_data1$number_of_cars_eng <- factor (  fig155_data1$number_of_cars_eng, levels = c("No car", "1 car", "2 or more cars"))
+  
+  fig155_data2$growth_of_population_eng[grepl("Viimsi vald",fig155_data2$growth_of_population)]<-"Viimsi\n municipality"
+  fig155_data2$growth_of_population_eng[grepl("Harku vald",fig155_data2$growth_of_population)]<-"Harku\n municipality"
+  fig155_data2$growth_of_population_eng[grepl("Rae vald",fig155_data2$growth_of_population)]<-"Rae\n municipality"
+  fig155_data2$growth_of_population_eng[grepl("Kiili vald",fig155_data2$growth_of_population)]<-"Kiili\n municipality"
 
 
   fig155_plot1 <- ggplot(data = fig155_data1) +
     geom_bar(mapping = aes(x=area, y=value, fill=area), width=0.7, stat="identity", position = "dodge") +
     scale_fill_manual(values=c("#369B9E","#482683")) +
-    facet_wrap(~number_of_cars, nrow=1) +
+    facet_wrap(~number_of_cars_eng, nrow=1) +
     labs(y="%", x="") +
     expand_limits (y=0)
 
     fig155_plot2 <- ggplot() +
-    geom_bar(data = fig155_data2, mapping = aes(x=growth_of_population, y=value, fill=growth_of_population), width=0.7, stat="identity") +
+    geom_bar(data = fig155_data2, mapping = aes(x=growth_of_population_eng, y=value, fill=growth_of_population_eng), width=0.7, stat="identity") +
       geom_line(data = fig155_line, mapping=aes(x=x, y=y), col="#482683") +
     scale_fill_manual(values=c("#B6A8CD","#b1e0f9","#369B9E","#482683")) +
     labs(y="%", x="") +
@@ -2841,22 +3006,31 @@ Tööle liikumise trendid viimasel kümnendil näitavad sõiduauto kasutamise po
 
 
 <p class="caption" id="figure156"><span class="figure-number">Joonis 1.5.6.</span> Tallinna ja muu Harjumaa elanike tööle liikumise viiside osatähtsus aastatel 2000–2017</p>
-
+<div class="desktop-plot">
 ```{r, figure156, out.width='95%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
+library("plotly")
 
  fig156_data <- read.csv ("../data/15_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
 
  fig156_data$value=as.numeric(levels(fig156_data$value))[fig156_data$value]
+ 
+  fig156_data$variable_eng[grepl("Jalgsi",fig156_data$variable)]<-"On foot"
+  fig156_data$variable_eng[grepl("Sõiduautoga",fig156_data$variable)]<-"By car"
+  fig156_data$variable_eng[grepl("Ühissõidukiga",fig156_data$variable)]<-"By public transport"
+  
+  fig156_data$variable_eng <- factor (fig156_data$variable_eng, levels = c("On foot", "By car", "By public transport"))
 
-  fig156_plot <- ggplot(subset(fig156_data, variable %in% c("Jalgsi", "Sõiduautoga", "Ühissõidukiga"))) +
-    geom_line(mapping = aes(x=year, y=value, colour=variable, group=variable), size=1.2) +
+  fig156_plot <- ggplot(subset(fig156_data, variable_eng %in% c("On foot", "By car", "By public transport"))) +
+    geom_line(mapping = aes(x=year, y=value, colour=variable_eng, group=variable_eng, text = paste("", variable_eng,
+                         "<br>", year,
+                         "<br>", value)), size=0.75) +
     scale_x_continuous(breaks=c(2000,2002,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(2000,2017.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,71)) +
     scale_colour_manual(values=c("#1f9a9e","#482683","#83d0f5"))+
     facet_wrap(~area, nrow=1) +
-    labs(y="Liikumisviisi osakaal (%)", x="") +
+    labs(y="Share of modal use (%)", x="") +
     expand_limits (y=0)
 
   fig156_theme <- theme (
@@ -2864,10 +3038,23 @@ library("tidyverse")
             text=element_text(family="Montserrat")
   )
 
-  print(fig156_plot + fig_theme_general + fig156_theme)
+ggplotly(fig156_plot + fig_theme_general + fig156_theme, tooltip = "text" ) %>%
+config(displayModeBar = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
+
 
   #ggsave(path="exported_figures/PDF/chapter1",filename="fig156.pdf",fig156_plot + fig156_theme +fig_theme_general, height=90, width=150, units="mm")
 ```
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+  print(fig156_plot + fig_theme_general + fig156_theme)
+
+```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Statistikaamet.</div>
@@ -2877,7 +3064,7 @@ library("tidyverse")
 Võime öelda, et autostumine on olnud suundumus üle Eesti. Maanteeameti ([2017](#Maanteeamet2017)) andmetel on autode läbisõidu kilometraaž aastatel 2013–2017 kasvanud 16% võrra. Kui regioonikeskustes suudab ühistransport püsida konkurentsivõimelisena, siis linnade tagamaade ja kaugemate Eesti äärealade elanikkond on järjest enam sõltuv autost. Seega ei ole riigi ja omavalitsuste tasandil suudetud teha piisavaid edusamme autokasutuse vähendamiseks.
 
 <p class="caption" id="figure157"><span class="figure-number">Joonis 1.5.7.</span> Kogu Eesti tööga hõivatute peamine tööle liikumise viis, selleks kuluv aeg ning töökoha kaugus, 1997–2017</p>
-
+<div class="desktop-plot">
 ```{r, figure157, fig.align='center', echo=FALSE, message=FALSE, fig.asp=0.75}
 
 library("tidyverse")
@@ -2885,22 +3072,39 @@ library("scales")
 
  fig157_data1 <- read.csv ("../data/15_fig7_data1.csv", header=TRUE, fileEncoding="utf-8")
 
-fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab kodus, töötab ja ööbib samas kohas","Ühissõidukiga", "Ametiauto, töökoha sõidukiga","Isikliku autoga","Jalgratta, mopeedi, mootorrattaga","Jalgsi"))
+fig157_data1$variable_eng[grepl("Jalgsi",fig157_data1$variable)]<-"On foot"
+fig157_data1$variable_eng[grepl("Töötab kodus",fig157_data1$variable)]<-"Works at home, works and lives in the same place"
+fig157_data1$variable_eng[grepl("Ühissõidukiga",fig157_data1$variable)]<-"Public transport"
+fig157_data1$variable_eng[grepl("Ametiauto, töökoha sõidukiga",fig157_data1$variable)]<-"Take-home vehicle"
+fig157_data1$variable_eng[grepl("Isikliku autoga",fig157_data1$variable)]<-"Private car"
+fig157_data1$variable_eng[grepl("Jalgratta, mopeedi, mootorrattaga",fig157_data1$variable)]<-"Bicycle, moped, motorcycle"
 
+fig157_data1$variable_eng <- factor ( fig157_data1$variable_eng, levels = c("Works at home, works and lives in the same place","Public transport", "Take-home vehicle","Private car","Bicycle, moped, motorcycle","On foot"))
+  
  fig157_data2 <- read.csv ("../data/15_fig7_data2.csv", header=TRUE, fileEncoding="utf-8")
 
+fig157_data2$variable_eng[grepl("Keskmine põhitöökohale jõudmise aeg",fig157_data2$variable)]<-"Average time of travel to main job (min)"
+fig157_data2$variable_eng[grepl("Põhitöökoha keskmine kaugus elukohast",fig157_data2$variable)]<-"Average distance from place of residence to main job (km)"
+
+fig157_data2$variable_eng <- factor ( fig157_data2$variable_eng, levels = c("Average time of travel to main job (min)","Average distance from place of residence to main job (km)"))
+ 
+ 
   fig157_plot1 <- ggplot() +
-    geom_bar(data = fig157_data1, mapping = aes(x=year, y=value, fill=variable), width=0.7, stat="identity") +
+    geom_bar(data = fig157_data1, mapping = aes(x=year, y=value, fill=variable_eng, text = paste("", variable_eng,
+                         "<br>", year,
+                         "<br>", value,"%")), width=0.7, stat="identity") +
     scale_fill_manual(values=c("#2d6a6d","#b1e0f9","#4bb1ca","#6D519C","#369B9E","#241342")) +
 
     scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017)) +
     scale_y_continuous(breaks=c(20, 40,60,80,100)) +
     guides(fill=guide_legend(nrow=6,byrow=TRUE)) +
-    labs(y="Peamine tööle liikumise viis (%)", x="")
+    labs(y="Main mode of travel to work (%)", x="")
 
 
   fig157_plot2 <- ggplot() +
-    geom_line(data = fig157_data2, mapping = aes(x=year, y=value, colour=variable), size=1) +
+    geom_line(data = fig157_data2, mapping = aes(x=year, y=value, colour=variable_eng,group=variable_eng, text = paste("", variable_eng,
+                         "<br>", value,
+                         "<br>", year)), size=0.75) +
     scale_colour_manual(values=c("#369B9E","#482683")) +
     labs(y="", x="aasta") +
     scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017), expand = c(0, 0), limits=c(1997,2017.5)) +
@@ -2920,14 +3124,34 @@ fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab k
            text=element_text(family="Montserrat")
   )
 
-  print(fig157_plot1 + fig_theme_general + fig157_theme1)
-  print(fig157_plot2 + fig_theme_general + fig157_theme2)
+ggplotly(fig157_plot1 + fig_theme_general + fig157_theme1, tooltip = "text" ) %>%
+config(displayModeBar = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
+
+
+ggplotly(fig157_plot2 + fig_theme_general + fig157_theme2, tooltip = "text" ) %>%
+config(displayModeBar = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
 
   #ggsave(path="exported_figures/PDF/chapter1",filename="fig157a.pdf",fig157_plot1  +fig_theme_general + fig157_theme1, height=120, width=210, units="mm")
 
     #ggsave(path="exported_figures/PDF/chapter1",filename="fig157b.pdf",fig157_plot2  +fig_theme_general + fig157_theme2, height=100, width=210, units="mm")
 ```
+
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+  print(fig157_plot1 + fig_theme_general + fig157_theme1)
+  print(fig157_plot2 + fig_theme_general + fig157_theme2)
+
+```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Statistikaamet.</div>
@@ -2961,6 +3185,12 @@ Autosõiduks mõeldud tänavate kõrval pole loodud piisavalt konkurentsivõimel
 library("tidyverse")
 
  fig158_data <- read.csv ("../data/15_fig8_data.csv", header=TRUE, fileEncoding="utf-8", sep = ";")
+ 
+ fig158_data$liikumisviis_eng[grepl("Autoga", fig158_data$liikumisviis)]<-"By car"
+ fig158_data$liikumisviis_eng[grepl("Jala", fig158_data$liikumisviis)]<-"On foot"
+fig158_data$liikumisviis_eng[grepl("Jalgrattaga", fig158_data$liikumisviis)]<-"By bicycle"
+
+fig158_data$liikumisviis_eng <- factor (fig158_data$liikumisviis_eng, levels = c("By car","On foot", "By bicycle"))
 
   fig158_line <- data.frame(x=c(0,1,1,1,0,3,3,3),
                 y=c(14,14,14,0,17,17,17,0), line=c(1,1,2,2,3,3,4,4))
@@ -2968,7 +3198,7 @@ library("tidyverse")
   fig158_plot <- ggplot() +
     geom_line(fig158_line, mapping = aes(x=x, y=y, group=line), colour="#3A404A",size=0.5, show.legend = NA, linetype = "dashed") +
 
-    geom_line(data = fig158_data, mapping = aes(x=distance, y=time, colour=liikumisviis, group=liikumisviis), size=1) +
+    geom_line(data = fig158_data, mapping = aes(x=distance, y=time, colour=liikumisviis_eng, group=liikumisviis_eng), size=1) +
     scale_x_continuous(breaks=c(0,1,2,3,4,5),expand = c(0, 0), limits=c(0,5.1)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,70)) +
     expand_limits (y=0) +
@@ -3057,12 +3287,12 @@ On tõsi, et auto on liikuvuse võimaldaja teatud olukordades, kindlasti osa eak
 
 <!--chapter:end:01.5-chapter.Rmd-->
 
-# Avalik linnaruum {.chapter2 .chapter2_section}
+# Public urban space {.chapter2 .chapter2_section}
  <script>
-  window.location = "sissejuhatus-2.html";
+  window.location = "introduction-2.html";
   </script>
-## Sissejuhatus {-.chapter_section .chapter2_section .intro_section}
-<h1>Avalik linnaruum</h1>
+## Introduction {-.chapter_section .chapter2_section .intro_section}
+<h1>Public urban space</h1>
 ```{block, type='authors'}
 <div class="author-links">**[Epp Lankots](#epp-lankots)**</div>
 <div><a class="print-btn" href="../print/EIA-2019-2.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
@@ -3171,7 +3401,7 @@ Kuidas aga panna füüsiline avalik ruum tööle kahanevate väikelinnade heaks,
 
 <!--chapter:end:02.0-chapter.Rmd-->
 
-## Avalik ruum kui elukeskkonda siduv võrgustik {.chapter_section .chapter2_section}
+## Public space as an interconnecting network within the living environment {.chapter_section .chapter2_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Toomas Paaver](#toomas-paaver) ja [Elo Kiivet](#elo-kiivet)**</div>
@@ -3405,7 +3635,7 @@ Turvalisust ja heaolu kasvatab eelkõige aktiivne ruumi kasutus ([Worpole ja Kno
 
 <!--chapter:end:02.1-chapter.Rmd-->
 
-## Ehituspärand ja ruumikvaliteet {.chapter_section .chapter2_section}
+## Built heritage and spatial quality {.chapter_section .chapter2_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Triin Talk](#triin-talk) ja [Siim Raie](#siim-raie)**</div>
@@ -3827,7 +4057,7 @@ Ajalooliste ehitiste, sealhulgas mälestiste ja muinsuskaitsealade kasutuse ja s
 
 <!--chapter:end:02.2-chapter.Rmd-->
 
-## Aktivism avaliku ruumi koosloomes {.chapter_section .chapter2_section}
+## Urban activism in the co-creation of public space {.chapter_section .chapter2_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Keiti Kljavin](#keiti-kljavin), [Johanna Pirrus](#johanna-pirrus), [Kaija-Luisa Kurik](#kaija-luisa-kurik) ja [Ingmar Pastak](#ingmar-pastak)**</div>
@@ -3996,7 +4226,7 @@ Koosloomest sündiva avalikku ruumi mõjutavate otsuste kujundamise ja elluviimi
 
 <!--chapter:end:02.3-chapter.Rmd-->
 
-## Andmepõhine ruumiloome {.chapter_section .chapter2_section}
+## Data-driven spatial planning {.chapter_section .chapter2_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Renee Puusepp](#renee-puusepp) ja [Raul Kalvo](#raul-kalvo)**</div>
@@ -4171,12 +4401,12 @@ Avaliku sektori peamine ülesanne avalike ruumiandmete kasutamisel on kogumine j
 
 <!--chapter:end:02.4-chapter.Rmd-->
 
-# Looduskeskkond kui avalik hüve {.chapter3 .chapter3_section}
+# Natural environment as a public good {.chapter3 .chapter3_section}
  <script>
-  window.location = "sissejuhatus-3.html";
+  window.location = "introduction-3.html";
   </script>
-## Sissejuhatus {-.chapter_section .chapter3_section .intro_section}
-<h1>Looduskeskkond kui avalik hüve</h1>
+## Introduction {-.chapter_section .chapter3_section .intro_section}
+<h1>Natural environment as a public good</h1>
 ```{block, type='authors'}
 <div class="author-links">**[Asko Lõhmus](#asko-lõhmus)**</div>
 <div><a class="print-btn" href="../print/EIA-2019-3.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
@@ -4434,7 +4664,7 @@ Lähikümnendite üldpõhimõte Eesti looduse avaliku kasutamise juhtimisel või
 
 <!--chapter:end:03.0-chapter.Rmd-->
 
-## Kuidas inimesed Eesti looduskeskkonda kasutavad? {.chapter_section .chapter3_section}
+## How do people use the natural environment in Estonia? {.chapter_section .chapter3_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Kalev Sepp](#kalev-sepp) ja [Asko Lõhmus](#asko-lõhmus)**</div>
@@ -4793,7 +5023,7 @@ Looduse avaliku kasutuse kohta saadaval olevad andmestikud näitavad sedagi, et 
 
 <!--chapter:end:03.1-chapter.Rmd-->
 
-## Loodusalade mõju inimeste heaolule {.chapter_section .chapter3_section}
+## The impact of natural areas on people’s well-being {.chapter_section .chapter3_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Kati Orru](#kati-orru), [Mait Lang](#mait-lang) ja [Hans Orru](#hans-orru)**</div>
@@ -4944,7 +5174,7 @@ Kuigi seoses linnastumisega vähenevad inimeste kokkupuuted looduskeskkonnaga, n
 
 <!--chapter:end:03.2-chapter.Rmd-->
 
-## Loodusalade kujundamine avalikuks kasutuseks {.chapter_section .chapter3_section}
+## Shaping natural areas for public use {.chapter_section .chapter3_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Age Poom](#age-poom) ja [Kalev Sepp](#kalev-sepp)**</div>
@@ -5185,7 +5415,7 @@ Eestis kehtivad ruumilise planeerimise ja looduskaitse nõuded, mis toetavad loo
 
 <!--chapter:end:03.3-chapter.Rmd-->
 
-## Kaasarääkimise võimalused loodusalade kasutamisel {.chapter_section .chapter3_section}
+## Public participation in decisions on the use of natural areas {.chapter_section .chapter3_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Siim Vahtrus](#siim-vahtrus), [Liina Remm](#liina-remm), [Kärt Vaarmari](#kärt-vaarmari)**</div>
@@ -5531,12 +5761,12 @@ Keskkonnateabe puhul on vaja olemasolevad andmekogud koondada viisil, mis aitaks
 
 <!--chapter:end:03.4-chapter.Rmd-->
 
-# Eesti Aruteluruum {.chapter4 .chapter4_section}
+# Estonian deliberative space {.chapter4 .chapter4_section}
  <script>
-  window.location = "sissejuhatus-4.html";
+  window.location = "introduction-4.html";
   </script>
-## Sissejuhatus {-.chapter_section .chapter4_section .intro_section}
-<h1>Eesti Aruteluruum</h1>
+## Introduction {-.chapter_section .chapter4_section .intro_section}
+<h1>Estonian deliberative space</h1>
 
 ```{block, type='authors'}
 <div class="author-links">**[Indrek Ibrus](#indrek-ibrus)**</div>
@@ -5653,7 +5883,7 @@ Arutelukultuuri areng, aga eriti veebipõhise suhtluse riskide vältimine sõltu
 
 <!--chapter:end:04.0-chapter.Rmd-->
 
-## Ühiskondlik-poliitiline diskussioon digitaalses avalikus ruumis {.chapter_section .chapter4_section}
+## Socio-political discussion in the digital public space {.chapter_section .chapter4_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Andreas Ventsel](#andreas-ventsel) ja [Mari-Liis Madisson](#mari-liis-madisson)**</div>
@@ -5800,7 +6030,7 @@ Digitaalses avalikus ruumis toimuvate tähendusloomeprotsesside mõistmisel on o
 
 <!--chapter:end:04.1-chapter.Rmd-->
 
-## Eesti noored virtuaalses arvamusruumis {.chapter_section .chapter4_section}
+## Estonian youth in the virtual opinion space {.chapter_section .chapter4_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Veronika Kalmus](#veronika-kalmus) ja [Andra Siibak](#andra-siibak)**</div>
@@ -6071,7 +6301,7 @@ Virtuaalse arvamusruumi arengut võiksid soodustada järjestikused päriselt tul
 
 <!--chapter:end:04.2-chapter.Rmd-->
 
-## Ajakirjanduse kujundatav arvamusruum {.chapter_section .chapter4_section}
+## The deliberative space shaped by the press {.chapter_section .chapter4_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Ragne Kõuts-Klemm](#ragne-kõuts-klemm)**</div>
@@ -6298,7 +6528,7 @@ Seega sõltub avaliku aruteluruumi kvaliteet nii tehnoloogilistest teguritest ku
 
 <!--chapter:end:04.3-chapter.Rmd-->
 
-## Ekspertide roll ja staatus ühiskondlikes meediaaruteludes {.chapter_section .chapter4_section}
+## The role and status of experts in societal media discussions {.chapter_section .chapter4_section}
 
 ```{block, type='authors'}
 <div class="author-links">**[Arko Olesk](#arko-olesk)**</div>
@@ -6525,12 +6755,12 @@ Parima eksperditeadmise nähtavale toomine ja sellele kasutusse aitamine on pide
 
 <!--chapter:end:04.4-chapter.Rmd-->
 
-# Eesti elukeskkond aastal 2050 {.chapter5 .chapter5_section}
+# Estonian living environment in 2050 {.chapter5 .chapter5_section}
  <script>
-  window.location = "sissejuhatus-5.html";
+  window.location = "introduction-5.html";
   </script>
-## Sissejuhatus {-.chapter_section .chapter5_section .intro_section}
-<h1>Eesti elukeskkond aastal 2050</h1>
+## Introduction {-.chapter_section .chapter5_section .intro_section}
+<h1>Estonian living environment in 2050</h1>
 
 ```{block, type='authors'}
 <div class="author-links">**[Kristi Grišakov](#kristi-grišakov)**</div>
@@ -6953,7 +7183,7 @@ Ruumi (sh avaliku ruumi) tulevikku kujundavaid tegureid saab lihtsustatult jagad
 
 <!--chapter:end:05.0-chapter.Rmd-->
 
-## Eesti 2050 stsenaariumid {-.chapter_section .chapter5_section }
+## Estonia 2050 scenarios {-.chapter_section .chapter5_section }
 
 ```{block, type='authors'}
 <div class="author-links">**[Kristi Grišakov](#kristi-grišakov) ja [Mihkel Kaevats](#mihkel-kaevats)** (stsenaariumitekstid)</div>
@@ -6992,7 +7222,7 @@ knitr::include_graphics("../figures/5-chapter/fig55.png")
 <!--chapter:end:05.1-chapter.Rmd-->
 
 
-## Vabatahtlikult linnadesse sunnitud Eesti {-.chapter_section .chapter5_section .future_section}
+## Estonia voluntarily forced into cities {-.chapter_section .chapter5_section .future_section}
 
 <div class="map-icon">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
@@ -7066,7 +7296,7 @@ knitr::include_graphics("../figures/5-chapter/tulevik-1.png")
 
 <!--chapter:end:05.11-scenario1.Rmd-->
 
-## Ühe tunni Eesti {-.chapter_section .chapter5_section .future_section}
+## One-hour Estonia {-.chapter_section .chapter5_section .future_section}
 
 <div class="map-icon">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
@@ -7138,7 +7368,7 @@ knitr::include_graphics("../figures/5-chapter/tulevik-2.png")
 
 <!--chapter:end:05.12-scenario2.Rmd-->
 
-## Krattide ja Marakrattide Eesti {-.chapter_section .chapter5_section .future_section}
+## Estonia of rogues and rascals {-.chapter_section .chapter5_section .future_section}
 
 <div class="map-icon">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
@@ -7210,7 +7440,7 @@ knitr::include_graphics("../figures/5-chapter/tulevik-3.png")
 
 <!--chapter:end:05.13-scenario3.Rmd-->
 
-## Isemajandav Eesti {-.chapter_section .chapter5_section .future_section}
+## Self-sufficient Estonia {-.chapter_section .chapter5_section .future_section}
 
 <div class="map-icon">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
@@ -7282,12 +7512,12 @@ knitr::include_graphics("../figures/5-chapter/tulevik-4.png")
 
 <!--chapter:end:05.14-scenario4.Rmd-->
 
-# Autorid ja toimetajad {.chapter6 .chapter6_section .chapter_section}
+# Contributors and Editors {.chapter6 .chapter6_section .chapter_section}
 
 <div><a class="print-btn" href="../print/EIA-2019-6-Autorid.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 
 
-### Peatoimetaja {-.chapter6_section}
+### Editor-in-chief {-.chapter6_section}
 
 <div class="author-container" id="helen-sooväli-sepping">
 
@@ -7304,7 +7534,7 @@ on Tallinna Ülikooli jätkusuutliku arengu prorektor, keskkonnakorralduse profe
 </div>
 </div>
 
-### Peatükkide toimetajad {-.chapter6_section}
+### Editors {-.chapter6_section}
 
 <div class="author-container" id="kristi-grišakov">
 
@@ -7381,7 +7611,7 @@ on loomaökoloog, Tartu Ülikooli juhtivteadur ja loodusressursside õppetooli j
 </div>
 </div>
 
-### Autorid {-.chapter6_section}
+### Contributors {-.chapter6_section}
 
 <div class="author-container" id="dago-antov">
 <div class="author-img-container">

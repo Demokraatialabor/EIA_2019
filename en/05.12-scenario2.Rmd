@@ -1,4 +1,4 @@
-## Ühe tunni Eesti {-.chapter_section .chapter5_section .future_section}
+## One-hour Estonia {-.chapter_section .chapter5_section .future_section}
 
 <div class="map-icon">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}

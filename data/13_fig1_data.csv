@@ -1,43 +1,43 @@
-year,area,value,estonia_population,estonia_square_measure
-2001,Tallinn,400090,1392720,43432
-2001,Tallinna eeslinn,57480,1392720,43432
-2001,Tartu,106360,1392720,43432
-2001,Tartu eeslinn,18450,1392720,43432
-2001,Pärnu,46330,1392720,43432
-2001,Pärnu eeslinn,12600,,
-2006,Tallinn,398380,,
-2006,Tallinna eeslinn,64030,,
-2006,Tartu,106360,,
-2006,Tartu eeslinn,18740,,
-2006,Pärnu,42810,,
-2006,Pärnu eeslinn,14180,,
-2011,Tallinn,401120,1329660,43432
-2011,Tallinna eeslinn,88650,1329660,43432
-2011,Tartu,100670,1329660,43432
-2011,Tartu eeslinn,21690,1329660,43432
-2011,Pärnu,41150,1329660,43432
-2011,Pärnu eeslinn,15650,1329660,43432
-2015,Tallinn,413782,1313271,43468
-2015,Tallinna eeslinn,94032,1313271,43468
-2015,Tartu,97332,1313271,43468
-2015,Tartu eeslinn,24899,1313271,43468
-2015,Pärnu,39784,1313271,43468
-2015,Pärnu eeslinn,16143,1313271,43468
-2016,Tallinn,423420,1315944,43468
-2016,Tallinna eeslinn,88368,1315944,43468
-2016,Tartu,93687,1315944,43468
-2016,Tartu eeslinn,22471,1315944,43468
-2016,Pärnu,39828,1315944,43468
-2016,Pärnu eeslinn,15987,1315944,43468
-2017,Tallinn,426538,1315635,43465
-2017,Tallinna eeslinn,91127,1315635,43465
-2017,Tartu,93124,1315635,43465
-2017,Tartu eeslinn,23491,1315635,43465
-2017,Pärnu,39620,1315635,43465
-2017,Pärnu eeslinn,16089,1315635,43465
-2018,Tallinn,430805,,
-2018,Tallinna eeslinn,94233,,
-2018,Tartu,93715,,
-2018,Tartu eeslinn,,,
-2018,Pärnu,,,
-2018,Pärnu eeslinn,,,
+year,area,value,estonia_population,estonia_square_measure,area_eng
+2001,Tallinn,400090,1392720,43432,Tallinn
+2001,Tallinna eeslinn,57480,1392720,43432,Tallinn suburbs
+2001,Tartu,106360,1392720,43432,Tartu
+2001,Tartu eeslinn,18450,1392720,43432,Tartu suburbs
+2001,Pärnu,46330,1392720,43432,Pärnu
+2001,Pärnu eeslinn,12600,,,Pärnu suburbs
+2006,Tallinn,398380,,,Tallinn
+2006,Tallinna eeslinn,64030,,,Tallinn suburbs
+2006,Tartu,106360,,,Tartu
+2006,Tartu eeslinn,18740,,,Tartu suburbs
+2006,Pärnu,42810,,,Pärnu
+2006,Pärnu eeslinn,14180,,,Pärnu suburbs
+2011,Tallinn,401120,1329660,43432,Tallinn
+2011,Tallinna eeslinn,88650,1329660,43432,Tallinn suburbs
+2011,Tartu,100670,1329660,43432,Tartu
+2011,Tartu eeslinn,21690,1329660,43432,Tartu suburbs
+2011,Pärnu,41150,1329660,43432,Pärnu
+2011,Pärnu eeslinn,15650,1329660,43432,Pärnu suburbs
+2015,Tallinn,413782,1313271,43468,Tallinn
+2015,Tallinna eeslinn,94032,1313271,43468,Tallinn suburbs
+2015,Tartu,97332,1313271,43468,Tartu
+2015,Tartu eeslinn,24899,1313271,43468,Tartu suburbs
+2015,Pärnu,39784,1313271,43468,Pärnu
+2015,Pärnu eeslinn,16143,1313271,43468,Pärnu suburbs
+2016,Tallinn,423420,1315944,43468,Tallinn
+2016,Tallinna eeslinn,88368,1315944,43468,Tallinn suburbs
+2016,Tartu,93687,1315944,43468,Tartu
+2016,Tartu eeslinn,22471,1315944,43468,Tartu suburbs
+2016,Pärnu,39828,1315944,43468,Pärnu
+2016,Pärnu eeslinn,15987,1315944,43468,Pärnu suburbs
+2017,Tallinn,426538,1315635,43465,Tallinn
+2017,Tallinna eeslinn,91127,1315635,43465,Tallinn suburbs
+2017,Tartu,93124,1315635,43465,Tartu
+2017,Tartu eeslinn,23491,1315635,43465,Tartu suburbs
+2017,Pärnu,39620,1315635,43465,Pärnu
+2017,Pärnu eeslinn,16089,1315635,43465,Pärnu suburbs
+2018,Tallinn,430805,,,Tallinn
+2018,Tallinna eeslinn,94233,,,Tallinn suburbs
+2018,Tartu,93715,,,Tartu
+2018,Tartu eeslinn,,,,Tartu suburbs
+2018,Pärnu,,,,Pärnu
+2018,Pärnu eeslinn,,,,Pärnu suburbs
