@@ -85,11 +85,12 @@ library("tidyverse")
 fig442_data_cleaned <- as.data.frame(table(fig442_data$date))
 fig442_data_cleaned$date <- as.Date(fig442_data_cleaned$Var1)
 
+names(fig442_data_cleaned)[names(fig442_data_cleaned) == "Freq"] <- "Frequency"
 
   fig442_plot <- ggplot(data = fig442_data_cleaned) +
-    geom_line(mapping = aes(x=date, y=Freq), size=.8, group="date", colour="#BC9417") +
+    geom_line(mapping = aes(x=date, y=Frequency),group="date", size=.75, colour="#BC9417") +
     scale_x_date(date_breaks="2 months",date_labels =  "%d.%m.%y") +
-    labs(y="Sagedus", x="Kuupäev")
+    labs(y="Frequency", x="")
 
     fig442_theme <- theme(
                      axis.line = element_line(size = 0.2, colour = "#cccccc"),
@@ -98,12 +99,23 @@ fig442_data_cleaned$date <- as.Date(fig442_data_cleaned$Var1)
                       text = element_text(family="Montserrat"),
                  )
 
-  print(fig442_plot + fig_theme_general + fig442_theme)
+ggplotly(fig442_plot + fig_theme_general + fig442_theme, tooltip = "Frequency") %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
   #ggsave(path="exported_figures/PNG",filename="fig442.png",height=150, width=300, units="mm")
   #ggsave(path="exported_figures/PDF",filename="fig442.pdf", height=120, width=200, units="mm")
 ```
+</div>
 
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+  print(fig442_plot + fig_theme_general + fig442_theme)
+```
+</div>
 ```{block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Station.ee meediamonitooring, otsisõnad „puidurafineerimistehas“ ja „tselluloositehas“.</div>
 <div><a class="data-btn" href="../data/44_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>

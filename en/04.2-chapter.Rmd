@@ -42,7 +42,19 @@ library("scales")
 
  fig421_data <- read.csv ("../data/42_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
 
- fig421_data$group <- factor(fig421_data$group, levels = c("Vene","Eesti","15-17 a","13-14 a","11-12 a","9-10 a","Tüdrukud","Poisid","Kõik lapsed"))
+fig421_data$group_eng[grepl("Kõik lapsed",  fig421_data$group)]<-"All children"
+fig421_data$group_eng[grepl("Poisid",  fig421_data$group)]<-"Boys"
+fig421_data$group_eng[grepl("Tüdrukud",  fig421_data$group)]<-"Girls"
+fig421_data$group_eng[grepl("9-10 a",  fig421_data$group)]<-"9 to 10 yrs"
+fig421_data$group_eng[grepl("11-12 a",  fig421_data$group)]<-"11 to 12 yrs"
+fig421_data$group_eng[grepl("13-14 a",  fig421_data$group)]<-"13 to 14 yrs"
+fig421_data$group_eng[grepl("15-17 a",  fig421_data$group)]<-"15 to 17 yrs"
+fig421_data$group_eng[grepl("Eesti",  fig421_data$group)]<-"Estonian"
+fig421_data$group_eng[grepl("Vene",  fig421_data$group)]<-"Russian"
+ 
+ fig421_data$group_eng <- factor(fig421_data$group_eng, levels = c("Russian","Estonian","15 to 17 yrs","13 to 14 yrs","11 to 12 yrs","9 to 10 yrs","Girls","Boys","All children"))
+ 
+ 
   fig421_data$answer <- factor(fig421_data$answer, levels = c("Ei taha öelda","Ei oska öelda","Umbes 6 tundi või rohkem","Umbes 4-5 tundi","Umbes 2-3 tundi","Umbes 1 tund või vähem"))
 
     fig421_data$text_position <- fig421_data$value
@@ -50,10 +62,10 @@ library("scales")
     fig421_data$text_position[which(fig421_data$text_position == 0)] <- NA
 
   fig421_plot <- ggplot(data = fig421_data) +
-    geom_bar(mapping = aes(x=group, y=value, fill=answer), width=0.6, stat="identity") +
-    geom_text(mapping = aes(x=group, y=text_position, label=round(text_position, digits=0)), stat="identity", color="white", position = position_stack(vjust = .5)) +
+    geom_bar(mapping = aes(x=group_eng, y=value, fill=answer), width=0.6, stat="identity") +
+    geom_text(mapping = aes(x=group_eng, y=text_position, label=round(text_position, digits=0)), stat="identity", color="white", position = position_stack(vjust = .5)) +
     coord_flip() +
-     scale_fill_manual(values=c("#86858A","#A8ACA6","#5E4A0C","#8D6F11","#BC9417","#C9A945")) +
+     scale_fill_manual(values=c("#86858A","#A8ACA6","#5E4A0C","#8D6F11","#BC9417","#C9A945"), labels=c("Don’t want to say","Don’t know","6 hours or more","4 to 5 hours","2 to 3 hours","Up to 1 hour")) +
     labs(y="%", x="") +
       scale_x_discrete(labels = wrap_format(30)) +
     guides(fill = guide_legend(reverse = TRUE))
@@ -141,16 +153,30 @@ library("dplyr")
     fig423_data$text_position <- 100 - fig423_data$cumsum +  fig423_data$text_position_temp
     fig423_data$text_position[which(fig423_data$text_position == 0)] <- NA
 
+    fig423_data$question_eng[grepl("Mõnikord leian end veebilehtedelt teadmata, kuidas ma sinna sattusin",  fig423_data$question)]<-"Sometimes I find myself on websites without knowing how I got there"
+    fig423_data$question_eng[grepl("Ma oskan kasutada programmeerimiskeeli",  fig423_data$question)]<-"I know how to use programming languages (e.g. Python, C++)"
+    fig423_data$question_eng[grepl("Ma oskan luua kodulehte",  fig423_data$question)]<-"I know how to create a website"
+    fig423_data$question_eng[grepl("Ma oskan luua internetist leitud videotest või muusikast midagi uut",  fig423_data$question)]<-"I know how to create something new from videos or music found online"
+    fig423_data$question_eng[grepl("Minu jaoks on lihtne teha kindlaks, kas veebilehte saab usaldada",  fig423_data$question)]<-"I find it easy to determine whether a website can be trusted"
+    fig423_data$question_eng[grepl("Ma tean, millised erinevad kasutuspiirangud ja autoriõigused kehtivad internetis leiduvatele materjalidele",  fig423_data$question)]<-"I know what restrictions on use and copyrights apply to online material"
+    fig423_data$question_eng[grepl("Ma tean, millises olukorras ma peaksin jagama infot internetis ja millises mitte",  fig423_data$question)]<-"I know when I should and should not share information online"
+      fig423_data$question_eng[grepl("Ma oskan internetis käituda olukorrale vastavalt",  fig423_data$question)]<-"I know how to behave appropriately online"
+      fig423_data$question_eng[grepl("Ma oskan kasutada klahvikombinatsioone",  fig423_data$question)]<-"I know how to use keyboard shortcuts (e.g. Ctrl + C to copy)"
+      fig423_data$question_eng[grepl("Ma oskan avada allalaaditud faile",  fig423_data$question)]<-"I know how to download and open files"
+      fig423_data$question_eng[grepl("Ma tean, kuidas seada piiranguid, kes internetis minu infot näevad",  fig423_data$question)]<-"I know how to set restrictions on who can see my online information (e.g. friends, friends of friends or all users)"
+      fig423_data$question_eng[grepl("Minu jaoks on lihtne leida veebilehte, mida olen hiljuti külastanud",  fig423_data$question)]<-"It is easy for me to find a website I have visited recently"
+      fig423_data$question_eng[grepl("Ma oskan avada uut vahelehte internetibrauseris",  fig423_data$question)]<-"I know how to open a new tab in my internet browser"
+      
 
- fig423_data$question <- factor(fig423_data$question, levels = c("Mõnikord leian end veebilehtedelt teadmata, kuidas ma sinna sattusin","Ma oskan kasutada programmeerimiskeeli (nt Python, C++)","Ma oskan luua kodulehte","Ma oskan luua internetist leitud videotest või muusikast midagi uut","Minu jaoks on lihtne teha kindlaks, kas veebilehte saab usaldada","Ma tean, millised erinevad kasutuspiirangud ja autoriõigused kehtivad internetis leiduvatele materjalidele ","Ma tean, millises olukorras ma peaksin jagama infot internetis ja millises mitte","Ma oskan internetis käituda olukorrale vastavalt","Ma oskan kasutada klahvikombinatsioone (nt Ctrl + C kopeerimiseks)","Ma oskan avada allalaaditud faile","Ma tean, kuidas seada piiranguid, kes internetis minu infot näevad (nt sõbrad, sõprade sõbrad või kõik kasutajad)","Minu jaoks on lihtne leida veebilehte, mida olen hiljuti külastanud","Ma oskan avada uut vahelehte internetibrauseris"))
+ fig423_data$question_eng <- factor(fig423_data$question_eng, levels = c("Sometimes I find myself on websites without knowing how I got there","I know how to use programming languages (e.g. Python, C++)","I know how to create a website","I know how to create something new from videos or music found online","I find it easy to determine whether a website can be trusted","I know what restrictions on use and copyrights apply to online material","I know when I should and should not share information online","I know how to behave appropriately online","I know how to use keyboard shortcuts (e.g. Ctrl + C to copy)","I know how to download and open files","I know how to set restrictions on who can see my online information (e.g. friends, friends of friends or all users)","It is easy for me to find a website I have visited recently","I know how to open a new tab in my internet browser"))
 
   fig423_data$answer <- factor(fig423_data$answer, levels = c("Ei oska öelda","Vastab täielikult tõele","Pigem vastab tõele","Ei üks ega teine","Pigem ei vasta tõele","Ei vasta üldse tõele"))
 
 
   fig423_plot <- ggplot(data = fig423_data) +
-    geom_bar(mapping = aes(x=question, y=value, fill=answer), width=0.5, stat="identity") +
-    geom_text(mapping = aes(x=question, y=text_position, label=round(value, digits=0)), stat="identity", color="white") +
-     scale_fill_manual(values=c("#A8ACA6","#E4D4A2","#C9A945","#BC9417","#8D6F11","#5E4A0C","#2F2506")) +
+    geom_bar(mapping = aes(x=question_eng, y=value, fill=answer), width=0.5, stat="identity") +
+    geom_text(mapping = aes(x=question_eng, y=text_position, label=round(value, digits=0)), stat="identity", color="white") +
+     scale_fill_manual(values=c("#A8ACA6","#E4D4A2","#C9A945","#BC9417","#8D6F11","#5E4A0C","#2F2506"), labels=c("Don’t know","Completely true","Rather true","Neither","Rather not true","Not true at all")) +
     coord_flip() +
     labs(y="%", x="") +
     scale_x_discrete(labels = wrap_format(28)) +
