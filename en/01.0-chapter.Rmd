@@ -64,10 +64,10 @@ fig101_line <- data.frame(x=c(0, 19),
 
 
 names(fig101_data)[names(fig101_data) == "county"] <- "Maakond"
-names(fig101_data)[names(fig101_data) == "change"] <- "Osakaal"
+names(fig101_data)[names(fig101_data) == "change"] <- "Proportion"
 
   fig101_plot <- ggplot() +
-    geom_col(data = fig101_data, mapping = aes(x=reorder(Maakond, Osakaal), y=Osakaal), fill=fig101_palette, width=0.6, show.legend = NA) +
+    geom_col(data = fig101_data, mapping = aes(x=reorder(Maakond, Proportion), y=Proportion), fill=fig101_palette, width=0.6, show.legend = NA) +
     geom_line(data = fig101_line, mapping=aes(x=x, y=y), col="#482683") +
     scale_y_continuous(breaks=c(0, 20,40, 60, 80, 100)) +
     labs(y="%", x="")
@@ -80,7 +80,7 @@ names(fig101_data)[names(fig101_data) == "change"] <- "Osakaal"
                     text=element_text(family="Montserrat")
                  )
   
-  ggplotly((fig101_plot + fig_theme_general + fig101_theme), tooltip = c("Osakaal")) %>%
+  ggplotly((fig101_plot + fig_theme_general + fig101_theme), tooltip = c("Proportion")) %>%
     config(displayModeBar = F) %>% 
     layout(legend = list(orientation = "h",y = 1.15)) %>% 
     layout(xaxis = list(fixedrange = TRUE)) %>%
