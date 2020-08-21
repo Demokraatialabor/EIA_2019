@@ -74,10 +74,15 @@ names(fig51_data)[names(fig51_data) == "variable"] <- "year"
 
 fig51_data$year <- as.numeric(as.character(fig51_data$year))
 
+fig51_data$scenario_eng[grepl("Stsenaarium 1", fig51_data$scenario)]<-"Scenario 1 (baseline)"
+fig51_data$scenario_eng[grepl("Stsenaarium 2 ", fig51_data$scenario)]<-"Scenario 2 (high birth rate and migration rate)"
+fig51_data$scenario_eng[grepl("Stsenaarium 3", fig51_data$scenario)]<-"Scenario 3 (low birth rate, low mortality, balanced migration)"
+fig51_data$scenario_eng[grepl("Stsenaarium 4", fig51_data$scenario)]<-"Scenario 4 (birth rate at replacement level)"
+
   fig51_plot <- ggplot(data = fig51_data) +
-    geom_line(mapping = aes(x=year, y = value, colour=scenario, group=scenario), size=1) +
+    geom_line(mapping = aes(x=year, y = value, colour=scenario_eng, group=scenario_eng), size=1) +
     scale_colour_manual(values=c("#500e0c", "#a01b17", "#a4d0cd", "#ec6823"))+
-    labs(y="Rahvaarv", x="aasta") +
+    labs(y="Population", x="") +
     scale_x_continuous(breaks=c(2019,2030,2040,2050,2060,2070,2080), expand = c(0, 0), limits=c(2019,2082))+
     scale_y_continuous(breaks=c(200000,400000,600000,800000,1000000,1200000,1400000), labels = number, expand = c(0, 0), limits=c(0,1400000))+
     expand_limits (y=0)+
@@ -127,10 +132,10 @@ fig52_data <- fig52_data[order(fig52_data$Üksus),]
 
 Brutotulu$palk <- fig52_data$Väärtus
 
-names(Brutotulu)[names(Brutotulu) == "palk"] <- "Keskmine Brutotulu (€)"
+names(Brutotulu)[names(Brutotulu) == "palk"] <- "Average gross income (euros)"
 
 fig_52_plot <- tm_shape(Brutotulu) + 
-    tm_fill("Keskmine Brutotulu (€)",title="Keskmine brutotulu (eurot)", palette = c("#E6E3DA","#d7bf74","#a01b17"), breaks=c(925,1043,1075,1107,1144,1209,1349,1711), popup.vars="Keskmine Brutotulu (€)", id="NIMI") +
+    tm_fill("Average gross income (euros)",title="Average gross income (euros)", palette = c("#E6E3DA","#d7bf74","#a01b17"), breaks=c(925,1043,1075,1107,1144,1209,1349,1711), popup.vars="Average gross income (euros)", id="NIMI") +
   
   tm_borders(col="white") +
   
@@ -149,7 +154,7 @@ fig_52_plot <- tm_shape(Brutotulu) +
       )
    
 tmap_mode("view")
-#fig_52_plot
+fig_52_plot
 
 #tmap_save(tm = fig52_plot, filename = "fig52.pdf")
 
@@ -266,10 +271,19 @@ fig54_data <- melt(fig54_data, id=c("Linnaosa"))
 
 #fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohtade pindala (20m²/pk)","Parkimiskohtade pindala (25m²/pk)","Parkimiskohtade pindala (30m²/pk)","Parkimiskohtade pindala (40m²/pk)","Tänavavõrgu pindala (m²)","Jalakäija ruumi pindala (m²)","Eluruumide pindala (m²)","Bürooruumide pindala (m²)","Kaubandus- ja teeninduruumide pindala (m²)","Meelelahutus-, haridus- tervishoiu- ja muude avalike ruumide pindala (m²)","Tööstus- ja laoruumide pindala (m²)"))
 
-fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohad (25m²/pk)","Tänavavõrk","Jalakäijate ruum","Eluruumid","Bürooruumid","Kaubandus- ja teenindusruumid","Meelelahutus-, haridus-, tervishoiu- ja muud avalikud ruumid","Tööstus- ja laoruumid"))
+fig54_data$variable_eng[grepl("Parkimiskohad", fig54_data$variable)]<-"Parking spaces (25m²/pk)"
+fig54_data$variable_eng[grepl("Tööstus- ja laoruumid", fig54_data$variable)]<-"Industrial and storage facilities"
+fig54_data$variable_eng[grepl("Meelelahutus-, haridus-, tervishoiu- ja muud avalikud ruumid", fig54_data$variable)]<-"Public spaces (entertainment, education, health, etc.)"
+fig54_data$variable_eng[grepl("Kaubandus- ja teenindusruumid", fig54_data$variable)]<-"Commercial and service spaces"
+fig54_data$variable_eng[grepl("Bürooruumid", fig54_data$variable)]<-"Office spaces"
+fig54_data$variable_eng[grepl("Eluruumid", fig54_data$variable)]<-"Dwellings"
+fig54_data$variable_eng[grepl("Jalakäijate ruum", fig54_data$variable)]<-"Pedestrian space"
+fig54_data$variable_eng[grepl("Tänavavõrk", fig54_data$variable)]<-"Street network"
+
+fig54_data$variable_eng <- factor(fig54_data$variable_eng, levels = c("Parking spaces (25m²/pk)","Street network","Pedestrian space","Dwellings","Office spaces","Commercial and service spaces","Public spaces (entertainment, education, health, etc.)","Industrial and storage facilities"))
 
   fig54_plot <- ggplot(data = fig54_data) +
-    geom_col(mapping = aes(x=variable, y = as.numeric(as.character(value)), fill=variable), size=0.7) +
+    geom_col(mapping = aes(x=variable_eng, y = as.numeric(as.character(value)), fill=variable_eng), size=0.7) +
     facet_wrap(~Linnaosa, nrow=8, strip.position="right") +
     coord_flip() +
     labs(y="m²", x="") +
