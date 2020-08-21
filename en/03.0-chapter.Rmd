@@ -58,7 +58,7 @@ Eesti tõus inimarengu sotsiaal- setes näitajates on saavutatud ebaproportsiona
 
 EPI arvutuskäik on keeruline ja võib sisaldada vigu, kuid eeltoodud trendide põhjused, pööratavus ning üldisemalt loodusalade seisund ja kaasnevad hüved vajavad Eestis riiklikku tähelepanu. Riikidevahelises võrdluses on Eesti Põhjamaade ja Balti riikide seas praegu viimane ja teinud 21. sajandil läbi kõige suurema languse ([Wendling jt 2018](#Wendling2018)). Seega pole meil regioonis „puhta loodusega“ riigi konkurentsieelist ning paistab koguni, et hiljutine tõus inimarengu sotsiaalsetes näitajates on saavutatud ebaproportsionaalselt kõrge ökoloogilise hinnaga ([joonis 3.0.1](#figure301)). Viimasega haakub riigi mahajäämus ökoinnovatsioonis, mida näitab Euroopa Komisjoni keskkonna peadirektoraadi koostatav ökoinnovatsiooni indeks. Samal ajal püsib Eestis suur keskkonnaturvalisus – inimestel on ebatõenäoline kaotada juurdepääs puhtale õhule, veele ja energiaallikatele või hukkuda looduskatastroofis ([Moghim ja Garna 2019](#Moghim2019)).
 
-<p class="caption" id="figure301"><span class="figure-number">Joonis 3.0.1.</span> Inimarengu indeksi ja ökosüsteemide elujõulisuse indeksi seos 179 riigi põhjal ning Eesti positsiooni (rohelised punktid, aastad) muutus 2005–2014</p>
+<p class="caption" id="figure301"><span class="figure-number">Joonis 3.0.1.</span> The correlation between the Human Development Index and the Ecosystem Vitality Index based on 179 countries and the change in Estonia’s position (green dots, years) 2005–2014</p>
 
 <div class="desktop-plot">
 ```{r, figure301, out.width='100%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
@@ -76,26 +76,26 @@ library("tidyverse")
     geom_point(data = fig301_data, mapping = aes(x=hdi_2014, y=eco_current, group = 1,
             text = paste("HDI: ", hdi_2014,
                          "<br>ECO: ", eco_current,
-                         "<br>Riik: ", iso3)), colour="#C8C6BF", size=1.7, show.legend = NA) +
+                         "<br>Country: ", iso3)), colour="#C8C6BF", size=1.7, show.legend = NA) +
 
     geom_smooth(data = fig301_data, mapping = aes(x=hdi_2014, y=eco_current),method=lm, se=FALSE, colour="#482683") +
 
     geom_point(data = fig301_data_est, mapping = aes(x=hdi_2014, y=eco_current, group = 1,
             text = paste("HDI: ", hdi_2014,
                          "<br>ECO: ", eco_current,
-                         "<br>Riik: ", iso3)), colour="#79AC2C",size=2, show.legend = NA) +
+                         "<br>Country: ", iso3)), colour="#79AC2C",size=2, show.legend = NA) +
     geom_text(data = fig301_data_est, mapping = aes(x=hdi_2014, y=55, label="2014"),hjust=1, vjust=1, colour="#79AC2C")+
 
     geom_point(data = fig301_data_est, mapping = aes(x=0.825, y=72.22, group = 1,
             text = paste("HDI: ", hdi_2014,
                          "<br>ECO: ", eco_current,
-                         "<br>Riik: ", iso3)), colour="#79AC2C",size=2, show.legend = NA) +
+                         "<br>Country: ", iso3)), colour="#79AC2C",size=2, show.legend = NA) +
     geom_text(data = fig301_data_est, mapping = aes(x=0.8, y=75, label="2005"), colour="#79AC2C") +
 
     geom_line(fig301_horisontal_line, mapping = aes(x=hdi, y=eco), colour="#79AC2C",size=1, show.legend = NA) +
 
     scale_x_continuous(breaks=c(0.2,0.3,0.4, 0.5, 0.6,0.7,0.8,0.9,1)) +
-    labs(y="Ökosüsteemide elujõulisus (ECO)", x="Inimarengu indeks (HDI)")
+    labs(y="Ecosystem Vitality (ECO)", x="Human Development Index (HDI)")
 
     fig301_theme <- theme(
                     text=element_text(family="Montserrat")
@@ -156,8 +156,8 @@ fig302_data_melt$variable <- factor(fig302_data_melt$variable, levels = c("other
 fig302_plot <- ggplot() +
 
     geom_bar(data = fig302_data_melt, mapping = aes(x=county, y=value*100, fill=variable), width=0.6, stat="identity") +
-    scale_fill_manual(labels = c("Muu metsamaa", "Riik: metsata", "Riik: puistud"), values=c("#79AC2C","#482683","#5B8121")) +
-    labs(y="% pindalast", x="") +
+    scale_fill_manual(labels = c("Other forest land", "State-owned unstocked", "State-owned stocked"), values=c("#79AC2C","#482683","#5B8121")) +
+    labs(y="% of area", x="") +
     scale_y_continuous(expand = c(0, 0), limits=c(0,100)) +
     expand_limits (y=0)
 

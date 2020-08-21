@@ -135,18 +135,26 @@ Kõige ulatuslikum kaitse loodusalade maakasutusmuutuste eest on seotud rohevõr
 
 <p class="caption" id="figure335"><span class="figure-number">Joonis 3.3.5.</span> Rohevõrgustiku ja kaitstavate loodusobjektide (kaitsealad, kaitstavate liikide leiukohad, püsielupaigad, Natura 2000 alad) osakaal maakonna kogupindalast</p>
 
+<div class=desktop-plot>
 ```{r, figure335, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 
 fig335_data <- read.csv ("../data/33_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
 
-fig335_data$objects <- factor(fig335_data$objects, levels = c("RV ala väljaspool kaitsealasid","Kaitstavad loodusobjektid väljaspool RV ala","Kaitstavad loodusobjektid RV alal"))
+fig335_data$objects_eng[grepl("RV ala väljaspool kaitsealasid", fig335_data$objects)]<-"Green network area outside protected areas"
+fig335_data$objects_eng[grepl("Kaitstavad loodusobjektid RV alal", fig335_data$objects)]<-"Protected natural sites inside green network area"
+fig335_data$objects_eng[grepl("Kaitstavad loodusobjektid väljaspool RV ala", fig335_data$objects)]<-"Protected natural sites outside green network area"
+
+
+fig335_data$objects_eng <- factor(fig335_data$objects_eng, levels = c("Green network area outside protected areas","Protected natural sites outside green network area","Protected natural sites inside green network area"))
 
 
   fig335_plot <- ggplot() +
-    geom_bar(data = fig335_data, mapping = aes(x=reorder(county,-value), y=value, fill=objects), width=0.6, stat="identity") +
-    scale_fill_manual(values=c("#79AC2C","#482683","#5B8121"), labels=c("Rohevõrgustiku ala väljaspool kaitsealasid","Kaitstavad loodusobjektid väljaspool rohevõrgustiku ala","Kaitstavad loodusobjektid rohevõrgustiku alal")) +
+    geom_bar(data = fig335_data, mapping = aes(x=reorder(county,-value), y=value, fill=objects_eng, text = paste("", county,
+                         "<br>", objects_eng,
+                         "<br>", value, "%")), width=0.6, stat="identity") +
+    scale_fill_manual(values=c("#79AC2C","#482683","#5B8121"), labels=c("Green network area outside protected areas","Protected natural sites outside green network area","Protected natural sites inside green network area")) +
     labs(y="%", x="") +
     guides(fill=guide_legend(nrow=3,byrow=TRUE)) +
       scale_y_continuous(expand = c(0, 0), limits=c(0,100)) +
@@ -160,9 +168,23 @@ fig335_data$objects <- factor(fig335_data$objects, levels = c("RV ala väljaspoo
                     text = element_text(family="Montserrat"),
                  )
 
-print(fig335_plot + fig335_theme + fig_theme_general)
+ggplotly(fig335_plot + fig335_theme + fig_theme_general, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
 #ggsave(path="exported_figures/PDF/chapter3",filename="fig335.pdf", height=140, width=210, units="mm")
+
+```
+
+</div>
+
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+print(fig335_plot + fig335_theme + fig_theme_general)
 
 ```
 
@@ -192,7 +214,7 @@ Analüüsist järeldati, et Eesti õigusraamistik on rohevõrgustiku kaitse taga
 
 ```
 
-<p class="caption" id="figure336"><span class="figure-number">Joonis 3.3.6.</span> Harju maakonna rohevõrgustiku katkestused 2006. ja 2012. aasta võrdluses</p>
+<p class="caption" id="figure336"><span class="figure-number">Joonis 3.3.6.</span> Interruptions in the green network of Harjumaa in 2012 compared to 2006</p>
 
 ```{r, figure336, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 

@@ -235,6 +235,7 @@ Arenenud harrastusteadusega riikides, nagu Suurbritannia, on kodanikud kutsutud 
 library("tidyverse")
 library("reshape")
 library("gridExtra")
+library("plotly")
 
 
 fig344_data12 <- read.csv ("data/34_fig4_data1.csv", header=TRUE, fileEncoding="utf-8",check.names=FALSE)
