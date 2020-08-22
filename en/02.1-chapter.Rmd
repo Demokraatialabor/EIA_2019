@@ -35,7 +35,7 @@ Avalik ruum on enamasti riigi või kohaliku omavalitsuse omandis, aga vahel ka e
 
 ```{r, figure211, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig211.png")
+knitr::include_graphics("../figures/2-chapter/fig211_eng.jpg")
 
 ```
 
@@ -97,7 +97,7 @@ Eesti avaliku sektori, sealhulgas riigiettevõtete vastuolulist käitumist avali
 
 ```{r, figure213, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig213.png")
+knitr::include_graphics("../figures/2-chapter/fig213_eng.jpg")
 
 ```
 
@@ -194,7 +194,7 @@ Linna ruumilise kvaliteedi tõstmisel on keskne tähtsus avaliku ruumi kui tervi
 
 ```{r, figure215, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig215.png")
+knitr::include_graphics("../figures/2-chapter/fig215_eng.jpg")
 
 ```
 

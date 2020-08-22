@@ -573,7 +573,7 @@ fig02_data$Osakaal <- ifelse(test = fig02_data$Sugu == "Mehed", yes = -fig02_dat
                      axis.line = element_line(size = 0.2, colour = "#eaeaea"),
                      axis.ticks = element_line(colour = "#eaeaea", size=(0.2)),
                      axis.text.x = element_text(margin = margin(t = 10, r = 0, b = 0, l = 0)),
-                     axis.text.y = element_text(margin = margin(t = 0, r = 10, b = 0, l = 0)),
+                     axis.text.y = element_text(margin = margin(t = 0, r = 50, b = 0, l = 0)),
                     axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0)),
                     axis.title.x = element_text(margin = margin(t = 15, r = 0, b = 0, l = 0)),
                     plot.margin = unit(c(0.5,0,0,0), "cm"),
@@ -591,8 +591,10 @@ fig02_data$Osakaal <- ifelse(test = fig02_data$Sugu == "Mehed", yes = -fig02_dat
     text=element_text(family="Montserrat")
                  )
 ggplotly(fig02_plot + fig_theme_general + fig02_theme, tooltip = c("Vanus", "Sugu")) %>% 
-config(displayModeBar = F) %>% 
-layout(legend = list(orientation = "h",y = 1.15, x=0))
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
   
 
 #ggsave(path="exported_figures/PDF/chapter0",filename="fig05.pdf", height=130, width=200, units="mm")

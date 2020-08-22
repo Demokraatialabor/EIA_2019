@@ -70,7 +70,7 @@ fig_121_plot <- tm_shape(Maakonnad) +
       )
 
 tmap_mode("view")
-fig_121_plot 
+#fig_121_plot 
   
 #tmap_save(tm = Rahvastiku_muutus + SKP, filename = "figure2.pdf")
 
@@ -214,7 +214,7 @@ set.seed(27)
 #	random.order=TRUE, random.color=FALSE, rot.per=0, colors=c("#917DB5","#917DB5","#917DB5","#6D519C","#6D519C","#482683"),ordered.colors=FALSE,use.r.layout=FALSE,fixed.asp=TRUE,family = "",font = 2)
 
 #print(fig124_plot + fig_theme_general + fig123_theme)
-knitr::include_graphics("figures/1-chapter/fig124.png")
+knitr::include_graphics("../figures/1-chapter/fig124_eng.jpg")
 #ggsave(path="exported_figures/PDF/chapter1",filename="fig124.pdf", height=120, width=200, units="mm")
 
 ```

@@ -60,17 +60,17 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 
 <div style="overflow-x:auto;">
 <table class="table table-bordered table-hover table-condensed" id="table_01">
-<thead><tr><th title="Field #1"" align="left !important">Järje- koht</th>
-<th title="Field #2" class="table_01_country">Riik</th>
-<th title="Field #3">Inimarengu indeksi väärtus</th>
-<th title="Field #4">Oodatav eluiga sünnihetkel (a)</th>
-<th title="Field #5">Eeldatav kooli- aastate arv</th>
-<th title="Field #6">Keskmine kooli- aastate arv</th>
-<th title="Field #7">SKP inimese kohta (2011 ostujõu pariteedi alusel, USD)</th>
+<thead><tr><th title="Field #1"" align="left !important">HDI rank</th>
+<th title="Field #2" class="table_01_country">Country</th>
+<th title="Field #3">Human Development Index value</th>
+<th title="Field #4">Life expectancy at birth (y)</th>
+<th title="Field #5">Expected years of schooling</th>
+<th title="Field #6">Mean years of schooling</th>
+<th title="Field #7">Gross national income per capita (2011 PPP $)</th>
 </tr></thead>
 <tbody><tr>
 <td align="left" class="table_01_nr">1</td>
-<td class="table_01_country">Norra</td>
+<td class="table_01_country">Norway</td>
 <td>0,954</td>
 <td>82,3</td>
 <td>18,1</td>
@@ -79,7 +79,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">2</td>
-<td class="table_01_country">Šveits</td>
+<td class="table_01_country">Switzerland</td>
 <td>0,946</td>
 <td>83,6</td>
 <td>16,2</td>
@@ -88,7 +88,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">3</td>
-<td class="table_01_country">Iirimaa</td>
+<td class="table_01_country">Ireland</td>
 <td>0,942</td>
 <td>82,1</td>
 <td>18,8</td>
@@ -97,7 +97,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">4</td>
-<td class="table_01_country">Saksamaa</td>
+<td class="table_01_country">Germany</td>
 <td>0,939</td>
 <td>81,2</td>
 <td>17,1</td>
@@ -106,7 +106,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">4</td>
-<td class="table_01_country">Hongkong</td>
+<td class="table_01_country">Hong kong, China (SAR)</td>
 <td>0,939</td>
 <td>84,7</td>
 <td>16,5</td>
@@ -115,7 +115,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">6</td>
-<td class="table_01_country">Austraalia</td>
+<td class="table_01_country">Australia</td>
 <td>0,938</td>
 <td>83,3</td>
 <td>22,1</td>
@@ -124,7 +124,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">6</td>
-<td class="table_01_country">Island</td>
+<td class="table_01_country">Iceland</td>
 <td>0,938</td>
 <td>82,9</td>
 <td>19,2</td>
@@ -133,7 +133,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">8</td>
-<td class="table_01_country">Rootsi</td>
+<td class="table_01_country">Sweden</td>
 <td>0,937</td>
 <td>82,7</td>
 <td>18,8</td>
@@ -142,7 +142,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">9</td>
-<td class="table_01_country">Singapur</td>
+<td class="table_01_country">Singapore</td>
 <td>0,935</td>
 <td>83,5</td>
 <td>16,3</td>
@@ -151,7 +151,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">10</td>
-<td class="table_01_country">Holland</td>
+<td class="table_01_country">Netherlands</td>
 <td>0,933</td>
 <td>82,1</td>
 <td>18</td>
@@ -160,7 +160,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">11</td>
-<td class="table_01_country">Taani</td>
+<td class="table_01_country">Denmark</td>
 <td>0,93</td>
 <td>80,8</td>
 <td>19,1</td>
@@ -169,7 +169,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">12</td>
-<td class="table_01_country">Soome</td>
+<td class="table_01_country">Finland</td>
 <td>0,925</td>
 <td>81,7</td>
 <td>19,3</td>
@@ -178,7 +178,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">13</td>
-<td class="table_01_country">Kanada</td>
+<td class="table_01_country">Canada</td>
 <td>0,922</td>
 <td>82,3</td>
 <td>16,1</td>
@@ -187,7 +187,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">14</td>
-<td class="table_01_country">Uus-Meremaa</td>
+<td class="table_01_country">New Zealand</td>
 <td>0,921</td>
 <td>82,1</td>
 <td>18,8</td>
@@ -196,7 +196,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">15</td>
-<td class="table_01_country">Suurbritannia</td>
+<td class="table_01_country">United Kingdom</td>
 <td>0,92</td>
 <td>81,2</td>
 <td>17,4</td>
@@ -205,7 +205,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">15</td>
-<td class="table_01_country">USA</td>
+<td class="table_01_country">United States</td>
 <td>0,92</td>
 <td>78,9</td>
 <td>16,3</td>
@@ -214,7 +214,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">17</td>
-<td class="table_01_country">Belgia</td>
+<td class="table_01_country">Belgium</td>
 <td>0,919</td>
 <td>81,5</td>
 <td>19,7</td>
@@ -232,7 +232,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">19</td>
-<td class="table_01_country">Jaapan</td>
+<td class="table_01_country">Japan</td>
 <td>0,915</td>
 <td>84,5</td>
 <td>15,2</td>
@@ -250,7 +250,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">21</td>
-<td class="table_01_country">Luksemburg </td>
+<td class="table_01_country">Luxembourg </td>
 <td>0,909</td>
 <td>82,1</td>
 <td>14,2</td>
@@ -259,7 +259,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">22</td>
-<td class="table_01_country">Iisreal</td>
+<td class="table_01_country">Isreal</td>
 <td>0,906</td>
 <td>82,8</td>
 <td>16</td>
@@ -268,7 +268,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">22</td>
-<td class="table_01_country">Lõuna-Korea</td>
+<td class="table_01_country">Korea (Republic of)</td>
 <td>0,906</td>
 <td>82,8</td>
 <td>16,4</td>
@@ -277,7 +277,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">24</td>
-<td class="table_01_country">Sloveenia</td>
+<td class="table_01_country">Slovenia</td>
 <td>0,902</td>
 <td>81,2</td>
 <td>17,4</td>
@@ -286,7 +286,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">25</td>
-<td class="table_01_country">Hispaania</td>
+<td class="table_01_country">Spain</td>
 <td>0,893</td>
 <td>83,4</td>
 <td>17,9</td>
@@ -295,7 +295,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">26</td>
-<td class="table_01_country">Tšehhi</td>
+<td class="table_01_country">Czechia</td>
 <td>0,891</td>
 <td>79,2</td>
 <td>16,8</td>
@@ -304,7 +304,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">26</td>
-<td class="table_01_country">Prantsusmaa</td>
+<td class="table_01_country">France</td>
 <td>0,891</td>
 <td>82,5</td>
 <td>15,5</td>
@@ -322,7 +322,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">29</td>
-<td class="table_01_country">Itaalia</td>
+<td class="table_01_country">Italy</td>
 <td>0,883</td>
 <td>83,4</td>
 <td>16,2</td>
@@ -331,7 +331,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">30</td>
-<td class="table_01_est table_01_country">Eesti</td>
+<td class="table_01_est table_01_country">Estonia</td>
 <td class="table_01_est">0,882</td>
 <td class="table_01_est">78,6</td>
 <td class="table_01_est">16,1</td>
@@ -349,7 +349,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">34</td>
-<td class="table_01_country">Leedu</td>
+<td class="table_01_country">Lithuania</td>
 <td>0,869</td>
 <td>75,7</td>
 <td>16,5</td>
@@ -358,7 +358,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">39</td>
-<td class="table_01_country">Läti</td>
+<td class="table_01_country">Latvia</td>
 <td>0,854</td>
 <td>75,2</td>
 <td>16</td>
@@ -367,7 +367,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">49</td>
-<td class="table_01_country">Venemaa</td>
+<td class="table_01_country">Russiaan Federation</td>
 <td>0,824</td>
 <td>72,4</td>
 <td>15,5</td>
@@ -452,7 +452,7 @@ fig_04_population <-  tm_shape(fig_04_data) +
 #dev.off()
 
 
-knitr::include_graphics("../figures/0-intro/fig01.png")
+knitr::include_graphics("../figures/0-intro/fig01_eng.jpg")
 
 ```
 
@@ -472,15 +472,15 @@ Linna tähendust ja mõju ei saa mõõta üksnes linnavormi, tiheduse ja teiste 
 
 <div style="overflow-x:auto;">
 <table class="table table-bordered table-hover table-condensed" id="table_02">
-<thead><tr><th title="Field #1">Aastakümnend</th>
-<th title="Field #2">Euroopa areng</th>
-<th title="Field #3">Euroopa võtmeprotsessid</th>
-<th title="Field #4">Linnapoliitika võtmeteemad „vanas” Euroopas</th>
-<th title="Field #5">Linnapoliitika võtmeteemad Eestis</th>
+<thead><tr><th title="Field #1">Decade</th>
+<th title="Field #2">European development</th>
+<th title="Field #3">Key processes in Europe</th>
+<th title="Field #4">Key urban policy areas in 'old' Europe</th>
+<th title="Field #5">Key urban policy areas in Estonia</th>
 </tr></thead>
 <tbody><tr>
 <td class="table_02_red">1990</td>
-<td>Ühisturu integratsioon ja üleeuroopalised taristud, sh transpordivõrk.</td>
+<td>Integration of the single market and trans-European infrastructures, including the transport network</td>
 <td>Demokratiseerimine ja riigireformid Kesk- ja Ida-Euroopas.</td>
 <td>Kultuur ja turism. Konkurentsipoliitika.</td>
 <td>Üleminekureformid, sh maa- ja omandireform ning linnahaldus. Erastamine ja kinnisvaraturu teke.</td>
@@ -544,25 +544,29 @@ font_add_google(name = "Montserrat", family = "Montserrat")
 fig02_data <- read.csv ("../data/0_fig2_data.csv", header=TRUE, fileEncoding="utf-8", sep=";", check.names=FALSE)
 fig02_data <- melt(fig02_data, id=c("Vanus","Asukoht"))
 
-names(fig02_data)[names(fig02_data) == "variable"] <- "Sugu"
-names(fig02_data)[names(fig02_data) == "value"] <- "Protsent"
-
 fig02_data$Vanus <- factor(fig02_data$Vanus, levels = c("0-4","5-9","10-14","15-19","20-24","25-29","30-34","35-39","40-44","45-49","50-54","55-59","60-64","65-69","70-74","75-79","80-84","85-89","90+"))
 
-fig02_data$Asukoht <- factor(fig02_data$Asukoht, levels = c("Tallinna eeslinn","Maa-alevik"))
+fig02_data$Asukoht_eng[grepl("Tallinna eeslinn",fig02_data$Asukoht)]<-"Tallinn suburb"
+fig02_data$Asukoht_eng[grepl("Maa-alevik",fig02_data$Asukoht)]<- "Rural small town"
 
-fig02_data$percent=percent((fig02_data$Protsent/100), 1)
+fig02_data$variable_eng[grepl("Mehed",fig02_data$variable)]<- "Men"
+fig02_data$variable_eng[grepl("Naised",fig02_data$variable)]<- "Women"
 
-fig02_data$Osakaal <- ifelse(test = fig02_data$Sugu == "Mehed", yes = -fig02_data$Protsent, no = fig02_data$Protsent)
+fig02_data$Asukoht_eng <- factor(fig02_data$Asukoht_eng, levels = c("Tallinn suburb","Rural small town"))
+
+fig02_data$percent=percent((fig02_data$value/100), 1)
+
+fig02_data$Osakaal <- ifelse(test = fig02_data$variable_eng == "Men", yes = -fig02_data$value, no = fig02_data$value)
                    
   fig02_plot <- ggplot(data = fig02_data,
-       mapping = aes(x = Vanus, y = Osakaal,fill = Sugu)) +
+       mapping = aes(x = Vanus, y = Osakaal,fill = variable_eng, text = paste("", variable_eng,
+                         "<br>", value,"%"))) +
       geom_col() +
       coord_flip() +
-      scale_y_continuous(labels = abs, breaks=c(-15,-10,-5,0,5,10,15), limits = max(fig02_data$Protsent) * c(-1.2,1.2)) +
+      scale_y_continuous(labels = abs, breaks=c(-15,-10,-5,0,5,10,15), limits = max(fig02_data$value) * c(-1.2,1.2)) +
       scale_fill_manual(values=c("#369b9e","#c54409")) +
-      labs(y = "%") +
-      facet_wrap(~Asukoht, nrow=1, strip.position="top")
+      labs(y = "%", x="Age") +
+      facet_wrap(~Asukoht_eng, nrow=1, strip.position="top")
 
     fig_theme_general <- theme(
                      text = element_text(color = "#292b2c", size = 10, family=""),
@@ -590,10 +594,11 @@ fig02_data$Osakaal <- ifelse(test = fig02_data$Sugu == "Mehed", yes = -fig02_dat
   fig02_theme <- theme(
     text=element_text(family="Montserrat")
                  )
-ggplotly(fig02_plot + fig_theme_general + fig02_theme, tooltip = c("Vanus", "Sugu")) %>% 
-config(displayModeBar = F) %>% 
-layout(legend = list(orientation = "h",y = 1.15, x=0))
-  
+ggplotly(fig02_plot + fig_theme_general + fig02_theme, tooltip = "text") %>% 
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
 #ggsave(path="exported_figures/PDF/chapter0",filename="fig05.pdf", height=130, width=200, units="mm")
 ```

@@ -171,17 +171,17 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 
 <div style="overflow-x:auto;">
 <table class="table table-bordered table-hover table-condensed" id="table_01">
-<thead><tr><th title="Field #1"" align="left !important">Järje- koht</th>
-<th title="Field #2" class="table_01_country">Riik</th>
-<th title="Field #3">Inimarengu indeksi väärtus</th>
-<th title="Field #4">Oodatav eluiga sünnihetkel (a)</th>
-<th title="Field #5">Eeldatav kooli- aastate arv</th>
-<th title="Field #6">Keskmine kooli- aastate arv</th>
-<th title="Field #7">SKP inimese kohta (2011 ostujõu pariteedi alusel, USD)</th>
+<thead><tr><th title="Field #1"" align="left !important">HDI rank</th>
+<th title="Field #2" class="table_01_country">Country</th>
+<th title="Field #3">Human Development Index value</th>
+<th title="Field #4">Life expectancy at birth (y)</th>
+<th title="Field #5">Expected years of schooling</th>
+<th title="Field #6">Mean years of schooling</th>
+<th title="Field #7">Gross national income per capita (2011 PPP $)</th>
 </tr></thead>
 <tbody><tr>
 <td align="left" class="table_01_nr">1</td>
-<td class="table_01_country">Norra</td>
+<td class="table_01_country">Norway</td>
 <td>0,954</td>
 <td>82,3</td>
 <td>18,1</td>
@@ -190,7 +190,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">2</td>
-<td class="table_01_country">Šveits</td>
+<td class="table_01_country">Switzerland</td>
 <td>0,946</td>
 <td>83,6</td>
 <td>16,2</td>
@@ -199,7 +199,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">3</td>
-<td class="table_01_country">Iirimaa</td>
+<td class="table_01_country">Ireland</td>
 <td>0,942</td>
 <td>82,1</td>
 <td>18,8</td>
@@ -208,7 +208,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">4</td>
-<td class="table_01_country">Saksamaa</td>
+<td class="table_01_country">Germany</td>
 <td>0,939</td>
 <td>81,2</td>
 <td>17,1</td>
@@ -217,7 +217,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">4</td>
-<td class="table_01_country">Hongkong</td>
+<td class="table_01_country">Hong kong, China (SAR)</td>
 <td>0,939</td>
 <td>84,7</td>
 <td>16,5</td>
@@ -226,7 +226,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">6</td>
-<td class="table_01_country">Austraalia</td>
+<td class="table_01_country">Australia</td>
 <td>0,938</td>
 <td>83,3</td>
 <td>22,1</td>
@@ -235,7 +235,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">6</td>
-<td class="table_01_country">Island</td>
+<td class="table_01_country">Iceland</td>
 <td>0,938</td>
 <td>82,9</td>
 <td>19,2</td>
@@ -244,7 +244,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">8</td>
-<td class="table_01_country">Rootsi</td>
+<td class="table_01_country">Sweden</td>
 <td>0,937</td>
 <td>82,7</td>
 <td>18,8</td>
@@ -253,7 +253,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">9</td>
-<td class="table_01_country">Singapur</td>
+<td class="table_01_country">Singapore</td>
 <td>0,935</td>
 <td>83,5</td>
 <td>16,3</td>
@@ -262,7 +262,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">10</td>
-<td class="table_01_country">Holland</td>
+<td class="table_01_country">Netherlands</td>
 <td>0,933</td>
 <td>82,1</td>
 <td>18</td>
@@ -271,7 +271,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">11</td>
-<td class="table_01_country">Taani</td>
+<td class="table_01_country">Denmark</td>
 <td>0,93</td>
 <td>80,8</td>
 <td>19,1</td>
@@ -280,7 +280,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">12</td>
-<td class="table_01_country">Soome</td>
+<td class="table_01_country">Finland</td>
 <td>0,925</td>
 <td>81,7</td>
 <td>19,3</td>
@@ -289,7 +289,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">13</td>
-<td class="table_01_country">Kanada</td>
+<td class="table_01_country">Canada</td>
 <td>0,922</td>
 <td>82,3</td>
 <td>16,1</td>
@@ -298,7 +298,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">14</td>
-<td class="table_01_country">Uus-Meremaa</td>
+<td class="table_01_country">New Zealand</td>
 <td>0,921</td>
 <td>82,1</td>
 <td>18,8</td>
@@ -307,7 +307,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">15</td>
-<td class="table_01_country">Suurbritannia</td>
+<td class="table_01_country">United Kingdom</td>
 <td>0,92</td>
 <td>81,2</td>
 <td>17,4</td>
@@ -316,7 +316,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">15</td>
-<td class="table_01_country">USA</td>
+<td class="table_01_country">United States</td>
 <td>0,92</td>
 <td>78,9</td>
 <td>16,3</td>
@@ -325,7 +325,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">17</td>
-<td class="table_01_country">Belgia</td>
+<td class="table_01_country">Belgium</td>
 <td>0,919</td>
 <td>81,5</td>
 <td>19,7</td>
@@ -343,7 +343,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">19</td>
-<td class="table_01_country">Jaapan</td>
+<td class="table_01_country">Japan</td>
 <td>0,915</td>
 <td>84,5</td>
 <td>15,2</td>
@@ -361,7 +361,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">21</td>
-<td class="table_01_country">Luksemburg </td>
+<td class="table_01_country">Luxembourg </td>
 <td>0,909</td>
 <td>82,1</td>
 <td>14,2</td>
@@ -370,7 +370,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">22</td>
-<td class="table_01_country">Iisreal</td>
+<td class="table_01_country">Isreal</td>
 <td>0,906</td>
 <td>82,8</td>
 <td>16</td>
@@ -379,7 +379,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">22</td>
-<td class="table_01_country">Lõuna-Korea</td>
+<td class="table_01_country">Korea (Republic of)</td>
 <td>0,906</td>
 <td>82,8</td>
 <td>16,4</td>
@@ -388,7 +388,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">24</td>
-<td class="table_01_country">Sloveenia</td>
+<td class="table_01_country">Slovenia</td>
 <td>0,902</td>
 <td>81,2</td>
 <td>17,4</td>
@@ -397,7 +397,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">25</td>
-<td class="table_01_country">Hispaania</td>
+<td class="table_01_country">Spain</td>
 <td>0,893</td>
 <td>83,4</td>
 <td>17,9</td>
@@ -406,7 +406,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">26</td>
-<td class="table_01_country">Tšehhi</td>
+<td class="table_01_country">Czechia</td>
 <td>0,891</td>
 <td>79,2</td>
 <td>16,8</td>
@@ -415,7 +415,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">26</td>
-<td class="table_01_country">Prantsusmaa</td>
+<td class="table_01_country">France</td>
 <td>0,891</td>
 <td>82,5</td>
 <td>15,5</td>
@@ -433,7 +433,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">29</td>
-<td class="table_01_country">Itaalia</td>
+<td class="table_01_country">Italy</td>
 <td>0,883</td>
 <td>83,4</td>
 <td>16,2</td>
@@ -442,7 +442,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">30</td>
-<td class="table_01_est table_01_country">Eesti</td>
+<td class="table_01_est table_01_country">Estonia</td>
 <td class="table_01_est">0,882</td>
 <td class="table_01_est">78,6</td>
 <td class="table_01_est">16,1</td>
@@ -460,7 +460,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">34</td>
-<td class="table_01_country">Leedu</td>
+<td class="table_01_country">Lithuania</td>
 <td>0,869</td>
 <td>75,7</td>
 <td>16,5</td>
@@ -469,7 +469,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">39</td>
-<td class="table_01_country">Läti</td>
+<td class="table_01_country">Latvia</td>
 <td>0,854</td>
 <td>75,2</td>
 <td>16</td>
@@ -478,7 +478,7 @@ Selle sajandi esimestel kümnenditel on maailmas haigusi, nälga ja vaesust tõr
 </tr>
 <tr>
 <td align="left" class="table_01_nr">49</td>
-<td class="table_01_country">Venemaa</td>
+<td class="table_01_country">Russiaan Federation</td>
 <td>0,824</td>
 <td>72,4</td>
 <td>15,5</td>
@@ -563,7 +563,7 @@ fig_04_population <-  tm_shape(fig_04_data) +
 #dev.off()
 
 
-knitr::include_graphics("../figures/0-intro/fig01.png")
+knitr::include_graphics("../figures/0-intro/fig01_eng.jpg")
 
 ```
 
@@ -583,15 +583,15 @@ Linna tähendust ja mõju ei saa mõõta üksnes linnavormi, tiheduse ja teiste 
 
 <div style="overflow-x:auto;">
 <table class="table table-bordered table-hover table-condensed" id="table_02">
-<thead><tr><th title="Field #1">Aastakümnend</th>
-<th title="Field #2">Euroopa areng</th>
-<th title="Field #3">Euroopa võtmeprotsessid</th>
-<th title="Field #4">Linnapoliitika võtmeteemad „vanas” Euroopas</th>
-<th title="Field #5">Linnapoliitika võtmeteemad Eestis</th>
+<thead><tr><th title="Field #1">Decade</th>
+<th title="Field #2">European development</th>
+<th title="Field #3">Key processes in Europe</th>
+<th title="Field #4">Key urban policy areas in 'old' Europe</th>
+<th title="Field #5">Key urban policy areas in Estonia</th>
 </tr></thead>
 <tbody><tr>
 <td class="table_02_red">1990</td>
-<td>Ühisturu integratsioon ja üleeuroopalised taristud, sh transpordivõrk.</td>
+<td>Integration of the single market and trans-European infrastructures, including the transport network</td>
 <td>Demokratiseerimine ja riigireformid Kesk- ja Ida-Euroopas.</td>
 <td>Kultuur ja turism. Konkurentsipoliitika.</td>
 <td>Üleminekureformid, sh maa- ja omandireform ning linnahaldus. Erastamine ja kinnisvaraturu teke.</td>
@@ -655,25 +655,29 @@ font_add_google(name = "Montserrat", family = "Montserrat")
 fig02_data <- read.csv ("../data/0_fig2_data.csv", header=TRUE, fileEncoding="utf-8", sep=";", check.names=FALSE)
 fig02_data <- melt(fig02_data, id=c("Vanus","Asukoht"))
 
-names(fig02_data)[names(fig02_data) == "variable"] <- "Sugu"
-names(fig02_data)[names(fig02_data) == "value"] <- "Protsent"
-
 fig02_data$Vanus <- factor(fig02_data$Vanus, levels = c("0-4","5-9","10-14","15-19","20-24","25-29","30-34","35-39","40-44","45-49","50-54","55-59","60-64","65-69","70-74","75-79","80-84","85-89","90+"))
 
-fig02_data$Asukoht <- factor(fig02_data$Asukoht, levels = c("Tallinna eeslinn","Maa-alevik"))
+fig02_data$Asukoht_eng[grepl("Tallinna eeslinn",fig02_data$Asukoht)]<-"Tallinn suburb"
+fig02_data$Asukoht_eng[grepl("Maa-alevik",fig02_data$Asukoht)]<- "Rural small town"
 
-fig02_data$percent=percent((fig02_data$Protsent/100), 1)
+fig02_data$variable_eng[grepl("Mehed",fig02_data$variable)]<- "Men"
+fig02_data$variable_eng[grepl("Naised",fig02_data$variable)]<- "Women"
 
-fig02_data$Osakaal <- ifelse(test = fig02_data$Sugu == "Mehed", yes = -fig02_data$Protsent, no = fig02_data$Protsent)
+fig02_data$Asukoht_eng <- factor(fig02_data$Asukoht_eng, levels = c("Tallinn suburb","Rural small town"))
+
+fig02_data$percent=percent((fig02_data$value/100), 1)
+
+fig02_data$Osakaal <- ifelse(test = fig02_data$variable_eng == "Men", yes = -fig02_data$value, no = fig02_data$value)
                    
   fig02_plot <- ggplot(data = fig02_data,
-       mapping = aes(x = Vanus, y = Osakaal,fill = Sugu)) +
+       mapping = aes(x = Vanus, y = Osakaal,fill = variable_eng, text = paste("", variable_eng,
+                         "<br>", value,"%"))) +
       geom_col() +
       coord_flip() +
-      scale_y_continuous(labels = abs, breaks=c(-15,-10,-5,0,5,10,15), limits = max(fig02_data$Protsent) * c(-1.2,1.2)) +
+      scale_y_continuous(labels = abs, breaks=c(-15,-10,-5,0,5,10,15), limits = max(fig02_data$value) * c(-1.2,1.2)) +
       scale_fill_manual(values=c("#369b9e","#c54409")) +
-      labs(y = "%") +
-      facet_wrap(~Asukoht, nrow=1, strip.position="top")
+      labs(y = "%", x="Age") +
+      facet_wrap(~Asukoht_eng, nrow=1, strip.position="top")
 
     fig_theme_general <- theme(
                      text = element_text(color = "#292b2c", size = 10, family=""),
@@ -701,10 +705,11 @@ fig02_data$Osakaal <- ifelse(test = fig02_data$Sugu == "Mehed", yes = -fig02_dat
   fig02_theme <- theme(
     text=element_text(family="Montserrat")
                  )
-ggplotly(fig02_plot + fig_theme_general + fig02_theme, tooltip = c("Vanus", "Sugu")) %>% 
-config(displayModeBar = F) %>% 
-layout(legend = list(orientation = "h",y = 1.15, x=0))
-  
+ggplotly(fig02_plot + fig_theme_general + fig02_theme, tooltip = "text") %>% 
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
 #ggsave(path="exported_figures/PDF/chapter0",filename="fig05.pdf", height=130, width=200, units="mm")
 ```
@@ -886,10 +891,10 @@ fig101_line <- data.frame(x=c(0, 19),
 
 
 names(fig101_data)[names(fig101_data) == "county"] <- "Maakond"
-names(fig101_data)[names(fig101_data) == "change"] <- "Osakaal"
+names(fig101_data)[names(fig101_data) == "change"] <- "Proportion"
 
   fig101_plot <- ggplot() +
-    geom_col(data = fig101_data, mapping = aes(x=reorder(Maakond, Osakaal), y=Osakaal), fill=fig101_palette, width=0.6, show.legend = NA) +
+    geom_col(data = fig101_data, mapping = aes(x=reorder(Maakond, Proportion), y=Proportion), fill=fig101_palette, width=0.6, show.legend = NA) +
     geom_line(data = fig101_line, mapping=aes(x=x, y=y), col="#482683") +
     scale_y_continuous(breaks=c(0, 20,40, 60, 80, 100)) +
     labs(y="%", x="")
@@ -902,7 +907,7 @@ names(fig101_data)[names(fig101_data) == "change"] <- "Osakaal"
                     text=element_text(family="Montserrat")
                  )
   
-  ggplotly((fig101_plot + fig_theme_general + fig101_theme), tooltip = c("Osakaal")) %>%
+  ggplotly((fig101_plot + fig_theme_general + fig101_theme), tooltip = c("Proportion")) %>%
     config(displayModeBar = F) %>% 
     layout(legend = list(orientation = "h",y = 1.15)) %>% 
     layout(xaxis = list(fixedrange = TRUE)) %>%
@@ -1076,7 +1081,7 @@ Maakasutuse muutused muudavad maastikke. Maakasutus muutub inimtegevuse ja eluvi
 
 ```{r, figure111, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/1-chapter/fig111.png")
+knitr::include_graphics("../figures/1-chapter/fig111_eng.jpg")
 
 ```
 
@@ -1184,11 +1189,11 @@ Linna ümbritsevate omavalitsuste üldplaneeringud on soosinud valglinnastumist,
 ```
 Linna ümbritsevate omavalitsuste üldplaneeringud on soosinud valglinnastumist, nähes ette linnalise maakasutuse jätkumist linnapiiride taga. Endised põllumajandusmaad linna piiri lähedal on ehitatud täis elamuid, tootmishooneid jmt. Paljudes kohtades on äärelinna elamurajoonid kokku kasvanud Tartu linnaga. Koos inimestega on linna äärtesse kolinud ka teenused. Sama kinnitab Statistikaameti arvutatud linna administratiivpiiridest väljuv tiheasustusala piir ([joonis 1.1.3](#figure113)). Laialivalgumist peegeldab ka kahe viimase rahvaloenduse (2000, 2011) rahvastikutiheduse andmete võrdlemine. Rahvastikutiheduse kasv (mis peegeldab muutusi maakasutuses) on suurem Tartu linnapiiri taga kui linnas sees.
 
-<p class="caption" id="figure113"><span class="figure-number">Joonis 1.1.3.</span> Rahvastikutiheduse muutus Tartus kahe rahvaloenduse (2000, 2011) vahel näitab ruumikasutuse intensiivsuse ühtlustumist linnas ja tagamaal</p>
+<p class="caption" id="figure113"><span class="figure-number">Joonis 1.1.3.</span> Changes in population density in Tartu between two censuses (2000 and 2011) show homogenised intensity of the use of space in the city and its hinterland</p>
 
 ```{r, figure113, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/1-chapter/fig113.png")
+knitr::include_graphics("../figures/1-chapter/fig113_eng.jpg")
 
 ```
 
@@ -1261,7 +1266,7 @@ Lisaks toetavad maastike säilimist kaitsealad. Kogu Eesti maismaast on kaitse a
     <th>Viljandi</th>
     <th>Tartu</th>
     <th>Rapla</th>
-    <th id="table111_header_main">EESTI</th>
+    <th id="table111_header_main">ESTONIA</th>
     <th>Harju</th>
     <th>Ida-Viru</th>
     <th>Valga</th>
@@ -1293,7 +1298,7 @@ Lisaks toetavad maastike säilimist kaitsealad. Kogu Eesti maismaast on kaitse a
 </table>
 </div>
 
-\*Koos Pandivere veekaitsealaga.
+\*including the Pandivere water protection area.
 
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> EELIS 2019; Maa-amet 2019.
@@ -1405,7 +1410,7 @@ fig_121_plot <- tm_shape(Maakonnad) +
       )
 
 tmap_mode("view")
-fig_121_plot 
+#fig_121_plot 
   
 #tmap_save(tm = Rahvastiku_muutus + SKP, filename = "figure2.pdf")
 
@@ -1549,7 +1554,7 @@ set.seed(27)
 #	random.order=TRUE, random.color=FALSE, rot.per=0, colors=c("#917DB5","#917DB5","#917DB5","#6D519C","#6D519C","#482683"),ordered.colors=FALSE,use.r.layout=FALSE,fixed.asp=TRUE,family = "",font = 2)
 
 #print(fig124_plot + fig_theme_general + fig123_theme)
-knitr::include_graphics("figures/1-chapter/fig124.png")
+knitr::include_graphics("../figures/1-chapter/fig124_eng.jpg")
 #ggsave(path="exported_figures/PDF/chapter1",filename="fig124.pdf", height=120, width=200, units="mm")
 
 ```
@@ -1871,7 +1876,7 @@ Linnavormiliselt eristuvad põhiliselt ühepereelamutega hoonestatud asumid (tih
 
 ```{r, figure134, out.width='90%', fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
-knitr::include_graphics("../figures/1-chapter/fig134.png")
+knitr::include_graphics("../figures/1-chapter/fig134_eng.jpg")
 
 ```
 
@@ -2644,7 +2649,7 @@ Andmed toetuste väljamaksmiste kohta kogu toetuste väljamaksmise perioodil. Ko
 
 ```{r, figure1411, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/1-chapter/fig1411.png")
+knitr::include_graphics("../figures/1-chapter/fig1411_eng.jpg")
 
 ```
 
@@ -2783,7 +2788,7 @@ Liiklustorudeks muutunud linnatänavate tõttu hakkab autostumine linnades takis
 
 ```{r, figure152, out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/1-chapter/fig152.png")
+knitr::include_graphics("../figures/1-chapter/fig152_eng.jpg")
 
 ```
 
@@ -3438,7 +3443,7 @@ Avalik ruum on enamasti riigi või kohaliku omavalitsuse omandis, aga vahel ka e
 
 ```{r, figure211, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig211.png")
+knitr::include_graphics("../figures/2-chapter/fig211_eng.jpg")
 
 ```
 
@@ -3500,7 +3505,7 @@ Eesti avaliku sektori, sealhulgas riigiettevõtete vastuolulist käitumist avali
 
 ```{r, figure213, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig213.png")
+knitr::include_graphics("../figures/2-chapter/fig213_eng.jpg")
 
 ```
 
@@ -3597,7 +3602,7 @@ Linna ruumilise kvaliteedi tõstmisel on keskne tähtsus avaliku ruumi kui tervi
 
 ```{r, figure215, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig215.png")
+knitr::include_graphics("../figures/2-chapter/fig215_eng.jpg")
 
 ```
 
@@ -3734,7 +3739,7 @@ library("gridExtra")
 
 #ggsave(path="exported_figures/PDF/chapter2",filename="fig221.pdf",g, height=280, width=180, units="mm")
 
-knitr::include_graphics("../figures/2-chapter/fig221.png")
+knitr::include_graphics("../figures/2-chapter/fig221_eng.jpg")
 
 ```
 
@@ -3749,7 +3754,7 @@ Ehituspärandi mõju on siiski laiem. Külastuspaikade tekke kõrval on sel olul
 
 ```{r, figure222, out.width='90%',fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig222.png")
+knitr::include_graphics("../figures/2-chapter/fig222_eng.jpg")
 
 ```
 ``` {block, type='imgsource'}
@@ -3824,11 +3829,17 @@ Riiklikult kaitstud ehituspärand on meie kõikide ühine hüve jalutada vanalin
 library("tidyverse")
 library("scales")
 
- fig224_data <- read.csv ("../data/22_fig4_data.csv", header=TRUE, fileEncoding="utf-8")
+fig224_data <- read.csv ("../data/22_fig4_data.csv", header=TRUE, fileEncoding="utf-8")
+
+fig224_data$owners_eng[grepl("Eraomanik", fig224_data$owners)]<-"Private owner"
+fig224_data$owners_eng[grepl("Omavalitsus", fig224_data$owners)]<-"Municipality"
+fig224_data$owners_eng[grepl("Riik", fig224_data$owners)]<-"State"
+
+fig224_data$owners_eng <- factor (fig224_data$owners_eng, levels = c("Private owner","Municipality", "State"))
 
 fig224_data$percent=percent((fig224_data$value/100), 1)
 
-  fig224_plot <- ggplot(data = fig224_data, aes(x = "", y = value, fill = owners)) +
+  fig224_plot <- ggplot(data = fig224_data, aes(x = "", y = value, fill = owners_eng)) +
   geom_bar(stat = "identity") +
   scale_fill_manual(values=c("#dbd8d7","#a18bbb","#297477")) +
   geom_text(aes(label = percent), position = position_stack(vjust = 0.5), color="white") +
@@ -3866,8 +3877,12 @@ library("tidyverse")
 
  fig225_data <- read.csv ("../data/22_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
 
+ fig225_data$type_eng[grepl("Taotluste maht", fig225_data$type)]<-"Applied for"
+  fig225_data$type_eng[grepl("Toetused", fig225_data$type)]<-"Granted"
+
+ 
   fig225_plot <- ggplot() +
-    geom_bar(data = fig225_data, mapping = aes(x=type, y=sum, fill=type), width=0.4, stat="identity") +
+    geom_bar(data = fig225_data, mapping = aes(x=type_eng, y=sum, fill=type), width=0.4, stat="identity") +
     scale_fill_manual(values=c("#369b9e","#a18bbb")) +
     labs(y="", x="")+
     scale_y_continuous(labels = number)
@@ -3893,7 +3908,7 @@ Lisaks üldisele kinnismälestiste restaureerimistoetusele on riik toetanud eral
 Mõisakoolide programmi abil on suuremal või vähemal määral restaureeritud enamikku Eesti mõisakoolidest. Pühakodade programmist on toetusi saanud üle 200 kiriku, kabeli ja tsässona ([joonis 2.2.6](#figure226)).
 
 <p class="caption" id="figure226"><span class="figure-number">Joonis 2.2.6.</span> Pühakodade programm (PÜP, €)</p>
-
+<div class="desktop-plot">
 ```{r, figure226, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
@@ -3901,9 +3916,15 @@ library("scales")
 
  fig226_data <- read.csv ("../data/22_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
 
+ fig226_data$type_eng[grepl("Taotluste kogusumma", fig226_data$type)]<-"Total applications"
+fig226_data$type_eng[grepl("PÜPi eelarve kogusumma", fig226_data$type)]<-"Total programme budget"
+
+fig226_data$type_eng <- factor (fig226_data$type_eng, levels = c("Total applications","Total programme budget"))
 
   fig226_plot <- ggplot(data = fig226_data) +
-    geom_line(mapping = aes(x=year, y = value, colour=type, group=type), size=1) +
+    geom_line(mapping = aes(x=year, y = value, colour=type_eng, group=type_eng, text = paste("", type_eng,
+                         "<br>", year,
+                         "<br>", value,"€")), size=0.75) +
     scale_colour_manual(values=c("#a18bbb","#369b9e"))+
     labs(y="", x="") +
     scale_x_continuous(breaks = c(2004,2006,2008,2010,2012,2014,2016,2018), expand = c(0, 0), limits=c(2004,2018.5))+
@@ -3916,10 +3937,23 @@ library("scales")
      
   )
 
-  print(fig226_plot + fig_theme_general + fig226_theme)
+ggplotly(fig226_plot + fig_theme_general + fig226_theme, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
   ggsave(path="../exported_figures/PDF/chapter2",filename="fig226.pdf", height=90, width=160, units="mm",encoding = "ISOLatin9.enc")
 ```
+</div>
+
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+  print(fig226_plot + fig_theme_general + fig226_theme)
+
+```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Muinsuskaitseamet.</div>
@@ -3930,16 +3964,20 @@ Alates 2019. aastast on senine pühakodade programmi eelarve lisatud Muinsuskait
 Riigi toetus riikliku kaitse all olevale ehituspärandile ei ole kaugeltki piisav: restaureerimistoetuste taotluste maht on mitu korda suurem kui toetamisvõimalused ([joonis 2.2.7](#figure227)). Majandussurutise ajal tehtud kärbe vähendas toetuste eelarvet ligi poole võrra ja kuigi pärast kriisiaastate lõppu on riigieelarve paisunud kolm korda, on riigi toetus mälestistele jäänud sisuliselt kriisiaegsele tasemele ([joonis 2.2.7](#figure227)). Erinevalt mitmest teisest riigist ei ole Eestis mälestiste omanikele ka maksusoodustusi.
 
 <p class="caption" id="figure227"><span class="figure-number">Joonis 2.2.7.</span> Restaureerimistoetuse võrdlus riigieelarvega.</p>
-
+<div class="desktop-plot">
 ```{r, figure227, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
 
  fig227_data <- read.csv ("../data/22_fig7_data.csv", header=TRUE, fileEncoding="utf-8")
 
+ fig227_data$type_eng[grepl("Restaureerimistoetus", fig227_data$type)]<-"Restoration grants (€)"
+fig227_data$type_eng[grepl("Riigieelarve kulud", fig227_data$type)]<-"State budget expenditure (€)"
 
   fig227_plot <- ggplot(data = fig227_data) +
-    geom_line(mapping = aes(x=year, y = value, colour=type, group=type), size=1) +
+    geom_line(mapping = aes(x=year, y = value, colour=type_eng, group=type_eng, text = paste("", type_eng,
+                         "<br>", year,
+                         "<br>", value)), size=0.75) +
     scale_colour_manual(values=c("#a18bbb","#369b9e"))+
     labs(y="", x="aasta") +
     scale_x_continuous(breaks = c(2006,2008,2010,2012,2014,2016,2018), expand = c(0, 0), limits=c(2005,2018.5))+
@@ -3951,10 +3989,23 @@ library("tidyverse")
     text = element_text(size = 12, family="Montserrat"),
   )
 
+  ggplotly(fig227_plot + fig_theme_general + fig227_theme, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
+
+  #ggsave(path="../exported_figures/PDF/chapter2",filename="fig227.pdf", height=90, width=160, units="mm")
+```
+
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
   print(fig227_plot + fig_theme_general + fig227_theme)
 
-  ggsave(path="../exported_figures/PDF/chapter2",filename="fig227.pdf", height=90, width=160, units="mm")
 ```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Muinsuskaitseamet ning Statistikaamet.</div>
@@ -3965,7 +4016,7 @@ Uuringus „Eraomandis oleva kinnismälestise hoidmine“ ([Tafel-Viia jt 2014](
 
 <p class="caption" id="figure228"><span class="figure-number">Joonis 2.2.8.</span> Vahendid kultuuripärandile.</p>
 
-Riigiasutused peaksid eraldama Euroopa kultuuripärandi jaoks rohkem vahendeid (%).
+State authorities should allocate more resources for cultural heritage (%).
 
 ```{r, figure228, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -3974,13 +4025,17 @@ library("scales")
 
 fig228_data <- read.csv ("../data/22_fig8_data.csv", header=TRUE, fileEncoding="utf-8")
 
-fig228_data$answer <- factor(fig228_data$answer, levels = c("Nõustun","Ei nõustu","Ei oska öelda"))
+fig228_data$answer_eng[grepl("Nõustun", fig228_data$answer)]<-"Agree"
+fig228_data$answer_eng[grepl("Ei nõustu", fig228_data$answer)]<-"Disagree"
+fig228_data$answer_eng[grepl("Ei oska öelda", fig228_data$answer)]<-"Don't know"
+
+fig228_data$answer <- factor(fig228_data$answer, levels = c("Agree","Disagree","Don't know"))
 
 fig228_data$percent=percent((fig228_data$value/100), 1)
 
   fig228_plot <- ggplot() +
-  geom_rect(data= subset(fig228_data, pop %in% c("EE")), aes(fill=answer, ymax=ymax, ymin=ymin, xmax=2.9, xmin=0)) +
-  geom_rect(data= subset(fig228_data, pop %in% c("EL28")), aes(fill=answer, ymax=ymax, ymin=ymin, xmax=3, xmin=4)) +
+  geom_rect(data= subset(fig228_data, pop %in% c("EE")), aes(fill=answer_eng, ymax=ymax, ymin=ymin, xmax=2.9, xmin=0)) +
+  geom_rect(data= subset(fig228_data, pop %in% c("EL28")), aes(fill=answer_eng, ymax=ymax, ymin=ymin, xmax=3, xmin=4)) +
   geom_text(data=fig228_data, aes(label = percent, x=x, y=value), position = position_stack(vjust = 0.5), color="white") +
   xlim(c(0, 4)) +
   coord_polar(theta = "y") +
@@ -4003,11 +4058,11 @@ fig228_data$percent=percent((fig228_data$value/100), 1)
 
   print(fig228_plot + fig_theme_general + fig228_theme)
 
-  ggsave(path="../exported_figures/PDF/chapter2",filename="fig228.pdf", height=120, width=200, units="mm")
+  #ggsave(path="../exported_figures/PDF/chapter2",filename="fig228.pdf", height=120, width=200, units="mm")
 
 ```
-Välimine ring **Euroopa Liidu keskmine**<br>
-Sisemine ring **Eesti**
+Outside **EU average**<br>
+Inside **Estonia**
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Eurobaromeeter 2017.</div>
 <div><a class="data-btn" href="../data/22_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
@@ -4122,7 +4177,7 @@ Aktivismi tekkelugu paigutub Eesti kodanikuühiskonna üldise arengu ajajoonele.
 
 ```{r, figure231, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig231.png")
+knitr::include_graphics("../figures/2-chapter/fig231_eng.jpg")
 
 ```
 
@@ -4147,7 +4202,7 @@ Kui valdavalt jõuavad asukohapõhised liikumised tegeleda konkreetsete piirkond
 <p class="caption" id="figure232"><span class="figure-number">Joonis 2.3.2.</span> Ruumiaktivisti rollid</p>
 ```{r, figure232, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig232.png")
+knitr::include_graphics("../figures/2-chapter/fig232_eng.jpg")
 
 ```
 
@@ -4293,7 +4348,7 @@ Ruumiandmete kättesaadavus on Eestis ebaühtlane, andmete kvaliteet kõikuv nin
 
 ```{r, figure241, out.width='100%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig241.png")
+knitr::include_graphics("../figures/2-chapter/fig241_eng.jpg")
 ```
 ```{block, type='imgsource'}
 <span class="imgsource-source">Allikas:</span> Autorite joonis.
@@ -4461,7 +4516,7 @@ Eesti tõus inimarengu sotsiaal- setes näitajates on saavutatud ebaproportsiona
 
 EPI arvutuskäik on keeruline ja võib sisaldada vigu, kuid eeltoodud trendide põhjused, pööratavus ning üldisemalt loodusalade seisund ja kaasnevad hüved vajavad Eestis riiklikku tähelepanu. Riikidevahelises võrdluses on Eesti Põhjamaade ja Balti riikide seas praegu viimane ja teinud 21. sajandil läbi kõige suurema languse ([Wendling jt 2018](#Wendling2018)). Seega pole meil regioonis „puhta loodusega“ riigi konkurentsieelist ning paistab koguni, et hiljutine tõus inimarengu sotsiaalsetes näitajates on saavutatud ebaproportsionaalselt kõrge ökoloogilise hinnaga ([joonis 3.0.1](#figure301)). Viimasega haakub riigi mahajäämus ökoinnovatsioonis, mida näitab Euroopa Komisjoni keskkonna peadirektoraadi koostatav ökoinnovatsiooni indeks. Samal ajal püsib Eestis suur keskkonnaturvalisus – inimestel on ebatõenäoline kaotada juurdepääs puhtale õhule, veele ja energiaallikatele või hukkuda looduskatastroofis ([Moghim ja Garna 2019](#Moghim2019)).
 
-<p class="caption" id="figure301"><span class="figure-number">Joonis 3.0.1.</span> Inimarengu indeksi ja ökosüsteemide elujõulisuse indeksi seos 179 riigi põhjal ning Eesti positsiooni (rohelised punktid, aastad) muutus 2005–2014</p>
+<p class="caption" id="figure301"><span class="figure-number">Joonis 3.0.1.</span> The correlation between the Human Development Index and the Ecosystem Vitality Index based on 179 countries and the change in Estonia’s position (green dots, years) 2005–2014</p>
 
 <div class="desktop-plot">
 ```{r, figure301, out.width='100%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
@@ -4479,26 +4534,26 @@ library("tidyverse")
     geom_point(data = fig301_data, mapping = aes(x=hdi_2014, y=eco_current, group = 1,
             text = paste("HDI: ", hdi_2014,
                          "<br>ECO: ", eco_current,
-                         "<br>Riik: ", iso3)), colour="#C8C6BF", size=1.7, show.legend = NA) +
+                         "<br>Country: ", iso3)), colour="#C8C6BF", size=1.7, show.legend = NA) +
 
     geom_smooth(data = fig301_data, mapping = aes(x=hdi_2014, y=eco_current),method=lm, se=FALSE, colour="#482683") +
 
     geom_point(data = fig301_data_est, mapping = aes(x=hdi_2014, y=eco_current, group = 1,
             text = paste("HDI: ", hdi_2014,
                          "<br>ECO: ", eco_current,
-                         "<br>Riik: ", iso3)), colour="#79AC2C",size=2, show.legend = NA) +
+                         "<br>Country: ", iso3)), colour="#79AC2C",size=2, show.legend = NA) +
     geom_text(data = fig301_data_est, mapping = aes(x=hdi_2014, y=55, label="2014"),hjust=1, vjust=1, colour="#79AC2C")+
 
     geom_point(data = fig301_data_est, mapping = aes(x=0.825, y=72.22, group = 1,
             text = paste("HDI: ", hdi_2014,
                          "<br>ECO: ", eco_current,
-                         "<br>Riik: ", iso3)), colour="#79AC2C",size=2, show.legend = NA) +
+                         "<br>Country: ", iso3)), colour="#79AC2C",size=2, show.legend = NA) +
     geom_text(data = fig301_data_est, mapping = aes(x=0.8, y=75, label="2005"), colour="#79AC2C") +
 
     geom_line(fig301_horisontal_line, mapping = aes(x=hdi, y=eco), colour="#79AC2C",size=1, show.legend = NA) +
 
     scale_x_continuous(breaks=c(0.2,0.3,0.4, 0.5, 0.6,0.7,0.8,0.9,1)) +
-    labs(y="Ökosüsteemide elujõulisus (ECO)", x="Inimarengu indeks (HDI)")
+    labs(y="Ecosystem Vitality (ECO)", x="Human Development Index (HDI)")
 
     fig301_theme <- theme(
                     text=element_text(family="Montserrat")
@@ -4559,8 +4614,8 @@ fig302_data_melt$variable <- factor(fig302_data_melt$variable, levels = c("other
 fig302_plot <- ggplot() +
 
     geom_bar(data = fig302_data_melt, mapping = aes(x=county, y=value*100, fill=variable), width=0.6, stat="identity") +
-    scale_fill_manual(labels = c("Muu metsamaa", "Riik: metsata", "Riik: puistud"), values=c("#79AC2C","#482683","#5B8121")) +
-    labs(y="% pindalast", x="") +
+    scale_fill_manual(labels = c("Other forest land", "State-owned unstocked", "State-owned stocked"), values=c("#79AC2C","#482683","#5B8121")) +
+    labs(y="% of area", x="") +
     scale_y_continuous(expand = c(0, 0), limits=c(0,100)) +
     expand_limits (y=0)
 
@@ -4738,6 +4793,7 @@ RMK viimased külastajauuringud näitavad, et nii 2010. kui ka 2015. aastal käi
 
 <p class="caption" id="figure312"><span class="figure-number">Joonis 3.1.2.</span> Riigimetsa Majandamise Keskuse hallatavate loodusobjektide külastuskordade koguarv ning rahvusparkide külastuskordade arv loenduritel põhineva seire andmetel, 2010–2017</p>
 
+<div class="desktop-plot">
 ```{r, figure312, out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
@@ -4749,23 +4805,32 @@ fig312_data2 <- read.csv ("../data/31_fig2_data2.csv", header=TRUE, fileEncoding
 fig312_data2 <- melt (fig312_data2, id=c("park"))
 names(fig312_data2) <- c("park","year","visitors")
 
-fig312_data2$park <- factor(fig312_data2$park, levels = c("Lahemaa rahvuspark","Soomaa rahvuspark","Matsalu rahvuspark","Karula rahvuspark","Vilsandi rahvuspark"))
+fig312_data2$park_eng[grepl("Vilsandi rahvuspark", fig312_data2$park)]<-"Vilsandi national park"
+fig312_data2$park_eng[grepl("Matsalu rahvuspark", fig312_data2$park)]<-"Matsalu national park"
+fig312_data2$park_eng[grepl("Soomaa rahvuspark", fig312_data2$park)]<-"Soomaa national park"
+fig312_data2$park_eng[grepl("Lahemaa rahvuspark", fig312_data2$park)]<-"Lahemaa national park"
+fig312_data2$park_eng[grepl("Karula rahvuspark", fig312_data2$park)]<-"Karula national park"
+
+fig312_data2$park_eng <- factor(fig312_data2$park_eng, levels = c("Lahemaa national park","Soomaa national park","Matsalu national park","Karula national park","Vilsandi national park"))
 
 fig312_data2$year <- factor(fig312_data2$year, levels = c("2010","2011","2012","2013","2014","2015","2016","2017"))
 
-fig312_plot2_labels <- c("Lahemaa\nrahvuspark","Soomaa\nrahvuspark", "Matsalu\nrahvuspark", "Karula\nrahvuspark","Vilsandi\nrahvuspark")
+fig312_plot2_labels <- c("Lahemaa\nnational park","Soomaa\nnational park", "Matsalu\nnational park", "Karula\nnational park","Vilsandi\nnational park")
 
 fig312_plot_palette <- c("#b8ddea","#44a1b1","#388085","#8d76ad","#79AC2C","#5B8121","#482683","#2E4111")
 
   fig312_plot1 <- ggplot(data = fig312_data1) +
-    geom_bar(mapping = aes(x=year, y=visitors), fill=fig312_plot_palette, width=0.7, stat="identity", position="dodge") +
+    geom_bar(mapping = aes(x=year, y=visitors, text = paste("", year,
+                         "<br>", visitors)), fill=fig312_plot_palette, width=0.7, stat="identity", position="dodge") +
     scale_x_continuous(breaks=c(2010,2011,2012,2013,2014,2015,2016,2017))+
-    labs(y="Külastuskordade arv (mln)", x="")
+    labs(y="Number of visits (million)", x="")
 
   fig312_plot2 <- ggplot(data = fig312_data2) +
-    geom_bar(mapping = aes(x=park, y=visitors, fill=year), width=0.7, stat="identity", position="dodge") +
+    geom_bar(mapping = aes(x=park_eng, y=visitors, fill=year, text = paste("", park_eng,
+                         "<br>", year,
+                         "<br>", visitors)), width=0.7, stat="identity", position="dodge") +
     scale_fill_manual(values=fig312_plot_palette) +
-    labs(y="Külastuskordade arv", x="") +
+    labs(y="Number of visits", x="") +
     scale_x_discrete(labels=fig312_plot2_labels)
 
   fig312_theme <- theme(
@@ -4775,13 +4840,35 @@ fig312_plot_palette <- c("#b8ddea","#44a1b1","#388085","#8d76ad","#79AC2C","#5B8
                  )
 
 knitr::include_graphics("figures/3-chapter/fig312_map.png")
-print(fig312_plot2 + fig_theme_general + fig312_theme)
-print(fig312_plot1 + fig_theme_general + fig312_theme)
+
+ggplotly(fig312_plot2 + fig_theme_general + fig312_theme, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
+
+ggplotly(fig312_plot1 + fig_theme_general + fig312_theme, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
 #ggsave(path="exported_figures/PDF/chapter3",filename="fig312a.pdf",fig312_plot1 + fig_theme_general + fig312_theme, height=120, width=200, units="mm")
 
 #ggsave(path="exported_figures/PDF/chapter3",filename="fig312b.pdf",fig312_plot2 + fig_theme_general + fig312_theme, height=120, width=200, units="mm")
 ```
+
+</div>
+
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+knitr::include_graphics("figures/3-chapter/fig312_map.png")
+print(fig312_plot2 + fig_theme_general + fig312_theme)
+print(fig312_plot1 + fig_theme_general + fig312_theme)
+
+```
+</div>
 
 ``` {block, type='figure-comment'}
 <span class="figure-comment-start">Märkus:</span> Külastuskordade arv sisaldab puhke- ja kaitsealadel nii maastikul paiknevate objektide kui ka külastuskeskustes teavet saanud külastajate arvu (ei sisalda programmides osalejaid) ning Elistvere loomapargi külastusi. Külastuskordade arv ei ole sama mis külastajate arv, kuivõrd üks külastaja võib ala külastada korduvalt.
@@ -4802,6 +4889,7 @@ Linna rohealade kasutus on Eestis hooajaline – suvel sagedasem kui talvel. See
 
 <p class="caption" id="figure313"><span class="figure-number">Joonis 3.1.3.</span> Eri tüüpi looduskülastajate vanuseline jaotus Eestis</p>
 
+<div class=desktop-plot>
 ```{r, figure313, out.width='80%',fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
@@ -4812,11 +4900,23 @@ library("reshape")
  fig313_data_melt <- melt (fig313_data, id=c("vanus"))
 
 fig313_data_melt$vanus <- factor(fig313_data_melt$vanus, levels = c("75+","60-74","50-59","40-49","30-39","20-29","15-19"))
-fig313_data_melt$variable <- factor(fig313_data_melt$variable, levels = c("Tallinna pargikülastajad","Jahimehed","Marjulised-seenelised","Välisturistid 2015","Looduspuhkus 2015","Looduspuhkus 2010"))
+
+fig313_data_melt$variable_eng[grepl("Looduspuhkus 2010", fig313_data_melt$variable)]<-"Nature visits 2010"
+fig313_data_melt$variable_eng[grepl("Looduspuhkus 2015", fig313_data_melt$variable)]<-"Nature visits 2015"
+fig313_data_melt$variable_eng[grepl("Välisturistid 2015", fig313_data_melt$variable)]<-"Foreign tourists 2015"
+fig313_data_melt$variable_eng[grepl("Marjulised-seenelised", fig313_data_melt$variable)]<-"Berry and mushroom pickers"
+fig313_data_melt$variable_eng[grepl("Jahimehed", fig313_data_melt$variable)]<-"Hunters"
+fig313_data_melt$variable_eng[grepl("Tallinna pargikülastajad", fig313_data_melt$variable)]<-"Visitors to Tallinn green areas"
+
+
+
+fig313_data_melt$variable_eng <- factor(fig313_data_melt$variable_eng, levels = c("Visitors to Tallinn green areas","Hunters","Berry and mushroom pickers","Foreign tourists 2015","Nature visits 2015","Nature visits 2010"))
 
   fig313_plot <- ggplot(data = fig313_data_melt) +
-    geom_bar(mapping = aes(x=vanus, y=value, fill=variable), width=0.7, stat="identity", position="dodge") +
-    labs(y="%", x="Vanuserühm") +
+    geom_bar(mapping = aes(x=vanus, y=value, fill=variable_eng, text = paste("", vanus,
+                         "<br>", variable_eng,
+                         "<br>", value, "%")), width=0.7, stat="identity", position="dodge") +
+    labs(y="%", x="Age group") +
     coord_flip()  +
     scale_fill_manual(values=c("#b8ddea","#44a1b1","#79AC2C","#5B8121","#8d76ad","#482683")) +
       guides(fill = guide_legend(reverse = TRUE))
@@ -4827,10 +4927,24 @@ fig313_data_melt$variable <- factor(fig313_data_melt$variable, levels = c("Talli
       panel.grid.minor.y = element_blank(),
                  )
 
-print(fig313_plot + fig_theme_general + fig313_theme)
+ggplotly(fig313_plot + fig_theme_general + fig313_theme, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
 #ggsave(path="exported_figures/PDF/chapter3",filename="fig313.pdf",fig313_plot + fig_theme_general + fig313_theme, height=200, width=200, units="mm")
 ```
+
+</div>
+
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+print(fig313_plot + fig_theme_general + fig313_theme)
+
+```
+</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Autori joonis.</div>
@@ -4850,8 +4964,15 @@ library("scales")
 
 fig314_data <- melt (fig314_data, id=c("Space"))
 
+fig314_data$Space_eng[grepl("Park", fig314_data$Space)]<-"Park"
+fig314_data$Space_eng[grepl("Mänguväljak", fig314_data$Space)]<-"Playground/fitness area"
+fig314_data$Space_eng[grepl("Veekoguäärne roheala", fig314_data$Space)]<-"Waterfront green space"
+fig314_data$Space_eng[grepl("Mets", fig314_data$Space)]<-"Forest"
+fig314_data$Space_eng[grepl("Ala väheste puude/põõsastega", fig314_data$Space)]<-"Area with a few trees/bushes"
+fig314_data$Space_eng[grepl("Ala, kus ma saan aiatööd teha", fig314_data$Space)]<-"Area where I can do gardening"
 
-fig314_data$Space <- factor( fig314_data$Space, levels = c("Ala, kus ma saan aiatööd teha","Ala väheste puude/põõsastega","Mets","Veekoguäärne roheala","Mänguväljak/tervisespordi ala","Park"))
+
+fig314_data$Space_eng <- factor( fig314_data$Space_eng, levels = c("Area where I can do gardening","Area with a few trees/bushes","Forest","Waterfront green space","Playground/fitness area","Park"))
 
 fig314_data$variable <- factor(fig314_data$variable, levels = c("Ei ole üldse tähtis","Mitte eriti tähtis","Keskmiselt tähtis","Tähtis","Väga tähtis"))
 
@@ -4860,10 +4981,10 @@ fig314_data$text_position <- fig314_data$value
 fig314_data$text_position[which(fig314_data$text_position == 0)] <- NA
 
 fig314_plot <- ggplot(data = fig314_data) +
-    geom_bar(mapping = aes(x=Space, y=value, fill=variable), width=0.6, stat="identity") +
-    geom_text(mapping = aes(x=Space, y=text_position, label=round(text_position, digits=0)), stat="identity", color="white", position = position_stack(vjust = .5)) +
+    geom_bar(mapping = aes(x=Space_eng, y=value, fill=variable), width=0.6, stat="identity") +
+    geom_text(mapping = aes(x=Space_eng, y=text_position, label=round(text_position, digits=0)), stat="identity", color="white", position = position_stack(vjust = .5)) +
     coord_flip() +
-    scale_fill_manual(values=c("#2b164e","#a28cbc","#5B8121","#79AC2C","#482683")) +
+    scale_fill_manual(values=c("#2b164e","#a28cbc","#5B8121","#79AC2C","#482683"), labels=c("Not at all important","Not particularly important","Moderately important","Important","Extremely important")) +
     labs(y="%", x="") +
     scale_x_discrete(labels = wrap_format(20)) +
     guides(fill = guide_legend(reverse = TRUE,nrow=2,byrow=TRUE))
@@ -4932,7 +5053,7 @@ Keskkonnaministeeriumi tellitud juhuvalimitel põhinenud uuringud (2010 ja 2012)
 
 Harrastuskalastajate arvu muutusi saab jälgida püügilubade statistika põhjal. Eestis peab ka õngpüüniste kasutamiseks olema tasutud püügiõiguse tasu, välja arvatud ühe lihtkäsiõnge puhul. Näiteks 2014. aastal kehtis 95 273 ja 2015. aastal 95 871 püügiluba, kuid 2016. aastal üksnes 90 348 – seda vähenemist võib seletada tol aastal talipüügiks ebasoodsate jääoludega. Et lühemaajalisi lube on ühel isikul võimalik osta aastas mitu, siis ei näita kehtivate püügiõiguste arv otse harrastuskalastajate hulka. Isikukoodide alusel sorteeritud andmete põhjal oli Eestis 2016. aastal 47 865 erinevat tasu eest kala püüdvat isikut, sealhulgas 5361 välismaalast. Arvestades eri tüüpi lube ning liites juurde hinnangu tasuta püügiõiguse omanike kohta võib sedastada, et lube vajaval moel tegeles Eestis harrastusliku kalapüügiga aastatel 2012–2016 umbes 60 000–65 000 inimest.
 
-<p class="caption" id="figure315"><span class="figure-number">Joonis 3.1.5.</span> Harrastuskalamehed Otepääl Vahejärvel 1945. aastal</p>
+<p class="caption" id="figure315"><span class="figure-number">Joonis 3.1.5.</span> Recreational fishermen at Vahejärve Lake, Otepää, 1945</p>
 
 ```{r, figure315, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -4941,7 +5062,7 @@ knitr::include_graphics("../figures/3-chapter/fig315.png")
 ```
 
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Erakogu.
+<span class="imgsource-source">Source</span> Private collection.
 ```
 
 <div class="casebox">
@@ -5311,18 +5432,26 @@ Kõige ulatuslikum kaitse loodusalade maakasutusmuutuste eest on seotud rohevõr
 
 <p class="caption" id="figure335"><span class="figure-number">Joonis 3.3.5.</span> Rohevõrgustiku ja kaitstavate loodusobjektide (kaitsealad, kaitstavate liikide leiukohad, püsielupaigad, Natura 2000 alad) osakaal maakonna kogupindalast</p>
 
+<div class=desktop-plot>
 ```{r, figure335, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 
 fig335_data <- read.csv ("../data/33_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
 
-fig335_data$objects <- factor(fig335_data$objects, levels = c("RV ala väljaspool kaitsealasid","Kaitstavad loodusobjektid väljaspool RV ala","Kaitstavad loodusobjektid RV alal"))
+fig335_data$objects_eng[grepl("RV ala väljaspool kaitsealasid", fig335_data$objects)]<-"Green network area outside protected areas"
+fig335_data$objects_eng[grepl("Kaitstavad loodusobjektid RV alal", fig335_data$objects)]<-"Protected natural sites inside green network area"
+fig335_data$objects_eng[grepl("Kaitstavad loodusobjektid väljaspool RV ala", fig335_data$objects)]<-"Protected natural sites outside green network area"
+
+
+fig335_data$objects_eng <- factor(fig335_data$objects_eng, levels = c("Green network area outside protected areas","Protected natural sites outside green network area","Protected natural sites inside green network area"))
 
 
   fig335_plot <- ggplot() +
-    geom_bar(data = fig335_data, mapping = aes(x=reorder(county,-value), y=value, fill=objects), width=0.6, stat="identity") +
-    scale_fill_manual(values=c("#79AC2C","#482683","#5B8121"), labels=c("Rohevõrgustiku ala väljaspool kaitsealasid","Kaitstavad loodusobjektid väljaspool rohevõrgustiku ala","Kaitstavad loodusobjektid rohevõrgustiku alal")) +
+    geom_bar(data = fig335_data, mapping = aes(x=reorder(county,-value), y=value, fill=objects_eng, text = paste("", county,
+                         "<br>", objects_eng,
+                         "<br>", value, "%")), width=0.6, stat="identity") +
+    scale_fill_manual(values=c("#79AC2C","#482683","#5B8121"), labels=c("Green network area outside protected areas","Protected natural sites outside green network area","Protected natural sites inside green network area")) +
     labs(y="%", x="") +
     guides(fill=guide_legend(nrow=3,byrow=TRUE)) +
       scale_y_continuous(expand = c(0, 0), limits=c(0,100)) +
@@ -5336,9 +5465,23 @@ fig335_data$objects <- factor(fig335_data$objects, levels = c("RV ala väljaspoo
                     text = element_text(family="Montserrat"),
                  )
 
-print(fig335_plot + fig335_theme + fig_theme_general)
+ggplotly(fig335_plot + fig335_theme + fig_theme_general, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
 #ggsave(path="exported_figures/PDF/chapter3",filename="fig335.pdf", height=140, width=210, units="mm")
+
+```
+
+</div>
+
+</div>
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+print(fig335_plot + fig335_theme + fig_theme_general)
 
 ```
 
@@ -5368,7 +5511,7 @@ Analüüsist järeldati, et Eesti õigusraamistik on rohevõrgustiku kaitse taga
 
 ```
 
-<p class="caption" id="figure336"><span class="figure-number">Joonis 3.3.6.</span> Harju maakonna rohevõrgustiku katkestused 2006. ja 2012. aasta võrdluses</p>
+<p class="caption" id="figure336"><span class="figure-number">Joonis 3.3.6.</span> Interruptions in the green network of Harjumaa in 2012 compared to 2006</p>
 
 ```{r, figure336, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -5500,70 +5643,70 @@ Strateegiliste ja riiklike huvidega seotud, loodusalasid mõjutavate projektide 
 <table id="table_341" style="width:100%">
 
   <tr>
-    <th colspan="5" class="table_341_blank">OTSUSE LIIK</th>
+    <th colspan="5" class="table_341_blank">TYPE OF DECISION</th>
   </tr>
 
   <tr>
     <th class="table_341_blank"></th>
     <th class="table_341_blank"></th>
-    <th class="table341_green">Üksikobjekti kavandamine</th>
-    <th class="table341_green">Ruumiline planeering</th>
-    <th class="table341_green">Poliitika/ strateegia</th>
+    <th class="table341_green">Specific project</th>
+    <th class="table341_green">Spatial plan</th>
+    <th class="table341_green">Policy/strategy</th>
   </tr>
 
   <tr>
-  <th rowspan="3" class="table_341_blank table_341_vertical">RUUMILINE ULATUS</th>
-    <th class="table341_dark_green">KOHALIK</th>
-    <td class="table341_purple">Erinevad load, nt:<br>
-• vee erikasutuseks<br>
-• kaevandamiseks<br>
-• metsaraieks<br>
-• hoonete rajamiseks
-Detailplaneeringud</td>
+  <th rowspan="3" class="table_341_blank table_341_vertical">GEOGRAPHIC SCOPE</th>
+    <th class="table341_dark_green">LOCAL</th>
+    <td class="table341_purple">Permits, e.g.:<br>
+• for special use of water<br>
+• for mining<br>
+• for forestry activities<br>
+• for construction of buildings
+Detailed spatial plans</td>
 
-  <td>Üldplaneeringud</td>
-  <td>Arengukavad, nt:<br>
-• kohaliku omavalit- suse arengukava<br>
-• jäätmehooldus- kava<br>
-• ühisveevärgi arendamise kava</td>
+  <td>Comprehensive plans</td>
+  <td>Development plans, e.g.:<br>
+• municipal development plans<br>
+• waste management plans<br>
+• development plans for public water supply and waste water systems</td>
 </tr>
 
   <tr>
-    <th class="table341_dark_green">REGIONAALNE</th>
-    <td>Erinevad regionaalse tähtsusega taristuobjektid, nt:<br>
-• elektriliinid<br>
-• maanteed<br>
-• raudteed<br>
-• jäätmekeskused</td>
+    <th class="table341_dark_green">REGIONAL</th>
+    <td>Regional infrastructure objects, e.g.:<br>
+• power lines<br>
+• roads<br>
+• railways<br>
+• waste treatment centres</td>
 
-  <td>Maakonnaplaneering</td>
-  <td>Piirkondlikud kavad, nt piirkondlikud arengukavad, arengustra- teegiad</td>
+  <td>County spatial plan</td>
+  <td>Regional plans, e.g. regional development plans, development strategies</td>
 </tr>
 
   <tr>
-    <th class="table341_dark_green">RIIKLIK</th>
-    <td class="table341_purple">Üleriigilise tähtsusega objektid, nt:<br>
-• suursadamad<br>
-• põhimaanteed<br>
-• kaitseväe harjutus- väljakud<br>
-• suurtehased</td>
+    <th class="table341_dark_green">NATIONAL</th>
+    <td class="table341_purple">Facilities of national importance, e.g.:<br>
+• major harbours<br>
+• national main roads<br>
+• practice grounds for the defence forces<br>
+• large industrial installations</td>
 
-  <td>Üleriigiline planeering</td>
-  <td class="table341_purple">Riiklikud arengukavad ja strateegiad, nt:<br>
-•&nbsp;maapõuepoliitika põhialused<br>
-• looduskaitse arengukava<br>
-• metsanduse arengukava</td>
+  <td>National spatial plan</td>
+  <td class="table341_purple">National development plans and strategies, e.g.:<br>
+•&nbsp;framework strategy for mineral resources<br>
+• development plan for nature conservation<br>
+• development plan for forestry</td>
 </tr>
 
 </table>
 </div>
 
 ``` {block, type='figure-comment'}
-<span class="figure-comment-start">Märkus:</span> Lillaga märgitud otsuse liigid, milles osalemise võimalused on (teatud otsuste puhul) piiratud.
+<span class="figure-comment-start">Note:</span> The cells with violet highlighting refer to types of decisions where (in some cases) public participation opportunities are limited.
 ```
 
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Autorite joonis.
+<span class="imgsource-source">Source:</span> Figure by the author.
 ```
 
 ### Hoolimata õigusest osaleda on Eesti elanikud passiivsed ja pessimistlikud {-.chapter3_section}
@@ -5644,8 +5787,9 @@ Harrastusvaatlejate kogutud andmete kasutamine avaliku ruumi haldamisel on Eesti
 
 Arenenud harrastusteadusega riikides, nagu Suurbritannia, on kodanikud kutsutud näiteks linnaõhu kvaliteeti mõõtma ja valitud ökosüsteemide taastamist seirama. Siiski on kõikjal vaja paremini ühendada harrastusvaatlused otsustamise ja keskkonnategevustega ([Liu ja Kobernus 2017](#Liu2017)). Eesti harrastusteaduse seis peegeldab üldisemat arengujärku keskkonnademokraatias, kus kodanike kaasamine loodusalade haldamisse oleneb riigi usaldusest, kodanikuaktiivsusest ning tehnilistest suhtlus- ja andmehaldusvahenditest.
 
-<p class="caption" id="figure344"><span class="figure-number">Joonis 3.4.4.</span> Riikliku loodusvaatluste andmebaasi üleüldine kasutamine (A1, A2) ja Tartu Ülikooli loodusmuuseumi PlutoF andmebaasi kasutmine linnuvaatlejate poolt (B1, B2) 9 aasta jooksul</p>
+<p class="caption" id="figure344"><span class="figure-number">Joonis 3.4.4.</span> General usage data for the Estonian Nature Observations Database (A1, A2) and the use of the University of Tartu Natural History Museum’s PlutoF database by birdwatchers (B1, B2) over a period of nine years</p>
 
+<div class="desktop-plot">
 ```{r, figure344, fig.asp=1.5, message=FALSE, echo=FALSE, warning=FALSE}
 
 library("tidyverse")
@@ -5666,15 +5810,21 @@ fig344_data34$year <- as.numeric(as.character(fig344_data34$year))
 fig344_data <- bind_rows(fig344_data12,fig344_data34)
 fig344_data <- fig344_data[order(fig344_data$year),]
 
-fig344_data$variable <- factor(fig344_data$variable, levels = c("Isikuid","Vaatusi","Linnuvaatlejate arv","Linnuvaatluste arv"))
+fig344_data$variable_eng[grepl("Isikuid", fig344_data$variable)]<-"Number of users"
+fig344_data$variable_eng[grepl("Vaatusi", fig344_data$variable)]<-"Number of observations"
+fig344_data$variable_eng[grepl("Linnuvaatlejate arv", fig344_data$variable)]<-"Number of birdwatchers"
+fig344_data$variable_eng[grepl("Linnuvaatluste arv", fig344_data$variable)]<-"Number of bird observations"
+
+fig344_data$variable_eng <- factor(fig344_data$variable_eng, levels = c("Number of users","Number of observations","Number of birdwatchers","Number of bird observations"))
 
 
   fig344_plot <- ggplot() +
-    geom_line(data = fig344_data, mapping = aes(x=year, y=as.numeric(value), group=variable, colour=variable), size=1.2) +
+    geom_line(data = fig344_data, mapping = aes(x=year, y=as.numeric(value), group=variable_eng, colour=variable_eng, text = paste("", year,
+                         "<br>", value)), size=0.75) +
     labs(y="", x="") +
     expand_limits (y=0) +
     scale_x_continuous(expand = c(0, 0), limits=c(2008,2017.5), breaks=c(2009,2011,2013,2015,2017)) +
-    facet_wrap(~variable, nrow=4, strip.position="left", scales = "free_y") +
+    facet_wrap(~variable_eng, nrow=4, strip.position="left", scales = "free_y") +
     scale_colour_manual(values=c("#79ac2c", "#5b8121", "#79ac2c", "#5b8121"),guide = guide_legend(reverse = TRUE))
 
   fig344_theme <- theme (
@@ -5685,14 +5835,28 @@ fig344_data$variable <- factor(fig344_data$variable, levels = c("Isikuid","Vaatu
     text = element_text(family="Montserrat"),
   )
 
-  print(fig344_plot + fig_theme_general + fig344_theme)
+ggplotly(fig344_plot + fig_theme_general + fig344_theme, tooltip = "text" ) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
-ggsave(path="../exported_figures/PDF/chapter3",filename="fig344.pdf",fig344_plot + fig_theme_general+    fig344_theme, height=217, width=142, units="mm")
+#ggsave(path="../exported_figures/PDF/chapter3",filename="fig344.pdf",fig344_plot + fig_theme_general+    fig344_theme, height=217, width=142, units="mm")
 
 ```
 
+</div>
+
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=1.5, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+print(fig344_plot + fig_theme_general + fig344_theme)
+
+```
+</div>
+
 ``` {block, type='imgsource'}
-<div><span class="imgsource-source">Allikas:</span> Loodusvaatluste andmebaasi koduleht. PlutoF andmebaas, koostanud Veljo Runnel.</div>
+<div><span class="imgsource-source">Source:</span> Estonian Nature Observations Database website. PlutoF database. Compiled by Veljo Runnel.</div>
 <div><a class="data-btn" href="../data/34_fig4_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
@@ -6074,7 +6238,19 @@ library("scales")
 
  fig421_data <- read.csv ("../data/42_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
 
- fig421_data$group <- factor(fig421_data$group, levels = c("Vene","Eesti","15-17 a","13-14 a","11-12 a","9-10 a","Tüdrukud","Poisid","Kõik lapsed"))
+fig421_data$group_eng[grepl("Kõik lapsed",  fig421_data$group)]<-"All children"
+fig421_data$group_eng[grepl("Poisid",  fig421_data$group)]<-"Boys"
+fig421_data$group_eng[grepl("Tüdrukud",  fig421_data$group)]<-"Girls"
+fig421_data$group_eng[grepl("9-10 a",  fig421_data$group)]<-"9 to 10 yrs"
+fig421_data$group_eng[grepl("11-12 a",  fig421_data$group)]<-"11 to 12 yrs"
+fig421_data$group_eng[grepl("13-14 a",  fig421_data$group)]<-"13 to 14 yrs"
+fig421_data$group_eng[grepl("15-17 a",  fig421_data$group)]<-"15 to 17 yrs"
+fig421_data$group_eng[grepl("Eesti",  fig421_data$group)]<-"Estonian"
+fig421_data$group_eng[grepl("Vene",  fig421_data$group)]<-"Russian"
+ 
+ fig421_data$group_eng <- factor(fig421_data$group_eng, levels = c("Russian","Estonian","15 to 17 yrs","13 to 14 yrs","11 to 12 yrs","9 to 10 yrs","Girls","Boys","All children"))
+ 
+ 
   fig421_data$answer <- factor(fig421_data$answer, levels = c("Ei taha öelda","Ei oska öelda","Umbes 6 tundi või rohkem","Umbes 4-5 tundi","Umbes 2-3 tundi","Umbes 1 tund või vähem"))
 
     fig421_data$text_position <- fig421_data$value
@@ -6082,10 +6258,10 @@ library("scales")
     fig421_data$text_position[which(fig421_data$text_position == 0)] <- NA
 
   fig421_plot <- ggplot(data = fig421_data) +
-    geom_bar(mapping = aes(x=group, y=value, fill=answer), width=0.6, stat="identity") +
-    geom_text(mapping = aes(x=group, y=text_position, label=round(text_position, digits=0)), stat="identity", color="white", position = position_stack(vjust = .5)) +
+    geom_bar(mapping = aes(x=group_eng, y=value, fill=answer), width=0.6, stat="identity") +
+    geom_text(mapping = aes(x=group_eng, y=text_position, label=round(text_position, digits=0)), stat="identity", color="white", position = position_stack(vjust = .5)) +
     coord_flip() +
-     scale_fill_manual(values=c("#86858A","#A8ACA6","#5E4A0C","#8D6F11","#BC9417","#C9A945")) +
+     scale_fill_manual(values=c("#86858A","#A8ACA6","#5E4A0C","#8D6F11","#BC9417","#C9A945"), labels=c("Don’t want to say","Don’t know","6 hours or more","4 to 5 hours","2 to 3 hours","Up to 1 hour")) +
     labs(y="%", x="") +
       scale_x_discrete(labels = wrap_format(30)) +
     guides(fill = guide_legend(reverse = TRUE))
@@ -6173,16 +6349,30 @@ library("dplyr")
     fig423_data$text_position <- 100 - fig423_data$cumsum +  fig423_data$text_position_temp
     fig423_data$text_position[which(fig423_data$text_position == 0)] <- NA
 
+    fig423_data$question_eng[grepl("Mõnikord leian end veebilehtedelt teadmata, kuidas ma sinna sattusin",  fig423_data$question)]<-"Sometimes I find myself on websites without knowing how I got there"
+    fig423_data$question_eng[grepl("Ma oskan kasutada programmeerimiskeeli",  fig423_data$question)]<-"I know how to use programming languages (e.g. Python, C++)"
+    fig423_data$question_eng[grepl("Ma oskan luua kodulehte",  fig423_data$question)]<-"I know how to create a website"
+    fig423_data$question_eng[grepl("Ma oskan luua internetist leitud videotest või muusikast midagi uut",  fig423_data$question)]<-"I know how to create something new from videos or music found online"
+    fig423_data$question_eng[grepl("Minu jaoks on lihtne teha kindlaks, kas veebilehte saab usaldada",  fig423_data$question)]<-"I find it easy to determine whether a website can be trusted"
+    fig423_data$question_eng[grepl("Ma tean, millised erinevad kasutuspiirangud ja autoriõigused kehtivad internetis leiduvatele materjalidele",  fig423_data$question)]<-"I know what restrictions on use and copyrights apply to online material"
+    fig423_data$question_eng[grepl("Ma tean, millises olukorras ma peaksin jagama infot internetis ja millises mitte",  fig423_data$question)]<-"I know when I should and should not share information online"
+      fig423_data$question_eng[grepl("Ma oskan internetis käituda olukorrale vastavalt",  fig423_data$question)]<-"I know how to behave appropriately online"
+      fig423_data$question_eng[grepl("Ma oskan kasutada klahvikombinatsioone",  fig423_data$question)]<-"I know how to use keyboard shortcuts (e.g. Ctrl + C to copy)"
+      fig423_data$question_eng[grepl("Ma oskan avada allalaaditud faile",  fig423_data$question)]<-"I know how to download and open files"
+      fig423_data$question_eng[grepl("Ma tean, kuidas seada piiranguid, kes internetis minu infot näevad",  fig423_data$question)]<-"I know how to set restrictions on who can see my online information (e.g. friends, friends of friends or all users)"
+      fig423_data$question_eng[grepl("Minu jaoks on lihtne leida veebilehte, mida olen hiljuti külastanud",  fig423_data$question)]<-"It is easy for me to find a website I have visited recently"
+      fig423_data$question_eng[grepl("Ma oskan avada uut vahelehte internetibrauseris",  fig423_data$question)]<-"I know how to open a new tab in my internet browser"
+      
 
- fig423_data$question <- factor(fig423_data$question, levels = c("Mõnikord leian end veebilehtedelt teadmata, kuidas ma sinna sattusin","Ma oskan kasutada programmeerimiskeeli (nt Python, C++)","Ma oskan luua kodulehte","Ma oskan luua internetist leitud videotest või muusikast midagi uut","Minu jaoks on lihtne teha kindlaks, kas veebilehte saab usaldada","Ma tean, millised erinevad kasutuspiirangud ja autoriõigused kehtivad internetis leiduvatele materjalidele ","Ma tean, millises olukorras ma peaksin jagama infot internetis ja millises mitte","Ma oskan internetis käituda olukorrale vastavalt","Ma oskan kasutada klahvikombinatsioone (nt Ctrl + C kopeerimiseks)","Ma oskan avada allalaaditud faile","Ma tean, kuidas seada piiranguid, kes internetis minu infot näevad (nt sõbrad, sõprade sõbrad või kõik kasutajad)","Minu jaoks on lihtne leida veebilehte, mida olen hiljuti külastanud","Ma oskan avada uut vahelehte internetibrauseris"))
+ fig423_data$question_eng <- factor(fig423_data$question_eng, levels = c("Sometimes I find myself on websites without knowing how I got there","I know how to use programming languages (e.g. Python, C++)","I know how to create a website","I know how to create something new from videos or music found online","I find it easy to determine whether a website can be trusted","I know what restrictions on use and copyrights apply to online material","I know when I should and should not share information online","I know how to behave appropriately online","I know how to use keyboard shortcuts (e.g. Ctrl + C to copy)","I know how to download and open files","I know how to set restrictions on who can see my online information (e.g. friends, friends of friends or all users)","It is easy for me to find a website I have visited recently","I know how to open a new tab in my internet browser"))
 
   fig423_data$answer <- factor(fig423_data$answer, levels = c("Ei oska öelda","Vastab täielikult tõele","Pigem vastab tõele","Ei üks ega teine","Pigem ei vasta tõele","Ei vasta üldse tõele"))
 
 
   fig423_plot <- ggplot(data = fig423_data) +
-    geom_bar(mapping = aes(x=question, y=value, fill=answer), width=0.5, stat="identity") +
-    geom_text(mapping = aes(x=question, y=text_position, label=round(value, digits=0)), stat="identity", color="white") +
-     scale_fill_manual(values=c("#A8ACA6","#E4D4A2","#C9A945","#BC9417","#8D6F11","#5E4A0C","#2F2506")) +
+    geom_bar(mapping = aes(x=question_eng, y=value, fill=answer), width=0.5, stat="identity") +
+    geom_text(mapping = aes(x=question_eng, y=text_position, label=round(value, digits=0)), stat="identity", color="white") +
+     scale_fill_manual(values=c("#A8ACA6","#E4D4A2","#C9A945","#BC9417","#8D6F11","#5E4A0C","#2F2506"), labels=c("Don’t know","Completely true","Rather true","Neither","Rather not true","Not true at all")) +
     coord_flip() +
     labs(y="%", x="") +
     scale_x_discrete(labels = wrap_format(28)) +
@@ -6315,33 +6505,55 @@ Virtuaalse arvamusruumi arengut võiksid soodustada järjestikused päriselt tul
 Ajakirjanduse ja aruteluruumi omavaheline suhe on 21. sajandil keerukam kui kunagi varem. Ajakirjanduse võimalused avalikku aruteluruumi kujundada on teisenenud, keerulisemaks on muutunud ühise inforuumi tekke, elanikkonda ühendava enesetaju ning kaasavate ja avatud vestlussituatsioonide toetamine. Ka avalik aruteluruum ise on mitmekesisem, sisaldades täiesti avalikke, poolavalikke ja laiemale avalikkusele suletud ruume. Internetis võimenduse saanud aruteluruumis saavad nüüd osaleda toimijad, kelle arvamused ei ole seni avalikkuse ette jõudnud. Muutuste hindamine positiivse või negatiivsena on keeruline, kuid rahvusvahelisi pressi- ja arvamusvabaduse hinnanguid aluseks võttes paistab, et Eestis olukord halveneb – oleme langenud pressivabaduse hinnangutes tagasi teise kümnesse ([joonis 4.3.1](#figure431)). Selle olukorra taga võib näha ajakirjanduse vähenenud ressursse ja võimalusi majanduslikust ja poliitilisest mõjust sekkumata toimida ([Vihalemm 2013](#Vihalemm2013)), et anda tõest, igakülgset ja ausat teavet ühiskonnas toimuva kohta, nagu see on sõnastatud ajakirjanduse ülesandena Eesti ajakirjanduseetika koodeksis. Ajakirjanduse olukorra halvenemist märgib indeks juhul, kui riigis esineb nii sõna kui ka teoga rünnakuid ajakirjanike, meediaorganisatsioonide, sõnavabaduse või nende eest seisjate vastu. Ka Eesti ajakirjanikud on viimastel aastatel teada andnud ähvardustest oma elule ja tervisele. Samuti on pressivabaduse vähenemise taga avalikkusesse jõudnud teated toimetuse autonoomia kahanemisest Eesti ühes suurimas meediakontsernis ja ajakirjanike vähenenud töökohakindlus ootamatute vallandamiste tõttu.
 
 <p class="caption" id="figure431"><span class="figure-number">Joonis 4.3.1.</span> Eesti positsiooni muutumine pressivabaduse hinnangutes 15 aasta jooksul Soome ja Lätiga võrreldes</p>
-
+<div class="desktop-plot">
 ```{r, figure431, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 
  fig431_data <- read.csv ("../data/43_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
 
-fig431_data$country <- factor(fig431_data$country, levels = c("Soome","Eesti","Läti"))
+ fig431_data$position_eng[grepl("3. koht",   fig431_data$position)]<-"3rd place"
+ fig431_data$position_eng[grepl("12. koht",   fig431_data$position)]<-"12th place"
+ fig431_data$position_eng[grepl("14. koht",   fig431_data$position)]<-"14th place"
+ fig431_data$position_eng[grepl("24. koht",   fig431_data$position)]<-"24th place"
+ fig431_data$position_eng[grepl("50. koht",   fig431_data$position)]<-"50th place"
+ 
+ fig431_data$country_eng[grepl("Eesti",   fig431_data$country)]<-"Estonia"
+ fig431_data$country_eng[grepl("Läti",   fig431_data$country)]<-"Latvia"
+ fig431_data$country_eng[grepl("Soome",   fig431_data$country)]<-"Finland"
+ 
+fig431_data$country_eng <- factor(fig431_data$country_eng, levels = c("Finland","Estonia","Latvia"))
 
 
-  fig431_plot <- ggplot(data = fig431_data) +
-    geom_line(mapping = aes(x=year, y = as.numeric(value), colour=country, group=country), size=1) +
-    geom_text(mapping = aes(x=year, y=as.numeric(value), label=position), stat="identity", vjust=-0.3) +
+ fig431_plot <- ggplot(data = fig431_data) +
+    geom_text(mapping = aes(x=year, y=as.numeric(value), label=position_eng), stat="identity", vjust=-0.3) +
+    geom_line(mapping = aes(x=year, y = as.numeric(value), colour=country_eng, group=country_eng, text = paste("", country_eng,
+                         "<br>", value)), size=0.75) +
     scale_colour_manual(values=c("#3A404A","#BC9417","#A8ACA6")) +
     scale_y_reverse(breaks=c(0,5,10,15,20,25,30,35,40,45,50,55)) +
     scale_x_continuous(breaks=c(2004,2006,2008,2010,2012,2014,2016,2018)) +
-    labs(y="Koht edetabelis", x="")
+    labs(y="", x="")
 
    fig431_theme <- theme(
         text = element_text(family="Montserrat"),
   )
 
-  print(fig431_plot + fig_theme_general + fig431_theme)
+ggplotly(fig431_plot + fig_theme_general + fig431_theme, tooltip = "text") %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
   #ggsave(path="exported_figures/PDF/chapter4",filename="fig431.pdf", height=140, width=210, units="mm")
 ```
+</div>
 
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+  print(fig431_plot + fig_theme_general + fig431_theme)
+
+```
 ```{block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Reporters without Borders 2018.</div>
 <div><a class="data-btn" href="../data/43_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
@@ -6391,19 +6603,34 @@ Ajalehe toimetus sekkub ühiskonna arvamuskliima kujundamisse jõuliselt näitek
 Ajalehtede arvamuskülgedel arvajate ring on olnud siiski pigem kitsas. Arvajatena eelistatakse isikuid, kes on omandanud arvamusžanri konventsioonid, kelle arvamusi peetakse huvitavaks või kellel on otsustajana piisav tähtsus, et tema arvamusi kajastada. Eestikeelse kultuuriajakirjanduse uuringust ([Kõuts-Klemm 2015](#Kõuts-Klemm2015)), mis hõlmas eri meediakanalite kolme kuu sisu, selgus, et kultuuriteemalistes arvamusartiklites ja arutelusaadetes said kõige rohkem sõna eksperdid ja teadlased (41%), ajakirjanikud ja toimetajad (34%) ning loomeinimesed (17%). Sarnane muster ilmneb arvamusrubriikide puhul ka üldisemalt. Aastal 2018 tehtud kahe üleriigilise päevalehe sisu analüüs näitab, et nende väljaannete arvamustoimetused avaldavad sageli teaduslikke ja eksperdiarvamusi. Kõnekas on ajakirjanike enda nii sage esinemine arvajatena, kuid üldpildis on vähe nähtavad tavakodanike, ametnike ja kultuuritegelaste arvamused ([joonis 4.3.3](#figure433)).
 
 <p class="caption" id="figure433"><span class="figure-number">Joonis 4.3.3.</span> Arvamuslugude autorid eestikeelsetes ülerigiilistes päevalehtedes (%)</p>
-(N = 485, 2018.a. 12 juhuslikult valitud nädalat, argipäevadel ilmunud artiklid)
-.
+(N = 485, 2018.a. 12 juhuslikult valitud nädalat, argipäevadel ilmunud artiklid).
+
+<div class="desktop-plot">
 ```{r, figure433, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 
  fig433_data <- read.csv ("../data/43_fig3_data1.csv", header=TRUE, fileEncoding="utf-8")
 
-fig433_data$group <- factor(fig433_data$group, levels = c("Postimees","Eesti Päevaleht","Kokku"))
-fig433_data$variable <- factor(fig433_data$variable, levels = c("ettevõtja", "ametnik","kultuuritegelane","kodanik","poliitik","ajakirjanik","teadlane, ekspert"))
+  fig433_data$variable_eng[grepl("ettevõtja", fig433_data$variable)]<-"Entrepreneurs"
+  fig433_data$variable_eng[grepl("ametnik", fig433_data$variable)]<-"Public servants"
+  fig433_data$variable_eng[grepl("kultuuritegelane", fig433_data$variable)]<-"Cultural figures"
+  fig433_data$variable_eng[grepl("kodanik", fig433_data$variable)]<-"Citizens"
+  fig433_data$variable_eng[grepl("poliitik", fig433_data$variable)]<-"Politicians"
+  fig433_data$variable_eng[grepl("ajakirjanik", fig433_data$variable)]<-"Journalists"
+  fig433_data$variable_eng[grepl("teadlane, ekspert", fig433_data$variable)]<-"Scientists, experts"
+  
+  fig433_data$group_eng[grepl("Postimees", fig433_data$group)]<-"Postimees"
+  fig433_data$group_eng[grepl("Eesti Päevaleht", fig433_data$group)]<-"Eesti Päevaleht"
+  fig433_data$group_eng[grepl("Kokku", fig433_data$group)]<-"All"
+  
+  
+fig433_data$group_eng <- factor(fig433_data$group_eng, levels = c("Postimees","Eesti Päevaleht","All"))
+fig433_data$variable_eng <- factor(fig433_data$variable_eng, levels = c("Entrepreneurs", "Public servants","Cultural figures","Citizens","Politicians","Journalists","Scientists, experts"))
 
   fig433_plot <- ggplot() +
-    geom_bar(data = fig433_data, mapping = aes(x=group, y=value, fill=variable), width=0.4, stat="identity") +
+    geom_bar(data = fig433_data, mapping = aes(x=group_eng, y=value, fill=variable_eng, text = paste("", variable_eng,
+                         "<br>", value,"%")), width=0.4, stat="identity") +
     scale_fill_manual(values=c("#E6E3DA","#F2EAD1","#E4D4A2","#C9A945","#BC9417","#8D6F11","#5E4A0C")) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,105)) +
     expand_limits (y=0) +
@@ -6416,11 +6643,23 @@ fig433_data$variable <- factor(fig433_data$variable, levels = c("ettevõtja", "a
     panel.grid.minor.x = element_blank(),
   )
 
-  print(fig433_plot + fig_theme_general + fig433_theme)
+ggplotly(fig433_plot + fig_theme_general + fig433_theme, tooltip = "text") %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
   #ggsave(path="../exported_figures/PDF/chapter4",filename="fig433.pdf", height=120, width=200, units="mm")
 ```
+</div>
 
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+print(fig433_plot + fig_theme_general + fig433_theme)
+
+```
+</div>
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Autori joonis.</div>
 <div><a class="data-btn" href="../data/43_fig3_data1.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
@@ -6615,11 +6854,12 @@ library("tidyverse")
 fig442_data_cleaned <- as.data.frame(table(fig442_data$date))
 fig442_data_cleaned$date <- as.Date(fig442_data_cleaned$Var1)
 
+names(fig442_data_cleaned)[names(fig442_data_cleaned) == "Freq"] <- "Frequency"
 
   fig442_plot <- ggplot(data = fig442_data_cleaned) +
-    geom_line(mapping = aes(x=date, y=Freq), size=.8, group="date", colour="#BC9417") +
+    geom_line(mapping = aes(x=date, y=Frequency),group="date", size=.75, colour="#BC9417") +
     scale_x_date(date_breaks="2 months",date_labels =  "%d.%m.%y") +
-    labs(y="Sagedus", x="Kuupäev")
+    labs(y="Frequency", x="")
 
     fig442_theme <- theme(
                      axis.line = element_line(size = 0.2, colour = "#cccccc"),
@@ -6628,12 +6868,23 @@ fig442_data_cleaned$date <- as.Date(fig442_data_cleaned$Var1)
                       text = element_text(family="Montserrat"),
                  )
 
-  print(fig442_plot + fig_theme_general + fig442_theme)
+ggplotly(fig442_plot + fig_theme_general + fig442_theme, tooltip = "Frequency") %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
+layout(xaxis = list(fixedrange = TRUE)) %>%
+layout(yaxis = list(fixedrange = TRUE))
 
   #ggsave(path="exported_figures/PNG",filename="fig442.png",height=150, width=300, units="mm")
   #ggsave(path="exported_figures/PDF",filename="fig442.pdf", height=120, width=200, units="mm")
 ```
+</div>
 
+<div class="mobile-plot">
+```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
+
+  print(fig442_plot + fig_theme_general + fig442_theme)
+```
+</div>
 ```{block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Station.ee meediamonitooring, otsisõnad „puidurafineerimistehas“ ja „tselluloositehas“.</div>
 <div><a class="data-btn" href="../data/44_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
@@ -6831,10 +7082,15 @@ names(fig51_data)[names(fig51_data) == "variable"] <- "year"
 
 fig51_data$year <- as.numeric(as.character(fig51_data$year))
 
+fig51_data$scenario_eng[grepl("Stsenaarium 1", fig51_data$scenario)]<-"Scenario 1 (baseline)"
+fig51_data$scenario_eng[grepl("Stsenaarium 2 ", fig51_data$scenario)]<-"Scenario 2 (high birth rate and migration rate)"
+fig51_data$scenario_eng[grepl("Stsenaarium 3", fig51_data$scenario)]<-"Scenario 3 (low birth rate, low mortality, balanced migration)"
+fig51_data$scenario_eng[grepl("Stsenaarium 4", fig51_data$scenario)]<-"Scenario 4 (birth rate at replacement level)"
+
   fig51_plot <- ggplot(data = fig51_data) +
-    geom_line(mapping = aes(x=year, y = value, colour=scenario, group=scenario), size=1) +
+    geom_line(mapping = aes(x=year, y = value, colour=scenario_eng, group=scenario_eng), size=1) +
     scale_colour_manual(values=c("#500e0c", "#a01b17", "#a4d0cd", "#ec6823"))+
-    labs(y="Rahvaarv", x="aasta") +
+    labs(y="Population", x="") +
     scale_x_continuous(breaks=c(2019,2030,2040,2050,2060,2070,2080), expand = c(0, 0), limits=c(2019,2082))+
     scale_y_continuous(breaks=c(200000,400000,600000,800000,1000000,1200000,1400000), labels = number, expand = c(0, 0), limits=c(0,1400000))+
     expand_limits (y=0)+
@@ -6884,10 +7140,10 @@ fig52_data <- fig52_data[order(fig52_data$Üksus),]
 
 Brutotulu$palk <- fig52_data$Väärtus
 
-names(Brutotulu)[names(Brutotulu) == "palk"] <- "Keskmine Brutotulu (€)"
+names(Brutotulu)[names(Brutotulu) == "palk"] <- "Average gross income (euros)"
 
 fig_52_plot <- tm_shape(Brutotulu) + 
-    tm_fill("Keskmine Brutotulu (€)",title="Keskmine brutotulu (eurot)", palette = c("#E6E3DA","#d7bf74","#a01b17"), breaks=c(925,1043,1075,1107,1144,1209,1349,1711), popup.vars="Keskmine Brutotulu (€)", id="NIMI") +
+    tm_fill("Average gross income (euros)",title="Average gross income (euros)", palette = c("#E6E3DA","#d7bf74","#a01b17"), breaks=c(925,1043,1075,1107,1144,1209,1349,1711), popup.vars="Average gross income (euros)", id="NIMI") +
   
   tm_borders(col="white") +
   
@@ -6906,7 +7162,7 @@ fig_52_plot <- tm_shape(Brutotulu) +
       )
    
 tmap_mode("view")
-#fig_52_plot
+fig_52_plot
 
 #tmap_save(tm = fig52_plot, filename = "fig52.pdf")
 
@@ -7023,10 +7279,19 @@ fig54_data <- melt(fig54_data, id=c("Linnaosa"))
 
 #fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohtade pindala (20m²/pk)","Parkimiskohtade pindala (25m²/pk)","Parkimiskohtade pindala (30m²/pk)","Parkimiskohtade pindala (40m²/pk)","Tänavavõrgu pindala (m²)","Jalakäija ruumi pindala (m²)","Eluruumide pindala (m²)","Bürooruumide pindala (m²)","Kaubandus- ja teeninduruumide pindala (m²)","Meelelahutus-, haridus- tervishoiu- ja muude avalike ruumide pindala (m²)","Tööstus- ja laoruumide pindala (m²)"))
 
-fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohad (25m²/pk)","Tänavavõrk","Jalakäijate ruum","Eluruumid","Bürooruumid","Kaubandus- ja teenindusruumid","Meelelahutus-, haridus-, tervishoiu- ja muud avalikud ruumid","Tööstus- ja laoruumid"))
+fig54_data$variable_eng[grepl("Parkimiskohad", fig54_data$variable)]<-"Parking spaces (25m²/pk)"
+fig54_data$variable_eng[grepl("Tööstus- ja laoruumid", fig54_data$variable)]<-"Industrial and storage facilities"
+fig54_data$variable_eng[grepl("Meelelahutus-, haridus-, tervishoiu- ja muud avalikud ruumid", fig54_data$variable)]<-"Public spaces (entertainment, education, health, etc.)"
+fig54_data$variable_eng[grepl("Kaubandus- ja teenindusruumid", fig54_data$variable)]<-"Commercial and service spaces"
+fig54_data$variable_eng[grepl("Bürooruumid", fig54_data$variable)]<-"Office spaces"
+fig54_data$variable_eng[grepl("Eluruumid", fig54_data$variable)]<-"Dwellings"
+fig54_data$variable_eng[grepl("Jalakäijate ruum", fig54_data$variable)]<-"Pedestrian space"
+fig54_data$variable_eng[grepl("Tänavavõrk", fig54_data$variable)]<-"Street network"
+
+fig54_data$variable_eng <- factor(fig54_data$variable_eng, levels = c("Parking spaces (25m²/pk)","Street network","Pedestrian space","Dwellings","Office spaces","Commercial and service spaces","Public spaces (entertainment, education, health, etc.)","Industrial and storage facilities"))
 
   fig54_plot <- ggplot(data = fig54_data) +
-    geom_col(mapping = aes(x=variable, y = as.numeric(as.character(value)), fill=variable), size=0.7) +
+    geom_col(mapping = aes(x=variable_eng, y = as.numeric(as.character(value)), fill=variable_eng), size=0.7) +
     facet_wrap(~Linnaosa, nrow=8, strip.position="right") +
     coord_flip() +
     labs(y="m²", x="") +

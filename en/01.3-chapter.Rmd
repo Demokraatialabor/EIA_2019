@@ -207,7 +207,7 @@ Linnavormiliselt eristuvad põhiliselt ühepereelamutega hoonestatud asumid (tih
 
 ```{r, figure134, out.width='90%', fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
-knitr::include_graphics("../figures/1-chapter/fig134.png")
+knitr::include_graphics("../figures/1-chapter/fig134_eng.jpg")
 
 ```
 

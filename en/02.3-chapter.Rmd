@@ -63,7 +63,7 @@ Aktivismi tekkelugu paigutub Eesti kodanikuühiskonna üldise arengu ajajoonele.
 
 ```{r, figure231, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig231.png")
+knitr::include_graphics("../figures/2-chapter/fig231_eng.jpg")
 
 ```
 
@@ -88,7 +88,7 @@ Kui valdavalt jõuavad asukohapõhised liikumised tegeleda konkreetsete piirkond
 <p class="caption" id="figure232"><span class="figure-number">Joonis 2.3.2.</span> Ruumiaktivisti rollid</p>
 ```{r, figure232, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig232.png")
+knitr::include_graphics("../figures/2-chapter/fig232_eng.jpg")
 
 ```
 

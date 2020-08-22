@@ -596,7 +596,7 @@ Andmed toetuste väljamaksmiste kohta kogu toetuste väljamaksmise perioodil. Ko
 
 ```{r, figure1411, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/1-chapter/fig1411.png")
+knitr::include_graphics("../figures/1-chapter/fig1411_eng.jpg")
 
 ```
 

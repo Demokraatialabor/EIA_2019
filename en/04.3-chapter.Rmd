@@ -34,7 +34,7 @@ fig431_data$country_eng <- factor(fig431_data$country_eng, levels = c("Finland",
 
  fig431_plot <- ggplot(data = fig431_data) +
     geom_text(mapping = aes(x=year, y=as.numeric(value), label=position_eng), stat="identity", vjust=-0.3) +
-    geom_line(mapping = aes(x=year, y = as.numeric(value), colour=country_eng, group=country_eng, text = paste("", country,
+    geom_line(mapping = aes(x=year, y = as.numeric(value), colour=country_eng, group=country_eng, text = paste("", country_eng,
                          "<br>", value)), size=0.75) +
     scale_colour_manual(values=c("#3A404A","#BC9417","#A8ACA6")) +
     scale_y_reverse(breaks=c(0,5,10,15,20,25,30,35,40,45,50,55)) +

@@ -97,7 +97,7 @@ library("gridExtra")
 
 #ggsave(path="exported_figures/PDF/chapter2",filename="fig221.pdf",g, height=280, width=180, units="mm")
 
-knitr::include_graphics("../figures/2-chapter/fig221.png")
+knitr::include_graphics("../figures/2-chapter/fig221_eng.jpg")
 
 ```
 
@@ -112,7 +112,7 @@ Ehituspärandi mõju on siiski laiem. Külastuspaikade tekke kõrval on sel olul
 
 ```{r, figure222, out.width='90%',fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig222.png")
+knitr::include_graphics("../figures/2-chapter/fig222_eng.jpg")
 
 ```
 ``` {block, type='imgsource'}

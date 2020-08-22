@@ -470,7 +470,7 @@ p.caption {
   margin-bottom:3em;
   font-size:0.8em;
   display:grid;
-  grid-template-columns: auto 105px;
+  grid-template-columns: auto 115px;
 }
 
 .data-btn {
