@@ -5,30 +5,29 @@
 <div><a class="print-btn" href="../print/EIA-2019-0-Eessona.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
-Kallis lugeja!
+Dear reader,
 
-Kirjutan neid ridu kroonviirushaiguse puhangu esimese laine viimastel nädalatel. See aruanne on valminud valdavalt enne pandeemiat, erandiks vaid sissejuhatus ja käesolev eessõna.
+I am writing these lines during the last weeks of the first wave of the coronavirus outbreak. Most of this report was completed before the pandemic, with the exception of the introduction and this foreword.
 
-Võib-olla loed Sina seda aruannet uues isolatsioonis, võib-olla oodates juba leitud vaktsiini Eestisse jõudmist või elades koos kroonviirushaiguse riskiga, teades, et vähemalt mõned antiviraalsed ravimid on meil kättesaadavad ja evivad piisavat raviefekti, et saaksime end veidi kindlamini tunda.
+You may be reading this during a new isolation, perhaps waiting for an already developed vaccine to arrive in Estonia, or living with the threat of the coronavirus, knowing that at least some antiviral drugs are available to us and effective enough to make us feel a bit more confident.
 
-Kuidas ka ei oleks, selle aruande põhiteemad – linnastumine ja sellest valikust tingitud halvem elukeskkond; inimesest lähtuv linnaplaneerimine; hajaasustus ja sellest tulenevate probleemide maandamine; inimeste omavastutus ja vabatahtlik panustamine demokraatliku ühiskonna arengusse ja püsimisse; kliima muutumisega kaasnevad probleemid ning vajadus neid juhtida ja ületada – saavad kroonviiruse põhjustatud kriisi valguses läbi katsutud ja leitud olulised olevat.
+How ever it may be, the main themes of this report – urbanisation and the deterioration of the living environment caused by this choice; human-centric urban planning; sparse population and the mitigation of the resulting problems; people’s personal responsibility and voluntary contribution to the development and maintenance of a democratic society; the challenges posed by climate change, and the need to manage and overcome them – will be tested and their significance proven through the crisis caused by the coronavirus.
+Nothing has changed, although it feels as if everything had. In particular, we have lost our confidence that humanity as a whole, or at least the more affluent part of it – those with sufficient access to food, water, education and healthcare – will be able to cope with anything that nature, or its response to our actions towards it, can throw at us. No more than six months ago, for many of us, the only piece missing from that confidence seemed to be a sense of how to protect ourselves against those whom fate has dealt a weaker hand – refugees from war, climate change or economic disadvantage. So, we live in a new world, but the problems we face in that world are pretty much the same.
 
-Midagi ei ole muutunud, kuigi justkui kõik on muutunud. Eelkõige on kadunud meie kindlustunne, et inimkond tervikuna või vähemalt selle jõukam, s.t toidu, vee, hariduse ja tervishoiuga varustatud osa, tuleb toime kõigega, mida loodus või selle vastus meie toimetamisele tema kallal suudavad pakkuda. Veel pool aastat tagasi tundus paljude jaoks olevat ainuke kindlustundest puudu olev osa see, kuidas me saaksime ennast kaitsta nende eest, kellele saatus on kätte mänginud halvemad kaardid, olgu nad siis sõja-, kliima- või majanduspõgenikud. Niisiis – elame uues maailmas, aga probleemid, millega selles maailmas toime tulema peame, on seejuures ikka üsna samad.
+How do we turn Tallinn, our expanding capital, into a green city safe for pedestrians and cyclists, where you can still quickly get from one side of the city to the other? How do we make sure that the city is not a public service desert when it comes to noticing and helping people? Can we take advantage of the trend that already existed before the coronavirus crisis, with many Estonians moving to the country, and being reluctant to come back to work in the city? How could the sparsely populated areas in Estonia be helped by the unexpected realisation that our tolerance for remote work seems to be much higher than we previously thought? Could our startups and ICT sector and the services they provide in other fields further strengthen this trend?
 
-Kuidas teha meie suurest pealinnast roheline, jalakäijale ja ratturile turvaline linn, kus oleks ikkagi võimalik kiiresti jõuda ka ühest linna äärest teise? Kuidas teha nii, et seesama suur linn ei oleks avalike teenuste kõrb, mis puudutab märkamist ja aitamist? Kas suudame ära kasutada juba enne kroonviiruse kriisi olemas olnud suundumust, kus eestlased liikusid osaliselt maale ja ilmutasid vastumeelsust sealt jälle linna tööle tulemise suhtes? Kuidas võiks hõreasustatud Eestit aidata kriisis ootamatult selgunud asjaolu, et meie tolerants kaugtöö suhtes paistab palju suurem, kui seni on arvatud? Kas meie iduettevõtete ja IKT-sektor ning nende sektorite pakutavad teenused teistes majandusvaldkondades võiksid seda suundumust veelgi tugevdada?
+Is there a way for us to launch an active climate revolution and use it to support our economic development instead of passively seeking climate neutrality by consuming green energy produced by others? What role would a climate revolution play in our consumer choices, including the choices we make in transport, and what role will be played by a shift to clean and diffuse energy production? Will Tartu and Pärnu – the smart city and the summer capital – as well as other smaller cities show what can be achieved in a city whose size does not force it to compromise between mobility and the environment, including the urban environment?
 
-Kas ja kuidas suudame sooritada aktiivse kliimapöörde ja toetada sedakaudu ka oma majandusarengut, selmet muutuda passiivselt kliimaneutraalseks, tarbides teiste riikide toodetud rohelist energiat? Mis roll on kliimapöördel meie enda tarbimisvalikutes, muu hulgas transpordiga seotud valikutes, ja millist rolli kannab energia tootmise muutmine puhtaks ja hajusaks? Kas tark Tartu ja suvitajatele orienteeritud Pärnu ning teised väiksemad linnad näitavad, mida suudab üks linn, kes ei pea suuruse tõttu tegema kompromisse liikuvuse ja keskkonna, ka linnakeskkonna vahel?
-
-Kallis lugeja – Sa ei leia neile küsimustele siit aruandest vastuseid. Aga Sa saad teada, kuidas meie Eesti elab ja hingab. Eesti, kes on maailma inimarengu indeksis kõrgel 30. kohal – paigas, mis võimaldab suurelt unistada, kiirelt otsustada ja kogu ühiskonnale üheldasa kasu toovaid lahendusi leida.
+Dear reader, you will not find the answers to these questions in this report. But you will find out how our country lives and breathes. Ranking 30th in the Human Development Index, Estonia holds a high position that allows us to dream big, make quick decisions and find solutions that benefit society as a whole. 
 
 <div class=president-grid-container>
 <div president-title-container>
-<p id="head-lugemist">Head lugemist!</p>
+<p id="happy-reading">Happy reading!</p>
 
 **Kersti Kaljulaid**<br>
-Eesti Vabariigi President
+President of the Republic of Estonia
 
-Kadriorus, 11. mail 2020
+Kadriorg, 11 May 2020
 </div>
 
 <div class="president-photo-container">
