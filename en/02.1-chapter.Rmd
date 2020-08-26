@@ -2,226 +2,226 @@
 
 ```{block, type='authors'}
 <div class="author-links">**[Toomas Paaver](#toomas-paaver) ja [Elo Kiivet](#elo-kiivet)**</div>
-<div><a class="print-btn" href="../print/EIA-2019-2.1.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="print/EIA-2019-2.1.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ```{block, type='points'}
-* Avaliku ruumi hoidmine ja arendamine on avaliku sektori ülesanne ning see nõuab loomingulist lähenemist, professionaalsust ja osapoolte koostööd.
+* Maintaining and developing public space is a task for the public sector and requires creativity, professionalism and cooperation.
 ```
 
-Iga kord, kui oma kodu uksest või väravast välja astume, siseneme avalikku ruumi. See on ühisruum, mille kaudu liigume ka kõigi mitteavalike ruumide vahel. Avalik ruum ei ole üksnes liikumiseks. See on olemisruum, mille terviklikust toimimisest sõltub ühiskonna sidusus ja elukeskkonna kvaliteet. ÜRO linnade tulevikuga ja kestliku inimasustusega tegelev programm ([ÜRO 2017](#2United2017)) määratleb avaliku ruumina kohti, mis on ligipääsetavad ja nauditavad kõigile ilma kasumitaotluseta. See on igapäevane ruum, aga ka arutluste ja meeleavalduste toimumise koht. Hea avalik ruum aitab tugevdada kogukondi, ergutada kodanikuosalust, vähendada segregatsiooni ja kasvatada sallivust, seega väljendub avaliku ruumi kvaliteedis ühiskonna ja demokraatia tervis.
+Every time we step out the front door or garden gate, we enter the public space. It is the common space that allows us to move between all non-public spaces. But public space is not only about mobility. It is a common living space, the integrated functioning of which determines the extent of social cohesion and the quality of the living environment. The UN-Habitat programme dealing with the future of cities and sustainable human settlements ([United Nations 2017](#2United2017)) defines public spaces as all places accessible and enjoyable by all for free and without a profit motive. It is our everyday living space but also a venue for discussions and demonstrations. Good public space helps strengthen communities, promote citizen participation, reduce segregation and encourage tolerance; therefore, the quality of public space can also be seen as a manifestation of the health of the society and democracy.
 
 ```{block, type='blockquote-left'}
-Hea avalik ruum aitab tugevdada kogukondi, ergutada kodanikuosalust, vähendada segregatsiooni ja kasvatada sallivust.
+Good public space helps strengthen communities, promote citizen participation, reduce segregation and encourage tolerance.
 ```
-Meie elukeskkonda mõjutavad protsessid ja otsused eri valdkondades (transport, keskkonnakaitse, ettevõtlus, haridus, kultuur jm) moodustavad omavahel arvukaid ruumilisi seoseid, mis mõjutavad avaliku ruumi toimimist. See tähendab, et avalik ruum on habras ja kergelt kahjustatav, kui seda arendada tervikut nägemata. Avalik ruum pole eraldiseisev maastikuline või tehniline element, vaid seostub ümbritsevate hoonete ja mitteavalike ruumidega, luues terviklikke kooslusi nii funktsionaalses kui ka esteetilises mõttes.
-Artiklis vaatleme füüsilist avalikku ruumi eelkõige linnakeskkonnas, avaliku sektori vastutust selle kaitsmisel ning selle mõtestamist õigusruumis ja valitsemises. Sissejuhatavas osas selgitame, millest koosneb avalik ruum, ja toome välja avaliku ruumi kvaliteedi alused. Küsime, kuidas on taasiseseisvunud Eesti õigusruumis avalikku ruumi mõistet sisustatud, ja kirjeldame, kuidas on avalikku ruumi teadvustanud avalik sektor. Lõpetuseks pakume välja põhimõtted, kuidas kaitsta ja parendada avalikku ruumi.
+Processes and decisions in different areas (transport, environmental protection, business, education, culture, etc.) affect our living environment and result in a multitude of spatial relationships that determine the functioning of the public space. This means that public space that is developed without an integrated vision is fragile and vulnerable. Public space is not an isolated element of landscape or technology; it is interconnected with the surrounding buildings and non-public spaces, creating integrated localities, both functionally and aesthetically.
 
-### Avalik ruum on võrgustik, mis seob inimeste elu-, töö- ja tegevuskohad {-.chapter2_section}
+This chapter will discuss the physical public space primarily within urban environments, the responsibility of the public sector for protecting it, and the treatment of the concept in legislation and governance. The introductory section will explain the components of public space and outline the basic requirements for good-quality public space. We will also pose the question of how the concept of public space has been treated in Estonian legislation since the restoration of the country’s independence and how it has been perceived by the public sector. Finally, we will propose a number of principles for the protection and improvement of public space.
+
+### Public space is a network connecting people’s homes, workplaces and other activity spaces {-.chapter2_section}
 
 ```{block, type='blockquote-right'}
-Avalikul omandil põhineva avaliku ruumi esmane ja keskne funktsioon on läbi ajaloo olnud inimeste elu sidumine.
+Throughout history, the primary and central function of public space as public property has been to connect people’s lives.
 ```
 
-Käsitusel avalikust ruumist kui avalikust asjast on enam kui paari tuhande aastane  ajalugu. Juba Rooma eraõiguses eksisteeris omandistruktuuri kontekstis esemete liik *res extra commercium*, mis seisis väljaspool käivet ehk ei saanud olla eraomandi ja tehingute objektiks. Selle hulka kuulusid muu hulgas *res communes omnium*, mille loodus on määranud kõigile, näiteks õhk, meri ja voolav vesi, ning *res publicae* ehk asjad, mida võiks iseenesest omandada, kuid nad on üldise kasu huvides määratud kõigile kasutamiseks, näiteks jõe kaldad ja avalikud teed ([Ilus 2000](#Ilus2000)).
+Understanding public space as a public thing dates back more than two thousand years. Roman private law already described *res extra commercium*– ‘a thing outside commerce’ – which was excluded from private ownership and could not be traded. This included *res communes omnium*– things naturally belonging to everyone, such as the air, the sea and flowing water – as well as *res publicae* – objects that could be owned privately but have been designated for public use in the interest of the common good – for example, riverbanks and public roads ([Ilus 2000](#Ilus2000)).
 
-Avalikul omandil (*res publicae*) põhineva avaliku ruumi esmane ja keskne funktsioon on läbi ajaloo olnud inimeste elu sidumine. Tänapäeval tähendab see elukeskkonna kvaliteedi mõistes ennekõike seda, et iga inimene tunneks end ruumis meeldivalt, mugavalt ja ohutult sõltumata vanusest, sissetulekust ja sõiduvahendi olemasolust ning et seda võimaldav ruum algaks igast kodust. Kui märkida kaardile kõigi inimeste teekonnad ja tegevuskohad ühe päeva jooksul, siis meenutab saadud kujutis võrgustikku. See avaliku ruumi kujutis kattub linnades paljuski tänavavõrgustikuga, kuid on tegelikkuses tunduvalt nüansirikkam.
+Throughout history, the primary and central function of public space as public property (*res publicae*) has been to connect people’s lives. From the point of view of the quality of the living environment, today this means that every person should perceive the space as pleasant, comfortable and safe, starting from their own doorstep, regardless of age, income or vehicle ownership. If we drew the movement trajectories and activity spaces of every single person on a map, we would see a network-like image. In cities, this image of public space would largely coincide with the street network, but is far more nuanced in reality.
 
 <div class='casebox'>
-<h3>Füüsilise ruumi seos omandiga</h3>
-Avalik ruum on enamasti riigi või kohaliku omavalitsuse omandis, aga vahel ka eraomandis. Kõige paremini väljendub avaliku ruumi võrgustikulaadne olemus linnade krundiplaanidel omandistruktuuri kaudu. Avalik omand moodustab seotud süsteemi, kuid eraomand koosneb üksikutest eraldiseisvatest maatükkidest.
+<h3>Public space and ownership</h3>
+Public space usually belongs to the state or municipality; occasionally it may be privately owned. The network-like nature of public space is best displayed on cadastral maps of cities, depicting ownership structure. Public property makes up an interconnected system, while private property consists of single separate parcels.
 
-<p class="caption" id="figure211"><span class="figure-number">Joonis 2.1.1.</span> Keila linna omandistruktuuri kaart (üldplaneeringu lähtematerjal)</p>
+<p class="caption" id="figure211"><span class="figure-number">Figure 2.1.1.</span> Map of ownership structure in the town of Keila</p>
 
 ```{r, figure211, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig211_eng.jpg")
+knitr::include_graphics("figures/2-chapter/fig211.png")
 
 ```
 
 </div>
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Sfäär planeeringud 2019.
+<span class="imgsource-source">Source:</span> Sfäär planeeringud 2019.
 ```
 
-Avalik ruum koosneb peale tänavavõrgustiku parkidest, veekogudest, väljakutest, ühiskondlike objektide maa-aladest. Lisaks sisaldab see arvukalt teisi võrgustikke, mis on vajalikud eraomandi toimimiseks ja mis pakuvad avalikke teenuseid. Näiteks avaliku maa all on trassid, mis tagavad elektri-, vee- ja soojusvarustuse kodudes ja ärides. Avaliku ruumi maapealses osas on võrgustikud eri liikumisviisidele ja sõidukitele, et tagada inimeste ja kaupade ligipääs eraomandile. Ühistranspordisüsteem on avaliku ruumi oluline osa.
+In addition to the street network, public space also comprises parks, waterbodies, squares and land under and around public buildings. It also includes a number of other public service networks necessary for the functioning of private property. For example, electricity, water and district heating for homes and businesses are provided through underground utility networks below public land. On the ground, networks for different modes of mobility and vehicles ensure the access of people and goods to private property. The public transport system is an integral part of the public space.
 
-Avalik ruum ei ole ühene ega selgepiiriline, sest võib hõlmata eraomandit ning selles võivad sisalduda ruumiosad, mis pole igal ajahetkel kättesaadavad, on tasulised või mõeldud kasutuseks kindla kogukonna liikmetele. Sellised poolavalikud ruumid on näiteks piirdetaraga spordiplatsid, kaubamaja sisetänavad, kortermajade hoovid ja välikohvikud. Avalik ruum on hajus, kuna ruumil on omadusi, mille mõjud ulatuvad vahetust füüsilisest ümbrusest kaugemale. Nii vaated ja keskkonnamõjud kui ka hooned ja nende fassaadid on osa avaliku ruumi ühishuvist, mõjutades seda nii visuaalselt kui ka seal toimuvate tegevuste kaudu.
+Public space can never be defined completely and comprehensively, as it may contain parts of private property, not accessible at any given time, accessible for a fee or only open for use by members of a specific community. Such semi-public spaces include fenced sports grounds, internal streets of shopping centres, courtyards of apartment buildings, and street cafés. Public space is diffuse, as it has properties that have an impact beyond its immediate physical surroundings. Views and environmental impact, as well as buildings and their facades are objects of common interest in the public space, influencing it both visually and through the activities taking place in the shared space.
 
-### Avaliku ruumi kvaliteedi määrab eelkõige selle sidusus kõigile kasutajatele {-.chapter2_section}
+### The quality of public space is mainly determined by its continuity for all users {-.chapter2_section}
 
-Avaliku ruumi peamine tunnus on vaba ligipääs kõigile nii füüsilises, sotsiaalses kui ka rahalises mõttes. Vaba ligipääs on tagatud siis, kui ruumi kasutajal on võimalik oma igapäevaseid ning ühiskondlike tegevusi iseseisvalt teha järjepidevas ruumis, milles ei ole takistusi või katkestusi. Keskse tähendusega on jalgsi liikuva inimese võrgustik. Kuigi tänavaruumis sisalduv sõidutee on avaliku ruumi vajalik osa, võib sõidukite liigne kiirus ja liiklustihedus selle muuta nii ebaturvaliseks, et see langeb n-ö avaliku ruumi kaardilt välja. Sel juhul kujuneb iga ülekäigurada ja kõnnitee väga oluliseks võrgustiku elemendiks. Kui need osad on kitsad, omavahel sidumata, ohtlikud või ebameeldivad, siis võrgustik katkeb, sest tänavad ja ristmikud ei toimi enam kõigile ruumikasutajatele liikumis- ega olemisruumina.
+The chief characteristic of public space is free access to all in the physical, social and also financial sense. Free access has been guaranteed if the users of the space can carry out their everyday and social activities independently in a continuous space that does not contain barriers or interruptions. The network used by pedestrians is of central importance. Although the carriageway in the street is a necessary component of public space, the excessive speed of vehicles and traffic density may create a level of danger that effectively banishes the space from public use. In this case, every single crossing and footpath will become an essential element of the network. If these elements are too narrow, not interconnected, dangerous or unpleasant, the network will be interrupted because streets and crossings can no longer serve all users as a space for living and moving around.
 
 <div class="casebox">
 
-### Avaliku ruumi sidus areng
+### Developing a continuous public space
 
-Tartus 2016. aastal koos Eesti Rahva Muuseumi (ERM) rajamisega uuendatud Roosi tänav rõhutab nii läbivates ruumilistes ideedes kui ka täpsemates lahendustes kesklinna ja muuseumi sidumist jalgsi liikuvale inimesele. See on võimendanud ruumitunnetust, milles ERM ei ole eraldiseisev objekt, vaid seotud Tartu kesklinna avaliku ruumi kui võrgustikuga, andes lähtepunkti ka järgmistele sammudele piirkonna elukeskkonna parendamisel.
+Roosi Street in Tartu, renovated in 2016 in conjunction with the construction of the Estonian National Museum, establishes a pedestrian connection between the city centre and the museum with emphasis on both the overarching spatial design and specific solutions. This enhances the spatial perception of the museum not as a stand-alone item but a node in the public space network of central Tartu, also serving as a platform for further steps to improve the living environment in the neighbourhood.
 
-<p class="caption" id="figure212"><span class="figure-number">Joonis 2.1.2.</span> Roosi tänav Tartus</p>
+<p class="caption" id="figure212"><span class="figure-number">Figure 2.1.2.</span> Roosi Street in Tartu</p>
 ```{r, figure212, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig212.png")
+knitr::include_graphics("figures/2-chapter/fig212.png")
 
 ```
 </div>
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Triin Pitsi.
+<span class="imgsource-source">Source:</span> Triin Pitsi.
 ```
 
-Autostumise tulemusel on avalikku ruumi sageli arendatud lihtsustatult, käsitledes seda pigem transporditaristuna ja juhindudes sõiduautost ja sõiduteede võrgustikust. Paljude riikide kogemus näitab, et see viib kergesti elukeskkonna halvenemiseni ja ligipääsetavuse vähenemiseni ([Gehl 2015](#Gehl2015)). Kui avalik ruum ei toimi inimsõbraliku võrgustikuna, siis kolivad autodesse ka need, kes muidu autot ei kasutaks, ja see toob linnades kaasa paratamatu ummistumise. Jalakäijale suunatud sidus avalik ruum tingib ka ühistranspordi aktiivse kasutamise. Kuigi ühe osa avaliku ruumi kvaliteedist moodustab võimalus liikuda sõiduautoga, on hea elukeskkonna eelduseks arusaam, et avalikus ruumis on inimene alati sõidukitest tähtsam.
+As a result of motorisation, public space has often been developed in an oversimplified fashion, considering it primarily as a transport infrastructure, focusing on passenger vehicles and the road network. The experience of numerous countries demonstrates that this can easily lead to reduced quality of the living environment and limited access ([Gehl 2015](#Gehl2015)). If public space does not operate as a human-friendly network, the people who would not otherwise drive a car, will start using one, inevitably leading to urban congestion. Well-interconnected public space with a focus on pedestrians also brings about active use of public transport. Although the opportunity to move in a passenger car is one aspect of the quality of public space, a good living environment is based on the principle that in the public space humans take precedence over vehicles.
 
 ```{block, type='blockquote-left'}
-Autostumise tulemusel on avalikku ruumi sageli arendatud lihtsustatult, käsitledes seda pigem transporditaristuna ja juhindudes sõiduautost ja sõiduteede võrgustikust.
+As a result of motorisation, public space has often been developed in an oversimplified fashion, considering it primarily as a transport infrastructure, focusing on passenger vehicles and the road network.
 ```
 
-Sidus avalik ruum on üleilmselt oluline arengusuund elukeskkonna kvaliteedi parandamisel. ÜRO säästva arengu üks eesmärke on tagada aastaks 2030 universaalne juurdepääs kaasavale ja ligipääsetavale avalikule ruumile ning rohealadele, sest hästi kujundatud ja hooldatud sidus avalik ruum tagab madalamad kuritegevuse näitajad, võimestab sotsiaalselt tõrjutud ühiskonnarühmi ning on eeldus õnnelike ja tervete kodanike heaolule. Kvaliteetne avalik ruum on linnade majandusliku, keskkondliku ja ka kultuurilise konkurentsivõime alus ([ÜRO 2017](#2United2017)). Avalikku ruumi esikohale seadev kohaloome katusorganisatsioon mittetulundusühing Project for Public Spaces nimetab avaliku ruumi majandusliku kasuna näiteks kinnisvara väärtuse tõusu, suurenenud väikeäride tihedust ja kasvavat käivet ([PPS 2007](#Project2007)). Hea avalik ruum vähendab õhu- ja mürareostust ning toetab liigirikkuse kasvu.
+Continuous public space is a globally important trend in the effort to improve the quality of living environments. One of the UN’s sustainable development goals for 2030 is guaranteeing universal access to inclusive and accessible public space and green areas, as well-designed and well-maintained continuous public space ensures lower crime rates, empowers socially excluded groups and serves as a prerequisite for the well-being of happy and healthy citizens. Good-quality public space is the basis for the economic, environmental and cultural competitiveness of cities ([United Nations 2017](#2United2017)). Project for Public Spaces ([2007](#Project2007)), a non-profit umbrella initiative for creating public spaces, lists rising property prices, increasing density of small shops and increasing sales among the economic benefits of public space. Good-quality public space reduces air and noise pollution and supports biodiversity.
 
 ```{block, type='blockquote-right'}
-Kuigi ühe osa avaliku ruumi kvaliteedist moodustab võimalus liikuda sõiduautoga, on hea elukeskkonna eelduseks arusaam, et avalikus ruumis on inimene alati sõidukitest tähtsam.
+Although the opportunity to move in a passenger car is one aspect of the quality of public space, a good living environment is based on the principle that in the public space humans take precedence over vehicles.
 ```
-Avaliku ruumi kui võrgustiku kvaliteedi esmane omadus on teekondade jätkuvus, mugavus ja ohutus nii lastele, eakatele kui ka erivajadustega inimestele, lähtudes igast kodust, töö- ja tegevuskohast; aga niisamuti ka terviklik ökosüsteem. Kvaliteetset avalikku ruumi iseloomustab ka selle üksikosade, iga tänava, platsi ja pargi esteetika, tajuelamused ja sümboolsed tähendused. Ruumikasutajate eri soovidele ja võimalustele vastab mitmekesine avalik ruum, mis võimaldab valikuvabadust ja iseorganiseerumist. Avaliku ruumi terviklikkuse ja kvaliteedi tagab kõikide nende aspektide kohaspetsiifline ning ruumiline läbimõeldus nii ruumi planeerimise, projekteerimise, ehitamise kui ka kasutamise järgus.
+The primary characteristics of quality public space as a network is continuity, convenience and safety of trajectories for children, the elderly and disabled people, starting from every home, workplace and activity space, complemented by an integrated ecosystem. Good-quality public space is also characterised by the aesthetics, sensations and symbolic meanings associated with each of its single components – streets, squares and parks. The different wishes and resources of its users will be met by a multifaceted public space, allowing freedom of choice and self-organisation. The integrity and quality of public space is ensured only through the locality-specific spatial conceptualisation of all the aspects listed above during the stages of planning, design, construction and use of the space.
 
-### Avaliku ruumi mõiste on Eesti õigussüsteemis sisustamata {-.chapter2_section}
+### The concept of public space has not been defined in Estonian legislation{-.chapter2_section}
 
-Nii nagu avalik õigus eraõiguse kõrval võimaldab eraõiguslikel isikutel end riigis kindlalt tunda ja ühiskonnal tervikuna areneda, vajab eraomandis ruum selle hüvede kasutamiseks enda kõrvale avalikku ruumi ([Paaver 2013](#Paaver2013)). Avalik ruum ei teeni ise kasumit, vaid on alus nii ettevõtlusele kui ka elukeskkonna arengule.
+Just as the role of public law alongside private law is to allow private subjects to feel safe in the state and the society to develop, private space requires public space next to it so that the benefits of private space could be used ([Paaver 2013](#Paaver2013)). Public space does not generate profits but serves as a basis for business and the development of the living environment.
 
-Eesti õigusruumis ei ole avaliku ruumi mõistet otsesõnu sisustatud. Meie õigusruumis leidub määratlus mõistele avalik koht (reklaamiseaduse § 2, korrakaitseseaduse § 54), mis on suunatud igapäevaelu korraldamisele, turvalisuse ja korrashoiu tagamisele, kuid mitte ruumi püsimisele, arendamisele või parendamisele.
+Estonian legislation provides no explicit definition of public space. While it does include the definition of a ‘public place’ (Article 2 of the Advertising Act, Article 54 of the Law Enforcement Act), this is focused on organising daily life, ensuring safety and maintaining order, rather than preserving, developing or improving the space.
 
 <div class="casebox">
-### Kelle väljak?
+### Whose square?
 
-Eesti avaliku sektori, sealhulgas riigiettevõtete vastuolulist käitumist avaliku ruumiga iseloomustab juhtum, mil 2018. aastal müüs riik Tallinna linna vastuseisust hoolimata avaliku Kompassi väljaku kinnisvarafirmale, kes seejärel taotles kinnistule kõrghoone rajamist, nähes alternatiivina üksnes suletud eraaeda. Pole seadusi, mis takistaksid sellist müüki või avaliku ruumi, näiteks tänava või pargi võõrandamist eraomandisse või nõuaks küsimuse avalikku arutamist. Riik on omavalitsuse asetanud olukorda, mis raskendab omaniku tahte puudumise korral avaliku ruumi kvaliteetset arendamist või isegi hoidmist. Taoline olukord tekib siis, kui riik või omavalitsus seisab pigem oma tulude eest, jättes avaliku ruumi tagaplaanile.
+The controversial handling of public space by the Estonian public sector, including state-owned enterprises, is perfectly illustrated by the state’s sale of the public Kompassi Square to a property developer in 2018, regardless of opposition from the city of Tallinn. The developer requested the use of the square for a high-rise building, citing a closed private garden as the only alternative. There is no legislation that prohibits such a sale, prevents the privatisation of public spaces, for example streets or parks, or requires a public consultation on the matter. The state has put municipalities in a situation that makes it difficult to develop or even maintain quality public space if the owner lacks the will to do so. Such a situation arises if the state or municipality only looks out for its financial interests, neglecting public space.
 
-<p class="caption" id="figure213"><span class="figure-number">Joonis 2.1.3.</span> Kompassi väljak Tallinnas</p>
+<p class="caption" id="figure213"><span class="figure-number">Figure 2.1.3.</span> Kompassi Square in Tallinn</p>
 
 ```{r, figure213, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig213_eng.jpg")
+knitr::include_graphics("figures/2-chapter/fig213.png")
 
 ```
 
 </div>
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Maa-amet.
+<span class="imgsource-source">Source:</span> Land Board.
 ```
 
-Aastatel 1993–2002 kehtis asjaõigusseaduse § 9 lg 2, mis sisult kattus Rooma eraõiguse *res publicae*’ga ning mõjutas maaomandi struktuuri: „Avalik asi on asi, mis kuulub riigi- või munitsipaalomandisse ja on oma ühiskondliku olemuse tõttu kasutatav igaühe poolt nagu territoriaal- ja sisemeri, laevatatavad veekogud, avalikud tänavad, väljakud ja pargid“. Nüüdseks tühistatud määratlus oli aluseks maareformile ning sedakaudu suurele osale senisest avaliku ruumi struktuurist, sest avalikke tänavaid või parke üldjuhul ei erastatud ega tagastatud. Siiski on nii maareformi kui ka hilisemate tehingute (nt munitsipaal- ja riigimaa müügilepingud) mõjul osa avalikust ruumist saanud eramaaks. Praeguses õigusruumis puudub avaliku asja sarnane üldmõiste, mille alusel saaks avaliku ruumi ulatuses piisavalt selgelt ja püsivalt kokku leppida.
+The 1993–2002 version of Article 9(2) of the Law of Property Act included a definition essentially identical to the Roman *res publica*, with implications for land ownership: ‘A public thing is an object owned by the state or municipality that is, due to its communal nature, usable by everybody, such as territorial waters, inland seas, navigable waterbodies, public streets, squares and parks.’ This definition, which is no longer valid, served as a basis for land reform and, through this, largely generated the current structure of public space, as most public streets and parks were neither privatised nor returned to pre-war owners. Nevertheless, both the land reform and later transactions (sales of both state-owned and municipally owned land) have resulted in the privatisation of parts of public space. Our current legislation lacks a general concept akin to *res publica*, or the ‘public thing’, that could serve as the basis for establishing a clear and permanent scope for the concept of public space.
 
-Avalikku ruumi sidusust ja ligipääsetavust mõjutab seegi, kuidas on reguleeritud õigus liikuda eramaal. Aastatel 1993–2014 kehtinud asjaõigusseaduse § 142 keelas omaniku loata erakinnistul viibimise. Aastal 2014 viidi võõra maatüki kasutamist reguleerivad sätted keskkonnaseadustiku üldosa seadusesse, kuhu muu hulgas lisati § 33 lg 3: „Omanik ei või keelata eratee ega raja kasutamist jalgsi, jalgrattaga ega muul sellesarnasel viisil liikumiseks, kui kasutus põhineb väljakujunenud taval ega ole talle koormav.“ See säte on veel vähe juurdunud, kuigi on abiks avaliku ruumi sidususe suurendamisele.
+The integration and accessibility of public space are also influenced by the regulation of movement on private property. The 1993–2014 version of Article 142 of the Law of Property Act prohibited any presence on private property without the authorisation of the owner. In 2014, the provisions regarding the use of land belonging to another person were transferred to the General Part of the Environmental Code Act, with the addition of Article 33(3): ‘The owner shall not prohibit the use of a private road or path on foot, by bicycle or for moving in another similar manner where the use is based on established custom and is not burdensome on the owner.’ The provision has not yet taken root in everyday application but is helps to improve the continuity of public space.
 
+Public space can also function on private land, but in that case, ensuring that the network remains an integrated whole, demands even more effort from the public sector. In recent years, the concept of public space has been used in a few planning documents and guidelines; for example, <a href="https://planeerimine.ee/static/sites/2/uldplaneeringu_juhis_final.pdf">the 2018 guidelines from the Ministry of Finance </a> for drafting comprehensive plans state that, as the concept has not been defined in legislation, ‘it is sensible to discuss topics related to public space and public values, and agree, define and determine them in the course of creating a comprehensive plan.’ The 2018 final report of the Spatial Design Expert Group also notes that ‘quality public space accessible to all is an important characteristic of a developed democratic state’. This means that planning on different levels is acknowledging the concept of public space, which has so far often been treated sporadically or neglected completely.
 
-Avalik ruum saab toimida ka eramaadel, kuid sel juhul nõuab võrgustiku sidususe ja püsimise tagamine veelgi rohkem tööd avalikult sektorilt. Viimastel aastatel on avaliku ruumi mõiste jõudnud mõnesse planeeringusse ja juhendisse, näiteks 2018. aastal Rahandusministeeriumi koostatud juhend „<a href="https://planeerimine.ee/static/sites/2/uldplaneeringu_juhis_final.pdf">Nõuandeid üldplaneeringu koostamiseks</a>“ ütleb, et õigusruumis määratlemata mõistena „on mõistlik avaliku ruumi ja väärtuste teemad läbi arutada, neis kokku leppida ning sõnastada ja määrata üldplaneeringu koostamisel“. Niisamuti märgib ruumiloome ekspertrühma 2018. aasta lõpparuanne, et „kõigile kättesaadav kvaliteetne avalik ruum on arenenud demokraatliku riigi oluline tunnus“. See tähendab, et eri tasandi planeerimisvaldkonnad on teadvustamas avaliku ruumi mõistet, mis seni on jäänud juhuslikuks või sootuks tähelepanuta.
+### The public sector has not established itself as an advocate and commissioning party for public space {-.chapter2_section}
 
-### Avalik sektor ei ole end üldjuhul teadvustanud avaliku ruumi esindaja ja tellijana  {-.chapter2_section}
-
-Avalikku ruumi ei ole planeerimisseaduses nimetatud ega käsitletud ning see on viinud planeeringute fookuse kas kasutusotstarbe määratlemisele või konkreetsetele objektidele, hoonetele, taristule või sõiduteedele, mitte neid siduvale ühisruumile. Kui omavalitsus keskendub ainult üksikisikute huvide tasakaalustamisele seadusekohase menetluse kaudu ja kui puudub isik, kes avalikku ruumi telliks või esindaks, võib see jääda tagaplaanile ka planeerijate või arhitektide töös. Sellest on tulenenud ka osa kodanike õigustatud rahulolematus planeeringutega või nende alusel loodud ruumiga.
+The Planning Act does not discuss or even mention public space. As a result, the focus of planning has shifted to either defining the specific application of the land in question or to specific objects, buildings, infrastructure or roads, rather than the common space connecting them. If local governments only focus on balancing individual interests through the legally prescribed procedure, and if there is no one to commission or advocate for public space, it can remain a secondary consideration in the work of spatial planners and architects. This has led to justified dissatisfaction among some citizens with the spatial plans or the space created on this basis.
 
 <div class="casebox">
 
-### Kas tänav igaühele?
+### A street for everyone?
 
-Liiga kitsas kõnnitee Tallinnas Põhja puiesteel ei võimalda liikumist kas või lapsevankri- ga, seal ei mahu kõrvuti käima ega vastutulijast mööduma, mugavusest või ohutusest rääkimata. Avaliku ruumi võrgustik on katkestatud. Ruumi kõnnitee laiendamiseks on piisavalt isegi ilma sõiduradade arvu vähendamata, aga linnavalitsus ei ole seda teinud.
+The narrow footpath on Põhja puiestee in Tallinn excludes movement with a pram as well as walking side by side or passing somebody moving in the other direction, not to mention convenience and safety. The public space network is interrupted. There is enough space to widen the footpath even without reducing the number of lanes for cars, but the city government has failed to do this.
 
-<p class="caption" id="figure214"><span class="figure-number">Joonis 2.1.4.</span> Tallinna Põhja puiestee</p>
+<p class="caption" id="figure214"><span class="figure-number">Figure 2.1.4.</span> Põhja puiestee in Tallinn</p>
 
 ```{r, figure214, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig214.png")
+knitr::include_graphics("figures/2-chapter/fig214.png")
 
 ```
 
 </div>
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Reio Avaste.
+<span class="imgsource-source">Source:</span> Reio Avaste.
 ```
 
-Omavalitsused on mõnikord eelistanud ruumiotsustes erahuve ja kahjustanud sellega avalikku ruumi põhjendusel, et puudub piisavalt selge alus avaliku ruumi püsimist või selle kvaliteedi suurendamist eraomanikult nõuda. Mõni omavalitsus on siiski seda alust tugevdanud avalikku ruumi teadlikult väärtustava üldplaneeringuga, näiteks Tartu kesklinna üldplaneeringus on avalik ruum eraldi joonistel ja peatükina esile tõstetud. Siiski ei sobi aeglaselt muutuvate dokumentidena ja liiga jäigalt fikseerituna planeeringud ka avaliku ruumi paindlikuks sammsammuliseks parendamiseks.
+In their spatial decision-making, local governments have, at times, given preference to private interests, harming the public space, with the explanation that there is no clear legal basis that demands the maintenance of the public space or its improvement by private owners. Some local governments have nevertheless strengthened the legal basis through adopting comprehensive plans that purposefully give value to the public space; for example, in the comprehensive plan for Tartu city centre, the public space has been highlighted on separate figures and in a separate chapter. However, slow documentary procedures and official spatial plans that are overly strict and fixed are not convenient tools for the flexible step-by-step improvement of the public space.
 
 ```{block, type='blockquote-right'}
-Eri tasandi planeerimisvaldkonnad on teadvustamas avaliku ruumi mõistet, mis seni on jäänud juhuslikuks või sootuks tähelepanuta.
+Planning on different levels is acknowledging the concept of public space, which has so far often been treated sporadically or neglected completely.
 ```
 
-Tänavad ja pargid on enamasti avalikus omandis, kuid see ei taga avaliku ruumi sidusust. Tänavate ehitamise alus ei ole üldjuhul detailplaneeringud, vaid tee-ehitusprojektid, mida lahendatakse üksnes insenertehniliselt ega avalikustata. Nii planeeringute kui ka teeprojektide aluseks on enamasti standard EVS 843 (Linnatänavad), mille sisu näeb tervikliku võrgustikuna sõiduteid, aga mitte avalikku ruumi. Normatiivide mehaanilise rakendamise tõttu kipuvad linnaruumis domineerima sõiduteed ja autokesksus. Lühiajalistes ruumiotsustes, näiteks talvises tänavahoolduses või ehitusaegses liikluskorralduses, võimenduvad sõiduautode ületähtsustamine ja jalakäija unustamine veelgi. Nii võib avalik sektor tekitada suuremaidki katkestusi avalikus ruumis kui eraomand.
+Streets and parks are mostly publicly owned, which, however, is no guarantee of a continuous public space. Streets are generally not built on the basis of detailed plans but road construction documents, which only cover engineering solutions and are not made public. Both spatial plans and road construction projects are mostly based on the standard EVS 843 (Urban streets), which considers roads, rather than the public space, as the integrated network. A car-centred focus on roads tends to dominate in urban spaces due to the mechanical application of standards and norms. Short-term spatial decisions regarding, for example, winter maintenance or traffic organisation during construction works, further leverage the overemphasis on passenger cars and neglect the pedestrian. In this way, the public sector can create even greater interruptions in the public space than private property.
 
-Kohalikel omavalitsustel ei ole võimalik avalikku ruumi eirata, sest see on kõigis asulates olemas, pikema aja jooksul kujunenud ja enamjaolt aktiivses kasutuses. Omavalitsused üldjuhul haldavad peaaegu kogu avalikku ruumi ja püüavad seda võimete piires edasi arendada. See on sõltunud aga eelkõige konkreetse omavalitsuse ametnike mõtteviisist.
+Local authorities cannot ignore public space, as it exists in all settlements, has been shaped over a long period of time and is mostly in active use. Usually, municipalities manage almost the entire local public space and try to develop it in accordance with their means. But this has been largely dependent on the mindset of the officials of the specific municipality.
 
 ```{block, type='blockquote-left'}
-Normatiivide mehaanilise rakendamise tõttu kipuvad linnaruumis domineerima sõiduteed ja autokesksus.
+A car-centred focus on roads tends to dominate in urban spaces due to the mechanical application of standards and norms.
 ```
 
-Nii riigi Maa-amet kui ka riigiettevõtted ja omavalitsused on eraomandisse võõrandanud maatükke, mida kasutatakse avaliku ruumina või mida oleks loomulik selleks kavandada ([joonis 2.1.3](#figure213)). Sellise tehingu korral satuvad nii linnaelanike kui ka uue omaniku õigused praeguses õiguskorras ebaselgele pinnale, milles vaidluste tulemust ei saa ennustada.
+The Land Board as well as state-owned companies and local governments have privatised plots that are used as public space or have a natural potential to be planned as such ([Figure 2.1.3](#figure213)). Under the current legislation, such transactions place the rights of both the urban population and the new owner on a shaky ground, with no predictability concerning the outcome of any dispute.
 
-Sellegipoolest leidub eraomanikke, kes on ise mõistnud avaliku ruumi vajalikkust ning on seda arendanud vahel tõhusamaltki kui kohalik omavalitsus. Tavaliselt toimub see juhul, kui ühe arendaja omandis on suurem ala. Avalik ruum väärtustab ja suurendab ala atraktiivsust nii kasutajate kui ka äride silmis. Ometi kipuvad sellised avalikud ruumid jääma laiema võrgustikuga sidumata, kui omavalitsus või omanik ei pööra tähelepanu avaliku ruumi püsimisele või sidumisele ümbrusega.
+Nevertheless, some private owners have realised the need for public space and have developed it on their own, sometimes more efficiently than the municipality. This usually happens if one developer owns a large area. Public space adds value and increases the attractiveness of the area in the eyes of both users and businesses. Regrettably, such public spaces tend to remain unconnected to the wider network of public space, unless the municipality or owner pays sufficient attention to its maintenance and interconnection with the surroundings.
 
-Kuna avaliku ruumiga ei ole avalikus sektoris piisavalt teadlikult tegeletud, on see jäänud paljuski kodanikuaktiivsuse töömaaks. Asumiseltsid ja huvigrupid on koostanud omal algatusel avaliku ruumi visioone, korraldanud aktsioone ja võtnud enda kanda nii koostööd kui ka vaidlusi nii eraomanike kui ka omavalitsustega. Esinduslikumate avalike ruumide loomise nimel on olulisi samme teinud Eesti Arhitektide Liit (nt EV100 arhitektuuriprogramm „<a href="http://www.arhliit.ee/EV100_arhitektuur/">Hea avalik ruum</a>“ koostöös kohalike omavalitsustega). Vabakonna ja erialaorganisatsioonide hoogustunud tegevus näitab, et avaliku ruumi sidusus ja kvaliteet teevad ühiskonnale tõsist muret. Mõneti on aktiivsed kodanikud ja kolmanda sektori ühendused asunud ise avaliku ruumi esindajaks või tellijaks. Kõik sedasorti ühiskondlikud ettevõtmised suudavad pakkuda vaid üksikuid ja ajutisi lahendusi, mis ei asenda pidevat eksperditeadmistel põhinevat tööd avaliku ruumi kui terviku parandamiseks.
+As the public sector has failed to consider public space in an informed fashion, the topic has largely remained in the hands of active citizens. Neighbourhood associations and interest groups have come up with initiatives that involve a vision for the public space, organised campaigns and taken a leading role either in cooperation or disputes with private owners and local governments. Important steps in order to increase the presentability of public spaces have been taken by the Estonian Association of Architects (e.g. the Estonia 100 architectural programme ‘<a href="http://www.arhliit.ee/EV100_arhitektuur/">Good public space</a>’ in cooperation with local governments). The increased activity of NGOs and sectoral organisations indicates public concerns about the continuity and quality of public space. To some extent, active citizens and NGOs have themselves stepped into the role as advocates or commissioners of public space. However, all such community action can only provide isolated and temporary solutions; it does not replace continuous expert-knowledge-based work to improve the public space as a whole.
 
 ```{block, type='blockquote-right'}
-On oluline, et riik ja riigiettevõtted ei kahjustaks suurarenduste tellijatena ise avalikku ruumi.
+It is important that the state and state-owned enterprises do not harm the public space themselves in their role as commissioning parties in large development projects.
 ```
-Riigi ja omavalitsuse ametkonnad, mille otsused loovad või muudavad avaliku ruumi, lähtuvad tihti kitsalt oma ametkonna fookusest. Puuduvad ametkondi siduvad üksused, kes avalikku ruumi tervikliku võrgustikuna esindaks ja kaitseks, selleks vajalikke lahendusi looks ning teeks avaliku ligipääsetavuse ja inimsõbraliku ruumi huvides sihipärast koostööd erasektoriga.
+National and municipal authorities, whose decisions create or change the public space, often limit themselves to their narrow area focus. There are no institutions that would act as coordinators between different authorities and protect public space as an integral network, create appropriate solutions for this and cooperate purposefully with the private sector in the interests of the accessibility and human dimension of the public space.
 
-### Avalik ruum kui võrgustik on tagatud siis, kui riik ja omavalitsused tähtsustavad seda igas ruumiotsuses ja igas mõõtkavas  {-.chapter2_section}
+### The public space can only function as a network if the state and local governments emphasise it in spatial decisions at every level {-.chapter2_section}
 
-Avalik ruum on keerukas võrgustik ja muutumises olev struktuur. Samamoodi nagu tehnilised võrgustikud (veevarustus, elektrisüsteem jm), vajab avalik ruum toimimiseks ja arenguks võrguvaldaja järjepidevat tööd. Avaliku ruumi võrguvaldaja on avalik sektor, kes saab kaitsta ja parendada avalikku ruumi.
+Public space is a complex network and an ever-changing structure. As with utility networks (water, electricity, etc.), public space also needs continuous work by the operator for it to function and develop. The operator of the public space network is the public sector, which has the ability to protect and improve it.
 
 ```{block, type='casebox'}
 
-### Valik soovitusi ja põhimõtteid
+### Some principles and recommendations
 
-Avaliku ruumi määratlemisel ja kvaliteedikriteeriumide kehtestamisel võib eeskuju võtta ÜRO koostatud juhendmaterjalist „Global Public Space Toolkit: From Global Principles to Local Policies and Practice“ (2015), kust leiab eriilmelisi praktilisi näiteid nii linna- kui ka riigivõimule ruumi ja poliitika loomiseks ning kodanikuühiskonna väärtustamiseks. NACTO ja Global Designing Cities Initiative’i koostatud tänavate kujundamise juhendid „Global Street Design Guide“ keskenduvad avalikule ruumile ja linnatänavate ümbermõ- testamisele. Samuti on võimalus pöörduda kohaloome põhiorganisatsiooni ehk Project for Public Spaces lihtsate kontrollküsimuste ja juhendite poole.
+As a model for defining public space and its quality criteria, the UN guidelines Global Public Space Toolkit: From Global Principles to Local Policies and Practice (2015) provide diverse practical examples for cities and national governments in the field of spatial design and policy, underlining the value of civil society. Global Street Design Guides by NACTO and the Global Designing Cities Initiative focus on public space and rethinking urban streets. It is also possible to make use of the simple checklists and guidelines of the Project for Public Spaces – a central organisation for place-making.
 ```
 
-Avaliku ruumi võrgustiku valdajana on omavalitsusel õigus ja kohustus seista avaliku ruumi eest kõigis oma otsustes. Riigi ülesanne on olla linnade ja valdade partner, kuid ka õigusruumi looja ning erandjuhul ja vajaduse korral kodanike kaitsja, kui omavalitsus mingil põhjusel avaliku ruumi eest piisavalt ei seisa. Samuti on oluline, et riik ja riigiettevõtted ei kahjustaks suurarenduste tellijatena ise avalikku ruumi.
+As the operator, a local government is entitled and required to protect public space through all its decisions. It is the state’s role to be a partner for cities and other municipalities, shaping the legal space and, in exceptional cases, also protecting the citizens if the municipality fails to advocate sufficiently for the public space. It is also important that the state and state-owned enterprises do not harm the public space themselves in their role as commissioning parties in large development projects.
 
-Nii linnade, valdade kui ka riigi tasandil on mõistlik kaaluda pädevate meeskondade moodustamist, kes suudavad kaitsta eri valdkondade koostöös avalikku ruumi kui sidusat võrgustikku. See ei nõua halduskoormuse kasvu, vaid pigem formaalsete menetluste asendamist pideva sisulise tööga.
+At municipal and state level, it is equally important to consider setting up competent teams that can defend the public space as a continuous network through cooperation between different areas. This would not entail an increase in the administrative burden but rather replace formal procedures with continuous substantive work.
 
-Kuna avalik ruum moodustab olulise osa igapäevasest eluruumist,  on mõistlik kaasata avalikkus otsustesse, mis jäävad vormiliselt küll planeerimisregulatsioonist välja, kuid millel on tuntav mõju avalikule ruumile, sest paljusid ruumiotsuseid (nt kas mingi koht jääb avalikuks pargiks, tänavaks, mänguväljakuks, metsaks või mingi läbipääs avatuks) ei langetata planeeringutega, vaid tihti enne või pärast planeerimist, näiteks müügitehingute või liikluskorraldusega. Ideaaljuhul on avalik ruum püsivalt avalikus omandis, kuid tulenevalt Eesti senistest julgetest erastamisotsustest peab arvestama, et riik on juba teinud valiku, et avaliku ruumi sidusus ja kvaliteet tuleb tagada ka paljudel eramaadel. Samuti on oluline, et avalik sektor avalikule ruumile vajalikke maid mõtlematult ei võõrandaks, vaid seaks tehingutes avaliku ruumi tagamiseks tingimused ning oskaks vajalikke maid ka targasti omandada.
+As the public space makes up a large part of the everyday living environment, it is sensible to involve the public in making decisions, formally outside the scope of planning regulations but with considerable impact on the public space, as many spatial decisions (e.g. on whether a plot will remain a public park, a street, a playground, a grove or whether a particular passageway will remain open) are not made during the planning procedure but often before or after that, for example, by way of purchase transactions or during traffic planning. In an ideal situation, the public space would be publicly owned on a permanent basis; however, considering Estonia’s courageous privatisation decisions so far, the state has already placed itself in a position where it needs to maintain the continuity and quality of public space on numerous private properties. It is important that the public sector carefully consider its transactions to privatise land that is integral to the public space, so as to ensure that the public space is safeguarded; the public sector must also be smart about acquiring new lands as necessary.
 
-Igal omavalitsusel pole mõistlik oma määrustes või planeeringutes avaliku ruumi olemusele sisu otsida. Üldpõhimõtted saaksid selgelt ja ühesuguselt kehtida kogu riigis. Õigusruumi selguse vajadusele rõhub ka <a href="https://www.riigikantselei.ee/sites/default/files/riigikantselei/strateegiaburoo/ruumiloome_lopparuanne_.pdf">ruumiloome ekspertrühma lõpparuanne</a>:
+It would not be sensible for every individual municipality to create definitions of public space in their regulations or spatial plans. Clear and uniform general principles should be applied nationally. <a href="https://www.riigikantselei.ee/sites/default/files/riigikantselei/strateegiaburoo/ruumiloome_lopparuanne_.pdf">The final report by the Spatial Design Expert Group</a> also stresses the need for legislative clarity:
 
-*„Õigusaktides tuleb luua senisest selgemad alused ruumiloomele tervikuna, haarates seostatuna kõiki ruumiotsuseid. Seaduses tuleb seostatult käsitleda ruumiloome põhimõtteid ja mõisteid. Avaliku ruumi olulisuse rõhutamine ruumiloomes ja kvaliteedinõude sõnastamine annavad parema aluse kvaliteetse avaliku ruumi ja ehitatud keskkonna rajamiseks ning eelnõude ruumimõju hindamiseks.“*
+*‘Legislation must establish a clearer basis for spatial design, covering all spatial decisions in an interconnected way. The main principles and concepts of spatial design must be treated in a coherent way in the law. Underlining the importance of public space in spatial design and defining quality requirements will provide a better basis for creating a good-quality public space and built environment, as well as for spatial impact assessments of draft legislation.’*
 
-Nii riik kui ka omavalitsused peavad teadvustama oma rolli avaliku ruumi võrguvaldajana või tellijana, pidades sealjuures lugu igast ruumikasutajast.
+Both the state and local governments need to acknowledge their role as the operators of the public space networks or commissioning parties for public space, while respecting all users of the space.
 
 <div class="casebox">
 
-### Visioon ühendatud linnaruumist
+### A vision of a continuous urban space
 
-Linna ruumilise kvaliteedi tõstmisel on keskne tähtsus avaliku ruumi kui tervikliku võrgusti- ku sidususel, tihedusel ja mitmekesisusel. Näiteks Tallinna vanalinna ümbritsevat pargivööd saab arendada avaliku ruumi osana, võimaldades mugavat ülepääsemist sõiduteedest, laiendades jalakäiguruumi ja avades uusi kvartalisiseseid läbipääse. Nii saab ühendada inimesele mugavalt hulga ülelinnalise tähtsusega ühiskondlikke hooneid, väljakuid, tänavaid ja parke, mille kaudu saab Tallinn kujuneda tunduvalt inimsõbralikumaks linnaks.
+The interconnectedness, density and diversity of public space as an integral network plays a central role in improving the spatial quality of a city. For example, the green belt surrounding the old town of Tallinn can be developed as a part of the public space, allowing the convenient crossing of carriageways, widening pedestrian areas and opening up new passageways through city blocks. This allows for creating convenient pedestrian connections between a number of public buildings, squares, streets and parks of citywide importance, giving Tallinn an opportunity to develop into a considerably more human-friendly city.
 
-<p class="caption" id="figure215"><span class="figure-number">Joonis 2.1.5.</span> Väljavõte EKA uurimisprojektist „Lõpetamata Linn“</p>
+<p class="caption" id="figure215"><span class="figure-number">Figure 2.1.5.</span> Excerpt from the Estonian Academy of Arts project ‘Unfinished City’</p>
 
 ```{r, figure215, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/2-chapter/fig215_eng.jpg")
+knitr::include_graphics("figures/2-chapter/fig215.png")
 
 ```
 
 </div>
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Kavakava arhitektid 2019.
+<span class="imgsource-source">Source:</span> Kavakava Architects 2019.
 ```
 
-### Kokkuvõte  {-.chapter2_section}
+### Summary {-.chapter2_section}
 
-Hästi toimiva ühiskonna ülesanne on hoolitseda, et inimene tunneks end ruumis hästi mitte ainult kodus, tööl ja autos, vaid ka avalikus ruumis. Avalikku ruumi mõjutab peaaegu iga ruumiotsus. Avaliku sektori tuumülesanne on ruumi mõjutavate otsuste ja lahenduste positiivseid mõjusid kaitsta ja võimendada ning negatiivseid mõjusid ennetada või takistada. Avaliku ruumi terviklikkus on üldkehtiv avalik huvi ja seal ei saa juhinduda ühe teema või ruumikasutaja eelistamisest, näiteks sõiduteede või omaniku vabaduste ülimuslikkusest. Avalik ruum vajab kaitsmise kõrval ka visioonidel põhinevat strateegilist arendamist, sealhulgas pidevat ruumilist seostamist iga rajatava hoone, sõidutee ja era-arendusega. Muu hulgas annab avalik ruum võrgustikulise ruumiobjekti tähenduses selgema aluse linnaarhitektide tööle ja tasakaalus planeeringulahendustele.
+It is the task of a well-functioning society to make sure that people feel well not only at home, at work or in their car but also in the public space. Public space is influenced by almost every spatial decision. The core task of the public sector is protecting and leveraging the positive impact resulting from all spatial decisions and solutions, as well as preventing and blocking negative impacts. The integrity of public space is a universal public interest and cannot be managed by way of giving preference to an individual topic or user; for example, by treating roads or the freedoms of the property owner as superior. In addition to protection, the public space also needs strategic development based on vision documents, including constant interconnection with any new building, road or private development project. Public space as a network also provides a firmer basis for the work of city architects and helps create balanced planning solutions.
 
 ```{block, type='blockquote-left'}
-Avalik ruum vajab visioonidel põhinevat strateegilist arendamist, seal hulgas seostamist iga rajatava hoone, sõidutee ja eraarendusega.
+Public space needs strategic development based on vision documents, including constant interconnection with any new building, road or private development project.
 ```
 
-Kuigi Eesti lähiajaloo õigusruumis ja valitsemistavades on avalik sektor keskendunud ruumi parendamise asemel pigem seda suunavate dokumentide menetlemisele, on nüüdseks hakatud sisulises mõttes teadvustama ruumi ja elukeskkonna tulevikku. 2015. aastal lisati planeerimisseadusesse (§ 8) elukeskkonna parendamise põhimõte ning ehitusseadustikku (§ 1) eesmärk tagada ehitatud keskkonna eesmärgipärane toimivus ja kasutatavus. Need üldised sätted jäävad deklaratiivseks, kui riigis ja omavalitsustes ei käivitu teadlik töö avaliku ruumi järjekindlaks parendamiseks, milleta on võimatu elukeskkonda tervikuna edendada.
+Although recent legislation and governance practice in Estonia have been characterised by a tendency for the public sector to focus on processing regulative documents instead of improving the spatial environment, a more substantive acknowledgement of the future of space and the living environment is emerging. In 2015, the principle of improving the living environment was added to the Planning Act (Article 8) and the objective of ensuring the purposeful functionality and usability of the built environment to the Building Code (Article 1). Those general provisions will remain merely declarative if the state and local governments do not launch informed efforts towards the continuous improvement of the public space, indispensable for developing the living environment as a whole.
 
-Erinevalt vaba ettevõtluse arendustest saab avalik sektor avaliku ruumi arendamist ise teadlikult ja strateegiliselt suunata. Avalikust ruumist ja selle arendamisest sõltuvad erainvesteeringud, arendajate valikud, inimeste elu- ja töökohavalikud, mida planeeringutega jäigalt reguleerida ei saa. Mõistlik on avaliku ruumi või ühisruumi mõiste kasutusele võtta mitte üksnes seadusraamistikus, vaid ühe alusena killunenud valdkondlike ruumiotsuste kokkutoomisel.
+Unlike in business projects, the public sector can strategically guide the development of the public space in an informed manner. The public space and its development affect private investments, the choices of developers, and where individuals choose to live and work; this cannot be regulated rigidly through spatial plans. It would be sensible to adopt a definition of public or common space not only as part of the legislative framework but also as a foundation for unifying spatial decisions, which are currently fragmented between different fields.
 
-Avalik ruum kui elukvaliteeti oluliselt mõjutav võrgustik vajab pidevat tähelepanu ja tahet seda paremaks arendada. See nõuab peale tehniliste teadmiste ja oskuste loovust, head ruumitunnetust ja valdkondadevahelist sünergiat. Elukeskkonna parendamist sooviv avalik sektor mõtleb ja tegutseb kodanike ühishuvides.
+Public space as a network with a significant impact on the quality of life calls for constant attention and the desire to improve it. In addition to technical knowledge and skills, this requires creativity, good spatial perception and synergy between different fields. A public sector that sees the improvement of the living environment as a worthwhile goal is one that thinks and acts in the common interest of its citizens.
 
-Aastal 2018 valminud <a href="https://www.riigikantselei.ee/sites/default/files/riigikantselei/strateegiaburoo/ruumiloome_lopparuanne_.pdf">ruumiloome ekspertrühma lõpparuande</a> üks ettepanekuid on laiendada elukeskkonna parendamise põhimõtet selgemalt kogu ruumiloomele. Et see toimiks, peavad avalikku ruumi igas oma otsuses väärtustama nii ettevõtjad kui ka kodanikud, nii omavalitsused kui ka riik.
+One of the proposals presented in the <a href="https://www.riigikantselei.ee/sites/default/files/riigikantselei/strateegiaburoo/ruumiloome_lopparuanne_.pdf">2018 final report of the Spatial Design Expert Group</a> üis to extend the principle of improving the living environment more clearly to cover the entire process of spatial design. For this to work, businesses and citizens, local governments and the state should all consider the value of the public space in their decisions.
 
-Turvalisust ja heaolu kasvatab eelkõige aktiivne ruumi kasutus ([Worpole ja Knox 2007](#Worpole2007)), seega on tähtis ka ruumi iseorganiseerumine ja vabakasutus. Ise- ja koosloomine suurendab ühtlasi elanike kogukonna- ja omanikutunnet. Ruumiloome formalismist vabanemise eelduseks on mõtteviisi muutus, aga ka õigusruumi toetus. Avalik ruum paraneb, kui võrgustiku terviklikkust ja mitmekesisust tähtsustatakse järjepidevalt nii suurtes otsustes kui ka pisiasjades. Sellega koos püsib ja paraneb kogu ühiskonna ja demokraatia tervis.
+As security and well-being are more likely to grow out of the active use of space ([Worpole and Knox 2007](#Worpole2007)), it is important to value the free use of space and allow it to self-organise. Individual and collaborative creativity also promote the feeling of community and ownership among citizens. Freeing ourselves from formalism in spatial design requires a change in mindset but also legislative support. The public space will be improved if the integrity and diversity of the network is continuously appreciated both in large decisions and the detail. This helps to maintain and improve the health of the society and democracy in general.
 
-### Viidatud allikad {-.subreferences}
+### References {-.subreferences}
 
 <p id="Gehl2015">Gehl, J. 2015. Linnad inimestele. Tallinn: Eesti Kunstiakadeemia, Yoko Oma.</p>
 <p id="Ilus2000">Ilus, E. 2000. Rooma eraõiguse alused. Tallinn: Ilo Print.</p>
