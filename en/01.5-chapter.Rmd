@@ -2,47 +2,44 @@
 
 ```{block, type='authors'}
 <div class="author-links">**[Tauri Tuvikene](#tauri-tuvikene), [Merlin Rehema](#merlin-rehema), [Dago Antov](#dago-antov)**</div>
-<div><a class="print-btn" href="../print/EIA-2019-1.5.pdf"><i class="fa fa-file" aria-hidden="true"></i>Print</a></div>
+<div><a class="print-btn" href="print/EIA-2019-1.5.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
 ```{block, type='points'}
-* Kui Eesti suuremates linnaregioonides pärsib autostumine inimeste liikumisvõimalusi, siis ääremaal tagab isiklik sõiduauto teenuste kättesaadavuse.
+* While motorisation reduces people’s travel options in Estonia’s larger urban regions, a private car ensures access to services in remote areas.
 ```
 
 ```{block, type='blockquote-right'}
-Autostumine tähendab nii sõidukite omamise ja kasutamise sagenemist kui ka autokultuuri levikut laiemalt.
+Motorisation is the increase in the frequency of owning and using motor vehicles, and the spread of motor culture in a broader sense.
 ```
-Esimene auto sõitis Eesti teedel 1896. aastal, tänapäeval on Eestis autosid üle 740 000 (Statistikaamet). Autost on saanud tarbeese, mis on olemas üle poolel Eesti elanikest. Ühelt poolt on autokasutus parandanud paljude inimeste liikumisvõimalusi ja oluliselt vähendanud tunnetatavaid kaugusi. Teiselt poolt aga on autode arvu jõuline kasv muutnud avalikku ruumi nii linnades kui ka mujal Eestis. Autostumine tähendab nii sõidukite omamise ja kasutamise sagenemist kui ka autokultuuri levikut laiemalt. Hõredalt asustatud ja puudulikult toimiva ühistranspordiga maapiirkondades on isiklikud sõiduautod muutunud asendamatuks. Eesti linnaregioonides võib täheldada aga järkjärgulist autode arvu kasvu peatumist ja suurenevat huvi erinevaid kasutajaid soosiva tänavaruumi planeerimise ideede vastu. Selles artiklis vaatleme autostumist kahes rollis: ligipääsu võimaldajana ja selle pärssijana. Artikli eesmärk on anda ülevaade, kuidas autostumine ja autopõhise liikuvuse suunamine mõjutavad Eesti elanike ligipääsu avalikele teenustele ja laiemalt avalikule ruumile. Samuti arutleme, millised on hajalinnastunud Eestis säästva liikuvuse strateegiad.
+The first car was driven on Estonian roads in 1896; currently, there are over 740,000 cars in Estonia (Statistics Estonia 2018). Cars are a commodity owned by over half of the country’s inhabitants. On the one hand, using cars has improved the travel options of many people and considerably reduced the perceived distances. On the other hand, the powerful increase in the number of cars has changed the public space in towns as well as elsewhere in Estonia. Motorisation is the increase in the frequency of owning and using motor vehicles, and the spread of motor culture in a broader sense. In sparsely populated rural areas where public transport is insufficient, private cars have become indispensable. In Estonia’s urban regions, the pace in the growth of the number of cars is gradually coming to a halt and there is increasing interest in ideas for planning street space favouring various users. This article discusses motorisation in its two roles: as a facilitator and an inhibitor of access. The aim of the article is to give an overview of how motorisation and the direction of car-based mobility influence access to public services and public space in general for the Estonian population. The article also discusses the strategies for sustainable mobility in.
 
 ```{block, type='blockquote-left'}
-Liikuvus tähendab võimet oma igapäevaste vajaduste rahuldamiseks ühest kohast teise liikuda, kasutades ühte või mitut transpordiliiki või -teenust.
+Mobility is a person’s ability to move from one place to another to meet their daily needs, using one or several modes of transport or transport services.
 ```
-Liikuvus tähendab võimet oma igapäevaste vajaduste rahuldamiseks ühest kohast teise liikuda, kasutades ühte või mitut transpordiliiki või -teenust. Erinevalt liikluse planeerimisest, mis tegeleb sõidukite liikumise ja ligipääsuga, on liikuvuse planeerimise keskmes inimeste ja kaupade liikumine, olenemata kasutatatavast transpordiviisist. Säästev liikuvus tähendab keskkonnahoidlikku ja jätkusuutlikku transpordi kujundamist inimeste liikumiste planeerimisel.
+Mobility is a person’s ability to move from one place to another to meet their daily needs, using one or several modes of transport or transport services. As opposed to traffic planning, which deals with the movement and access of vehicles, mobility planning focuses on the movement of people and goods regardless of the mode of transport. Sustainable mobility means the development of environmentally friendly and sustainable transport for moving people around.
 
-### 1990. aastate kiire autostumine on stabiliseerumas {-.chapter1_section}
+### The rapid motorisation of the 1990s is stabilising {-.chapter1_section}
 
-Kiire autostumine Eestis on sarnane teiste idabloki riikide omaga. Autostumise tasemed mõõdetuna sõiduautode arvus 1000 elaniku kohta vahetult pärast Teist maailmasõda Ida- ja Lääne-Euroopas oluliselt ei erinenud. Juba kümmekond aastat hiljem oli aga autostumise tase väga erinev. 1990. aastate alguseks oli nii Euroopa Liidu riikides kui ka USAs autostumine ajaloolist tipptaset saavutamas või oluliselt aeglustunud, samal ajal kui idabloki riikides eelmistel kümnenditel välja kujundatud erinevuse kompenseerimine alles algas. Näiteks kui Lääne-Saksamaal saavutati praegune autostumise tase 1980. aastatel, siis Ida-Saksamaal jõudis see riigi ühendamise järel samale tasemele 2000. aastateks ([Pucher ja Buehler 2005](#Pucher2005)). Isiklike sõiduautode kättesaadavuse piiratus nõukogude perioodil asendus autoomamise entusiasmiga 1990. aastatel. Sellest ajast peale on Eesti oma autokasutuses järjepidevalt Lääne-Euroopa riikidele järele liikunud ja need lõpuks kinni püüdnud ([joonis 1.5.1](#figure151)). Kuigi autostumine jätkus ka Lääne-Euroopas, on piirkondade võrdluses sealne kasvutempo olnud aeglasem. Praegu jääb Eesti registreeritud autode arvu poolest 1000 elaniku kohta maha veel vaid Euroopa Liidu kõige autostunumatest maadest, nagu Itaalia, Luksemburg, Malta ja Soome, kuid on enamikust Euroopa Liidu n-ö läänepoolsetest riikidest möödunud.
+Rapid motorisation in Estonia is similar to that occurring in other Eastern Bloc countries. After World War II, the levels of motorisation measured as the number of cars per 1,000 inhabitants did not differ significantly in Eastern and Western Europe. Just a decade later, the difference was huge. By the early 1990s, motorisation was near a historical peak or had considerably slowed in European Union countries as well as the US, while compensation for the lag that had occurred in Eastern Bloc countries in the previous decades was only beginning. For example, West Germany reached its current level of motorisation in the 1980s, but East Germany reached the same level by the 2000s after German reunification ([Pucher ja Buehler 2005](#Pucher2005)). In Estonia, the limited availability of private cars during the Soviet period was replaced by an enthusiasm for car ownership in the 1990s. Since then, Estonia has gradually caught up with the level of car use in Western European countries ([Figure 1.5.1](#figure151)). Although motorisation continued in Western Europe, the pace of motorisation has been slower there. In terms of the number of registered cars per 1,000 inhabitants, Estonia is currently behind only the most motorised countries of the EU, such as Italy, Luxembourg, Malta and Finland, but has surpassed most of the Western European EU member states.
 
-<p class="caption" id="figure151"><span class="figure-number">Joonis 1.5.1.</span> Autostumise muutus Lääne-Euroopa (siin EL-15) ja Ida-Euroopa riikides (siin alates 2004. aastal ELi astunud riigid, v.a Küpros ja Malta)</p>
+<p class="caption" id="figure151"><span class="figure-number">Figure 1.5.1.</span> Change in motorisation in Western (EU 15) and Eastern European countries (countries that have joined the EU since 2004, except Cyprus and Malta)</p>
 <div class="desktop-plot">
-```{r, figure151, out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure151, out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
 
- fig151_data <- read.csv ("../data/15_fig1_data2.csv", header=TRUE, fileEncoding="utf-8")
+ fig151_data <- read.csv ("data/15_fig1_data2.csv", header=TRUE, fileEncoding="utf-8")
 
-fig151_data$area_eng[grepl("Eesti",fig151_data$area)]<-"Estonia"
-fig151_data$area_eng[grepl("Ida",fig151_data$area)]<-"Eastern Europe"
-fig151_data$area_eng[grepl("Lääs",fig151_data$area)]<-"Western Europe"
 
   fig151_plot <- ggplot(data = fig151_data) +
-    geom_line(mapping = aes(x=year, y=value, colour=area_eng, group=area_eng,text = paste("", area_eng,
+    geom_line(mapping = aes(x=year, y=value, colour=area, group=area, text = paste("", area,
                          "<br>", year,
                          "<br>", value)), size=0.75) +
     scale_x_continuous(breaks=c(1990,1992,1994,1996,1998,2000,2002,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(1990,2016.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,550)) +
-    scale_colour_manual(values=c("#482683","#369B9E","#b1e0f9")) +
-    labs(y="Cars per 1,000 inhabitants", x="") +
+    scale_colour_manual(values=c("#482683","#369B9E","#b1e0f9"), labels=c("Eesti","Ida-Euroopa","Lääne-Euroopa")) +
+    labs(y="Autot 1000 elaniku kohta", x="") +
     expand_limits (y=0)
 
   fig151_theme <- theme (
@@ -51,14 +48,13 @@ fig151_data$area_eng[grepl("Lääs",fig151_data$area)]<-"Western Europe"
   )
 
 ggplotly(fig151_plot + fig_theme_general + fig151_theme, tooltip = "text" ) %>%
-config(displayModeBar = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
   #ggsave(path="exported_figures/PDF/chapter1",filename="fig151.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
-
 </div>
 <div class="mobile-plot">
 ```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
@@ -69,46 +65,44 @@ print(fig151_plot + fig_theme_general + fig151_theme)
 </div>
 
 ``` {block, type='imgsource'}
-<div><span class="imgsource-source">Allikas:</span> Eurostat 2019.</div>
-<div><a class="data-btn" href="../data/15_fig1_data2.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><span class="imgsource-source">Source:</span> Eurostat 2019.</div>
+<div><a class="data-btn" href="data/15_fig1_data2.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
-Seega saab 1990. aastate ja uue sajandi esimese kümnendi Ida-Euroopa, sealhulgas Eesti kiiret autostumist käsitleda ka kui poliitiliste süsteemide tekitatud erinevuse kompenseerimist. Kui aga vaadata senist auto kasutamise kogemust (nt USA), siis autostumise kasv varem või hiljem lõpeb. Põhjused on erinevad, aga oluline on, et enamik, kes autot on soovinud, on selle ka endale hankinud, ning samal ajal on autode arvu suur kasv tekitanud igale uuele kasutajale takistusi auto parkimisel ja ummikutes. Sel põhjusel ei saa tuleviku prognoosimisel aluseks võtta autostumise kiiret kasvu eelmistel perioodidel ning selle põhjal otsuseid teha, näiteks välja töötada tee-ehituskavu.
+Therefore, the rapid motorisation of Eastern Europe, including Estonia, in the 1990s and 2000s, can be regarded as compensation for the difference caused by political systems. Considering historical motorisation trends (e.g. in the United States), the pace of motorisation will come to a halt sooner or later. The reasons vary, but the bottom line is that everyone who ever wanted to own a car will have acquired one, while every new car user has experienced difficulties with parking space and traffic jams due to the large number of cars. Therefore, the rapid pace of motorisation in previous periods cannot serve as the basis for future predictions and decisions, such as road construction planning.
 
-### Autostumisel on mõju keskkonnale, inimeste tervisele ja võimalusele liikuda ning teenuseid kasutada  {-.chapter1_section}
+### Motorisation affects the environment, people’s health, mobility and access to services {-.chapter1_section}
 
-Autostumisel on keskkonnamõju, mis väljendub energia- ja maakasutuses, autostumine muudab sotsiaalelu ning ühiskondade majanduslikku toimimist. Rahvusvahelise Energiaagentuuri 2017. aasta andmetel läheb pool maailma toodetud naftast linna- ja maanteetranspordile ning transpordisektor annab üle veerandi maailma süsihappegaasi heitest. Autostumise keskkonnamõju avaldub lisaks kütuse tarbimisele ka autode tootmises, kasutamises, liiklusohtlikkuses, aga ka linnaruumi tarbimises. Kuna autoga sõites liigutavad inimesed end vähem, väljendub autostumise kahju inimeste ülekaalulisuses ning haigestumises südame-veresoonkonnahaigustesse ([Bassett jt 2008](#Bassett2008)). Lisaks mürale, vibratsioonile ja peenosakeste reostusele tiheda liiklusega tänavatel on probleem ka inimeste vähesemad võimalused sotsiaalseks suhtluseks. Autostumise tõttu muutuvad linnatänavad piltlikult öeldes liiklustorudeks, kus kõigi teiste liiklejate võimalused on ahenenud. Nii on halvenenud tänavate kvaliteet avaliku ruumina.
+Motorisation has an environmental impact in terms of energy and land use; it also changes social life and the economic functioning of societies. According to 2017 data from the International Energy Agency, half of the world’s oil output is used for urban and road transport, and the transport sector accounts for over one-quarter of global carbon dioxide emissions. Further to fuel consumption, the environmental impact of motorisation comes from the manufacture and use of cars, traffic hazards, as well as the use of the urban space. As people exercise less when moving around by car, the negative impact of motorisation is also expressed in health conditions, such as obesity and cardiovascular diseases ([Bassett jt 2008](#Bassett2008)). In addition to noise, vibration and pollution via airborne particulate matter in heavy-traffic streets, fewer opportunities for socialising presents another problem for people. Due to motorisation, city streets become ‘traffic pipes’ for cars, which reduce the possibilities available to all other participants in the traffic. The quality of streets as public space has therefore deteriorated.
 
 ```{block, type='blockquote-right'}
-Ligipääsetavus on inimeste võimalus saada osa oma ühiskonnas tavapärastest tegevustest.
+Accessibility means the opportunities for people to participate in usual social activities
 ```
-Liiklustorudeks muutunud linnatänavate tõttu hakkab autostumine linnades takistama üldist ligipääsetavust. Ligipääsetavus on inimeste võimalus saada osa oma ühiskonnas tavapärastest tegevustest ([Farrington 2007](#Farrington2007)). Peale liikumisvabaduse hõlmab ligipääsetavus teenuste ja töökohtade toomist või planeerimist inimesele lähemale, et vähendada vajadust liikumiseks ([joonis 1.5.2](#figure152)). Näiteks võib tuua sotsiaalteenuste digitaliseerimise ning kaugtöökohtade loomise. Kuigi Eestis saab riiklikke teenuseid interneti kaudu üsna hõlpsalt kasutada ka kodust lahkumata, eeldab sotsiaalne elu, laste haridus, hobid ja meelelahutus ikkagi aeg-ajalt suurematesse asumitesse või linnakeskustesse minekut. Ligipääsetavuse taandamine autokasutaja vajadustele on ühekülgne, kuna see vähendab teiste liiklejarühmade, sealhulgas jalakäijate, ratturite, eakate, erivajadusega liiklejate liikumisvõimalusi ja -kvaliteeti. Mitmesuguseid asjaolusid arvestav transpordiplaneerimine eeldab arusaamist autode rollist ja kasutusest erinevates keskkondades: hajaasustuses, maapiirkondades, linnaregioonis ja asustusüksuse sees.
+As streets have often become ‘traffic pipes’, motorisation in cities is beginning to hamper general accessibility. Accessibility means the opportunities for people to participate in usual social activities ([Farrington 2007](#Farrington2007)). In addition to the freedom of movement, accessibility covers delivering or planning services and jobs closer to people in order to reduce the need to travel ([Figure 1.5.2](#figure152)). Examples of this are the digitalisation of social services and the creation of digital workplaces. Although public services are quite easily accessible online in Estonia without leaving home, social life, the education of children, hobbies and entertainment still require visiting larger towns or city centres. Reducing accessibility to only cover the needs of car users is one-sided, as it reduces travel options and quality for other groups of traffic participants, including pedestrians, cyclists, seniors and people with special needs. For transport planning to take into account a variety of circumstances, an understanding of the role and use of cars in various environments is required: in low-density areas, rural areas, urban regions, and within settlements.
 
-<p class="caption" id="figure152"><span class="figure-number">Joonis 1.5.2.</span> Ligipääsetavuse elemendid</p>
+<p class="caption" id="figure152"><span class="figure-number">Figure 1.5.2.</span> Elements of accessibility</p>
 
 ```{r, figure152, out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/1-chapter/fig152_eng.jpg")
+knitr::include_graphics("figures/1-chapter/fig152.png")
 
 ```
 
 ```{block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Discovering Urbanism 2010. Säästva linna liikuvuse arengukava.
+<span class="imgsource-source">Source:</span> Discovering Urbanism 2010.
 ```
 
 ```{block, type='casebox'}
-<h3> Säästva liikuvuse arengukava</h3>
+<h3> A sustainable urban mobility plan</h3>
 
-Säästva liikuvuse arengukava eesmärk on luua jätkusuutlik transpordisüsteem. See tähendab inimeste praeguste ja tulevaste liikuvusvajaduste rahuldamist liikumisviisidega, mis ei kahjusta elukeskkonda ([LiLiA 2017](#LiLiA2017)). Selline liikumiskorraldus eeldab mugavat ühistranspordivõrgustikku, liikumisviiside sujuvat ühildamist, aktiivsete liikumisviiside (nt jalgratas ja jalgsi liikumine) arendamist ning autokasutuse vajaduse vähendamist. Euroopa Komisjon kinnitas säästva linnalise liikuvuse arengukava 2009. aastal ning toetab selle rakendamist liikmesriikide kohalikel tasanditel koostöö- ja teadmusvõrgustike loomise, andmete kogumise ning finantsinvesteeringute kaudu ([Eltis 2019](#ELTIS2019)).  
+The purpose of a sustainable mobility plan is to create a sustainable transport system. This means meeting people’s current and future mobility needs using modes of mobility that do not damage the human environment ([LiLiA 2017](#LiLiA2017)). Such an organisation of mobility requires a convenient public transport network, seamless switching between modes of mobility, development of active modes of mobility (e.g. cycling and walking) and a reduction of the need for cars. The European Commission adopted an action plan on urban mobility in 2009 and supports its implementation at the level of EU member states through the creation of cooperation and knowledge networks, data gathering and financial investments ([Eltis 2019](#ELTIS2019)).  
 ```
 
-### Hajaasustuse elu on autokeskne {-.chapter1_section}
+### Life in low-density areas is car-centred {-.chapter1_section}
 
-Maanteeameti tehtud ühistranspordiga rahulolu küsitlused näitavad, et elanike rahulolu ühistranspordi kvaliteedi ja kättesaadavusega on maakonnasiseste liinide puhul vähenenud. Eriti rahulolematud ollakse kohalejõudmise aegadega, marsruutidega ja ümberistumisvõimalustega. Isegi kui peatuse asukoht ja paar väljumist päevas teevad ühistranspordi suurele osale inimestele kättesaadavaks ([joonis 1.5.3](#figure153)), ei tähenda see, et ühistransport suudaks aja ja ühenduste arvu poolest tegelikult autoliiklusega võistelda. Saar Polli 2014. aasta uuringu „Elanike rahulolu kohalike avalike teenustega“ andmetel on rahuolu ühistranspordiga parem ning selle konkurentsivõime linnades suurem kui hõredamalt asustatud piirkondades, olgu need siis linna tagamaa või keskustest eemale jäävad ääremaad. Hajaasustuses, eriti väikese nõudlusega piirkondades, jäävad liikumisgraafikud harvaks, nende järgi on keeruline tegevusi ajastada eriti juhul, kui on vaja sõitusid kombineerida.
+Surveys by the Estonian Road Administration on satisfaction with public transport show that people’s satisfaction with the quality and accessibility of public transport within counties has decreased. Arrival times, routes and connections between routes are the greatest sources of dissatisfaction. Even if the locations of stops and limited departures a day make public transport accessible to a large part of the population ([Figure 1.5.3](#figure153)), this does not mean that it can actually compete with car transport in terms of travel time and the number of connections. According to the 2014 survey ‘Satisfaction of inhabitants with local public services’ by Saar Poll, satisfaction with and competitiveness of public transport are higher in towns than in lower-density areas; that is, peri-urban areas and remote areas far from urban centres. In low-density areas, especially in areas of low demand, public transport departures are infrequent and it is difficult for people to time their movements, especially if journeys have to be combined.
 
-<p class="caption" id="figure153"><span class="figure-number">Joonis 1.5.3.</span> Ühistranspordi kättesaadavus Eestis (hinnatuna peatuste läheduse ja väljumiste sageduse kaudu)</p>
-
-Täpsemalt nägemiseks liigu kaardil.
+<p class="caption" id="figure153"><span class="figure-number">Figure 1.5.3.</span> Access to public transport in Estonia (assessed by the nearness of stops and frequency of departures)</p>
 
 ```{r, figure153, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
@@ -117,14 +111,14 @@ library(raster)      # classes and functions for raster data
 library(tmap)
 library(svglite)
 
-Asutusüksused <- st_read(dsn ="../data/15_fig3_data/EKSPORT_3301-N0RqvBQsFGT19Q0M-t7.shp")
+Asutusüksused <- st_read(dsn ="data/15_fig3_data/EKSPORT_3301-N0RqvBQsFGT19Q0M-t7.shp")
 head(as.data.frame(Asutusüksused))
 
 Asutusüksused$VAARTUS <- as.numeric(as.factor(Asutusüksused$VAARTUS)) -1
 
-names(Asutusüksused)[names(Asutusüksused) == "VAARTUS"] <- "Residents with good access (%)"
+names(Asutusüksused)[names(Asutusüksused) == "VAARTUS"] <- "Elanike osatähtsus (%)"
 
-Maanteed <- st_read(dsn ="../data/15_fig3_data/tee.shp")
+Maanteed <- st_read(dsn ="data/15_fig3_data/tee.shp")
 head(as.data.frame(Maanteed))
 
 Maanteed <- subset (Maanteed, TYYP != c("Tänav"), select=c(NIMETUS,TYYP, geometry))
@@ -132,12 +126,12 @@ Maanteed <- subset (Maanteed, TYYP != c("Kõrvalmaantee"), select=c(NIMETUS,TYYP
 Maanteed <- subset (Maanteed, TYYP != c("Muu tee"), select=c(NIMETUS,TYYP, geometry))
 Maanteed <- subset (Maanteed, TYYP != c("Ramp või ühendustee"), select=c(NIMETUS,TYYP, geometry))
 
-Maanteed$TYYP <- "Main and support roads"
+Maanteed$TYYP <- "Põhi- või tugimaantee"
 
-fig_153_plot <- tm_shape(Asutusüksused) + 
-    tm_fill("Residents with good access (%)", title="Residents with good access to public transport (%)", popup.vars="Residents with good access (%)",id="NIMI", breaks=c(0,1,25,50,75,100), palette = c("#E6E3DA", "#DAD4E6","#B6A8CD", "#917DB5","#482683")) +
+fig_153_plot <- tm_shape(Asutusüksused) +
+    tm_fill("Elanike osatähtsus (%)", title="Elanike osatähtsus, kellel on hea ühistranspordi kättesaadavus (%)", popup.vars="Elanike osatähtsus (%)",id="NIMI", breaks=c(0,1,25,50,75,100), palette = c("#E6E3DA", "#DAD4E6","#B6A8CD", "#917DB5","#482683")) +
     tm_borders(col="white", alpha=0) +
-  
+
     tm_layout(
       outer.margins=0, inner.margins=c(.02, .1, .02, .02),asp=1920/1080,
       legend.outside = FALSE,
@@ -145,7 +139,7 @@ fig_153_plot <- tm_shape(Asutusüksused) +
       frame = FALSE) +
 
     tm_shape(Maanteed) + tm_lines(col = "TYYP", legend.col.show = TRUE,palette = c("#3A404A", "#3A404A"), title.col="",popup.vars=NULL) +
-  
+
       tm_view (
         set.zoom.limits = c(7, 16),
         view.legend.position = c("left","bottom"),
@@ -153,8 +147,8 @@ fig_153_plot <- tm_shape(Asutusüksused) +
       )
 
 tmap_mode("view")
-#fig_153_plot
-  
+fig_153_plot
+
 #tmap_save(tm = fig_153_plot, filename = "figure153.png")
 #tmap_save(tm = fig_153_plot, filename = "figure153.pdf")
 
@@ -165,32 +159,29 @@ tmap_mode("view")
 ```
 
 ```{block, type='imgsource'}
-<div><span class="imgsource-source">Allikas:</span> Statistikaamet 2018, Nõmm 2018.</div>
-<div><a class="data-btn" href="../data/15_fig3_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><span class="imgsource-source">Source:</span> Statistics Estonia 2018, Nõmm 2018.</div>
+<div><a class="data-btn" href="data/15_fig3_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
-Tihenev autoliiklus vähendab ühistransporti kasutavate reisijate arvu ning see muudab hea teenuse pakkumise hajaasustuses kallimaks ja keerulisemaks. Ühistranspordi kvaliteedi langus ja tiheduse vähenemine soosib omakorda autostumist. Maanteeameti andmetel vähenes aastatel 2003–2016 sõitjate arv maakonnaliinidel peaaegu kaks korda, kusjuures vähenemine oli eriti kiire just perioodil 2003–2009 ([joonis 1.5.4](#figure154)). Need aastad olid kiire jõukuse kasvu periood, mil toimus ka kiire autostumine ja sellega seotud liikumisviiside nihe sõiduautode kasuks. Ühistranspordi kasutajate arvu langus on toimunud vaatamata sellele, et samal ajal ei ole ühissõidukite läbisõit vähenenud.
+Intensifying car traffic reduces the number of travellers using public transport and this makes good services more expensive and difficult to provide in low-density areas. The decreasing quality and frequency of public transport in turn favours motorisation. According to the Estonian Road Administration, the number of passengers on county routes nearly halved in 2003–2016; the decrease was especially rapid in 2003–2009 ([Figure 1.5.4](#figure154)). These years were a period of rapid increase in wealth and motorisation that led to a shift in modes of mobility in favour of cars. The number of users of public transport has decreased even though the mileage of public transport vehicles has not decreased during the same period.
 
-<p class="caption" id="figure154"><span class="figure-number">Joonis 1.5.4.</span> Reisijate arvu ja läbisõidu muutus maakonnaliinidel Eestis, 2003–2016</p>
+<p class="caption" id="figure154"><span class="figure-number">Figure 1.5.4.</span> Changes in number of passengers and distance travelled on county routes in Estonia, 2003–2016</p>
 <div class="desktop-plot">
 ```{r, figure154, out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 
- fig154_data <- read.csv ("../data/15_fig4_data.csv", header=TRUE, fileEncoding="utf-8", sep=";")
- 
- fig154_data$variable_eng[grepl("Läbisõit",fig154_data$variable)]<-"Distance travelled (million km)"
-fig154_data$variable_eng[grepl("Sõitjate arv",fig154_data$variable)]<-"Number of passengers (million)"
+ fig154_data <- read.csv ("data/15_fig4_data.csv", header=TRUE, fileEncoding="utf-8", sep=";")
 
 
   fig154_plot <- ggplot(data = fig154_data) +
-    geom_line(mapping = aes(x=year, y=value, colour=variable_eng, group=variable, text = paste("", variable_eng,
-                         "<br>", value,
-                         "<br>", year)), size=0.75) +
+    geom_line(mapping = aes(x=year, y=value, colour=variable, group=variable, text = paste("", variable,
+                         "<br>", year,
+                         "<br>", value)), size=0.75) +
     scale_x_continuous(breaks=c(2003,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(2003,2016.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,40)) +
-    scale_colour_manual(values=c("#482683","#369B9E")) +
-    labs(y="", x="") +
+    scale_colour_manual(values=c("#482683","#369B9E"), labels=c("Läbisõit (mln km)","Sõitjate arv (mln)")) +
+    labs(y="", x="aasta") +
     expand_limits (y=0)
 
   fig154_theme <- theme (
@@ -198,14 +189,13 @@ fig154_data$variable_eng[grepl("Sõitjate arv",fig154_data$variable)]<-"Number o
   )
 
 ggplotly(fig154_plot + fig_theme_general + fig154_theme, tooltip = "text" ) %>%
-config(displayModeBar = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
  # ggsave(path="exported_figures/PDF/chapter1",filename="fig154.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
-
 </div>
 <div class="mobile-plot">
 ```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
@@ -216,24 +206,24 @@ print(fig154_plot + fig_theme_general + fig154_theme)
 </div>
 
 ``` {block, type='imgsource'}
-<div><span class="imgsource-source">Allikas:</span> Maanteeamet.</div>
+<div><span class="imgsource-source">Source:</span> Estonian Road Administration.</div>
 <div><a class="data-btn" href="data/15_fig4_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
 ```{block, type='casebox'}
-<h3>Liikuvusuuring Saaremaal nõudluspõhise transpordi korraldamiseks</h3>
+<h3>A mobility survey in Saaremaa for organising demand-based transport</h3>
 
-Nõudluspõhisel transpordil on potentsiaali pakkuda hajaasustuses paindlikumat ja kulutõhusamat lahendust. Rakendusliku Antropoloogia Keskuse (RAK) pilootprojekti käigus uuriti 2018. aastal Saaremaal, kuidas inimesed tunnetavad oma liikumisvõimalusi ja millised liikuma saamise strateegiad hajaasustuses töötavad. Selgus, et hajaasustuses on liikumine raskem just väikeste lastega kodus olevatel lastevanematel, piiratud liikumisvõimega vanuritel, graafiku alusel teises külas või Kuressaares töötavatel inimestel ning linnas huviringides käivatel lastel ja noortel. Saaremaal suhtuti nõudluspõhisesse transporti mõnevõrra kahtlevalt. Praegu eelistatakse kojusõidul tuttava autot liinibussile, isegi kui sel teekonnal tehakse kõrvalepõikeid ja lisapeatusi. Kasutusel on inimeste endi loodud Facebooki sõidugrupid. Seega on nõudluspõhise transpordi ja sõidujagamise elemendid kohalike igapäevapraktikas juba olemas. Selle organiseeritumad ja professionaalsemad edasiarendused, mis hajaasustatud elukeskkonnas paremad liikumisvõimalused tagaksid, väärivad kindlasti tulevikus rohkem transpordiplaneerijate tähelepanu.
+Demand-responsive transport has the potential of offering more flexible and cost-effective solutions in low-density areas. A pilot project carried out in Saaremaa in 2018 by the Centre for Applied Anthropology of Estonia explored how people perceived their travel options and what mobility strategies work in low-density areas. The project revealed that in low-density areas, mobility poses an issue mainly for domestic parents of young children, seniors with reduced mobility, people working shifts in another village or in Kuressaare, and for children and young people attending extracurricular activities in towns. The idea of demand-responsive transport was received with reservations in Saaremaa. People currently prefer to get a ride home in a friend’s car rather than take a bus, even if the car journey involves additional stops and detours. People have created and use Facebook travel groups to share rides. Therefore, elements of demand-responsive transport and ride-sharing are already present in the daily practice of local people. More organised and professional ride-sharing developments that offer better travel options in low-density areas certainly deserve more attention by transport planners in the future.
 ```
 
-### Elu eeslinnas on linnaelust autokesksem {-.chapter1_section}
+### Suburbs are more car-centred than urban centres {-.chapter1_section}
 
 ```{block, type='blockquote-right'}
-Tihenev autoliiklus vähendab ühistransporti kasutavate reisijate arvu ning see muudab hea teenuse pakkumise hajaasustuses kallimaks ja keerulisemaks.
+Intensifying car traffic reduces the number of travellers using public transport and this makes good services more expensive and difficult to provide in low-density areas.
 ```
-Eesti suuremates linnaregioonides on viimasel kahel kümnendil toimunud valglinnastumine: uusi elamu-, kaubandus-, teenuste- ja tootmisalasid on rajatud tiheasustusaladest välja, kuid loodud alad ei ole terviklikult planeeritud, mistõttu toimub elanike pendelliikumine keskuse ja linnaäärsete elurajoonide vahel, selleks sageli isiklikku sõiduautot kasutades. Elanike arv Tallinna lähiregioonis on viimase 20 aasta jooksul oluliselt kasvanud ([joonis 1.5.5](#figure155)), ent Harjumaa kaugemates omavalitsustes on toimunud mõõdukas langus 10–20%. Statistikaameti 2011. aasta rahvaloenduse pendelrände andmete järgi on Eestis kokku 28 üle 5000 elanikuga keskuslinna ümber koondunud toimepiirkonda. Kui paljud neist keskustest on väikesed, eriti just Lõuna-Eestis, siis üks – Tallinn – avaldab mõju inimeste liikumisele üle Eesti.
+Urban sprawl has occurred in Estonia’s largest urban regions over the past two decades: new residential, commercial, service and production areas have been established outside densely populated areas, but as the new areas lack integrated planning, the inhabitants commute between the city centre and suburban residential districts, often using private cars. Over the past 20 years, the population has increased considerably in Tallinn’s immediate surroundings ([Figure 1.5.5](#figure155)), ent Harjumaa kaugemates omavalitsustes on toimunud mõõdukas langus 10–20%. Statistikaameti 2011. aasta rahvaloenduse pendelrände andmete järgi on Eestis kokku 28 üle 5000 elanikuga keskuslinna ümber koondunud toimepiirkonda. Kui paljud neist keskustest on väikesed, eriti just Lõuna-Eestis, siis üks – Tallinn – avaldab mõju inimeste liikumisele üle Eesti.
 
-<p class="caption" id="figure155"><span class="figure-number">Joonis 1.5.5.</span> Autode arv leibkonnas Tallinnas (2016) ja Harjumaal (2017) ning elanike arvu juurdekasv Tallinna lähiregioonis viimase 20 aastal jooksul. 1998 aasta rahvaarv = 100%</p>
+<p class="caption" id="figure155"><span class="figure-number">Figure 1.5.5.</span> Number of cars per household in Tallinn (2016) and Harjumaa (2017) and population increase in Tallinn’s immediate surroundings over the past 20 years. Population in 1998 = 100%</p>
 
 
 ```{r, figure155, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
@@ -242,34 +232,25 @@ library("tidyverse")
 library(gridExtra)
 library(grid)
 
-  fig155_data1 <- read.csv ("../data/15_fig5_data1.csv", header=TRUE, fileEncoding="utf-8")
+  fig155_data1 <- read.csv ("data/15_fig5_data1.csv", header=TRUE, fileEncoding="utf-8")
 
-  fig155_data2 <- read.csv ("../data/15_fig5_data2.csv", header=TRUE, fileEncoding="utf-8")
+  fig155_data1$number_of_cars <- factor (  fig155_data1$number_of_cars, levels = c("Pole autot", "1 auto", "2 või enam autot"))
+
+  fig155_data2 <- read.csv ("data/15_fig5_data2.csv", header=TRUE, fileEncoding="utf-8")
 
   fig155_line <- data.frame(x=c(0, 5),
                 y=c(100, 100))
-  
-  fig155_data1$number_of_cars_eng[grepl("1 auto",fig155_data1$number_of_cars)]<-"1 car"
-  fig155_data1$number_of_cars_eng[grepl("2 või enam autot",fig155_data1$number_of_cars)]<-"2 or more cars"
-  fig155_data1$number_of_cars_eng[grepl("Pole autot",fig155_data1$number_of_cars)]<-"No car"
-    
-  fig155_data1$number_of_cars_eng <- factor (  fig155_data1$number_of_cars_eng, levels = c("No car", "1 car", "2 or more cars"))
-  
-  fig155_data2$growth_of_population_eng[grepl("Viimsi vald",fig155_data2$growth_of_population)]<-"Viimsi\n municipality"
-  fig155_data2$growth_of_population_eng[grepl("Harku vald",fig155_data2$growth_of_population)]<-"Harku\n municipality"
-  fig155_data2$growth_of_population_eng[grepl("Rae vald",fig155_data2$growth_of_population)]<-"Rae\n municipality"
-  fig155_data2$growth_of_population_eng[grepl("Kiili vald",fig155_data2$growth_of_population)]<-"Kiili\n municipality"
 
 
   fig155_plot1 <- ggplot(data = fig155_data1) +
     geom_bar(mapping = aes(x=area, y=value, fill=area), width=0.7, stat="identity", position = "dodge") +
     scale_fill_manual(values=c("#369B9E","#482683")) +
-    facet_wrap(~number_of_cars_eng, nrow=1) +
+    facet_wrap(~number_of_cars, nrow=1) +
     labs(y="%", x="") +
     expand_limits (y=0)
 
     fig155_plot2 <- ggplot() +
-    geom_bar(data = fig155_data2, mapping = aes(x=growth_of_population_eng, y=value, fill=growth_of_population_eng), width=0.7, stat="identity") +
+    geom_bar(data = fig155_data2, mapping = aes(x=growth_of_population, y=value, fill=growth_of_population), width=0.7, stat="identity") +
       geom_line(data = fig155_line, mapping=aes(x=x, y=y), col="#482683") +
     scale_fill_manual(values=c("#B6A8CD","#b1e0f9","#369B9E","#482683")) +
     labs(y="%", x="") +
@@ -288,7 +269,7 @@ library(grid)
           panel.grid.minor.x = element_blank(),
           legend.position = "none",
            text = element_text(size = 10)
-      
+
     )
 
 grid.arrange(fig155_plot1 + fig_theme_general + fig155_theme1, fig155_plot2  + fig_theme_general + fig155_theme2, ncol = 2)
@@ -298,44 +279,38 @@ grid.arrange(fig155_plot1 + fig_theme_general + fig155_theme1, fig155_plot2  + f
 ```
 
 ``` {block, type='imgsource'}
-<div><span class="imgsource-source">Allikas:</span> Kantar Emor 2018; Statistikaamet, 1998; 2018.</div>
-<div><a class="data-btn" href="../data/15_fig5_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><span class="imgsource-source">Source:</span> Kantar Emor 2018; Statistics Estonia 1998, 2018.</div>
+<div><a class="data-btn" href="data/15_fig5_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
-Nagu ka hajaasustatud maapiirkondades, on linnade tagamaadel elu autota keeruline. Harjumaal väljaspool Tallinna on keskmiselt kaheksal perel kümnest isiklik sõiduauto, peaaegu pooltel leibkondadest on kaks või enam autot ([joonis 1.5.5](#figure155)). Maanteeameti tellimusel valminud Kantar Emori 2018. aasta Tallinna lähipiirkonna liikumisviiside uuringu alusel saab öelda, et peaaegu kolmest käigust kahel võtab Tallinnast väljas elav harjumaalane kasutusse auto, samal ajal kui Tallinna sees tehakse autoga vaid umbes pool käikudest. TNS Emori 2015. aasta andmetel kasutavad linnakeskuses elavad inimesed autot vähem kui inimesed, kes elavad linna serval. Ühistranspordi kasutuses on trend vastupidine. Tallinnas on ühistranspordi kasutajaid protsentuaalselt rohkem kui Tallinna tagamaal. Erinevused on ka tagamaa sees. Lääne-Harju vallas, mille koosseisu kuulub Keila linn ning kus on hea elektriraudtee ühendus Tallinnaga, teevad elanikud rongiga 16% oma käikudest. Seevastu Saku vallas, mida raudtee küll läbib, on rongiliiklus hõredam ja ühendus Tallinnaga on halvem – rongiga tehakse ainult 1% kõigist pealinna käikudest.
+As in low-density rural areas, life without a car is also complicated in peri-urban areas. In areas just outside Tallinn in Harjumaa, an average of eight households out of ten have a private car, while nearly half of the households have two or more cars ([Figure 1.5.5](#figure155)). A mobility study of Tallinn’s direct surroundings conducted by Kantar Emor in 2018 for the Estonian Road Administration shows that the inhabitants of Harjumaa use a car for nearly two out of three trips, while Tallinn residents only make about half of all trips by car. According to TNS Emor 2015 data, people living in urban centres use cars less than those living in the suburbs. An opposite trend is apparent in the use of public transport. The percentage of public transport users is higher in Tallinn than in the city’s hinterland. There are also differences within the hinterland. In the Lääne-Harju rural municipality, which includes the town of Keila with a good electric rail connection with Tallinn, people use the train for 16% of their trips. On the other hand, in the Saku rural municipality, which has a rail connection but the train service is less frequent and connections with Tallinn are poorer, only 1% of all trips to the capital city are taken by train.
 
 ```{block, type='blockquote-left'}
-Alates 1990. aastate lõpust on vähenenud jalgsi või ühistrans- pordiga tööl käimine, samal ajal on kahekordistunud sõiduautoga tööle liikumine.
+Going to work on foot or by public transport has decreased since the late 1990s, while driving to work by car has doubled
 ```
-Tööle liikumise trendid viimasel kümnendil näitavad sõiduauto kasutamise populaarsuse kasvu nii Tallinnas kui ka mujal Harjumaal ([joonis 1.5.6](#figure156)). Jalgsi tööle käimise osatähtsus tagamaal on oluliselt vähenenud, sest töökohad on järjest enam paiknenud Tallinna. Tallinnas on jalgsi tööl käijate osatähtsus jäänud samale tasemele. Ühistranspordi kasutamise osatähtsus on Tallinnas langenud 50%-lt 35%-le ning mujal Harjumaal 26%-lt 18%-le. Ka üle Eesti on suundumus sarnane: alates 1990. aastate lõpust on vähenenud jalgsi või ühistranspordiga tööl käimine, samal ajal on kahekordistunud sõiduautoga tööle liikumine ([joonis 1.5.7](#figure157)).
+Commuting trends over the past decade show that using cars has become more popular in Tallinn as well as elsewhere in Harjumaa ([Figure 1.5.6](#figure156)). The relative share of walking to work has decreased considerably in peri-urban areas, as jobs are increasingly located in Tallinn. The share of those who walk to work has remained unchanged within Tallinn. The share of using public transport has decreased from 50% to 35% in Tallinn and from 26% to 18% elsewhere in Harjumaa. The nationwide trend is similar: Going to work on foot or by public transport has decreased since the late 1990s, while driving to work by car has doubled ([Figure 1.5.7](#figure157)).
 
 
-<p class="caption" id="figure156"><span class="figure-number">Joonis 1.5.6.</span> Tallinna ja muu Harjumaa elanike tööle liikumise viiside osatähtsus aastatel 2000–2017</p>
+<p class="caption" id="figure156"><span class="figure-number">Figure 1.5.6.</span> Modes of travelling to work in Tallinn and the rest of Harjumaa, 2000–2017</p>
 <div class="desktop-plot">
 ```{r, figure156, out.width='95%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 library("plotly")
 
- fig156_data <- read.csv ("../data/15_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
+ fig156_data <- read.csv ("data/15_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
 
  fig156_data$value=as.numeric(levels(fig156_data$value))[fig156_data$value]
- 
-  fig156_data$variable_eng[grepl("Jalgsi",fig156_data$variable)]<-"On foot"
-  fig156_data$variable_eng[grepl("Sõiduautoga",fig156_data$variable)]<-"By car"
-  fig156_data$variable_eng[grepl("Ühissõidukiga",fig156_data$variable)]<-"By public transport"
-  
-  fig156_data$variable_eng <- factor (fig156_data$variable_eng, levels = c("On foot", "By car", "By public transport"))
 
-  fig156_plot <- ggplot(subset(fig156_data, variable_eng %in% c("On foot", "By car", "By public transport"))) +
-    geom_line(mapping = aes(x=year, y=value, colour=variable_eng, group=variable_eng, text = paste("", variable_eng,
+  fig156_plot <- ggplot(subset(fig156_data, variable %in% c("Jalgsi", "Sõiduautoga", "Ühissõidukiga"))) +
+    geom_line(mapping = aes(x=year, y=value, colour=variable, group=variable, text = paste("", variable,
                          "<br>", year,
                          "<br>", value)), size=0.75) +
     scale_x_continuous(breaks=c(2000,2002,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(2000,2017.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,71)) +
     scale_colour_manual(values=c("#1f9a9e","#482683","#83d0f5"))+
     facet_wrap(~area, nrow=1) +
-    labs(y="Share of modal use (%)", x="") +
+    labs(y="Liikumisviisi osakaal (%)", x="") +
     expand_limits (y=0)
 
   fig156_theme <- theme (
@@ -344,11 +319,10 @@ library("plotly")
   )
 
 ggplotly(fig156_plot + fig_theme_general + fig156_theme, tooltip = "text" ) %>%
-config(displayModeBar = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
-
 
   #ggsave(path="exported_figures/PDF/chapter1",filename="fig156.pdf",fig156_plot + fig156_theme +fig_theme_general, height=90, width=150, units="mm")
 ```
@@ -362,40 +336,27 @@ layout(yaxis = list(fixedrange = TRUE))
 </div>
 
 ``` {block, type='imgsource'}
-<div><span class="imgsource-source">Allikas:</span> Statistikaamet.</div>
-<div><a class="data-btn" href="../data/15_fig6_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><span class="imgsource-source">Source:</span> Statistics Estonia.</div>
+<div><a class="data-btn" href="data/15_fig6_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
-Võime öelda, et autostumine on olnud suundumus üle Eesti. Maanteeameti ([2017](#Maanteeamet2017)) andmetel on autode läbisõidu kilometraaž aastatel 2013–2017 kasvanud 16% võrra. Kui regioonikeskustes suudab ühistransport püsida konkurentsivõimelisena, siis linnade tagamaade ja kaugemate Eesti äärealade elanikkond on järjest enam sõltuv autost. Seega ei ole riigi ja omavalitsuste tasandil suudetud teha piisavaid edusamme autokasutuse vähendamiseks.
+Motorisation has been a nationwide trend. According to the Estonian Road Administration ([2017](#Maanteeamet2017)) the mileage of cars has increased 16% in 2013–2017. While public transport remains competitive in regional centres, the people living in peri-urban and remote areas increasingly depend on cars. This means that efforts to reduce the use of cars at national and municipal levels have not been sufficient.
 
-<p class="caption" id="figure157"><span class="figure-number">Joonis 1.5.7.</span> Kogu Eesti tööga hõivatute peamine tööle liikumise viis, selleks kuluv aeg ning töökoha kaugus, 1997–2017</p>
+<p class="caption" id="figure157"><span class="figure-number">Figure 1.5.7.</span> Main mode of travelling to work, duration of journey and distance to work for employed people in Estonia, 1997–2017</p>
 <div class="desktop-plot">
 ```{r, figure157, fig.align='center', echo=FALSE, message=FALSE, fig.asp=0.75}
 
 library("tidyverse")
 library("scales")
 
- fig157_data1 <- read.csv ("../data/15_fig7_data1.csv", header=TRUE, fileEncoding="utf-8")
+ fig157_data1 <- read.csv ("data/15_fig7_data1.csv", header=TRUE, fileEncoding="utf-8")
 
-fig157_data1$variable_eng[grepl("Jalgsi",fig157_data1$variable)]<-"On foot"
-fig157_data1$variable_eng[grepl("Töötab kodus",fig157_data1$variable)]<-"Works at home, works and lives in the same place"
-fig157_data1$variable_eng[grepl("Ühissõidukiga",fig157_data1$variable)]<-"Public transport"
-fig157_data1$variable_eng[grepl("Ametiauto, töökoha sõidukiga",fig157_data1$variable)]<-"Take-home vehicle"
-fig157_data1$variable_eng[grepl("Isikliku autoga",fig157_data1$variable)]<-"Private car"
-fig157_data1$variable_eng[grepl("Jalgratta, mopeedi, mootorrattaga",fig157_data1$variable)]<-"Bicycle, moped, motorcycle"
+fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab kodus, töötab ja ööbib samas kohas","Ühissõidukiga", "Ametiauto, töökoha sõidukiga","Isikliku autoga","Jalgratta, mopeedi, mootorrattaga","Jalgsi"))
 
-fig157_data1$variable_eng <- factor ( fig157_data1$variable_eng, levels = c("Works at home, works and lives in the same place","Public transport", "Take-home vehicle","Private car","Bicycle, moped, motorcycle","On foot"))
-  
- fig157_data2 <- read.csv ("../data/15_fig7_data2.csv", header=TRUE, fileEncoding="utf-8")
+ fig157_data2 <- read.csv ("data/15_fig7_data2.csv", header=TRUE, fileEncoding="utf-8")
 
-fig157_data2$variable_eng[grepl("Keskmine põhitöökohale jõudmise aeg",fig157_data2$variable)]<-"Average time of travel to main job (min)"
-fig157_data2$variable_eng[grepl("Põhitöökoha keskmine kaugus elukohast",fig157_data2$variable)]<-"Average distance from place of residence to main job (km)"
-
-fig157_data2$variable_eng <- factor ( fig157_data2$variable_eng, levels = c("Average time of travel to main job (min)","Average distance from place of residence to main job (km)"))
- 
- 
   fig157_plot1 <- ggplot() +
-    geom_bar(data = fig157_data1, mapping = aes(x=year, y=value, fill=variable_eng, text = paste("", variable_eng,
+    geom_bar(data = fig157_data1, mapping = aes(x=year, y=value, fill=variable, text = paste("", variable,
                          "<br>", year,
                          "<br>", value,"%")), width=0.7, stat="identity") +
     scale_fill_manual(values=c("#2d6a6d","#b1e0f9","#4bb1ca","#6D519C","#369B9E","#241342")) +
@@ -403,15 +364,15 @@ fig157_data2$variable_eng <- factor ( fig157_data2$variable_eng, levels = c("Ave
     scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017)) +
     scale_y_continuous(breaks=c(20, 40,60,80,100)) +
     guides(fill=guide_legend(nrow=6,byrow=TRUE)) +
-    labs(y="Main mode of travel to work (%)", x="")
+    labs(y="Peamine tööle liikumise viis (%)", x="")
 
 
   fig157_plot2 <- ggplot() +
-    geom_line(data = fig157_data2, mapping = aes(x=year, y=value, colour=variable_eng,group=variable_eng, text = paste("", variable_eng,
+    geom_line(data = fig157_data2, mapping = aes(x=year, y=value, colour=variable, group=variable, text = paste("", variable,
                          "<br>", value,
                          "<br>", year)), size=0.75) +
     scale_colour_manual(values=c("#369B9E","#482683")) +
-    labs(y="", x="aasta") +
+    labs(y="", x="") +
     scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017), expand = c(0, 0), limits=c(1997,2017.5)) +
     scale_y_continuous(breaks=c(5, 10,15,20,25), expand = c(0, 0), limits=c(0,25)) +
     expand_limits (y=0)
@@ -429,16 +390,17 @@ fig157_data2$variable_eng <- factor ( fig157_data2$variable_eng, levels = c("Ave
            text=element_text(family="Montserrat")
   )
 
+
 ggplotly(fig157_plot1 + fig_theme_general + fig157_theme1, tooltip = "text" ) %>%
-config(displayModeBar = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
 
 ggplotly(fig157_plot2 + fig_theme_general + fig157_theme2, tooltip = "text" ) %>%
-config(displayModeBar = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -447,7 +409,6 @@ layout(yaxis = list(fixedrange = TRUE))
 
     #ggsave(path="exported_figures/PDF/chapter1",filename="fig157b.pdf",fig157_plot2  +fig_theme_general + fig157_theme2, height=100, width=210, units="mm")
 ```
-
 </div>
 <div class="mobile-plot">
 ```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
@@ -459,43 +420,37 @@ layout(yaxis = list(fixedrange = TRUE))
 </div>
 
 ``` {block, type='imgsource'}
-<div><span class="imgsource-source">Allikas:</span> Statistikaamet.</div>
-<div><a class="data-btn" href="../data/15_fig7_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><span class="imgsource-source">Source:</span> Statistics Estonia.</div>
+<div><a class="data-btn" href="data/15_fig7_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
-Kõik liikumised ei ole seotud tööle või poodi sõitmisega. Ligi kümnendik kõigist liikumistest sõiduautoga on seotud laste viimisega kooli või lasteaeda. Iga päev tegeleb kellegi sõidutamisega 12% Tallinna tagamaa elanikest, kusjuures suurem roll on selles kuni 34-aastastel naistel ([Kantar Emor 2018](#Kantar2018)). Nii tuleb ka Tallinna linnaregioonis esile mujal maailmas kogetu, et elu linnast väljas tähendab aktiivset autokasutust, laste sõidutamist ja et selle rolli saavad ennekõike emad ([McCarthy jt 2017](#McCarthy2017)).
+Not all journeys are made to go to work or for shopping. Nearly one-tenth of journeys by car are made to take children to school or kindergarten. In the peri-urban areas of Tallinn, 12% of people drive daily to give rides to others, within which women up to the age of 34 represent the largest group ([Kantar Emor 2018](#Kantar2018)). Tallinn therefore repeats the global experience that living outside a city means actively using a car, giving rides to children, and that mostly mothers fulfil this role ([McCarthy jt 2017](#McCarthy2017)).
 
 ```{block, type='blockquote-right'}
-Head ühistranspordiühendused ning kergliiklusvõrgustikud eeslinnades aitaksid luua mitmekülgsete kasutusvõimalustega keskkonda, kus iga tegevuse või teenuse pärast ei peaks sõitma linna.
+Good public transport connections and non-motorised traffic networks in the suburbs would help create an environment with a variety of uses, in which people would not have to travel to the city for every activity or service.
 ```
-Kuigi eeslinnade kasvu on üksjagu uuritud, ei ole veel piisavalt räägitud ees- või valglinnastumise mõjul toimuvast avaliku ruumi muutumisest. Osa mõjusid on ootuspärased. Näiteks autost sõltuvates keskkondades elavad pereliikmed, kes ise autot ei juhi – ennekõike alla 18-aastased – sõltuvad oma vanemate soovist, ajast ja võimalustest neid transportida. Samuti vähenevad kokkupuuted ühiskonna eri gruppide vahel. Elu eeslinnades ja liikumine autoga vähendab märkimisväärselt linnaelule omast suhtlemist tänavatel või kohtumisi võõrastega ühistranspordis. Kuigi ka eeslinnade kogukonnad võivad olla ühtehoidvad ja sisemiselt demokraatlikud, moodustavad sellises elukorralduses kogukonna sotsiaalselt ja majanduslikult sarnased inimesed, kohtumisi endast erinevatega on aga vähe. Lisaks on uuringud näidanud, et linnaelanike igapäevaliikumised tekitavad väiksemat keskkonnakoormust kui tagamaa- või maavaldade elanike liikumised ([Poom 2017](#Poom2017)). Aga just keskuslinnad on need, mis saavad enim tunda kasvanud autostumise mõjusid, nagu õhusaate, müra, ummikud ja avaliku ruumi kasutamine parkimisruumina.
+Although the growth of suburbs has been studied to a fair extent, the changing of the public space due to urban sprawl or the expansion of suburbs has not been discussed sufficiently. Some of the effects are as expected. For example, in car-dependent environments, those family members that do not drive a car themselves, especially children under 18, depend on the willingness, time and availability of their parents to transport them. Contacts between the various groups of society also become less frequent. Living in the suburbs and travelling by car considerably reduces socialisation on the street or encounters with strangers on public transport, which are so typical of an urban lifestyle. Even though suburban communities may have a community spirit and inner democracy, such a community consists of socially and economically similar people and their encounters with different types of people are scarce. Furthermore, surveys show that the daily travelling of urban residents leads to a lower environmental burden than that of peri-urban and rural inhabitants ([Poom 2017](#Poom2017)). But it is the urban centres that suffer the most from the impact of motorisation, such as air pollution, noise, traffic jams and the use of the public space for parking.
 
-Linnaregiooni planeerimisel on oluline ühendada kesklinna liikumiskorraldus eeslinna omaga. Head ühistranspordiühendused ning kergliiklusvõrgustikud eeslinnades aitaksid luua mitmekülgsete kasutusvõimalustega keskkonda, kus iga tegevuse või teenuse pärast ei peaks sõitma linna. Parem ligipääs teenustele eeslinnades parandaks nii eeslinnade kui ka linnakeskuste avaliku ruumi kvaliteeti. Linnaregioonides suurendaks parem ligipääsetavus kodanike osavõttu ühiskonnaelust ja looks sidusama ühiskonna.
+In urban planning, it is essential to link the planning and management of mobility in the city centre to that in the suburbs. Good public transport connections and non-motorised traffic networks in the suburbs would help create an environment with a variety of uses, in which people would not have to travel to the city for every activity or service. Better access to services in the suburbs would improve the quality of the public space in both the suburbs and urban centres. In urban regions, better accessibility would increase participation in social life and lead to a more coherent society.
 
-### Linnakeskuste liikuvuse arendamine lähtub autodest {-.chapter1_section}
+### The development of mobility in urban centres is based on cars {-.chapter1_section}
 
-Valglinnastumine ja sellega seotud autostumine mõjutab linnakeskuste avaliku ruumi kvaliteeti inimestevahelise suhtluse ja kontaktide edendajana. Kui kesklinnast kaovad töökohad ja teenused, ei ole linna äärealadel elavatel elanikel sinna enam põhjust minna. See omakorda tähendab, et linnakeskuse poodidel ja kohvikutel pole enam piisavalt klientuuri. Linnakeskustesse rajatavad uued hooned – väikelinnades enamasti tüüpprojektiga toidupoed ja suuremates linnades kontorihooned – kipuvad olema mahult liiga suured hea avaliku ruumi loomiseks. Avaliku ruumi, sealhulgas tänavaruumi kvaliteet mõjutab oluliselt inimeste valmidust, soovi ja võimalust linnaruumis liikuda ja viibida. Avaliku ruumi kvaliteet jalakäijana ei ole lihtsalt mõõdetav ega numbriliselt hinnatav, kuid autodes ja ummikutes veedetav aeg vähendab paratamatult võimalusi kohtumisteks ja suhtlemiseks tänavaruumis.
+Urban sprawl and the related motorisation influence the quality of the public space in urban centres as a facilitator of people-to-people contact and communication. If jobs and services disappeared from the city centre, suburban inhabitants would have no reason to go there any more. This in turn means that shops and cafés in the centre would lose business. New buildings in urban centres – usually standard-design grocery stores in small towns and office buildings in larger towns – tend to be too bulky for good public space. The quality of public space, including street space, has a considerable impact on people’s willingness, desire and opportunities to move around and be in the urban space. The quality of public space is not easily measured or quantified, while the time spent in cars and traffic jams inevitably reduces opportunities to meet and socialise in the street space.
 
 ```{block, type='blockquote-left'}
-Avaliku ruumi, sealhulgas tänavaruumi kvaliteet mõjutab oluliselt inimeste valmidust, soovi ja võimalust linnaruumis liikuda ja viibida.
+The quality of public space, including street space, has a considerable impact on people’s willingness, desire and opportunities to move around and be in the urban space.
 ```
-Eesti suuremates linnades on liikuvuse arendamine siiani lähtunud jätkuvast autostumise kasvu prognoosist. Suured Tallinna teeprojektid, nagu Reidi tee, Haabersti ringristmik ja planeeritav Rävala läbimurre, samuti Tartut läbiv riikliku maantee osaks olev Ringtee, illustreerivad poliitilist soovi parandada just autoliikumise kvaliteeti. Nende väga kulukate tee-ehitusprojektide kõrval jäävad vajaliku tähelepanuta võimalused soodustada teisi liikumisviise, mis oleksid võrdselt kasutatavad nii väiksema kui ka suurema sissetulekuga inimestele. Tee-ehituse suurvormid lõhuvad jalakäijale sobivat inimmõõtmelist ruumi ja soodustavad autosõitu seetõttu veelgi. Planeeringutes on reeglina parkimiskohtade arv määratud normide järgi, arvestamata planeeringu asukohta või ühistranspordi lähedust. Meetmed, nagu asustuse planeerimine ühistranspordi lähedusse või jalgrattateede rajamine ja korrastamine, aitaksid soosida mitmekesist liikumisviiside valikut. Ning seega vähendada vajadust omada ja kasutada isiklikku autot. Täna räägitakse nii linna, eeslinna kui ka maapiirkonna planeeringutes jalgratturitest ja jalakäijatest pigem ohutuse vaatepunktist. Kergliiklustaristu strateegiline eelisarendamine alternatiiviks autoga liiklemisele ei ole üheski omavalitsuses prioriteetne.
+Mobility development in Estonia’s largest towns has so far been based on the expectation of continuing motorisation. Large road projects, such as Reidi Road, Haabersti roundabout and the planned Rävala connection in Tallinn, as well as the ring road through Tartu that is part of a national highway, illustrate the political willingness to improve the quality of car travel. While these very expensive road building projects are under way, insufficient attention is paid to ways of facilitating other modes of mobility that would be equally available to people with lower and higher incomes. Giant road structures disrupt the human-dimension of public space suitable for pedestrians, and therefore encourage even greater motorisation. In planning documents, the number of parking places is usually determined by standards without considering the location of the site or the proximity of public transport. Measures such as planning settlements near public transport routes or establishing and maintaining bicycle paths would facilitate a wide range of modes of mobility and thereby reduce the need for owning and using a private car. Cyclists and pedestrians are mentioned in the current urban, suburban and rural plans mostly in the context of safety. Preferential strategic planning of non-motorised traffic infrastructure as an alternative to car traffic is not a priority in any of the municipalities.
 
-Autosõiduks mõeldud tänavate kõrval pole loodud piisavalt konkurentsivõimelisi ja atraktiivseid alternatiive jalgsi ja rattaga liikumiseks, kuigi tipptundidel ning alla 3-kilomeetristel distantsidel on jalgratas üks kiiremaid liikumisviise ([joonis 1.5.8](#figure158)). Tallinna linna andmetel (vt statistikakogumik „Tallinn arvudes 2018“) oli 2017. aasta seisuga 273 km jalg- ja jalgrattateid, millest peaaegu 90% olid jalakäijatega jagatud kergliiklusteed.
+Not enough competitive and attractive alternatives to car traffic have been offered to cater for walking and cycling, even though the bicycle is one of the fastest modes of mobility during peak hour and for distances under 3 km ([Figure 1.5.8](#figure158)). According to data on Tallinn (<a href="https://www.tallinn.ee/est/Tallinn-arvudes">Tallinn arvudes 2018</a>), it had 273 km of bicycle and pedestrian paths in 2017, of which nearly 90% were tracks for non-motorised traffic shared with pedestrians.
 
-<p class="caption" id="figure158"><span class="figure-number">Joonis 1.5.8.</span> Liikumisviiside ajalise konkurentsivõime võrdlus</p>
+<p class="caption" id="figure158"><span class="figure-number">Figure 1.5.8.</span> Comparison of the competitiveness of modes of mobility in terms of time</p>
 
 ```{r, figure158, fig.align='center', out.width='80%', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 
- fig158_data <- read.csv ("../data/15_fig8_data.csv", header=TRUE, fileEncoding="utf-8", sep = ";")
- 
- fig158_data$liikumisviis_eng[grepl("Autoga", fig158_data$liikumisviis)]<-"By car"
- fig158_data$liikumisviis_eng[grepl("Jala", fig158_data$liikumisviis)]<-"On foot"
-fig158_data$liikumisviis_eng[grepl("Jalgrattaga", fig158_data$liikumisviis)]<-"By bicycle"
-
-fig158_data$liikumisviis_eng <- factor (fig158_data$liikumisviis_eng, levels = c("By car","On foot", "By bicycle"))
+ fig158_data <- read.csv ("data/15_fig8_data.csv", header=TRUE, fileEncoding="utf-8", sep = ";")
 
   fig158_line <- data.frame(x=c(0,1,1,1,0,3,3,3),
                 y=c(14,14,14,0,17,17,17,0), line=c(1,1,2,2,3,3,4,4))
@@ -503,7 +458,7 @@ fig158_data$liikumisviis_eng <- factor (fig158_data$liikumisviis_eng, levels = c
   fig158_plot <- ggplot() +
     geom_line(fig158_line, mapping = aes(x=x, y=y, group=line), colour="#3A404A",size=0.5, show.legend = NA, linetype = "dashed") +
 
-    geom_line(data = fig158_data, mapping = aes(x=distance, y=time, colour=liikumisviis_eng, group=liikumisviis_eng), size=1) +
+    geom_line(data = fig158_data, mapping = aes(x=distance, y=time, colour=liikumisviis, group=liikumisviis), size=1) +
     scale_x_continuous(breaks=c(0,1,2,3,4,5),expand = c(0, 0), limits=c(0,5.1)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,70)) +
     expand_limits (y=0) +
@@ -521,37 +476,40 @@ fig158_data$liikumisviis_eng <- factor (fig158_data$liikumisviis_eng, levels = c
 ```
 
 ``` {block, type='imgsource'}
-<div><span class="imgsource-source">Allikas:</span> Tallinna rattastrateegia 2018–2027.</div>
-<div><a class="data-btn" href="../data/15_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><span class="imgsource-source">Source:</span> Tallinn Bicycle Strategy 2018–2027.</div>
+<div><a class="data-btn" href="data/15_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
 ```
 
-Jalgrattateede tiheduselt jääb Tallinn naaberriikide pealinnadele (Helsingi, Stockholm) üle kahe korra alla ([Otsus 2016](#Otsus2016)). Rattateede võrgustik on näiteks Tallinna kesklinna piirkonnas killustunud üksikuteks teejuppideks ja on puudulikult ühendatud rongi- ja bussijaamaga. Meie kliimavöötmes saaks jalgratast aasta lõikes kasutada oluliselt enam: 2017. aastal käis Statistikaameti andmete järgi vaid 1,6% tallinlastest tööl rattaga, samal ajal kui meie kliimaga võrreldavates lähilinnades Helsingis ja Stockholmis tehti vastavalt 11% ja 9% kõikidest liikumistest jalgrattaga ([ECF 2013](#ECF2013)). Seda selgitab Eesti üldine liikumisvõimaluste kujundamise praktika, mis siiani jalgratastele ruumi loomist ei väärtusta.
+The coverage of bicycle paths is more than two times lower in Tallinn compared to the capital cities (Helsinki, Stockholm) of Estonia’s neighbouring countries ([Otsus 2016](#Otsus2016)). For example, in the centre of Tallinn, the bicycle path network is fragmented and has poor connections to the railway and bus stations. Bicycles could be used much more in our climate zone throughout the year: according to Statistics Estonia, only 1.6% of the inhabitants of Tallinn used a bicycle to go to work in 2017, while in the neighbouring capitals of similar climate such as Helsinki and Stockholm, 11% and 9% respectively of all trips were made by bicycle ([ECF 2013](#ECF2013)). This is explained by the general practice of developing travel options in Estonia, which has not valued the creation of space for bicycles so far.
 
-Väiksemates linnades on autoliiklus hõredam ning pigem valmistab probleeme kõnniteede ja üldse tänapäevase avaliku ruumi puudumine. Eriti ilmne on see suuremate maanteede poolt läbilõigatud asulates (nt Rõngu, Adavere). Siiski on ka mitmed väiksemad kohad mõistnud inimsõbraliku ruumi ja hea ligipääsetavuse olulisust eriti nooremale elanikkonnale, rajades kergliiklusteid ja rattaparklaid ning arendades keskväljakuid. Olukorras, kus kohalik ühistransport on vähene või puudub täielikult, kuid vahemaad on lühikesed, on neis asulates suur potentsiaal mugavaks kergliikluseks.
+In smaller towns, car traffic is lighter, while the lack of footpaths and of contemporary public space in general is a more acute problem. This is especially evident in settlements divided by major highways, such as Rõngu or Adavere. However, a number of smaller municipalities have understood the importance of human-friendly space and good accessibility, especially for the younger population; they have built bicycle and pedestrian paths and bicycle parking facilities and developed central squares. Where local public transport is minimal or absent and distances are short, these settlements have great potential for convenient non-motorised traffic.
 
-### Tulevikutrendid: erinevate liikumisviiside õigetes mahtudes võimaldamine tagab vähema autokasutuse {-.chapter1_section}
+### Future trends: enabling various modes of mobility in suitable volumes will reduce the use of cars {-.chapter1_section}
 
-Mitme Lääne-Euroopa riigi, näiteks Suurbritannia noored on hakanud järjest enam loobuma autode omamisest. Trendi põhjusteks on ametisõitude riikliku subsideerimise vähendamine, isikliku auto omamise kallinemine ja paranenud ühistransport ([Le Vine ja Jones 2012](#Le-Vine2012)). Ka Eestis on aimata muutusi, mis tingivad autokasutuse vähenemist. Näiteks on arendatud mitmeid mobiilseid rakendusi linnaregioonis, nagu rendi- ja sõidujagamisteenused, mis vähendavad vajadust ülal pidada isiklikku sõiduautot. Lisaks mõjutavad liikumisviiside muutumist kauba või toidu kojuveo teenuste arenemine ning posti teel kaupade tellimine. Sellised trendid muudavad auto mitteomamise lihtsamaks, pakkudes mugavust teiste lahendustega.
+Young people in many Western European countries such as the United Kingdom are increasingly giving up car ownership. The reasons behind this trend are the reduced subsidies for work-related travel, higher expenses of owning a private car, and improved public transport ([Le Vine ja Jones 2012](#Le-Vine2012)). Changes that will reduce the use of cars are also appearing in Estonia. For example, several mobile applications have been developed for rental and ride-sharing services in urban regions that reduce the need to own a car. The change in modes of mobility is also driven by the development of home delivery services for goods and food, and of mail orders for goods. By offering convenience through alternative solutions, such trends make it easier to not own a car.
 
 ```{block, type='blockquote-right'}
-Täna räägitakse nii linna, eeslinna-
-kui ka maapiirkonna planeeringutes jalgratturitest ja jalakäijatest pigem ohutuse vaatepunktist.
+Cyclists and pedestrians are mentioned in the current urban, suburban and rural plans mostly in the context of safety.
 ```
-Säästva liikuvuse planeerimine eeldab inimkeskset, elukvaliteedile ja ligipääsetavusele suunatud planeerimist. Sellest lähtuvalt valitakse meetmed, mis ühendavad maakasutuse suunamist, autokasutajatele mugavate alternatiivide pakkumist, selleks vajaliku taristu loomist ning teadlikkuse ja hoiakute kujundamist. Eri piirkondades on ka veidi erinevad vajadused ja väljakutsed. Maapiirkondades elavatele peredele tähendab ühiskonnas tavapärastest tegevustest osasaamine praegu pidevat autosõitu. Samal ajal pakuvad tellimusveod ja kogukondlikud sõidujagamisteenused uudseid alternatiive nii isikliku sõiduki omamisele kui ka puudulikule ühistranspordile. Näiteks Saaremaa vallas on kavandamisel juba pilootprojektina nõude- ja sotsiaaltranspordi lahendused, kus inimesed saavad eelnevalt märkida üles liikumise kellaajad ja kuupäevad ning vastavalt sellele koostatakse sõidugraafikud. Lühiajalisi katsetusi selliste mudelitega on tehtud varem ka Lääne-Virumaal ja Setomaal. Ka säästev liikuvuse planeerimine eeldab multimodaalsust: auto jääb osa asjaajamiste puhul vajalikuks, kuid oluline on, et leidub piisavalt võimalusi teha vajalikke käike ka ilma mootorsõidukita. Võimalused peituvad ka uudsetes kasutusmudelites, mis isikliku auto omamise kulu asemel pakuvad kuumaksega pakette, mis ühe või teise liikumisvahendi kasutamist võimaldavad. Sellised liikuvusteenused (ingl *Mobility-as-a-Service*) on juba leidmas laialdasemat kasutust mitmes riigis, kusjuures Soome on valdkonna üks juhtriike.
+Sustainable mobility requires human-centred planning that focuses on the quality of life and accessibility. Therefore, measures that combine the direction of land use, offer convenient alternatives to car users, establish the infrastructure needed for that, and shape awareness and attitudes would need to be chosen. The needs and challenges vary somewhat depending on the particular region. For families living in rural areas, participating in the usual activities in society means almost always driving by car. At the same time, transport on demand and community ride-sharing services offer new alternatives to owning a private car and also to a deficient public transport system. For example, in the Saaremaa municipality, a pilot project is planned for on-demand and social transport solutions, in which people can provide information about the dates and times of their travel, which can form the basis on which timetables are prepared. Such models have been tested for short periods in Lääne-Virumaa and Setomaa. Sustainable mobility planning also requires multimodality: cars will still be necessary for some journeys, but it is important that there are also sufficient non-motorised modes of transport for the necessary trips. Further opportunities lie in innovative usage models that, instead of the costs of owning a car, offer packages for a monthly fee that allow the use of a certain means of transport. Mobility-as-a-Service is already being taken up in several countries, with Finland as one of the leaders in the field.
 
 ```{block, type='blockquote-left'}
-Säästva liikuvuse planeerimine eeldab inimkeskset, elukvaliteedile ja ligipääsetavusele suunatud planeerimist.
+Sustainable mobility requires human-centred planning that focuses on the quality of life and accessibility.
 ```
-Hästi ligipääsetavate linnaregioonide toimimine eeldab mitmeotstarbelise maakasutuse eelistamist. Sellises korralduses on elu-, töö- ja vaba aja veetmise kohad lähestikku ning linnade laienemisel suunatakse arengut hea ühistranspordiühendusega aladele. Isikliku sõiduautoga ei peagi alati kõige kiiremini kohale saama ja „mõistlik ummik“ või „mõistlik transpordile kuluv“ aeg on parem transpordi planeerimise ühik kui minutite kärpimine autosõidult ([Banister 2008](#Banister2008)). Liikumisviiside kombineerimine linnakeskustes ning eeslinnades lubaks ühendada omavahel hajaasustuses elamise eelise, kuid soosida ühtlasi ühistransporti auto asemel. Näiteks ehitades peale autoparklate ka jalgrattaparklaid rongijaamadesse ja bussipeatustesse, on võimalik ühendada ühistransport rattateede võrgustikega. Juba praegu on Tallinna tagamaal kohati rohkem rattasõitjaid kui tihedalt asustatud Tallinnas. Säästlike ja liikuvust soosivate lahendusteni jõudmist aitab erinevate arengukavade, -strateegiate ja liikuvuskavade ühendamine selliselt, et asustuse arengut ja liikuvust käsitletakse ühtse tervikuna. Vaatamata mõnele positiivsele näitele, nagu näiteks praegu koostatav Tallinna linnaregiooni liikuvuskava, on omavalitsuste vahelisi ühistegevusi seni vähe.
+The functioning of easily accessible urban regions requires a preference for multipurpose land use. In such an arrangement, places of residence, work and spending leisure time are in close proximity, while urban encroachment is directed toward areas with good public transport connections. A private car need not be the fastest means of travelling between places; a ‘reasonable level of congestion’ or ‘reasonable travel time’ is a better unit for transport planning than minimising car travel time by a few minutes ([Banister 2008](#Banister2008)). Combining modes of mobility in urban centres and suburbs would maintain the advantages of living in a low-density area while facilitating the use of public transport instead of cars. For example, public transport can be connected to bicycle path networks by building not only car parks, but also bicycle parks near railway stations and bus stops. Tallinn peri-urban areas already have more bicycle traffic than the high-density city. Sustainable and mobility-promoting solutions will be easier to achieve if the various development plans, strategies and mobility plans are coordinated so that the development of settlement and mobility are approached as an integral whole. Despite a few positive examples, such as the mobility plan for the Tallinn urban region that is currently being prepared, local governments have cooperated very little so far.
 
 ```{block, type='blockquote-left'}
-Liikumisviiside kombineerimine linnakeskustes ning eeslinnades lubaks ühendada omavahel hajaasustuses elamise eelise, kuid soosida ühtlasi ühistransporti auto asemel.
+Combining modes of mobility in urban centres and suburbs would maintain the advantages of living in a low-density area while facilitating the use of public transport instead of cars.
 ```
-Säästev planeerimine linnalises keskkonnas eeldab tähelepanu pööramist ka autokasutusvõimaluseta ühiskonnaliikmetele. Vananeva rahvastikuga ühiskonnas on oluline, et kõigil ühiskonnagruppidel oleks võimalus saada osa heast avalikust ruumist ning pääseda teenusteni. Linnakeskus saab vastu seista valglinnastumise mõjudele, kui see on planeeritud jalgsi liikuvale inimesele, nii et olemas on mugavad kõnniteed, piisavalt turvalised ja mugavad teeületusvõimalused, meeldiv ja sotsiaalseid tegevusi soosiv tänavafront. Linna füüsilist ruumi kaasavaks kujundades soosime kokkuvõttes kõiki ühiskonnagruppe.
+Sustainable planning in an urban environment requires also paying attention to those members of society that have no opportunity to use a car. In an ageing society, it is important that all groups of society can access good public space and services. An urban centre can counter the impacts of urban sprawl if it is planned for pedestrians; that is, has convenient footpaths, safe and convenient pedestrian crossings, and a pleasant street front supporting social activities. By developing an inclusive physical urban space, we ultimately favour all groups in society.
 
-On tõsi, et auto on liikuvuse võimaldaja teatud olukordades, kindlasti osa eakate ja liikumisraskustega inimeste puhul. Samuti on autostumine aidanud Eesti eri piirkondi ühendada, mis teeb võimalikuks elamise ka riigi äärealadel. Ometi on liigne autopõhisus ühiskonna toimimisele kahjulik. See teeb ligipääsetavuse privileegiks vaid osale ühiskonnast ning vähendab ka sotsiaalset suhtlemist. Ligipääsetavuse ja hea avaliku ruumi tagamine üle Eesti eeldab nii konkreetset sekkumist linnade avaliku ruumi disaini kui ka loovate lahenduste pakkumist hajaasustatud piirkondades.
+It is true that the car enables mobility in certain situations and certainly for some senior citizens and people with mobility difficulties. Motorisation has also helped to bring the various Estonian regions closer to each other and made it possible to live in remote areas of the country. However, excessive dependence on cars is detrimental to the functioning of society. It makes accessibility a privilege only enjoyed by part of society, thus reducing social contact. Ensuring accessibility and good public space across Estonia requires specific intervention into the design of urban public space as well as offering creative solutions for low-density areas.
 
-### Viidatud allikad {-.subreferences}
+### *Acknowledgements* {-.chapter1_section}
+
+*The work of Tauri Tuvikene on this publication was supported by the project ‘Public transport as public space in European cities: Narrating, experiencing, contesting (PUTSPACE)’; financial support was provided by the HERA Joint Research Programme (www.heranet.info), which is co-funded by AKA, BMBF via DLR-PT, ETAg, and the European Commission through Horizon 2020.*
+
+### References {-.subreferences}
 
 <p id="Banister2008">Banister, D. 2008. The sustainable mobility paradigm. – Transport Policy, 15 (2), 73–80.</p>
 
@@ -586,6 +544,5 @@ On tõsi, et auto on liikuvuse võimaldaja teatud olukordades, kindlasti osa eak
 <p id="Pucher2005">Pucher, J., Buehler, R. 2005. Transport policies in Central and Eastern Europe. – Button, K. J., Hensher, D. A. (eds.). Transport Strategy, Policy, and Institutions. Oxford: Elsevier Press, 725–744.</p>
 
 <p id="Rakendusliku2018">Rakendusliku antropoloogia keskus 2018. Liikuvusuuring Saaremaal nõudluspõhise transpordi korraldamiseks.. http://www.antropoloogia.ee/uuringud.</p>
-
 
 <p id="TNS2015">TNS Emor 2015. Liikumisviiside uuring elektrisõidukite lühirendi ja säästva transpordi kasutamise arendamiseks Tallinnas. Tallinn: Majandus- ja Kommunikatsiooniministeerium, KredEx.</p>
