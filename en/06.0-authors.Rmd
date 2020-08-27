@@ -15,7 +15,7 @@ knitr::include_graphics('../figures/6-authors/HelenSoovali-Sepping.png')
 
 <div>
 #### Helen Sooväli-Sepping {-.head-editor-name}
-on Tallinna Ülikooli jätkusuutliku arengu prorektor, keskkonnakorralduse professor ja kultuurigeograafia vanemteadur. Ta vastutab TLÜs keskkonnakorralduse ja linnakorralduse magistriõppekava eest. Tema põhilised uurimisteemad käsitlevad ruumi- ja maastikuplaneerimist. Praegu huvitavad teda kõige enam kultuuri ja kogukondlikkuse aspektid, samuti säästva arengu ja säilenõtkuse teemad nii linna- kui ka maapiirkonnas, keskkonnapoliitika ning kodanikuteadus.
+is the Vice-Rector of Sustainable Development, Professor of Environmental Studies and Senior Researcher of Cultural Geography at Tallinn University. She is responsible for the master’s programmes in environmental studies and urban planning at the university. Her main research topics are spatial and landscape planning. Currently, she is most interested in cultural and community aspects, as well as sustainable development and resilience in urban and rural areas, environmental policy and civic studies.
 
 </div>
 </div>
@@ -32,7 +32,7 @@ knitr::include_graphics('../figures/6-authors/KristiGrisakov.png')
 
 <div>
 #### Kristi Grišakov {-.editor-name}
-on Tallinna Tehnikaülikooli arhitektuuri ja urbanistika akadeemia lektor ja maastikuarhitektuuri õppekavade programmijuht. Tema uurimistöö keskendub prognooside ja stsenaariumide kasutusvõimalustele ruumianalüüsis ja tulevikuvisioonide koostamisel. Süvitsi on ta uurinud piiriüleste linnade (Tallinn-Helsingi) temaatikat, Euroopa Liidu ruumipoliitikat, sealhulgas suurte taristuprojektide mõju kohalikule keskkonnale ja uute tehnoloogiate mõju linnakeskkonnale.
+is a Lecturer at the Academy of Architecture and Urban Studies and the Programme Director for landscape architecture programmes at the Tallinn University of Technology (TalTech). Her research focuses on the use of forecasts and scenarios in spatial analysis and visioning. She has studied cross-border cities (Tallinn-Helsinki), the spatial policy of the EU, including the impact of major infrastructure projects on the local environment and the impact of new technologies on the urban environment.
 
 </div>
 </div>
@@ -47,7 +47,7 @@ knitr::include_graphics('../figures/6-authors/IndrekIbrus.png')
 
 <div>
 #### Indrek Ibrus {-.editor-name}
-on Tallinna Ülikooli Balti filmi, meedia, kunstide ja kommunikatsiooni instituudi (BFM) meediainnovatsiooni professor ning TLÜ meediainnovatsiooni ja digikultuuri tippkeskuse juhataja. Ta juhib TLÜs ka audiovisuaalkunstide ja meediauuringute doktoriõppekava. Tema peamised uurimisteemad on meedia innovatsioon ja digikultuur seotuna majandusteaduslike innovatsiooniuuringute ning mitmesuguste kultuuri uurimise meetodite ja lähenemistega.
+is a Professor of Media Innovation at the Baltic Film, Media, Arts and Communication School at Tallinn University (TLU), and Head of the TLU Centre of Excellence in Media Innovation and Digital Culture. He is also in charge of the doctoral programme in audiovisual arts and media studies at TLU. His main research topics are media innovation and digital culture, linked to economic innovation research and a variety of cultural research methods and approaches.
 
 </div>
 </div>
@@ -62,7 +62,7 @@ knitr::include_graphics('../figures/6-authors/EppLankots.png')
 
 <div>
 #### Epp Lankots {-.editor-name}
-on Eesti Kunstiakadeemia teadusprorektor ning kunstiteaduse ja visuaalkultuuri instituudi vanemteadur. Tema uurimisteemad on 20. sajandi arhitektuur ja elukeskkond, Nõukogude uuringud, ruumi- ja materiaalse kultuuri teooriad, 20. sajandi arhitektuurihistoriograafia ja kunstiajalookirjutus. 2015. aastal sai ta Eesti Kultuurkapitali arhitektuuri sihtkapitali tegevuspreemia arhitektuurialase teadustöö eest.
+is the Vice Rector of Research and Senior Researcher at the Institute of Art History and Visual Culture at the Estonian Academy of Arts. Her research topics include 20th-century architecture and living environment, Soviet studies, spatial and material culture theories, 20th-century architectural historiography and art historiography. In 2015, she received the Annual Award of the Cultural Endowment of Estonia for her research in architecture.
 
 </div>
 </div>
@@ -77,7 +77,7 @@ knitr::include_graphics('../figures/6-authors/KadriLeetmaa.png')
 
 <div>
 #### Kadri Leetmaa {-.editor-name}
-on Tartu Ülikooli ökoloogia ja maateaduste instituudi inimgeograafia vanemteadur ning TÜ rände- ja linnauuringute keskuse juhataja. Tema uurimisteemad on ränne ja ebavõrdsus ruumis, inimeste elukohaeelistused linnades, rahvustevahelised kontaktid ühiskonnas ja ruumis, linna- ja regionaalplaneerimine. Alates 2017. aastast on ta Euroopa Liidu koostööprogrammi URBACT Eesti esindaja.
+is a Senior Researcher of human geography at the Institute of Ecology and Earth Sciences of the University of Tartu (UT), and Head of the UT Centre for Migration and Urban Studies. Her research topics include migration and inequality in space, people’s preferences for living in cities, inter-ethnic contacts in society and space, as well as urban and regional planning. Since 2017, she has been the Estonian representative of the EU cooperation programme URBACT.
 
 </div>
 </div>
@@ -92,7 +92,7 @@ knitr::include_graphics('../figures/6-authors/AskoLohmus.png')
 
 <div>
 #### Asko Lõhmus {-.editor-name}
-on loomaökoloog, Tartu Ülikooli juhtivteadur ja loodusressursside õppetooli juhataja. Tema teadustöö on aastakümnetega laienenud elurikkuse säilitamise ja säästva arengu laiale teemavaldkonnale, eriti looduslike ökosüsteemide säästlikule majandamisele. Ta on osalenud eksperdina paljudes riiklikes planeerimisprotsessides ning tema huvialade hulka kuulub ka säästva arengu juhtimine, muu hulgas kodanikuühiskonna kaudu.
+is an animal ecologist, Senior Researcher and Head of the Chair of Natural Resources at the University of Tartu. Over the past decades, his research has expanded to include a broad range of subjects in biodiversity conservation and sustainable development, especially the sustainable management of natural ecosystems. He has been involved as an expert in many national planning processes, and his interests include managing sustainable development, for example, through civil society.
 
 </div>
 </div>
@@ -108,7 +108,7 @@ knitr::include_graphics('../figures/6-authors/DagoAntov.png')
 
 <div>
 #### Dago Antov {-.author-name}
-on Tallinna Tehnikaülikooli transpordiplaneerimise professor ning transpordi ja logistika teaduskeskuse juht. Tema peamised uurimisteemad on liikuvus, liikumisviiside lõimivus, liiklusvõrkude analüüs ja liikluse mõjud, eelkõige liiklemise ohutus. Ta on avaldanud enam kui 40 teadusartiklit ja juhendanud ligi 50 doktori- ja magistritööd. Ta on õpetanud liikuvusega seonduvaid kursusi TTÜs, Eesti Kunstiakadeemias, Sisekaitseakadeemias, Tartu Ülikoolis ja mujal.
+is a Professor of Transport Planning and the Head of the Research Centre of Logistics and Transportation at the Tallinn University of Technology (TalTech). His main research topics are mobility, integration of modes of transport, analysis of traffic networks, and the effects of traffic and traffic safety in particular. He has published more than 40 scientific articles and supervised nearly 50 doctoral and master’s theses. He has taught mobility-related courses at TalTech, the Estonian Academy of Arts, the Estonian Academy of Security Sciences, the University of Tartu and elsewhere.
 
 </div>
 </div>
@@ -122,7 +122,7 @@ knitr::include_graphics('../figures/6-authors/MihkelKaevats.png')
 
 <div>
 #### Mihkel Kaevats {-.author-name}
-on luuletaja, kriitik, TLÜ doktorant ja kodanikuaktivist, kes on praegu Tallinn 2021+ strateegia üks koostajatest. Ta oli üks Prussakovi nimelise rattaühingu (1997–2009) ja Uue Maailma Seltsi (2006–2013) eestvedajatest. Kirgliku jalgratturi ja jalutajana jälgib ta pidevalt ruumi ning seda kasutavaid inimesi. Tema osalusel valmiva Tallinna strateegia keskmes on hea avalik ruum ja arenguhüpe liikuvuses.
+is a poet, critic, PhD student at Tallinn University and an activist, who is currently one of the authors of the Tallinn 2021+ strategy. He was one of the founders of the Prussakov Cycling Association (1997–2009) and the Uus Maailm Society (2006–2013). As a passionate cyclist and walker, he is constantly aware of space and the people who use it. The strategy being prepared for Tallinn with his involvement focuses on good public space and improved mobility.
 
 </div>
 </div>
@@ -136,7 +136,7 @@ knitr::include_graphics('../figures/6-authors/VeronikaKalmus.png')
 
 <div>
 #### Veronika Kalmus {-.author-name}
-on Tartu Ülikooli sotsioloogia professor. Tema uurimishuvid on seotud põlvkondade, sotsialiseerumise, hariduse, väärtuste, noorte kodanikuosaluse, meedia- ja ajakasutuse ning ühiskondlike muutuste, sealhulgas sotsiaalse aja kiirenemisega. Rahvusvahelise teadlasvõrgustiku EU Kids Online aktiivse liikmena ja Eesti töörühma juhina keskendub ta laste ja noorte internetikasutusele ning selle sotsiaalsele vahendamisele. 2008. aastal pälvis ta Vabariigi Presidendi Kultuurirahastu noore teadlase preemia.
+is a Professor of Sociology at the University of Tartu. Her research interests are related to generations, socialisation, education, values, civic participation of young people, media and time use, and the acceleration of social changes, including social time. As an active member of the international research network EU Kids Online and head of the Estonian working group, she focuses on how children and youth use the internet and the social mediation of their internet use. In 2008, she received the Young Scientist Award from the Cultural Foundation of the President of Estonia.
 
 </div>
 </div>
@@ -150,7 +150,7 @@ knitr::include_graphics('../figures/6-authors/RaulKalvo.png')
 
 <div>
 #### Raul Kalvo {-.author-name}
-on arhitekt, ettevõtte Inphysica Technology asutaja, Eesti Kunstiakadeemia digitaalse geomeetria õppejõud. Tema peamine huvi on ruumiliste andmetega seotud otsuste tegemine ning sellest lähtuv tarkvaraarendus. Levinuim neist on Urban Network Analysis toolbox for Rhino. Ta on seotud mitme liikuvusuuringu ja strateegiaprojektiga Eestis ning keskkonna tervisemõjude hindamisega Soomes. Lisaks teadustööle tegeleb ta projektidega sisearhitektuurist linnaehituseni.
+is an architect, founder of the company inphysica technology, and a lecturer of Digital Geometry at the Estonian Academy of Arts. His main interest is decision-making related to spatial data, and the resulting software development. The most wide-spread of these is the Urban Network Analysis toolbox for Rhino. He is involved in several mobility research and strategy projects in Estonia and environmental health impact assessments in Finland. In addition to research, he is involved in projects ranging from interior architecture to urban development.
 
 </div>
 </div>
@@ -164,7 +164,7 @@ knitr::include_graphics('../figures/6-authors/EloKiivet.png')
 
 <div>
 #### Elo Kiivet {-.author-name}
-on arhitekt ja urbanist, Linnalabori juhatuse liige, Paide linnaarhitekt ning neljandat aastat arvamusfestivali välialade ja linnaruumi kujunduse kuraator. Tema peamised huvid on avalik ruum, kohaloome ja ruumiharidus. Õpetanud Tallinna Tehnikakõrgkoolis, Tallinna Ülikoolis ja Eesti Kunstiakadeemias ning Arhitektuurikoolis ja Tallinna Kunstigümnaasiumis.
+is an architect and urbanist, a board member of the Urban Lab, city architect of Paide and, for the fourth year, curator of the outdoor areas and urban spaces section of the opinion festival Arvamusfestival in Paide. Her main interests are public space, place-making and spatial education. She has taught at the TTK University of Applied Sciences, Tallinn University and the Estonian Academy of Arts, as well as at the School of Architecture (Arhitektuurikool) and Tallinn Secondary School of Arts.
 
 </div>
 </div>
@@ -178,7 +178,7 @@ knitr::include_graphics('../figures/6-authors/KeitiKljavin.png')
 
 <div>
 #### Keiti Kljavin {-.author-name}
-on urbanist, Linnalabori juhatuse liige ja urbanistide väljaande U toimetaja. Praegu juhendab ta Eesti Kunstiakadeemia arhitektuuri ja linnaplaneerimise osakonnas urbanistika ja sisearhitektuuri magistrante nende lõputöödes ja erialastuudiotes.
+is an urbanist, board member of the Urban Lab, and editor of the Estonian Urbanists Review U. She currently supervises master’s students in urban studies and interior architecture at the department of Architecture and Urban Design at the Estonian Academy of Arts with their theses and studio work.
 
 </div>
 </div>
@@ -192,7 +192,7 @@ knitr::include_graphics('../figures/6-authors/Kaija-LuisaKurik.png')
 
 <div>
 #### Kaija-Luisa Kurik {-.author-name}
-on Manchesteri arhitektuuriülikooli doktorant ning Heritage Action Zone’i regeneratsiooniprojekti projektijuht Rochdale’is. Tema peamised uurimisteemad on linnade regeneratsioon, postsotsialistlik linnaruum ning planeerimispraktika muutused.
+is a PhD student at the Manchester School of Architecture and project manager for the Heritage Action Zone regeneration project in Rochdale. Her main research topics are urban regeneration, post-socialist urban space and changes in planning practice.
 
 </div>
 </div>
@@ -206,7 +206,7 @@ knitr::include_graphics('../figures/6-authors/RagneKouts-Klemm.png')
 
 <div>
 #### Ragne Kõuts-Klemm {-.author-name}
-on Tartu Ülikooli ajakirjandussotsioloogia dotsent ja ühiskonnateaduste instituudi asejuhataja. Tema teadustöö valdkonnad on keskendunud meediakasutusele ja ühiskonna muutumisele, laiemalt on teda huvitanud meedia roll ühiskondliku sidususe tekkes. Praeguseks on tema teemade hulka lisandunud ka ajakirjanduses toimunud muutuste analüüs ja tõlgendamine.
+is an Associate Professor of the Sociology of Journalism and Deputy Head of the Institute of Social Studies at the University of Tartu. Her research focuses on media use and societal change, and more broadly, the role of media with regard to social cohesion. Her current research topics also include the analysis and interpretation of changes in journalism.
 
 </div>
 </div>
@@ -220,7 +220,7 @@ knitr::include_graphics('../figures/6-authors/AnneliKahrik.png')
 
 <div>
 #### Anneli Kährik {-.author-name}
-on Tartu Ülikooli linnageograafia vanemteadur. Tema peamised uurimisteemad on ränne, segregatsioon, linna- ja eluasemepoliitika. Praegu keskendub tema uurimistöö peamiselt segregatsiooni ja lõimumise seostele eri eluvaldkondades (pere, elukoht, kool, töö), mida ta uurib Eesti ja Soome suurte riigiandmete (loendused, registrid) alusel. 2013–2016 töötas ta teadurina Uppsala ülikoolis, uurides segregatsiooni Rootsis. Ta on avaldanud artikleid kõrgetasemelistes erialaajakirjades.
+is a Senior Research Fellow in Urban Geography at the University of Tartu. Her main research topics are migration, segregation, urban and housing policy. Her research currently focuses on the links between segregation and integration in different spheres of life (family, place of residence, school, work), which she studies on the basis of large-scale national data (censuses, registers) from Estonia and Finland. Between 2013–2016, she was a fellow at Uppsala University, studying segregation in Sweden. She has published articles in high-level academic journals.
 
 </div>
 </div>
@@ -234,7 +234,7 @@ knitr::include_graphics('../figures/6-authors/MaitLang.png')
 
 <div>
 #### Mait Lang {-.author-name}
-on Tartu Ülikooli Tartu Observatooriumi vanemteadur ja Eesti Maaülikooli metsandus- ja maaehitusinstituudi dotsent. Tema peamised uurimisteemad on seotud looduse kaugseirega ning ruumi- ja kaugseireandmete töötlemisega.
+is a Senior Research Fellow at Tartu Observatory, University of Tartu, and an Associate Professor at the Institute of Forestry and Rural Engineering at the Estonian University of Life Sciences. His main research topics are related to the remote monitoring of nature, and processing spatial and remote monitoring data.
 
 </div>
 </div>
@@ -248,7 +248,7 @@ knitr::include_graphics('../figures/6-authors/BradleyLoewen.png')
 
 <div>
 #### Bradley Loewen {-.author-name}
-on kaitsnud doktorikraadi Tartu Ülikooli majandusteaduskonnas ning oli Marie Curie innovaatilise koolituse võrgustiku RegPol 2 karjääri alustav teadlane Tšehhis, Ungaris ja Eestis. Ta on Norra teadus- ja tehnikaülikooli NTNU säästva ehituse teadur ning töötanud Briti Columbia ja Toronto ülikoolis. Tema uurimisteemad hõlmavad Euroopa linna- ja regionaalplaneerimist ning poliitikat, institutsioone, valitsemist ja innovatsiooni.
+has a PhD in economics from the University of Tartu and was a Marie Curie Early Stage Researcher in the Innovative Training Network RegPol2 based in the Czech Republic, Hungary and Estonia. He is a Researcher in Sustainable Built Environment at the Norwegian University of Science and Technology NTNU, and has held positions at the University of British Columbia and University of Toronto. His research interests span European urban and regional planning, policy, institutions, governance and innovation.
 
 </div>
 </div>
@@ -262,7 +262,7 @@ knitr::include_graphics('../figures/6-authors/Mari-LiisMadisson.png')
 
 <div>
 #### Mari-Liis Madisson {-.author-name}
-on Tartu Ülikooli semiootika teadur, kelle peamised uurimisteemad on identiteediloome, strateegilised narratiivid ja veebikeskkondades leviv desinformatsioon. Ta on teinud koostööd Kaitseväe Ühendatud Õppeasutustega ning osalenud sõjalist kommunikatiivset pettetegevust käsitlevates uurimisprojektides. 2019 alustas ta Belfasti Queen’si ülikoolis järeldoktorantuuri, mis on pühendatud strateegiliste vandenõunarratiivide semiootilisele uurimisele.
+is a Research Fellow in Semiotics at the University of Tartu. Her main research topics are identity constructions, strategic narratives and disinformation in online environments. She has collaborated with the Estonian Military Academy and participated in research projects involved with military communications deception. In 2019, she began a post-doctoral fellowship at Queen’s University Belfast, dedicated to the semiotic study of strategic conspiracy narratives.
 
 </div>
 </div>
@@ -276,7 +276,7 @@ knitr::include_graphics('../figures/6-authors/TonuOja.png')
 
 <div>
 #### Tõnu Oja {-.author-name}
-on Tartu Ülikooli geoinformaatika ja kartograafia õppetooli juhataja ning professor. Tema peamised uurimisvaldkonnad on maastikuökoloogia ja säästlik areng.
+is a Professor and the Chair of Geoinformatics and Cartography at the University of Tartu. His main research interests are landscape ecology and sustainable development.
 
 </div>
 </div>
@@ -290,7 +290,7 @@ knitr::include_graphics('../figures/6-authors/ArkoOlesk.png')
 
 <div>
 #### Arko Olesk {-.author-name}
-on teadusajakirjanik ja Tallinna Ülikooli Balti filmi, meedia, kunstide ja kommunikatsiooni instituudi teaduskommunikatsiooni lektor. Tema keskne uurimisteema on teadlaste suhtlus ajakirjandusega, samuti tunneb ta huvi innovatsiooni- ja keskkonnakommunikatsiooni vastu. Ta juhib Raadio 2s populaarteaduslikku saadet „Puust ja punaseks“.
+is a research journalist and a lecturer of Research Communication at the Baltic Film, Media, Arts and Communication School, Tallinn University. His main research topic is researcher interaction with the press; he is also interested in innovation communication and environmental communication. He hosts the popular science programme Puust ja punaseks on Raadio 2.
 
 </div>
 </div>
@@ -304,7 +304,7 @@ knitr::include_graphics('../figures/6-authors/HansOrru.png')
 
 <div>
 #### Hans Orru {-.author-name}
-on Tartu Ülikooli keskkonnatervishoiu dotsent ning Umea ülikooli külalisteadur. Tema peamised uurimisvaldkonnad on väliskeskkonna mõju inimeste tervisele. Selle raames on ta keskendunud õhusaastele ja kliimamuutustele, kuid viimasel ajal ka põlevkivisektorile, siseõhusaastele ja müra tervisemõjudele. Viimase 15 aasta jooksul on ta osalenud enam kui 30 teadus- või rakendusuuringus, millel on olnud oluline mõju keskkonna tervisemõjude teadvustamisele ühiskonnas.
+is an Associate Professor of Environmental Health at the University of Tartu and a Visiting Fellow at Umeå University. His main research area is the health impact of the external environment. Within his research, he has focused on air pollution and climate change, but more recently also on the oil shale sector, indoor air pollution and the health impact of noise. Over the past 15 years, he has been involved in more than 30 research or development projects which have had a significant effect in raising public awareness about the health effects of the environment.
 
 </div>
 </div>
@@ -318,7 +318,7 @@ knitr::include_graphics('../figures/6-authors/KatiOrru.png')
 
 <div>
 #### Kati Orru {-.author-name}
-on kestlikkuse sotsioloogia vanemteadur Tartu Ülikooli ühiskonnateaduste instituudis ja külalisteadur King’s College Londonis. Tema uurimisvaldkonnad on sotsiaalne ja piirkondlik ebavõrdsus transpordi- ja energiatarbimises ning selle keskkonnamõjud, planeeringute sotsiaalsete mõjude hindamise metoodika, sotsiotehniliste süsteemide jätkusuutlik areng. Ta juhib tööpakki H2020 BuildERS projektis kogukondade kerksusest hädaolukordades. Ta on olnud järeldoktorantuuris Umea ülikooli keskkonna- ja tervisepsühholoogia uurimisrühmas.
+is a Senior Research Fellow in Sustainability Sociology at the University of Tartu Institute of Social Sciences and a Visiting Fellow at King’s College London. Her research topics include social and regional inequality in transport and energy consumption and its environmental impacts, the methodology for assessing the social impact of planning, and the sustainable development of socio-technical systems. She is in charge of the work package H2020 in the BuildERS project on the resilience of communities in emergency situations. She was a post-doctoral researcher in the Environmental and Health Psychology Research Group at Umeå University.
 
 </div>
 </div>
@@ -332,7 +332,7 @@ knitr::include_graphics('../figures/6-authors/ToomasPaaver.png')
 
 <div>
 #### Toomas Paaver {-.author-name}
-on Eesti Kunstiakadeemia arhitektuuri ja linnaplaneerimise eriala doktorant. Tema peamine uurimisteema on arhitekti töö ühiskondlik roll. Tema mitmekesine praktika ruumiloome valdkonnas hõlmab töid linna- ja riigiametnikuna, asumiseltsi aktivistina, arhitektina ja õpetajana. Tema töö on olnud seotud planeeringutega, tänavate ja hoonete ehitusprojektidega, lähteülesannetega, õigusloomega ning seoste loomisega ruumiloomeprotsessides.
+is a doctoral student of architecture and urban planning at the Estonian Academy of Arts. His main research topic is the social role of the work of an architect. His varied practice in the field of spatial design includes work as a city and state official, a community activist, an architect and a teacher. His work has involved planning, construction documents for streets and buildings, terms of reference, legislation, and establishing connections in the processes of spatial design.
 
 </div>
 </div>
@@ -346,7 +346,7 @@ knitr::include_graphics('../figures/6-authors/IngmarPastak.png')
 
 <div>
 #### Ingmar Pastak {-.author-name}
-on omandamas doktorikraadi geograafias ja töötab Tartu Ülikooli inimgeograafia nooremteadurina. Tema peamised uurimisteemad on sotsiaalruumiline ebavõrdsus, gentrifikatsioon nii rahvastikuprotsessi kui ka ettevõtluskeskkonna muutusena ning laiemalt linnaplaneerimine targa linna innovatsioonidest kaasamispraktikateni. Ta õpetab TÜ linnageograafia ja –planeerimisega seonduvaid kursusi.
+is a PhD candidate in geography and is working as a Junior Research Fellow of Human Geography at the University of Tartu. His main research topics are socio-spatial inequality, gentrification as a change in the demographic process and the business environment, and more broadly, urban planning from smart city innovations to participatory practices. He teaches courses related to urban geography and urban planning at the University of Tartu.
 
 </div>
 </div>
@@ -360,7 +360,7 @@ knitr::include_graphics('../figures/6-authors/JohannaPirrus.png')
 
 <div>
 #### Johanna Pirrus {-.author-name}
-on Tartu Ülikooli geograafia osakonna inimgeograafia doktorant. Tema peamine uurimisteema on kaasav linnaplaneerimine ja –valitsemine. Tema praegune uurimistöö keskendub eelkõige paneelelamupiirkondade avaliku ja sotsiaalse ruumi küsimustele ning headele tavadele. Lisaks teadustööle tegeleb ta geograafia osakonnas õpetamise ja lõputööde juhendamisega.
+is a PhD student of human geography at the Department of Geography, University of Tartu. Her main research topic is participatory urban planning and management. Her current research focuses on public and social space issues and good practices in Soviet-era mass housing districts. In addition to research, she also teaches and supervises theses at the Department of Geography.
 
 </div>
 </div>
@@ -374,7 +374,7 @@ knitr::include_graphics('../figures/6-authors/BiankaPluschke-Altof.png')
 
 <div>
 #### Bianka Plüschke-Altof {-.author-name}
-on Tallinna Ülikooli keskkonnasotsioloogia teadur. Ta on õppinud ja töötanud Berliini Humboldti ülikoolis, Varssavi ülikoolis, Slovakkia tehnikaülikoolis ja Tartu Ülikoolis. Tema uurimistöö keskendub sotsiaal-ruumilisele ebavõrdsusele ning ruumi loomise praktikatele ja diskursustele. Doktoritöös uuris ta territoriaalse häbimärgistamise teemat Eesti maakohtade näitel. Lisaks uurib ta linnakeskkonna küsimusi TLÜ uurimisrühmas „Inimese ja looduse vastastikmõju linnastuvas maailmas“.
+is a Researcher in Environmental Sociology at Tallinn University. She has studied and worked at Humboldt-Universität zu Berlin, the University of Warsaw, the Slovak University of Technology and the University of Tartu. Her research focuses on socio-spatial inequality and the practices and discourses of space creation. Her doctoral thesis discussed territorial stigmatisation in Estonian rural areas. She is also a part of the Tallinn University research group 'Human-nature interactions in an urbanising world' investigating urban environment issues.
 
 </div>
 </div>
@@ -388,7 +388,7 @@ knitr::include_graphics('../figures/6-authors/AgePoom.png')
 
 <div>
 #### Age Poom {-.author-name}
-on Helsingi Ülikooli järeldoktorantuuri teadur ja Tartu Ülikooli keskkonnakaitse lektor. Ta tegeleb inimeste liikuvuse, tegevusruumi ja keskkonna vastastikusteseoste uurimisega, sealhulgas analüüsides rohealadega kokkupuudet ja keskkonnariskidele avatust. Talle pakub huvi säästva liikumise ja tarbimise ning targa ja jätkusuutliku linna temaatika. TÜ mobiilsuslabori liikmena tegeleb ta mobiilipõhiste ruumikasutusuuringute andmetaristu arendamise ja väliskoostööprojektidega.
+is a post-doctoral researcher at the University of Helsinki and a lecturer of Environmental Protection at the University of Tartu. She studies the interrelationship between human mobility, activity spaces and the environment, including exposure to green spaces and environmental risks. She is interested in sustainable mobility and consumption, as well as the smart and sustainable city. As a member of the Mobility Lab at the University of Tartu, she is involved with the development of the infrastructure for spatial research based on mobile positioning data, and external collaboration projects.
 
 </div>
 </div>
@@ -402,7 +402,7 @@ knitr::include_graphics('../figures/6-authors/ReneePuusepp.png')
 
 <div>
 #### Renee Puusepp {-.author-name}
-on arhitekt, ettevõtte Creatomus Solutions asutaja ja tegevjuht, Eesti Kunstiakadeemia vanemteadur. EKA arhitektuuriteaduskonnas täidab ta teadustöö juhi kohustusi. Oma varasemas uurimistöös keskendus ta eelkõige dünaamiliste simulatsioonide loomisele ja sidumisele arhitektuuri ja planeerimise vahendite ja meetoditega. Praegu juhib ta masskohandatavate tehasemajade uurimis- ja tootearendussuunda.
+is an architect, founder and CEO of Creatomus Solutions, and a Senior Researcher at the Estonian Academy of Arts (EAA). He holds the position of Research Director at the Faculty of Architecture, EAA. In his earlier research, he focused primarily on creating dynamic simulations and linking these to architectural and planning tools and methods. He is currently in charge of R&D for mass-customised prefabricated housing.
 
 </div>
 </div>
@@ -416,7 +416,7 @@ knitr::include_graphics('../figures/6-authors/SiimRaie.png')
 
 <div>
 #### Siim Raie {-.author-name}
-on Muinsuskaitseameti peadirektor. Õppinud ärijuhtimist Estonian Business Schoolis ning muinsuskaitse ja konserveerimise eriala Eesti Kunstiakadeemias, kus jätkuvad ka doktoriõpingud. Tema uurimistöö teema on mälestise omanikud, nende identiteet ja motivatsioon. Varem on ta töötanud Vabariigi Presidendi Kantselei direktori ja Eesti Kaubandus-Tööstuskoja peadirektorina.
+is the Director General of the Estonian National Heritage Board. He has studied business administration at the Estonian Business School, and heritage protection and conservation/restoration at the Estonian Academy of Arts, where he is also a PhD student. His thesis focuses on the owners of cultural monuments, their identity and motivation. Previously, he has worked as the Director of the Office of the President of the Republic of Estonia, and the Director General of the Estonian Chamber of Commerce and Industry.
 
 </div>
 </div>
@@ -430,7 +430,7 @@ knitr::include_graphics('../figures/6-authors/MerlinRehema.png')
 
 <div>
 #### Merlin Rehema {-.author-name}
-on Tallinna Ülikooli humanitaarteaduste instituudi kultuurigeograafia suuna doktorant ning Hendrikson &amp; Ko liikuvusspetsialist. Oma doktoritöös uurib ta jalgsi liikumist mõjutavaid füüsilisi ja ühiskondlikke tegureid ning nende võimalikke mõjutusmehhanisme. Peamised uurimishuvid ja töövaldkonnad on eri tasandite liikuvusuuringud ning säästva transpordi planeerimine liikuvuskavade ja linnaruumi muutuste kaudu.
+is a PhD student of cultural geography at the Tallinn University School of Humanities and a mobility specialist at Hendrikson & Ko. Her doctoral thesis examines the physical and social factors that influence walking for transportation and their possible mechanisms of influence. Her main research interests and areas of work are mobility studies at different levels, and sustainable transport planning through mobility plans and changes in the urban space.
 
 </div>
 </div>
@@ -444,7 +444,7 @@ knitr::include_graphics('../figures/6-authors/LiinaRemm.png')
 
 <div>
 #### Liina Remm {-.author-name}
-on Tartu Ülikooli looduskaitsebioloogia teadur. Oma uurimistöödes tegeleb ta elurikkuse hoidmise ja looduslikkuse taastamise võtetega. Teemavaldkonnad on varieerunud säästvast metsamajandamisest ja soode taastamisest looduse hüvede ehk ökosüsteemiteenuste kaardistamiseni. Ta on osalenud rohkem kui 15 teadusartikli ja paljude populaarteaduslike artiklite kirjutamisel. Loodusharidust jagab ta üliõpilaste juhendaja, õppejõu ja Eestimaa Looduse Fondi talgujuhina.
+is a Research Fellow in Conservation Biology at the University of Tartu. Her research deals with techniques for conserving biodiversity and rewilding. Her topics of interest have ranged from sustainable forest management and restoration of marshes to the mapping of natural goods or ecosystem services. She has contributed to more than 15 scientific articles and many popular science articles. She is an educator in the field of ecology as a supervisor of students, lecturer and a leader of the Estonian Fund for Nature.
 
 </div>
 </div>
@@ -458,7 +458,7 @@ knitr::include_graphics('../figures/6-authors/AnttiRoose.png')
 
 <div>
 #### Antti Roose {-.author-name}
-on Tartu Regiooni Energiaagentuuri kliima- ja energiaprojektide juht. Tema linnastumisuuringud on keskendunud eeslinnadele, energiakasutusele, planeerimisele ning kliimamuutustega kohanemisele. Toimetas õpikut „Peatükke planeerimisest“ (2013). On koostanud ruumilise arengu dokumente nii Euroopa Liidu kui ka väikevaldade tasemel. Euroopa territoriaalse koostöö ekspert.
+is the Head of Climate and Energy Projects at the Tartu Regional Energy Agency. His research on urbanisation has focused on suburbs, energy use, planning and adaptation to climate change. He was an editor of the textbook Peatükke planeerimisest (Chapters on Planning, 2013). He has compiled spatial development documents both at the EU level and at the level of small municipalities. Roose is an expert on European Territorial Co-operation.
 
 </div>
 </div>
@@ -472,7 +472,7 @@ knitr::include_graphics('../figures/6-authors/KalevSepp.png')
 
 <div>
 #### Kalev Sepp {-.author-name}
-on Eesti Maaülikooli keskkonnakaitse ja maastikukorralduse professor ning samanimelise õppetooli juhataja. Tema lai uurimisvaldkond hõlmab maakasutuse muutusi ja selle mõju elurikkusele, maastiku planeerimist, kaitsealade jätkusuutlikust, loodushoiu mõju regionaalsele arengule, loodusehüvede hindamist ja kaardistamist, kaugseire rakendamist maastikuseires. Ta on osalenud eksperdina paljude riiklike metoodikate ja strateegiadokumentide koostamisel. Rahvusvahelise Looduskaitseliidu ekspert.
+is a Professor of Environmental Protection and Landscape Management at the Estonian University of Life Sciences, and the Head of the Chair of the same name. His broad research interests include changes in land use and their impact on biodiversity, landscape planning, the sustainability of protected areas, the impact of nature conservation on regional development, the assessment and mapping of natural assets, and landscape monitoring using remote sensing. He has been involved as an expert in the preparation of many national methodologies and strategy papers. He is an expert at the International Union for the Conservation of Nature and Natural Resources.
 
 </div>
 </div>
@@ -486,7 +486,7 @@ knitr::include_graphics('../figures/6-authors/AndraSiibak.png')
 
 <div>
 #### Andra Siibak {-.author-name}
-on Tartu Ülikooli ühiskonnateaduste instituudi meediauuringute professor ning meedia ja kommunikatsiooni doktoriõppekava juht. Tema peamised uurimishuvid on seotud laste ja noorte internetikasutuse, internetikasutuse vahendamise, uue meedia auditooriumide ning privaatsuse teemadega. 2015 pälvis Vabariigi Presidendi Kultuurirahastu noore teadlase preemia, 2017. aastast programmi „Silmapaistev noor eestlane“ (TOYP) laureaat.
+is a Professor of Media Studies in the Faculty of Social Sciences, and PhD Programme Director in Media and Communication at the University of Tartu. Her main research interests are related to how children and youths use the internet, the mediation of internet use, new media audiences, and privacy. In 2015, she received the Young Scientist Award from the Cultural Foundation of the President of the Republic of Estonia; she was the 2017 Honoree of the Ten Outstanding Young Persons (TOYP) programme in Estonia.
 
 </div>
 </div>
@@ -500,7 +500,7 @@ knitr::include_graphics('../figures/6-authors/TriinTalk.png')
 
 <div>
 #### Triin Talk {-.author-name}
-on restauraator ja muinsuskaitsja, kes on töötanud Tallinna Kultuuriväärtuste Ametis miljööalade spetsialistina ning Muinsuskaitseametis ehitismälestiste peainspektorina.
+is a restorer and heritage conservationist who has worked at Tallinn Culture Department as a specialist of built-up areas of cultural and environmental value, and as the chief inspector of immovable monuments at the National Heritage Board.
 
 </div>
 </div>
@@ -514,7 +514,7 @@ knitr::include_graphics('../figures/6-authors/TauriTuvikene.png')
 
 <div>
 #### Tauri Tuvikene {-.author-name}
-on linnageograaf, kes töötab Tallinna Ülikooli humanitaarteaduste instituudi maastiku ja kultuuri keskuses vanemteadurina. Tema uurimisvaldkond on liikuvuskultuurid ja postsotsialistlikud linnauuringud. Neil teemadel on ta avaldanud teadusartikleid tunnustatud ajakirjades Current Sociology, IJURR jt. Ta on raamatu „Post-Socialist Urban Infrastructures“ (Routledge, 2019) toimetaja. Alates 2019 juhib humanitaarteaduste võrgustiku HERA rahvusvahelist projekti ühistranspordist kui avalikust ruumist.
+is an urban geographer working as a Senior Researcher at the Centre for Landscape and Culture at the Tallinn University School of Humanities. His research interests include mobility cultures and post-socialist urban studies. He has published scientific articles on these topics in distinguished journals such as Current Sociology and IJURR. He was a co-editor of the book Post-Socialist Urban Infrastructures (Routledge, 2019). Since 2019, he has been in charge of an international project on public transport as public space, by the network Humanities in the European Research Area (HERA).
 
 </div>
 </div>
@@ -528,7 +528,7 @@ knitr::include_graphics('../figures/6-authors/KartVaarmari.png')
 
 <div>
 #### Kärt Vaarmari {-.author-name}
-on Eestimaa Looduse Fondi arendusjuht ja juhatuse liige. Varem tegutsenud keskkonnajuristina, olles muu hulgas üks Keskkonnaõiguse Keskuse asutajatest. Keskkonnaõiguse valdkonnas on tema uurimisteemad olnud keskkonnaalased õigused, avalikkuse kaasamine keskkonnaotsuste tegemisse ning valitsusväliste vabaühenduste roll avaliku keskkonnahuvi esindamisel. Ta on olnud keskkonnaseadustiku üldosa seaduse kommenteeritud väljaande (2015) toimetaja ja kaasautor ning avaldanud artikleid ajakirjades nagu Journal for European Environmental and Planning Law, Juridica jt.
+is Development Manager and Member of the Executive Committee of the Estonian Fund for Nature. She has previously worked as an environmental lawyer, and she was a co-founders of the Estonian Environmental Law Center. In environmental law, she has focused on environmental rights, public participation in environmental decision-making, and the role of NGOs in representing the public interest in environmental issues. She was the editor and co-author of the executive summary of the General Part of the Environmental Code Act (2015) and has published articles in journals such as the Journal for European Environmental and Planning Law and Juridica.
 
 </div>
 </div>
@@ -542,7 +542,7 @@ knitr::include_graphics('../figures/6-authors/SiimVahtrus.png')
 
 <div>
 #### Siim Vahtrus {-.author-name}
-töötab Keskkonnaõiguse Keskuses. Ta on koostanud juhendeid keskkonnamõju hindamise, avalikkuse kaasamise ning ruumilise planeerimise teemal. Ta on keskkonnaseadustiku üldosa seaduse kommenteeritud väljaande (2015) ning „Keskkonnamõju strateegilise hindamise käsiraamatu“ (2017) kaasautor. Ta on avaldanud artikleid rahvusvahelistes teadusajakirjades nagu Juridica International, European Energy and Environmental Law Review ja Impact Assessment and Project Appraisal.
+works at the Estonian Environmental Law Center. He has compiled guidelines for environmental impact assessment, public involvement and spatial planning. He was a co-author of the executive summary of the General Part of the Environmental Code Act (2015) and Keskkonnamõju strateegilise hindamise käsiraamat (Handbook of Strategic Environmental Assessment, 2017) He has published articles in international journals such as Juridica International, European Energy, the Environmental Law Review, and Impact Assessment and Project Appraisal.
 
 </div>
 </div>
@@ -556,7 +556,7 @@ knitr::include_graphics('../figures/6-authors/AndreasVentsel.png')
 
 <div>
 #### Andreas Ventsel {-.author-name}
-on Tartu Ülikooli semiootika vanemteadur. Tema peamised uurimisteemad on poliitiline semiootika, visuaalsemiootika, strateegilised narratiivid infosõja kontekstis ja mõjutustegevus veebikeskkonnas. Ta on osalenud rohkem kui tosinas teadusprojektis. Ta on teinud koostööd Kaitseväe Ühendatud Õppeasutustega ning juhib praegu sõjalisele kommunikatiivsele pettetegevusele pühendatud uurimisprojekti.
+is a Senior Researcher of Semiotics at the University of Tartu. His main research topics are political semiotics, visual semiotics, strategic narratives in information warfare, and influence activities in online environments. He has been involved in more than a dozen research projects. He has collaborated with the Estonian Military Academy and is currently in charge of a research project dedicated on military communications deception.
 
 </div>
 </div>
@@ -570,7 +570,7 @@ knitr::include_graphics('../figures/6-authors/AnnikaVaiko.png')
 
 <div>
 #### Annika Väiko {-.author-name}
-on alates 2014. aastast Tartu Ülikooli rände- ja linnauuringute keskuse teadustöö assistent. Tal on magistrikraad inimgeograafia ja regionaalplaneerimise erialal. Tema peamised uurimisteemad on ränne, segregatsioon linnades ja elukohaliikuvus.
+has been a research assistant at the Centre for Migration and Urban Studies at the University of Tartu since 2014. She holds a master’s degree in human geography and regional planning. Her main research topics are migration, urban segregation and residential mobility.
 
 </div>
 </div>

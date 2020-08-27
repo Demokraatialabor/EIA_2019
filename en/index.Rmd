@@ -1,4 +1,4 @@
---- 
+---
 title: "Estonian Human Development Report 2019/2020"
 cover-image: "https://inimareng.ee/cover.png"
 description: "Spatial Choices for an Urbanised Society"
@@ -39,13 +39,13 @@ kust võõrad käskiv silt pareeris...
 
 <div id="cover-body">
 <div class="cover-container">
-Eesti inimarengu aruanne on iga kahe aasta tagant ilmuv artiklite kogumik, mis peegeldab ja mõtestab Eesti ühiskonna sotsiaalmajanduslikku olukorda ja võimalikke arengusuundi.
+The Estonian Human Development Report is a biennially published collection of articles reflecting and interpreting the current socio-economic situation in Estonia and possible future developments.
 
-Tunnustatud teadlaste koostööna valmiv põhjalik aruanne panustab teadmuspõhise poliitika kujundamisse ning sellest kantud mõtteviiside ja teaduse populariseerimisse.
+Produced as a collaboration involving acclaimed scientists and experts, the in-depth report contributes to knowledge-based perspectives and policymaking, and helps make research accessible.
 
-Eesti inimarengu aruanne lähtub ÜRO väljaantavast rahvusvahelisest inimarengu indeksist ja raportist.
+The Estonian human development reports follow the model of the international human development index and reports published by the United Nations.
 
-Eestis on inimarengu aruanne ilmunud 1995. aastast. 2006. aastast annab kogumikku välja <a href="https://www.kogu.ee">SA Eesti Koostöö Kogu</a>. Aruande digiversioon on avatud lähtekoodiga ja avatud andmetega.
+The Estonian human development reports have been published since 1995, and since 2006, by the <a href="https://www.kogu.ee">Estonian Cooperation Assembly</a>. The digital version of the report uses open data and open source code.
 </div>
 </div>
 
