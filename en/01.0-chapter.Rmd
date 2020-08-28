@@ -12,8 +12,6 @@
 <div><a class="print-btn" href="../print/EIA-2019-1.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
-### Põhisõnumid {-.chapter1_section}
-
 ```{block, type='points'}
 * A minimal network of local and regional centres should be agreed and maintained in Estonia to enable living anywhere in the country, including in peripheral regions.
 
@@ -217,7 +215,7 @@ It is possible that over time, current confidence in a complete market economy i
 
 <p id="Tiit2015">Tiit, E.-M. 2015. Eesti viimase veerandsajandi välisränne. Statistiline hinnang. – Tammur, A. (ed.). Rahvastiku areng. Tallinn: Statistikaamet, 56–75.</p>
 
-<p id="Tintera2019">Tintera, J. 2019. Kahanev elanikkond vajab väiksemat linnaruumi. – Postimees, 23.05.2019. https://arvamus.postimees.ee/6695087/jiri-tintera-kahanev-elanikkond-vajab-vaiksemat-linnaruumi.</p>
+<p id="Tintera2019">Tintera, J. 2019. Kahanev elanikkond vajab väiksemat linnaruumi. – Postimees, 23 May. https://arvamus.postimees.ee/6695087/jiri-tintera-kahanev-elanikkond-vajab-vaiksemat-linnaruumi.</p>
 
 <p id="Tõnurist2014">Tõnurist, A., Servinski, M., Valgma, Ü. 2014. Toimepiirkondade määramine. Tallinn: Siseministeerium ja Statistikaamet.</p>
 

@@ -511,9 +511,9 @@ It is true that the car enables mobility in certain situations and certainly for
 
 ### References {-.subreferences}
 
-<p id="Banister2008">Banister, D. 2008. The sustainable mobility paradigm. – Transport Policy, 15 (2), 73–80.</p>
+<p id="Banister2008">Banister, D. 2008. The sustainable mobility paradigm – Transport Policy, 15 (2), 73–80.</p>
 
-<p id="Bassett2008">Bassett, D. R., Pucher, J., Buehler, R., Thompson, D. L., Crouter., S. E. 2008. Walking, cycling, and obesity rates in Europe, North America, and Australia. – Journal of Physical Activity and Health, 5 (6), 795–814.</p>
+<p id="Bassett2008">Bassett, D. R., Pucher, J., Buehler, R., Thompson, D. L., Crouter., S. E. 2008. Walking, cycling, and obesity rates in Europe, North America, and Australia – Journal of Physical Activity and Health, 5 (6), 795–814.</p>
 
 <p id="Discovering2010">Discovering Urbanism 2010. From a mobility to an accessibility orientation. http://discoveringurbanism.blogspot.com/2010/02/from-mobility-to-accessibility.html.</p>
 
@@ -531,18 +531,18 @@ It is true that the car enables mobility in certain situations and certainly for
 
 <p id="LiLiA2017">LiLiA – Tallinna piirkonna säästva linnaliikuvuse arengukava 2017. Tallinna LiLia 2035. Kontseptsioon. https://www.mnt.ee/sites/default/files/content-editors/Failid/Yldine/talilia_kontseptsioon_juuni2017.pdf.</p>
 
-<p id="Maanteeamet2017">Maanteeamet 2017. Autopargi läbisõit 2017. https://www.mnt.ee/sites/default/files/survey/labisoit_2017.pdf.</p>
+<p id="Maanteeamet2017">Estonian Road Administration 2017. Autopargi läbisõit 2017. https://www.mnt.ee/sites/default/files/survey/labisoit_2017.pdf.</p>
 
-<p id="McCarthy2017">McCarthy, L., Delbosc, A., Currie, G., Molloy, A. 2017. Factors influencing travel mode choice among families with young children (aged 0–4): a review of the literature. – Transport Reviews, 37 (6), 767–781.</p>
+<p id="McCarthy2017">McCarthy, L., Delbosc, A., Currie, G., Molloy, A. 2017. Factors influencing travel mode choice among families with young children (aged 0–4): a review of the literature – Transport Reviews, 37 (6), 767–781.</p>
 
 <p id="Nõmm2018">Nõmm, T. 2018. Kolmel inimesel neljast on ühistransport hästi kättesaadav nii linnas kui ka maal. https://blog.stat.ee/tag/uhistransport.</p>
 
-<p id="Otsus2016">Otsus, E. 2016. Tallinna jalgrattateede sidusus. Bakalaureusetöö. Tartu Ülikool.</p>
+<p id="Otsus2016">Otsus, E. 2016. Tallinna jalgrattateede sidusus. BA thesis. University of Tartu.</p>
 
 <p id="Poom2017">Poom, A. 2017. Spatial Aspects of the Environmental Load of Consumption and Mobility. PhD thesis. Tartu: University of Tartu Press.</p>
 
 <p id="Pucher2005">Pucher, J., Buehler, R. 2005. Transport policies in Central and Eastern Europe. – Button, K. J., Hensher, D. A. (eds.). Transport Strategy, Policy, and Institutions. Oxford: Elsevier Press, 725–744.</p>
 
-<p id="Rakendusliku2018">Rakendusliku antropoloogia keskus 2018. Liikuvusuuring Saaremaal nõudluspõhise transpordi korraldamiseks.. http://www.antropoloogia.ee/uuringud.</p>
+<p id="Rakendusliku2018">Centre for Applied Anthropology 2018. Liikuvusuuring Saaremaal nõudluspõhise transpordi korraldamiseks. http://www.antropoloogia.ee/uuringud.</p>
 
 <p id="TNS2015">TNS Emor 2015. Liikumisviiside uuring elektrisõidukite lühirendi ja säästva transpordi kasutamise arendamiseks Tallinnas. Tallinn: Majandus- ja Kommunikatsiooniministeerium, KredEx.</p>

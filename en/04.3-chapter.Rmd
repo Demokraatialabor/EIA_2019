@@ -6,12 +6,12 @@
 ```
 
 ```{block, type='points'}
-* Ajakirjanduse võimalused avaliku arvamusruumi kujundamisel on vähenenud ning kasvanud on teiste toimijate – auditooriumi, konkreetsete huvigruppide ja ülemaailmsete platvormide roll ja vastutus.
+* The possibilities for the press to shape the public sphere have been reduced and the role and responsibility of other actors – the audience, specific interest groups and global platforms – have increased.
 ```
 
-Ajakirjanduse ja aruteluruumi omavaheline suhe on 21. sajandil keerukam kui kunagi varem. Ajakirjanduse võimalused avalikku aruteluruumi kujundada on teisenenud, keerulisemaks on muutunud ühise inforuumi tekke, elanikkonda ühendava enesetaju ning kaasavate ja avatud vestlussituatsioonide toetamine. Ka avalik aruteluruum ise on mitmekesisem, sisaldades täiesti avalikke, poolavalikke ja laiemale avalikkusele suletud ruume. Internetis võimenduse saanud aruteluruumis saavad nüüd osaleda toimijad, kelle arvamused ei ole seni avalikkuse ette jõudnud. Muutuste hindamine positiivse või negatiivsena on keeruline, kuid rahvusvahelisi pressi- ja arvamusvabaduse hinnanguid aluseks võttes paistab, et Eestis olukord halveneb – oleme langenud pressivabaduse hinnangutes tagasi teise kümnesse ([joonis 4.3.1](#figure431)). Selle olukorra taga võib näha ajakirjanduse vähenenud ressursse ja võimalusi majanduslikust ja poliitilisest mõjust sekkumata toimida ([Vihalemm 2013](#Vihalemm2013)), et anda tõest, igakülgset ja ausat teavet ühiskonnas toimuva kohta, nagu see on sõnastatud ajakirjanduse ülesandena Eesti ajakirjanduseetika koodeksis. Ajakirjanduse olukorra halvenemist märgib indeks juhul, kui riigis esineb nii sõna kui ka teoga rünnakuid ajakirjanike, meediaorganisatsioonide, sõnavabaduse või nende eest seisjate vastu. Ka Eesti ajakirjanikud on viimastel aastatel teada andnud ähvardustest oma elule ja tervisele. Samuti on pressivabaduse vähenemise taga avalikkusesse jõudnud teated toimetuse autonoomia kahanemisest Eesti ühes suurimas meediakontsernis ja ajakirjanike vähenenud töökohakindlus ootamatute vallandamiste tõttu.
+The relationship between the press and the deliberative space in the 21st century is more complicated than ever before. The opportunities for the press to shape the public sphere have changed; the development of a common information space has become more complicated, as has supporting a unifying self-image among the population and supporting deliberative communication. The public deliberative space itself is also more diverse, and includes totally public, semi-public and closed spaces for the general public. Actors whose opinions had yet to reach the public can now participate in deliberative spaces that have been amplified by the internet. Assessing whether these changes are positive or negative is complicated. However, based on international assessments of the freedom of the press and opinion, it seems that the situation in Estonia is worsening – we have dropped into the teens in the rankings regarding the freedom of the press ([Figure 4.3.1](#figure431)). This situation can be explained by a reduction in the resources available for the press and its ability to act without economic or political interference ([Vihalemm 2013](#Vihalemm2013)), in order to provide truthful, comprehensive, and honest information about what is going on in society, as formulated as its task in the Estonian Code of Ethics for the Press. The index indicates that the situation is worsening for the press, as there are both verbal and actual attacks on journalists, media organisations, and the freedom of expression or advocates in the country. Estonian journalists have also reported threats to their lives and well-being in recent years. The decrease in editorial autonomy in one of the largest media groups in Estonia and the reduced job security of journalists due to unexpected layoffs have also led to a decrease in press freedom.
 
-<p class="caption" id="figure431"><span class="figure-number">Joonis 4.3.1.</span> Eesti positsiooni muutumine pressivabaduse hinnangutes 15 aasta jooksul Soome ja Lätiga võrreldes</p>
+<p class="caption" id="figure431"><span class="figure-number">Figure 4.3.1.</span> The change in Estonia’s position in assessments of the freedom of the press over 15 years compared to Finland and Latvia</p>
 <div class="desktop-plot">
 ```{r, figure431, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
@@ -24,11 +24,11 @@ library("tidyverse")
  fig431_data$position_eng[grepl("14. koht",   fig431_data$position)]<-"14th place"
  fig431_data$position_eng[grepl("24. koht",   fig431_data$position)]<-"24th place"
  fig431_data$position_eng[grepl("50. koht",   fig431_data$position)]<-"50th place"
- 
+
  fig431_data$country_eng[grepl("Eesti",   fig431_data$country)]<-"Estonia"
  fig431_data$country_eng[grepl("Läti",   fig431_data$country)]<-"Latvia"
  fig431_data$country_eng[grepl("Soome",   fig431_data$country)]<-"Finland"
- 
+
 fig431_data$country_eng <- factor(fig431_data$country_eng, levels = c("Finland","Estonia","Latvia"))
 
 
@@ -46,8 +46,8 @@ fig431_data$country_eng <- factor(fig431_data$country_eng, levels = c("Finland",
   )
 
 ggplotly(fig431_plot + fig_theme_general + fig431_theme, tooltip = "text") %>%
-config(displayModeBar = F, collaborate = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F, collaborate = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -62,36 +62,36 @@ layout(yaxis = list(fixedrange = TRUE))
 
 ```
 ```{block, type='imgsource'}
-<div><span class="imgsource-source">Allikas:</span> Reporters without Borders 2018.</div>
+<div><span class="imgsource-source">Source:</span> Reporters without Borders 2018.</div>
 <div><a class="data-btn" href="../data/43_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
-Mitmekülgne, eri hääli kaasav ja argumenteeritud arutelu on demokraatliku ühiskonnakorralduse eeltingimus ja jätkumise tagatis – avalikus aruteluruumis räägitakse läbi meie ühiselu aluspõhimõtted ja reeglid ning lepitakse kokku parimad viisid, kuidas reageerida muutuva maailma väljakutsetele.
+Diverse, inclusive and reasoned debate is a prerequisite for a democratic society and a guarantee of its continuation – the basic principles and rules of our common life and the best way of reacting to the challenges of a changing world are debated in our public deliberative space.
 
 ```{block, type='blockquote-left'}
-Mitmekülgne, eri hääli kaasav ja argumenteeritud arutelu on demokraatliku ühiskonnakorralduse eeltingimus ja jätkumise tagatis.
+Diverse, inclusive and reasoned debate is a prerequisite for a democratic society and a guarantee of its continuation
 ```
 
-Artikli põhiseisukoht on, et ajakirjanduse võimalused avaliku arvamusruumi kujundamisel on vähenenud ning kasvanud on teiste toimijate, näiteks auditooriumi, konkreetsete huvigruppide ja ülemaailmsete suurkorporatsioonide kontrolli all oleva tehnoloogia roll ja vastutus. Muutust näitavad viimase kümmekonna aasta eestikeelse ajakirjanduse sisu, toimetuste tööprotsesside ning meedia retseptsiooni uuringud. Käesolevas artiklis sünteesin Tartu Ülikoolis tehtud väiksemate, nii kvalitatiivsete kui ka kvantitatiivsete uuringute tulemusi ning kasutan ka rahvusvaheliste uuringute tähelepanekuid olukorra kohta Eestis ja Euroopas. Artiklis vastan järgmistele küsimustele:
+The primary position of this article is that the opportunities for the press to shape the public sphere have declined and the role and responsibility of other actors (e.g. the audience, specific interest groups and technology controlled by large global corporations) has increased. Studies of the content of the Estonian-language press, its editorial processes and media reception over the past decade indicate these changes. In this article, I have synthesised the results of smaller qualitative and quantitative studies conducted at the University of Tartu, and also included observations from international studies regarding the situation in Estonia and Europe. I answer the following questions in the article:
 
 
-1) milline on arutelu ajakirjanduse enda kontrollitud aruteluruumis, s.t ajalehtedes ja uudisportaalides;
+1) What is the debate like in the deliberative space controlled by the press – in newspapers and news portals?
 
-2) kuidas mõjutavad veebiajakirjanduse kommentaariumid ajakirjanduse kujundatavat aruteluruumi ning
+2) How do online news comments sections impact the deliberative space shaped by the press?
 
-3) milliseid võimalusi ja probleeme on ajakirjanduse kujundatavale aruteluruumile toonud kaasa sotsiaalmeedia.
+3) What opportunities and problems has social media introduced into the deliberative space shaped by the press?
 
-Ajakirjanduse seisukohalt vaadatuna hõlmab avalik aruteluruum erineva kontrollipotentsiaaliga alasid – näiteks päevalehe arvamusartiklite valiku teeb toimetaja, Riigikogu saali arutelu on aga ajakirjanduse kontrolli alt põhimõtteliselt väljas, kuigi ei saa eitada, et ajakirjandusel võib olla sellele kaudne mõju. Nendes arvamusruumi osades, mis jäävad ajakirjandusliku sekkumise ulatusest välja, kujundavad arvamusruumi üksikisikute ja huvigruppide osalemissoov, aktiivsus ja aruteluoskused – agentsus. Interneti puhul on olulised ka eri keskkondade tehnoloogilised võimalused ja piirangud.
+Viewed from the position of the press, the public deliberative space includes various areas with control potential; for example, the editor is the one who chooses the op-ed articles for a daily newspaper. However, the discussion in the Riigikogu is virtually beyond the media’s control. And yet, it cannot be denied that the press may have an indirect impact. In those parts of the opinion space that are outside the scope of press intervention, it is agency – the willingness, involvement and debating skills of individuals and interest groups – that shapes the opinion space. In the case of the internet, the technological possibilities and restrictions of various environments are also significant.
 
 ```{block, type='blockquote-left'}
-Agentsus on toimimisvõimekus konkreetsetes ühiskondlik-poliitilistes oludes.
+Agency is the ability to act in specific socio-political contexts.
 ```
 
-Interneti arenguga on kaasas käinud auditooriumi võimestamine – see tähendab, et internetiplatvormidel saavad auditooriumi liikmed olla nii üksinda kui ka koos teistega nähtavamad ning oma suhtluseesmärke iseseisvalt realiseerida. Just sotsiaalmeedialt kui peamiselt internetiarutelu keskkonnalt on oodatud arutelukultuuri demokratiseerimist. Aruteluruumi laienemine on aga toonud kaasa ka mitmed soovimatud nähtused, näiteks netiagressioon, auditooriumiga manipuleerimise võimaluste suurenemine ja avalikkuse hoiakute polariseerumine. Meediauurijaid on üllatanud just netiagressiooni teke toimetuse kontrollita keskkonnas, kuhu koguneb suur hulk vaenulikke, laimavaid ja solvavaid väiteid eri isikute kohta. Ajakirjandusel ei ole olnud piisavalt raha, teadmisi ega oskusi, et nendele protsessidele vastu seista.
+The development of the internet has been accompanied by an empowerment of the audience – this means that members of the audience, alone and with others, can be more visible on internet platforms and can realise their communication goals independently. It is social media, as a predominantly online discussion environment, that was expected to democratise the discussion culture. However, the expansion of the deliberative space has resulted in many unwanted phenomena, such as online hostility, increased manipulation of the audience, and the polarisation of public attitudes. Media researchers have been particularly surprised by the emergence of net aggression in uncontrolled editorial environments, where many hostile, defamatory and insulting statements about various individuals accumulate. The press has not had enough money, knowledge or skills to counter these processes.
 
-Kui vaadata avalikku arvamusruumi ajakirjanduse ja auditooriumide toimevõime ehk agentsuse pingeväljana, ilmneb pöördvõrdeline seos: platvormidel, millel kasvab auditooriumi võimalus sekkumata tegutseda, on selle võrra väiksem ajakirjanduse kontrollipotentsiaal ja toimimisvõime ([joonis 4.3.2](#figure432)).
+If we view the power of the media and audience to act – or their agency – in the public opinion space as in a field of tensions, an inverse relationship appears: as the ability of the audience to act without interference increases, the capability of the press to exert control and operational capability decreases ([Figure 4.3.2](#figure432)).
 
-<p class="caption" id="figure432"><span class="figure-number">Joonis 4.3.2.</span> Ajakirjanduse ja auditooriumi võimalused arvamusruumi kontrollida eri meediaplatvormidel</p>
+<p class="caption" id="figure432"><span class="figure-number">Figure 4.3.2.</span> The opportunities for the press and the audience to control the opinion space on various media platforms</p>
 
 ```{r, figure432, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
@@ -99,18 +99,18 @@ knitr::include_graphics("../figures/4-chapter/fig432.png")
 ```
 
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Autori joonis.
+<span class="imgsource-source">Source:</span> Figure by the author.
 ```
 
-### Ajakirjanduse kontroll arvamusruumi üle traditsioonilistes meediakanalites {-.chapter4_section}
+### Media control of the opinion space in traditional media channels {-.chapter4_section}
 
-Ametialastest kokkulepetest ja rollist lähtuvalt on professionaalse ajakirjanduse ülesanne kujundada aruteluruumi nii, et riiki, kultuuri, majandust ja ühiskonda puudutavad olulised sündmused ja protsessid oleksid kajastatud ning erinevad vaated kaasatud.
-Ajalehe toimetus sekkub ühiskonna arvamuskliima kujundamisse jõuliselt näiteks juhtkirjade kaudu. Eestis kirjutatakse juhtkiri suuremates päevalehtedes enamasti konkreetse lehenumbri kõige olulisemal teemal ([Kald 2006](#Kald2006)). Juhtkiri ei pruugi olla kollektiivne looming, kuid esindab üldjuhul toimetuse enamuse või juhtgrupi konsensuslikku seisukohta. Lisaks tellivad toimetajad olulistel teemadel arvamusartikleid, valivad toimetusse jõudnute hulgast avaldamiseks tähtsamad ja paremad arvamuslood ning hoiavad teemat päevakorral jätkuarvamusi hankides. Ideaalis jälgivad toimetajad seejuures Saksa filosoofi Jürgen Habermasi poolt määratletud vestlussituatsiooni kujunemiseks vajalikke tingimusi: et eri osapooled saaksid sõna ning et arutelu oleks mitmekesine ja tasakaalustatud.
+Based on professional agreements and roles, the assignment of professional journalism is to shape the deliberative space in a way that important events and processes affecting the country, culture, economy and society are reported on and different views are included.
+The editorial staff of newspapers intervene vigorously in shaping the public opinion climate, for example, through editorials. In Estonia, editorials in the major daily newspapers usually deal with the most important topic that is covered in each issue ([Kald 2006](#Kald2006)). The editorials need not be collective creations, but generally represent the consensus of the majority of the editorial board or the steering group. In addition, the editors commission op-eds on significant topics, choose the most important and best op-eds for publication from among those that have been submitted, and keep the topic on the agenda by commissioning follow-up opinions. Ideally, editors should observe the conditions necessary for the formation of a deliberative communication as defined by German philosopher Jürgen Habermas – that the various parties get their say and the debate is diverse and balanced.
 
-Ajalehtede arvamuskülgedel arvajate ring on olnud siiski pigem kitsas. Arvajatena eelistatakse isikuid, kes on omandanud arvamusžanri konventsioonid, kelle arvamusi peetakse huvitavaks või kellel on otsustajana piisav tähtsus, et tema arvamusi kajastada. Eestikeelse kultuuriajakirjanduse uuringust ([Kõuts-Klemm 2015](#Kõuts-Klemm2015)), mis hõlmas eri meediakanalite kolme kuu sisu, selgus, et kultuuriteemalistes arvamusartiklites ja arutelusaadetes said kõige rohkem sõna eksperdid ja teadlased (41%), ajakirjanikud ja toimetajad (34%) ning loomeinimesed (17%). Sarnane muster ilmneb arvamusrubriikide puhul ka üldisemalt. Aastal 2018 tehtud kahe üleriigilise päevalehe sisu analüüs näitab, et nende väljaannete arvamustoimetused avaldavad sageli teaduslikke ja eksperdiarvamusi. Kõnekas on ajakirjanike enda nii sage esinemine arvajatena, kuid üldpildis on vähe nähtavad tavakodanike, ametnike ja kultuuritegelaste arvamused ([joonis 4.3.3](#figure433)).
+However, the circle of opinion-makers who are published on op-ed pages has tended to be rather limited. Preference is given to those who have adopted op-ed conventions or are of sufficient importance as decision-makers to have their views published. One study of Estonian-language cultural publications ([Kõuts-Klemm 2015](#Kõuts-Klemm2015)), which covered the content of various media channels over three months, showed that the following people had the most say in cultural opinion pieces and discussion programmes: experts and academics (41%), journalists and editors (34%) and intellectuals (17%). A similar pattern appears more generally in op-ed articles. The analysis of two national newspapers conducted in 2018 showed that the op-ed editors of these publications often publish academic and expert opinions. The frequent appearance of journalists themselves as opinion-makers is telling. However, in general, the views of ordinary citizens, officials and cultural figures are hardly visible ([Figure 4.3.3](#figure433)).
 
-<p class="caption" id="figure433"><span class="figure-number">Joonis 4.3.3.</span> Arvamuslugude autorid eestikeelsetes ülerigiilistes päevalehtedes (%)</p>
-(N = 485, 2018.a. 12 juhuslikult valitud nädalat, argipäevadel ilmunud artiklid).
+<p class="caption" id="figure433"><span class="figure-number">Figure 4.3.3.</span> The authors of op-eds in national Estonian-language newspapers (%)</p>
+(N=485, articles that appeared on workdays during 12 randomly selected weeks in 2018).
 
 <div class="desktop-plot">
 ```{r, figure433, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
@@ -126,12 +126,12 @@ library("tidyverse")
   fig433_data$variable_eng[grepl("poliitik", fig433_data$variable)]<-"Politicians"
   fig433_data$variable_eng[grepl("ajakirjanik", fig433_data$variable)]<-"Journalists"
   fig433_data$variable_eng[grepl("teadlane, ekspert", fig433_data$variable)]<-"Scientists, experts"
-  
+
   fig433_data$group_eng[grepl("Postimees", fig433_data$group)]<-"Postimees"
   fig433_data$group_eng[grepl("Eesti Päevaleht", fig433_data$group)]<-"Eesti Päevaleht"
   fig433_data$group_eng[grepl("Kokku", fig433_data$group)]<-"All"
-  
-  
+
+
 fig433_data$group_eng <- factor(fig433_data$group_eng, levels = c("Postimees","Eesti Päevaleht","All"))
 fig433_data$variable_eng <- factor(fig433_data$variable_eng, levels = c("Entrepreneurs", "Public servants","Cultural figures","Citizens","Politicians","Journalists","Scientists, experts"))
 
@@ -151,8 +151,8 @@ fig433_data$variable_eng <- factor(fig433_data$variable_eng, levels = c("Entrepr
   )
 
 ggplotly(fig433_plot + fig_theme_general + fig433_theme, tooltip = "text") %>%
-config(displayModeBar = F, collaborate = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F, collaborate = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -168,55 +168,54 @@ print(fig433_plot + fig_theme_general + fig433_theme)
 ```
 </div>
 ``` {block, type='imgsource'}
-<div><span class="imgsource-source">Allikas:</span> Autori joonis.</div>
+<div><span class="imgsource-source">Source:</span> Figure by the author.</div>
 <div><a class="data-btn" href="../data/43_fig3_data1.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
 ```
 
-Poliitikute ligipääsu arvamusmeediale kontrollivad toimetajad eriti tähelepanelikult just valimiseelsel perioodil – toimetuses lepitakse kokku teemad, mille kohta poliitikutelt arvamust küsitakse, ning publikule vahendatakse kõigi institutsionaliseerunud poliitiliste jõudude sõnumid.
+The access of politicians to opinion media is particularly closely monitored by the editors during the election period – the editors agree upon the topics that the politicians will be asked to comment on, and the messages of all the institutionalised political forces are communicated to the public.
 
-Arvamustoimetajate valikud, kuidas arutelusid kujundada, tuginevad ideaalis professionaalse ajakirjanduse aluspõhimõtetele (tasakaalustatus, erapooletus), kuid oma osa mängib valikute tegemisel ka toimetajate maailmavaade. Näiteks Eesti liitumisel Euroopa Liiduga lõi ajakirjandus toetavat fooni liitumisotsusele, esitades suuremas osas arvamuslugudes liitumist sammuna, millele ei ole alternatiivi ([Järvet 2007](#Järvet2007)). Keeruliste teemade puhul, milles on palju osapooli ja mitmesuguseid nii nähtavaid kui ka varjatud huve, näiteks Nord Streami gaasijuhtme ehitamisega seonduv ([Laev 2010](#Laev2010)), võib ajakirjandus jääda teemale alla, sest ei suuda ise piisavalt analüüsida osapoolte huve ja sõnumeid ning seetõttu teha adekvaatseid valikuid kõnejärje edasiandmisel. Süvenemiseks on ajakirjanikel vaja nii aega kui ka teadmisi asjatundliku arvamuse kujundamiseks.
+Ideally, the choices made by op-ed editors on how to shape discussions are based on the basic principles of professional journalism (balance, impartiality). However, the world views of the editors are also reflected in the choices. For instance, when Estonia joined the European Union, the press created a supportive background for the accession decision by presenting, in most op-ed articles, the accession as a step for which there was no alternative ([Järvet 2007](#Järvet2007)). In the case of complex topics, which have many stakeholders and a variety of interests that are both visible and hidden (e.g. the building of the Nord Stream gas pipeline ([Laev 2010](#Laev2010)), the press may fall short because it is unable to sufficiently analyse the interests and messages of the parties, and is therefore unable to make adequate decisions when communicating the reasoning. In order to delve into topics, journalists need both time and information in order to develop knowledgeable opinions.
 
 ```{block, type='casebox'}
-<h3>Ajakirjandus toetab arutelu teket</h3>
+<h3>Connecting opinion leaders</h3>
 
-Arvamusrubriigid on eri toimetustes erinevalt väärtustatud ning mitmed toimetused soovivad oma brändi olulise osana näha avaliku kõneaine kujundaja rolli.
+The Äripäev media company has created an image as an opinion leader by organising elite conferences aimed at decision-makers and the business community, and has also provided a deliberative space via the Äripäev radio talk shows that has been broadcast since September of 2017.
 
-Meediaettevõte Äripäev on loonud enda kui arvamusliidri kuvandit otsustajatele ja ärieliidile suunatud elitaarsete konverentside kaudu ning aruteluruumi pakuvad ka alates 2017. aasta septembrist tegutseva Äripäeva raadio jutusaated.
+Since 2000, the Postimees newspaper has organised discussion seminars called the Opinion Leaders’ Lunch, which is attended by academics, experts and politicians, and where an annual opinion leader award is presented. In addition, Postimees publishes a weekly insert called ‘Arvamus. Kultuur’ (Opinion. Culture).
 
-Ajaleht Postimees korraldab 2000. aastast aruteluseminari „Arvamusliidrite lõuna“, millel osalevad teadlased, eksperdid ja poliitikud ning millel antakse välja aasta arvamusliidri auhind. Samuti ilmub igal laupäeval Postimehe lisaleht „Arvamus. Kultuur“.
 ```
 
-Ajakirjanduse kontrollitud arvamusruumist kõrvale jäetutel on olnud internetitehnoloogia arenemisel lihtsam luua oma aruteluplatvorme. Alternatiivmeedia kanalite (nt Telegram, Uued Uudised, Objektiiv) loojad näevad oma peamise ülesandena arvamusruumi mitmekesistamist ([Saavik 2017](#Saavik2017)). Selliseid kanaleid nimetatakse meelsusmeediaks, sest selles levitatakse teatud kindlat maailmavaadet – näiteks portaal Objektiiv esindab oma toimetuse sõnul rahvuskonservatiivset vaadet. Alternatiivmeedia on tekkinud täitma tühimikke, mida üldauditooriumile suunatud meedia ei täida. Sageli võib sel põhjusel olla mõnele alternatiivmeedia kanalile iseloomulik äärmuslik hoiak ühiskonnas toimuva suhtes. Viimased uuringud näitavad, et äärmuslikke vaateid esitava alternatiivmeedia jälgijaskonna moodustavad inimesed, kes on ühiskonnas ja kaasinimestes pettunud ja kes tunnevad vähem huvi poliitika, majanduse, ühiskonnaelu teemade ning üldse uudiste vastu ([Rämmer 2018](#Rämmer2018)).
+As internet technology has developed, it has been easier for those who have been excluded from the controlled opinion space of the press to develop their own discussion platforms. The creators of alternative media channels (e.g. Telegram, Uued Uudised, Objektiiv) see diversifying the opinion space to be their main assignment ([Saavik 2017](#Saavik2017)).Such channels are called opinionated media because they promote a certain world view (e.g. the Objektiiv portal represents a national conservative view). Alternative media have developed in order to fill the gaps not filled by the media directed at a broader audience. And therefore, some alternative media channels may be characterised by extreme reactions to what is occurring in society. Recent studies show that the audience for alternative media presenting extreme views is comprised of people who are disappointed in society and their fellow human beings, and who have less interest in topics related to politics, economics, and social life and are generally opposed to the news ([Rämmer 2018](#Rämmer2018)).
 
 ```{block, type='blockquote-right'}
-Meelsusmeediaks nimetatakse sellist meediat, mis edastab ainult ühte kitsast maailmavaadet, mille sisus ei ole maailmavaatelist paljusust.
+Opinionated media presents only one narrow world view and does not reflect a diversity of world views.
 ```
 
-Nimetatud tähelepanekud osutavad, et Eesti ajakirjanduse kujundatav arvamusruum ei erine teiste demokraatlike riikide omast. Ka mujal antakse üldauditooriumile suunatud meedias sõna eelkõige ühiskondlikule eliidile, avaldatakse suur hulk ajakirjanike enda arvamusi ning arvamusruumi mitmekesistumise ülesannet täidavad eelkõige alternatiivmeedia kanalid.
+These observations indicate that the opinion space shaped by the Estonian press does not differ from those in other democratic countries. Elsewhere, the media targeted at the general audience primarily provides a platform for the social elite, a large number of the journalists’ own opinions are published, and so the assignment of diversifying the opinion space is fulfilled primarily by alternative media channels.
 
-### Veebiajakirjanduse kaasav arhitektuur ja toimimine {-.chapter4_section}
+### Inclusive architecture and the functioning of online journalism {-.chapter4_section}
 
-Eesti ajakirjandusväljaanded avasid 1999. aastal veebiväljaannete loomisel ukse lugejate kaasamisele. Toepfl ja Litvinenko, kes võrdlesid endiste Nõukogude liiduvabariikide veebiväljaandeid, leidsid, et teistega võrreldes on Eesti uudisteportaalid näide avatud ja kaasavast veebiarhitektuurist ([Toepfl ja Litvinenko 2018](#Toepfl2018)). Kommentaarium on veebiväljaannete enesestmõistetav osa, mis võimaldab auditooriumil oma vaateid väljendada, arutelu suunata ja ka uusi teemasid tõstatada. Seevastu teine, Avatud Eesti Fondi 2013. aastal tellitud uuring tõi välja, et kommentaariumi kasutamine arutelus osalemiseks on siiski pigem tagasihoidlik – kommentaare olid kirjutanud üldse 13% ja regulaarselt kommenteerisid vaid 3% Eesti täisealistest elanikest. Kommenteerimiseks on avatud nii uudisnupud kui ka arvamuslood, kuigi enamasti jääb just arvamuslugude kommentaaride arv väikeseks. Arvamustes, millele elavamalt reageeritakse, peab sisalduma auditooriumi mingil viisil ärritav moment – kommenteerijate aktiivsus on suurem lugude puhul, mis käsitlevad vastakaid arvamusi tekitavat teemat, on kirjutatud polariseeriva kuvandiga isiku poolt või puudutavad inimeste alusväärtusi, mille väljendamist peavad inimesed oluliseks. Välja on toodud seos artiklite tonaalsuse ja kommentaariumi häälestuse vahel – näiteks Portugali 2015. aasta valimiste eelse kajastuse analüüs osutas, et väga negatiivne suhtumine poliitilistesse vastastesse toob kaasa ka märksa negatiivsemad kommentaarid ([Conçalves 2018](#Conçalves2018)). Samuti kasutatakse kommentaariumi teadlikult auditooriumiga manipuleerimiseks poliitilistel eesmärkidel, et ühiskonda lõhestada, tekitada emotsionaalset laetust ja võimendada konflikte.
+In 1999, Estonian press publications opened the door to the involvement of readers by creating online publications. Toepfl and Litvinenko ([2018](#Toepfl2018)), who compared the online publications of the former Soviet republics, found that compared to other news portals, the Estonian portals are an example of an open and inclusive online architecture. The comments section is an anticipated feature of online publications, which enables the audience to express its opinions, direct the discussion and raise new issues. On the other hand, another study commissioned by the Open Estonia Foundation (2013) found that the use of the comments section to participate in discussions was rather modest – only 13% of Estonian adults had written any comments, and only 3% commented regularly. Comments can be made regarding news items and op-ed articles, although in most cases, there are relatively few comments about op-ed articles. Usually, the opinions that prompt more lively reactions contain some irritating moment for the audience, deal with topics that give rise to conflicting opinions, are written by someone with a polarising image, or concern the fundamental values that people consider to be important. The connection between the tone of the article and the attitude of the comments – for example, the analysis of the pre-election coverage of Portugal in 2015 – showed that a very negative attitude towards one’s political opponents also leads to many more negative comments ([Conçalves 2018](#Conçalves2018)). Comments sections are also used to deliberately manipulate the audience for political purposes, to divide society, create emotional strain and intensify conflicts.
 
-Tänapäeva infokülluse olukorras, kus suuremad veebitoimetused toodavad ja paiskavad Eestis arvamusruumi päevas kuni 500 tekstiühikut, on eri tekstidel toimetuse silmis erinev tähtsus. Arvamusžanri väärtustatakse veebitoimetuses rohkem kui uudisžanri. Intervjuud arvamustoimetajatega tõid välja, et kui uudisinfot püütakse veebiväljaandes pihustada igale ajahetkele võrdselt, siis arvamuslugude avaldamiseks valitakse pigem lugemise tippaeg ([Klaassen 2018](#Klaassen2018)).
+Today, when an abundance of information exists, and the online editorial boards of larger publications produce and distribute up to 500 text units per day in Estonia; different texts have different meanings for different editorial boards. And the opinion genre is more valued by online editors than the news genre. Interviews with opinion editors revealed that, if they try to spread the news out equally time-wise, then op-ed articles are usually posted during the peak reading time ([Klaassen 2018](#Klaassen2018)).
 
 ```{block, type='blockquote-right'}
-Veebitoimetused on võtnud kommentaariumi avades vastutuse tagada selles heade suhtlustavade järgimine.
+By posting comments sections, the online editorial boards have accepted the responsibility of ensuring that good communication practices are followed.
 ```
 
-Toimetajate sekkumiseta võib kommentaariumist saada netivaenu eskaleerumise koht, kus valdavad mittetsiviliseeritud ja ebaviisakad kommentaarid. Praegu modereerivad kõik avatud kommentaariumidega veebiväljaanded kommentaare nii algoritmide kui ka inimmoderaatorite ja lugejate enda abiga. Samuti tehakse mõne teema puhul toimetuses teadlik valik teemat kommenteerimiseks mitte avada (nt suurkatastroofid, sisserände teemad).
+Without editorial intervention, the comments section can become a place where online hate escalates and uncivilised and impolite comments start to predominate. Currently, all the online publications with open comment sections moderate the comments with the help of algorithms, as well as human moderators and the readers themselves. Also, in the case of some topics (e.g. catastrophes, immigration topics), a conscious decision is made by the editorial board not to open the topic for comment.
 
-Igaühele avatud arvamuskeskkonna olemasolu veebis võimestab auditooriumi – annab sellele hääle ja nähtavuse. Kuigi veebiajakirjanduse kommentaariumist taheti loomise algaegadel kujundada isereguleeruva arutelu koht, oli see ilmselgelt liiga optimistlik soov. Veebiajakirjandus on olnud sunnitud auditooriumi agentsust piirama, et vältida laimu ja vihakõne vohamist. Veebitoimetused on võtnud kommentaariumi avades vastutuse tagada selles heade suhtlustavade järgimine – selle põhimõtte möödapääsmatusele osutas Euroopa Inimõiguste Kohtu otsus Delfi kaasuses (vt juhtumi kokkuvõtet [Välisministeerium 2015](#Välisministeerium2015)).
+Having an online opinion environment that is open to everyone empowers the audience – gives it voice and visibility. Although, in the early years, the online comments section was meant to create a place for self-regulatory debate, this was clearly an overly optimistic wish. In order to avoid the proliferation of slander and hate speech, online journalism has been forced to limit audience agency. By posting comments sections, the online editorial boards have accepted the responsibility of ensuring that good communication practices are followed – the indispensability of this principle was confirmed by the judgement of the European Court of Human Rights in the Delfi case (see the summary of the case, [Ministry of Foreign Affair 2015](#Välisministeerium2015)).
 
-### Sotsiaalmeedia vastuolulised võimalused {-.chapter4_section}
+### The contradictory potential of social media {-.chapter4_section}
 
-Veebiväljaannetes avaldatud arvamusi on võimalik võimendada ka sotsiaalmeedia kanalite kaudu. Juba 2013. aastal oli peaaegu kõigil Eesti ajakirjandusväljaannetel oma Facebooki lehekülg või isegi mitu. Sotsiaalmeedias on veelgi suurem tõenäosus, et arvamus muutub viraalseks – leiab palju viitamist ja edasisuunamist, tekitades niimoodi arutelu oluliste ühist otsustamist vajavate küsimuste üle. Ajakirjandusväljaanne võib jagada oma veebisisu ise oma Facebooki lehel või Youtube’i kanalis, võib teatavatele saadetele või rubriikidele luua sotsiaalmeedias lisakanaleid, aga võib loota ka auditooriumi soovile jagada lugusid uudisteportaalist otse, sest portaalis on iga loo juures lingid mitmele sotsiaalmeedia kanalile.
+The views expressed in online publications can also be amplified through social media channels. Almost all Estonian press had their own Facebook page or even several by 2013. There is a greater likelihood that an opinion will go viral in social media – many likes and shares will occur, thus leading to a debate on important issues that require common decision-making. A news publication can share its web content on its Facebook page or YouTube channel, and create additional channels on social media for specific programmes or titles. And it can also hope that the audience wants to share stories directly from the news portal, and therefore, the stories include links to several social media channels.
 
-Postimehe platvormide analüüs kahe kuu jooksul (september kuni oktoober 2018) näitas, et internetis avaldatud arvamusartiklid liiguvad eri trajektoore pidi. Just sotsiaalmeedias on liikumismustrite tuvastamine keeruline, sest postituste levimist mõjutavad ka sotsiaalmeedia algoritmid, mille üle ei ole kontrolli kasutajatel ega ka veebitoimetajatel. Mõnevõrra sõltub loo nähtavus arvamustoimetaja aktiivsusest loo jagamisel, kuid enamgi veel loo teemast ja selle autorist. Näiteks saavad ajakirjanike arvamuslood sotsiaalmeedias enamasti mitu korda suurema kõlapinna kui teadlaste-ekspertide omad. Viimaste arvamused ei põhjusta üldjuhul suuri vaidlusi ja seeläbi ka sotsiaalmeedia kasutajate ägedaid reaktsioone. Teadlased ja eksperdid arutlevad oma arvamusartiklite üle sotsiaalmeedias omaenda poolavalikes või suletud kodades. Tänu pidevale avalikkuse ees esinemisele kutsuvad ajakirjanikud seevastu esile rohkem reaktsioone. Kolmanda suurema arvajate rühma – poliitikute – arvamused saavad sotsiaalmeedia võimenduses samuti pigem rohkem reaktsioone ning tihti jätkatakse diskussiooni ka nende isiklikes Facebooki kogukondades või neist välja jäävate kodanike arutelulõimedes.
+A two-month analysis of the Postimees platforms (September to October 2018) show that op-ed articles published on the internet follow various trajectories. In particular, it is difficult in social media to track the movement patterns because the spread of posts is also influenced by social media algorithms that are not controlled by the users or online editors. To some extent, the visibility of a story depends on the opinion editor’s activity in sharing the story; however, the topic of the story and its author can be even more important. For example, journalists’ op-ed articles in social media usually have a much greater impact that those of academics or experts. As a rule, the opinions of the latter do not cause as much controversy or fierce reactions from social media users. Academics and experts have discussions about their op-ed articles in their own semi-public or closed social media spaces. On the other hand, journalists elicit more reactions because of their constant public appearances. The opinions of the third largest group of actors – the politicians – also tend to elicit greater reactions when amplified by social media, and the discussions often continue in their personal Facebook communities or on the external discussion threads among the citizens.
 
-Postimehe platvormidest ilmub kõige rohkem arvamuslugusid uudisteportaalis postimees.ee, kus sõltuvalt päevast ilmub 10–15 arvamuslugu. Nendest kuni pooled (5–7 lugu) trükitakse ära ka järgmise päeva paberlehes. Postimees oma Facebooki lõimes arvamuslugusid enamasti ei levita, kuigi mõni üksik väga suure arutelupotentsiaaliga lugu jõuab ka sinna. Postimehe Facebooki lehekülg on uudiste päralt ning seal levitatu saab jälgijatelt reaktsioone (laike, jagamisi, soovitamisi), kuid enamasti seal sisukat ja argumenteeritud diskussiooni ei teki. Postimees levitab arvamuslugusid eraldi loodud Facebooki arvamuslehel, pihustades konkreetse päeva lood pikemale perioodile (sh nädalavahetused). Selliselt levitatud lugude jälgitav resonants on siiski enamasti vähene. Arvestades lehtede jälgijate arve, on vähene vastukaja ootuspärane – 2018. aasta oktoobri seisuga oli Postimehe Facebooki arvamuslehel natuke üle 5000 jälgija, Postimehe Facebooki põhilehel aga samal ajal üle 160 000 jälgija ([joonis 4.3.4](#figure434)).
+Of the Postimees platforms, the largest number of op-ed articles appear on the Postimees.ee news portal, where, depending on the day, 10 to 15 op-ed articles are published. Of these, up to half (5 to 7 articles) are printed in the next day’s newspaper. Postimees does not usually share its op-ed articles on its Facebook thread, although some stories with very high discussion potential do end up there. The Postimees Facebook page is devoted to news, which receives reactions (likes, shares, recommendations), but meaningful and reasoned discussions usually do not develop there. The Postimees posts its op-ed articles on a separate Facebook opinion page, where it spreads the stories from a specific day over a longer period (including weekends). However, there is little discernible response to the stories distributed in this way. This is to be expected considering the number of followers the page has – as of October 2018, the Postimees Facebook opinion page had over 5,000 followers, while the main Postimees page had over 160,000 followers ([joonis 4.3.4](#figure434)).
 
-<p class="caption" id="figure434"><span class="figure-number">Joonis 4.3.4.</span> Ajakirjanduse ja auditooriumi agentsus Postimehe näitel</p>
+<p class="caption" id="figure434"><span class="figure-number">Figure 4.3.4.</span> Journalistic and audience agency based on the example of Postimees</p>
 
 <div class="casebox">
 ```{r, figure434, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
@@ -225,49 +224,49 @@ knitr::include_graphics("../figures/4-chapter/fig434.png")
 ```
 </div>
 ``` {block, type='imgsource'}
-<span class="imgsource-source">Allikas:</span> Autori joonis.
+<span class="imgsource-source">Source:</span> Figure by the author.
 ```
 
-Postimees.ee lugeja saab algatada ise arutelu oma sõpruskonnas, kui jagab loo linki oma sotsiaalmeedia kanalis, kuid siis sumbub arutelu enamasti ühe päevaga selsamal „seinal“. Samuti sumbuvad sotsiaalmeedia allkeskkondades ka arvamuslugude autorite sel viisil levitatud lood.
+Postimees.ee readers can initiate a discussion within their own circle of friends when sharing a story link on their own social media channel, but usually, the discussion dies down on that same ‘wall’. The stories circulated by opinion authors in this way also die down in social media sub-environments.
 
-Sotsiaalmeedia ei ole aga üldise avaliku arutelu ärgitamiseks parim keskkond, sest selles osalemist piiravad mitmed psühholoogilised tõkked. Olles platvormina madala ligipääsubarjääriga, saavad aruteludega liituda ka inimesed, kes ei pea aruteludes osaledes kinni põhilistest viisakusreeglitest ning nii võib sotsiaalmeedias arutlemise püüe päädida ebameeldiva suhtluskogemusega. Sel põhjusel ei osale suur osa sotsiaalmeedia kasutajatest aktiivselt arvamusruumi kujundamises, kuid kujutavad endast märkimisväärset arutelude jälgijate seltskonda ([Kõuts-Klemm jt 2017, lk 296](#Kõuts-Klemm2017)). Sotsiaalmeedia aktiivsus võib sotsiaalse isolatsiooni hirmus taanduda pelgalt postituste laikimisele – see on maksimaalseks oma meelsuse näitamise viisiks, mida suur osa sotsiaalmeedia kasutajatest endale lubavad ([Hermida jt 2012](#Hermida2012)). Samuti on probleem see, et autor kaotab oma sõnumite üle sotsiaalmeedias hõlpsasti kontrolli – kord postitatuna hakkab postitus elama oma elu, sest selle edasist trajektoori määravad tehnoloogilised tegurid, näiteks sotsiaalmeedia algoritmid. Siiski on sotsiaalmeedia praegu oma puudustest hoolimata üks käepärasemaid võimalusi auditooriumi osalemiseks avalikus arvamusruumis.
+However, social media is not the best environment for stimulating public debate because there are many psychological barriers that restrict participation. Being a platform with a low barrier of access, people can join the discussion who do not adhere to the basic rules of courtesy when participating in discussions, and therefore any attempt to discuss something in social media may result in an unpleasant communication experience. For this reason, a large percentage of social media users are not actively involved in the development of their opinion space, but represent a noteworthy circle who just follow the debate ([Kõuts-Klemm et al. 2017, p. 296](#Kõuts-Klemm2017)). Social media activity can, for fear of social isolation, be reduced to merely liking some postings – this is the maximum reaction elicited from a large number of social media users ([Hermida et al. 2012](#Hermida2012)). Another problem is that authors can easily lose control of their messages on social media – once it is posted the message starts to live a life of its own because its subsequent trajectory is determined by technological factors, such as social media algorithms. And yet, despite these drawbacks, social media is currently one of the most convenient ways for the audience to participate in the public opinion space.
 
 ### Kokkuvõte {-.chapter4_section}
 
-Ajakirjanduse võimalused kujundada eesmärgipäraselt avalikku aruteluruumi ja sealtkaudu privaatseid aruteluruume on muutunud keerulisemaks. Probleemid sõnavabaduse ja arvamuskultuuriga Eestis tulevad esile ka ajakirjandusvabaduse rahvusvahelistest hinnangutest. Avalik aruteluruum ise on mitmetahulisem, hõlmates ajakirjanduse poolelt vaadatuna mitmesuguse kontrollipotentsiaaliga tsoone. Vaadates ajakirjanduse võimalusi aruteluruumi kujundada agentsuse ja kontrolli kategooriates, näeme, et aruteluruumis osalejad ei ole võrdsed. Tavaajakirjanduse puhul on suhe ajakirjanduse ja auditooriumi vahel selgelt ebavõrdne – ajakirjanike agentsus domineerib auditooriumi agentsuse üle. Sotsiaalmeedia platvormidel on nii ajakirjanikud kui ka auditoorium võrdselt võimestatud, kuid mõlemad kaotavad oma sõnumite üle kiiresti kontrolli. Seda põhjustavad nii algoritmiline sekkumine kui ka sotsiaalmeedia võrgustikstruktuur.
+The ability of the press to purposefully design the public deliberative space, and thereby the private deliberative spaces, has become more complex. Problems with the freedom of expression and the opinion culture in Estonia have also emerged from international assessments of the freedom of the press. The public sphere itself is more multifaceted. And viewed from the perspective of the press, involves zones with various degrees of potential for control. When examining the ability of the press to shape the deliberative space in the categories of agency and control, we see that the participants in the deliberative space are not equal. In the case of traditional journalism, the relationship between the press and the audience is clearly unequal – the agency of the journalists dominates the agency of the audience. On social media platforms journalists and audiences are equally empowered, but both quickly lose control over their messages. This is caused by algorithmic intervention as well as the structure of social media networks.
 
-Seega sõltub avaliku aruteluruumi kvaliteet nii tehnoloogilistest teguritest kui ka osapoolte valmisolekust ja võimekusest aruteluruumis osaleda. Auditooriumi puhul kindlasti ka valmisolekust pidada kinni avaliku suhtlemise headest tavadest. Tehnoloogilised tegurid on suurkorporatsioonide kontrolli all, kes on olnud tõrksad võtma vastutust sotsiaalmeedias toimuva eest. Samuti tuleks tegeleda teavituse ja koolitamisega, et auditoorium saaks teadlikuks oma vastutusest. Ajakirjandus on oma vastutusest kindlasti rohkem teadlik, kuid praegustes majandustingimustes võib toimetustel olla puudu ressursist, et seda vastutust realiseerida. Veebiajakirjanduse toimimiseks arvamusruumina peab ajakirjandus panustama märksa rohkem vahendeid kui seni – palkama moderaatoreid, investeerima masinõppeks võimeliste modereerimisalgoritmide arendusse, koolitama auditooriumi. Sama teevad teiste Euroopa riikide veebitoimetused. Professionaalse ajakirjanduse ees on keeruline ülesanne seista vastu arvamusruumi üha suuremale killustumisele ning hoida ühiskonda läbipaistvana ja avalikku arutelu demokraatiat toetavana.
+Therefore, the quality of the public deliberative space is dependent on both technological factors, as well as the willingness and ability of the parties to participate in the discussion. In the case of the audience, it certainly also involves a readiness to adhere to good public communication practices. The technological factors are controlled by large corporations, who have been reluctant to take responsibility for what happens on social media. In addition, informing and training should be pursued to make the audience aware of its responsibilities. The press is certainly more aware of its responsibilities, but under current economic conditions, editorial staff may lack the resources to fulfil this responsibility. In order for online journalism to function as an opinion space, the media must invest far more resources than it has to date to hire moderators, invest in the development of moderation algorithms capable of machine learning, and educate the audience. The online editors in other European countries are doing the same. Professional journalism is facing the difficult task of countering the increasing fragmentation of the opinion space, as well as maintaining the transparency of society and supporting the democracy of public debate.
 
 ### Viidatud allikad {-.subreferences}
 
-<p id="Avatud-Eesti-Fond2013">Avatud Eesti Fond 2013. Uuring: online-kommentaaride mõjusfääris elab pool miljonit Eesti inimest. – Avatud Eesti Fondi veebisait, 12.09.2013.</p>
+<p id="Conçalves2018">Conçalves, J. 2018. ‘My opponent is a …’. Determinants of incivility and relevance in news comments to election coverage. Paper presented at the 7th European Communication Conference ‘Centres and Peripheries: Communication, Research, Tradition’, 31 October – 3 November 2018, Lugano, Switzerland.</p>
 
-<p id="Conçalves2018">Conçalves, J. 2018. „My opponent is a …“. Determinants of incivility and relevance in news comments to election coverage. Paper presented at the 7th European Communication Conference „Centres and Peripheries: Communication, Research, Tradition“, 31 October – 3 November 2018, Lugano, Switzerland.</p>
+<p id="Hermida2012">Hermida, A., Fletcher, F., Korell, D., Logan, D. 2012. Share, like, recommend. Decoding the social media news consumer – Journalism Studies, 13 (5–6), 815–824.</p>
 
-<p id="Hermida2012">Hermida, A., Fletcher, F., Korell, D., Logan, D. 2012. Share, like, recommend. Decoding the social media news consumer. – Journalism Studies, 13 (5–6), 815–824.</p>
+<p id="Järvet2007">Järvet, A. 2007. Euroopa Liidu käsitlemine Postimehes aastatel 2000–2004 ja avalik avamus Euroopa Liiduga liitumise suhtes. BA thesis. University of Tartu.</p>
 
-<p id="Järvet2007">Järvet, A. 2007. Euroopa Liidu käsitlemine Postimehes aastatel 2000–2004 ja avalik avamus Euroopa Liiduga liitumise suhtes. Bakalaureusetöö. Tartu Ülikool.</p>
+<p id="Kald2006">Kald, I. 2006. Juhtkirja valimine päevalehes (Eesti Päevalehe, Postimehe ja Äripäeva näitel). BA thesis. University of Tartu.</p>
 
-<p id="Kald2006">Kald, I. 2006. Juhtkirja valimine päevalehes (Eesti Päevalehe, Postimehe ja Äripäeva näitel). Bakalaureusetöö. Tartu Ülikool.</p>
+<p id="Klaassen2018">Klaassen, M. 2018. Vale- ja võltsuudiste avaldamine peavoolumeedias: Eesti meediaväljaannete peatoimetajate selgitused tekkepõhjustele. BA thesis. University of Tartu.</p>
 
-<p id="Klaassen2018">Klaassen, M. 2018. Vale- ja võltsuudiste avaldamine peavoolumeedias: Eesti meediaväljaannete peatoimetajate selgitused tekkepõhjustele. Bakalaureusetöö. Tartu Ülikool.</p>
+<p id="Kõuts-Klemm2015">Kõuts-Klemm, R. (ed.) 2015. Kultuuriajakirjanduse sisu ja vormi statistiline monitooring. Lepingulise uurimistöö „Meediasotsioloogiline uuring „Kultuuriajakirjanduse sisu ja kasutajaskond““ vahearuande I osa.</p>
 
-<p id="Kõuts-Klemm2015">Kõuts-Klemm, R. (koost.) 2015. Kultuuriajakirjanduse sisu ja vormi statistiline monitooring 2015. Lepingulise uurimistöö „Meediasotsioloogiline uuring „Kultuuriajakirjanduse sisu ja kasutajaskond““ vahearuande I osa.</p>
+<p id="Kõuts-Klemm2017">Kõuts-Klemm, R., Pruulmann-Vengerfeldt, P., Siibak, A., Lauristin, M. 2017. Internetikasutus ja sotsiaalmeedia kasutus – Vihalemm, P., Lauristin, M., Kalmus, V., Vihalemm, T. (eds.). Eesti ühiskond kiirenevas ajas. Uuringu „Mina. Maailm. Meedia“ 2002–2014 tulemused. Tartu: Tartu Ülikooli Kirjastus, 279–298.</p>
 
-<p id="Kõuts-Klemm2017">Kõuts-Klemm, R., Pruulmann-Vengerfeldt, P., Siibak, A., Lauristin, M. 2017. Internetikasutus ja sotsiaalmeedia kasutus. – Vihalemm, P., Lauristin, M., Kalmus, V., Vihalemm, T. (toim.). Eesti ühiskond kiirenevas ajas. Uuringu „Mina. Maailm. Meedia“ 2002–2014 tulemused. Tartu: Tartu Ülikooli Kirjastus, 279–298.</p>
+<p id="Laev2010">Laev, S. 2010. Keerulise teema kajastus päevalehtede arvamuskülgedel Nord Streami gaasijuhtme näitel. MA thesis. University of Tartu.</p>
 
-<p id="Laev2010">Laev, S. 2010. Keerulise teema kajastus päevalehtede arvamuskülgedel Nord Streami gaasijuhtme näitel. Magistritöö. Tartu Ülikool.</p>
+<p id="Välisministeerium2015">Ministry of Foreign Affairs 2015. Inimõiguste kohus kuulutas välja Delfi vs Eesti otsuse ja leidis, et Eesti ei ole rikkunud konventsiooni artiklit 10, st sõnavabadust – Ministry of Foreign Affairs website, 16 June.</p>
+
+<p id="Avatud-Eesti-Fond2013">Open Estonia Foundation 2013. Uuring: online-kommentaaride mõjusfääris elab pool miljonit Eesti inimest – Open Estonia Foundation website, 12 September.</p>
 
 <p id="Reporters-without-Borders2018">Reporters without Borders 2018. Press Freedom Index 2018. https://rsf.org/en/ranking.</p>
 
-<p id="Rämmer2018">Rämmer, A. 2018. Alternatiivmeediat usaldavad rohkem need, kes on ühiskonnaelust võõrdunud. – ERR Novaator Ühiskond, 18.07.2018.</p>
+<p id="Rämmer2018">Rämmer, A. 2018. Alternatiivmeediat usaldavad rohkem need, kes on ühiskonnaelust võõrdunud – ERR Novaator Ühiskond, 18 July.</p>
 
-<p id="Saavik2017">Saavik, S. 2017. Eesti alternatiivmeedia kanalite Nihilist, Vanglaplaneet ja Uued uudised toimimine ning funktsioonid. Bakalaureusetöö. Tartu Ülikool.</p>
+<p id="Saavik2017">Saavik, S. 2017. Eesti alternatiivmeedia kanalite Nihilist, Vanglaplaneet ja Uued uudised toimimine ning funktsioonid. BA thesis. University of Tartu.</p>
 
-<p id="Talvari2009">Talvari, M. 2009. Avalik-õigusliku telekanali (Eesti Televisioon) roll avaliku diskussiooni foorumina saate „Vabariigi kodanikud“ näitel. Bakalaureusetöö. Tartu Ülikool.</p>
+<p id="Talvari2009">Talvari, M. 2009. Avalik-õigusliku telekanali (Eesti Televisioon) roll avaliku diskussiooni foorumina saate „Vabariigi kodanikud“ näitel. BA thesis. University of Tartu.</p>
 
-<p id="Toepfl2018">Toepfl, F., Litvinenko, A. 2018. Transferring control from the backend to the frontend: a comparison of the discourse architectures of comment sections on news websites across the post-Soviet world. – New Media & Society, 20 (8), 2844–2861.</p>
+<p id="Toepfl2018">Toepfl, F., Litvinenko, A. 2018. Transferring control from the backend to the frontend: a comparison of the discourse architectures of comment sections on news websites across the post-Soviet world – New Media & Society, 20 (8), 2844–2861.</p>
 
-<p id="Vihalemm2013">Vihalemm, P. 2013. Infokeskkond ja meediavabadus. – Heidmets, M. (toim.). Eesti inimarengu aruanne 2012/2013. Eesti maailmas. Tallinn: Eesti Koostöö Kogu, 70–74.</p>
-
-<p id="Välisministeerium2015">Välisministeerium 2015. Inimõiguste kohus kuulutas välja Delfi vs Eesti otsuse ja leidis, et Eesti ei ole rikkunud konventsiooni artiklit 10, st sõnavabadust. – Välisministeeriumi veebisait, 16.06.2015.</p>
+<p id="Vihalemm2013">Vihalemm, P. 2013. Infokeskkond ja meediavabadus – Heidmets, M. (ed.). Eesti inimarengu aruanne 2012/2013. Eesti maailmas. Tallinn: Eesti Koostöö Kogu, 70–74.</p>

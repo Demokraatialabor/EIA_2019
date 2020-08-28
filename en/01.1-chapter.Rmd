@@ -275,6 +275,6 @@ Looking to the future, there will probably be no radical shifts in the trends to
 
 <p id="Marksoo2005">Marksoo, A. 2005. Linnasiire. – Pullerits, H., Tõnisson, U., Liim, A., Andresen, A. (eds.). Tartu. Ajalugu ja kultuurilugu. Tartu: Tartu Linnamuuseum, Ilmamaa.</p>
 
-<p id="Oja2009">Oja, T. 2009. Maakasutuse muutused (ptk 7.2). Valglinnastumine (ptk 7.3). – Kaukver, K. (ed.). Keskkonnaülevaade 2009. Tallinn: Keskkonnaministeeriumi Info- ja Tehnokeskus, 115–123.</p>
+<p id="Oja2009">Oja, T. 2009. Maakasutuse muutused (7.2). Valglinnastumine (7.3). – Kaukver, K. (ed.). Keskkonnaülevaade 2009. Tallinn: Keskkonnaministeeriumi Info- ja Tehnokeskus, 115–123.</p>
 
-<p id="Oja2014">Oja, T. 2014. Maakasutuse muutused (ptk 6.1). – Kaukver, K. (ed.). Keskkonnaülevaade 2013. Tallinn: Keskkonnaagentuur, 131–137.
+<p id="Oja2014">Oja, T. 2014. Maakasutuse muutused (6.1). – Kaukver, K. (ed.). Keskkonnaülevaade 2013. Tallinn: Keskkonnaagentuur, 131–137.

@@ -294,29 +294,29 @@ The competitiveness-based approach in European and Estonian regional policy has 
 
 ### References {-.subreferences}
 
-<p id="Ahas2011">Ahas, R., Silm, S., Aasa, A., Leetmaa, K., Saluveer, E., Tiru, M. 2011. Pendelrändest Eestis. Mobiilpositsioneerimise andmestikul põhinev analüüs. – Narusk, E. (ed.). 2011 Eesti piirkondlik areng. Tallinn: Statistikaamet, 185–196.</p>
+<p id="Ahas2011">Ahas, R., Silm, S., Aasa, A., Leetmaa, K., Saluveer, E., Tiru, M. 2011. Pendelrändest Eestis. Mobiilpositsioneerimise andmestikul põhinev analüüs – Narusk, E. (ed.), Eesti piirkondlik areng. Tallinn: Statistikaamet, 185–196..</p>
 
-<p id="Annist2017">Annist, A. 2017. Maaelu muutuv tähendus ja väljaränne. – Tammaru, T. (ed.). Eesti inimarengu aruanne 2016/2017. Eesti rändeajastul. Tallinn: Eesti Koostöö Kogu, 247–254.</p>
+<p id="Annist2017">Annist, A. 2017. Maaelu muutuv tähendus ja väljaränne – Tammaru, T. (ed.), Eesti inimarengu aruanne 2016/2017. Eesti rändeajastul. Tallinn: Eesti Koostöö Kogu, 247–254.</p>
 
-<p id="Anniste2017">Anniste, K., Pukkonen, L., Paas, T. 2017. Towards incomplete migration: Estonian migration to Finland. – Trames, 21 (71/66), 97–114.</p>
+<p id="Anniste2017">Anniste, K., Pukkonen, L., Paas, T. 2017. Towards incomplete migration: Estonian migration to Finland – Trames, 21 (71/66), 97–114.</p>
 
 <p id="European-Commission2017">European Commission 2017. My region, My Europe, Our future: The seventh report on economic, social and territorial cohesion. Brussels: Publications Office of the European Union.</p>
 
-<p id="Grootens2018">Grootens, M. 2018. Leading places on the map. Opening up leadership practices in two Estonian peripheral places. – Halduskultuur – Administrative Culture, 18 (2), 203–221.</p>
+<p id="Grootens2018">Grootens, M. 2018. Leading places on the map. Opening up leadership practices in two Estonian peripheral places – Halduskultuur – Administrative Culture, 18 (2), 203–221.</p>
 
 <p id="Lang2019">Lang, T., Görmar, F. (eds.) 2019. Regional and Local Development in Times of Polarisation. Singapore: Palgrave Macmillan.</p>
 
-<p id="Loewen2018">Loewen, B. 2018. Towards Territorial Cohesion? Path Dependence and Path Innovation of Regional Policy in Central and Eastern Europe. PhD-thesis. Tartu: University of Tartu Press.</p>
+<p id="Loewen2018">Loewen, B. 2018. Towards Territorial Cohesion? Path Dependence and Path Innovation of Regional Policy in Central and Eastern Europe. PhD thesis. Tartu: University of Tartu Press.</p>
 
-<p id="Loewen2019">Loewen, B., Schulz, S. 2019. Questioning the Convergence of Cohesion and Innovation Policies in Central and Eastern Europe. – Lang, T., Görmar, F. (eds.). Regional and Local Development in Times of Polarisation. Singapore: Palgrave Macmillan, 121–148.</p>
+<p id="Loewen2019">Loewen, B., Schulz, S. 2019. Questioning the Convergence of Cohesion and Innovation Policies in Central and Eastern Europe – Lang, T., Görmar, F. (eds.), Regional and Local Development in Times of Polarisation. Singapore: Palgrave Macmillan, 121–148.</p>
 
-<p id="Noorkõiv2009">Noorkõiv, R. (toim.) 2009. Regionaalne areng ja elukeskkond. – Lauristin, M. (ed.). Eesti inimarengu aruanne 2009. Tallinn: Eesti Koostöö kogu, 49–72.</p>
+<p id="Noorkõiv2009">Noorkõiv, R. (ed.) 2009. Regionaalne areng ja elukeskkond – Lauristin, M. (ed.). Eesti inimarengu aruanne 2009. Tallinn: Eesti Koostöö Kogu, 49–72.</p>
 
 <p id="Nugin2014">Nugin, R. 2014. ‘I think that they should go. Let them see something’. The context of rural youth’s out-migration in post-socialist Estonia – Journal of Rural Studies, 34, 51–64.</p>
 
-<p id="Plüschke-Altof2017">Plüschke-Altof, B. 2017. Images of the Periphery Impeding Rural Development? Discursive Peripheralization of Rural Areas in Post-Socialist Estonia. PhD-thesis. Tartu: University of Tartu Press.</p>
+<p id="Plüschke-Altof2017">Plüschke-Altof, B. 2017. Images of the Periphery Impeding Rural Development? Discursive Peripheralization of Rural Areas in Post-Socialist Estonia. PhD thesis. Tartu: University of Tartu Press.</p>
 
-<p id="Plüschke-Altof2019">Plüschke-Altof, B., Grootens, M. 2019. Leading through image making? On the limits of emphasising agency in structurally disadvantaged rural places. – Lang, T., Görmar, F. (eds.). Regional Policy in Times of Social and Spatial Polarisation. Basingstoke: Palgrave Macmillan, 319–341.</p>
+<p id="Plüschke-Altof2019">Plüschke-Altof, B., Grootens, M. 2018. Leading through image making? On the limits of emphasising agency in structurally disadvantaged rural places – Lang, T., Görmar, F. (eds.), Regional Policy in Times of Social and Spatial Polarisation. Basingstoke: Palgrave Macmillan, 319–341.</p>
 
 <p id="Raagmaa2013">Raagmaa, G., Noorkõiv, R. 2013. Globaliseeruv Eesti küla. Avaneva maailma arenguvõimalused ja ohud. Tallinn: Eesti Külaliikumine Kodukant.</p>
 

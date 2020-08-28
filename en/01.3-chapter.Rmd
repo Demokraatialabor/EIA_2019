@@ -21,7 +21,6 @@ Suburbanisation is a new and unfamiliar phenomenon in Estonia, which is confirme
 
 ### How to define a suburb? {-.chapter1_section}
 
-
 The development of the settlements in the hinterlands of Estonia’s biggest cities is characterised by three key concepts: suburbanisation, urban sprawl and peri-urbanisation. In addition, the <a href="https://www.rahandusministeerium.ee/et/ruumiline-planeerimine/uleriigiline-planeering">Estonia 2030+</a> national spatial plan introduced the concept of a scattered city (or ‘low-density urbanised space’), which combines compact cities, suburbs and peripheral settlements into a single entity.
 
 PThe key concept of suburbanisation, in its broadest sense, describes the process of people settling in the hinterland of a city, whereby a clear boundary between the country and the city disappears ([Tammaru et al. 2004](#Tammaru2004)). Because of the particularly chaotic way that suburbanisation was happening prior to the economic crisis of 2007, the more evaluative term ‘urban sprawl’ has entered public parlance ([Leetmaa et al. 2014](#Leetmaa2014); [Tammaru et al. 2009](#Tammaru2009)). It refers to the relatively uncontrolled spread of a city that also reaches into the hinterland beyond the suburban zone. The change in land use in urban sprawl manifests in the appearance of strips of patchy, separated housing that often leads to a wasteful use of land resources, energy and infrastructure, environmental pollution, congestion and many other external impacts. In literature pertaining to urban planning, urban sprawl is generally considered to be a negative type of city development ([van Dijk 2009](#van-Dijk2009)). In Western and Central Europe, there is also the concept of peri-urbanisation, referring to a better solution in which a stricter planning policy enables the expansion of a city in a coherent pattern on the perimeter of the urban centre ([Phelps 2017](#Phelps2017)). The urban sprawl of the early 2000s in Estonia is now similarly continuing as peri-urbanisation.
@@ -357,7 +356,7 @@ As people’s mobility between the urban centre and the suburbs increase, everyd
 
 <p id="Bruegmann2008">Bruegmann, R. 2008. Sprawl: A Compact History. Chicago: University of Chicago Press.</p>
 
-<p id="Leetmaa2014">Leetmaa, K., Kährik, A., Nuga, M., Tammaru, T. 2014. Suburbanization in the Tallinn metropolitan area. – Stanilov, K., Sykora, L. (eds.). Confronting Suburbanisation: Urban Decentralization in Post-Socialist Central and Eastern Europe. Oxford: Wiley-Blackwell, 192–224.</p>
+<p id="Leetmaa2014">Leetmaa, K., Kährik, A., Nuga, M., Tammaru, T. 2014. Suburbanization in the Tallinn metropolitan area – Stanilov, K., Sýkora, L. (eds.), Confronting Suburbanization: Urban Decentralization in Postsocialist Central and Eastern Europe. Oxford: Wiley-Blackwell, 192–224.</p>
 
 <p id="Phelps2017">Phelps, N. A. (ed.) 2017. Old Europe, New Suburbanization? Governance, Land, and Infrastructure in European Suburbanization. Toronto: University of Toronto Press.</p>
 
@@ -365,10 +364,10 @@ As people’s mobility between the urban centre and the suburbs increase, everyd
 
 <p id="Randolph2012">Randolph, J. 2012. Environmental Land Use Planning and Management. Washington: Island Press.</p>
 
-<p id="Roose2015">Roose, A., Noorkõiv, R., Gauk, M. 2015. Tartu eeslinnastumine. – Eesti Statistika Kvartalikiri, 1, 80−109.</p>
+<p id="Roose2015">Roose, A., Noorkõiv, R., Gauk, M. 2015. Tartu eeslinnastumine – Eesti Statistika Kvartalikiri, 1, 80−109.</p>
 
-<p id="Tammaru2004">Tammaru, T., Kulu, H., Kask, I. 2004. Urbanization, suburbanization and counterurbanization in Estonia. – Eurasian Geography and Economics, 45 (3), 159–176.</p>
+<p id="Tammaru2004">Tammaru, T., Kulu, H., Kask, I. 2004. Urbanization, Suburbanization, and Counterurbanization in Estonia – Eurasian Geography and Economics, 45 (3), 159–176.</p>
 
-<p id="Tammaru2009">Tammaru, T., Leetmaa, K., Silm, S., Ahas, R. 2009. Temporal and spatial dynamics of the new residential areas around Tallinn. – European Planning Studies, 17 (3), 423−439.</p>
+<p id="Tammaru2009">Tammaru, T., Leetmaa, K., Silm, S., Ahas, R. 2009. Temporal and Spatial Dynamics of the New Residential Areas around Tallinn – European Planning Studies, 17 (3), 423−439.</p>
 
-<p id="van-Dijk2009">van Dijk, T. 2009. Who is in charge of the urban fringe? Neoliberalism, open space preservation and growth control. – Planning Practice and Research, 24, 343–361.</p>
+<p id="van-Dijk2009">van Dijk, T. 2009. Who is in charge of the urban fringe? Neoliberalism, open space preservation and growth control – Planning Practice and Research, 24, 343–361.</p>

@@ -3,7 +3,7 @@
 
 <div class="map-icon">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
-knitr::include_graphics("../figures/5-chapter/linnades.png")
+knitr::include_graphics("figures/5-chapter/linnades.png")
 ```
 </div>
 
@@ -12,7 +12,7 @@ knitr::include_graphics("../figures/5-chapter/linnades.png")
 
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/5-chapter/kaart-1.png")
+knitr::include_graphics("figures/5-chapter/kaart-1.png")
 
 ```
 
@@ -20,53 +20,53 @@ knitr::include_graphics("../figures/5-chapter/kaart-1.png")
 <tbody>
 
 <tr>
-<td align="left" class="future-table-black">Rahvastik linnades:</td>
+<td align="left" class="future-table-black">Urban population:</td>
 <td align="right" class="future-table-red">80%</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Varanduslik kihistumine:</td>
-<td align="right" class="future-table-red">suur</td>
+<td align="left" class="future-table-black">Wealth disparity:</td>
+<td align="right" class="future-table-red">high</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Ruumiline ebavõrdsus:</td>
-<td align="right" class="future-table-red">suur</td>
+<td align="left" class="future-table-black">Spatial inequality:</td>
+<td align="right" class="future-table-red">high</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Hea avalik ruum:</td>
-<td align="right" class="future-table-red">privilegeeritutele</td>
+<td align="left" class="future-table-black">Good public space:</td>
+<td align="right" class="future-table-red">for the privileged</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Andmed:</td>
-<td align="right" class="future-table-red">suurettevõtetel „kõikenägev silm“, õigused ebavõrdselt jaotunud</td>
+<td align="left" class="future-table-black">Data:</td>
+<td align="right" class="future-table-red">the ‘all-seeing eye’ of large corporations, unequal distribution of rights</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Ühiskonna kulutused baastaristule:</td>
-<td align="right" class="future-table-red">suured ja kasvavad</td>
+<td align="left" class="future-table-black">Society’s expenditure on basic infrastructure:</td>
+<td align="right" class="future-table-red">high and growing</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Sotsiaal-majanduslik efektiivsus:</td>
-<td align="right" class="future-table-red">vähene</td>
+<td align="left" class="future-table-black">Socio-economic efficiency:</td>
+<td align="right" class="future-table-red">low</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Säästva arengu eesmärgid:</td>
-<td align="right" class="future-table-red">ei ole saavutatud, kuigi mõni valdkond on teistest tugevam</td>
+<td align="left" class="future-table-black">Sustainable development goals:</td>
+<td align="right" class="future-table-red">not achieved, although some areas are stronger than others</td>
 </tr>
 </tbody></table>
 
 
-„Nähtamatu käe“ juhtimisel on eestlased ja ka üsna paljud uuseestlased kogunenud Tallinna, Tartu ja Pärnu linnaregiooni – hoogne elamuarendus on haaranud linnalähedased põllud, kuid ajaloolised linnad ise ei ole samas tempos kasvanud. Puuduvate kesklinnade asemel saadakse kokku kauba- ja meelelahutuskeskustes. Linnaväljakute asemel vajatakse parklaid ja laiu teid, sest tavaline eestlane ei taha näha vaeseid ja võõraid. Pealegi on tänaval ohtlik. Regioonid on tugevalt kihistunud: jõukam rahvas elab heade koolide, tenniseklubide ja kaunite rohealade piirkonnas, mille ümber on aed ja valvurid. Linnad ise on rõhuvas osas vaeste ja uussisserändajate elukorterite päralt, äärelinnades on kehvad koolid, kehvad ühendused ja ohtlik õhtuti väljas käia. Tallinn ja Pärnu on hästi maailmaga ühendatud – Helsingi tunnel ja Rail Baltica loovad hea ühenduse neile, kes selle eest maksta jaksavad. Ent Tartussegi saab kiirelt rongiga või isikliku droonikapsliga. Inimestel ei ole märkimisväärset ühistunnet, pigem õigustatakse rikkust tubliduse ja vaesust laiskusega. Nende n-ö laisemate andmed on igaühele müügiks, peenem rahvas maksab teatava privaatsuse eest suurettevõtetele lunaraha. Ühiskonda vaevavad elustiilihaigused ja kuivõrd puudub toetav küünarnukitunne, siis tunneb suurem osa eestimaalasi end üksikuna. SKP asemel ühiskonna edukuse peamiseks mõõdupuuks saanud õnneindeksis on Eestis mitu aastat järjest kukkunud ning langemist ei pidurda ka suuremat ühtsust taotlevad kampaaniad.
+Driven by the ‘invisible hand’, Estonians and quite a number of New Estonians have gathered in the urban regions of Tallinn, Tartu and Pärnu – rapid housing development now covers the fields surrounding the city, while the historical cities centres themselves have not grown at the same pace. Instead of absent city centres, people meet in shopping and entertainment centres. Instead of city squares, people need car parks and wide roads, because the average Estonian does not want to see the poor or strangers. Besides, it is dangerous to be on the street. There is great economic inequality between regions: the more affluent people live in areas with good schools, tennis clubs and beautiful greenery surrounded by fences and guards. The cities are overwhelmingly segregated and dominated by the homes of the poor and new immigrants, suburban areas have poor schools and connections, and it is dangerous to go out in the evening. The rich live in separate exclusive areas. Tallinn and Pärnu are well connected to the world – the Helsinki Tunnel and Rail Baltica provide good connections for those who can pay for them. Tartu can also be quickly reached by train or private drone capsule. People have no significant sense of community; they tend to explain wealth in terms of merit and poverty in terms of laziness. The data on the ‘lazy’ is for sale to everyone, while the more affluent pay ransom to big companies for some degree of privacy. Society suffers from lifestyle diseases and as there is no supportive sense of community, most Estonians feel lonely. On the happiness index, which has replaced GDP as the main measure of society’s success, Estonia has been falling for several years in a row, and campaigns seeking greater cohesion are not slowing the decline.
 
 <div class="future-illustration">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/5-chapter/tulevik-1.png")
+knitr::include_graphics("figures/5-chapter/tulevik-1.png")
 
 ```
 </div>

@@ -126,9 +126,9 @@ Although urbanisation is limiting people’s exposure to the natural environment
 
 <p id="Demuzere2014">Demuzere, M., Orru, K., Heidrich, O., Olazabal, E., Geneletti, D., Orru, H., Bhave, A. G., Mittal, N., Feliu, E., Faehnle, M. 2014. Mitigating and adapting to climate change: multi-functional and multi-scale assessment of green urban infrastructure. – Journal of Environmental Management, 146, 107–115.</p>
 
-<p id="Euroopa2012">European Social Survey (ESS) Round 6 2012.europeansocialsurvey.org/data/download.html?r=6.</p>
+<p id="Euroopa2012">European Social Survey (ESS) Round 6 2012. europeansocialsurvey.org/data/download.html?r=6.</p>
 
-<p id="Kangur2018">Kangur, L. 2018. Linnaaiandus kui sotsiaalne praktika: Tartu noorte näitel. MA thesis. Eesti Maaülikool.</p>
+<p id="Kangur2018">Kangur, L. 2018. Linnaaiandus kui sotsiaalne praktika: Tartu noorte näitel. MA thesis. Estonian University of Life Sciences.</p>
 
 <p id="Kantar2017">Kantar Emor 2017. Elanikkonna hädaolukorraks valmisoleku alase teadlikkuse indeksuuring 2017.</p>
 
@@ -142,7 +142,7 @@ Although urbanisation is limiting people’s exposure to the natural environment
 
 <p id="Roose2013">Roose, A., Kull, A., Gauk, M., Tali, T. 2013. Land use policy shocks in the post-communist urban fringe: a case study of Estonia. – Land Use Policy, 30 (1), 76–83.</p>
 
-<p id="Saar2015">Saar, T. 2015. Loodus on hirmutav ja ebamugav: Y-generatsiooni kogemused looduses. Magistritöö. Eesti Maaülikool.</p>
+<p id="Saar2015">Saar, T. 2015. Loodus on hirmutav ja ebamugav: Y-generatsiooni kogemused looduses. MA thesis. Estonian University of Life Sciences.</p>
 
 <p id="3Turu-uuringute2018">Turu-uuringute AS 2018. Eesti elanike keskkonnateadlikkuse uuring.</p>
 

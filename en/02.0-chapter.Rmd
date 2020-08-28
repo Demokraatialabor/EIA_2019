@@ -9,8 +9,6 @@
 <div><a class="print-btn" href="print/EIA-2019-2.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
-### Põhisõnumid {-.chapter2_section}
-
 ```{block, type='points'}
 * In Estonia, the creation of public space has been unsystematic and fragmented between spatial plans with different focal points.
 
@@ -92,15 +90,15 @@ But how do we make the physical public space work for shrinking small towns, so 
 
 ### References {-.subreferences}
 
-<p id="Astangu2012">Astangu Vocational Rehabilitation Centre 2012. Kõiki kaasava elukeskkonna kavandamine ja loomine. https://www.tallinn.ee/upload/Koiki_kaasava_elukeskkonna_kavandamine___loomine.pdf.</p>
-<p id="Statistics2018">Statistics Estonia database 2018. Hõivatud soo ja töölkäimise viisi järgi.</p>
+<p id="Astangu2012">Astangu Vocational Rehabilitation Centre 2012. Kõiki kaasava elukeskkonna kavandamine ja loomine.</p>
+<p id="Statistics2018">Statistics Estonia database 2018. Hõivatud soo ja töölkäimise viisi järgi..</p>
 <p id="Eurobarometer2014">Eurobarometer 2014. Special Eurobarometer 422a. Quality of Transport. European Commission: Directorate-General for Mobility and Transport.</p>
 <p id="Gehl2011">Gehl Architects 2011. Public Spaces & Public Life Study: City of Adeleide 2011. Copenhagen: Gehl Architects ApS.</p>
 <p id="Lefebvre1974">Lefebvre, H. 1974. Production de l'espace. Paris: Éditions Anthropos.</p>
 <p id="Levine2010">Levine, C. 2010. The paradox of public art: democratic space, the avant-garde, and Richard Serra’s “Tilted arc”. – Orum, A. M., Neal, Z. P. (eds.). Common Ground? Readings and Reflections on Public Space. New York: Routledge, 164–172.</p>
 <p id="Parkinson2012">Parkinson, J. 2012. Democracy and Public Space: The Physical Sites of Democratic Performance. Oxford: Oxford University Press.</p>
-<p id="Pere">Pere, P.-P. (n.d.). Jalakäijate ja jalgratturite roll linna brändi ning kohaliku ärikeskkonna kujundamisel. Juhtumiuuringud Tallinna peatänava projektile. Future Place Leadership.</p>
-<p id="Ministryoffinance2015">Ministry of Finance 2015 2015. Suunised kahanevate piirkondade säästlikuks ruumiliseks planeerimiseks.</p>
+<p id="Pere">Pere, P.-P. (n.d.). Jalakäijate ja jalgratturite roll linna brändi ning kohaliku ärikeskkonna kujundamisel. Juhtumiuuringud Tallinna peatänava projektile. Future Place Leadership.</p>
+<p id="Ministryoffinance2015">Ministry of Finance 2015. Suunised kahanevate piirkondade säästlikuks ruumiliseks planeerimiseks.</p>
 <p id="Sennet1986">Sennet, R. 1986. The Fall of The Public Man. London: Faber.</p>
 <p id="Soja1989">Soja, E. W. 1989. Postmodern Geographies: The Reassertion of Space in Critical Social Theory. New York: Verso.</p>
 <p id="Taul2013">Taul, G. 2013. Monumentaalmaal kui avalik ruum. http://gregortaul.ee/articlesinest/monumentaalmaal-kui-avalik-ruum.</p>
