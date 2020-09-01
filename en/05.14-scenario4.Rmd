@@ -18,47 +18,47 @@ knitr::include_graphics("../figures/5-chapter/kaart-4.png")
 <tbody>
 
 <tr>
-<td align="left" class="future-table-black">Rahvastik linnades:</td>
+<td align="left" class="future-table-black">Urban population:</td>
 <td align="right" class="future-table-red">60%</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Varanduslik kihistumine:</td>
-<td align="right" class="future-table-red">väike, aga ühiskond pole kuigi rikas</td>
+<td align="left" class="future-table-black">Wealth disparity</td>
+<td align="right" class="future-table-red">low, but society is not very rich</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Ruumiline ebavõrdsus:</td>
-<td align="right" class="future-table-red">esineb paikkonniti</td>
+<td align="left" class="future-table-black">Spatial inequality:</td>
+<td align="right" class="future-table-red">occurs in some areas</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Hea avalik ruum:</td>
-<td align="right" class="future-table-red">võimas rohevõrgustik, aga vähem linnalist keskkonda</td>
+<td align="left" class="future-table-black">Good public space:</td>
+<td align="right" class="future-table-red">a powerful green network, but less of an urban environment</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Andmed:</td>
-<td align="right" class="future-table-red">igaühe omad, tugevad küberkogukonnad</td>
+<td align="left" class="future-table-black">Data:</td>
+<td align="right" class="future-table-red">everyone’s own, strong cyber communities</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Ühiskonna kulutused baastaristule:</td>
-<td align="right" class="future-table-red">suured, aga võrdsemalt jagatud</td>
+<td align="left" class="future-table-black">Society’s expenditure on basic infrastructure:</td>
+<td align="right" class="future-table-red">high, but distributed more equally</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Sotsiaal-majanduslik efektiivsus:</td>
-<td align="right" class="future-table-red">keskmisest väiksem, aga võrdselt jagatud</td>
+<td align="left" class="future-table-black">Socio-economic efficiency:</td>
+<td align="right" class="future-table-red">above average, but equally distributed</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Säästva arengu eesmärgid:</td>
-<td align="right" class="future-table-red">oleme teistest veidi ees</td>
+<td align="left" class="future-table-black">Sustainable development goals:</td>
+<td align="right" class="future-table-red">we are slightly ahead of others</td>
 </tr>
 </tbody></table>
 
-Kliimakatastroofi, kaugtöövõimaluste ja uuskogukondliku majanduse tulemusena on suur osa eestlasi kolinud maale, mõne väiksema tõmbekeskuse lähedale. Vajadusi teenuste järele rahuldavad nii digitaalsed lahendused kui ka korralik talgukultuur ja naturaalmajandus – inimesed aitavad üksteist pidevalt, kuigi ka pisut sunnitult, sest väike riik ei suuda nii hajali elavatele inimestele kõike vajalikku tagada. Omajagu sõltub toimetulek ja teenuste kvaliteet ka kogukonna võimekusest: kus on häid eestvedajaid, seal elu edeneb, kuid kahjuks esineb ka vastupidist. Peale järelelonkijate on ka teisitimõtlejaid, kes peavad muud rahvast väärituks. Uussisserändajaid on kõikjal, eriti kogukondades, kes on uute tulijate kasulikkusest aru saanud. Neist peetakse väga lugu, sest nad panevad õla alla seal, kus meil omal jõudu napib. Sotsiaal-majanduslikult on suur rõhk omakasvatatud toidul, oma 3D-prinditud asjadel ja ühistulisel energiatootmisel. Just nagu kunagistes taludes, tehakse päris palju ära ise ja pereringis. Terve Eesti on ühendatud raudteevõrguga, mis on üsna hästi seotud ka mitmesuguste „viimase kilomeetri“ lahendustega, mille seast saab valida sobiva ja taskukohase liikumisviisi. Avalik ruum on pigem looduslik keskkond ja looduses aktiivselt liikumisest on saanud eestluse lahutamatu osa. Eesti on Euroopas kuulus oma elujõuliste metsade ja puhaste randade poolest. Õnneindeksis on Eesti tubli, tõusis hiljuti mitu kohta, aga nüüd paistab, et klaaslagi on ees. Tühja neist indeksitest, elu on ju mõnus, mõtlevad eestimaalased omakeskis, ning panevad suitsusauna küdema.
+As a result of the climate catastrophe, remote working opportunities and the new community economy, a large share of Estonians have moved to the countryside, to the vicinity of smaller local commuting centres. The demand for services is met by digital solutions as well as a fairly strong campaign culture and the natural economy – people help each other constantly, albeit in a slightly forced way, because a small state cannot provide everything necessary for such a scattered population. Coping and the quality of services also depend on the capacity of the community: where there are good leaders, life progresses, but unfortunately the opposite also happens. Apart from the followers, there are also dissidents that consider other people corrupt. New immigrants are everywhere, especially in communities that have realised the benefits of newcomers. They are highly respected because they help where the natives lack strength. Socio-economically, there is a strong emphasis on home-grown food, home-3D-printed items and cooperative energy production. Just like on old-time farms, a lot is done by people themselves and their families. The whole of Estonia is connected by a rail network, which is also quite well connected with various ‘last kilometre’ solutions, from which everyone can choose a suitable and affordable mode of transport. Public space is largely constituted by the natural environment and active movement in nature has become an integral part of Estonian identity. Estonia is famous in Europe for its viable forests and clean beaches. Estonia ranks well on the happiness index, even recently rising several places, although now it seems to have come to a halt. But who cares about indices when life is good – Estonians think to themselves – and go off to heat their smoke saunas.
 
 <div class="future-illustration">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}

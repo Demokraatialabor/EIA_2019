@@ -1,23 +1,16 @@
 # Info {.chapter7 .chapter7_section .chapter_section}
 
-Avalehel on pärijate loal Jaan Krossi luuletus värssromaanist „Tiit Pagu“, LR 2020/1-3, lk 10 ning autori loal Hando Runneli luuletust kogust „Sinamu“. Tartu: Ilmamaa, 2005, lk 70.<br>
+Editor-in-chief: Helen Sooväli-Sepping<br>
+Reviewer: Mikko Lagerspetz<br>
+Coordinator and assistant: Anni Müüripeal<br>
+English translation: Refiner Translations and Juta Ristsoo (Ch. 4)<br>
+English language editing: Refiner Translations (Margus Elings, Michael Haagensen)<br>
+Design: Disainikorp<br>
+Graphics: Karel Korp<br>
+Photos: Annika Haas, Kaupo Kalda<br>
 
-Peatoimetaja: Helen Sooväli-Sepping<br>
-Retsensent: Mikko Lagerspetz<br>
-Koordinaator ja assistent: Anni Müüripeal<br>
-Keelekorrektuur: Hille Saluäär (Refiner Translations)<br>
-Viidete korrektuur: Anu Printsmann ja Refiner Translations<br>
-Kujundus: Disainikorp<br>
-Illustratsioonid: Karel Korp<br>
-Fotod: Annika Haas, Kaupo Kalda<br>
+Digital report: Taavet Kutsar<br>
+The source code for the digital version of the report is available at: https://github.com/Demokraatialabor/EIA_2019<br>
 
-Digitaalne aruanne:  Taavet Kutsar<br>
-Digitaalse aruande lähtekood saadaval: https://github.com/Demokraatialabor/EIA_2019<br>
-Laadi alla aruande <a href="../print/EIA-2019.pdf">trükiversioon</a>.
-
-
-Aruande trükkimiseks kasutatud paberipuit on saadud jätkusuutlikult majandatud metsast.<br>
-
-Trükk: AS Printon<br>
-Väljaandja: SA Eesti Koostöö Kogu<br>
-Autoriõigused: autorid ja SA Eesti Koostöö Kogu, 2020<br>
+Publisher: Estonian Cooperation Assembly<br>
+Copyright: authors and Estonian Cooperation Assembly, 2020<br>

@@ -18,47 +18,47 @@ knitr::include_graphics("../figures/5-chapter/kaart-2.png")
 <tbody>
 
 <tr>
-<td align="left" class="future-table-black">Rahvastik linnades:</td>
+<td align="left" class="future-table-black">Urban population:</td>
 <td align="right" class="future-table-red">80%</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Varanduslik kihistumine:</td>
-<td align="right" class="future-table-red">väike</td>
+<td align="left" class="future-table-black">Wealth stratification:</td>
+<td align="right" class="future-table-red">low</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Ruumiline ebavõrdsus:</td>
-<td align="right" class="future-table-red">väike</td>
+<td align="left" class="future-table-black">Spatial inequality:</td>
+<td align="right" class="future-table-red">low</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Hea avalik ruum:</td>
-<td align="right" class="future-table-red">jagatud ja ligipääs tagatud</td>
+<td align="left" class="future-table-black">Good public space:</td>
+<td align="right" class="future-table-red">shared and access guaranteed</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Andmed:</td>
-<td align="right" class="future-table-red">igaühe omad, õigused on kaitstud</td>
+<td align="left" class="future-table-black">Data:</td>
+<td align="right" class="future-table-red">owned by everyone, rights are protected</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Ühiskonna kulutused baastaristule:</td>
-<td align="right" class="future-table-red">suured, aga võrdsemalt jagatud</td>
+<td align="left" class="future-table-black">Society’s expenditure on basic infrastructure:</td>
+<td align="right" class="future-table-red">high, but distributed more equally</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Sotsiaal-majanduslik efektiivsus:</td>
-<td align="right" class="future-table-red">keskmisest suurem</td>
+<td align="left" class="future-table-black">Socio-economic efficiency:</td>
+<td align="right" class="future-table-red">above average</td>
 </tr>
 
 <tr>
-<td align="left" class="future-table-black">Säästva arengu eesmärgid:</td>
-<td align="right" class="future-table-red">oleme maailmas eeskujuks</td>
+<td align="left" class="future-table-black">Sustainable development goals:</td>
+<td align="right" class="future-table-red">we are a world leader</td>
 </tr>
 </tbody></table>
 
-Põhjaliku regionaalse planeerimise tulemusena on terves Eestis elamuarendus ja liikuvusteenused omavahel seotud, mistõttu on esmajärgus ehitatud rongiühendusega kohtadesse. Arendajatele tundus see alguses liiga piirav, aga inimesed on rahul ega igatse sõltuvust isiklikust sõidukist. Igal linnaregioonil on oma nägu ja keskused, mis töötavad ringmajanduse põhimõttel. Uue ärkamise on läbi teinud kunagine murelaps Ida-Virumaa, mis on esmalt kunstnike ja seejärel idusektori sinna kolimise tulemusena nüüd Eesti atraktiivsemaid ja kosmopoliitsemaid elupiirkondi, kus on teine kodu nii Peterburi, Eesti kui ka teiste maade loovinimestel. Eestimaalastele meeldib aega veeta parkides ja linnaväljakutel, kuhu nad liiguvad parajasti sobivaima liiklusvahendiga – trammiga, isejuhtiva kapsliga, vesinikrattaga või kõiki neid kombineerides. Linnades on elamuslik tänava- ja katkematu rohevõrgustik, mis aitab kliimakriisiga kohaneda, ning avalikus ruumis toimub palju möödujate tähelepanu paeluvaid tegevusi. Rakendatud on nn 8-80-põhimõte, mis tähendab, et nii 8- kui ka 80-aastased saavad avalikus ruumis kõrvalise abita liikuda. Räägitakse palju vaimse tervise hoidmisest ja ollakse tähelepanelikud, kui lähedasel inimesel võivad rasked ajad olla. Inimesed on kogukondlikult pühendunud mõnele varem avalikule võimule kuulunud tööle: aidatakse kõige nooremaid ja kõige vanemaid, rajatakse ühisaedu, kujundatakse tänavaid ja hoove. Suuremates linnades läheb uussisserändajatel sisseelamine üsna ladusalt, ehkki väiksemates kohtades võidakse neile ikka viltu vaadata. Õnneindeksis on Eesti suhteliselt eesotsas ja viimased paar aastat isegi tõusnud.
+As a result of thorough regional planning, housing development and mobility services are interconnected throughout Estonia, which is why housing has primarily been built in places with train connections. At first, this seemed too restrictive for developers, but people are satisfied and do not long to rely on a personal vehicle. Each urban region has its own face and centres that work on the principle of the circular economy. After artists and then the startup sector moved to the once problematic Ida-Virumaa county, it has gone through a revival and is now one of the most attractive and cosmopolitan areas in Estonia, where artistic people from Russia (Saint Petersburg), Estonia and other countries have a second home. The people of Estonia like to spend time in parks and city squares, where they travel by their chosen means of transport – tram, self-driving capsule, hydrogen bicycle or a combination of these. Cities have a pleasant network of streets and uninterrupted green spaces to help adapt to the climate crisis, and there are many activities in the public sphere that attract passers-by. The 8-80 principle has been applied, which means that both 8- and 80-year-olds can move about in public without requiring assistance from others. There is a lot of talk about maintaining mental health and people are attentive to those close to them who may be going through a difficult period. Communities are committed to some of the tasks previously carried out by the public authorities, such as helping the youngest and oldest, building common gardens, designing streets and courtyards. In larger cities, new immigrants settle in quite smoothly, although in smaller towns they may still be shunned. In the happiness index, Estonia is relatively high and has even risen in the past few years.
 
 <div class="future-illustration">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
