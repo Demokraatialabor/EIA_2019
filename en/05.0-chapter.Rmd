@@ -2,7 +2,7 @@
  <script>
   window.location = "introduction-5.html";
   </script>
-## Introduction {-.chapter_section .chapter5_section .intro_section}
+## Introduction {-.chapter_section .chapter5_section .intro_section #introduction-5}
 <h1>Estonian living environment in 2050</h1>
 
 ```{block, type='authors'}
@@ -131,13 +131,13 @@ Brutotulu$palk <- fig52_data$Väärtus
 
 names(Brutotulu)[names(Brutotulu) == "palk"] <- "Average gross income (euros)"
 
-fig_52_plot <- tm_shape(Brutotulu) +
+fig_52_plot <- tm_shape(Brutotulu) + 
     tm_fill("Average gross income (euros)",title="Average gross income (euros)", palette = c("#E6E3DA","#d7bf74","#a01b17"), breaks=c(925,1043,1075,1107,1144,1209,1349,1711), popup.vars="Average gross income (euros)", id="NIMI") +
-
+  
   tm_borders(col="white") +
-
+  
   tm_text (col="black", text="NIMI",xmod=0) +
-
+  
     tm_layout(
       outer.margins=0, inner.margins=c(.02, .1, .02, .02),asp=1920/1080,
       legend.outside = FALSE,
@@ -149,7 +149,7 @@ fig_52_plot <- tm_shape(Brutotulu) +
         set.bounds = c(23.6397953631, 58.9745283067, 26.1316992531,59.8110903998),
         view.legend.position = c("right","bottom"),
       )
-
+   
 tmap_mode("view")
 fig_52_plot
 
@@ -240,7 +240,7 @@ As of 2016, the leasable floorspace per capita of shopping centres was 2.2 sq. m
 
 ```{r, figure53, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/5-chapter/fig53.png")
+knitr::include_graphics("../figures/5-chapter/fig53_eng.jpg")
 
 ```
 
@@ -310,7 +310,7 @@ Public space is a place where a shared identity can be amplified and recreated t
 
 The factors shaping the future of space (including public space) can be divided into two general categories – communal and liberal. The predominance of commercial areas, parking and roads is considered to be one of the symptoms of the dominance of liberal spatial planning  ([de Waal 2014](#Waal2014)). The liberal approach to space is characterised by a high degree of freedom of choice for citizens, while citizens are seen primarily as consumers of various services. According to this approach to space, it is socially acceptable for a citizen to move only in the private sphere (i.e. in a car, not on public transport) or to isolate themselves behind tall fences. The concept of the smart city of the future is also associated mainly with a liberal approach to space, where citizens ‘trade’ their data in return for the opportunity to use space or services ([Rogan 2019](#Rogan2019)). In contrast to the liberal approach to space, community public space can be defined through symbols such as the Song Festival Grounds, as well as the central squares of cities and neighbourhood festivals. The communal approach to space emphasises the shared identity of citizens, not their individual characteristics. Public space is a place where a shared identity can be amplified and recreated through various shared rituals. A communal approach to space is supported, for example, by the Republic of Estonia 100 Good Public Space programme for the renovation of town squares and main streets, and campaign culture, such as the Let’s Do It campaign days, the public hiking trail network, community gardens, as well as municipal participatory budgeting, through which various public space projects have been carried out. The future of public space depends on whether and how a balance is struck between these two ideals – enough freedom and individuality on the one hand and connection to one’s community and culture on the other.
 
-### *Acknowledgements* {-.chapter5_section}
+### *Acknowledgements* {-.chapter5_section #acknowledgements50}
 
 *We would like to thank everyone who participated in the future scenario workshops. Thank you, Helen Sooväli-Sepping, Indrek Ibrus, Asko Lõhmus, Kadri Leetmaa, Epp Lankots, Triin Vihalemm, Margit Keller, Kaja Peterson, Alar Kilp, Teele Pehk, Gerrit Mäesalu, Anni Müüripeal, Martin Noorkõiv, Mihkel Laan, Mihkel Kaevats, Toomas Tammis, Jan Kaus and Kaisa Schmidt-Thomé!*
 

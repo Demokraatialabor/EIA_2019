@@ -2,7 +2,7 @@
 
 <div class="map-icon">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
-knitr::include_graphics("figures/5-chapter/uhetunni.png")
+knitr::include_graphics("../figures/5-chapter/uhetunni.png")
 ```
 </div>
 
@@ -10,7 +10,7 @@ knitr::include_graphics("figures/5-chapter/uhetunni.png")
 
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/5-chapter/kaart-2.png")
+knitr::include_graphics("../figures/5-chapter/kaart-2.png")
 
 ```
 
@@ -63,7 +63,7 @@ As a result of thorough regional planning, housing development and mobility serv
 <div class="future-illustration">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/5-chapter/tulevik-2.png")
+knitr::include_graphics("../figures/5-chapter/tulevik-2.png")
 
 ```
 </div>

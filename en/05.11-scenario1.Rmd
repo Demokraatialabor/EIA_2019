@@ -3,7 +3,7 @@
 
 <div class="map-icon">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
-knitr::include_graphics("figures/5-chapter/linnades.png")
+knitr::include_graphics("../figures/5-chapter/linnades.png")
 ```
 </div>
 
@@ -12,7 +12,7 @@ knitr::include_graphics("figures/5-chapter/linnades.png")
 
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/5-chapter/kaart-1.png")
+knitr::include_graphics("../figures/5-chapter/kaart-1.png")
 
 ```
 
@@ -66,7 +66,7 @@ Driven by the ‘invisible hand’, Estonians and quite a number of New Estonian
 <div class="future-illustration">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/5-chapter/tulevik-1.png")
+knitr::include_graphics("../figures/5-chapter/tulevik-1.png")
 
 ```
 </div>

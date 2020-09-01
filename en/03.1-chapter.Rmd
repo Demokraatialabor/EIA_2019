@@ -39,7 +39,7 @@ The joint advancement of nature conservation and tourism was facilitated by the 
 
 ```{r, figure311, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/3-chapter/fig311.png")
+knitr::include_graphics("../figures/3-chapter/fig311.png")
 
 ```
 
@@ -74,22 +74,29 @@ According to a 2017 analysis, 790,900 people, or approximately 90% of people liv
 <p class="caption" id="figure312"><span class="figure-number">Figure 3.1.2.</span> Total number of visits to natural sites managed by the State Forest Management Centre and number of visits to national parks, according to monitoring data from counters, 2010–2017</p>
 
 <div class="desktop-plot">
-```{r, figure312, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure312, out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 library("reshape")
+library("plotly")
 
-fig312_data1 <- read.csv ("data/31_fig2_data1.csv", header=TRUE, fileEncoding="utf-8", check.names=FALSE)
-fig312_data2 <- read.csv ("data/31_fig2_data2.csv", header=TRUE, fileEncoding="utf-8", check.names=FALSE, sep=";")
+fig312_data1 <- read.csv ("../data/31_fig2_data1.csv", header=TRUE, fileEncoding="utf-8", check.names=FALSE)
+fig312_data2 <- read.csv ("../data/31_fig2_data2.csv", header=TRUE, fileEncoding="utf-8", check.names=FALSE, sep=";")
 
 fig312_data2 <- melt (fig312_data2, id=c("park"))
 names(fig312_data2) <- c("park","year","visitors")
 
-fig312_data2$park <- factor(fig312_data2$park, levels = c("Lahemaa rahvuspark","Soomaa rahvuspark","Matsalu rahvuspark","Karula rahvuspark","Vilsandi rahvuspark"))
+fig312_data2$park_eng[grepl("Vilsandi rahvuspark", fig312_data2$park)]<-"Vilsandi national park"
+fig312_data2$park_eng[grepl("Matsalu rahvuspark", fig312_data2$park)]<-"Matsalu national park"
+fig312_data2$park_eng[grepl("Soomaa rahvuspark", fig312_data2$park)]<-"Soomaa national park"
+fig312_data2$park_eng[grepl("Lahemaa rahvuspark", fig312_data2$park)]<-"Lahemaa national park"
+fig312_data2$park_eng[grepl("Karula rahvuspark", fig312_data2$park)]<-"Karula national park"
+
+fig312_data2$park_eng <- factor(fig312_data2$park_eng, levels = c("Lahemaa national park","Soomaa national park","Matsalu national park","Karula national park","Vilsandi national park"))
 
 fig312_data2$year <- factor(fig312_data2$year, levels = c("2010","2011","2012","2013","2014","2015","2016","2017"))
 
-fig312_plot2_labels <- c("Lahemaa\nrahvuspark","Soomaa\nrahvuspark", "Matsalu\nrahvuspark", "Karula\nrahvuspark","Vilsandi\nrahvuspark")
+fig312_plot2_labels <- c("Lahemaa\nnational park","Soomaa\nnational park", "Matsalu\nnational park", "Karula\nnational park","Vilsandi\nnational park")
 
 fig312_plot_palette <- c("#b8ddea","#44a1b1","#388085","#8d76ad","#79AC2C","#5B8121","#482683","#2E4111")
 
@@ -97,33 +104,33 @@ fig312_plot_palette <- c("#b8ddea","#44a1b1","#388085","#8d76ad","#79AC2C","#5B8
     geom_bar(mapping = aes(x=year, y=visitors, text = paste("", year,
                          "<br>", visitors)), fill=fig312_plot_palette, width=0.7, stat="identity", position="dodge") +
     scale_x_continuous(breaks=c(2010,2011,2012,2013,2014,2015,2016,2017))+
-    labs(y="Külastuskordade arv (mln)", x="")
+    labs(y="Number of visits (million)", x="")
 
   fig312_plot2 <- ggplot(data = fig312_data2) +
-    geom_bar(mapping = aes(x=park, y=visitors, fill=year, text = paste("", park,
+    geom_bar(mapping = aes(x=park_eng, y=visitors, fill=year, text = paste("", park_eng,
                          "<br>", year,
                          "<br>", visitors)), width=0.7, stat="identity", position="dodge") +
     scale_fill_manual(values=fig312_plot_palette) +
-    labs(y="Külastuskordade arv", x="") +
+    labs(y="Number of visits", x="") +
     scale_x_discrete(labels=fig312_plot2_labels)
 
   fig312_theme <- theme(
       text = element_text(color = "#292b2c", family="Montserrat"),
       panel.grid.major.x = element_blank() ,
-      panel.grid.minor.x = element_blank()
+      panel.grid.minor.x = element_blank(),
                  )
 
-knitr::include_graphics("figures/3-chapter/fig312_map.png")
+knitr::include_graphics("../figures/3-chapter/fig312_map_eng.jpg")
 
 ggplotly(fig312_plot2 + fig_theme_general + fig312_theme, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>%
-layout(legend = list(orientation = "h",y = 1.15)) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
 ggplotly(fig312_plot1 + fig_theme_general + fig312_theme, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>%
-layout(legend = list(orientation = "h",y = 1.15)) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -131,12 +138,13 @@ layout(yaxis = list(fixedrange = TRUE))
 
 #ggsave(path="exported_figures/PDF/chapter3",filename="fig312b.pdf",fig312_plot2 + fig_theme_general + fig312_theme, height=120, width=200, units="mm")
 ```
+
 </div>
 
 <div class="mobile-plot">
 ```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
-knitr::include_graphics("figures/3-chapter/fig312_map.png")
+knitr::include_graphics("../figures/3-chapter/fig312_map_eng.jpg")
 print(fig312_plot2 + fig_theme_general + fig312_theme)
 print(fig312_plot1 + fig_theme_general + fig312_theme)
 
@@ -163,23 +171,33 @@ The use of urban green spaces is seasonal in Estonia – more frequent in summer
 <p class="caption" id="figure313"><span class="figure-number">Figure 3.1.3.</span> Age distribution of different types of nature visitors in Estonia</p>
 
 <div class=desktop-plot>
-```{r, figure313, out.width='100%',fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
+```{r, figure313, out.width='80%',fig.asp=1.25, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 library("reshape")
 
- fig313_data <- read.csv ("data/31_fig3_data.csv", header=TRUE, fileEncoding="utf-8", check.names=FALSE)
+ fig313_data <- read.csv ("../data/31_fig3_data.csv", header=TRUE, fileEncoding="utf-8", check.names=FALSE)
 
  fig313_data_melt <- melt (fig313_data, id=c("vanus"))
 
 fig313_data_melt$vanus <- factor(fig313_data_melt$vanus, levels = c("75+","60-74","50-59","40-49","30-39","20-29","15-19"))
-fig313_data_melt$variable <- factor(fig313_data_melt$variable, levels = c("Tallinna pargikülastajad","Jahimehed","Marjulised-seenelised","Välisturistid 2015","Looduspuhkus 2015","Looduspuhkus 2010"))
+
+fig313_data_melt$variable_eng[grepl("Looduspuhkus 2010", fig313_data_melt$variable)]<-"Nature visits 2010"
+fig313_data_melt$variable_eng[grepl("Looduspuhkus 2015", fig313_data_melt$variable)]<-"Nature visits 2015"
+fig313_data_melt$variable_eng[grepl("Välisturistid 2015", fig313_data_melt$variable)]<-"Foreign tourists 2015"
+fig313_data_melt$variable_eng[grepl("Marjulised-seenelised", fig313_data_melt$variable)]<-"Berry and mushroom pickers"
+fig313_data_melt$variable_eng[grepl("Jahimehed", fig313_data_melt$variable)]<-"Hunters"
+fig313_data_melt$variable_eng[grepl("Tallinna pargikülastajad", fig313_data_melt$variable)]<-"Visitors to Tallinn green areas"
+
+
+
+fig313_data_melt$variable_eng <- factor(fig313_data_melt$variable_eng, levels = c("Visitors to Tallinn green areas","Hunters","Berry and mushroom pickers","Foreign tourists 2015","Nature visits 2015","Nature visits 2010"))
 
   fig313_plot <- ggplot(data = fig313_data_melt) +
-    geom_bar(mapping = aes(x=vanus, y=value, fill=variable, text = paste("", vanus,
-                         "<br>", variable,
+    geom_bar(mapping = aes(x=vanus, y=value, fill=variable_eng, text = paste("", vanus,
+                         "<br>", variable_eng,
                          "<br>", value, "%")), width=0.7, stat="identity", position="dodge") +
-    labs(y="%", x="Vanuserühm") +
+    labs(y="%", x="Age group") +
     coord_flip()  +
     scale_fill_manual(values=c("#b8ddea","#44a1b1","#79AC2C","#5B8121","#8d76ad","#482683")) +
       guides(fill = guide_legend(reverse = TRUE))
@@ -191,13 +209,14 @@ fig313_data_melt$variable <- factor(fig313_data_melt$variable, levels = c("Talli
                  )
 
 ggplotly(fig313_plot + fig_theme_general + fig313_theme, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>%
-layout(legend = list(orientation = "h",y = 1.15)) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
 #ggsave(path="exported_figures/PDF/chapter3",filename="fig313.pdf",fig313_plot + fig_theme_general + fig313_theme, height=200, width=200, units="mm")
 ```
+
 </div>
 
 <div class="mobile-plot">
@@ -220,12 +239,19 @@ library("tidyverse")
 library("scales")
 
 
- fig314_data <- read.csv ("data/31_fig4_data.csv", header=TRUE, fileEncoding="utf-8", sep=";",check.names=FALSE)
+ fig314_data <- read.csv ("../data/31_fig4_data.csv", header=TRUE, fileEncoding="utf-8", sep=";",check.names=FALSE)
 
 fig314_data <- melt (fig314_data, id=c("Space"))
 
+fig314_data$Space_eng[grepl("Park", fig314_data$Space)]<-"Park"
+fig314_data$Space_eng[grepl("Mänguväljak", fig314_data$Space)]<-"Playground/fitness area"
+fig314_data$Space_eng[grepl("Veekoguäärne roheala", fig314_data$Space)]<-"Waterfront green space"
+fig314_data$Space_eng[grepl("Mets", fig314_data$Space)]<-"Forest"
+fig314_data$Space_eng[grepl("Ala väheste puude/põõsastega", fig314_data$Space)]<-"Area with a few trees/bushes"
+fig314_data$Space_eng[grepl("Ala, kus ma saan aiatööd teha", fig314_data$Space)]<-"Area where I can do gardening"
 
-fig314_data$Space <- factor( fig314_data$Space, levels = c("Ala, kus ma saan aiatööd teha","Ala väheste puude/põõsastega","Mets","Veekoguäärne roheala","Mänguväljak/tervisespordi ala","Park"))
+
+fig314_data$Space_eng <- factor( fig314_data$Space_eng, levels = c("Area where I can do gardening","Area with a few trees/bushes","Forest","Waterfront green space","Playground/fitness area","Park"))
 
 fig314_data$variable <- factor(fig314_data$variable, levels = c("Ei ole üldse tähtis","Mitte eriti tähtis","Keskmiselt tähtis","Tähtis","Väga tähtis"))
 
@@ -234,10 +260,10 @@ fig314_data$text_position <- fig314_data$value
 fig314_data$text_position[which(fig314_data$text_position == 0)] <- NA
 
 fig314_plot <- ggplot(data = fig314_data) +
-    geom_bar(mapping = aes(x=Space, y=value, fill=variable), width=0.6, stat="identity") +
-    geom_text(mapping = aes(x=Space, y=text_position, label=round(text_position, digits=0)), stat="identity", color="white", position = position_stack(vjust = .5)) +
+    geom_bar(mapping = aes(x=Space_eng, y=value, fill=variable), width=0.6, stat="identity") +
+    geom_text(mapping = aes(x=Space_eng, y=text_position, label=round(text_position, digits=0)), stat="identity", color="white", position = position_stack(vjust = .5)) +
     coord_flip() +
-    scale_fill_manual(values=c("#2b164e","#a28cbc","#5B8121","#79AC2C","#482683")) +
+    scale_fill_manual(values=c("#2b164e","#a28cbc","#5B8121","#79AC2C","#482683"), labels=c("Not at all important","Not particularly important","Moderately important","Important","Extremely important")) +
     labs(y="%", x="") +
     scale_x_discrete(labels = wrap_format(20)) +
     guides(fill = guide_legend(reverse = TRUE,nrow=2,byrow=TRUE))
@@ -310,7 +336,7 @@ Changes in the number of recreational fishermen can be assessed based on fishing
 
 ```{r, figure315, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/3-chapter/fig315.png")
+knitr::include_graphics("../figures/3-chapter/fig315.png")
 
 ```
 
@@ -332,7 +358,7 @@ In conclusion, berry and mushroom picking spots in Estonia are culturally import
 <p class="caption" id="figure316"><span class="figure-number">Figure 3.1.6.</span> Blueberry picking</p>
 ```{r, figure316, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/3-chapter/fig316.png")
+knitr::include_graphics("../figures/3-chapter/fig316.png")
 
 ```
 </div>

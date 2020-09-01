@@ -62,7 +62,7 @@ Note: Before 2000, the interests of landowners were unclear and the perspective 
 
 ```{r, figure231, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/2-chapter/fig231.png")
+knitr::include_graphics("../figures/2-chapter/fig231_eng.jpg")
 
 ```
 
@@ -88,7 +88,7 @@ While local movements tend to address specific local issues, umbrella organisati
 <p class="caption" id="figure232"><span class="figure-number">Figure 2.3.2.</span> Roles of a spatial activist</p>
 ```{r, figure232, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/2-chapter/fig232.png")
+knitr::include_graphics("../figures/2-chapter/fig232_eng.jpg")
 
 ```
 
@@ -139,7 +139,7 @@ In the case of Reidi Road, civic associations found common ground in the form of
 
 ```{r, figure233, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/2-chapter/fig233.png")
+knitr::include_graphics("../figures/2-chapter/fig233.png")
 
 ```
 

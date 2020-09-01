@@ -22,7 +22,7 @@ Planning concerning the entire natural environment is regulated in Estonia by th
 
 ```{r, figure331, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/3-chapter/fig331.png")
+knitr::include_graphics("../figures/3-chapter/fig331_eng.jpg")
 
 ```
 
@@ -56,7 +56,7 @@ Spatial and strategic planning related to nature conservation and sustainable de
 
 ```{r, figure332, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/3-chapter/fig332.png")
+knitr::include_graphics("../figures/3-chapter/fig332_eng.jpg")
 
 ```
 
@@ -82,7 +82,7 @@ The bases for planning natural areas in Estonia and the related legal and admini
 
 ```{r, figure333, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/3-chapter/fig333.png")
+knitr::include_graphics("../figures/3-chapter/fig333_eng.jpg")
 
 ```
 ``` {block, type='figure-comment'}
@@ -113,7 +113,7 @@ The Heritage Conservation Act helps preserve natural areas on which cultural mon
 
 ```{r, figure334, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/3-chapter/fig334.png")
+knitr::include_graphics("../figures/3-chapter/fig334_eng.jpg")
 
 ```
 
@@ -142,16 +142,21 @@ The most extensive protection against land-use changes in natural areas relates 
 
 library("tidyverse")
 
-fig335_data <- read.csv ("data/33_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
+fig335_data <- read.csv ("../data/33_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
 
-fig335_data$objects <- factor(fig335_data$objects, levels = c("RV ala väljaspool kaitsealasid","Kaitstavad loodusobjektid väljaspool RV ala","Kaitstavad loodusobjektid RV alal"))
+fig335_data$objects_eng[grepl("RV ala väljaspool kaitsealasid", fig335_data$objects)]<-"Green network area outside protected areas"
+fig335_data$objects_eng[grepl("Kaitstavad loodusobjektid RV alal", fig335_data$objects)]<-"Protected natural sites inside green network area"
+fig335_data$objects_eng[grepl("Kaitstavad loodusobjektid väljaspool RV ala", fig335_data$objects)]<-"Protected natural sites outside green network area"
+
+
+fig335_data$objects_eng <- factor(fig335_data$objects_eng, levels = c("Green network area outside protected areas","Protected natural sites outside green network area","Protected natural sites inside green network area"))
 
 
   fig335_plot <- ggplot() +
-    geom_bar(data = fig335_data, mapping = aes(x=reorder(county,-value), y=value, fill=objects, text = paste("", county,
-                         "<br>", objects,
+    geom_bar(data = fig335_data, mapping = aes(x=reorder(county,-value), y=value, fill=objects_eng, text = paste("", county,
+                         "<br>", objects_eng,
                          "<br>", value, "%")), width=0.6, stat="identity") +
-    scale_fill_manual(values=c("#79AC2C","#482683","#5B8121"), labels=c("Rohevõrgustiku ala väljaspool kaitsealasid","Kaitstavad loodusobjektid väljaspool rohevõrgustiku ala","Kaitstavad loodusobjektid rohevõrgustiku alal")) +
+    scale_fill_manual(values=c("#79AC2C","#482683","#5B8121"), labels=c("Green network area outside protected areas","Protected natural sites outside green network area","Protected natural sites inside green network area")) +
     labs(y="%", x="") +
     guides(fill=guide_legend(nrow=3,byrow=TRUE)) +
       scale_y_continuous(expand = c(0, 0), limits=c(0,100)) +
@@ -166,14 +171,15 @@ fig335_data$objects <- factor(fig335_data$objects, levels = c("RV ala väljaspoo
                  )
 
 ggplotly(fig335_plot + fig335_theme + fig_theme_general, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>%
-layout(legend = list(orientation = "h",y = 1.15)) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
 #ggsave(path="exported_figures/PDF/chapter3",filename="fig335.pdf", height=140, width=210, units="mm")
 
 ```
+
 </div>
 
 </div>
@@ -183,7 +189,6 @@ layout(yaxis = list(fixedrange = TRUE))
 print(fig335_plot + fig335_theme + fig_theme_general)
 
 ```
-</div>
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Sourve:</span> Kutsar et al. 2018.</div>
@@ -216,7 +221,7 @@ It was concluded from the analysis that the Estonian legal framework will be suf
 
 ```{r, figure336, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/3-chapter/fig336.png")
+knitr::include_graphics("../figures/3-chapter/fig336_eng.jpg")
 
 ```
 

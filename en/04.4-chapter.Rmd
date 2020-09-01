@@ -98,8 +98,8 @@ names(fig442_data_cleaned)[names(fig442_data_cleaned) == "Freq"] <- "Frequency"
                  )
 
 ggplotly(fig442_plot + fig_theme_general + fig442_theme, tooltip = "Frequency") %>%
-config(displayModeBar = F, collaborate = F)   %>%
-layout(legend = list(orientation = "h",y = 1.15)) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 

@@ -24,7 +24,7 @@ The public space axis shows the role of public space in society, with a more spe
 
 ```{r, figure55, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/5-chapter/fig55.png")
+knitr::include_graphics("../figures/5-chapter/fig55_eng.jpg")
 
 ```
 

@@ -1,4 +1,4 @@
-## Introduction {-.chapter_section .chapter0_section .intro_section}
+## Introduction {-.chapter_section .chapter0_section .intro_section #introduction-0}
 
 <h1>SPATIAL DEVELOPMENT IN ESTONIA</h1>
 
@@ -426,7 +426,7 @@ colnames(fig_04_counties)[1] <- "Nimi"
 
 fig_04_data <- rbind(fig_04_settlements, fig_04_counties)
 
-fig_04_map <- tm_shape(fig_04_map_data) +
+fig_04_map <- tm_shape(fig_04_map_data) + 
     tm_fill("#e6e3da") +
     tm_borders(col="white") +
     tm_layout (
@@ -434,9 +434,9 @@ fig_04_map <- tm_shape(fig_04_map_data) +
               )
 
 fig_04_population <-  tm_shape(fig_04_data) +
-      tm_bubbles(col = "Asula",alpha = 0.5, border.col= "white", size = "Elanike arv",scale= 10, xmod=0, sizes.legend=c(2000,10000,50000), title.size="Elanike arv", palette= c("#c54409","#79ac2c","#369b9e"))
+      tm_bubbles(col = "Asula",alpha = 0.5, border.col= "white", size = "Elanike arv",scale= 10, xmod=0, sizes.legend=c(2000,10000,50000), title.size="Elanike arv", palette= c("#c54409","#79ac2c","#369b9e")) 
      # tm_text (col="#3a404a", text="Nimi",xmod=1, size=0.5, auto.placement=TRUE)
-
+  
     tm_layout(
       outer.margins=0, inner.margins=c(.02, .1, .02, .02), asp=1920/1080,
       legend.text.size=1,
@@ -445,7 +445,7 @@ fig_04_population <-  tm_shape(fig_04_data) +
       legend.width=.25, legend.height = .7,
       legend.format=list(text.separator="kuni"),
       frame = FALSE)
-
+  
 #tmap_save(tm = fig_04_map + fig_04_population, filename = "fig_04_notext.pdf")
 
 #svg(filename="figure.svg")
@@ -557,7 +557,7 @@ fig02_data$Asukoht_eng <- factor(fig02_data$Asukoht_eng, levels = c("Tallinn sub
 fig02_data$percent=percent((fig02_data$value/100), 1)
 
 fig02_data$Osakaal <- ifelse(test = fig02_data$variable_eng == "Men", yes = -fig02_data$value, no = fig02_data$value)
-
+                   
   fig02_plot <- ggplot(data = fig02_data,
        mapping = aes(x = Vanus, y = Osakaal,fill = variable_eng, text = paste("", variable_eng,
                          "<br>", value,"%"))) +
@@ -594,9 +594,9 @@ fig02_data$Osakaal <- ifelse(test = fig02_data$variable_eng == "Men", yes = -fig
   fig02_theme <- theme(
     text=element_text(family="Montserrat")
                  )
-ggplotly(fig02_plot + fig_theme_general + fig02_theme, tooltip = "text") %>%
-config(displayModeBar = F, collaborate = F)   %>%
-layout(legend = list(orientation = "h",y = 1.15)) %>%
+ggplotly(fig02_plot + fig_theme_general + fig02_theme, tooltip = "text") %>% 
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 

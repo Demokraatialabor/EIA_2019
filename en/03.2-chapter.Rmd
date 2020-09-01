@@ -38,7 +38,7 @@ We found the relationship between the size of green spaces and all well-being an
 
 ```{r, figure321, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/3-chapter/fig321.png")
+knitr::include_graphics("../figures/3-chapter/fig321_eng.jpg")
 
 ```
 
@@ -58,7 +58,7 @@ The benefits associated with natural areas are measured by the number of prematu
 
 ```{r, figure322, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/3-chapter/fig322.png")
+knitr::include_graphics("../figures/3-chapter/fig322_eng.jpg")
 
 ```
 
@@ -78,7 +78,7 @@ Health benefits or health damage measured like this can also be calculated in mo
 
 ```{r, figure323, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/3-chapter/fig323.png")
+knitr::include_graphics("../figures/3-chapter/fig323_eng.jpg")
 
 ```
 

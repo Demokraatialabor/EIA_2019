@@ -3,7 +3,7 @@
   window.location = "introduction-4.html";
   </script>
   
-## Introduction {-.chapter_section .chapter4_section .intro_section}
+## Introduction {-.chapter_section .chapter4_section .intro_section #introduction-4}
 <h1>Estonian deliberative space</h1>
 
 ```{block, type='authors'}

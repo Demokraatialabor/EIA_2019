@@ -1,9 +1,8 @@
-## Self-sufficient Estonia
- {-.chapter_section .chapter5_section .future_section}
+## Self-sufficient Estonia {-.chapter_section .chapter5_section .future_section}
 
 <div class="map-icon">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
-knitr::include_graphics("figures/5-chapter/isemajandav.png")
+knitr::include_graphics("../figures/5-chapter/isemajandav.png")
 ```
 </div>
 
@@ -11,7 +10,7 @@ knitr::include_graphics("figures/5-chapter/isemajandav.png")
 
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/5-chapter/kaart-4.png")
+knitr::include_graphics("../figures/5-chapter/kaart-4.png")
 
 ```
 
@@ -64,7 +63,7 @@ As a result of the climate catastrophe, remote working opportunities and the new
 <div class="future-illustration">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/5-chapter/tulevik-4.png")
+knitr::include_graphics("../figures/5-chapter/tulevik-4.png")
 
 ```
 </div>

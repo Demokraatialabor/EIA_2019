@@ -3,7 +3,7 @@
   window.location = "introduction-1.html";
   </script>
 
-## Introduction {-.chapter1_section .intro_section}
+## Introduction {-.chapter1_section .intro_section #introduction-1}
 
 <h1>Diversity in the Estonian living environment</h1>
 
@@ -78,10 +78,10 @@ names(fig101_data)[names(fig101_data) == "change"] <- "Proportion"
                     axis.text.x = element_text(angle=45, margin = margin(t = 7, r = 0, b = 0, l = 0), hjust=1.1),
                     text=element_text(family="Montserrat")
                  )
-
+  
   ggplotly((fig101_plot + fig_theme_general + fig101_theme), tooltip = c("Proportion")) %>%
-    config(displayModeBar = F) %>%
-    layout(legend = list(orientation = "h",y = 1.15)) %>%
+    config(displayModeBar = F) %>% 
+    layout(legend = list(orientation = "h",y = 1.15)) %>% 
     layout(xaxis = list(fixedrange = TRUE)) %>%
     layout(yaxis = list(fixedrange = TRUE))
 

@@ -45,7 +45,7 @@ library("gridExtra")
 
 
 
- fig221_data <- read.csv ("data/22_fig1_data.csv", header=TRUE, fileEncoding="utf-8", sep=";")
+ fig221_data <- read.csv ("../data/22_fig1_data.csv", header=TRUE, fileEncoding="utf-8", sep=";")
 
   fig221_data$answer <- factor(fig221_data$answer, levels = c("Ei oska öelda","Ei ole","Vähemalt üks kord"))
 
@@ -96,7 +96,7 @@ library("gridExtra")
 
 #ggsave(path="exported_figures/PDF/chapter2",filename="fig221.pdf",g, height=280, width=180, units="mm")
 
-knitr::include_graphics("figures/2-chapter/fig221.png")
+knitr::include_graphics("../figures/2-chapter/fig221_eng.jpg")
 
 ```
 
@@ -111,7 +111,7 @@ The impact of built heritage is wider still. Aside from offering sites worth vis
 
 ```{r, figure222, out.width='90%',fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/2-chapter/fig222.png")
+knitr::include_graphics("../figures/2-chapter/fig222_eng.jpg")
 
 ```
 ``` {block, type='imgsource'}
@@ -135,7 +135,7 @@ Our disused built heritage includes many large industrial facilities first const
 
 ```{r, figure223, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/2-chapter/fig223.png")
+knitr::include_graphics("../figures/2-chapter/fig223.png")
 
 ```
 
@@ -185,11 +185,17 @@ State-protected built heritage is a common good, offering us all the opportunity
 library("tidyverse")
 library("scales")
 
- fig224_data <- read.csv ("data/22_fig4_data.csv", header=TRUE, fileEncoding="utf-8")
+fig224_data <- read.csv ("../data/22_fig4_data.csv", header=TRUE, fileEncoding="utf-8")
+
+fig224_data$owners_eng[grepl("Eraomanik", fig224_data$owners)]<-"Private owner"
+fig224_data$owners_eng[grepl("Omavalitsus", fig224_data$owners)]<-"Municipality"
+fig224_data$owners_eng[grepl("Riik", fig224_data$owners)]<-"State"
+
+fig224_data$owners_eng <- factor (fig224_data$owners_eng, levels = c("Private owner","Municipality", "State"))
 
 fig224_data$percent=percent((fig224_data$value/100), 1)
 
-  fig224_plot <- ggplot(data = fig224_data, aes(x = "", y = value, fill = owners)) +
+  fig224_plot <- ggplot(data = fig224_data, aes(x = "", y = value, fill = owners_eng)) +
   geom_bar(stat = "identity") +
   scale_fill_manual(values=c("#dbd8d7","#a18bbb","#297477")) +
   geom_text(aes(label = percent), position = position_stack(vjust = 0.5), color="white") +
@@ -209,7 +215,7 @@ fig224_data$percent=percent((fig224_data$value/100), 1)
 
   print(fig224_plot + fig_theme_general + fig224_theme)
 
-  ggsave(path="exported_figures/PDF/chapter2",filename="fig224.pdf", height=120, width=200, units="mm")
+#ggsave(path="../exported_figures/PDF/chapter2",filename="fig224.pdf", height=120, width=200, units="mm")
 
 ```
 
@@ -225,10 +231,14 @@ Repair and restoration of monuments and buildings in heritage conservation areas
 
 library("tidyverse")
 
- fig225_data <- read.csv ("data/22_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
+ fig225_data <- read.csv ("../data/22_fig5_data.csv", header=TRUE, fileEncoding="utf-8")
 
+ fig225_data$type_eng[grepl("Taotluste maht", fig225_data$type)]<-"Applied for"
+  fig225_data$type_eng[grepl("Toetused", fig225_data$type)]<-"Granted"
+
+ 
   fig225_plot <- ggplot() +
-    geom_bar(data = fig225_data, mapping = aes(x=type, y=sum, fill=type), width=0.4, stat="identity") +
+    geom_bar(data = fig225_data, mapping = aes(x=type_eng, y=sum, fill=type), width=0.4, stat="identity") +
     scale_fill_manual(values=c("#369b9e","#a18bbb")) +
     labs(y="", x="")+
     scale_y_continuous(labels = number)
@@ -242,7 +252,7 @@ library("tidyverse")
 
   print(fig225_plot + fig_theme_general + fig225_theme)
 
-  ggsave(path="exported_figures/PDF/chapter2",filename="fig225.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
+  ggsave(path="../exported_figures/PDF/chapter2",filename="fig225.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
 
 ``` {block, type='imgsource'}
@@ -260,11 +270,15 @@ With the help of the manor schools programme, most Estonian manor schools have b
 library("tidyverse")
 library("scales")
 
- fig226_data <- read.csv ("data/22_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
+ fig226_data <- read.csv ("../data/22_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
 
+ fig226_data$type_eng[grepl("Taotluste kogusumma", fig226_data$type)]<-"Total applications"
+fig226_data$type_eng[grepl("PÜPi eelarve kogusumma", fig226_data$type)]<-"Total programme budget"
+
+fig226_data$type_eng <- factor (fig226_data$type_eng, levels = c("Total applications","Total programme budget"))
 
   fig226_plot <- ggplot(data = fig226_data) +
-    geom_line(mapping = aes(x=year, y = value, colour=type, group=type, text = paste("", type,
+    geom_line(mapping = aes(x=year, y = value, colour=type_eng, group=type_eng, text = paste("", type_eng,
                          "<br>", year,
                          "<br>", value,"€")), size=0.75) +
     scale_colour_manual(values=c("#a18bbb","#369b9e"))+
@@ -276,16 +290,16 @@ library("scales")
    fig226_theme <- theme(
      panel.grid.minor.x = element_blank(),
       text = element_text(size = 12, family="Montserrat"),
-
+     
   )
 
 ggplotly(fig226_plot + fig_theme_general + fig226_theme, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>%
-layout(legend = list(orientation = "h",y = 1.15)) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
-  #ggsave(path="exported_figures/PDF/chapter2",filename="fig226.pdf", height=90, width=160, units="mm",encoding = "ISOLatin9.enc")
+  ggsave(path="../exported_figures/PDF/chapter2",filename="fig226.pdf", height=90, width=160, units="mm",encoding = "ISOLatin9.enc")
 ```
 </div>
 
@@ -307,20 +321,21 @@ As of 2019, the places of worship programme was incorporated into the National H
 The state’s support for built heritage under its protection is far from sufficient: the volume of applications for restoration grants is several times greater than the funding capacity ([Figure 2.2.7](#figure227)). A cut made during the economic crisis reduced the budget for grants almost by half, and although the state budget has tripled since the end of the crisis, state support for monuments has essentially remained at the crisis level ([Figure 2.2.7](#figure227)). Unlike many other countries, Estonia offers no tax incentives for monument owners.
 
 <p class="caption" id="figure227"><span class="figure-number">Figure 2.2.7.</span> Comparison of the restoration grant and the state budget</p>
-<div class="desktop-plot">
 ```{r, figure227, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
 
- fig227_data <- read.csv ("data/22_fig7_data.csv", header=TRUE, fileEncoding="utf-8")
+ fig227_data <- read.csv ("../data/22_fig7_data.csv", header=TRUE, fileEncoding="utf-8")
 
+ fig227_data$type_eng[grepl("Restaureerimistoetus", fig227_data$type)]<-"Restoration grants (€)"
+fig227_data$type_eng[grepl("Riigieelarve kulud", fig227_data$type)]<-"State budget expenditure (€)"
 
   fig227_plot <- ggplot(data = fig227_data) +
-    geom_line(mapping = aes(x=year, y = value, colour=type, group=type, text = paste("", type,
+    geom_line(mapping = aes(x=year, y = value, colour=type_eng, group=type_eng, text = paste("", type_eng,
                          "<br>", year,
                          "<br>", value)), size=0.75) +
     scale_colour_manual(values=c("#a18bbb","#369b9e"))+
-    labs(y="", x="") +
+    labs(y="", x="aasta") +
     scale_x_continuous(breaks = c(2006,2008,2010,2012,2014,2016,2018), expand = c(0, 0), limits=c(2005,2018.5))+
     scale_y_continuous(breaks = c(0,2000000,4000000,6000000,8000000,10000000),labels = number, expand = c(0, 0), limits=c(0,11500000)) +
     expand_limits (y=0)
@@ -331,13 +346,14 @@ library("tidyverse")
   )
 
   ggplotly(fig227_plot + fig_theme_general + fig227_theme, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>%
-layout(legend = list(orientation = "h",y = 1.15)) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
-  #ggsave(path="exported_figures/PDF/chapter2",filename="fig227.pdf", height=90, width=160, units="mm")
+  #ggsave(path="../exported_figures/PDF/chapter2",filename="fig227.pdf", height=90, width=160, units="mm")
 ```
+
 </div>
 <div class="mobile-plot">
 ```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
@@ -356,22 +372,26 @@ The research project ‘Protection of privately owned cultural heritage’ ([Taf
 
 <p class="caption" id="figure228"><span class="figure-number">Figure 2.2.8.</span> Resources for cultural heritage</p>
 
-Riigiasutused peaksid eraldama Euroopa kultuuripärandi jaoks rohkem vahendeid (%).
+State authorities should allocate more resources for cultural heritage (%).
 
 ```{r, figure228, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
 library("scales")
 
-fig228_data <- read.csv ("data/22_fig8_data.csv", header=TRUE, fileEncoding="utf-8")
+fig228_data <- read.csv ("../data/22_fig8_data.csv", header=TRUE, fileEncoding="utf-8")
 
-fig228_data$answer <- factor(fig228_data$answer, levels = c("Nõustun","Ei nõustu","Ei oska öelda"))
+fig228_data$answer_eng[grepl("Nõustun", fig228_data$answer)]<-"Agree"
+fig228_data$answer_eng[grepl("Ei nõustu", fig228_data$answer)]<-"Disagree"
+fig228_data$answer_eng[grepl("Ei oska öelda", fig228_data$answer)]<-"Don't know"
+
+fig228_data$answer <- factor(fig228_data$answer, levels = c("Agree","Disagree","Don't know"))
 
 fig228_data$percent=percent((fig228_data$value/100), 1)
 
   fig228_plot <- ggplot() +
-  geom_rect(data= subset(fig228_data, pop %in% c("EE")), aes(fill=answer, ymax=ymax, ymin=ymin, xmax=2.9, xmin=0)) +
-  geom_rect(data= subset(fig228_data, pop %in% c("EL28")), aes(fill=answer, ymax=ymax, ymin=ymin, xmax=3, xmin=4)) +
+  geom_rect(data= subset(fig228_data, pop %in% c("EE")), aes(fill=answer_eng, ymax=ymax, ymin=ymin, xmax=2.9, xmin=0)) +
+  geom_rect(data= subset(fig228_data, pop %in% c("EL28")), aes(fill=answer_eng, ymax=ymax, ymin=ymin, xmax=3, xmin=4)) +
   geom_text(data=fig228_data, aes(label = percent, x=x, y=value), position = position_stack(vjust = 0.5), color="white") +
   xlim(c(0, 4)) +
   coord_polar(theta = "y") +
@@ -394,11 +414,11 @@ fig228_data$percent=percent((fig228_data$value/100), 1)
 
   print(fig228_plot + fig_theme_general + fig228_theme)
 
-  ggsave(path="exported_figures/PDF/chapter2",filename="fig228.pdf", height=120, width=200, units="mm")
+  #ggsave(path="../exported_figures/PDF/chapter2",filename="fig228.pdf", height=120, width=200, units="mm")
 
 ```
-Välimine ring **Euroopa Liidu keskmine**<br>
-Sisemine ring **Eesti**
+Outside **EU average**<br>
+Inside **Estonia**
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Eurobarometer 2017.</div>
 <div><a class="data-btn" href="data/22_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
@@ -419,7 +439,7 @@ Riigi Kinnisvara AS is awaiting a political decision on what to do with the comp
 
 ```{r, figure229, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/2-chapter/fig229.png")
+knitr::include_graphics("../figures/2-chapter/fig229.png")
 
 ```
 

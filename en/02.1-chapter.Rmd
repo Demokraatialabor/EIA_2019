@@ -36,7 +36,7 @@ Public space usually belongs to the state or municipality; occasionally it may b
 
 ```{r, figure211, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/2-chapter/fig211.png")
+knitr::include_graphics("../figures/2-chapter/fig211_eng.jpg")
 
 ```
 
@@ -62,7 +62,7 @@ Roosi Street in Tartu, renovated in 2016 in conjunction with the construction of
 <p class="caption" id="figure212"><span class="figure-number">Figure 2.1.2.</span> Roosi Street in Tartu</p>
 ```{r, figure212, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/2-chapter/fig212.png")
+knitr::include_graphics("../figures/2-chapter/fig212.png")
 
 ```
 </div>
@@ -98,7 +98,7 @@ The controversial handling of public space by the Estonian public sector, includ
 
 ```{r, figure213, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/2-chapter/fig213.png")
+knitr::include_graphics("../figures/2-chapter/fig213_eng.jpg")
 
 ```
 
@@ -127,7 +127,7 @@ The narrow footpath on Põhja puiestee in Tallinn excludes movement with a pram 
 
 ```{r, figure214, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/2-chapter/fig214.png")
+knitr::include_graphics("../figures/2-chapter/fig214.png")
 
 ```
 
@@ -194,7 +194,7 @@ The interconnectedness, density and diversity of public space as an integral net
 
 ```{r, figure215, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/2-chapter/fig215.png")
+knitr::include_graphics("../figures/2-chapter/fig215_eng.jpg")
 
 ```
 

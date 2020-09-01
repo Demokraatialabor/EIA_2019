@@ -24,11 +24,11 @@ library("tidyverse")
  fig431_data$position_eng[grepl("14. koht",   fig431_data$position)]<-"14th place"
  fig431_data$position_eng[grepl("24. koht",   fig431_data$position)]<-"24th place"
  fig431_data$position_eng[grepl("50. koht",   fig431_data$position)]<-"50th place"
-
+ 
  fig431_data$country_eng[grepl("Eesti",   fig431_data$country)]<-"Estonia"
  fig431_data$country_eng[grepl("Läti",   fig431_data$country)]<-"Latvia"
  fig431_data$country_eng[grepl("Soome",   fig431_data$country)]<-"Finland"
-
+ 
 fig431_data$country_eng <- factor(fig431_data$country_eng, levels = c("Finland","Estonia","Latvia"))
 
 
@@ -46,8 +46,8 @@ fig431_data$country_eng <- factor(fig431_data$country_eng, levels = c("Finland",
   )
 
 ggplotly(fig431_plot + fig_theme_general + fig431_theme, tooltip = "text") %>%
-config(displayModeBar = F, collaborate = F)   %>%
-layout(legend = list(orientation = "h",y = 1.15)) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -61,6 +61,7 @@ layout(yaxis = list(fixedrange = TRUE))
   print(fig431_plot + fig_theme_general + fig431_theme)
 
 ```
+</div>
 ```{block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Reporters without Borders 2018.</div>
 <div><a class="data-btn" href="../data/43_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
@@ -95,7 +96,7 @@ If we view the power of the media and audience to act – or their agency – in
 
 ```{r, figure432, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/4-chapter/fig432.png")
+knitr::include_graphics("../figures/4-chapter/fig432_eng.jpg")
 ```
 
 ``` {block, type='imgsource'}
@@ -126,12 +127,12 @@ library("tidyverse")
   fig433_data$variable_eng[grepl("poliitik", fig433_data$variable)]<-"Politicians"
   fig433_data$variable_eng[grepl("ajakirjanik", fig433_data$variable)]<-"Journalists"
   fig433_data$variable_eng[grepl("teadlane, ekspert", fig433_data$variable)]<-"Scientists, experts"
-
+  
   fig433_data$group_eng[grepl("Postimees", fig433_data$group)]<-"Postimees"
   fig433_data$group_eng[grepl("Eesti Päevaleht", fig433_data$group)]<-"Eesti Päevaleht"
   fig433_data$group_eng[grepl("Kokku", fig433_data$group)]<-"All"
-
-
+  
+  
 fig433_data$group_eng <- factor(fig433_data$group_eng, levels = c("Postimees","Eesti Päevaleht","All"))
 fig433_data$variable_eng <- factor(fig433_data$variable_eng, levels = c("Entrepreneurs", "Public servants","Cultural figures","Citizens","Politicians","Journalists","Scientists, experts"))
 
@@ -151,8 +152,8 @@ fig433_data$variable_eng <- factor(fig433_data$variable_eng, levels = c("Entrepr
   )
 
 ggplotly(fig433_plot + fig_theme_general + fig433_theme, tooltip = "text") %>%
-config(displayModeBar = F, collaborate = F)   %>%
-layout(legend = list(orientation = "h",y = 1.15)) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -220,7 +221,7 @@ Of the Postimees platforms, the largest number of op-ed articles appear on the P
 <div class="casebox">
 ```{r, figure434, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("../figures/4-chapter/fig434.png")
+knitr::include_graphics("../figures/4-chapter/fig434_eng.jpg")
 ```
 </div>
 ``` {block, type='imgsource'}

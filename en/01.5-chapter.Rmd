@@ -25,21 +25,24 @@ Rapid motorisation in Estonia is similar to that occurring in other Eastern Bloc
 
 <p class="caption" id="figure151"><span class="figure-number">Figure 1.5.1.</span> Change in motorisation in Western (EU 15) and Eastern European countries (countries that have joined the EU since 2004, except Cyprus and Malta)</p>
 <div class="desktop-plot">
-```{r, figure151, out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
+```{r, figure151, out.width='90%', fig.asp=.5625, fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 
- fig151_data <- read.csv ("data/15_fig1_data2.csv", header=TRUE, fileEncoding="utf-8")
+ fig151_data <- read.csv ("../data/15_fig1_data2.csv", header=TRUE, fileEncoding="utf-8")
 
+fig151_data$area_eng[grepl("Eesti",fig151_data$area)]<-"Estonia"
+fig151_data$area_eng[grepl("Ida",fig151_data$area)]<-"Eastern Europe"
+fig151_data$area_eng[grepl("Lääs",fig151_data$area)]<-"Western Europe"
 
   fig151_plot <- ggplot(data = fig151_data) +
-    geom_line(mapping = aes(x=year, y=value, colour=area, group=area, text = paste("", area,
+    geom_line(mapping = aes(x=year, y=value, colour=area_eng, group=area_eng,text = paste("", area_eng,
                          "<br>", year,
                          "<br>", value)), size=0.75) +
     scale_x_continuous(breaks=c(1990,1992,1994,1996,1998,2000,2002,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(1990,2016.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,550)) +
-    scale_colour_manual(values=c("#482683","#369B9E","#b1e0f9"), labels=c("Eesti","Ida-Euroopa","Lääne-Euroopa")) +
-    labs(y="Autot 1000 elaniku kohta", x="") +
+    scale_colour_manual(values=c("#482683","#369B9E","#b1e0f9")) +
+    labs(y="Cars per 1,000 inhabitants", x="") +
     expand_limits (y=0)
 
   fig151_theme <- theme (
@@ -48,13 +51,14 @@ library("tidyverse")
   )
 
 ggplotly(fig151_plot + fig_theme_general + fig151_theme, tooltip = "text" ) %>%
-config(displayModeBar = F)   %>%
-layout(legend = list(orientation = "h",y = 1.15)) %>%
+config(displayModeBar = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
   #ggsave(path="exported_figures/PDF/chapter1",filename="fig151.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
+
 </div>
 <div class="mobile-plot">
 ```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
@@ -84,7 +88,7 @@ As streets have often become ‘traffic pipes’, motorisation in cities is begi
 
 ```{r, figure152, out.width='80%', fig.align='center', echo=FALSE, message=FALSE}
 
-knitr::include_graphics("figures/1-chapter/fig152.png")
+knitr::include_graphics("../figures/1-chapter/fig152_eng.jpg")
 
 ```
 
@@ -111,14 +115,14 @@ library(raster)      # classes and functions for raster data
 library(tmap)
 library(svglite)
 
-Asutusüksused <- st_read(dsn ="data/15_fig3_data/EKSPORT_3301-N0RqvBQsFGT19Q0M-t7.shp")
+Asutusüksused <- st_read(dsn ="../data/15_fig3_data/EKSPORT_3301-N0RqvBQsFGT19Q0M-t7.shp")
 head(as.data.frame(Asutusüksused))
 
 Asutusüksused$VAARTUS <- as.numeric(as.factor(Asutusüksused$VAARTUS)) -1
 
-names(Asutusüksused)[names(Asutusüksused) == "VAARTUS"] <- "Elanike osatähtsus (%)"
+names(Asutusüksused)[names(Asutusüksused) == "VAARTUS"] <- "Residents with good access (%)"
 
-Maanteed <- st_read(dsn ="data/15_fig3_data/tee.shp")
+Maanteed <- st_read(dsn ="../data/15_fig3_data/tee.shp")
 head(as.data.frame(Maanteed))
 
 Maanteed <- subset (Maanteed, TYYP != c("Tänav"), select=c(NIMETUS,TYYP, geometry))
@@ -126,12 +130,12 @@ Maanteed <- subset (Maanteed, TYYP != c("Kõrvalmaantee"), select=c(NIMETUS,TYYP
 Maanteed <- subset (Maanteed, TYYP != c("Muu tee"), select=c(NIMETUS,TYYP, geometry))
 Maanteed <- subset (Maanteed, TYYP != c("Ramp või ühendustee"), select=c(NIMETUS,TYYP, geometry))
 
-Maanteed$TYYP <- "Põhi- või tugimaantee"
+Maanteed$TYYP <- "Main and support roads"
 
-fig_153_plot <- tm_shape(Asutusüksused) +
-    tm_fill("Elanike osatähtsus (%)", title="Elanike osatähtsus, kellel on hea ühistranspordi kättesaadavus (%)", popup.vars="Elanike osatähtsus (%)",id="NIMI", breaks=c(0,1,25,50,75,100), palette = c("#E6E3DA", "#DAD4E6","#B6A8CD", "#917DB5","#482683")) +
+fig_153_plot <- tm_shape(Asutusüksused) + 
+    tm_fill("Residents with good access (%)", title="Residents with good access to public transport (%)", popup.vars="Residents with good access (%)",id="NIMI", breaks=c(0,1,25,50,75,100), palette = c("#E6E3DA", "#DAD4E6","#B6A8CD", "#917DB5","#482683")) +
     tm_borders(col="white", alpha=0) +
-
+  
     tm_layout(
       outer.margins=0, inner.margins=c(.02, .1, .02, .02),asp=1920/1080,
       legend.outside = FALSE,
@@ -139,7 +143,7 @@ fig_153_plot <- tm_shape(Asutusüksused) +
       frame = FALSE) +
 
     tm_shape(Maanteed) + tm_lines(col = "TYYP", legend.col.show = TRUE,palette = c("#3A404A", "#3A404A"), title.col="",popup.vars=NULL) +
-
+  
       tm_view (
         set.zoom.limits = c(7, 16),
         view.legend.position = c("left","bottom"),
@@ -147,8 +151,8 @@ fig_153_plot <- tm_shape(Asutusüksused) +
       )
 
 tmap_mode("view")
-fig_153_plot
-
+#fig_153_plot
+  
 #tmap_save(tm = fig_153_plot, filename = "figure153.png")
 #tmap_save(tm = fig_153_plot, filename = "figure153.pdf")
 
@@ -171,17 +175,20 @@ Intensifying car traffic reduces the number of travellers using public transport
 
 library("tidyverse")
 
- fig154_data <- read.csv ("data/15_fig4_data.csv", header=TRUE, fileEncoding="utf-8", sep=";")
+ fig154_data <- read.csv ("../data/15_fig4_data.csv", header=TRUE, fileEncoding="utf-8", sep=";")
+ 
+ fig154_data$variable_eng[grepl("Läbisõit",fig154_data$variable)]<-"Distance travelled (million km)"
+fig154_data$variable_eng[grepl("Sõitjate arv",fig154_data$variable)]<-"Number of passengers (million)"
 
 
   fig154_plot <- ggplot(data = fig154_data) +
-    geom_line(mapping = aes(x=year, y=value, colour=variable, group=variable, text = paste("", variable,
-                         "<br>", year,
-                         "<br>", value)), size=0.75) +
+    geom_line(mapping = aes(x=year, y=value, colour=variable_eng, group=variable, text = paste("", variable_eng,
+                         "<br>", value,
+                         "<br>", year)), size=0.75) +
     scale_x_continuous(breaks=c(2003,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(2003,2016.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,40)) +
-    scale_colour_manual(values=c("#482683","#369B9E"), labels=c("Läbisõit (mln km)","Sõitjate arv (mln)")) +
-    labs(y="", x="aasta") +
+    scale_colour_manual(values=c("#482683","#369B9E")) +
+    labs(y="", x="") +
     expand_limits (y=0)
 
   fig154_theme <- theme (
@@ -189,13 +196,14 @@ library("tidyverse")
   )
 
 ggplotly(fig154_plot + fig_theme_general + fig154_theme, tooltip = "text" ) %>%
-config(displayModeBar = F)   %>%
-layout(legend = list(orientation = "h",y = 1.15)) %>%
+config(displayModeBar = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
  # ggsave(path="exported_figures/PDF/chapter1",filename="fig154.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
+
 </div>
 <div class="mobile-plot">
 ```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
@@ -225,32 +233,40 @@ Urban sprawl has occurred in Estonia’s largest urban regions over the past two
 
 <p class="caption" id="figure155"><span class="figure-number">Figure 1.5.5.</span> Number of cars per household in Tallinn (2016) and Harjumaa (2017) and population increase in Tallinn’s immediate surroundings over the past 20 years. Population in 1998 = 100%</p>
 
-
 ```{r, figure155, out.width='90%', fig.align='center', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 library(gridExtra)
 library(grid)
 
-  fig155_data1 <- read.csv ("data/15_fig5_data1.csv", header=TRUE, fileEncoding="utf-8")
+  fig155_data1 <- read.csv ("../data/15_fig5_data1.csv", header=TRUE, fileEncoding="utf-8")
 
-  fig155_data1$number_of_cars <- factor (  fig155_data1$number_of_cars, levels = c("Pole autot", "1 auto", "2 või enam autot"))
-
-  fig155_data2 <- read.csv ("data/15_fig5_data2.csv", header=TRUE, fileEncoding="utf-8")
+  fig155_data2 <- read.csv ("../data/15_fig5_data2.csv", header=TRUE, fileEncoding="utf-8")
 
   fig155_line <- data.frame(x=c(0, 5),
                 y=c(100, 100))
+  
+  fig155_data1$number_of_cars_eng[grepl("1 auto",fig155_data1$number_of_cars)]<-"1 car"
+  fig155_data1$number_of_cars_eng[grepl("2 või enam autot",fig155_data1$number_of_cars)]<-"2 or more cars"
+  fig155_data1$number_of_cars_eng[grepl("Pole autot",fig155_data1$number_of_cars)]<-"No car"
+    
+  fig155_data1$number_of_cars_eng <- factor (  fig155_data1$number_of_cars_eng, levels = c("No car", "1 car", "2 or more cars"))
+  
+  fig155_data2$growth_of_population_eng[grepl("Viimsi vald",fig155_data2$growth_of_population)]<-"Viimsi\n municipality"
+  fig155_data2$growth_of_population_eng[grepl("Harku vald",fig155_data2$growth_of_population)]<-"Harku\n municipality"
+  fig155_data2$growth_of_population_eng[grepl("Rae vald",fig155_data2$growth_of_population)]<-"Rae\n municipality"
+  fig155_data2$growth_of_population_eng[grepl("Kiili vald",fig155_data2$growth_of_population)]<-"Kiili\n municipality"
 
 
   fig155_plot1 <- ggplot(data = fig155_data1) +
     geom_bar(mapping = aes(x=area, y=value, fill=area), width=0.7, stat="identity", position = "dodge") +
     scale_fill_manual(values=c("#369B9E","#482683")) +
-    facet_wrap(~number_of_cars, nrow=1) +
+    facet_wrap(~number_of_cars_eng, nrow=1) +
     labs(y="%", x="") +
     expand_limits (y=0)
 
     fig155_plot2 <- ggplot() +
-    geom_bar(data = fig155_data2, mapping = aes(x=growth_of_population, y=value, fill=growth_of_population), width=0.7, stat="identity") +
+    geom_bar(data = fig155_data2, mapping = aes(x=growth_of_population_eng, y=value, fill=growth_of_population_eng), width=0.7, stat="identity") +
       geom_line(data = fig155_line, mapping=aes(x=x, y=y), col="#482683") +
     scale_fill_manual(values=c("#B6A8CD","#b1e0f9","#369B9E","#482683")) +
     labs(y="%", x="") +
@@ -269,7 +285,7 @@ library(grid)
           panel.grid.minor.x = element_blank(),
           legend.position = "none",
            text = element_text(size = 10)
-
+      
     )
 
 grid.arrange(fig155_plot1 + fig_theme_general + fig155_theme1, fig155_plot2  + fig_theme_general + fig155_theme2, ncol = 2)
@@ -298,19 +314,25 @@ Commuting trends over the past decade show that using cars has become more popul
 library("tidyverse")
 library("plotly")
 
- fig156_data <- read.csv ("data/15_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
+ fig156_data <- read.csv ("../data/15_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
 
  fig156_data$value=as.numeric(levels(fig156_data$value))[fig156_data$value]
+ 
+  fig156_data$variable_eng[grepl("Jalgsi",fig156_data$variable)]<-"On foot"
+  fig156_data$variable_eng[grepl("Sõiduautoga",fig156_data$variable)]<-"By car"
+  fig156_data$variable_eng[grepl("Ühissõidukiga",fig156_data$variable)]<-"By public transport"
+  
+  fig156_data$variable_eng <- factor (fig156_data$variable_eng, levels = c("On foot", "By car", "By public transport"))
 
-  fig156_plot <- ggplot(subset(fig156_data, variable %in% c("Jalgsi", "Sõiduautoga", "Ühissõidukiga"))) +
-    geom_line(mapping = aes(x=year, y=value, colour=variable, group=variable, text = paste("", variable,
+  fig156_plot <- ggplot(subset(fig156_data, variable_eng %in% c("On foot", "By car", "By public transport"))) +
+    geom_line(mapping = aes(x=year, y=value, colour=variable_eng, group=variable_eng, text = paste("", variable_eng,
                          "<br>", year,
                          "<br>", value)), size=0.75) +
     scale_x_continuous(breaks=c(2000,2002,2004,2006,2008,2010,2012,2014,2016), expand = c(0, 0), limits=c(2000,2017.5)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,71)) +
     scale_colour_manual(values=c("#1f9a9e","#482683","#83d0f5"))+
     facet_wrap(~area, nrow=1) +
-    labs(y="Liikumisviisi osakaal (%)", x="") +
+    labs(y="Share of modal use (%)", x="") +
     expand_limits (y=0)
 
   fig156_theme <- theme (
@@ -319,10 +341,11 @@ library("plotly")
   )
 
 ggplotly(fig156_plot + fig_theme_general + fig156_theme, tooltip = "text" ) %>%
-config(displayModeBar = F)   %>%
-layout(legend = list(orientation = "h",y = 1.15)) %>%
+config(displayModeBar = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
+
 
   #ggsave(path="exported_figures/PDF/chapter1",filename="fig156.pdf",fig156_plot + fig156_theme +fig_theme_general, height=90, width=150, units="mm")
 ```
@@ -349,14 +372,27 @@ Motorisation has been a nationwide trend. According to the Estonian Road Adminis
 library("tidyverse")
 library("scales")
 
- fig157_data1 <- read.csv ("data/15_fig7_data1.csv", header=TRUE, fileEncoding="utf-8")
+ fig157_data1 <- read.csv ("../data/15_fig7_data1.csv", header=TRUE, fileEncoding="utf-8")
 
-fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab kodus, töötab ja ööbib samas kohas","Ühissõidukiga", "Ametiauto, töökoha sõidukiga","Isikliku autoga","Jalgratta, mopeedi, mootorrattaga","Jalgsi"))
+fig157_data1$variable_eng[grepl("Jalgsi",fig157_data1$variable)]<-"On foot"
+fig157_data1$variable_eng[grepl("Töötab kodus",fig157_data1$variable)]<-"Works at home, works and lives in the same place"
+fig157_data1$variable_eng[grepl("Ühissõidukiga",fig157_data1$variable)]<-"Public transport"
+fig157_data1$variable_eng[grepl("Ametiauto, töökoha sõidukiga",fig157_data1$variable)]<-"Take-home vehicle"
+fig157_data1$variable_eng[grepl("Isikliku autoga",fig157_data1$variable)]<-"Private car"
+fig157_data1$variable_eng[grepl("Jalgratta, mopeedi, mootorrattaga",fig157_data1$variable)]<-"Bicycle, moped, motorcycle"
 
- fig157_data2 <- read.csv ("data/15_fig7_data2.csv", header=TRUE, fileEncoding="utf-8")
+fig157_data1$variable_eng <- factor ( fig157_data1$variable_eng, levels = c("Works at home, works and lives in the same place","Public transport", "Take-home vehicle","Private car","Bicycle, moped, motorcycle","On foot"))
+  
+ fig157_data2 <- read.csv ("../data/15_fig7_data2.csv", header=TRUE, fileEncoding="utf-8")
 
+fig157_data2$variable_eng[grepl("Keskmine põhitöökohale jõudmise aeg",fig157_data2$variable)]<-"Average time of travel to main job (min)"
+fig157_data2$variable_eng[grepl("Põhitöökoha keskmine kaugus elukohast",fig157_data2$variable)]<-"Average distance from place of residence to main job (km)"
+
+fig157_data2$variable_eng <- factor ( fig157_data2$variable_eng, levels = c("Average time of travel to main job (min)","Average distance from place of residence to main job (km)"))
+ 
+ 
   fig157_plot1 <- ggplot() +
-    geom_bar(data = fig157_data1, mapping = aes(x=year, y=value, fill=variable, text = paste("", variable,
+    geom_bar(data = fig157_data1, mapping = aes(x=year, y=value, fill=variable_eng, text = paste("", variable_eng,
                          "<br>", year,
                          "<br>", value,"%")), width=0.7, stat="identity") +
     scale_fill_manual(values=c("#2d6a6d","#b1e0f9","#4bb1ca","#6D519C","#369B9E","#241342")) +
@@ -364,15 +400,15 @@ fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab k
     scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017)) +
     scale_y_continuous(breaks=c(20, 40,60,80,100)) +
     guides(fill=guide_legend(nrow=6,byrow=TRUE)) +
-    labs(y="Peamine tööle liikumise viis (%)", x="")
+    labs(y="Main mode of travel to work (%)", x="")
 
 
   fig157_plot2 <- ggplot() +
-    geom_line(data = fig157_data2, mapping = aes(x=year, y=value, colour=variable, group=variable, text = paste("", variable,
+    geom_line(data = fig157_data2, mapping = aes(x=year, y=value, colour=variable_eng,group=variable_eng, text = paste("", variable_eng,
                          "<br>", value,
                          "<br>", year)), size=0.75) +
     scale_colour_manual(values=c("#369B9E","#482683")) +
-    labs(y="", x="") +
+    labs(y="", x="aasta") +
     scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017), expand = c(0, 0), limits=c(1997,2017.5)) +
     scale_y_continuous(breaks=c(5, 10,15,20,25), expand = c(0, 0), limits=c(0,25)) +
     expand_limits (y=0)
@@ -390,17 +426,16 @@ fig157_data1$variable <- factor (  fig157_data1$variable, levels = c("Töötab k
            text=element_text(family="Montserrat")
   )
 
-
 ggplotly(fig157_plot1 + fig_theme_general + fig157_theme1, tooltip = "text" ) %>%
-config(displayModeBar = F)   %>%
-layout(legend = list(orientation = "h",y = 1.15)) %>%
+config(displayModeBar = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
 
 ggplotly(fig157_plot2 + fig_theme_general + fig157_theme2, tooltip = "text" ) %>%
-config(displayModeBar = F)   %>%
-layout(legend = list(orientation = "h",y = 1.15)) %>%
+config(displayModeBar = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -409,6 +444,7 @@ layout(yaxis = list(fixedrange = TRUE))
 
     #ggsave(path="exported_figures/PDF/chapter1",filename="fig157b.pdf",fig157_plot2  +fig_theme_general + fig157_theme2, height=100, width=210, units="mm")
 ```
+
 </div>
 <div class="mobile-plot">
 ```{r, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
@@ -446,11 +482,19 @@ Not enough competitive and attractive alternatives to car traffic have been offe
 
 <p class="caption" id="figure158"><span class="figure-number">Figure 1.5.8.</span> Comparison of the competitiveness of modes of mobility in terms of time</p>
 
+<p class="caption" id="figure158"><span class="figure-number">Joonis 1.5.8.</span> Liikumisviiside ajalise konkurentsivõime võrdlus</p>
+
 ```{r, figure158, fig.align='center', out.width='80%', echo=FALSE, message=FALSE}
 
 library("tidyverse")
 
- fig158_data <- read.csv ("data/15_fig8_data.csv", header=TRUE, fileEncoding="utf-8", sep = ";")
+ fig158_data <- read.csv ("../data/15_fig8_data.csv", header=TRUE, fileEncoding="utf-8", sep = ";")
+ 
+ fig158_data$liikumisviis_eng[grepl("Autoga", fig158_data$liikumisviis)]<-"By car"
+ fig158_data$liikumisviis_eng[grepl("Jala", fig158_data$liikumisviis)]<-"On foot"
+fig158_data$liikumisviis_eng[grepl("Jalgrattaga", fig158_data$liikumisviis)]<-"By bicycle"
+
+fig158_data$liikumisviis_eng <- factor (fig158_data$liikumisviis_eng, levels = c("By car","On foot", "By bicycle"))
 
   fig158_line <- data.frame(x=c(0,1,1,1,0,3,3,3),
                 y=c(14,14,14,0,17,17,17,0), line=c(1,1,2,2,3,3,4,4))
@@ -458,12 +502,12 @@ library("tidyverse")
   fig158_plot <- ggplot() +
     geom_line(fig158_line, mapping = aes(x=x, y=y, group=line), colour="#3A404A",size=0.5, show.legend = NA, linetype = "dashed") +
 
-    geom_line(data = fig158_data, mapping = aes(x=distance, y=time, colour=liikumisviis, group=liikumisviis), size=1) +
+    geom_line(data = fig158_data, mapping = aes(x=distance, y=time, colour=liikumisviis_eng, group=liikumisviis_eng), size=1) +
     scale_x_continuous(breaks=c(0,1,2,3,4,5),expand = c(0, 0), limits=c(0,5.1)) +
     scale_y_continuous(expand = c(0, 0), limits=c(0,70)) +
     expand_limits (y=0) +
     scale_colour_manual(values=c("#482683","#369B9E","#b1e0f9")) +
-    labs(y="Kulunud aeg (min)", x="Vahemaa (km)")
+    labs(y="Elapsed time (min)", x="Distance (km)")
 
 
     fig158_theme <- theme (

@@ -67,7 +67,7 @@ The accessibility of spatial data in Estonia is uneven, data quality fluctuates 
 
 ```{r, figure241, out.width='100%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/2-chapter/fig241.png")
+knitr::include_graphics("../figures/2-chapter/fig241_eng.jpg")
 ```
 ```{block, type='imgsource'}
 <span class="imgsource-source">Source:</span> Figure by the authors.
@@ -97,7 +97,7 @@ Nevertheless, a positive shift towards more data-driven management decisions is 
 <p class="caption" id="figure242"><span class="figure-number">Figure 2.4.2.</span> The potential of the Tallinn bicycle path network based on residential locations.</p>
 ```{r, figure242, out.width='100%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/2-chapter/fig242.png")
+knitr::include_graphics("../figures/2-chapter/fig242_eng.jpg")
 
 ```
 ```{block, type='imgsource'}
@@ -133,7 +133,7 @@ A recent study of pedestrian mobility in central Tallinn ([Puusepp et al. 2017](
 
 <p class="caption" id="figure243"><span class="figure-number">Figure 2.4.3.</span> Computer-simulated pedestrian routes in central Tallinn.</p>
 ```{r, figure243, out.width='100%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("figures/2-chapter/fig243.png")
+knitr::include_graphics("../figures/2-chapter/fig243.png")
 ```
 </div>
 ```{block, type='imgsource'}

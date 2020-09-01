@@ -37,7 +37,7 @@ Different forms of public participation and democracy developed in the course of
 <p class="caption" id="figure341"><span class="figure-number">Figure 3.4.1.</span> Protest meeting on 19 May 1987</p>
 ```{r, figure341, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/3-chapter/fig341.png")
+knitr::include_graphics("../figures/3-chapter/fig341.png")
 
 ```
 
@@ -86,59 +86,59 @@ The main problem with strategic projects that affect national interests, but als
 <table id="table_341" style="width:100%">
 
   <tr>
-    <th colspan="5" class="table_341_blank">OTSUSE LIIK</th>
+    <th colspan="5" class="table_341_blank">TYPE OF DECISION</th>
   </tr>
 
   <tr>
     <th class="table_341_blank"></th>
     <th class="table_341_blank"></th>
-    <th class="table341_green">Üksikobjekti kavandamine</th>
-    <th class="table341_green">Ruumiline planeering</th>
-    <th class="table341_green">Poliitika/ strateegia</th>
+    <th class="table341_green">Specific project</th>
+    <th class="table341_green">Spatial plan</th>
+    <th class="table341_green">Policy/strategy</th>
   </tr>
 
   <tr>
-  <th rowspan="3" class="table_341_blank table_341_vertical">RUUMILINE ULATUS</th>
-    <th class="table341_dark_green">KOHALIK</th>
-    <td class="table341_purple">Erinevad load, nt:<br>
-• vee erikasutuseks<br>
-• kaevandamiseks<br>
-• metsaraieks<br>
-• hoonete rajamiseks
-Detailplaneeringud</td>
+  <th rowspan="3" class="table_341_blank table_341_vertical">GEOGRAPHIC SCOPE</th>
+    <th class="table341_dark_green">LOCAL</th>
+    <td class="table341_purple">Permits, e.g.:<br>
+• for special use of water<br>
+• for mining<br>
+• for forestry activities<br>
+• for construction of buildings
+Detailed spatial plans</td>
 
-  <td>Üldplaneeringud</td>
-  <td>Arengukavad, nt:<br>
-• kohaliku omavalit- suse arengukava<br>
-• jäätmehooldus- kava<br>
-• ühisveevärgi arendamise kava</td>
+  <td>Comprehensive plans</td>
+  <td>Development plans, e.g.:<br>
+• municipal development plans<br>
+• waste management plans<br>
+• development plans for public water supply and waste water systems</td>
 </tr>
 
   <tr>
-    <th class="table341_dark_green">REGIONAALNE</th>
-    <td>Erinevad regionaalse tähtsusega taristuobjektid, nt:<br>
-• elektriliinid<br>
-• maanteed<br>
-• raudteed<br>
-• jäätmekeskused</td>
+    <th class="table341_dark_green">REGIONAL</th>
+    <td>Regional infrastructure objects, e.g.:<br>
+• power lines<br>
+• roads<br>
+• railways<br>
+• waste treatment centres</td>
 
-  <td>Maakonnaplaneering</td>
-  <td>Piirkondlikud kavad, nt piirkondlikud arengukavad, arengustra- teegiad</td>
+  <td>County spatial plan</td>
+  <td>Regional plans, e.g. regional development plans, development strategies</td>
 </tr>
 
   <tr>
-    <th class="table341_dark_green">RIIKLIK</th>
-    <td class="table341_purple">Üleriigilise tähtsusega objektid, nt:<br>
-• suursadamad<br>
-• põhimaanteed<br>
-• kaitseväe harjutus- väljakud<br>
-• suurtehased</td>
+    <th class="table341_dark_green">NATIONAL</th>
+    <td class="table341_purple">Facilities of national importance, e.g.:<br>
+• major harbours<br>
+• national main roads<br>
+• practice grounds for the defence forces<br>
+• large industrial installations</td>
 
-  <td>Üleriigiline planeering</td>
-  <td class="table341_purple">Riiklikud arengukavad ja strateegiad, nt:<br>
-•&nbsp;maapõuepoliitika põhialused<br>
-• looduskaitse arengukava<br>
-• metsanduse arengukava</td>
+  <td>National spatial plan</td>
+  <td class="table341_purple">National development plans and strategies, e.g.:<br>
+•&nbsp;framework strategy for mineral resources<br>
+• development plan for nature conservation<br>
+• development plan for forestry</td>
 </tr>
 
 </table>
@@ -181,7 +181,7 @@ Public participation and communication with the stakeholders should also not be 
 
 ```{r, figure342, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/3-chapter/fig342.png")
+knitr::include_graphics("../figures/3-chapter/fig342_eng.jpg")
 
 ```
 
@@ -205,7 +205,7 @@ For those using databases on environmental information, there is a wide choice o
 
 ```{r, figure343, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/3-chapter/fig343.png")
+knitr::include_graphics("../figures/3-chapter/fig343_eng.jpg")
 
 ```
 
@@ -236,16 +236,15 @@ In countries with advanced citizen science, such as the United Kingdom, citizens
 <p class="caption" id="figure344"><span class="figure-number">Figure 3.4.4.</span> The number of observers (A1) and observations (A2) inserted in the Estonian Nature Observations Database and the use of the University of Tartu Natural History Museum’s PlutoF database by birdwatchers (B1, B2) over a period of nine years</p>
 
 <div class="desktop-plot">
-```{r, figure344, out.width="90%", fig.asp=1.5, message=FALSE, echo=FALSE, warning=FALSE}
+```{r, figure344, fig.asp=1.5, message=FALSE, echo=FALSE, warning=FALSE}
 
 library("tidyverse")
 library("reshape")
 library("gridExtra")
-library("plotly")
 
 
-fig344_data12 <- read.csv ("data/34_fig4_data1.csv", header=TRUE, fileEncoding="utf-8",check.names=FALSE)
-fig344_data34 <- read.csv ("data/34_fig4_data2.csv", header=TRUE, fileEncoding="utf-8",check.names=FALSE)
+fig344_data12 <- read.csv ("../data/34_fig4_data1.csv", header=TRUE, fileEncoding="utf-8",check.names=FALSE)
+fig344_data34 <- read.csv ("../data/34_fig4_data2.csv", header=TRUE, fileEncoding="utf-8",check.names=FALSE)
 
 fig344_data12 <- melt (fig344_data12, id=c("variable"))
 names(fig344_data12) [2] <- "year"
@@ -257,16 +256,21 @@ fig344_data34$year <- as.numeric(as.character(fig344_data34$year))
 fig344_data <- bind_rows(fig344_data12,fig344_data34)
 fig344_data <- fig344_data[order(fig344_data$year),]
 
-fig344_data$variable <- factor(fig344_data$variable, levels = c("Isikuid","Vaatusi","Linnuvaatlejate arv","Linnuvaatluste arv"))
+fig344_data$variable_eng[grepl("Isikuid", fig344_data$variable)]<-"Number of users"
+fig344_data$variable_eng[grepl("Vaatusi", fig344_data$variable)]<-"Number of observations"
+fig344_data$variable_eng[grepl("Linnuvaatlejate arv", fig344_data$variable)]<-"Number of birdwatchers"
+fig344_data$variable_eng[grepl("Linnuvaatluste arv", fig344_data$variable)]<-"Number of bird observations"
+
+fig344_data$variable_eng <- factor(fig344_data$variable_eng, levels = c("Number of users","Number of observations","Number of birdwatchers","Number of bird observations"))
 
 
   fig344_plot <- ggplot() +
-    geom_line(data = fig344_data, mapping = aes(x=year, y=as.numeric(value), group=variable, colour=variable, text = paste("", year,
+    geom_line(data = fig344_data, mapping = aes(x=year, y=as.numeric(value), group=variable_eng, colour=variable_eng, text = paste("", year,
                          "<br>", value)), size=0.75) +
     labs(y="", x="") +
     expand_limits (y=0) +
     scale_x_continuous(expand = c(0, 0), limits=c(2008,2017.5), breaks=c(2009,2011,2013,2015,2017)) +
-    facet_wrap(~variable, nrow=4, strip.position="left", scales = "free_y") +
+    facet_wrap(~variable_eng, nrow=4, strip.position="left", scales = "free_y") +
     scale_colour_manual(values=c("#79ac2c", "#5b8121", "#79ac2c", "#5b8121"),guide = guide_legend(reverse = TRUE))
 
   fig344_theme <- theme (
@@ -278,14 +282,15 @@ fig344_data$variable <- factor(fig344_data$variable, levels = c("Isikuid","Vaatu
   )
 
 ggplotly(fig344_plot + fig_theme_general + fig344_theme, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>%
-layout(legend = list(orientation = "h",y = 1.15)) %>%
+config(displayModeBar = F, collaborate = F)   %>% 
+layout(legend = list(orientation = "h",y = 1.15)) %>% 
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
-# ggsave(path="exported_figures/PDF/chapter3",filename="fig344.pdf",fig344_plot + fig_theme_general+    fig344_theme, height=217, width=142, units="mm")
+#ggsave(path="../exported_figures/PDF/chapter3",filename="fig344.pdf",fig344_plot + fig_theme_general+    fig344_theme, height=217, width=142, units="mm")
 
 ```
+
 </div>
 
 <div class="mobile-plot">
@@ -295,6 +300,7 @@ print(fig344_plot + fig_theme_general + fig344_theme)
 
 ```
 </div>
+
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Estonian Nature Observations Database website; PlutoF database. Compiled by Veljo Runnel.</div>
@@ -312,7 +318,7 @@ After several court cases, scientific analyses, field trips to the bog and commu
 <p class="caption" id="figure345"><span class="figure-number">Figure 3.4.5.</span> Ess-soo community gathering mushrooms</p>
 ```{r, figure345, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
-knitr::include_graphics("figures/3-chapter/fig345.png")
+knitr::include_graphics("../figures/3-chapter/fig345.png")
 
 ```
 </div>
