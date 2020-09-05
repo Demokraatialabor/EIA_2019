@@ -70,7 +70,7 @@ print(fig151_plot + fig_theme_general + fig151_theme)
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Eurostat 2019.</div>
-<div><a class="data-btn" href="data/15_fig1_data2.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/15_fig1_data2.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 Therefore, the rapid motorisation of Eastern Europe, including Estonia, in the 1990s and 2000s, can be regarded as compensation for the difference caused by political systems. Considering historical motorisation trends (e.g. in the United States), the pace of motorisation will come to a halt sooner or later. The reasons vary, but the bottom line is that everyone who ever wanted to own a car will have acquired one, while every new car user has experienced difficulties with parking space and traffic jams due to the large number of cars. Therefore, the rapid pace of motorisation in previous periods cannot serve as the basis for future predictions and decisions, such as road construction planning.
@@ -164,7 +164,7 @@ tmap_mode("view")
 
 ```{block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Statistics Estonia 2018, Nõmm 2018.</div>
-<div><a class="data-btn" href="data/15_fig3_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/15_fig3_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 
 Intensifying car traffic reduces the number of travellers using public transport and this makes good services more expensive and difficult to provide in low-density areas. The decreasing quality and frequency of public transport in turn favours motorisation. According to the Estonian Road Administration, the number of passengers on county routes nearly halved in 2003–2016; the decrease was especially rapid in 2003–2009 ([Figure 1.5.4](#figure154)). These years were a period of rapid increase in wealth and motorisation that led to a shift in modes of mobility in favour of cars. The number of users of public transport has decreased even though the mileage of public transport vehicles has not decreased during the same period.
@@ -215,7 +215,7 @@ print(fig154_plot + fig_theme_general + fig154_theme)
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Estonian Road Administration.</div>
-<div><a class="data-btn" href="data/15_fig4_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/15_fig4_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 ```{block, type='casebox'}
@@ -296,7 +296,7 @@ grid.arrange(fig155_plot1 + fig_theme_general + fig155_theme1, fig155_plot2  + f
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Kantar Emor 2018; Statistics Estonia 1998, 2018.</div>
-<div><a class="data-btn" href="data/15_fig5_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/15_fig5_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 As in low-density rural areas, life without a car is also complicated in peri-urban areas. In areas just outside Tallinn in Harjumaa, an average of eight households out of ten have a private car, while nearly half of the households have two or more cars ([Figure 1.5.5](#figure155)). A mobility study of Tallinn’s direct surroundings conducted by Kantar Emor in 2018 for the Estonian Road Administration shows that the inhabitants of Harjumaa use a car for nearly two out of three trips, while Tallinn residents only make about half of all trips by car. According to TNS Emor 2015 data, people living in urban centres use cars less than those living in the suburbs. An opposite trend is apparent in the use of public transport. The percentage of public transport users is higher in Tallinn than in the city’s hinterland. There are also differences within the hinterland. In the Lääne-Harju rural municipality, which includes the town of Keila with a good electric rail connection with Tallinn, people use the train for 16% of their trips. On the other hand, in the Saku rural municipality, which has a rail connection but the train service is less frequent and connections with Tallinn are poorer, only 1% of all trips to the capital city are taken by train.
@@ -360,7 +360,7 @@ layout(yaxis = list(fixedrange = TRUE))
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Statistics Estonia.</div>
-<div><a class="data-btn" href="data/15_fig6_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/15_fig6_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 Motorisation has been a nationwide trend. According to the Estonian Road Administration ([2017](#Maanteeamet2017)) the mileage of cars has increased 16% in 2013–2017. While public transport remains competitive in regional centres, the people living in peri-urban and remote areas increasingly depend on cars. This means that efforts to reduce the use of cars at national and municipal levels have not been sufficient.
@@ -457,7 +457,7 @@ layout(yaxis = list(fixedrange = TRUE))
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Statistics Estonia.</div>
-<div><a class="data-btn" href="data/15_fig7_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/15_fig7_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 Not all journeys are made to go to work or for shopping. Nearly one-tenth of journeys by car are made to take children to school or kindergarten. In the peri-urban areas of Tallinn, 12% of people drive daily to give rides to others, within which women up to the age of 34 represent the largest group ([Kantar Emor 2018](#Kantar2018)). Tallinn therefore repeats the global experience that living outside a city means actively using a car, giving rides to children, and that mostly mothers fulfil this role ([McCarthy jt 2017](#McCarthy2017)).
@@ -521,7 +521,7 @@ fig158_data$liikumisviis_eng <- factor (fig158_data$liikumisviis_eng, levels = c
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Tallinn Bicycle Strategy 2018–2027.</div>
-<div><a class="data-btn" href="data/15_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/15_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 The coverage of bicycle paths is more than two times lower in Tallinn compared to the capital cities (Helsinki, Stockholm) of Estonia’s neighbouring countries ([Otsus 2016](#Otsus2016)). For example, in the centre of Tallinn, the bicycle path network is fragmented and has poor connections to the railway and bus stations. Bicycles could be used much more in our climate zone throughout the year: according to Statistics Estonia, only 1.6% of the inhabitants of Tallinn used a bicycle to go to work in 2017, while in the neighbouring capitals of similar climate such as Helsinki and Stockholm, 11% and 9% respectively of all trips were made by bicycle ([ECF 2013](#ECF2013)). This is explained by the general practice of developing travel options in Estonia, which has not valued the creation of space for bicycles so far.

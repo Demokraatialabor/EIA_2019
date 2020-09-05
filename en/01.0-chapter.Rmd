@@ -100,7 +100,7 @@ print(fig101_plot + fig_theme_general + fig101_theme)
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Statistics Estonia 2000; 2018.</div>
-<div><a class="data-btn" href="../data/10_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/10_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 A shrinking network of local centres starts to limit the opportunities for living in more remote areas. A network of centres traditionally operates hierarchically: daily services should be available in centres close to where people live, other services that people need less frequently should be present in larger centres that people may also visit regularly. If the daily activities of a family can be accomplished within a reasonable distance from home, there is no need to leave the region permanently. By its very nature, commuting is a substitute for out-migration – although time-consuming and costly, and wasteful of natural resources, it prevents the periphery from extreme shrinkage. The principle that centres are necessary to serve the surrounding regions has been followed in the Estonian county-level spatial plans (A guide for defining centres and functional zones in county spatial plans 2013). In cooperation with the Ministry of the Interior ([Tõnurist et al. 2014](#Tõnurist2014)) Statistics Estonia has proposed a network of local centres and respective catchment zones that should be maintained in order to avoid further shrinkage in peripheral regions.

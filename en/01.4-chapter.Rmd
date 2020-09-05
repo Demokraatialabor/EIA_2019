@@ -71,7 +71,7 @@ fig141_data$percent=percent((fig141_data$value/100), 1)
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Estonian Social Survey 2017 (Statistics Estonia).</div>
-<div><a class="data-btn" href="data/14_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="d../ata/14_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 
@@ -133,7 +133,7 @@ print(fig142_plot + fig_theme_general + fig142_theme)
 </div>
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Estonian Social Survey 2017 (Statistics Estonia).</div>
-<div><a class="data-btn" href="data/14_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/14_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 Over the years, access to housing has improved and there is also more space per person. According to the census data, at the turn of the millennium there was 24.4 square metres of floor area and 1.08 rooms per capita, but by 2011, the corresponding figures were already 31.4 square metres and 1.28 rooms. Based on this indicator, we are in a relatively high position compared to other EU countries.
@@ -179,7 +179,7 @@ fig143_data$area_eng[grepl("Väikelinnad",fig143_data$area)]<-"Small towns and r
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Estonian Social Survey 2017 (Statistics Estonia).</div>
-<div><a class="data-btn" href="data/14_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/14_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 Approximately half of the Estonian population lives in dwellings which, in their opinion, require modernisation due to being in very poor condition or with significant deficiencies. Satisfaction with living conditions is influenced by the age and type of residential building: there are more problems with dwellings in older buildings, as well as with smaller buildings (both apartment buildings and single-family homes) ([Figure 1.4.4](#figure144)). Residents of large (relatively new) apartment buildings rate the housing condition slightly better. The situation is worse for housing in small towns and rural areas, and the rental sector as a whole has somewhat more shortcomings compared to owner-occupied housing.
@@ -264,7 +264,7 @@ grid.arrange(fig144_plot1 + fig144_theme + fig_theme_general, fig144_plot2 + fig
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Estonian Social Survey 2017 (Statistics Estonia).</div>
-<div><a class="data-btn" href="data/14_fig4_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/14_fig4_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 <div class="casebox">
@@ -336,7 +336,7 @@ print(fig147_plot + fig_theme_general +   fig147_theme)
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Estonian Social Survey 2017 (Statistics Estonia)..</div>
-<div><a class="data-btn" href="data/14_fig7_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/14_fig7_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 ```{block, type='blockquote-right'}
@@ -402,7 +402,7 @@ print(fig148_plot + fig148_theme + fig_theme_general)
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Estonian Social Survey 2017 (Statistics Estonia).</div>
-<div><a class="data-btn" href="data/14_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/14_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 ### The housing sector was fully geared towards market-based housing after independence was restored {-.chapter1_section}
@@ -489,7 +489,7 @@ grid.arrange(fig149_plot1 + fig_theme_general + fig149_theme1, fig149_plot2 + fi
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> EEstonian Social Survey 2017 (Statistics Estonia).</div>
-<div><a class="data-btn" href="data/14_fig9_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/14_fig9_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 By the 2000s, the state had almost completely withdrawn from housing policy, and the housing market was operating on the principles of a market economy. However, it then became evident that the market and private initiative alone do not guarantee access to housing or improve the quality of the housing stock by updating it sufficiently, and therefore in the 2000s, measures to promote the improvement of the housing stock and the development of rental housing stock have also been introduced.
@@ -603,7 +603,7 @@ knitr::include_graphics("../figures/1-chapter/fig1411_eng.jpg")
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> KredEx.</div>
-<div><a class="data-btn" href="data/14_fig11_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/14_fig11_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 SConsequently, it can be said that in those regions where less economic, social and knowledge capital exists, fewer government grants have been used. This impact is cumulative: without construction and renovation activities, positive role models will not develop in the neighbourhood. Renovation initiatives will also benefit those who are less well-off financially and living in the same residential buildings. Previous studies show that there is no significant correlation between the active receipt of reconstruction grants and the average prosperity of the inhabitants of apartment buildings ([Hess et al. 2019](#Hess2019)). This indicates that social diversity is a resource for the renovation of apartment buildings that benefits all residents. However, the income-based nature of grants indirectly helps to equalise regional disparities.
 

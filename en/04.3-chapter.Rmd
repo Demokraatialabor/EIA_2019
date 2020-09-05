@@ -64,7 +64,7 @@ layout(yaxis = list(fixedrange = TRUE))
 </div>
 ```{block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Reporters without Borders 2018.</div>
-<div><a class="data-btn" href="../data/43_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/43_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 
 Diverse, inclusive and reasoned debate is a prerequisite for a democratic society and a guarantee of its continuation – the basic principles and rules of our common life and the best way of reacting to the challenges of a changing world are debated in our public deliberative space.
@@ -170,7 +170,7 @@ print(fig433_plot + fig_theme_general + fig433_theme)
 </div>
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Figure by the author.</div>
-<div><a class="data-btn" href="../data/43_fig3_data1.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/43_fig3_data1.csv"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 
 The access of politicians to opinion media is particularly closely monitored by the editors during the election period – the editors agree upon the topics that the politicians will be asked to comment on, and the messages of all the institutionalised political forces are communicated to the public.

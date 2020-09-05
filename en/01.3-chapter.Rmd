@@ -87,7 +87,7 @@ print(fig131_plot + fig_theme_general + fig131_theme)
 </div>
 ```{block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Statistics Estonia.</div>
-<div><a class="data-btn" href="data/13_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/13_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 In Greater Tallinn, suburbanisation has been most intense in the rural municipalities of Viimsi, Rae, Harku and Kiili, but to a lesser extent also in Saue, Saku and Jõelähtme. Unique among the new settlements of Estonia is the area of Viimsi, which, in addition to two towns – Viimsi and Haabneeme – still has 14 villages, several of which are the size of towns (Randvere, Pärnamäe and Püünsi). The suburbanisation of Tartu has been led by the rural municipalities of Ülenurme and Tartu, and to a lesser extent, Luunja, Haaslava and Tähtvere. Pärnu has spread into the rural municipalities of Audru, Sauga and Paikuse, as well as Tahkuranna.
@@ -132,7 +132,7 @@ fig132_data$area_eng <- factor(fig132_data$area_eng, levels = c("Tallinn","Talli
 
 ```{block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Statistics Estonia.</div>
-<div><a class="data-btn" href="data/13_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/13_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 ENew suburban housing (18,794 dwellings) makes up 29% of all new housing construction in Estonia (1999–2018). There are 13,438 new homes in the suburbs of Tallinn, 4,091 in the suburbs of Tartu and 1,265 in the suburbs of Pärnu ([Figure 1.3.2](#figure132)). In addition to this, there are new housing units that are inhabited but are formally still under construction, which would increase the above figures by about a quarter ([Roose et al. 2015](#Roose2015)). Since 2013, the volume of intra-urban developments in Tallinn has grown faster than the volume of suburban developments, now exceeding it three times over ([Figure 1.3.3](#figure133)). Regarding housing types, the previous majority held by detached houses in the suburbs of Tallinn gave way to semi-detached and terraced houses in the mid-2000s, while the 2010s have seen new apartments become the most popular. In Tartu, the volume of intra-urban development has remained more or less equal to suburban development, although suburbanisation has accelerated in recent years. From 2015, the suburbs of Tartu have been dominated by terraced houses and apartment buildings. The suburbanisation of Pärnu has remained steadily at an average of 50 new dwellings per year over two decades.
@@ -194,7 +194,7 @@ print(fig133_plot + fig_theme_general + fig133_theme)
 
 ```{block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Statistics Estonia.</div>
-<div><a class="data-btn" href="data/13_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/13_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 ### Suburban neighbourhoods are characterised by a fragmented settlement structure {-.chapter1_section}
 

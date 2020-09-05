@@ -304,7 +304,7 @@ print(fig344_plot + fig_theme_general + fig344_theme)
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Estonian Nature Observations Database website; PlutoF database. Compiled by Veljo Runnel.</div>
-<div><a class="data-btn" href="data/34_fig4_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/34_fig4_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 
 

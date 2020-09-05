@@ -459,7 +459,7 @@ knitr::include_graphics("../figures/0-intro/fig01_eng.jpg")
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Statistics Estonia.</div>
-<div><a class="data-btn" href="data/0_fig1_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/0_fig1_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 
 ```{block, type='blockquote-right'}
@@ -612,7 +612,7 @@ print(fig02_plot + fig_theme_general + fig02_theme)
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Population Register.</div>
-<div><a class="data-btn" href="data/0_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/0_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 The shrinkage does not involve only labour migration and the search for higher income. Excess housing stock, which is deteriorating in terms of their liveability as well as structurally and technologically, has tied down many Estonian families, as the market price of their homes has sunk. At the same time, the counties do not offer young families the opportunity to start a home in new housing. Inequality in terms of living conditions and property prices, and sporadic public transport pushes minors and retirement-age population into mobility poverty, and thereby further deepens the overall regional inequality in Estonia ([Kährik and Väiko, Ch. 1](#modern-living-conditions-whose-privilege); [Tuvikene et al., Ch. 1](#accessibility-changes-in-motorised-Estonia)).

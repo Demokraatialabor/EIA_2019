@@ -116,7 +116,7 @@ layout(yaxis = list(fixedrange = TRUE))
 </div>
 ```{block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Station.ee media monitoring, search words ‘wood processing plant’ and ‘cellulose plant’.</div>
-<div><a class="data-btn" href="../data/44_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/44_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 
 In 2017 and 2018, the keywords ‘wood processing plant’ or ‘cellulose plant’ were mentioned in the media in nearly 4,000 articles and broadcasts. The government’s June decision to initiate the cancellation of the designated planning received the most attention. Another peak was caused by the discussion in Tartu City Council in March. Forty-one per cent (41%) of media reports also mentioned universities, researchers or science in general, thereby providing an approximate measure of the extent to which the discussions were based on or referred to science. The mention of these keywords was more frequent in March 2018 and significantly less frequent in June, when the discussion of the topic reached its overall peak.

@@ -102,7 +102,7 @@ knitr::include_graphics("../figures/2-chapter/fig221_eng.jpg")
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Eurobarometer 2017.</div>
-<div><a class="data-btn" href="data/22_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/22_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 The impact of built heritage is wider still. Aside from offering sites worth visiting, it plays an important role in shaping the vitality of regions and contributing to the quality of their living environment. The report ‘Cultural Heritage Counts for Europe’ (2015), a European Union collaborative project dedicated to researching the potential of heritage, articulates its societal benefits ([Figure 2.2.2](#figure222)).
@@ -221,7 +221,7 @@ fig224_data$percent=percent((fig224_data$value/100), 1)
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Explanatory memorandum of the draft Heritage Conservation Act.</div>
-<div><a class="data-btn" href="data/22_fig4_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/22_fig4_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 Repair and restoration of monuments and buildings in heritage conservation areas is supported by the National Heritage Board to the extent possible given its annual budget. One problem has been the lack of funding: before the recession, annual grants ranged from 1.1 to 1.3 million euros, but since 2009, restoration grants have varied between 0.5 and 0.7 million euros. The average grant is around 5,000 euros, with most of the grant funds used for emergency roof repairs ([Figure 2.2.5](#figure225)).
@@ -257,7 +257,7 @@ library("tidyverse")
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> National Heritage Board..</div>
-<div><a class="data-btn" href="data/22_fig5_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/22_fig5_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 In addition to general grants for the restoration of immovable monuments, the state has used specific support measures to fund the renovation of sacral buildings between 2004 and 2018 as part of the ‘places of worship programme’, and the renovation of manor schools between 2001 and 2016 under a programme funded by the Norwegian EEA. Both programmes had a total value of over 12 million euros. In most cases, churches and manors are the largest and most prominent buildings in the settlements, with significance for a large part of the community and even attracting visitors from other areas.
@@ -313,7 +313,7 @@ layout(yaxis = list(fixedrange = TRUE))
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> National Heritage Board.</div>
-<div><a class="data-btn" href="data/22_fig6_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/22_fig6_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 As of 2019, the places of worship programme was incorporated into the National Heritage Board’s restoration grant budget; even though the budget increased by nearly half as a result, the capacity for funding private owners has remained unchanged. To improve the situation for private owners, a measure to support traditional rural architecture was created in 2019, with an initial budget of only 100,000 euros. A programme of grants for old towns is also being developed, and is expected to encourage the restoration of small-town heritage protection areas in the coming years.
@@ -365,7 +365,7 @@ layout(yaxis = list(fixedrange = TRUE))
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> National Heritage Board, Statistics Estonia.</div>
-<div><a class="data-btn" href="data/22_fig7_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/22_fig7_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 The research project ‘Protection of privately owned cultural heritage’ ([Tafel-Viia et al. 2014](#Tafel2014)) has identified the lack of a balance between restrictions concerning monuments and state financial support as one of the core issues facing private owners. Three-quarters of Estonians believe that state authorities should allocate more resources for cultural heritage ([Figure 2.2.8](#figure228)).
@@ -421,7 +421,7 @@ Outside **EU average**<br>
 Inside **Estonia**
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Eurobarometer 2017.</div>
-<div><a class="data-btn" href="data/22_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/22_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 In addition to restoration grants, the state’s contribution to cultural heritage is reflected in the management of state-owned built heritage. Nearly 60% of the private owners of monuments feel that the state and local governments are not setting a good example with their management of the monuments, as they often prefer constructing a new building to restoring an old one ([Tafel-Viia jet al.t 2014](#Tafel2014)).

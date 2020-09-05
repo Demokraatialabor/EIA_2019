@@ -84,7 +84,7 @@ print(fig421_plot + fig_theme_general+ fig421_theme)
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> EU Kids Online Estonian survey 2018; Sukk and Soo 2018.</div>
-<div><a class="data-btn" href="data/42_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/42_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 
 Daily internet use is a precondition for participating in a virtual opinion space. However, truly active participation is facilitated by a high level of digital inclusion; that is, the largest possible number of young people being able to avail themselves of the entire range of digital opportunities, which means reaching the higher, or more advanced, steps on the ladder of internet opportunities. If on the lower steps of the ladder, the online activities are related to information searches, communication and entertainment, and do not require any special digital skills, then operating at higher levels requires both additional competence and motivation ([Livingstone and Helsper 2007](#Livingstone2007); [Pruulmann-Vengerfeldt and Runnel 2012](#Pruulmann-Vengerfeldt2012)) and only a small portion of the children (less than 50%) reach these levels. [Figure 4.2.2](#figure422) shows that both creative activities (e.g. maintaining a blog or website) as well as those involving digital participation (e.g. signing petitions) are located at the higher, or more advanced, levels.
@@ -198,7 +198,7 @@ print(fig423_plot + fig_theme_general + fig423_theme)
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> EU Kids Online Estonian survey 2018; Sukk and Soo 2018.</div>
-<div><a class="data-btn" href="data/42_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/42_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 
 At the same time, the young people who participated in the focus groups considered it important that the development of digital technologies has opened up many opportunities for making changes in the world. Campaigns that have been started on social media (e.g. #MeToo, where sexually abused or assaulted people posted stories based on their experiences) encourage people to communicate their experiences and make their voices heard. At the individual level, young people found that such campaigns can create opportunities to find like-minded people and generate positive emotions. And in the social context, they can help break obsolete taboos and raise awareness ([Sukk 2018](#Sukk2018)).

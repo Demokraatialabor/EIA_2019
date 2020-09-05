@@ -84,7 +84,7 @@ tmap_mode("view")
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Statistics Estonia 2000; 2011.</div>
-<div><a class="data-btn" href="../data/12_fig1_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/12_fig1_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 
 In line with the concentration of human capital between 1995 and 2017, economic growth also favoured Harjumaa, which increased its contribution to the national GDP from 54 to 64%. Tartumaa increased its share of national GDP as well, while that of the other counties decreased, with the sharpest decline occurring in the industrial northeast of Estonia. There are also fewer and fewer jobs outside the urban centres. Commuting from the country to the cities has therefore become more commonplace. While there is no recent reliable data on commuting, a survey conducted in 2007–2009 ([Ahas et al. 2011](#Ahas2011)) showed that 28% of the population (380,000 people) were commuters in Estonia.
@@ -177,7 +177,7 @@ library("scales")
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Plüschke-Altof 2017.</div>
-<div><a class="data-btn" href="../data/12_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download Data</a></div>
+<div><a class="data-btn" href="../data/12_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
 As to how the image of peripherality is created, the analysis ([Figure 1.2.4](#figure124)), shows that opinion articles mostly associate the word ‘peripheral’ with rural areas (in 52% of cases), referring either to specific areas or ‘nameless’ places in the countryside (e.g. ‘a remote forest village’). In some cases (7.3%), all of Estonia outside Tallinn and its immediate surroundings is described as a periphery, which again reflects regional concentration. Less frequently than rural peripheries, the articles (42%) discuss peripheries in a global or EU context (e.g. Estonia’s poor flight connection, economic dependence on the EU, Estonia’s political role in the world), and by far least (3%) in an urban context (e.g. problematic city districts or outskirts). The equating of rural with peripheral is a potential stigma for rural areas because peripheries are not described neutrally, but instead as places that are economically lagging behind, geographically remote, politically dependent, institutionally thin and socially problematic. In some cases, this image of rural – or rather ‘non-urban’ – peripherality is enhanced by a narrative emphasising the responsibility of peripheral communities for local development (and by extension also deficits) or portraying them as examples of a self-induced failure. For example, newspaper opinion articles refer to a local ‘kolkhoz mentality’ or irrational resistance to ‘modern’ development. This means that the debate does not only link rural areas to peripherality in a negative sense but also holds them accountable, creating the impression that ‘there is nothing good in the country’. Through repetition, this link becomes self-evident for the readership and society more broadly.
@@ -223,7 +223,7 @@ knitr::include_graphics("../figures/1-chapter/fig124_eng.jpg")
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Allikas:</span> Plüschke-Altof 2017.</div>
-<div><a class="data-btn" href="../data/12_fig4_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/12_fig4_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 
 Although the analysis of opinion articles shows that the media debate is dominated by negative images of rural peripherality, there is also a contrasting way of thinking, expressed by representatives of rural areas (entrepreneurs, local politicians, members of interest groups, etc.). This draws on existing positive ascriptions to rural life as shown by opinion articles that describe Estonian rural areas as the ‘cradle’ of the nation, home to heritage culture and pure nature, or focus on rural development potential in areas such as tourism or organic food production. The authors of such articles respond to images of self-induced failure with examples of best practices for actively coping or emphasise the limits of responsibility at the local level, including the limited revenue base of local governments and the specific problems faced by rural entrepreneurs. They point out that local development depends on processes taking place at higher levels of government and that peripheral areas receive too little attention as a result of Estonia’s neoliberal regional policy. However, this opposing line of reasoning was primarily covered in the Maaleht newspaper, which focuses on rural issues. In general, it remained under-represented in comparison to an image of rural communities as self-induced failures.

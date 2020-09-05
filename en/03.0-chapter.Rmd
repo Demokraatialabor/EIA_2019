@@ -121,7 +121,7 @@ library("tidyverse")
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Figure by the author.</div>
-<div><a class="data-btn" href="data/30_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/30_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 
 ### The options for spending time in nature are narrowing {-.chapter3_section}
@@ -178,7 +178,7 @@ fig302_theme <- theme(
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Raudsaar et al. 2018.</div>
-<div><a class="data-btn" href="data/30_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/30_fig2_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 
 ### Neighbourhood natural areas and urban green spaces require more attention from planners {-.chapter3_section}

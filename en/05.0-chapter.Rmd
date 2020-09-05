@@ -96,7 +96,7 @@ fig51_data$scenario_eng[grepl("Stsenaarium 4", fig51_data$scenario)]<-"Scenario 
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Statistics Estonia 2019.</div>
-<div><a class="data-btn" href="../data/5_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/5_fig1_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 
 <span class="bullet-heading">**The concentration of population in large cities and the continuous emptying of the rest of Estonia is driven by accelerating economic growth occurring in urban settlements.**</span>
@@ -163,7 +163,7 @@ fig_52_plot
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Statistics Estonia 2018.</div>
-<div><a class="data-btn" href="../data/5_fig2_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/5_fig2_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 
 <span class="bullet-heading">**Infrastructure investments and high-speed train connections in particular encourage sustainable spatial planning.**</span>
@@ -301,7 +301,7 @@ fig54_data$variable_eng <- factor(fig54_data$variable_eng, levels = c("Parking s
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Cerrone et al. 2019.</div>
-<div><a class="data-btn" href="../data/5_fig4_data2.csv"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/5_fig4_data2.csv"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 
 ```{block, type='blockquote-left'}
