@@ -1,7 +1,8 @@
 ## Eesti noored virtuaalses arvamusruumis {.chapter_section .chapter4_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_ee'}
 <div class="author-links">**[Veronika Kalmus](#veronika-kalmus) ja [Andra Siibak](#andra-siibak)**</div>
+<div><a class="print-btn EE-btn" href="en/estonian-youth-in-the-virtual-opinion-space.html">EN</a></div>
 <div><a class="print-btn" href="print/EIA-2019-4.2.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 

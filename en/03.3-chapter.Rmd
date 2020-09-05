@@ -1,8 +1,8 @@
 ## Shaping natural areas for public use {.chapter_section .chapter3_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Age Poom](#age-poom) ja [Kalev Sepp](#kalev-sepp)**</div>
-<div><a class="print-btn" href="print/EIA-2019-3.3.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../loodusalade-kujundamine-avalikuks-kasutuseks.html">EE</a></div>
 ```
 
 ```{block, type='points'}

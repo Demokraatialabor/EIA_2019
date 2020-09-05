@@ -1,8 +1,8 @@
 ## Foreword {-.chapter_section .foreword_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**Kersti Kaljulaid**</div>
-<div><a class="print-btn" href="../print/EIA-2019-0-Eessona.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../eessõna.html">EE</a></div>
 ```
 
 Dear reader,
@@ -22,7 +22,7 @@ Dear reader, you will not find the answers to these questions in this report. Bu
 
 <div class=president-grid-container>
 <div president-title-container>
-<p id="happy-reading">Happy reading!</p>
+<p id="head-lugemist">Happy reading!</p>
 
 **Kersti Kaljulaid**<br>
 President of the Republic of Estonia

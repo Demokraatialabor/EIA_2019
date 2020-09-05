@@ -1,8 +1,9 @@
 
 ## Planeerimisvabaduse võidukäik eeslinna-Eestis {.chapter_section .chapter1_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_ee'}
 <div class="author-links">**[Antti Roose](#antti-roose)**</div>
+<div><a class="print-btn EE-btn" href="en/the-triumph-of-planning-freedom-in-suburban-estonia.html">EN</a></div>
 <div><a class="print-btn" href="print/EIA-2019-1.3.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 

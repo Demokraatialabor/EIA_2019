@@ -283,9 +283,16 @@ h3 .header-section-number{
 }
   
 /* authors and print button*/
-  .authors {
+  .authors_ee {
   display:grid;
-  grid-template-columns: auto 175px;
+  grid-template-columns: auto 50px 175px;
+  margin-top:-10px;
+  margin-bottom: 20px;
+}
+
+  .authors_eng {
+  display:grid;
+  grid-template-columns: auto 50px;
   margin-top:-10px;
   margin-bottom: 20px;
 }
@@ -310,9 +317,13 @@ h3 .header-section-number{
   color: #e6e3da !important;
 }
 
+.EE-btn {
+    border-top-right-radius: 0;
+}
 .print-btn i {
   padding-right:10px;
 }
+
 
 @media only screen and (max-width: 576px) {
 .authors {
@@ -323,6 +334,16 @@ h3 .header-section-number{
   float:none;
   max-width:175px;
   font-size:0.6em;
+}
+
+.EE-btn {
+  float:left;
+  margin-top:3px;
+  padding:0;
+  max-width:35px;
+  margin-right:8px;
+  height:33px;
+  line-height:31px;
 }
 }
 

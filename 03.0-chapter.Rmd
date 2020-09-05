@@ -2,10 +2,11 @@
  <script>
   window.location = "sissejuhatus-3.html";
   </script>
-## Sissejuhatus {-.chapter_section .chapter3_section .intro_section}
+## Sissejuhatus {-.chapter_section .chapter3_section .intro_section #sissejuhatus-3}
 <h1>Looduskeskkond kui avalik hüve</h1>
-```{block, type='authors'}
+```{block, type='authors authors_ee'}
 <div class="author-links">**[Asko Lõhmus](#asko-lõhmus)**</div>
+<div><a class="print-btn EE-btn" href="en/introduction-3.html">EN</a></div>
 <div><a class="print-btn" href="print/EIA-2019-3.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 

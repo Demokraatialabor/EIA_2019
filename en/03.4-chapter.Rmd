@@ -1,8 +1,8 @@
 ## Public participation in decisions on the use of natural areas {.chapter_section .chapter3_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Siim Vahtrus](#siim-vahtrus), [Liina Remm](#liina-remm), [Kärt Vaarmari](#kärt-vaarmari)**</div>
-<div><a class="print-btn" href="print/EIA-2019-3.4.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../kaasarääkimise-võimalused-loodusalade-kasutamisel.html">EE</a></div>
 ```
 
 ```{block, type='points'}

@@ -1,7 +1,8 @@
 ## Andmepõhine ruumiloome {.chapter_section .chapter2_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_ee'}
 <div class="author-links">**[Renee Puusepp](#renee-puusepp) ja [Raul Kalvo](#raul-kalvo)**</div>
+<div><a class="print-btn EE-btn" href="en/data-driven-spatial-planning.html">EN</a></div>
 <div><a class="print-btn" href="print/EIA-2019-2.4.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 

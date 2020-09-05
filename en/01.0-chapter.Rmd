@@ -7,9 +7,9 @@
 
 <h1>Diversity in the Estonian living environment</h1>
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Kadri Leetmaa](#kadri-leetmaa)**</div>
-<div><a class="print-btn" href="../print/EIA-2019-1.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../sissejuhatus-1.html">EE</a></div>
 ```
 
 ```{block, type='points'}

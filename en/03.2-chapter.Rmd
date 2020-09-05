@@ -1,8 +1,8 @@
 ## The impact of natural areas on people’s well-being {.chapter_section .chapter3_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Kati Orru](#kati-orru), [Mait Lang](#mait-lang) ja [Hans Orru](#hans-orru)**</div>
-<div><a class="print-btn" href="print/EIA-2019-3.2.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../loodusalade-mõju-inimeste-heaolule.html">EE</a></div>
 ```
 
 ```{block, type='points'}

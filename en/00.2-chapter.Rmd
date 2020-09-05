@@ -3,9 +3,9 @@
 <h1>SPATIAL DEVELOPMENT IN ESTONIA</h1>
 
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Helen Sooväli-Sepping](#helen-sooväli-sepping) ja [Antti Roose](#antti-roose)**</div>
-<div><a class="print-btn" href="../print/EIA-2019-0-Sissejuhatus.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../sissejuhatus.html">EE</a></div>
 ```
 
 ### Põhisõnumid {-.chapter0_section}

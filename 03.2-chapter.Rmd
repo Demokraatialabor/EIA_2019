@@ -1,7 +1,8 @@
 ## Loodusalade mõju inimeste heaolule {.chapter_section .chapter3_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_ee'}
 <div class="author-links">**[Kati Orru](#kati-orru), [Mait Lang](#mait-lang) ja [Hans Orru](#hans-orru)**</div>
+<div><a class="print-btn EE-btn" href="en/the-impact-of-natural-areas-on-peoples-well-being.html">EN</a></div>
 <div><a class="print-btn" href="print/EIA-2019-3.2.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 

@@ -1,8 +1,8 @@
 ## Data-driven spatial planning {.chapter_section .chapter2_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Renee Puusepp](#renee-puusepp) ja [Raul Kalvo](#raul-kalvo)**</div>
-<div><a class="print-btn" href="print/EIA-2019-2.4.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../andmepõhine-ruumiloome.html">EE</a></div>
 ```
 
 ```{block, type='points'}

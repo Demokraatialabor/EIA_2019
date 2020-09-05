@@ -1,9 +1,9 @@
 
 ## The triumph of planning freedom in suburban Estonia {.chapter_section .chapter1_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Antti Roose](#antti-roose)**</div>
-<div><a class="print-btn" href="print/EIA-2019-1.3.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../planeerimisvabaduse-võidukäik-eeslinna-eestis.html">EE</a></div>
 ```
 
 ```{block, type='points'}

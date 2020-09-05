@@ -1,7 +1,8 @@
 ## Maakasutuse muutused – linna ja maa tähenduse moondumine { .chapter_section .chapter1_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_ee'}
 <div class="author-links">**[Tõnu Oja](#tõnu-oja)**</div>
+<div><a class="print-btn EE-btn" href="en/changes-in-land-use-distortion-of-the-meaning-of-urban-and-rural.html">EN</a></div>
 <div><a class="print-btn" href="print/EIA-2019-1.1.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
@@ -99,7 +100,7 @@ fig_112_plot <- #tm_shape(fig112_maakonnad) +
       )
    
 tmap_mode("view")
-fig_112_plot
+#fig_112_plot
 
 #tmap_save(tm = fig_153_plot, filename = "figure153.png")
 #tmap_save(tm = fig_112_plot, filename = "fig112.pdf")

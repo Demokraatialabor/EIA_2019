@@ -8,7 +8,7 @@ knitr::include_graphics("../figures/5-chapter/linnades.png")
 </div>
 
 
-<div><a class="print-btn" href="print/EIA-2019-5.1-Vabatahtlikult-linnadesse.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../vabatahtlikult-linnadesse-sunnitud-eesti.html">EE</a></div>
 
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 

@@ -18,21 +18,7 @@ lang: en
 
 
 ```{block, type='poem1'}
-Sest agulist, mis ääristas<br>
-me linna, vilets mulje saadi,<br>
-kesklinna see-eest vääristas<br>
-kuus-seitse gooti kelpfassaadi.<br>
-Siin – sulgund õued, müürid, kivid.<br>
-Toas plüüš ja koid ja papagoid.<br>
-Seal – kapsamaad, tuul, hütirivid,<br>
-Paar lahjat veist – ja lapsi, noid<br>
-kriim, kilav kari... Tehkem mööndus:<br>
-see polnud kõik. Seal vahel vööndus<br>
-veel hooneid asfaltteede veeris<br>
-ja villakesi pargipeidus,<br>
-kust võõrad käskiv silt pareeris...
 
-<p id="jaankross"> Jaan Kross </p>
 ```
 </div>
 </div>
@@ -52,15 +38,7 @@ The Estonian human development reports have been published since 1995, and since
 <div id="cover-footer">
 <div class="cover-container">
 ```{block, type='poem2'}
-**ÜKSMEEL**<br>
-Eks ole pahemgi käsi parema käe vend<br>
-Ehkki nad teevad erinevaid tegusid,<br>
-Kuigi nad teineteist ei teretagi.<br>
-Ühte hoiavad nad ometi,<br>
-Sind armastades,<br>
-Oi!<br>
 
-<p id="handorunnel">Hando Runnel</p>
 ```
 </div>
 </div>
@@ -69,9 +47,9 @@ Oi!<br>
 
 ## Foreword {-.chapter_section .foreword_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**Kersti Kaljulaid**</div>
-<div><a class="print-btn" href="../print/EIA-2019-0-Eessona.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../eessõna.html">EE</a></div>
 ```
 
 Dear reader,
@@ -91,7 +69,7 @@ Dear reader, you will not find the answers to these questions in this report. Bu
 
 <div class=president-grid-container>
 <div president-title-container>
-<p id="happy-reading">Happy reading!</p>
+<p id="head-lugemist">Happy reading!</p>
 
 **Kersti Kaljulaid**<br>
 President of the Republic of Estonia
@@ -113,9 +91,9 @@ knitr::include_graphics('../figures/0-intro/Kersti_Kaljulaid_ametlik_2019.jpg')
 <h1>SPATIAL DEVELOPMENT IN ESTONIA</h1>
 
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Helen Sooväli-Sepping](#helen-sooväli-sepping) ja [Antti Roose](#antti-roose)**</div>
-<div><a class="print-btn" href="../print/EIA-2019-0-Sissejuhatus.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../sissejuhatus.html">EE</a></div>
 ```
 
 ### Põhisõnumid {-.chapter0_section}
@@ -833,9 +811,9 @@ Tambaum, T. 2016. 55+ rahvastiku internetikasutus ja sotsiaalne aktiivsus. – S
 
 <h1>Diversity in the Estonian living environment</h1>
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Kadri Leetmaa](#kadri-leetmaa)**</div>
-<div><a class="print-btn" href="../print/EIA-2019-1.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../sissejuhatus-1.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -1053,9 +1031,9 @@ It is possible that over time, current confidence in a complete market economy i
 
 ## Changes in land use: distortion of the meaning of urban and rural { .chapter_section .chapter1_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Tõnu Oja](#tõnu-oja)**</div>
-<div><a class="print-btn" href="../print/EIA-2019-1.1.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -1336,9 +1314,9 @@ Looking to the future, there will probably be no radical shifts in the trends to
 
 ## Increasing regional polarisation in Estonia {.chapter_section .chapter1_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Bianka Plüschke-Altof](#bianka-plüschke-altof), [Bradley Loewen](#bradley-loewen) ja [Kadri Leetmaa](#kadri-leetmaa)**</div>
-<div><a class="print-btn" href="../print/EIA-2019-1.2.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../keskuse-ja-ääremaa-lõhe-eestis.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -1663,9 +1641,9 @@ The competitiveness-based approach in European and Estonian regional policy has 
 
 ## The triumph of planning freedom in suburban Estonia {.chapter_section .chapter1_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Antti Roose](#antti-roose)**</div>
-<div><a class="print-btn" href="print/EIA-2019-1.3.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../planeerimisvabaduse-võidukäik-eeslinna-eestis.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -2043,9 +2021,9 @@ As people’s mobility between the urban centre and the suburbs increase, everyd
 
 ## Modern living conditions – whose privilege? {.chapter_section .chapter1_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Anneli Kährik](#anneli-kährik) ja [Annika Väiko](#annika-väiko)**</div>
-<div><a class="print-btn" href="print/EIA-2019-1.4.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../nüüdisaegsed-elamistingimused-kelle-privileeg.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -2691,9 +2669,9 @@ The inequality of living conditions exacerbates overall regional inequality in E
 
 ## Accessibility changes in motorised Estonia {.chapter_section .chapter1_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Tauri Tuvikene](#tauri-tuvikene), [Merlin Rehema](#merlin-rehema), [Dago Antov](#dago-antov)**</div>
-<div><a class="print-btn" href="print/EIA-2019-1.5.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../ligipääsetavuse-muutused-autostunud-eestis.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -3290,9 +3268,9 @@ It is true that the car enables mobility in certain situations and certainly for
   </script>
 ## Introduction {-.chapter_section .chapter2_section .intro_section #introduction-2}
 <h1>Avalik linnaruum</h1>
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Epp Lankots](#epp-lankots)**</div>
-<div><a class="print-btn" href="print/EIA-2019-2.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../sissejuhatus-2.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -3396,9 +3374,9 @@ But how do we make the physical public space work for shrinking small towns, so 
 
 ## Public space as an interconnecting network within the living environment {.chapter_section .chapter2_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Toomas Paaver](#toomas-paaver) ja [Elo Kiivet](#elo-kiivet)**</div>
-<div><a class="print-btn" href="print/EIA-2019-2.1.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../avalik-ruum-kui-elukeskkonda-siduv-võrgustik.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -3630,9 +3608,9 @@ As security and well-being are more likely to grow out of the active use of spac
 
 ## Built heritage and spatial quality {.chapter_section .chapter2_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Triin Talk](#triin-talk) ja [Siim Raie](#siim-raie)**</div>
-<div><a class="print-btn" href="print/EIA-2019-2.2.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../ehituspärand-ja-ruumikvaliteet.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -4102,9 +4080,9 @@ The use and condition of historic buildings, including monuments and heritage ar
 
 ## Urban activism in the co-creation of public space {.chapter_section .chapter2_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Keiti Kljavin](#keiti-kljavin), [Johanna Pirrus](#johanna-pirrus), [Kaija-Luisa Kurik](#kaija-luisa-kurik) ja [Ingmar Pastak](#ingmar-pastak)**</div>
-<div><a class="print-btn" href="print/EIA-2019-2.3.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../aktivism-avaliku-ruumi-koosloomes.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -4271,9 +4249,9 @@ To move towards co-creation in the design and implementation of public space, we
 
 ## Data-driven spatial planning {.chapter_section .chapter2_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Renee Puusepp](#renee-puusepp) ja [Raul Kalvo](#raul-kalvo)**</div>
-<div><a class="print-btn" href="print/EIA-2019-2.4.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../andmepõhine-ruumiloome.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -4452,9 +4430,9 @@ The public sector’s main tasks in the use of open-access spatial data include 
   </script>
 ## Introduction {-.chapter_section .chapter3_section .intro_section  #introduction-3}
 <h1>Natural environment as a public good</h1>
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Asko Lõhmus](#asko-lõhmus)**</div>
-<div><a class="print-btn" href="print/EIA-2019-3.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../sissejuhatus-3.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -4710,9 +4688,9 @@ The general principle for managing the public use of Estonian nature over the co
 
 ## How do people use the natural environment in Estonia? {.chapter_section .chapter3_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Kalev Sepp](#kalev-sepp) ja [Asko Lõhmus](#asko-lõhmus)**</div>
-<div><a class="print-btn" href="print/EIA-2019-3.1.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../kuidas-inimesed-eesti-looduskeskkonda-kasutavad.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -5136,9 +5114,9 @@ Available data on the public use of the natural environment also shows that ther
 
 ## The impact of natural areas on people’s well-being {.chapter_section .chapter3_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Kati Orru](#kati-orru), [Mait Lang](#mait-lang) ja [Hans Orru](#hans-orru)**</div>
-<div><a class="print-btn" href="print/EIA-2019-3.2.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../loodusalade-mõju-inimeste-heaolule.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -5288,9 +5266,9 @@ Although urbanisation is limiting people’s exposure to the natural environment
 
 ## Shaping natural areas for public use {.chapter_section .chapter3_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Age Poom](#age-poom) ja [Kalev Sepp](#kalev-sepp)**</div>
-<div><a class="print-btn" href="print/EIA-2019-3.3.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../loodusalade-kujundamine-avalikuks-kasutuseks.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -5554,9 +5532,9 @@ Spatial planning and nature conservation requirements are in place in Estonia wh
 
 ## Public participation in decisions on the use of natural areas {.chapter_section .chapter3_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Siim Vahtrus](#siim-vahtrus), [Liina Remm](#liina-remm), [Kärt Vaarmari](#kärt-vaarmari)**</div>
-<div><a class="print-btn" href="print/EIA-2019-3.4.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../kaasarääkimise-võimalused-loodusalade-kasutamisel.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -5934,9 +5912,9 @@ Existing databases for environmental information need to be brought together so 
 ## Introduction {-.chapter_section .chapter4_section .intro_section #introduction-4}
 <h1>Estonian deliberative space</h1>
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Indrek Ibrus](#indrek-ibrus)**</div>
-<div><a class="print-btn" href="../print/EIA-2019-4.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../sissejuhatus-4.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -6050,9 +6028,9 @@ The development of a discussion culture, and especially avoiding the risks of we
 
 ## Socio-political discussion in the digital public space {.chapter_section .chapter4_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Andreas Ventsel](#andreas-ventsel) ja [Mari-Liis Madisson](#mari-liis-madisson)**</div>
-<div><a class="print-btn" href="../print/EIA-2019-4.1.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../ühiskondlik-poliitiline-diskussioon-digitaalses-avalikus-ruumis.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -6197,9 +6175,9 @@ Training programmes to help raise the work quality of communication group modera
 
 ## Estonian youth in the virtual opinion space {.chapter_section .chapter4_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Veronika Kalmus](#veronika-kalmus) ja [Andra Siibak](#andra-siibak)**</div>
-<div><a class="print-btn" href="print/EIA-2019-4.2.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../eesti-noored-virtuaalses-arvamusruumis.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -6496,9 +6474,9 @@ The development of a virtual opinion space could be facilitated by successive ci
 
 ## The deliberative space shaped by the press {.chapter_section .chapter4_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Ragne Kõuts-Klemm](#ragne-kõuts-klemm)**</div>
-<div><a class="print-btn" href="../print/EIA-2019-4.3.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../ajakirjanduse-kujundatav-arvamusruum.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -6772,9 +6750,9 @@ Therefore, the quality of the public deliberative space is dependent on both tec
 
 ## The role and status of experts in societal media discussions {.chapter_section .chapter4_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Arko Olesk](#arko-olesk)**</div>
-<div><a class="print-btn" href="../print/EIA-2019-4.4.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../ekspertide-roll-ja-staatus-ühiskondlikes-meediaaruteludes.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -7015,9 +6993,9 @@ Presenting the best expert knowledge and facilitating its use is a constant chal
 ## Introduction {-.chapter_section .chapter5_section .intro_section #introduction-5}
 <h1>Estonian living environment in 2050</h1>
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Kristi Grišakov](#kristi-grišakov)**</div>
-<div><a class="print-btn" href="../print/EIA-2019-5.0-Tulevik.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../sissejuhatus-5.html">EE</a></div>
 ```
 
 ```{block, type='points'}
@@ -7443,9 +7421,9 @@ The factors shaping the future of space (including public space) can be divided 
 
 ## Estonia 2050 scenarios {-.chapter_section .chapter5_section }
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Kristi Grišakov](#kristi-grišakov) ja [Mihkel Kaevats](#mihkel-kaevats)** (scenario stories)</div>
-<div><a class="print-btn" href="print/EIA-2019-5.1-Tulevikustsenaariumid.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../eesti-2050-stsenaariumid.html">EE</a></div>
 ```
 
 Four scenarios were developed to illustrate the impact of the changes described above. The scenarios are exploratory and illustrate a range of possible futures. Exploratory scenarios differ from other types of scenarios (forecasts and normative scenarios) in that they focus on the combined effects of different variables and do not specify a specific objective that must be achieved in all scenarios ([Börjeson 2006](#Börjeson2006)) The role of exploratory scenarios is to illustrate the possible extremes of each axis, which need not materialise. For example, in the case of public space, it is difficult to imagine a completely individualistic (liberal) or entirely communal use, while there may be a tendency to go more in one direction or the other. kogukondliku kasutust, küll aga võidakse kalduda rohkem ühte või teise suunda.
@@ -7487,7 +7465,7 @@ knitr::include_graphics("../figures/5-chapter/linnades.png")
 </div>
 
 
-<div><a class="print-btn" href="print/EIA-2019-5.1-Vabatahtlikult-linnadesse.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../vabatahtlikult-linnadesse-sunnitud-eesti.html">EE</a></div>
 
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
@@ -7560,7 +7538,7 @@ knitr::include_graphics("../figures/5-chapter/uhetunni.png")
 ```
 </div>
 
-<div><a class="print-btn" href="print/EIA-2019-5.1-UhetunniEesti.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../ühe-tunni-eesti.html">EE</a></div>
 
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
@@ -7632,7 +7610,7 @@ knitr::include_graphics("../figures/5-chapter/krattide.png")
 ```
 </div>
 
-<div><a class="print-btn" href="print/EIA-2019-5.1-Kratid.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../krattide-ja-marakrattide-eesti.html">EE</a></div>
 
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
@@ -7704,7 +7682,7 @@ knitr::include_graphics("../figures/5-chapter/isemajandav.png")
 ```
 </div>
 
-<div><a class="print-btn" href="print/EIA-2019-5.1-Isemajandav.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../isemajandav-eesti.html">EE</a></div>
 
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
@@ -7770,7 +7748,7 @@ knitr::include_graphics("../figures/5-chapter/tulevik-4.png")
 
 # Contributors and Editors {.chapter6 .chapter6_section .chapter_section}
 
-<div><a class="print-btn" href="../print/EIA-2019-6-Autorid.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../autorid-ja-toimetajad.html">EE</a></div>
 
 
 ### Editor-in-chief {-.chapter6_section}

@@ -1,7 +1,8 @@
 ## Ekspertide roll ja staatus ühiskondlikes meediaaruteludes {.chapter_section .chapter4_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_ee'}
 <div class="author-links">**[Arko Olesk](#arko-olesk)**</div>
+<div><a class="print-btn EE-btn" href="en/the-role-and-status-of-experts-in-societal-media-discussions.html">EN</a></div>
 <div><a class="print-btn" href="print/EIA-2019-4.4.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 

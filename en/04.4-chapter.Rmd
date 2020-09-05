@@ -1,8 +1,8 @@
 ## The role and status of experts in societal media discussions {.chapter_section .chapter4_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Arko Olesk](#arko-olesk)**</div>
-<div><a class="print-btn" href="../print/EIA-2019-4.4.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../ekspertide-roll-ja-staatus-ühiskondlikes-meediaaruteludes.html">EE</a></div>
 ```
 
 ```{block, type='points'}

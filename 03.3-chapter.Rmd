@@ -1,7 +1,8 @@
 ## Loodusalade kujundamine avalikuks kasutuseks {.chapter_section .chapter3_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_ee'}
 <div class="author-links">**[Age Poom](#age-poom) ja [Kalev Sepp](#kalev-sepp)**</div>
+<div><a class="print-btn EE-btn" href="en/shaping-natural-areas-for-public-use.html">EN</a></div>
 <div><a class="print-btn" href="print/EIA-2019-3.3.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 

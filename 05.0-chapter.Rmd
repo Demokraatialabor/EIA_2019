@@ -2,11 +2,12 @@
  <script>
   window.location = "sissejuhatus-5.html";
   </script>
-## Sissejuhatus {-.chapter_section .chapter5_section .intro_section}
+## Sissejuhatus {-.chapter_section .chapter5_section .intro_section #sissejuhatus-5}
 <h1>Eesti elukeskkond aastal 2050</h1>
 
-```{block, type='authors'}
+```{block, type='authors authors_ee'}
 <div class="author-links">**[Kristi Grišakov](#kristi-grišakov)**</div>
+<div><a class="print-btn EE-btn" href="en/introduction-5.html">EN</a></div>
 <div><a class="print-btn" href="print/EIA-2019-5.0-Tulevik.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
@@ -149,7 +150,7 @@ fig_52_plot <- tm_shape(Brutotulu) +
       )
    
 tmap_mode("view")
-fig_52_plot
+#fig_52_plot
 
 #tmap_save(tm = fig52_plot, filename = "fig52.pdf")
 

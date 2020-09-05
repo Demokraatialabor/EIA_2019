@@ -1,8 +1,8 @@
 ## The deliberative space shaped by the press {.chapter_section .chapter4_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Ragne Kõuts-Klemm](#ragne-kõuts-klemm)**</div>
-<div><a class="print-btn" href="../print/EIA-2019-4.3.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../ajakirjanduse-kujundatav-arvamusruum.html">EE</a></div>
 ```
 
 ```{block, type='points'}

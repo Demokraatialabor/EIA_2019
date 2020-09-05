@@ -1,8 +1,8 @@
 ## Built heritage and spatial quality {.chapter_section .chapter2_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Triin Talk](#triin-talk) ja [Siim Raie](#siim-raie)**</div>
-<div><a class="print-btn" href="print/EIA-2019-2.2.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../ehituspärand-ja-ruumikvaliteet.html">EE</a></div>
 ```
 
 ```{block, type='points'}

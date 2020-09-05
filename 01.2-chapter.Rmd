@@ -1,7 +1,8 @@
 ## Keskuse ja ääremaa lõhe Eestis {.chapter_section .chapter1_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_ee'}
 <div class="author-links">**[Bianka Plüschke-Altof](#bianka-plüschke-altof), [Bradley Loewen](#bradley-loewen) ja [Kadri Leetmaa](#kadri-leetmaa)**</div>
+<div><a class="print-btn EE-btn" href="en/increasing-regional-polarisation-in-estonia.html">EN</a></div>
 <div><a class="print-btn" href="print/EIA-2019-1.2.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
@@ -69,7 +70,7 @@ fig_121_plot <- tm_shape(Maakonnad) +
       )
 
 tmap_mode("view")
-fig_121_plot
+#fig_121_plot
 
 #tmap_save(tm = Rahvastiku_muutus + SKP, filename = "figure2.pdf")
 

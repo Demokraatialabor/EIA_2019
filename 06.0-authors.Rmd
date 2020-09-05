@@ -1,5 +1,6 @@
 # Autorid ja toimetajad {.chapter6 .chapter6_section .chapter_section}
 
+<div><a class="print-btn EE-btn" href="en/contributors-and-editors.html">EN</a></div>
 <div><a class="print-btn" href="print/EIA-2019-6-Autorid.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 
 

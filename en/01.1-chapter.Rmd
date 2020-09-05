@@ -1,8 +1,8 @@
 ## Changes in land use: distortion of the meaning of urban and rural { .chapter_section .chapter1_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Tõnu Oja](#tõnu-oja)**</div>
-<div><a class="print-btn" href="../print/EIA-2019-1.1.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../maakasutuse-muutused-linna-ja-maa-tähenduse-moondumine.html">EE</a></div>
 ```
 
 ```{block, type='points'}

@@ -1,8 +1,8 @@
 ## Public space as an interconnecting network within the living environment {.chapter_section .chapter2_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Toomas Paaver](#toomas-paaver) ja [Elo Kiivet](#elo-kiivet)**</div>
-<div><a class="print-btn" href="print/EIA-2019-2.1.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../avalik-ruum-kui-elukeskkonda-siduv-võrgustik.html">EE</a></div>
 ```
 
 ```{block, type='points'}

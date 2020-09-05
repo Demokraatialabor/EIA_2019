@@ -1,8 +1,8 @@
 ## Urban activism in the co-creation of public space {.chapter_section .chapter2_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Keiti Kljavin](#keiti-kljavin), [Johanna Pirrus](#johanna-pirrus), [Kaija-Luisa Kurik](#kaija-luisa-kurik) ja [Ingmar Pastak](#ingmar-pastak)**</div>
-<div><a class="print-btn" href="print/EIA-2019-2.3.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../aktivism-avaliku-ruumi-koosloomes.html">EE</a></div>
 ```
 
 ```{block, type='points'}

@@ -1,7 +1,8 @@
 ## Ligipääsetavuse muutused autostunud Eestis {.chapter_section .chapter1_section}
 
-```{block, type='authors'}
+```{block, type='authors authors_ee'}
 <div class="author-links">**[Tauri Tuvikene](#tauri-tuvikene), [Merlin Rehema](#merlin-rehema), [Dago Antov](#dago-antov)**</div>
+<div><a class="print-btn EE-btn" href="en/accessibility-changes-in-motorised-estonia.html">EN</a></div>
 <div><a class="print-btn" href="print/EIA-2019-1.5.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
@@ -149,7 +150,7 @@ fig_153_plot <- tm_shape(Asutusüksused) +
       )
 
 tmap_mode("view")
-fig_153_plot
+#fig_153_plot
 
 #tmap_save(tm = fig_153_plot, filename = "figure153.png")
 #tmap_save(tm = fig_153_plot, filename = "figure153.pdf")

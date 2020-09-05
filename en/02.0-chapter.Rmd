@@ -4,9 +4,9 @@
   </script>
 ## Introduction {-.chapter_section .chapter2_section .intro_section #introduction-2}
 <h1>Avalik linnaruum</h1>
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Epp Lankots](#epp-lankots)**</div>
-<div><a class="print-btn" href="print/EIA-2019-2.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../sissejuhatus-2.html">EE</a></div>
 ```
 
 ```{block, type='points'}

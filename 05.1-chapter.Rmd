@@ -1,7 +1,8 @@
 ## Eesti 2050 stsenaariumid {-.chapter_section .chapter5_section }
 
-```{block, type='authors'}
+```{block, type='authors authors_ee'}
 <div class="author-links">**[Kristi Grišakov](#kristi-grišakov) ja [Mihkel Kaevats](#mihkel-kaevats)** (stsenaariumitekstid)</div>
+<div><a class="print-btn EE-btn" href="en/estonia-2050-scenarios.html">EN</a></div>
 <div><a class="print-btn" href="print/EIA-2019-5.1-Tulevikustsenaariumid.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 

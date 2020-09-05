@@ -1,6 +1,6 @@
 # Contributors and Editors {.chapter6 .chapter6_section .chapter_section}
 
-<div><a class="print-btn" href="../print/EIA-2019-6-Autorid.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../autorid-ja-toimetajad.html">EE</a></div>
 
 
 ### Editor-in-chief {-.chapter6_section}

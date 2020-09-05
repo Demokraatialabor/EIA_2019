@@ -1,8 +1,8 @@
 ## Estonia 2050 scenarios {-.chapter_section .chapter5_section }
 
-```{block, type='authors'}
+```{block, type='authors authors_eng'}
 <div class="author-links">**[Kristi Grišakov](#kristi-grišakov) ja [Mihkel Kaevats](#mihkel-kaevats)** (scenario stories)</div>
-<div><a class="print-btn" href="print/EIA-2019-5.1-Tulevikustsenaariumid.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
+<div><a class="print-btn" href="../eesti-2050-stsenaariumid.html">EE</a></div>
 ```
 
 Four scenarios were developed to illustrate the impact of the changes described above. The scenarios are exploratory and illustrate a range of possible futures. Exploratory scenarios differ from other types of scenarios (forecasts and normative scenarios) in that they focus on the combined effects of different variables and do not specify a specific objective that must be achieved in all scenarios ([Börjeson 2006](#Börjeson2006)) The role of exploratory scenarios is to illustrate the possible extremes of each axis, which need not materialise. For example, in the case of public space, it is difficult to imagine a completely individualistic (liberal) or entirely communal use, while there may be a tendency to go more in one direction or the other. kogukondliku kasutust, küll aga võidakse kalduda rohkem ühte või teise suunda.
