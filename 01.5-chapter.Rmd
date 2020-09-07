@@ -150,7 +150,7 @@ fig_153_plot <- tm_shape(Asutusüksused) +
       )
 
 tmap_mode("view")
-#fig_153_plot
+fig_153_plot
 
 #tmap_save(tm = fig_153_plot, filename = "figure153.png")
 #tmap_save(tm = fig_153_plot, filename = "figure153.pdf")

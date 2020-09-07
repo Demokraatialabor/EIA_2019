@@ -1130,7 +1130,7 @@ fig_112_plot <- #tm_shape(fig112_maakonnad) +
       )
 
 tmap_mode("view")
-#fig_112_plot
+fig_112_plot
 
 #tmap_save(tm = fig_153_plot, filename = "figure153.png")
 #tmap_save(tm = fig_112_plot, filename = "fig112.pdf")
@@ -1382,7 +1382,7 @@ fig_121_plot <- tm_shape(Maakonnad) +
       )
 
 tmap_mode("view")
-#fig_121_plot
+fig_121_plot
 
 #tmap_save(tm = Rahvastiku_muutus + SKP, filename = "figure2.pdf")
 
@@ -2820,7 +2820,7 @@ fig_153_plot <- tm_shape(Asutusüksused) +
       )
 
 tmap_mode("view")
-#fig_153_plot
+fig_153_plot
   
 #tmap_save(tm = fig_153_plot, filename = "figure153.png")
 #tmap_save(tm = fig_153_plot, filename = "figure153.pdf")
@@ -4436,11 +4436,11 @@ The public sector’s main tasks in the use of open-access spatial data include 
 ```
 
 ```{block, type='points'}
-* •	Public use of the natural environment promotes democracy through environmental justice and a shared experience of nature.
+* Public use of the natural environment promotes democracy through environmental justice and a shared experience of nature.
 
 In Estonia, this is supported by a tradition of spending time in nature and getting to know nature. Although the planning of urban green spaces is important for promoting and maintaining democracy, there has been no comprehensive research on, or planning of, natural areas as public space. The principles of the fair distribution of environmental benefits and burdens should be addressed at the national level.
 
-* •	Natural areas make up the majority of Estonia’s land cover and people are allowed to use them based on everyman’s right.
+* Natural areas make up the majority of Estonia’s land cover and people are allowed to use them based on everyman’s right.
 
 In places, the public use of natural areas has come under threat from limited access to private land and the diminishing environmental value of forests due to clear-felling. In the face of the complex environmental challenges of the 21st century, society will not benefit if people’s understanding of nature and skills to cope in nature are limited to what they experience on visiting educational or hiking trails.
 
