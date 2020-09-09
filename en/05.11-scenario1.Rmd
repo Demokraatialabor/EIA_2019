@@ -3,7 +3,7 @@
 
 <div class="map-icon">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
-knitr::include_graphics("../figures/5-chapter/linnades.png")
+knitr::include_graphics("../figures/5-chapter/linnades_eng.png")
 ```
 </div>
 

@@ -3267,7 +3267,7 @@ It is true that the car enables mobility in certain situations and certainly for
   window.location = "introduction-2.html";
   </script>
 ## Introduction {-.chapter_section .chapter2_section .intro_section #introduction-2}
-<h1>Avalik linnaruum</h1>
+<h1>Public urban space</h1>
 ```{block, type='authors authors_eng'}
 <div class="author-links">**[Epp Lankots](#epp-lankots)**</div>
 <div><a class="print-btn" href="../sissejuhatus-2.html">EE</a></div>
@@ -7460,7 +7460,7 @@ knitr::include_graphics("../figures/5-chapter/fig55_eng.jpg")
 
 <div class="map-icon">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
-knitr::include_graphics("../figures/5-chapter/linnades.png")
+knitr::include_graphics("../figures/5-chapter/linnades_eng.png")
 ```
 </div>
 
@@ -7534,7 +7534,7 @@ knitr::include_graphics("../figures/5-chapter/tulevik-1.png")
 
 <div class="map-icon">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
-knitr::include_graphics("../figures/5-chapter/uhetunni.png")
+knitr::include_graphics("../figures/5-chapter/uhetunni_eng.png")
 ```
 </div>
 
@@ -7606,7 +7606,7 @@ knitr::include_graphics("../figures/5-chapter/tulevik-2.png")
 
 <div class="map-icon">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
-knitr::include_graphics("../figures/5-chapter/krattide.png")
+knitr::include_graphics("../figures/5-chapter/krattide_eng.png")
 ```
 </div>
 
@@ -7678,7 +7678,7 @@ knitr::include_graphics("../figures/5-chapter/tulevik-3.png")
 
 <div class="map-icon">
 ```{r, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
-knitr::include_graphics("../figures/5-chapter/isemajandav.png")
+knitr::include_graphics("../figures/5-chapter/isemajandav_eng.png")
 ```
 </div>
 

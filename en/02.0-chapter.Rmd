@@ -3,7 +3,7 @@
   window.location = "introduction-2.html";
   </script>
 ## Introduction {-.chapter_section .chapter2_section .intro_section #introduction-2}
-<h1>Avalik linnaruum</h1>
+<h1>Public urban space</h1>
 ```{block, type='authors authors_eng'}
 <div class="author-links">**[Epp Lankots](#epp-lankots)**</div>
 <div><a class="print-btn" href="../sissejuhatus-2.html">EE</a></div>
