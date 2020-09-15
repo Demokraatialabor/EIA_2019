@@ -32,7 +32,7 @@ knitr::include_graphics("../figures/1-chapter/fig111_eng.jpg")
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Statistics Estonia censuses of 2000 and 2011.</div>
-<div><a class="data-btn" href="../data/11_fig1_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Laadi andmed</a></div>
+<div><a class="data-btn" href="../data/11_fig1_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 
 The third factor is the change in the meaning of a rural lifestyle. According to Statistics Estonia, approximately as little as two-thirds of the population in Estonia live in municipalities formally considered urban. The majority of the municipalities formally considered rural around Tallinn, Tartu and Pärnu are urban or suburban in terms of lifestyle. In the areas around the larger cities, where thirty years ago wealthy agricultural holdings dominated (e.g. growing vegetables for the city), the first choice for employment today is not agriculture. The need for employment in agriculture has also decreased due to the ‘industrialisation’ of the sector. In Estonia as a whole, only about 1 in 40 residents is employed in agriculture in the wider sense. Accordingly, people living in rural areas are engaged in something different from traditional practices forming agricultural landscapes. All this has an impact on Estonian landscapes and therefore also the living environments.
@@ -181,7 +181,7 @@ All the county spatial plans adopted in the mid-2010s designate a layer of valua
 Attempts have already been made to change the county spatial plans. This is more common around larger cities, where the pressure to construct residential buildings is greater. For example, a study of agricultural lands in the northern part of Rae municipality outside Tallinn found that some of the valuable agricultural lands according to the county spatial plan overlapped with prospective residential construction areas in an earlier municipal comprehensive plan. The study therefore suggested that some of the valuable lands be removed from the list.
 
 ```{block, type='blockquote-left'}
-The onslaught of monotonous and boring agricultural landscape is restrained by the requirement to preserve ecological elements (which also supports biodiversity) arising from the European Common Agricultural Policy and its support measures. .
+The onslaught of monotonous and boring agricultural landscape is restrained by the requirement to preserve ecological elements (which also supports biodiversity) arising from the European Common Agricultural Policy and its support measures.
 ```
 The law regulating rural life and agricultural trade has been amended to limit the use of valuable agricultural land for any other purpose. There is 700,000 hectares of valuable agricultural land to be protected in Estonia, which is 63% of all agricultural land. One-sixth of Estonia’s land area should remain agricultural landscape. At the county level, the share of valuable agricultural land currently varies between 84% in Järvamaa and 48% in Ida-Virumaa.
 
@@ -193,7 +193,7 @@ Valuable landscapes were already mapped in county spatial plans as special thema
 
 The planning layer for valuable landscapes essentially overlaps with the layer for valuable agricultural land. Generally speaking, the county spatial plans (with the layers for green networks, valuable landscapes and valuable agricultural lands) serve as a constraint on changes to the general appearance of landscapes.
 
-The preservation of landscapes is also supported by the existence of conservation areas. One-fifth of the total land area of Estonia is covered by some form of protection (NATURA nature and bird areas, nature conservation areas, local protection, valuable habitats, etc.) ([Table 1.1.1](#table111)). While a significant portion of Estonia is subject to double or multiple protection regimes, strict nature reserves account for less than 0.2%.ike (alla 0,2%).
+The preservation of landscapes is also supported by the existence of conservation areas. One-fifth of the total land area of Estonia is covered by some form of protection (NATURA nature and bird areas, nature conservation areas, local protection, valuable habitats, etc.) ([Table 1.1.1](#table111)). While a significant portion of Estonia is subject to double or multiple protection regimes, strict nature reserves account for less than 0.2%.
 
 <p class="caption" id="table111"><span class="figure-number">Table 1.1.1.</span> Share of conservation areas in the total territory by counties in 2019 (%)</p>
 
