@@ -265,7 +265,7 @@ Landscapes are always changing. Some of these changes are not reversible. Theref
 
 Looking to the future, there will probably be no radical shifts in the trends to do with landscape changes. Nevertheless, lower population density in the periphery is starting to inhibit internal migration, and signs of migration decrease are already noticeable. Several means to avoid the convergence of landscapes are already in use in Estonia. The systematic preservation of valuable agricultural lands both near cities and in peripheral regions will curb urban sprawl and the process of landscapes being overgrown by forest. The measures taken to protect valuable landscapes and conservation areas support the preservation of landscapes, and value the ecological elements of agricultural lands, keeping them from becoming monotonous. The impact of these measures will probably be clear in the coming decades.
 
-### References {-.subreferences #references11}
+### References {-.subreferences #references-11}
 
 <p id="Anni2016">Anni, K., Oja, T. 2016. Laienevate linnade piirimuudatustest haldusreformi kontekstis. – Riigikogu Toimetised, 33, 125–140.</p>
 
