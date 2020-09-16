@@ -80,7 +80,7 @@ Therefore, the rapid motorisation of Eastern Europe, including Estonia, in the 1
 Motorisation has an environmental impact in terms of energy and land use; it also changes social life and the economic functioning of societies. According to 2017 data from the International Energy Agency, half of the world’s oil output is used for urban and road transport, and the transport sector accounts for over one-quarter of global carbon dioxide emissions. Further to fuel consumption, the environmental impact of motorisation comes from the manufacture and use of cars, traffic hazards, as well as the use of the urban space. As people exercise less when moving around by car, the negative impact of motorisation is also expressed in health conditions, such as obesity and cardiovascular diseases ([Bassett jt 2008](#Bassett2008)). In addition to noise, vibration and pollution via airborne particulate matter in heavy-traffic streets, fewer opportunities for socialising presents another problem for people. Due to motorisation, city streets become ‘traffic pipes’ for cars, which reduce the possibilities available to all other participants in the traffic. The quality of streets as public space has therefore deteriorated.
 
 ```{block, type='blockquote-right'}
-Accessibility means the opportunities for people to participate in usual social activities
+Accessibility means the opportunities for people to participate in usual social activities.
 ```
 As streets have often become ‘traffic pipes’, motorisation in cities is beginning to hamper general accessibility. Accessibility means the opportunities for people to participate in usual social activities ([Farrington 2007](#Farrington2007)). In addition to the freedom of movement, accessibility covers delivering or planning services and jobs closer to people in order to reduce the need to travel ([Figure 1.5.2](#figure152)). Examples of this are the digitalisation of social services and the creation of digital workplaces. Although public services are quite easily accessible online in Estonia without leaving home, social life, the education of children, hobbies and entertainment still require visiting larger towns or city centres. Reducing accessibility to only cover the needs of car users is one-sided, as it reduces travel options and quality for other groups of traffic participants, including pedestrians, cyclists, seniors and people with special needs. For transport planning to take into account a variety of circumstances, an understanding of the role and use of cars in various environments is required: in low-density areas, rural areas, urban regions, and within settlements.
 
@@ -229,7 +229,7 @@ Demand-responsive transport has the potential of offering more flexible and cost
 ```{block, type='blockquote-right'}
 Intensifying car traffic reduces the number of travellers using public transport and this makes good services more expensive and difficult to provide in low-density areas.
 ```
-Urban sprawl has occurred in Estonia’s largest urban regions over the past two decades: new residential, commercial, service and production areas have been established outside densely populated areas, but as the new areas lack integrated planning, the inhabitants commute between the city centre and suburban residential districts, often using private cars. Over the past 20 years, the population has increased considerably in Tallinn’s immediate surroundings ([Figure 1.5.5](#figure155)), ent Harjumaa kaugemates omavalitsustes on toimunud mõõdukas langus 10–20%. Statistikaameti 2011. aasta rahvaloenduse pendelrände andmete järgi on Eestis kokku 28 üle 5000 elanikuga keskuslinna ümber koondunud toimepiirkonda. Kui paljud neist keskustest on väikesed, eriti just Lõuna-Eestis, siis üks – Tallinn – avaldab mõju inimeste liikumisele üle Eesti.
+Urban sprawl has occurred in Estonia’s largest urban regions over the past two decades: new residential, commercial, service and production areas have been established outside densely populated areas, but as the new areas lack integrated planning, the inhabitants commute between the city centre and suburban residential districts, often using private cars. Over the past 20 years, the population has increased considerably in Tallinn’s immediate surroundings ([Figure 1.5.5](#figure155)), but decreased by 10–20% in the more remote municipalities of Harjumaa county. According to the commuting data of the 2011 census by Statistics Estonia, there are 28 functional areas in Estonia around urban centres with populations over 5,000. While many of these urban centres are small, especially in southern Estonia, one of them – Tallinn – impacts people’s mobility across the country.
 
 <p class="caption" id="figure155"><span class="figure-number">Figure 1.5.5.</span> Number of cars per household in Tallinn (2016) and Harjumaa (2017) and population increase in Tallinn’s immediate surroundings over the past 20 years. Population in 1998 = 100%</p>
 
@@ -302,7 +302,7 @@ grid.arrange(fig155_plot1 + fig_theme_general + fig155_theme1, fig155_plot2  + f
 As in low-density rural areas, life without a car is also complicated in peri-urban areas. In areas just outside Tallinn in Harjumaa, an average of eight households out of ten have a private car, while nearly half of the households have two or more cars ([Figure 1.5.5](#figure155)). A mobility study of Tallinn’s direct surroundings conducted by Kantar Emor in 2018 for the Estonian Road Administration shows that the inhabitants of Harjumaa use a car for nearly two out of three trips, while Tallinn residents only make about half of all trips by car. According to TNS Emor 2015 data, people living in urban centres use cars less than those living in the suburbs. An opposite trend is apparent in the use of public transport. The percentage of public transport users is higher in Tallinn than in the city’s hinterland. There are also differences within the hinterland. In the Lääne-Harju rural municipality, which includes the town of Keila with a good electric rail connection with Tallinn, people use the train for 16% of their trips. On the other hand, in the Saku rural municipality, which has a rail connection but the train service is less frequent and connections with Tallinn are poorer, only 1% of all trips to the capital city are taken by train.
 
 ```{block, type='blockquote-left'}
-Going to work on foot or by public transport has decreased since the late 1990s, while driving to work by car has doubled
+Going to work on foot or by public transport has decreased since the late 1990s, while driving to work by car has doubled.
 ```
 Commuting trends over the past decade show that using cars has become more popular in Tallinn as well as elsewhere in Harjumaa ([Figure 1.5.6](#figure156)). The relative share of walking to work has decreased considerably in peri-urban areas, as jobs are increasingly located in Tallinn. The share of those who walk to work has remained unchanged within Tallinn. The share of using public transport has decreased from 50% to 35% in Tallinn and from 26% to 18% elsewhere in Harjumaa. The nationwide trend is similar: Going to work on foot or by public transport has decreased since the late 1990s, while driving to work by car has doubled ([Figure 1.5.7](#figure157)).
 
@@ -460,7 +460,7 @@ layout(yaxis = list(fixedrange = TRUE))
 <div><a class="data-btn" href="../data/15_fig7_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
-Not all journeys are made to go to work or for shopping. Nearly one-tenth of journeys by car are made to take children to school or kindergarten. In the peri-urban areas of Tallinn, 12% of people drive daily to give rides to others, within which women up to the age of 34 represent the largest group ([Kantar Emor 2018](#Kantar2018)). Tallinn therefore repeats the global experience that living outside a city means actively using a car, giving rides to children, and that mostly mothers fulfil this role ([McCarthy jt 2017](#McCarthy2017)).
+Not all journeys are made to go to work or for shopping. Nearly one-tenth of journeys by car are made to take children to school or kindergarten. In the peri-urban areas of Tallinn, 12% of people drive daily to give rides to others, within which women up to the age of 34 represent the largest group ([Kantar Emor 2018](#Kantar2018)). Tallinn therefore repeats the global experience that living outside a city means actively using a car, giving rides to children, and that mostly mothers fulfil this role ([McCarthy et al. 2017](#McCarthy2017)).
 
 ```{block, type='blockquote-right'}
 Good public transport connections and non-motorised traffic networks in the suburbs would help create an environment with a variety of uses, in which people would not have to travel to the city for every activity or service.
@@ -481,8 +481,6 @@ Mobility development in Estonia’s largest towns has so far been based on the e
 Not enough competitive and attractive alternatives to car traffic have been offered to cater for walking and cycling, even though the bicycle is one of the fastest modes of mobility during peak hour and for distances under 3 km ([Figure 1.5.8](#figure158)). According to data on Tallinn (<a href="https://www.tallinn.ee/est/Tallinn-arvudes">Tallinn arvudes 2018</a>), it had 273 km of bicycle and pedestrian paths in 2017, of which nearly 90% were tracks for non-motorised traffic shared with pedestrians.
 
 <p class="caption" id="figure158"><span class="figure-number">Figure 1.5.8.</span> Comparison of the competitiveness of modes of mobility in terms of time</p>
-
-<p class="caption" id="figure158"><span class="figure-number">Joonis 1.5.8.</span> Liikumisviiside ajalise konkurentsivõime võrdlus</p>
 
 ```{r, figure158, fig.align='center', out.width='80%', echo=FALSE, message=FALSE}
 
@@ -530,7 +528,7 @@ In smaller towns, car traffic is lighter, while the lack of footpaths and of con
 
 ### Future trends: enabling various modes of mobility in suitable volumes will reduce the use of cars {-.chapter1_section}
 
-Young people in many Western European countries such as the United Kingdom are increasingly giving up car ownership. The reasons behind this trend are the reduced subsidies for work-related travel, higher expenses of owning a private car, and improved public transport ([Le Vine ja Jones 2012](#Le-Vine2012)). Changes that will reduce the use of cars are also appearing in Estonia. For example, several mobile applications have been developed for rental and ride-sharing services in urban regions that reduce the need to own a car. The change in modes of mobility is also driven by the development of home delivery services for goods and food, and of mail orders for goods. By offering convenience through alternative solutions, such trends make it easier to not own a car.
+Young people in many Western European countries such as the United Kingdom are increasingly giving up car ownership. The reasons behind this trend are the reduced subsidies for work-related travel, higher expenses of owning a private car, and improved public transport ([Le Vine and Jones 2012](#Le-Vine2012)). Changes that will reduce the use of cars are also appearing in Estonia. For example, several mobile applications have been developed for rental and ride-sharing services in urban regions that reduce the need to own a car. The change in modes of mobility is also driven by the development of home delivery services for goods and food, and of mail orders for goods. By offering convenience through alternative solutions, such trends make it easier to not own a car.
 
 ```{block, type='blockquote-right'}
 Cyclists and pedestrians are mentioned in the current urban, suburban and rural plans mostly in the context of safety.
@@ -549,11 +547,11 @@ Sustainable planning in an urban environment requires also paying attention to t
 
 It is true that the car enables mobility in certain situations and certainly for some senior citizens and people with mobility difficulties. Motorisation has also helped to bring the various Estonian regions closer to each other and made it possible to live in remote areas of the country. However, excessive dependence on cars is detrimental to the functioning of society. It makes accessibility a privilege only enjoyed by part of society, thus reducing social contact. Ensuring accessibility and good public space across Estonia requires specific intervention into the design of urban public space as well as offering creative solutions for low-density areas.
 
-### *Acknowledgements* {-.chapter1_section}
+### *Acknowledgements* {-.chapter1_section #acknowledgments-15}
 
 *The work of Tauri Tuvikene on this publication was supported by the project ‘Public transport as public space in European cities: Narrating, experiencing, contesting (PUTSPACE)’; financial support was provided by the HERA Joint Research Programme (www.heranet.info), which is co-funded by AKA, BMBF via DLR-PT, ETAg, and the European Commission through Horizon 2020.*
 
-### References {-.subreferences}
+### References {-.subreferences #references-15}
 
 <p id="Banister2008">Banister, D. 2008. The sustainable mobility paradigm – Transport Policy, 15 (2), 73–80.</p>
 
