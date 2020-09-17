@@ -28,9 +28,6 @@ In this article, we look at different forms of urban activism and how the relati
 
 ### Urban activism as a political activity changes in time and its form varies according to the aims pursued {-.chapter2_section}
 
-```{block, type='blockquote-right'}
-Artiklis nimetame eri aktivismivorme liikumisteks, näiteks linnalised liikumised.
-```
 Just as the meaning of public space, the role of the activist also changes. Activism is the instigation of social, political or other changes and the presentation of alternative views – an urban activist primarily represents personal and/or community interests regarding planning and design. In Estonia, the terms ‘(urban) activist’ and ‘(urban) activism’ refer to the leaders of neighbourhood associations, movements against the construction of a specific building or planning decision, as well as professional and civil society associations and organisations involved in planning and design. Urban activism can be both reactive and proactive. The reactive aspect usually refers to opposition to a specific development project or development direction, while the proactive aspect refers to a broader advocacy and desire to influence both local development and the planning process itself through design. Reactivity and proactivity share common ground, and neither can be characterised in terms of specific movements or activists – movements that were initially reactive have often become proactive over time. Proactive movements, on the other hand, may return to a reactive role in the future.
 
 ```{block, type='casebox'}
@@ -40,12 +37,12 @@ Just as the meaning of public space, the role of the activist also changes. Acti
 
 ```
 ```{block, type='imgsource'}
-<span class="imgsource-source">Source:</span> Lippus ja Vihma 2014.
+<span class="imgsource-source">Source:</span> Lippus and Vihma 2014.
 ```
 
 
 ```{block, type='blockquote-right'}
-Aktivism on sotsiaalsete, poliitiliste või muude muutuste esilekutsumine ja alternatiivsete seisukohtade esitamine.
+Activism is the instigation of social, political or other changes and the presentation of alternative views.
 ```
 Regardless of their occupation and education, activists are first and foremost direct users of space. They have personal experience with and connections to a certain place or region, and they perceive the opportunities and threats of future developments. The activist seeks a dialogue partner in the public sector or a place and companions in the discussion between the public sector and the developer. In order to have a say in changes in public space, activists often form a legal entity. The non-profit or NGO form makes it easier to raise funds for community activities. Such organisation has been driven and essentially directed by the financial support offered by various funds, such as the European Union Structural Funds, which are only available to legal entities engaged in the development of civil society ([Kljavin 2014](#Kljavin2014)). There is still a perceptible gap between the voice of the individual and officially registered organisations. The purpose and activities of movements started by community activists may change according to needs, emerge in counteraction to a spatial change or in anticipation of a breakthrough.
 
@@ -57,8 +54,6 @@ The purpose and activities of movements started by community activists may chang
 Activism has emerged as part of the broader development of Estonian civil society. In the 1990s, society was shaped by revolutionary reforms in the public sector and widespread lack of regulation regarding both curbing private sector aspirations and organising stakeholder participation. The overheating of the property market during the construction boom and the inability of local governments to regulate this favoured large-scale and often ill-considered activities by developers both in the housing market and in shaping the public space at the end of the second decade of Estonia’s renewed independence ([Tuvikene and Pehk 2011](#Tuvikene2011)). It was only during the last economic downturn (2008–2011) that the relationship between the stakeholders in spatial design began to change. A third party emerged that clearly changed the previous two-way relationship between the public sector and the landowner; interested in the good development of their living environment, citizens and civic associations bringing together activists entered the stage ([Figure 2.3.1](#figure231)).
 
 <p class="caption" id="figure231"><span class="figure-number">Figure 2.3.1.</span> Developing relationships between stakeholders</p>
-
-Note: Before 2000, the interests of landowners were unclear and the perspective of the user undefined in stakeholder communication in spatial planning. Among other things, the state and local governments had not agreed on spatial planning tasks before the adoption of the Planning and Building Act of 1995. With the addition of the user’s perspective, the roles of the state, local government and landowners became clearer, but the users’ status still remains undefined.
 
 ```{r, figure231, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -148,11 +143,11 @@ knitr::include_graphics("../figures/2-chapter/fig233.png")
 <span class="imgsource-source">Source:</span> Juho Kalberg.
 ```
 
-### Summary {-.chapter2_section}
+### Summary {-.chapter2_section #summary-23}
 
 To move towards co-creation in the design and implementation of public space, we need open discussion between all the parties involved in the process. Activism plays an important role in such urban design, providing an external, non-institutional view and representing the interests of the user of the city space. Participating in the debate requires the activist to think critically and often react quickly, and it is important to maintain the independence of activism. However, this does not preclude the need to create new forms of co-creation. Progress can only occur if appreciation for largely volunteer work is an integral part of a trusting and supportive atmosphere in public institutions. The questions of how to achieve the participation of individuals and informal interest groups (i.e. those without a legal entity) more meaningfully than just filling the minimum requirements defined in the Planning Act, and how to empower different stakeholders in spatial design continue to be a challenge for the public sector. The role, evolution and methods of activism may be unique to different instances of public space, and one model of participation may not work for making all spatial decisions. Public engagement carried out using new technologies, such as web-based applications, open-data platforms and spatial planning portals, does not automatically translate into good design of public space. At the same time, the formal and aesthetic outcomes of urban design should not be driven solely by the lobbying of interest groups and the preferences of user groups. The balance between different stakeholders and models can be achieved if local governments agree on long-term development goals for public space and employ competent urban design expert s. Activism is only one prerequisite for making better spatial decisions.
 
-### Viidatud allikad {-.subreferences}
+### References {-.subreferences #references-23}
 
 <p id="Burby2003">Burby, R. J. 2003. Making plans that matter: citizen involvement and government action. − Journal of the American Planning Association, 69 (1), 33–49.</p>
 <p id="Holvandus2016">Holvandus, J., Leetmaa, K. 2016. The views of neighbourhood associations on collaborative urban governance in Tallinn, Estonia. plaNext – Next Generation Planning, 3, 49−66.</p>
