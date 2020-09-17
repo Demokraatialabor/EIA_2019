@@ -424,7 +424,7 @@ Inside **Estonia**
 <div><a class="data-btn" href="../data/22_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
-In addition to restoration grants, the state’s contribution to cultural heritage is reflected in the management of state-owned built heritage. Nearly 60% of the private owners of monuments feel that the state and local governments are not setting a good example with their management of the monuments, as they often prefer constructing a new building to restoring an old one ([Tafel-Viia jet al.t 2014](#Tafel2014)).
+In addition to restoration grants, the state’s contribution to cultural heritage is reflected in the management of state-owned built heritage. Nearly 60% of the private owners of monuments feel that the state and local governments are not setting a good example with their management of the monuments, as they often prefer constructing a new building to restoring an old one ([Tafel-Viia et al.t 2014](#Tafel2014)).
 
 A recent study on the management of state-owned built cultural heritage ([Mändel et al. 2016](#Mändel2016)) concluded that the state’s property policy needs broader goals than keeping management costs as low as possible. Like the State Forest Management Centre (RMK) aims to increase the appreciation of the forest by building hiking trails and cabins for free public use alongside its profit-orientated activities, the articles of association of Riigi Kinnisvara AS (the manager of state-owned property) should also include objectives relating to the management and displaying of cultural heritage. Today, relying solely on business logic and individual political decisions would be unthinkable in the management of the state’s natural resources, yet it is still common in the case of its built heritage.
 
@@ -448,7 +448,7 @@ knitr::include_graphics("../figures/2-chapter/fig229.png")
 <span class="imgsource-source">Source:</span> The National Register of Cultural Monuments, Timo Aava 2015.
 ```
 
-### Summary {-.chapter2_section}
+### Summary {-.chapter2_section #summary-22}
 
 Built heritage is a thread connecting the entire network of public space: in one form or another, it is found almost everywhere, constituting a foundational pattern that can be complemented with contemporary solutions to create a multi-layered, unique and high-quality public space. The purpose of heritage conservation is not to restore the spatial appearance of earlier times or to create architectural copies, but to preserve existing values so that they are not thoughtlessly destroyed as new elements are created.
 
@@ -458,7 +458,7 @@ A quarter of architectural monuments are in poor condition and in disuse, while 
 
 The use and condition of historic buildings, including monuments and heritage areas, is generally determined by decisions made outside heritage conservation, including the relocation and joining together of institutions, and allocations of large EU grants. Leaving buildings empty in settlement centres impairs the living environment and speeds up negative population processes. In order to support sustainable regional development and heritage conservation, better reflection on individual spatial decisions is needed, along with directing public investment and grants into the revitalisation of historic centres.
 
-### References {-.subreferences}
+### References {-.subreferences #references-22}
 
 <p id="Cultural2015">Cultural Heritage Counts for Europe 2015. Full Report. http://blogs.encatc.org/culturalheritagecountsforeurope//wp-content/uploads/2015/06/CHCfE_FULL-REPORT_v2.pdf.</p>
 <p id="Elefante2007">Elefante, C. 2007. The greenest building is ... one that is already built. – Forum Journal, 21 (4), 26–38.</p>
