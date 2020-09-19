@@ -81,9 +81,6 @@ Due to the problems with the cross-use of datasets, comprehensive plans of citie
 
 Estonia has a number of good examples of extensive spatial analyses conducted using various types of spatial data. An analysis with a direct spatial planning aspect was commissioned by the Ministry of the Interior from Statistics Estonia with the task of analysing commuting and determining the daily activity spaces within which people move ([Tõnurist et al. 2014](#Tõnuristjt2014)). A few scientific reports also exist; for example, the study conducted by the Institute of Ecology and Earth Sciences at the University of Tartu on the environmental load of residential locations ([Poom and Ahas 2016](#Poom2016)) and the survey of the Department of Geography at the University of Tartu on changing settlement patterns ([Reimets et al. 2013](#Reimets2013)).
 
-```{block, type='blockquote-left'}
-Positiivne näide Eesti andmepõhisest otsustamisest on Majandus- ja Kommunikatsiooniministeeriumi ning Statistikaameti koostöölepe andmepõhiste otsustusmehhanismide kasutuselevõtuks avalikus sektoris.
-```
 Spatial data has been used in Estonia in the preparation of a number of programmes (movement programmes, river basin management plans, noise containment plans) and guidelines, as well as in environmental impact assessments. However, we have not been able to establish any direct links between spatial planning decisions on the one hand and the relevant source data, research or spatial data analysis on the other. Even key urban planning decisions with a significant impact on public space tend to be intuitive or relate to the underlying data in a way that is neither explicit nor explained. Data-driven spatial decisions are hardly ever referenced in the process of planning public space. For example, the Tallinn Old City Harbour masterplan ([Zaha Hadid Architects 2018](#Zaha2018)), commissioned by the Port of Tallinn, mentions world-class public space and proposes a specific spatial vision, but lacks almost any reference to the underlying data and does not draw a connection between the envisioned spatial objectives and data on the use of space. This approach is symptomatic of Estonian spatial planning culture in general.
 
 The biggest problem is that spatial planning decisions lack transparency – decision-makers fail to show how the created space would help to fulfil quantitative objectives, which could be used to clearly describe the desired outcome and later unequivocally verify its achievement.
@@ -140,7 +137,7 @@ knitr::include_graphics("../figures/2-chapter/fig243.png")
 <span class="imgsource-source">Source:</span> Puusepp et al. 2017.
 ```
 
-### Summary  {-.chapter2_section}
+### Summary  {-.chapter2_section #summary-24}
 
 Participation in the planning of public space is a fundamental right of every citizen and user of the space. Just as we can choose the decoration of our own home, we should also have a say in the decisions concerning the organisation of public space. To improve public participation, weigh spatial design solutions and explain decisions, the source data must be easily accessible. Spatial data with no direct bearing on privacy or national security should be open data – freely accessible and machine-readable. One option would be to create a centralised open-data environment administered by Statistics Estonia, mediating access to the registers of different institutions.
 
@@ -152,7 +149,7 @@ The public sector’s main tasks in the use of open-access spatial data include 
 
 The public sector’s main tasks in the use of open-access spatial data include collecting, organising and ensuring the integrity of the data. It is important to enable the cross-use of different databases. If sufficient need arises, the private and third sector will create the software that makes use of the data. Data and technology do not create or solve problems but give individuals and organisations an opportunity to resolve them more successfully ([Bettencourt 2014](#Bettencourt2014)). The state and local governments should always require that the source data used be referenced in public discussions, survey reports and, most importantly, spatial decision-making. Data never carries absolute truth and neither does it propose spatial solutions; however, it does serve as a good foundation for democratic and transparent spatial planning.
 
-### References {-.subreferences}
+### References {-.subreferences #references-24}
 
 <p id="Ahas2004">Ahas, R., Aunap, R., Aasa, A. 2004. Sotsiaalse positsioneerimise meetod inimeste tegevusruumide uurimisel – Mander, Ü., Kurs, O. (eds.). Geograafilisi uurimusi aastatuhande vahetusel. Üllitatud Tartu Ülikooli Geograafia Instituudi 85. aastapäevaks. Publicationes Instituti Geographici Universitatis Tartuensis, 89. Tartu: Tartu Ülikooli Kirjastus, 63–73.</p>
 <p id="Batty2016">Batty, M. 2016. Big data and the city. – Built Environment, 42 (3), 321–337.</p>
