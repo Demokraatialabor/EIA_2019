@@ -11,7 +11,7 @@
 <div><a class="print-btn" href="print/EIA-2019-5.0-Tulevik.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
-### Põhisõnumid {-.chapter5_section}
+### Põhisõnumid {-.chapter5_section #põhisõnumid-5}
 
 ```{block, type='points'}
 * Tulevikumuutused mõjutavad füüsilist ruumi – loodus- ja tehiskeskkonda – ning jagavad selle uute kasutusviiside põhjal ümber.
@@ -328,7 +328,7 @@ Ruumi (sh avaliku ruumi) tulevikku kujundavaid tegureid saab lihtsustatult jagad
 
 <p id="ÜRO2019a">ÜRO – United Nations 2019a. Revision of World Population Prospects.</p>
 
-### Viidatud allikad {-.subreferences}
+### Viidatud allikad {-.subreferences #viidatud-allikad-5}
 
 <p id="Ait2017">Ait, J. 2017. Noored IT-seadmete ja interneti maailmas. https://blog.stat.ee/2017/10/26/noored-it-seadmete-ja-interneti-maailmas.</p>
 
