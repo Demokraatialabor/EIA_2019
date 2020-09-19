@@ -95,7 +95,7 @@ Sotsiaalmeedia avalikus ruumis aitab avatud tähendusloomet toetada suhtlusgrupp
 
 Modereerimine seostub peamiselt ebasobivate kirjutiste eemaldamise, grupiga liitumissoovide rahuldamise või tagasilükkamisega, aga ka arutelu fookuse hoidmisega. Eesti puhul on modereerimise ja sotsiaalmeedia arutelude kvaliteedi seoseid võrdlemisi vähe uuritud. Poolavaliku Facebooki grupi modereerimisele keskendunud analüüs ([Orgse 2018](#Orgse2018)) tõi ühe probleemina välja, et moderaatoritel on oma väljakujunenud väärtushinnangute tõttu ideaalse dialoogi tingimusi sageli raske luua, näiteks anda sõna neile, kelle seisukoht nende omast otsustavalt erineb. Suure liikmeskonnaga gruppides on aga kõigi kasutajate arvamusavaldusi, avameelsust ja kriitikat keerulisem tagada.
 
-### Kokkuvõte {-.chapter4_section}
+### Kokkuvõte {-.chapter4_section #kokkuvõte-41}
 
 Pöörasime artiklis tähelepanu sellistele tähendusloome tunnustele, mille domineerimine soodustab sotsiaalmeediaarutelude polariseerimist ja takistab argumenteeritud diskussiooni arenemist ja eri ühiskonnagruppide lõimimist. Üht või teist suhtlemisviisi ei saa iseenesest kahjulikuks pidada, näiteks võib antiteetiline tähenduseloome tõsiste ühiskondlike kriiside ajal toimida tõhusa mobiliseerijana, niisamuti on sotsiaalsete sidemete kinnitamine oluline peaaegu igas suhtlusolukorras. Problemaatiliseks muutuvad need siis, kui osutatud tähendusloome tunnused hakkavad mingis suhtluskeskkonnas domineerima viisil, mis varjutab teistsuguste arvamuste sõnastamist, pärsib suhtlejate otsustusprotsesside kriitilist analüüsi ja kasvatab manipuleerimisohtu.
 
@@ -110,7 +110,7 @@ Digitaalses avalikus ruumis toimuvate tähendusloomeprotsesside mõistmisel on o
 
  Samuti aitab digitaalset avatud suhtlemist edendada sotsiaalmeedia platvormide suhtlusgruppide moderaatorite töökvaliteedi tõstmine näiteks moderaatoritele mõeldud koolitusprogrammide kaudu. Positiivne algatus oleks ka moderaatoritöö (riiklik) tunnustamine ning kõrgetasemeliselt modereeritud ja dialoogi soodustavate sotsiaalmeedia kommunikatsiooniruumidele kvaliteedimärkide jagamine. See eeldaks avalike sotsiaalmeedia arutelude hea tava väljatöötamist ja tutvustamist. Tunnustuse saanud keskkonnad julgustaksid erialateadlasi, asjatundjaid ja aktiivseid kodanikke sotsiaalmeedias ühiskondlikult olulistel teemadel sõna võtma. See omakorda soodustaks avatud ja argumenteeritud avalikku suhtlemist.
 
-### Viidatud allikad {-.subreferences}
+### Viidatud allikad {-.subreferences #viidatud-allikad-41}
 
 <p id="Cohen1989">Cohen, J. 1989. Deliberation and Democratic Legitimacy. – Hamlin, A., Phillip Petit, P. (eds.). The Good Polity: Normative Analysis of the State. New York: Blackwell.</p>
 
