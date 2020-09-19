@@ -92,7 +92,7 @@ knitr::include_graphics("../figures/3-chapter/fig333_eng.jpg")
 ``` {block, type='imgsource'}
 <span class="imgsource-source">Source:</span> Figure by the authors.
 ```
-Natural areas are generally publicly accessible in Estonia and visited by various groups ([Sepp and Lõhmus, this report](#how-do-people-use-the-natural-environment-in-Estonia)), but the physical public space is not defined by the law. The Charter of European Planning cites streets, squares, footpaths and green links as examples of the ‘public realm’ (<a href="https://planeerimine.ee/static/sites/2/euroopa_planeerimise_harta.pdf">ECTP-CEU 2013</a>). The General Part of the Environmental Code Act sets out the principle of general access: while entering a plot of land requires the permission of the owner, permission is assumed unless the owner has clearly indicated otherwise. In addition to the owner, the local government may restrict access to a natural area in a comprehensive plan if this is required by overriding public interest or private interest or if a lawful structure is located on a waterfront path.
+Natural areas are generally publicly accessible in Estonia and visited by various groups ([Sepp and Lõhmus, this report](#how-do-people-use-the-natural-environment-in-estonia)), but the physical public space is not defined by the law. The Charter of European Planning cites streets, squares, footpaths and green links as examples of the ‘public realm’ (<a href="https://planeerimine.ee/static/sites/2/euroopa_planeerimise_harta.pdf">ECTP-CEU 2013</a>). The General Part of the Environmental Code Act sets out the principle of general access: while entering a plot of land requires the permission of the owner, permission is assumed unless the owner has clearly indicated otherwise. In addition to the owner, the local government may restrict access to a natural area in a comprehensive plan if this is required by overriding public interest or private interest or if a lawful structure is located on a waterfront path.
 
 Public access and nature conservation are most clearly defined for sites protected under the Nature Conservation Act (18.5% of Estonia’s land area; [Linder and Kakuver 2017](#Linder2017)). Protected areas have protection zones of varying strictness, the most stringent of which are nature reserves (1% of the land area of protected areas; [ibid.](#Linder2017)). Land in special management zones (60%) and limited management zones (39%) may be visited according to the procedure set out in the protection rules; in all cases, it is prohibited to camp, build fires and organise events in places not specifically prepared and designated for these purposes. Roads and paths in protected areas or leading to protected natural sites are open to the public from sunrise to sunset. Protected zones along shores and banks (limited management zone, building exclusion zone and water protection zone) are also relevant in respect to public use: permanent access must be provided to waterbodies that are in public use; a waterfront path must allow access at the border of the waterbody, and conditions for recreation must be maintained in protected zones.
 
@@ -121,7 +121,7 @@ knitr::include_graphics("../figures/3-chapter/fig334_eng.jpg")
 <span class="imgsource-source">Source:</span> Figure by the authors.
 ```
 
-In settlements, the inhabitants are provided with primary contact with natural areas in terms of forests, urban woodlands, parks and cemeteries. Urban woodlands and forested parks have been managed in Estonia since at least the mid-19th century, as the recreational value of forests was already highly appreciated then. An important indicator of the use of recreational areas within and near urban areas is their proximity to people’s homes ([Sepp ja Lõhmus, this report](#how-do-people-use-the-natural-environment-in-Estonia);[Orru et al., this report](#The-impact-of-natural-areas-on-people’s-well-being)).
+In settlements, the inhabitants are provided with primary contact with natural areas in terms of forests, urban woodlands, parks and cemeteries. Urban woodlands and forested parks have been managed in Estonia since at least the mid-19th century, as the recreational value of forests was already highly appreciated then. An important indicator of the use of recreational areas within and near urban areas is their proximity to people’s homes ([Sepp ja Lõhmus, this report](#how-do-people-use-the-natural-environment-in-estonia);[Orru et al., this report](#The-impact-of-natural-areas-on-peoples-well-being)).
 
 The sea constitutes a special natural area in terms of public access and usability. Historical uses of maritime areas, such as for fishing or travelling, are being supplemented by new uses such as recreation and energy production. The recreational value of maritime areas is also reflected in sea views, while new uses may compete with the preservation of sea views. A spatial plan covering Estonia’s entire maritime area (36,500 sq. km including the shore area) is being prepared, in the course of which interests and areas suitable for various uses are being identified, the combined impact of the uses is assessed and a long-term agreement on the use of the sea made between the parties to the plan. Spatial planning for maritime areas is a new practice for the entire European Union (the obligation of maritime spatial planning was only established in 2014). Before the Estonian maritime spatial plan was initiated, county spatial plans for the maritime areas of Hiiumaa and Pärnumaa were adopted in 2016 and 2017, respectively.
 
@@ -229,14 +229,14 @@ knitr::include_graphics("../figures/3-chapter/fig336_eng.jpg")
 <span class="imgsource-source">Source:</span> Kutsar et al. 2018.
 ```
 
-### Summary {-.chapter3_section}
+### Summary {-.chapter3_section #summary-33}
 
 ```{block, type='blockquote-right'}
 Development pressure results in fragmentation of the green network. The quality and accessibility of the network is maintained in areas where the population decreases and development pressure is lower.
 ```
 Spatial planning and nature conservation requirements are in place in Estonia which support the preservation of natural areas, their condition and public accessibility. Over half of Estonia’s land area is covered by the green network agreed upon during the spatial planning process. At the same time, the proportion of protected areas is smaller in Estonia than elsewhere in Europe – 20% and 26%, respectively ([EEA 2019](#European2019)). The current spatial planning and nature conservation measures are not enough to guarantee good living environment, open space and the preservation of the benefits of natural areas. The reasons for this are the lack of a carefully designed cross-sectoral spatial policy and the legal possibility of not complying with the conditions agreed upon in the preparation of strategic development documents and when processing development plans, as well as with the analysis of combined spatial impacts. Alongside resolving these issues, it is important for the implementation of a coherent spatial policy to improve the technical level of plans and ensure the accessibility of information in line with the standards of the digital age.
 
-### References {-.subreferences}
+### References {-.subreferences #references-33}
 
 <p id="Adams2014">Adams, N., Cotella, G., Nunes, R. 2014. The engagement of territorial knowledge communities with European spatial planning and the territorial cohesion debate: a Baltic perspective – European Planning Studies, 22 (4), 712–734.</p>
 
@@ -256,8 +256,8 @@ Spatial planning and nature conservation requirements are in place in Estonia wh
 
 <p id="Mander2018">Mander, Ü., Kull, A., Uuemaa, E., Mõisja, K., Külvik, M., Kikas, T., Raet, J., Tournebize, J., Sepp, K. 2018. Green and brown infrastructures support a landscape-level implementation of ecological engineering – Ecological Engineering, 120, 23–35.</p>
 
-<p id="Rahandusministeerium2019">Ministry of Finance 2019. Ruumilise planeerimise rohelise raamatu eelnõu 26.07.2019. https://planeerimine.ee/prr.</p>
+<p id="Ministry2019">Ministry of Finance 2019. Ruumilise planeerimise rohelise raamatu eelnõu 26.07.2019. https://planeerimine.ee/prr.</p>
 
-<p id="1Riigikontroll2015">National Audit Office of Estonia 2015. Kallasradade kasutamine. Kas omavalitsused ja Keskkonnainspektsioon on teinud kõik endast sõltuva, et inimene pääseks randa ja saaks kallasrajal liikuda? Report for the Estonian Parliament. Tallinn, 8 December 2015.</p>
+<p id="1Audit2015">National Audit Office of Estonia 2015. Kallasradade kasutamine. Kas omavalitsused ja Keskkonnainspektsioon on teinud kõik endast sõltuva, et inimene pääseks randa ja saaks kallasrajal liikuda? Report for the Estonian Parliament. Tallinn, 8 December 2015.</p>
 
 <p id="Nuga2015">Nuga, M., Metspalu, P., Org, A., Leetmaa, K. 2015. Planning post-summurbia: from spontaneous pragmatism to collaborative planning? – Moravian Geographical Reports, 23 (4), 36−46.</p>
