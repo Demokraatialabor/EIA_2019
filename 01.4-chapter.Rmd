@@ -585,7 +585,7 @@ Oluline probleemide ring seostub elamufondi kvaliteedi tõstmise vajadusega. Kui
 
 Ebavõrdsus elamistingimustes süvendab üldist regionaalset ebavõrdsust Eestis. Seda ebavõrdsust aitaksid vähendada sihtrühmapõhised ja regionaalse suunitlusega toetused. Ka kohaliku omavalitsuse ja riigi läbimõeldumad piirkondliku suunitlusega meetmed ning koostöö eraarendajatega võimaldaks kasvava nõudlusega üürielamufondi laiendada ja mitmekesistada.
 
-### Viidatud allikad {-.subreferences}
+### Viidatud allikad {-.subreferences #viidatud-allikad-14}
 
 <p id="Hess2019">Hess, D. B., Väiko, A., Tammaru, T. 2019. Effects of New Construction and Renovation on Ethnic and Social Mixing in Apartment Buildings in Estonia. Centre for Migration and Urban Studies, Department of Geography, University of Tartu.</p>
 
