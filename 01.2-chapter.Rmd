@@ -282,7 +282,7 @@ Kuvandi ümberpööramisel kasutatakse ääremaisust „trumpkaardina“ ([Groot
 
 Hoolimata neist püüdlustest pärsib ääremaastumine ise maapiirkondade võimalust mainekujunduse abil konkurentsivõimet suurendada. Kuigi kuvandi ümberpööramine ja nähtavusele püüdlemine on sisuliselt kooskõlas konkurentsivõimet tugevdava kohaturunduse ideega, nõuab nende edukas rakendamine kultuurilisi, poliitilisi, majanduslikke ja inimressursse, mis ääremaapiirkondades sageli puuduvad. Piiranguid seavad koha ääremaastaatusest tulenevad objektiivsed tegurid, nagu näiteks rahapuudus, vähe inimesi või sidemete puudumine mõjukate ajakirjanike ja riigi tasandi otsustajatega. Peale selle on oht püsivaid kohalikke probleeme pisendada ja neist üle libiseda või luua õõnes kuvand, mis ei põhine tegelikul kohalikul olukorral; samuti võib juhtuda, et mainekujunduses keskendutakse kõiki maapiirkondi iseloomustavatele liialt üldistele omadustele ([Grootens 2018](#Grootens2018); [Plüschke-Altof 2017](#Plüschke-Altof2017)). Nii ei jää paljudel maapiirkondadel ja väikelinnadel muud üle, kui valida enese ääremaastamise strateegia. Ehkki see lähenemine kuvandikasutusele võimaldab avatult tegeleda kohalike probleemidega ning nõuda rohkem ümberjaotamisele suunatud regionaalpoliitikat, võib see muutuda häbimärgistava toime tõttu koormaks kohalikule arengule.
 
-### Kokkuvõte {-.chapter1_section}
+### Kokkuvõte {-.chapter1_section #kokkuvõte-12}
 
 Kui nõukogude aja lõpu põllumajanduse õitseng soosis maaelu, siis järgnevad kolm kümnendit on suundumus olnud vastupidine. Ehkki suure löögi ääremaa piirkondadele andis sotsialismiaja majanduse kokkuvarisemine, on ääremaa võimalused ümbermõtestamisel praegu kogu Euroopas ([Lang ja Görmar 2019](#Lang2019)). Eesti praeguse ääremaa majanduslikku olukorda ei saa ühegi toetusmeetmega kiiresti pöörata seisu, kus oldi 1980. aastate lõpus. Rääkida saab aga ääremaastumise ja ääremaastamise peatamisest – uuest majandusliku ja rahvastiku arengu tasakaalust maakohtades ja väikelinnades ning võimalustest praegustele aktiivsetele kogukondadele.
 
@@ -294,7 +294,7 @@ Konkurentsivõimel põhinev lähenemine Euroopa ja Eesti regionaalpoliitikas ei 
 
 *Uurimistöö, mille tulemusi siin artiklis esitatakse, tehti RegPol<sup>2</sup> projekti „Sotsiaal-majanduslik ja poliitiline lahendus regionaalsele polariseerumisele Kesk- ja Ida-Euroopas“ raames. Projekti juhtis Leibnizi Regionaalgeograafia Instituut Leipzigis ja rahastas Euroopa Liidu seitsmenda raamprogrammi Marie Curie nimelise meetme eriprogamm „Inimesed“ (FP7/2007-2013/, EL teadusuuringute rakendusameti grandileping nr 607022).*
 
-### Viidatud allikad {-.subreferences}
+### Viidatud allikad {-.subreferences #viidatud-allikad-12}
 
 <p id="Ahas2011">Ahas, R., Silm, S., Aasa, A., Leetmaa, K., Saluveer, E., Tiru, M. 2011. Pendelrändest Eestis. Mobiilpositsioneerimise andmestikul põhinev analüüs. – Narusk, E. (toim.). 2011 Eesti piirkondlik areng. Tallinn: Statistikaamet, 185–196.</p>
 
