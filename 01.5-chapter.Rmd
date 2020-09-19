@@ -509,11 +509,11 @@ Säästev planeerimine linnalises keskkonnas eeldab tähelepanu pööramist ka a
 
 On tõsi, et auto on liikuvuse võimaldaja teatud olukordades, kindlasti osa eakate ja liikumisraskustega inimeste puhul. Samuti on autostumine aidanud Eesti eri piirkondi ühendada, mis teeb võimalikuks elamise ka riigi äärealadel. Ometi on liigne autopõhisus ühiskonna toimimisele kahjulik. See teeb ligipääsetavuse privileegiks vaid osale ühiskonnast ning vähendab ka sotsiaalset suhtlemist. Ligipääsetavuse ja hea avaliku ruumi tagamine üle Eesti eeldab nii konkreetset sekkumist linnade avaliku ruumi disaini kui ka loovate lahenduste pakkumist hajaasustatud piirkondades.
 
-### *Tänusõnad* {-.chapter1_section}
+### *Tänusõnad* {-.chapter1_section #tänusõnad-15}
 
 *Tauri Tuvikene osa selles publikatsioonis on osaliselt valminud projekti „Ühistransport kui avalik ruum Euroopa linnades: narratiivid, kogemused, vastuolud (PUTSPACE)“ raames, mis on rahastatud HERA (Humanities in the European Research Area) avaliku ruumi uurimisprogrammi poolt (www.heranet.info), mida kaasrahastab AKA, BMBF via DLRPT, ETAg ja Euroopa Komisjon Horisont 2020 programmi kaudu.*
 
-### Viidatud allikad {-.subreferences}
+### Viidatud allikad {-.subreferences #viidatud-allikad-15}
 
 <p id="Banister2008">Banister, D. 2008. The sustainable mobility paradigm. – Transport Policy, 15 (2), 73–80.</p>
 
