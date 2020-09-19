@@ -10,7 +10,7 @@
 <div><a class="print-btn" href="print/EIA-2019-2.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
-### Põhisõnumid {-.chapter2_section}
+### Põhisõnumid {-.chapter2_section #põhisõnumid-2}
 
 ```{block, type='points'}
 * Eestis on avaliku ruumi loome olnud süsteemitu ja killustunud eri fookusega planeeringute vahel.
@@ -26,7 +26,7 @@ Kui maakondadesse teenuste planeerimisel arvestatakse üksikotsuste laiemat ruum
 Kohalike kogukondade ja teiste huvigruppide osalus ei kindlusta automaatselt kvaliteetset avalikku ruumi, nagu ei taga põhjalikult kogutud andmed üksi demokraatlikku otsust. Oluline on leida kooskõla ruumikasutajate ning eksperditeadmise vahel, kusjuures nii eksperdid kui ka teadmised võivad jaguneda eri leeridesse.
 ```
 
-### Lähtekohad {-.chapter2_section}
+### Lähtekohad {-.chapter2_section #lähtekohad-2}
 
 Demokraatia seosed füüsilise ruumiga on euroopaliku tsivilisatsiooni ajaloos ilmnenud esmajoones avaliku ruumi kaudu, mis peale selle, et see annab avalikule arutelule foorumi, on tähistanud linnastuva ühiskonna majanduslikku, poliitilist ja kultuurilist keset. Tänapäeval on avaliku ruumi tähendusväli veelgi laienenud. Selgelt piiritletud linnaruumiosa (väljak, turuplats) asemel tähistab avalik ruum levinud käsitluse järgi kõigile ligipääsetavat ja võõraste silmast silma kohtumise ruumi ([Parkinson 2012](#Parkinson2012)). Selline tähenduse nihe tuleneb tööstusajastul hoogustunud inimeste liikumisest, sest tööl hakati käima kodust kaugemal ja tihenesid kokkupuuted teiste ja teistsuguste inimestega ([Sennet 1986](#Sennet1986)). 20. sajandi kiire tehnoloogiline areng on muutnud märkimisväärselt nii ruumilist keskkonda, selle kasutust ja taju kui ka ruumi uurimist. Tähelepanu ruumi ja ühiskonna omavahelisele suhtele ehk sellele, kuidas ühiskondlikud suhted ruumis avalduvad ja kuidas ruum omakorda neid suhteid kujundab, paigutub humanitaar- ja ühiskonnateadustes 20. sajandi lõpukümnenditel toimunud nn ruumilise pöörde konteksti ([Lefebvre 1974](#Lefebvre1974); [Soja 1989](#Soja1989)). Avalik ruum kui poliitiline väli on üks olulisemaid valdkondadevahelisi märksõnu, mis seda pööret tähistab.
 
@@ -56,7 +56,7 @@ Ruumiplaneerimisse kaasamine on põhimõttena planeerimisseaduses esile tõstetu
 ```
 Eelöeldu taustal on siiski oluline rõhutada, et avaliku ruumi loome ei ole kestlik, kui see võrdsustub riikliku tellimusega – olgu see siis nn protsendikunst või EV 100 juubeliprogrammi raames valminud linnaväljakud. Avalik ruum toimib demokraatia edendamise huvides üksnes siis, kui ta jätab võimaluse end pidevalt küsimuse alla seada ja uuesti määratleda ([Levine 2010](#Levine2010)). See tähendab ka avatust katsetustele, institutsioonivälisele kriitikale ning isetekkeliste, kodanikualgatuste korras ja teatud piirini kehtivat stabiilsust kõigutavatele aktsioonidele. Mitteinstitutsionaalne kunst, isetekkelised ruumid ja kunstiteosed ning spontaanne ruumikasutus on võimalused, kuidas avaliku ruumi loomet soosida. Avaliku ruumi kunst on ühtlasi vahend, kuidas tõmmata avalikule ruumile kui sellisele tähelepanu ja mõelda, mis on õigupoolest avalikkus ja kuidas see on muutumises. Avaliku ruumi tuum on arutelu ja see sünnib erinevate, sealhulgas vastandlike vaadete koosmõjus ja üha uusi küsimusi püstitades, mida institutsiooniline ja sageli dekoratiivne kunst või ruumikujundus ei ole võimeline esile kutsuma. Paradoksaalselt on avaliku ruumi huvides, et pinge nii era- kui ka avalikus omandis oleva ruumi kui ka riikliku tellimuse ja mitteametliku praktika vahel püsiks.
 
-### Artiklite teemad {-.chapter2_section}
+### Artiklite teemad {-.chapter2_section #artiklite-teemad-2}
 
 Peatüki nelja artiklit raamistab tõdemus, et avaliku ruumi rolli ei ole olemasoleva ehituspärandi ega uue loomise kaudu Eesti ruumiplaneerimises piisavalt arvestatud. Siiski on viimastel aastatel suurenenud nii elanike teadlikkus avalikust ruumist kui ka ruumivaldkonna spetsialistide üksmeel, et selle teadvustamine on vajalik. Artiklid toovad füüsilise avaliku ruumi loomega seoses esile kolm suuremat teemat.
 
@@ -75,13 +75,13 @@ Kaasamisega seondub peatüki kolmas oluline teema, nimelt ruumiotsuseid suunava 
 
 Andmete kogumise ja kasutuse parandamine ei asenda muid kaasamise viise. Arutelu ja ruumiotsuste kvaliteet sõltub Kljavini ja teiste sõnul kogemuste ja teadmiste tasakaalustatusest. Siiski ei tähenda see, et otsustamine saaks toetuda üksnes huvigruppide eelistustele, vaid kaasamine tähendab nii eksperditeadmise kui ka kasutajakogemuse läbikaalutud arvestamist.
 
-### Eesti maailmas {-.chapter2_section}
+### Eesti maailmas {-.chapter2_section #eesti-maailmas-2}
 
 Avaliku ruumi kvaliteedi ehk ligipääsetavuse hindamine arvuliste näitajate abil on problemaatiline, ent üks võimalus seda mõõta on jälgida elanike igapäevaseks liikumiseks kasutatavaid transpordivahendeid. Levinud tõdemus on, et ohutut ja meeldivat avalikus ruumis viibimist ja liikumist võimaldavad asulad on jalakäija- ja jalgrattasõbralikud. Selles vallas on paraku nii suurima asustustihedusega Tallinn ja Harjumaa, aga ka ülejäänud Eesti mahajäämus Euroopa keskmisest ilmne. Eurobaromeetri [2014](#Eurobarometer2014). aasta uuringu järgi kasutas Soomes ratast tüüpilisel päeval liikumiseks 14%, Taanis 23% ja Hollandis 35% inimestest ning Euroopas keskmiselt 8% elanikest. Eestis oli vastav näitaja 5% ja see jääb mõne protsendipunktiga maha nii Leedust kui ka Lätist. Eestis on selge trend autostumise suunas: isikliku või tööandja autoga käis 2018. aastal tööl 54,5%, rattaga vaid 2,7% töötajatest ([Eesti statistika andmebaas 2018](#Eesti2018)). Samal ajal ei leidu rahvusvahelistes dokumentides ja nüüdisaegsetes planeerimissoovitustes punkte, mille kohaselt peaks avaliku ruumi täiustamiseks eraldama tänavatel rohkem ruumi autodele ([Gehl Architects 2011](#Gehl2011); [Pere *s. a.*](#Pere); [ÜRO 2017](#United2017)). Vastupidi, üha enam maailma linnu liigub kesklinna autodele sulgemise või märgatava piiramise suunas. Nii need arvud kui ka eraautodekeskne linnaruumi kasutus näitavad lõhet nüüdsete rahvusvaheliste suundumuste ja avaliku ruumi kättesaadavuse vahel tänapäeva Eestis.
 
 Rahvusvaheliste raamdokumentide ja ka kohalike valdkondlike soovituste valgusel väljendame siiski võrdlemisi head teadlikkust avaliku ruumi olulisusest kvaliteetse elukeskkonna kujundajana. Eesti on tunnustanud Davosi deklaratsiooniga (<a href="http://www.arhliit.ee/uudised/ean-kiidab-heaks-davosi-deklaratsiooni/">2018</a>) ehitatud keskkonna olulisust kultuuriväärtusena, ühinenud Euroopa maastikukonventsiooniga (<a href="https://www.envir.ee/et/euroopa-maastikukonventsioon/">2017</a>) ja Euroopa säästvate linnade Leipzigi hartale (<a href="https://ec.europa.eu/regional_policy/archive/themes/urban/leipzig_charter.pdf">2007</a>) alla kirjutades kinnitanud valmisolekut keskenduda kasutajasõbraliku ja kvaliteetse avaliku ruumi loomele. Avaliku ruumi osakaalu tähtsustamine elu- ja ehitatud keskkonna kvaliteedi tõstmisel on esmakordselt mainitud Eesti arhitektuuripoliitikas (2002), mis oma ajastu nähtusena rõhutab 1990. aastate kaootilise ehitamisperioodi vilju, hinnates eelkõige arhitektuuri ja ehitatud keskkonna kui rahvusliku rikkuse hoidmise vajadust. Aastatel 2017–2018 Riigikantselei juures tegutsenud <a href="https://www.riigikantselei.ee/sites/default/files/riigikantselei/strateegiaburoo/ruumiloome_lopparuanne_.pdf">ruumiloome ekspertrühma lõpparuanne</a> näitab 15 aastaga toimunud nihet arhitektuuri kvaliteedi tähtsustamiselt laiapõhjalisele ruumikoosloomele. Raport torkab ka rahvusvaheliste kokkulepete foonil silma oma laiahaardelise vaatega, käsitledes ruumiloomet ennekõike kui „ruumi arengut mõjutavate otsuste kujundamist ja elluviimist“ (vt raport lk 5). Töögrupi peamiste soovitustena on sõnastatud avaliku sektori ruumipädevuste suurendamine, disainikvaliteet, kultuuripärandi säilitamine ja avaliku sektori vastutus avaliku ruumi ja ehitatud keskkonna kvaliteedi eest seismisel.
 
-### Kuidas edasi? {-.chapter2_section}
+### Kuidas edasi? {-.chapter2_section #kuidas-edasi-2}
 
 Hea avaliku ruumi loomiseks on oluline algatuseks teadvustada, et eesmärke võib seada väga erineval skaalal – nii lihtsalt teostatavate muudatuste kui ka pikemaajaliselt saavutatavate sihtidena. Suuremate muutuste oodatavat mõju saab hinnata väiksemas mahus, näiteks katsetades ajutisi lahendusi autoliikluse piiramiseks või elavdades tänavaelu hooajaliste üritustega. Suuremate avaliku ruumi projektide kavandamisest ja nendega kaasnenud vaidlustest on Eestis eri osapooltel juba olemas kogemus ja teadmised, mida katsetusfaasis rakendada.
 
@@ -93,7 +93,7 @@ Avalik ruum peab olema ligipääse- tav kõigile – sealhulgas eakatele, puuete
 
 Kuidas aga panna füüsiline avalik ruum tööle kahanevate väikelinnade heaks, et elukeskkond säiliks tulevikus ka suurematest keskustest kaugemal? Siin on lahendusena nähtud kestliku kahanemise tingimustega kohanemist ja selle teadlikku arvestamist ruumiplaneerimises. Teisisõnu, tuleks mõelda, kuidas kasvamise asemel kohandada linn elanike vajadustele ja taaselustada kesklinna ([Tintera 2018](#Tintera2018)).  Avalikul ruumil on komplekslahendusi otsiva ruumiloomena keskne roll ja see võimaldab ühtlasi säilitada ja taastada ajaloolist hoonestust, kohalikku identiteeti ja loodusväärtusi ([Rahandusministeerium 2015](#Rahandusministeerium2015)). Niisama oluline on kaasamiskultuuri teadlik arendamine väikelinnades. See nõuab olulist nihet planeeringute eesmärkide seadmises ehk hea ruumilise tulemuse lahutamatu osana tuleks näha ka kohalike inimeste vajaduste rahuldamist ja pidevat avalikku arutelu.
 
-### Viidatud allikad {-.subreferences}
+### Viidatud allikad {-.subreferences #viidatud-allikad-2}
 
 <p id="Astangu2012">Astangu Kutserehabilitatsiooni Keskus 2012. Kõiki kaasava elukeskkonna kavandamine ja loomine. https://www.tallinn.ee/upload/Koiki_kaasava_elukeskkonna_kavandamine___loomine.pdf.</p>
 <p id="Eesti2018">Eesti statistika andmebaas 2018. Hõivatud soo ja töölkäimise viisi järgi.</p>
