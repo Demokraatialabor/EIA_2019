@@ -208,7 +208,7 @@ The examples presented here show that academic experts have played different rol
 
 Presenting the best expert knowledge and facilitating its use is a constant challenge that is also faced by the human development report. The reader should be aware that, in the case of the 2013 and 2015 reports, half the media response was concentrated in the few weeks after the publication of the report, while the impact of the 2017 report lasted longer: two-thirds of the reporting appeared later than immediately after the publication of the report (station.ee media monitoring data).
 
-### References {-.subreferences}
+### References {-.subreferences #references-44}
 
 <p id="Eesti2002">Eesti teadlaste eetikakoodeks – The Estonian Code of Conduct for Research Integrity. Tallinn: Eesti Teaduste Akadeemia, 2002.</p>
 
