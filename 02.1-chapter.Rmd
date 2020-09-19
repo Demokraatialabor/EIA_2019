@@ -204,7 +204,7 @@ knitr::include_graphics("figures/2-chapter/fig215.png")
 <span class="imgsource-source">Allikas:</span> Kavakava arhitektid 2019.
 ```
 
-### Kokkuvõte  {-.chapter2_section}
+### Kokkuvõte  {-.chapter2_section #kokkuvõte-21}
 
 Hästi toimiva ühiskonna ülesanne on hoolitseda, et inimene tunneks end ruumis hästi mitte ainult kodus, tööl ja autos, vaid ka avalikus ruumis. Avalikku ruumi mõjutab peaaegu iga ruumiotsus. Avaliku sektori tuumülesanne on ruumi mõjutavate otsuste ja lahenduste positiivseid mõjusid kaitsta ja võimendada ning negatiivseid mõjusid ennetada või takistada. Avaliku ruumi terviklikkus on üldkehtiv avalik huvi ja seal ei saa juhinduda ühe teema või ruumikasutaja eelistamisest, näiteks sõiduteede või omaniku vabaduste ülimuslikkusest. Avalik ruum vajab kaitsmise kõrval ka visioonidel põhinevat strateegilist arendamist, sealhulgas pidevat ruumilist seostamist iga rajatava hoone, sõidutee ja era-arendusega. Muu hulgas annab avalik ruum võrgustikulise ruumiobjekti tähenduses selgema aluse linnaarhitektide tööle ja tasakaalus planeeringulahendustele.
 
@@ -222,7 +222,7 @@ Aastal 2018 valminud <a href="https://www.riigikantselei.ee/sites/default/files/
 
 Turvalisust ja heaolu kasvatab eelkõige aktiivne ruumi kasutus ([Worpole ja Knox 2007](#Worpole2007)), seega on tähtis ka ruumi iseorganiseerumine ja vabakasutus. Ise- ja koosloomine suurendab ühtlasi elanike kogukonna- ja omanikutunnet. Ruumiloome formalismist vabanemise eelduseks on mõtteviisi muutus, aga ka õigusruumi toetus. Avalik ruum paraneb, kui võrgustiku terviklikkust ja mitmekesisust tähtsustatakse järjepidevalt nii suurtes otsustes kui ka pisiasjades. Sellega koos püsib ja paraneb kogu ühiskonna ja demokraatia tervis.
 
-### Viidatud allikad {-.subreferences}
+### Viidatud allikad {-.subreferences #viidatud-allikad-21}
 
 <p id="Gehl2015">Gehl, J. 2015. Linnad inimestele. Tallinn: Eesti Kunstiakadeemia, Yoko Oma.</p>
 <p id="Ilus2000">Ilus, E. 2000. Rooma eraõiguse alused. Tallinn: Ilo Print.</p>
