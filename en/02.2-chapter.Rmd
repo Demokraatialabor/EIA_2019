@@ -321,6 +321,8 @@ As of 2019, the places of worship programme was incorporated into the National H
 The state’s support for built heritage under its protection is far from sufficient: the volume of applications for restoration grants is several times greater than the funding capacity ([Figure 2.2.7](#figure227)). A cut made during the economic crisis reduced the budget for grants almost by half, and although the state budget has tripled since the end of the crisis, state support for monuments has essentially remained at the crisis level ([Figure 2.2.7](#figure227)). Unlike many other countries, Estonia offers no tax incentives for monument owners.
 
 <p class="caption" id="figure227"><span class="figure-number">Figure 2.2.7.</span> Comparison of the restoration grant and the state budget</p>
+
+<div class="desktop-plot">
 ```{r, figure227, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
@@ -442,8 +444,8 @@ Riigi Kinnisvara AS is awaiting a political decision on what to do with the comp
 knitr::include_graphics("../figures/2-chapter/fig229.png")
 
 ```
-
 </div>
+
 ```{block, type='imgsource'}
 <span class="imgsource-source">Source:</span> The National Register of Cultural Monuments, Timo Aava 2015.
 ```

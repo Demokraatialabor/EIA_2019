@@ -212,7 +212,7 @@ fig224_data$percent=percent((fig224_data$value/100), 1)
 
   print(fig224_plot + fig_theme_general + fig224_theme)
 
-  ggsave(path="exported_figures/PDF/chapter2",filename="fig224.pdf", height=120, width=200, units="mm")
+#ggsave(path="exported_figures/PDF/chapter2",filename="fig224.pdf", height=120, width=200, units="mm")
 
 ```
 
