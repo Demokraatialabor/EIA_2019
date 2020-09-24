@@ -192,7 +192,7 @@ Vähe oli märke sellest, et poolte seisukohad oleksid arutelu jooksul teineteis
 
 Ekspertidena said avalikkuses rohkem tunnustust siiski metsanduspoliitika kriitikud, näiteks nimetas Postimees Asko Lõhmuse metsandusdebatis osalemise eest 2017. aastal aasta inimeseks.
 
-### Kokkuvõte {-.chapter4_section}
+### Kokkuvõte {-.chapter4_section #kokkuvõte-44}
 
 Kuidas tunnevad eksperdid end Eesti aruteluruumis? Selles artiklis kirjeldatud kolm näidet (ränderaamistik, puidurafineerimistehas, metsandus) osutavad sellele, kui keeruka olukorraga peab kokku puutuma vastuolulist teemat käsitlevasse avalikku debatti sekkuda sooviv asjatundja. Peamiselt on raskused seotud sellega, kuidas eksperdi esitatud fakte ja argumente arutelus teiste osaliste poolt käsitletakse.
 
@@ -216,7 +216,7 @@ Siinsed näited tõid esile, et teadlased-eksperdid on Eestis eri tüüpi ühisk
 
 Parima eksperditeadmise nähtavale toomine ja sellele kasutusse aitamine on pidev väljakutse, millega seisab silmitsi ka inimarengu aruanne. Olgu lugejale kaasa antud teadmine, et kui nii 2013. kui ka 2015. aasta aruande puhul koondus pool aruandeperioodi kõigist meediakajastusest aruande ilmumise järgsele paarile nädalale, siis 2017. aasta aruande mõju on püsinud kauem: kaks kolmandikku kajastustest on ilmunud hiljem kui vahetult aruande väljatuleku järel (station.ee meediamonitooringu andmeil).
 
-### Viidatud allikad {-.subreferences}
+### Viidatud allikad {-.subreferences #viidatud-allikad-44}
 
 <p id="Eesti2002">Eesti teadlaste eetikakoodeks. Tallinn: Eesti Teaduste Akadeemia, 2002. http://www.akadeemia.ee/_repository/file/ALUSDOKUD/Eetikakoodeks2002.pdf</p>
 

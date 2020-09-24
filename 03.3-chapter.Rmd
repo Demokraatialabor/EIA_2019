@@ -222,14 +222,14 @@ knitr::include_graphics("figures/3-chapter/fig336.png")
 <span class="imgsource-source">Allikas:</span> Kutsar jt 2018.
 ```
 
-### Kokkuvõte {-.chapter3_section}
+### Kokkuvõte {-.chapter3_section #kokkuvõte-33}
 
 ```{block, type='blockquote-right'}
 Arendussurve toob kaasa rohevõrgustiku killustumise. Piirkondades, kus rahvastik kahaneb ja arendussurve on väiksem, säilib võrgustiku kvaliteet ja juurdepääsetavus.
 ```
 Eestis kehtivad ruumilise planeerimise ja looduskaitse nõuded, mis toetavad loodusalade säilimist, nende head seisundit ja avalikku juurdepääsu. Üle poole Eesti maismaast kuulub rohevõrgustikku, mis on kokku lepitud ruumilise planeerimise protsessis. Sama ajal on kaitstavaid maa-alasid Eestis proportsionaalselt vähem kui teistes Euroopa riikides – vastavalt 20% ja 26% ([EEA 2019](#European2019)). Praegustest ruumilise planeerimise ja looduskaitse meetmetest ei piisa, et tagada hea elukeskkond, avatud ruum ja loodusalade hüvede säilimine. Selle põhjusteks on eri valdkondi katva läbimõeldud ruumipoliitika puudumine ja õiguslik võimalus mitte lähtuda strateegiliste arengudokumentide koostamisel ning arendusplaanide menetlemisel planeeringus kokku lepitud tingimustest ja ruumilise koosmõju analüüsist. Nende kitsaskohtade lahendamise kõrval on sidusa ruumipoliitika elluviimisel oluline ka planeeringute tehnilise taseme tõus ja digiajastu normidele vastav info kättesaadavus.
 
-### Viidatud allikad {-.subreferences}
+### Viidatud allikad {-.subreferences #viidatud-allikad-33}
 
 <p id="Adams2014">Adams, N., Cotella, G., Nunes, R. 2014. The engagement of territorial knowledge communities with European spatial planning and the territorial cohesion debate: a Baltic perspective. – European Planning Studies, 22 (4), 712–734.</p>
 

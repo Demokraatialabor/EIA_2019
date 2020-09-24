@@ -11,7 +11,7 @@
 <div><a class="print-btn" href="print/EIA-2019-4.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
-### Põhisõnumid {- .chapter4_section}
+### Põhisõnumid {- .chapter4_section #põhisõnumid-4}
 
 ```{block, type='points'}
 * Eesti toimetusliku kontrollita aruteluruum on afektiivne
@@ -27,7 +27,7 @@ Eesti ajakirjandusväljaanded on „teaduse usku“, andes sageli sõna nii tead
 Eesti noored internetikasutajad tarbivad küll sotsiaalmeediat uudisteni jõudmiseks enam kui ajakirjandusväljaandeid, kuid peavad viimaseid tõeste uudiste allikana usaldusväärsemaks. Noored ei löö veebipõhistes aruteluruumides kuigivõrd kaasa, kuna pelgavad sealseid hierarhiaid ja afektiivset kõnepruuki. Vahendatud aruteluruumide asemel eelistatakse näost näkku kõnelusi ning ühiskonda panustatakse pigem konkreetsete päriseluliste ettevõtmiste kaudu. Meediajuhid hindavad kõrgelt noorte meediakirjaoskust.
 ```
 
-### Lähtekohad {- .chapter4_section}
+### Lähtekohad {- .chapter4_section #lähtekohad-4}
 
 „Ruumiga“ on üldiselt häda. „Ruum“ on käepärane kujund, kui soovitakse kõnelda keerulistes seostes tegutsejatest ja nende omavahel seotud tegevustest. „Kultuuriruum“, „küberruum“, „keeleruum“, „majandusruum“, „õigusruum“ jne – neid mõisteid iseloomustab korraga nii teatud sisemise ühtsuse kui ka mitmekesisuse eeldus. Need ruumid on ka üldjuhul piiritletud, oluline on eristatus välisest, teistsugusest ruumist. Sageli jääb lahtiseks küsimus, kuidas need kujundlikud ruumid seonduvad päris ruumiga – sellega, kus inimesed füüsiliste objektina suurema osa oma ajast veedavad. See küsimus on aktuaalne ka siinses aruandes. Kui ülejäänud inimarengu aruande peatükid pakuvad eri vaatenurki sellele, kuidas ruumisuhted ja -korraldus mõjutavad ühiskonna ja demokraatia käekäiku, siis siin arutame, kuidas kujuteldavas – Eesti elanike aruteludest tekkivas ruumis arenevad suhted mõjutavad omakorda nii Eesti inimarengut, demokraatiat kui ka n-ö pärisruumis toimuvat.
 
@@ -79,7 +79,7 @@ Iseseisvaks jäänud väljaanded otsivad püsimajäämiseks kõrvaltegevusi, mis
 
 Toimetusliku kontrolliga meedia ühe suurema probleemikohana, mis puudutab ka Eesti ruumilist arengut, tuleb aga esile tuua maakondliku ja väikekohtade ajakirjanduse keerukat olukorda. Sellele osutas 2019. aasta alguses Tartu ja Tallinna meediauurijate tehtud ühisuuring ([Kõuts-Klemm jt 2019](#Kõuts-Klemm2019)). Ajakirjanduse üks väljakujunenud tuluallikaid on reklaam, kuid Eesti meediaettevõtete sissetulek reklaamist on rahvusvaheliste digiplatvormide siinse reklaamivahendustegevuse tõttu aina piiratum. Lisaks, kuivõrd suurem osa majandustegevusest on koondunud suurlinnadesse, on maakonna või valla reklaamiturg kahanenud sedavõrd, et seab ohtu kvaliteetse kohaliku ajakirjanduse kestmise. Suure osa maakondlikest ajakirjandusväljaannetest on Eesti suuremad meediamajad juba üles ostnud ja oma tegevusse lõiminud ning kontsernisisest mastaabisäästu püüeldes on kohaliku väljaande tegevusulatus tihtipeale kahanenud. Iseseisvaks jäänud väljaanded otsivad püsimajäämiseks kõrvaltegevusi, mis on tihtipeale vähendanud nende sõltumatust kohalikest võimukandjatest. Kartes kaotada koostööpartnereid (nt omavalitsus, reklaamitellijad) võivad kohalikud ajakirjandusettevõtted jätta täitmata ülesande jälgida kriitiliselt majandusliku ja poliitilise võimu teostamist. Kohalikud omavalitsused, kes rahastavad omaenda tasuta jagatavaid väljaandeid ja pahatihti müüvad neisse isegi reklaami, raskendavad omakorda kohaliku sõltumatu meedia püsimajäämist. Kõik see ohustab ka kohaliku aruteluruumi toimimist. Kui puuduvad sõltumatud institutsioonid, mis kohalikku arutelu veavad ja edendavad, vähendab see ka võimalust, et nende arutelude abil saaks konsensuslikult setitada kohalikke arengueesmärke ning et toimiv paikkondlik infovahetus looks väiksemate kohtade elanikele ja ettevõtetele igapäevaelus uusi võimalusi.
 
-### Kuidas edasi? {- .chapter4_section}
+### Kuidas edasi? {- .chapter4_section #kuidas-edasi-4}
 
 Eelneva võib kokku võtta järeldusega, et Eesti vahendatud aruteluruum ei toimi ideaalselt. Kui ajakirjandusliku meedia loodud aruteluruumi probleemid – keskendatus konfliktidele, nähtuste lihtsustamine, kõnejärje andmisel tuntud ja žanrivõtted omandanud isikute eelistamine – on vanad, siis võrgumeediaga on kaasnenud aruteluruumi osaline killustumine ning uutes ruumides kohati silmatorkav ühiskondlikust dialoogist keeldumine, asjatundlikkusel põhineva autoriteetsuse mittetunnustamine ning üldiselt leviv afektiivne kõnepruuk on uued. Selle tulemuseks omakorda on aga osa ühiskonnagruppide, sealhulgas noorte eemalehoidmine ühiskondlikust avalikust arutelust. Need probleemid ei ole Eestile ainuomased. Selliseid suundumisi kirjeldatakse mitmel pool maailmas, seda enam, et kommunikatsiooniks kasutatavad platvormid on üldjuhul samad. Kuivõrd võrgukeskkondadega kaasnevate riskide eest demokraatiale nähakse vastutavana suuri sotsiaalmeediaplatvorme, on Euroopa Liit ja suuremad riigid asunud neilt otsustavalt nõudma nii võltsuudiste leviku peatamist kui ka selliste keskkondade sulgemist, kus vihakõne või väärinfo levitamine on regulaarne. Arvestades, et ka Eesti aruteluruumi toimimine ja ühiskondliku dialoogi kvaliteet sõltub rahvusvahelistest platvormidest, peab Eesti edaspidi tähelepanelikult ja nõudlikult osalema Euroopa Liidu kui võimeka rahvusvaheliste turgude reguleerija teemakohases töös.
 
@@ -103,7 +103,7 @@ Veebipõhise suhtluse riskide vältimine sõltub kahtlemata sellest, kuidas suur
 
 Arutelukultuuri areng, aga eriti veebipõhise suhtluse riskide vältimine sõltub kahtlemata sellest, kuidas suureneb üldine teadlikkus neist riskidest. Intervjuud Eesti meediajuhtidega osutasid ([Kõuts-Klemm jt 2019](#Kõuts-Klemm2019)), et praegused noored on hoopis meedia- ja allikakriitilisemad kui vanem põlvkond. Noorte ettevaatlikkus tuli välja ka Kalmuse ja Siibaku käesoleva kogumiku artiklist. Niisiis võiks üks eesmärke olla laiendada koolides end tõestanud meediaharidusprogramme ka laiemale elanikkonnale. Selliste programmide eestvedajaks saaksid olla meediaorganisatsioonid ise kui arutelukultuuri kvaliteedist kriitiliselt huvitatud osapooled.
 
-### Viidatud allikad {-.subreferences}
+### Viidatud allikad {-.subreferences #viidatud-allikad-4}
 
 <p id="Dutton2017">Dutton, W. H., Reisdorf, B., Dubois, E., Blank, G. 2017. Social shaping of the politics of internet search and networking: moving beyond filter bubbles, echo chambers, and fake news. Quello Center Working Paper No 2944191. Lansing: Michigan State University.</p>
 

@@ -212,7 +212,7 @@ fig224_data$percent=percent((fig224_data$value/100), 1)
 
   print(fig224_plot + fig_theme_general + fig224_theme)
 
-  ggsave(path="exported_figures/PDF/chapter2",filename="fig224.pdf", height=120, width=200, units="mm")
+#ggsave(path="exported_figures/PDF/chapter2",filename="fig224.pdf", height=120, width=200, units="mm")
 
 ```
 
@@ -429,7 +429,7 @@ knitr::include_graphics("figures/2-chapter/fig229.png")
 <span class="imgsource-source">Allikas:</span> Kultuurimälestiste riiklik register, Timo Aava 2015.
 ```
 
-### Kokkuvõte {-.chapter2_section}
+### Kokkuvõte {-.chapter2_section #kokkuvõte-22}
 
 Avaliku ruumi kui võrgustiku üks läbivaid lõimi on ehituspärand: see on pea igal pool mingil kujul olemas ning moodustab alusmustri, mida tänapäevaste lahendustega täiendades saab luua mitmekihilist, eripärast ja kvaliteetset ruumi. Muinsuskaitse eesmärk ei ole taastada kunagist ruumiilmet ega luua koopiaarhitektuuri, vaid säilitada olemasolevaid väärtusi, et need uue loomise käigus mõtlematult ei häviks.
 
@@ -438,7 +438,7 @@ Riikliku kaitse all on Eestis vaid murdosa ehitistest, kohalikus ruumilises kont
 Veerand ehitismälestistest on halvas seisus ja kasutuseta, riigi toetus nende korrastamiseks on jäänud majandussurutiseaegsele tasemele ja see ei ole kaugeltki piisav. Eraomanikele ei jää märkamata ka avaliku sektori ebajärjekindel suhtumine kultuuripärandisse – mitme riigile või kohalikele omavalitsustele kuuluva mälestise halb seisukord ja suletus avalikkusele.
 Ajalooliste ehitiste, sealhulgas mälestiste ja muinsuskaitsealade kasutuse ja seisukorra määravad üldjuhul muinsuskaitsevälised otsused: asutuste välja- ja kokkukolimine, suurte eurotoetuste määramine ja muu sarnane. Asulate keskustes ehitiste tühjaks jätmine muudab asulad elukeskkonnana ebameeldivaks ning kiirendab negatiivseid rahvastikuprotsesse. Kestliku regionaalarengu ja pärandihoiu toetamiseks on vajalik üksikute ruumiotsuste parem läbimõtlemine ning avaliku sektori investeeringute ja toetuste suunamine ajalooliste keskuste elavdamisse.
 
-### Viidatud allikad {-.subreferences}
+### Viidatud allikad {-.subreferences #viidatud-allikad-22}
 
 <p id="Cultural2015">Cultural Heritage Counts for Europe 2015. Full Report. http://blogs.encatc.org/culturalheritagecountsforeurope//wp-content/uploads/2015/06/CHCfE_FULL-REPORT_v2.pdf.</p>
 <p id="Elefante2007">Elefante, C. 2007. The greenest building is ... one that is already built. – Forum Journal, 21 (4), 26–38.</p>

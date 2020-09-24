@@ -149,11 +149,11 @@ knitr::include_graphics("figures/2-chapter/fig233.png")
 <span class="imgsource-source">Allikas:</span> Juho Kalberg.
 ```
 
-### Kokkuvõte {-.chapter2_section}
+### Kokkuvõte {-.chapter2_section #kokkuvõte-23}
 
 Koosloomest sündiva avalikku ruumi mõjutavate otsuste kujundamise ja elluviimise suunas liikumiseks vajame kõikide ruumis osalevate osapoolte avatud arutelu. Aktivismil on sellises ruumiloomes oluline roll pakkuda institutsioonidevälist vaadet ja esindada ruumikasutaja huve. Arutelus osalemine eeldab aktivistilt kriitilist mõtlemist ja sageli kiiret reaktsiooni, ühtlasi on oluline säilitada aktivismi sõltumatus. See aga ei välista uute koosloome vormide loomise vajalikkust. Edasiminek saab siiski toimuda vaid olukorras, kus avalike institutsioonide usaldava ja toetava keskkonna oluline osa on valdavalt vabatahtlikkuse alusel tehtava töö hindamine. Üksikisikute ja mitteformaalsete huvigruppide (ilma n-ö juriidilise kehata osalejate) ulatuslikum kaasamine ning küsimused, kuidas võimestada eri huvigruppe ruumiloomes osalema, on jätkuvalt mõttekoht avalikule sektorile. Aktivismi roll, käekäik ja tegevused võivad olla avaliku ruumi eri juhtumite puhul kordumatud ning üks kaasamismudel ei pruugi toimida kõikide ruumiotsuse puhul. Uued tehnoloogiad, näiteks veebipõhised rakendused, avaandmete platvormid, planeeringute veebiväravad on vahendid, mille abil kogutud vastused ei võrdu automaatselt hea avaliku ruumi loomega. Samal ajal ei tohiks avaliku ruumi vormilist ja kunstilist tulemust juhtida ka ainult huvikogukondade lobi ja kasutajagruppide eelistus. Osapoolte ja eri mudelite tasakaalustajaks saab olla omavalitsus, kes on kokku leppinud avaliku ruumi pikaaegsetes arengusuundades ja kus on tööl ruumiküsimustes pädevad spetsialistid. Kokkuvõttes on aktivism vaid üks eeldus paremate ruumiotsuste tegemiseks.
 
-### Viidatud allikad {-.subreferences}
+### Viidatud allikad {-.subreferences #viidatud-allikad-23}
 
 <p id="Burby2003">Burby, R. J. 2003. Making plans that matter: citizen involvement and government action. − Journal of the American Planning Association, 69 (1), 33–49.</p>
 <p id="Holvandus2016">Holvandus, J., Leetmaa, K. 2016. The views of neighbourhood associations on collaborative urban governance in Tallinn, Estonia. plaNext – Next Generation Planning, 3, 49−66.</p>

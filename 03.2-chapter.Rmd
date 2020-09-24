@@ -106,13 +106,13 @@ Looduskogemuse vähenedes kitseneb mugavustsoon, eriti noorte puhul. Kuigi noort
 ```
 Eesti noorte nn Y-põlvkonna looduskasutusega seotud emotsioone uuriti veebiküsitluse kaudu ([Saar 2015](#Saar2015)). Selgus, et 75% noortest hindab kõrgelt võimalusi viibida looduskeskkonnas. Küsitletud noored väärtustavad lõõgastust, mida pakub looduses üksi või kaaslastega olemine või füüsiline pingutus. Ent pool vastanutest, eriti alaealised, tunnevad hirmu – eelkõige metsas äraeksimise ees, aga ka vastikustunnet putukate ja teiste elusolendite vastu. Need negatiivsed emotsioonid seostuvad linnastumisega (võõrandumisega) ning vähenevad vanuse, kogemuse ja kontrollivõime kasvades.
 
-### Kokkuvõte {-.chapter3_section}
+### Kokkuvõte {-.chapter3_section #kokkuvõte-32}
 
 Ligipääs mitmekesistele loodusaladele oma kodu ümbruses pakub Eesti inimestele paremaid võimalusi lõõgastumiseks ja tervise tugevdamiseks. See aitab vähendada tervisenäitajate ebavõrdsust, mis tuleneb sotsiaalsest kuuluvusest või majanduslikest võimalustest. Lisaks soodustab rohelus ka ühiskondlikku läbikäimist ning vähendab seega potentsiaalselt inimgruppide segregatsiooni, mis on kriitiline Eesti tiheasustusaladel ja eeslinnades. Tulenevalt suurenevast survest kasutada loodusalasid teede ja muu taristu rajamiseks on asulate planeerimisel senisest süstemaatilisemalt ja terviklikumalt vaja hinnata loodusalade heaolufunktsioone. Praegu ei ole piisavalt kasutatud võimalusi teha tervise ja heaolu mõju uuringuid Eesti avaliku ruumi ja loodusalade planeerimisel. Loodusalade kättesaadavuse ja kvaliteedi eesmärgid vajavad selget sõnastamist nii riiklikes arengukavades, nagu transpordi ja liikuvuse arengukava aastateks 2021–2030, ning kohalike omavalitsuste arengukavades, nagu Tallinna arengukava 2021+.
 
 Kuigi seoses linnastumisega vähenevad inimeste kokkupuuted looduskeskkonnaga, nõuab muutlik loodus tähelepanu. Arvestades, et Eestis prognoositakse äärmuslike ilmastikunähtuste sagenemist, aitaks parem ligipääs rohealadele vähendada tulvade, tormide ja kuumusega seotud riske inimeste heaolule ja tervisele. Loodushariduse kaudu inimese ja looduse vahelise seose taastamine on üks olulisi viise, et näha loodusalade pakutavate hüvede mõju oma tervisele ja heaolule ning vajadust aidata kaasa sellele, et need hüved säiliksid. Seejuures ei saa loota vaid struktureeritud looduskülastustele, mida pakuvad loodushariduskeskused ja matkarajad – füüsilise ja vaimse tervise hoidmiseks on inimestel vaja vaba juurdepääsu loodusaladele ka linnas. Ühe olulisema tegevussuunana Eestis tuleks loodusalad hõlpsasti kättesaadavaks teha ka linnalastele.
 
-### Viidatud allikad {-.chapter3_section}
+### Viidatud allikad {-.chapter3_section #viidatud-allikad-32}
 
 <p id="Barton2016">Barton, J., Bragg, R., Wood, C., Pretty, J. 2016. Green Exercise: Linking Nature, Health and Well-Being. London: Routledge.</p>
 

@@ -116,9 +116,6 @@ Young people can make the most of the opportunities provided by technology only 
 
 According to the EU Kids Online 2010 survey, Estonian children claimed they could cope with an average of five digital literacy activities (of the eight under examination). This result puts them in fourth place after children in Finland, Slovenia and the Netherlands ([Livingstone et al. 2011](#Livingstone2011)).
 
-```{block, type='blockquote-left'}
-Eesti noored hindavad oma digitaalset kirjaoskust väga heaks ning tunnevad end eri veebitegevustes üldjuhul enesekindlalt.
-```
 Today, Estonian children can use the internet even more skilfully: the 2018 results for Estonia in the EU Kids Online survey show ([Figure 4.2.3](#figure423); also see [Sukk and Soo 2018](#Sukk-Soo2018)), that the majority of the 13- to 17-year-olds who participated in the study know how to open a new tab in their web browser (93%), find the websites they have recently visited again (92%), open downloaded files (92%) and use privacy settings in order to restrict who can see the content they share on the internet (90%). Young people are much more uncertain about topics related to copyright and restrictions on use (78% consider themselves to be competent); and not everyone feels they are able to assess the reliability of websites (74%). Activities related to content creation cause the greatest difficulties for young people – 36% of the 13- to 17-year-olds who participated claimed they are able to create websites, and 19% were able to use programming languages.
 
 ### Digital participation does not appeal to Estonian youth {-.chapter4_section}
@@ -214,13 +211,13 @@ Digital participation is traditionally viewed as being part of general political
 ```{block, type='casebox'}
 <h3> Civic participation among Estonian youth</h3>
 
-**Politically minded activists (5.5%) engage more than average in political activities, online participation and volunteer work. They tend to be secondary school students. More are young men, while Estonian and Russian youths are equally involved. They tend to come from the country or small towns, and their mothers more often than not do not have a secondary education. Compared to the other types, they have less trust in professional journalism, and more in alternative online media.
+**Politically minded activists (5.5%)** engage more than average in political activities, online participation and volunteer work. They tend to be secondary school students. More are young men, while Estonian and Russian youths are equally involved. They tend to come from the country or small towns, and their mothers more often than not do not have a secondary education. Compared to the other types, they have less trust in professional journalism, and more in alternative online media.
 
-**Voluntary benefactors (30%) stand out due to their volunteer and charity work. They tend to be in their 20s, and there are more young women than men. The majority are Estonian, come from large cities or their surroundings, and their mothers tend to have a secondary or higher education. They have more trust in professional journalism than the other types, and less trust in alternative online media.
+**Voluntary benefactors (30%)** stand out due to their volunteer and charity work. They tend to be in their 20s, and there are more young women than men. The majority are Estonian, come from large cities or their surroundings, and their mothers tend to have a secondary or higher education. They have more trust in professional journalism than the other types, and less trust in alternative online media.
 
-**Digital activists (27.6%) engage in the most online and consumer activities. They tend to be in their 20s, and there are slightly more young men. Most of them are Estonian and come from large cities and their surroundings. Their mothers more often have a higher education. Digital activists place less trust in online media than the other types.
+**Digital activists (27.6%)** engage in the most online and consumer activities. They tend to be in their 20s, and there are slightly more young men. Most of them are Estonian and come from large cities and their surroundings. Their mothers more often have a higher education. Digital activists place less trust in online media than the other types.
 
-**Passive young people (36.8%) are less active than the average in all forms of participation. They tend to be secondary school students, and almost an equal number of males and females. They tend to come from the country or small towns. Most of their mothers have a secondary education or less. Their families and friends are not very socially active.
+**Passive young people (36.8%)** are less active than the average in all forms of participation. They tend to be secondary school students, and almost an equal number of males and females. They tend to come from the country or small towns. Most of their mothers have a secondary education or less. Their families and friends are not very socially active.
 
 ```
 
@@ -267,7 +264,7 @@ Cyberbullying mainly consists of sending nasty or offensive messages – these h
 
 A role in shaping the digital opinion space is definitely played by how safe and trustworthy the young people feel the internet is. The EU Kids Online 2018 survey shows that slightly more than three-quarters of the children (77%) always, or often, feel safe online, while 5% of children never feel safe. However, most respondents believe they know what to do if someone behaves inappropriately online, and slightly more than half of the children find that people in the digital space tend to be kind and helpful.
 
-### Summary {-.chapter4_section}
+### Summary {-.chapter4_section #summary-42}
 
 During the last eight years, there has been a significant increase in the frequency of internet use by Estonian children and young people: the majority of young people use the internet daily, and spend hours in the vast expanses of the internet ([Sukk and Soo 2018](#Sukk-Soo2018)). Smartphones and mobile internet are available to almost all children. However, in many ways, the increase in internet usage due to the spread of smart phones has not led to the expected increase in digital participation; the data also do not indicate any expected growth in the near future. The digital participation of Estonian youth is not limited by geographic space, but rather by the fact that smart phones are used for other kinds of activities. On the internet, young people focus mainly on entertainment, communication and information searches, and remain on the two lowest levels (i.e. activities) of the ladder of internet opportunities – those that do not require much knowledge or digital skill. However, the lack of digital skills on the part of young people is not the reason for not having reached the top or advanced levels of the internet ladder; that is, becoming active digital citizens. Generally, Estonian youth assess their digital competence as being good, but they prefer to use the digital space for interaction and entertainment rather than as an arena for social debate.
 
@@ -275,10 +272,10 @@ Qualitative studies show that the reasons for young people’s modest digital pa
 
 The development of a virtual opinion space could be facilitated by successive civic or political initiatives that could produce real results; for example, success stories and legendary campaigns related to the topics that are close to the hearts of as many people as possible (figuratively speaking: a virtual phosphorite war or Baltic Chain on Facebook). Undoubtedly, a much more effective management of cyberbullying and an improvement in the overall communication culture would also be beneficial. However, short-term campaigns will not be sufficient – it is important to continue raising awareness, developing zero tolerance for cyberbullying among young people, and develop resilience and coping skills when experiencing or witnessing cyberbullying. The role played by adult digital citizens in developing a culture of opinion, and at the very least, elementary courtesy regarding the contributions of young digital citizens is also crucial.
 
-### *Acknowledgements* {-.chapter4_section}
+### *Acknowledgements* {-.chapter4_section #acknowledgements-42}
 *Between 2006 and 2014, the EU Kids Online project was funded by the European Commission through the Safer Internet Programme. The EU Kids Online 2018 Estonian survey was funded by Estonian Internet Foundation, Ministry of Education and Research (from the European Social Fund), Ministry of Justice, Ministry of Social Affairs, and research projects PUT 44 (Estonian Research Council) and IUT 20-38 (Ministry of Education and Research).*
 
-### References {-.subreferences}
+### References {-.subreferences #references-42}
 <p id="Allaste2018">Allaste, A.-A., Beilmann, M., Tiidenberg, K. 2018. Digitaalne osalus – Noorteseire aastaraamat 2017–2018. Noored ja osalus. Tallinn: Eesti Noorsootöö Keskus, Tallinna Ülikool, 119–139.</p>
 
 <p id="Kalmus2013">Kalmus, V. 2013. Laste turvalisus uues meediakeskkonnas – Heidmets, M. (ed.). Eesti inimarengu aruanne 2012/2013. Eesti maailmas. Tallinn: Eesti Koostöö Kogu, 83–85.</p>

@@ -13,7 +13,7 @@
 <div><a class="print-btn" href="print/EIA-2019-1.0.pdf"><i class="fa fa-file" aria-hidden="true"></i>Trükiversioon</a></div>
 ```
 
-### Põhisõnumid {-.chapter1_section}
+### Põhisõnumid {-.chapter1_section #põhisõnumid-1}
 
 ```{block, type='points'}
 * Säiliva keskustevõrgu kokkuleppimine ja hoidmine võimaldaksid elada üle kogu riigi, ka ääremaal.
@@ -185,7 +185,7 @@ Pärast „Eesti 100 – hea avaliku ruumi“ konkursi linnaväljakute lõpetami
 ```
 Võib-olla muutub aja jooksul ka täieliku omanikuühiskonna eeldus eluaseme- ja planeerimisvaldkonnas. Haridus- ja töövõimalusi üle Eesti ja üle maailma on palju, omanikuasustus aga kinnistab inimesed ruumis. Täisturumajandus on Euroopa riikide eluasemeturul pigem erand ning see on ka Eestis suurendanud elamistingimuste ebavõrdsust nii linnas kui ka piirkondlikult. Vajadus on rohkematele sihtgruppidele suunatud keskuse ja ääremaa eripärasid arvestava eluasemepoliitika järele. Pärast "<a href="https://www.ev100.ee/et/ev100-arhitektuuriprogramm">Eesti 100 – hea avaliku ruumi</a>" konkursi linnaväljakute lõpetamist võiks algatada võistluse „Hea avalik ruum eeslinnas“. Paljud uued eeslinnaasulad on rahvaarvult juba väikelinna suurused. Hea eeslinn oleks keskuslinna linnaruumi loomulik jätk, kus liikumine ühistranspordiga, rattaga ja jalgsi on mugav, ühine väliruum hästi kujundatud ning linnalähedased loodus- ja kultuurmaastikud annavad elukohale lisaväärtuse.
 
-### Viidatud allikad {-.subreferences}
+### Viidatud allikad {-.subreferences #viidatud-allikad-1}
 
 <p id="Ahas2000">Ahas R., Mark, Ü., Albre, N. 2000. Hajalinn Eesti. – Luup, 13, 122.</p>
 

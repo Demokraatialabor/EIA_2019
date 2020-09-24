@@ -12,12 +12,12 @@
 A large part of Estonia’s natural environment is at least to some extent open to public use or accessible to everyone. Environmental decision-making therefore impacts the public use of natural areas. A decision to allow a new gravel quarry in a state-owned forest or to permit the extraction of peat in a mire, for example, may result in a local community losing its traditional berry-picking area. The use of natural areas, including sacred natural sites or recreational forest areas in local communities, may also be limited by the decision to build a new road or railway. Permitting a new factory, hydropower plant or similar development on a river may reduce opportunities to engage in fishing or swimming or deprive people of natural sights. Even if the activity subject to environmental permits is being planned on private land or some distance from places in public use (e.g. establishing a new oil shale mine), its impact (e.g. noise, air or water pollution, increased traffic) often has a wide geographical range.
 
 ```{block, type='blockquote-right'}
-Even if the activity subject to environmental permits is being planned on private land or some distance from places in public use, its impact (e.g. noise, air or water pollution, increased traffic) often has a wide geographical range
+Even if the activity subject to environmental permits is being planned on private land or some distance from places in public use, its impact (e.g. noise, air or water pollution, increased traffic) often has a wide geographical range.
 ```
 
 The article provides an overview of how people can participate in environmental decision-making, focusing on two issues: the system for participating in environmental decision-making (opportunities), and the extent to which people are used to expressing their opinions publicly (level of civic activism). These two aspects are in turn dependent on the information given to people about their environment and the use of this information.
 
-### 1980. aastate sündmused tingisid Nõukogude Eestis avaliku keskkonnaarutelu {-.chapter3_section}
+### Public debate on the environment was induced by events in the 1980s in Soviet Estonia {-.chapter3_section}
 
 During the Soviet era, environmental matters in Estonia were decided without public dialogue and information on environmental risks was classified ([Kiisel 2005](#Kiisel2005)). For example, everything related to the strategically important uranium plant in Sillamäe, which functioned between 1946 and 1991, was highly classified. Lack of information also hampered public participation in solving environmental problems related to the living environment. Furthermore, environmental protection was viewed both by the general public as well as experts as a highly specialist field, at the same time, viewing the general population as rather the polluters than the protectors of the environment. Alongside these attitudes, in addition to their concern about the risks to Estonia’s natural environment, the general public also understood and valued a critical scientific approach to environmental problems and mistrusted the optimism of the authorities ([Lauristin 1988](#Lauristin1988)).
 
@@ -158,7 +158,7 @@ The existence of a right to participate does not automatically guarantee high-qu
 
 Participation in practice is even less active. Less than 10% of the respondents considered their participation opportunities to be good at the local level; at the national level, only 5% of respondents considered the opportunities to be good. The lowest level of confidence was expressed by respondents from north-east Estonia. The main obstacles reported were a low level of confidence in the impact that participation would have (21% of respondents) and lack of time (19%) ([ibid.](#4Turu-uuringute2018)). These results are in broad terms similar to the results of a study of the awareness of environmental law among Estonians and their rights commissioned by the Estonian Environmental Law Centre ([Klaster 2013](#Klaster2013)).
 
-The main reasons for this pessimistic attitude have been addressed in several studies ([Suškevič 2014](#Suškevičs2014); [Klaster 2013](#Klaster2013)) toovad välja pessimistliku suhtumise olulisemad põhjused.
+The main reasons for this pessimistic attitude have been addressed in several studies ([Suškevič 2014](#Suškevičs2014); [Klaster 2013](#Klaster2013)):
 
 1. Issues with the character and content of channels used for the dissemination of information. The one-way communication channels that are mostly used (official notices, newspapers, websites) are not ideal for participants who prefer two-way channels of communication (e.g. personal meetings). The information given on decision-making procedures is often hard to understand for regular citizens both because of the wording as well as the low level of previous knowledge of the procedures and vocabulary used among citizens.
 
@@ -326,13 +326,13 @@ knitr::include_graphics("../figures/3-chapter/fig345.png")
 <span class="imgsource-source">Source:</span> Airi Hallik-Konnula.
 ```
 
-### Summary {-.chapter3_section}
+### Summary {-.chapter3_section #summary-34}
 
 The legal requirements facilitating public participation in the management and development of the public space are already extensive; however, participation opportunities should be improved where the legal framework is not sufficient yet – especially for spatial planning in regard to mining and forestry. Continued efforts to develop the practices of public participation are also important. For the substantive and effective inclusion of the public, the civil servants in charge will have to acquire new skills, apply flexible approaches and use methods that are tailored to different stakeholders.
 
 Existing databases for environmental information need to be brought together so that data could be found from a single source in a user-friendly manner. To use the full potential of citizen science, trust on the part of public authorities in citizen observations needs to be increased in addition to fostering civic activism. Additional technical means of communication and data management as well as linking the gathered data via official decision-making procedures may also be needed.
 
-### References {-.subreferences}
+### References {-.subreferences #references-34}
 
 <p id="Estonia2016">Estonian Research Centre – Eesti Uuringukeskus 2016. Tartlane ja keskkond 2016. Survey report.</p>
 

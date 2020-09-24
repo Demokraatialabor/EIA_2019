@@ -139,7 +139,7 @@ knitr::include_graphics("figures/2-chapter/fig243.png")
 <span class="imgsource-source">Allikas:</span> Tallinna rattastrateegia 2018-2027.
 ```
 
-### Kokkuvõte  {-.chapter2_section}
+### Kokkuvõte  {-.chapter2_section #kokkuvõte-24}
 
 Õigus osaleda avalikus ruumiloomes on iga kodaniku ja ruumikasutaja põhiõigus. Nii nagu me saame otsustada oma kodu kujundamise üle, peame saama kaasa rääkida ka avaliku ruumi organiseerimise otsustes. Kaasamise võimendamiseks, ruumiloomeliste lahenduste kaalumiseks ning otsuste põhjendamiseks peavad lähteandmed olema kõigile lihtsasti kättesaadavad. Ruumiandmed, mis ei ole otseselt seotud privaatsete isikuandmete ja riikliku julgeolekuga, oleksid soovitatavalt avaandmed – vaba juurdepääsuga ning masinloetavad. Näiteks võiks Statistikaameti haldusalasse tekkida keskne registrite avaandmete keskkond, mis vahendaks eri institutsioonide registreid avalikkusele.
 
@@ -152,7 +152,7 @@ Avaliku sektori peamine ülesanne avalike ruumiandmete kasutamisel on nende kogu
 
 Avaliku sektori peamine ülesanne avalike ruumiandmete kasutamisel on kogumine ja korrastamine ja terviklikkuse tagamine. Oluline on võimaldada eri andmekogude ristkasutust. Era- ja kolmas sektor loob piisava vajaduse korral ise rakendused, mis neid andmeid kasutavad. Andmed ja tehnoloogia ei loo ega lahenda probleeme, kuid annavad inimestele ja organisatsioonidele võimaluse nendega paremini tegeleda ([Bettencourt 2014](#Bettencourt2014)). Avalikel aruteludel, uuringuaruannete koostamisel ja eelkõige ruumiloomealaste otsuste tegemisel peaksid riik ja omavalitsused alati nõudma viitamist algandmetele. Andmetes ei peitu absoluutset tõde ega ka otseseid lahendusi, aga need on alus demokraatlikule ja läbipaistvale ruumiloomele.
 
-### Viidatud allikad {-.subreferences}
+### Viidatud allikad {-.subreferences #viidatud-allikad-24}
 <p id="Ahas2004">Ahas, R., Aunap, R., Aasa, A. 2004. Sotsiaalse positsioneerimise meetod inimeste tegevusruumide uurimisel. – Mander, Ü., Kurs, O. (toim.). Geograafilisi uurimusi aastatuhande vahetusel. Üllitatud Tartu Ülikooli Geograafia Instituudi 85. aastapäevaks. Publicationes Instituti Geographici Universitatis Tartuensis, 89. Tartu: Tartu Ülikooli Kirjastus, 63–73.</p>
 <p id="Batty2016">Batty, M. 2016. Big data and the city. – Built Environment, 42 (3), 321–337.</p>
 <p id="Bettencourt2014">Bettencourt, L. M. A. 2014. The Uses of Big Data in Cities. – Big Data, 2 (1), 12–22.</p>

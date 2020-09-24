@@ -315,13 +315,13 @@ knitr::include_graphics("figures/3-chapter/fig345.png")
 <span class="imgsource-source">Allikas:</span> Airi Hallik-Konnula.
 ```
 
-### Kokkuvõte {-.chapter3_section}
+### Kokkuvõte {-.chapter3_section #kokkuvõte-34}
 
 Eesti avaliku ruumi kujundamisel on kaasarääkimise võimalused õigusnormides küll juba ulatuslikult reguleeritud, ent laiendada tuleks osalusvõimalusi seal, kus õigusraamistik ei ole piisav – ennekõike maavarade planeerimise ning metsaraiete küsimuses. Oluline on jätkuvalt panustada ka kaasamispraktika arendamisse. Sisukaks kaasamiseks on kaasajatel vaja uusi oskusi, paindlikku lähenemist ning lähenemisviise, mis sobivad eri sihtrühmadele.
 
 Keskkonnateabe puhul on vaja olemasolevad andmekogud koondada viisil, mis aitaks kasutajasõbralikult algandmeid ühest allikast leida. Harrastusteaduse potentsiaali täielikuks ärakasutamiseks on vaja lisaks kodanikuaktiivsuse kasvatamisele suurendada riigi usaldust harrastusvaatlejate suhtes, samuti võib olla vaja luua täiendavaid tehnilisi suhtlus- ja andmehaldusvahendeid ning sidumist otsustusprotsessidega.
 
-### Viidatud allikad {-.subreferences}
+### Viidatud allikad {-.subreferences #viidatud-allikad-34}
 
 <p id="Eesti2016">Eesti Uuringukeskus 2016. Tartlane ja keskkond 2016. Uuringuraport.</p>
 

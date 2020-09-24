@@ -203,7 +203,7 @@ knitr::include_graphics("../figures/2-chapter/fig215_eng.jpg")
 <span class="imgsource-source">Source:</span> Kavakava Architects 2019.
 ```
 
-### Summary {-.chapter2_section}
+### Summary {-.chapter2_section #summary-21}
 
 It is the task of a well-functioning society to make sure that people feel well not only at home, at work or in their car but also in the public space. Public space is influenced by almost every spatial decision. The core task of the public sector is protecting and leveraging the positive impact resulting from all spatial decisions and solutions, as well as preventing and blocking negative impacts. The integrity of public space is a universal public interest and cannot be managed by way of giving preference to an individual topic or user; for example, by treating roads or the freedoms of the property owner as superior. In addition to protection, the public space also needs strategic development based on vision documents, including constant interconnection with any new building, road or private development project. Public space as a network also provides a firmer basis for the work of city architects and helps create balanced planning solutions.
 
@@ -221,7 +221,7 @@ One of the proposals presented in the <a href="https://www.riigikantselei.ee/sit
 
 As security and well-being are more likely to grow out of the active use of space ([Worpole and Knox 2007](#Worpole2007)), it is important to value the free use of space and allow it to self-organise. Individual and collaborative creativity also promote the feeling of community and ownership among citizens. Freeing ourselves from formalism in spatial design requires a change in mindset but also legislative support. The public space will be improved if the integrity and diversity of the network is continuously appreciated both in large decisions and the detail. This helps to maintain and improve the health of the society and democracy in general.
 
-### References {-.subreferences}
+### References {-.subreferences #references-21}
 
 <p id="Gehl2015">Gehl, J. 2015. Linnad inimestele. Tallinn: Eesti Kunstiakadeemia, Yoko Oma.</p>
 <p id="Ilus2000">Ilus, E. 2000. Rooma eraõiguse alused. Tallinn: Ilo Print.</p>
