@@ -374,7 +374,7 @@ The research project ‘Protection of privately owned cultural heritage’ ([Taf
 
 <p class="caption" id="figure228"><span class="figure-number">Figure 2.2.8.</span> Resources for cultural heritage</p>
 
-State authorities should allocate more resources for cultural heritage (%).
+*State authorities should allocate more resources for cultural heritage (%).*
 
 ```{r, figure228, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
