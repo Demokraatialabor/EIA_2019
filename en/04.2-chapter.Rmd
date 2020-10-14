@@ -1,12 +1,12 @@
 ## Estonian youth in the virtual opinion space {.chapter_section .chapter4_section}
 
 ```{block, type='authors authors_eng'}
-<div class="author-links">**[Veronika Kalmus](#veronika-kalmus) ja [Andra Siibak](#andra-siibak)**</div>
+<div class="author-links">**[Veronika Kalmus](#veronika-kalmus) and [Andra Siibak](#andra-siibak)**</div>
 <div><a class="print-btn" href="../eesti-noored-virtuaalses-arvamusruumis.html">EE</a></div>
 ```
 
 ```{block, type='points'}
-* Estonian youth are active users of the internet: there is no significant digital stratification among them, their online activities are diverse, and the assessment of their digital skills is good. And yet, the participation of Estonian youth in community life and politics online or through social media is modest. Moreover, at times, young people are critical of the virtual opinion space. Democratic and political participation, in its narrow and traditional sense, does not attract young people and this is not made any more attractive by the virtual opinion space. Instead, they are willing to contribute and participate in areas of activity close to their hearts, for example, as volunteers.
+* Estonian youth are active users of the internet: there is no significant digital stratification among them, their online activities are diverse, and the assessment of their digital skills is good. And yet, the participation of Estonian youth in community life and politics online or through social media is modest. Moreover, at times, young people are critical of the virtual opinion space. Democratic and political participation, in its narrow and traditional sense, does not attract young people and is not made any more attractive by the virtual opinion space. Instead, they are willing to contribute and participate in areas of activity close to their hearts, for example, as volunteers.
 ```
 
 ```{block, type='blockquote-right'}
@@ -26,7 +26,7 @@ Digital stratification – inequality based on gender, ethnicity, age or place o
 The increase in the usage rate is undoubtedly explained by the significantly better availability of mobile devices. In 2010, 31% of Estonian children accessed the internet by phone. By 2018, this number had tripled: 93% of respondents accessed the internet via mobile or smart phone at least once a month, and 86% did so almost daily or more often. Other devices were used less frequently by children: of Estonian 9- to 17-year-olds, a desktop or laptop computer is almost a daily tool for 43%, and a tablet for only 15%.
 
 ```{block, type='blockquote-right'}
-There is no significant digital stratification among children in accessing the internet and accessing smart devices.
+There is no significant digital stratification among children in accessing the internet and smart devices.
 ```
 Estonian children spend a significant number of their waking hours on the internet. On ordinary school days, a large number of 9- to 17-year-olds (41%) spend about 2 to 3 hours on the internet, while 26% spend 4 to 5 hours or more ([Sukk et al. 2018](#Sukk2018)). On non-school days, the time spent on the web increased considerably: on weekends and during school holidays, almost half the children spend 4 to 5 hours or more a day on online activities ([Figure 4.2.1](#figure421)). This extensive internet usage is typical of most boys, children who speak Russian at home, and 13- to 17-year-olds.
 
@@ -51,10 +51,10 @@ fig421_data$group_eng[grepl("13-14 a",  fig421_data$group)]<-"13 to 14 yrs"
 fig421_data$group_eng[grepl("15-17 a",  fig421_data$group)]<-"15 to 17 yrs"
 fig421_data$group_eng[grepl("Eesti",  fig421_data$group)]<-"Estonian"
 fig421_data$group_eng[grepl("Vene",  fig421_data$group)]<-"Russian"
- 
+
  fig421_data$group_eng <- factor(fig421_data$group_eng, levels = c("Russian","Estonian","15 to 17 yrs","13 to 14 yrs","11 to 12 yrs","9 to 10 yrs","Girls","Boys","All children"))
- 
- 
+
+
   fig421_data$answer <- factor(fig421_data$answer, levels = c("Ei taha öelda","Ei oska öelda","Umbes 6 tundi või rohkem","Umbes 4-5 tundi","Umbes 2-3 tundi","Umbes 1 tund või vähem"))
 
     fig421_data$text_position <- fig421_data$value
@@ -105,18 +105,18 @@ knitr::include_graphics("../figures/4-chapter/fig422_eng.jpg")
 
 Based on the data from the EU Kids Online survey for 2010, Estonian children were distinguished by a relatively high level of using online opportunities compared to Europe generally. For example, Estonian children exceeded the European average when it came to reading the news. However, at the same time, in regard to creative and participatory activities (e.g. keeping a blog, posting messages on a website), they were close to the EU average ([Figure 4.2.2](#figure422)). Estonia, along with the Czech Republic, Sweden, the Netherlands and Cyprus, is one of the few countries where a small number of children (up to 5%) only used the internet for two or less activities ([Pruulmann-Vengerfeldt and Runnel 2012](#Pruulmann-Vengerfeldt2012)).
 
-Based on 2018 data, the proportion of children engaged in entertainment and communication activities has increased ([Figure 4.2.2](#figure422)). On the other hand, using the internet for school work and news monitoring is less common among Estonian children than it was eight years ago. Creative and participatory activities continue to be atypical. And, in the month prior to the survey, only 12% of Estonian children corresponded to the advanced level; that is, discussed political or social problems on the internet.
+Based on 2018 data, the proportion of children engaged in entertainment and communication activities has increased ([Figure 4.2.2](#figure422)). On the other hand, using the internet for school work and news monitoring is less common among Estonian children than it was eight years ago. Creative and participatory activities continue to be atypical. And, in the month prior to the survey, only 12% of Estonian children corresponded to the advanced level; that is, they discussed political or social problems on the internet.
 
 ### Children’s digital literacy is improving {-.chapter1_section}
 
 ```{block, type='blockquote-right'}
-Creative and participatory activities continue to be atypical. For example, in the month prior to the survey, only 12% of Estonian children corresponded to the advanced level; that is, discussed political or social problems on the internet.
+Creative and participatory activities continue to be atypical. For example, in the month prior to the survey, only 12% of Estonian children corresponded to the advanced level; that is, they discussed political or social problems on the internet.
 ```
 Young people can make the most of the opportunities provided by technology only if they have the corresponding competence (i.e. digital literacy) to use the technology in the most versatile way possible and manage the potential risks.
 
 According to the EU Kids Online 2010 survey, Estonian children claimed they could cope with an average of five digital literacy activities (of the eight under examination). This result puts them in fourth place after children in Finland, Slovenia and the Netherlands ([Livingstone et al. 2011](#Livingstone2011)).
 
-Today, Estonian children can use the internet even more skilfully: the 2018 results for Estonia in the EU Kids Online survey show ([Figure 4.2.3](#figure423); also see [Sukk and Soo 2018](#Sukk-Soo2018)), that the majority of the 13- to 17-year-olds who participated in the study know how to open a new tab in their web browser (93%), find the websites they have recently visited again (92%), open downloaded files (92%) and use privacy settings in order to restrict who can see the content they share on the internet (90%). Young people are much more uncertain about topics related to copyright and restrictions on use (78% consider themselves to be competent); and not everyone feels they are able to assess the reliability of websites (74%). Activities related to content creation cause the greatest difficulties for young people – 36% of the 13- to 17-year-olds who participated claimed they are able to create websites, and 19% were able to use programming languages.
+Today, Estonian children can use the internet even more skilfully: the 2018 results for Estonia in the EU Kids Online survey show ([Figure 4.2.3](#figure423); see also [Sukk and Soo 2018](#Sukk-Soo2018)), that the majority of the 13- to 17-year-olds who participated in the study know how to open a new tab in their web browser (93%), find the websites they have recently visited again (92%), open downloaded files (92%) and use privacy settings in order to restrict who can see the content they share on the internet (90%). Young people are much more uncertain about topics related to copyright and restrictions on use (78% consider themselves to be competent); and not everyone feels they are able to assess the reliability of websites (74%). Activities related to content creation cause the greatest difficulties for young people – 36% of the 13- to 17-year-olds who participated claimed they are able to create websites, and 19% were able to use programming languages.
 
 ### Digital participation does not appeal to Estonian youth {-.chapter4_section}
 
@@ -164,7 +164,7 @@ library("dplyr")
       fig423_data$question_eng[grepl("Ma tean, kuidas seada piiranguid, kes internetis minu infot näevad",  fig423_data$question)]<-"I know how to set restrictions on who can see my online information (e.g. friends, friends of friends or all users)"
       fig423_data$question_eng[grepl("Minu jaoks on lihtne leida veebilehte, mida olen hiljuti külastanud",  fig423_data$question)]<-"It is easy for me to find a website I have visited recently"
       fig423_data$question_eng[grepl("Ma oskan avada uut vahelehte internetibrauseris",  fig423_data$question)]<-"I know how to open a new tab in my internet browser"
-      
+
 
  fig423_data$question_eng <- factor(fig423_data$question_eng, levels = c("Sometimes I find myself on websites without knowing how I got there","I know how to use programming languages (e.g. Python, C++)","I know how to create a website","I know how to create something new from videos or music found online","I find it easy to determine whether a website can be trusted","I know what restrictions on use and copyrights apply to online material","I know when I should and should not share information online","I know how to behave appropriately online","I know how to use keyboard shortcuts (e.g. Ctrl + C to copy)","I know how to download and open files","I know how to set restrictions on who can see my online information (e.g. friends, friends of friends or all users)","It is easy for me to find a website I have visited recently","I know how to open a new tab in my internet browser"))
 
@@ -205,7 +205,7 @@ At the same time, the young people who participated in the focus groups consider
 ```{block, type='blockquote-left'}
 One of the most popular forms of digital participation among Estonian youth is sharing political news, music and videos on social networks. More than a third of Estonian young people at least sometimes participated in this activity.
 ```
-Digital participation is traditionally viewed as being part of general political and civic engagement. Within the framework of the international research project called CATCH-EyoU (2015–2018), financed by EU Horizon 2020, the social activity of young people was studied in eight European countries, including Estonia. The analysis showed that young people in Estonia participate moderately in community life. Less than half of the 15- to 30-year-old Estonian respondents surveyed in 2016 (N = 1002) had participated in most of the 18 political and civic activities that were studied. However, among the 18 activities, one of the most popular was sharing political news, music or videos on social networks. More than a third of the young people had at least sometimes participated in this activity ([Kalmus and Beilmann 2017](#Kalmus2017)). Two forms of participation were distinguished when clustering the young people – voluntary benefactors and digital activists. Belonging to these types is facilitated by a more empowering social environment – being a member of the ethnic majority, living in a large city or its surroundings, belonging to a more democratic family, and having a more educated mother. There are very few politically minded activists involved in many participatory activities, and many young people are passive.
+Digital participation is traditionally viewed as being part of general political and civic engagement. Within the framework of the international research project called CATCH-EyoU (2015–2018), financed by EU Horizon 2020, the social activity of young people was studied in eight European countries, including Estonia. The analysis showed that young people in Estonia participate moderately in community life. Less than half of the 15- to 30-year-old Estonian respondents surveyed in 2016 (N=1,002) had participated in most of the 18 political and civic activities that were studied. However, among the 18 activities, one of the most popular was sharing political news, music or videos on social networks. More than a third of the young people had at least sometimes participated in this activity ([Kalmus and Beilmann 2017](#Kalmus2017)). Two forms of participation were distinguished when clustering the young people – voluntary benefactors and digital activists. Belonging to these types is facilitated by a more empowering social environment – being a member of the ethnic majority, living in a large city or its surroundings, belonging to a more democratic family, and having a more educated mother. There are very few politically minded activists involved in many participatory activities, and many young people are passive.
 
 
 ```{block, type='casebox'}
@@ -268,7 +268,7 @@ A role in shaping the digital opinion space is definitely played by how safe and
 
 During the last eight years, there has been a significant increase in the frequency of internet use by Estonian children and young people: the majority of young people use the internet daily, and spend hours in the vast expanses of the internet ([Sukk and Soo 2018](#Sukk-Soo2018)). Smartphones and mobile internet are available to almost all children. However, in many ways, the increase in internet usage due to the spread of smart phones has not led to the expected increase in digital participation; the data also do not indicate any expected growth in the near future. The digital participation of Estonian youth is not limited by geographic space, but rather by the fact that smart phones are used for other kinds of activities. On the internet, young people focus mainly on entertainment, communication and information searches, and remain on the two lowest levels (i.e. activities) of the ladder of internet opportunities – those that do not require much knowledge or digital skill. However, the lack of digital skills on the part of young people is not the reason for not having reached the top or advanced levels of the internet ladder; that is, becoming active digital citizens. Generally, Estonian youth assess their digital competence as being good, but they prefer to use the digital space for interaction and entertainment rather than as an arena for social debate.
 
-Qualitative studies show that the reasons for young people’s modest digital participation include a lack of motivation and limited interest in weighing in on social issues online. Young people’s activity is partially inhibited by the lack of a polite and reasoned communication culture and the limited societal impact of digital participation. At the same time, young people often feel that it is more important to be involved in real-life citizens’ initiatives; for instance, participating in volunteer actions that address their interests. However, studies ([e.g. CATCH-EyoU – Kalmus and Beilmann 2017](#Kalmus2017)) show that young people are mostly involved in civic and political activities to a limited extent. Therefore, in many ways, young people prefer to remain moderately active bystanders in the virtual opinion space and do not tend to take full advantage of the digital space or contribute to improving it.
+Qualitative studies show that the reasons for young people’s modest digital participation include a lack of motivation and limited interest in weighing in on social issues online. Young people’s activity is partially inhibited by the lack of a polite and reasoned communication culture and the limited societal impact of digital participation. At the same time, young people often feel that it is more important to be involved in real-life citizens’ initiatives; for instance, participating in volunteer actions that address their interests. However, studies (e.g. [CATCH-EyoU – Kalmus and Beilmann 2017](#Kalmus2017)) show that young people are mostly involved in civic and political activities to a limited extent. Therefore, in many ways, young people prefer to remain moderately active bystanders in the virtual opinion space and do not tend to take full advantage of the digital space or contribute to improving it.
 
 The development of a virtual opinion space could be facilitated by successive civic or political initiatives that could produce real results; for example, success stories and legendary campaigns related to the topics that are close to the hearts of as many people as possible (figuratively speaking: a virtual phosphorite war or Baltic Chain on Facebook). Undoubtedly, a much more effective management of cyberbullying and an improvement in the overall communication culture would also be beneficial. However, short-term campaigns will not be sufficient – it is important to continue raising awareness, developing zero tolerance for cyberbullying among young people, and develop resilience and coping skills when experiencing or witnessing cyberbullying. The role played by adult digital citizens in developing a culture of opinion, and at the very least, elementary courtesy regarding the contributions of young digital citizens is also crucial.
 
@@ -278,16 +278,16 @@ The development of a virtual opinion space could be facilitated by successive ci
 ### References {-.subreferences #references-42}
 <p id="Allaste2018">Allaste, A.-A., Beilmann, M., Tiidenberg, K. 2018. Digitaalne osalus – Noorteseire aastaraamat 2017–2018. Noored ja osalus. Tallinn: Eesti Noorsootöö Keskus, Tallinna Ülikool, 119–139.</p>
 
-<p id="Kalmus2013">Kalmus, V. 2013. Laste turvalisus uues meediakeskkonnas – Heidmets, M. (ed.). Eesti inimarengu aruanne 2012/2013. Eesti maailmas. Tallinn: Eesti Koostöö Kogu, 83–85.</p>
+<p id="Kalmus2013">Kalmus, V. 2013. Laste turvalisus uues meediakeskkonnas. – Heidmets, M. (ed.). Eesti inimarengu aruanne 2012/2013. Eesti maailmas. Tallinn: Eesti Koostöö Kogu, 83–85.</p>
 
 <p id="Kalmus2017">Kalmus, V., Beilmann, M. 2017. Mis tüüpi kodanikud on Eesti noored? – Mihus, 21, 13−14.</p>
 
 <p id="Livingstone2011">Livingstone, S., Haddon, L., Görzig, A., Ólafsson, K. 2011. Risks and safety on the internet: the perspective of European children: full findings from the EU Kids Online survey. London: London School of Economics and Political Science.</p>
 
-<p id="Livingstone2007">Livingstone, S., Helsper, E. 2007. Gradations in digital inclusion: children, young people and the digital divide – New Media & Society, 9 (4), 671–696.</p>
+<p id="Livingstone2007">Livingstone, S., Helsper, E. 2007. Gradations in digital inclusion: children, young people and the digital divide. – New Media & Society, 9 (4), 671–696.</p>
 
-<p id="Pruulmann-Vengerfeldt2012">Pruulmann-Vengerfeldt, P., Runnel, P. 2012. Online opportunities – Livingstone, S., Haddon, L., Görzig, A. (eds.). Children, risk and safety on the internet: research and policy challenges in comparative perspective. Bristol: Policy Press, 73–85.</p>
+<p id="Pruulmann-Vengerfeldt2012">Pruulmann-Vengerfeldt, P., Runnel, P. 2012. Online opportunities. – Livingstone, S., Haddon, L., Görzig, A. (eds.). Children, risk and safety on the internet: research and policy challenges in comparative perspective. Bristol: Policy Press, 73–85.</p>
 
 <p id="Sukk2018">Sukk, M. 2018. Online-osalus ja mitte-osalus: Eesti noorte arvamused ja kogemused. MA thesis. University of Tartu.</p>
 
-<p id="Sukk-Soo2018">Sukk, M., Soo, K. 2018. EU Kids Online’i Eesti 2018. aasta uuringu esialgsed tulemused – Kalmus, V., Kurvits, R., Siibak, A. (eds.). Tartu: Tartu Ülikooli Ühiskonnateaduste Instituut.</p>
+<p id="Sukk-Soo2018">Sukk, M., Soo, K. 2018. EU Kids Online’i Eesti 2018. aasta uuringu esialgsed tulemused. – Kalmus, V., Kurvits, R., Siibak, A. (eds.). Tartu: Tartu Ülikooli Ühiskonnateaduste Instituut.</p>
