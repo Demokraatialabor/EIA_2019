@@ -1,7 +1,7 @@
 ## How do people use the natural environment in Estonia? {.chapter_section .chapter3_section}
 
 ```{block, type='authors authors_eng'}
-<div class="author-links">**[Kalev Sepp](#kalev-sepp) ja [Asko Lõhmus](#asko-lõhmus)**</div>
+<div class="author-links">**[Kalev Sepp](#kalev-sepp) and [Asko Lõhmus](#asko-lõhmus)**</div>
 <div><a class="print-btn" href="../kuidas-inimesed-eesti-looduskeskkonda-kasutavad.html">EE</a></div>
 ```
 
@@ -11,16 +11,16 @@
 
 Most people nowadays work in an artificial environment, so that instead of spending time in nature for occupational reasons, more and more do it specifically for recreation, in an increasing variety of ways. The way people spend time in nature depends on many factors, such as age and health, amount of time off work to spend with their children, changes in the landscape and access to natural areas. These factors must be taken into account in the planning of natural sites and associated businesses.
 
-Already in the 1960s, Estonian adults spent an average of eight days in nature each year ([Margus 1974](#Margus1974)). Nearly half of these were spent foraging: mostly mushroom and berry picking (30%), less often fishing or hunting (10%). About 45% of the trips were made to recreation areas, 25% of these for the purpose of bathing and sunbathing, 15% as part of company outings and community festivals and 10% as nature trips. Half a century later, in 2008, 54% of Estonian adults said they visited forests regularly, at least seasonally, and only one fifth did not do so at all; the most popular activities were still foraging and walking, as well as dog walking ([Kaldaru 2008](#2Kaldaru2008)). As expected, forest owners and people vocationally tied to the forest spent more time there. In 2018, only 15% of adults (8% in 2016) had not spent time in nature during the past 12 months; most had done so repeatedly ([Turu-uuringute AS 2018](#2Turu-uuringute2018)). The figures above are not directly comparable due to differences in the survey methodologies, but it is evident that the practice and need for frequent nature visits persists in Estonia. Compared to Northern and Western European countries ([Bell et al. 2007](#Bell2007), [cf. Kaldaru 2008](#2Kaldaru2008)) outings in nature in Estonia seem to be less to do with specific applied activities (sports, off-roading, studying nature).
+Already in the 1960s, Estonian adults spent an average of eight days in nature each year ([Margus 1974](#Margus1974)). Nearly half of these were spent foraging: mostly mushroom and berry picking (30%), less often fishing or hunting (10%). About 45% of the trips were made to recreation areas, 25% of these for the purpose of bathing and sunbathing, 15% as part of company outings and community festivals and 10% as nature trips. Half a century later, in 2008, 54% of Estonian adults said they visited forests regularly, at least seasonally, and only one fifth did not do so at all; the most popular activities were still foraging and walking, as well as dog walking ([Kaldaru 2008](#2Kaldaru2008)). As expected, forest owners and people vocationally tied to the forest spent more time there. In 2018, only 15% of adults (8% in 2016) had not spent time in nature during the past 12 months; most had done so repeatedly ([Turu-uuringute AS 2018](#2Turu-uuringute2018)). The figures above are not directly comparable due to differences in the survey methodologies, but it is evident that the practice and need for frequent nature visits persists in Estonia. Compared to Northern and Western European countries ([Bell et al. 2007](#Bell2007); [cf. Kaldaru 2008](#2Kaldaru2008)) outings in nature in Estonia seem to be less to do with specific applied activities (sports, off-roading, studying nature).
 
-In this article we look at the ways in which the Estonian natural environment has been used in recent decades, perceived changes in natural areas, and expectations and future perspectives for engaging with nature.
+In this article, we look at the ways in which the Estonian natural environment has been used in recent decades, perceived changes in natural areas, and expectations and future perspectives for engaging with nature.
 
 ### The public use of the Estonian natural environment is based on everyman’s right {-.chapter3_section}
 
 Everyman’s right, or the freedom to roam, allows the general public to access natural and cultural landscapes, regardless of who owns the land. The custom originated in the Nordic countries and was initially in place to support people who had no land of their own. They were allowed to move between places and forage for food, as long as they did so without disturbing or harming the locals. Although everyman’s right has been recognised in the Nordic countries since the Middle Ages, the term was only introduced in the 20th century in the context of tourism management. Everyman’s right probably has less of a tradition in Estonia, as the population was mostly stationary and tied to farmsteads. Yet the recommendations and norms of everyman’s right bear similarities with the archaic ethical beliefs of Estonians. Following the example of Finland, such norms were first established in the 1970s under the initiative of Veljo Rannik from the Ministry of the Environment. In 1996, the ministry published a brochure entitled ‘Everyman’s right’ (‘Igaüheõigus’) to prevent misunderstandings between new landowners and people moving in natural areas. The guide introduced the rights and obligations of those moving in the wild, freely interpreting the patchwork of existing legal arrangements. It was published in the hope of establishing a custom: if people are aware of the recommendations for long enough, these will become common law. This is indeed the case two decades later, while the General Part of the Environmental Code Act now contains the main provisions on being on private land.
 
 ```{block, type='blockquote-left'}
-The practice and need for frequent nature visits persists in Estonia
+The practice and need for frequent nature visits persists in Estonia.
 ```
 Therefore, only a part of the public use of natural areas in Estonia occurs in green areas that qualify as public space in the ordinary sense. Although parks are the most accessible natural areas for people living in cities, forest parks and peri-urban forests can offer additional opportunities for activities. In Estonia, these natural areas are those that have for the longest time been shaped as recreational environments.
 
@@ -29,13 +29,13 @@ The local use of natural areas is complemented by nature tourism. At its core ar
 <div class="casebox">
 <h3>Vilsandi – a pioneer in linking nature tourism with conservation</h3>
 
-Vaika Bird Sanctuary was established in 1910 on the initiative of Vilsandi lighthouse keeper Artur Toom and became a celebrated tourist destination in the 1920s. It was, after all, the westernmost island in the young Republic of Estonia. In July 1921, State Elder Konstantin Päts and politician Julius Seljamaa decided to spend their holiday in Saaremaa. In the words of Artur Toom: ‘This visit by State Elder Päts in 1921 was a blessing to the Vilsandi bird home. After that, things started to progress faster and the number of visitors increased.’ ([Toom 1937, p. 66](#Toom1937)).
+Vaika Bird Sanctuary was established in 1910 on the initiative of Vilsandi lighthouse keeper Artur Toom and became a celebrated tourist destination in the 1920s. It was, after all, the westernmost island in the young Republic of Estonia. In July 1921, State Elder Konstantin Päts and politician Julius Seljamaa decided to spend their holiday in Saaremaa. In the words of Artur Toom: ‘This visit by State Elder Päts in 1921 was a blessing to the Vilsandi bird home. After that, things started to progress faster and the number of visitors increased.’ ([Toom 1937](#Toom1937), p. 66])
 
 A museum was opened on the island in 1927. Ten years later, tourist accommodation with 24 beds, a kitchen and other ancillary rooms was completed near the lighthouse. Just before World War II, the number of Estonian and foreign tourists visiting Vilsandi reached 3,000–5,000 per year.
 
 The joint advancement of nature conservation and tourism was facilitated by the Institute for Nature and Tourism established under the Ministry of Social Affairs in 1938. The institute was assigned the tasks of organising nature conservation, supervising public parks, managing state parks, supporting the development of summer resorts and directing domestic and foreign tourism.
 
-<p class="caption" id="figure311"><span class="figure-number">Figure 3.1.1.</span> Vilsandi has always attracted many tourists. In 1939, Artur Toom, the leader of the conservation area, steered the boat carrying them</p>
+<p class="caption" id="figure311"><span class="figure-number">Figure 3.1.1.</span> Vilsandi has always attracted many tourists. In 1939, Artur Toom, the leader of the conservation area, steered a boat carrying them</p>
 
 ```{r, figure311, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -54,7 +54,7 @@ The purpose of educational and hiking trails is to provide opportunities to rest
 
 The idea of planning educational trails in Estonia first emerged in the 1930s, but it was not until the founding of the Tartu Students Nature Conservation Circle by Jaan Eilart that action was finally taken. Kai Kaare, a geography graduate of the University of Tartu, designed an educational trail at Tilleoru (1962) and Jaan Eilart planned one at Neeruti (1964). The first hiking trail meeting international requirements was opened at Keila-Joa in 1996.
 
-Currently, the State Forest Management Centre (RMK) manages and monitors the use of educational and hiking trails on state-owned land. As things stood in 2017, the visitor infrastructure included 309 covered campfire sites, 223 nature trails (2,562 km in total), 214 hiking trails, 59 camping sites (425 sites in total where camping is possible), 27 free-of-charge forest huts, 20 rental huts and three off-road areas. In 2017, RMK spent a total of 5.3 million euros on activities related to tourism management (of which 0.7 million was revenue from recreational services and grants from the European Union). RMK’s website provides different filters for displaying destinations, including a separate display of sites accessible to people with reduced mobility. This includes more than 20 educational trails and hiking trails, as well as campfire and camping sites. Nevertheless, it has been found that nature tourism in Estonia is restricted by the dilapidation of specific infrastructure infrastructure (e.g. more than half of the birdwatching towers; [Jõks 2017](#Jõks2017)) and the insufficient linking of natural sites to tourism clusters in information materials.
+Currently, the State Forest Management Centre (RMK) manages and monitors the use of educational and hiking trails on state-owned land. As things stood in 2017, the visitor infrastructure included 309 covered campfire sites, 223 nature trails (2,562 km in total), 214 hiking trails, 59 camping sites (425 sites in total where camping is possible), 27 free-of-charge forest huts, 20 rental huts and three off-road areas. In 2017, RMK spent a total of 5.3 million euros on activities related to tourism management (of which 0.7 million was revenue from recreational services and grants from the European Union). RMK’s website provides different filters for displaying destinations, including a separate display of sites accessible to people with reduced mobility. This includes more than 20 educational trails and hiking trails, as well as campfire and camping sites. Nevertheless, it has been found that nature tourism in Estonia is restricted by the dilapidation of specific infrastructure (e.g. more than half of the birdwatching towers; [Jõks 2017](#Jõks2017)) and the insufficient linking of natural sites to tourism clusters in information materials.
 
 ```{block, type='blockquote-left'}
 Educational and hiking trails had the highest satisfaction rating in Estonian environmental matters in 2018.
@@ -69,7 +69,7 @@ Recent visitor surveys by RMK indicate that, in 2010 and 2015, most people visit
 
 ### Towns and cities have many green spaces, but their quality requires attention {-.chapter3_section}
 
-According to a 2017 analysis, 790,900 people, or approximately 90% of people living in densely populated areas in Estonia, had ‘very good access’ (up to 200 m from the place of residence) to a public green space, which is comparable to the corresponding figure of 92% in Sweden ([Sustainable Development Indicators 2018](#2indicators2018)). The quality of green spaces was briefly addressed in the 2009 Estonian Human Development Report, which used population satisfaction as an indicator and highlighted the problem of the fragmentation of green areas in larger cities and the destruction of peri-urban green areas as a result of urban sprawl ([Peterson 2010](#Peterson2010)). A comparison of 2009 data with the satisfaction survey commissioned by Tallinn City Government in 2017 shows that residents are satisfied (about 80%) with the amount and condition of parks and green spaces in Tallinn. The overall assessment was similar in Tartu, and even an increase in satisfaction was established between 2006 and 2016. However, a more detailed analysis of the Tartu data revealed that 7% of urban residents considered the amount and condition of parks and green spaces around their place of residence to be highly problematic and another 30% (mainly residents of Annelinn; most commonly ethnic Estonians and women) considered it to be problematic. Perception of this problem on a local level had not decreased in 10 years. There is regional dissatisfaction with the nearby green spaces in Tallinn as well; for example, in the city centre, Kristiine and Lasnamäe  ([Tuhkanen et al. 2018](#Tuhkanen2018)). This shows that satisfaction with the city or town as a whole is not a sufficient indicator for assessing green spaces in Estonia.
+According to a 2017 analysis, 790,900 people, or approximately 90% of people living in densely populated areas in Estonia, had ‘very good access’ (up to 200 m from the place of residence) to a public green space, which is comparable to the corresponding figure of 92% in Sweden ([Sustainable Development Indicators 2018](#2indicators2018)). The quality of green spaces was briefly addressed in the 2009 Estonian Human Development Report, which used population satisfaction as an indicator and highlighted the problem of the fragmentation of green areas in larger cities and the destruction of peri-urban green areas as a result of urban sprawl ([Peterson 2010](#Peterson2010)). A comparison of 2009 data with the satisfaction survey commissioned by Tallinn City Government in 2017 shows that residents are satisfied (about 80%) with the amount and condition of parks and green spaces in Tallinn. The overall assessment was similar in Tartu, and even an increase in satisfaction was established between 2006 and 2016. However, a more detailed analysis of the Tartu data revealed that 7% of urban residents considered the amount and condition of parks and green spaces around their place of residence to be highly problematic and another 30% (mainly residents of Annelinn; most commonly ethnic Estonians and women) considered it to be problematic. Perception of this problem on a local level had not decreased in 10 years. There is regional dissatisfaction with the nearby green spaces in Tallinn as well; for example, in the city centre, Kristiine and Lasnamäe ([Tuhkanen et al. 2018](#Tuhkanen2018)). This shows that satisfaction with the city or town as a whole is not a sufficient indicator for assessing green spaces in Estonia.
 
 <p class="caption" id="figure312"><span class="figure-number">Figure 3.1.2.</span> Total number of visits to natural sites managed by the State Forest Management Centre and number of visits to national parks, according to monitoring data from counters, 2010–2017</p>
 
@@ -86,17 +86,17 @@ fig312_data2 <- read.csv ("../data/31_fig2_data2.csv", header=TRUE, fileEncoding
 fig312_data2 <- melt (fig312_data2, id=c("park"))
 names(fig312_data2) <- c("park","year","visitors")
 
-fig312_data2$park_eng[grepl("Vilsandi rahvuspark", fig312_data2$park)]<-"Vilsandi national park"
-fig312_data2$park_eng[grepl("Matsalu rahvuspark", fig312_data2$park)]<-"Matsalu national park"
-fig312_data2$park_eng[grepl("Soomaa rahvuspark", fig312_data2$park)]<-"Soomaa national park"
-fig312_data2$park_eng[grepl("Lahemaa rahvuspark", fig312_data2$park)]<-"Lahemaa national park"
-fig312_data2$park_eng[grepl("Karula rahvuspark", fig312_data2$park)]<-"Karula national park"
+fig312_data2$park_eng[grepl("Vilsandi rahvuspark", fig312_data2$park)]<-"Vilsandi National Park"
+fig312_data2$park_eng[grepl("Matsalu rahvuspark", fig312_data2$park)]<-"Matsalu National Park"
+fig312_data2$park_eng[grepl("Soomaa rahvuspark", fig312_data2$park)]<-"Soomaa National Park"
+fig312_data2$park_eng[grepl("Lahemaa rahvuspark", fig312_data2$park)]<-"Lahemaa National Park"
+fig312_data2$park_eng[grepl("Karula rahvuspark", fig312_data2$park)]<-"Karula National Park"
 
-fig312_data2$park_eng <- factor(fig312_data2$park_eng, levels = c("Lahemaa national park","Soomaa national park","Matsalu national park","Karula national park","Vilsandi national park"))
+fig312_data2$park_eng <- factor(fig312_data2$park_eng, levels = c("Lahemaa National Park","Soomaa National Park","Matsalu National Park","Karula National Park","Vilsandi National Park"))
 
 fig312_data2$year <- factor(fig312_data2$year, levels = c("2010","2011","2012","2013","2014","2015","2016","2017"))
 
-fig312_plot2_labels <- c("Lahemaa\nnational park","Soomaa\nnational park", "Matsalu\nnational park", "Karula\nnational park","Vilsandi\nnational park")
+fig312_plot2_labels <- c("Lahemaa\nNational Park","Soomaa\nNational Park", "Matsalu\nNational Park", "Karula\nNational Park","Vilsandi\nNational Park")
 
 fig312_plot_palette <- c("#b8ddea","#44a1b1","#388085","#8d76ad","#79AC2C","#5B8121","#482683","#2E4111")
 
@@ -123,14 +123,14 @@ fig312_plot_palette <- c("#b8ddea","#44a1b1","#388085","#8d76ad","#79AC2C","#5B8
 knitr::include_graphics("../figures/3-chapter/fig312_map_eng.jpg")
 
 ggplotly(fig312_plot2 + fig_theme_general + fig312_theme, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F, collaborate = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
 ggplotly(fig312_plot1 + fig_theme_general + fig312_theme, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F, collaborate = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -206,8 +206,8 @@ fig313_data_melt$variable_eng <- factor(fig313_data_melt$variable_eng, levels = 
                  )
 
 ggplotly(fig313_plot + fig_theme_general + fig313_theme, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F, collaborate = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -225,13 +225,12 @@ print(fig313_plot + fig_theme_general + fig313_theme)
 </div>
 
 ``` {block, type='figure-comment'}
-<span class="figure-comment-start">Note:</span> *Note: ‘Nature visits 2010’ (N = 6231) and ‘Nature visits 2015’ (N = 5489) represent domestic nature visitors in the 2010 and 2015 visitor surveys conducted by RMK; ‘Foreign tourists 2015’ (N = 764) represents foreign respondents to the survey ([RMK 2018](#RMK2018)). The berry and mushroom picker data (N = 518) is derived from a sample of those having gone foraging for wild berries and mushrooms at least once during the summer and autumn of 2011 ([Kaldaru 2011](#Kaldaru2011)). The data on hunters covers all Estonian hunters (N = 15,499, including 381 women; Estonian Hunters Society) in November 2018. The age profile of visitors to Tallinn green spaces was drawn up in August 2006 for 25 key green spaces characteristic to Tallinn (N = 542; the graph excludes children – 4 % of the general sample; [Järv et al. 2006](#Järv2006)).*
+<span class="figure-comment-start">Note:</span> ‘Nature visits 2010’ (N=6,231) and ‘Nature visits 2015’ (N=5,489) represent domestic nature visitors in the 2010 and 2015 visitor surveys conducted by RMK; ‘Foreign tourists 2015’ (N=764) represents foreign respondents to the survey ([RMK 2018](#RMK2018)). The berry and mushroom picker data (N=518) is derived from a sample of those having gone foraging for wild berries and mushrooms at least once during the summer and autumn of 2011 ([Kaldaru 2011](#Kaldaru2011)). The data on hunters covers all Estonian hunters (N=15,499, including 381 women; Estonian Hunters Society) in November 2018. The age profile of visitors to Tallinn green spaces was drawn up in August 2006 for 25 key green spaces characteristic to Tallinn (N=542; the graph excludes children – 4% of the general sample; [Järv et al. 2006](#Järv2006)).
 ```
 
 ``` {block, type='imgsource'}
 <div><span class="imgsource-source">Source:</span> Figure by the authors.</div>
 <div><a class="data-btn" href="../data/31_fig3_data.csv"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
-```
 
 ```
 
@@ -248,14 +247,14 @@ library("scales")
 fig314_data <- melt (fig314_data, id=c("Space"))
 
 fig314_data$Space_eng[grepl("Park", fig314_data$Space)]<-"Park"
-fig314_data$Space_eng[grepl("Mänguväljak", fig314_data$Space)]<-"Playground/fitness area"
+fig314_data$Space_eng[grepl("Mänguväljak", fig314_data$Space)]<-"Playground / fitness area"
 fig314_data$Space_eng[grepl("Veekoguäärne roheala", fig314_data$Space)]<-"Waterfront green space"
 fig314_data$Space_eng[grepl("Mets", fig314_data$Space)]<-"Forest"
 fig314_data$Space_eng[grepl("Ala väheste puude/põõsastega", fig314_data$Space)]<-"Area with a few trees/bushes"
 fig314_data$Space_eng[grepl("Ala, kus ma saan aiatööd teha", fig314_data$Space)]<-"Area where I can do gardening"
 
 
-fig314_data$Space_eng <- factor( fig314_data$Space_eng, levels = c("Area where I can do gardening","Area with a few trees/bushes","Forest","Waterfront green space","Playground/fitness area","Park"))
+fig314_data$Space_eng <- factor( fig314_data$Space_eng, levels = c("Area where I can do gardening","Area with a few trees/bushes","Forest","Waterfront green space","Playground / fitness area","Park"))
 
 fig314_data$variable <- factor(fig314_data$variable, levels = c("Ei ole üldse tähtis","Mitte eriti tähtis","Keskmiselt tähtis","Tähtis","Väga tähtis"))
 
@@ -298,7 +297,7 @@ At the same time, there are many options for data collection available today, in
 
 ### Half of the population go berry or mushroom picking {-.chapter3_section}
 
-Regarding forests, the Estonian population most often associates the material benefits with mushrooms and berries ([Turu-uuringute AS 2018](#2Turu-uuringute2018)). The latest representative survey dates back to 2011, when one thousand Estonian residents aged 15–74 were interviewed: 52 % of the respondents had foraged for wild produce in the same summer and autumn, which, when extrapolated to the entire population, accounts for at least half a million people ([Kaldaru 2011](#Kaldaru2011)). This does not include children who visit the forest along with their parents. Although half of the pickers limited their visits to 1 to 3 times, 12% went on more than a dozen visits, while foraging for consumption was more common than foraging for fun. Young people (33% of people aged 15–19 and 39% of people aged 20–29), people living in bigger cities or in Ida-Virumaa, and those with higher income were the least frequent to forage. The largest volumes of natural produce were picked in southern Estonia and by rural residents, retired people and people on a low income. The estimated total harvest volume was 5 million litres of berries and 8 million litres of mushrooms.
+Regarding forests, the Estonian population most often associates the material benefits with mushrooms and berries ([Turu-uuringute AS 2018](#2Turu-uuringute2018)). The latest representative survey dates back to 2011, when one thousand Estonian residents aged 15–74 were interviewed: 52% of the respondents had foraged for wild produce in the same summer and autumn, which, when extrapolated to the entire population, accounts for at least half a million people ([Kaldaru 2011](#Kaldaru2011)). This does not include children who visit the forest along with their parents. Although half of the pickers limited their visits to 1 to 3 times, 12% went on more than a dozen visits, while foraging for consumption was more common than foraging for fun. Young people (33% of people aged 15–19 and 39% of people aged 20–29), people living in bigger cities or in Ida-Virumaa, and those with higher income were the least frequent to forage. The largest volumes of natural produce were picked in southern Estonia and by rural residents, retired people and people on a low income. The estimated total harvest volume was 5 million litres of berries and 8 million litres of mushrooms.
 
 ```{block, type='blockquote-left'}
 The largest volumes of wild produce were picked in southern Estonia and by rural residents, retired people and people on a low income. The estimated total harvest volume in 2011 was 5 million litres of berries and 8 million litres of mushrooms.
@@ -336,7 +335,7 @@ Random sample studies commissioned by the Ministry of the Environment (2010 and 
 
 Changes in the number of recreational fishermen can be assessed based on fishing permit statistics. In Estonia, a fishing fee must also be paid for line fishing, except when using one simple hand line. For example, 95,273 fishing permits were in force in 2014 and 95,871 in 2015, but only 90,348 in 2016 – this decrease can be explained by the unfavourable conditions for ice fishing that year. As one person can purchase several shorter-term permits in the course of one year, the number of valid fishing permits does not correspond to the actual number of recreational fishermen. According to data sorted using personal identification codes, there were 47,865 persons fishing for a fee in Estonia in 2016, including 5,361 foreigners. Taking into account the different types of permits and adding an estimate of those holding the right to fish without a permit, it can be stated that in the period between 2012 and 2016, approximately 60,000–65,000 people were engaged in recreational fishing in Estonia.
 
-<p class="caption" id="figure315"><span class="figure-number">FIgure 3.1.5.</span> Recreational fishermen at Vahejärve Lake, Otepää, 1945</p>
+<p class="caption" id="figure315"><span class="figure-number">Figure 3.1.5.</span> Recreational fishermen at Vahejärve Lake, Otepää, 1945</p>
 
 ```{r, figure315, fig.align='center', out.width='100%', echo=FALSE, message=FALSE, warning=FALSE}
 
