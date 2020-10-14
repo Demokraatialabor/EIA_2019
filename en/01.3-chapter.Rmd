@@ -15,9 +15,9 @@ The Estonian welfare state has developed hand in hand with suburban Estonia. In 
 ```{block, type='blockquote-left'}
 Suburbanisation is a new and unfamiliar phenomenon in Estonia, which is confirmed by the hesitation in naming and defining settlements as suburban in both official and vernacular language.
 ```
-In the suburbs, the development model of a democratic and free society meets the market economy’s idea of growth and competition, materialising in the most physical way in new neighbourhoods and the social practices of suburban life. Suburbs on the outskirts grow rapidly, intermittently, mechanically, in contrast to the gradual, considered development of the historic urban centre. In this article, I will address the extent and nature of the suburbanisation of areas surrounding Tallinn, Tartu and Pärnu over the past few decades, highlighting the causes and consequences of suburbanisation, with the aim of considering how public and private interests are fulfilled in suburban planning, development and urban governance..
+In the suburbs, the development model of a democratic and free society meets the market economy’s idea of growth and competition, materialising in the most physical way in new neighbourhoods and the social practices of suburban life. Suburbs on the outskirts grow rapidly, intermittently, mechanically, in contrast to the gradual, considered development of the historic urban centre. In this article, I will address the extent and nature of the suburbanisation of areas surrounding Tallinn, Tartu and Pärnu over the past few decades, highlighting the causes and consequences of suburbanisation, with the aim of considering how public and private interests are fulfilled in suburban planning, development and urban governance.
 
-Suburbanisation is a new and unfamiliar phenomenon in Estonia, which is confirmed by the hesitation in naming and defining settlements as suburban in both official and vernacular language. While some suburbanised villages have been elevated to the status of a small town (alevik) – for example, Peetri and Luige outside Tallinn, or Räni and Vahi outside Tartu – none has so far managed to earn the status of city (linn) in the settlement hierarchy.
+Suburbanisation is a new and unfamiliar phenomenon in Estonia, which is confirmed by the hesitation in naming and defining settlements as suburban in both official and vernacular language. While some suburbanised villages have been elevated to the status of a small town (*alevik*) – for example, Peetri and Luige outside Tallinn, or Räni and Vahi outside Tartu – none has so far managed to earn the status of city (*linn*) in the settlement hierarchy.
 
 ### How to define a suburb? {-.chapter1_section}
 
@@ -31,12 +31,12 @@ The following analysis of the suburbanisation of Tallinn, Tartu and Pärnu is ba
 The change in land use in urban sprawl manifests in the appearance of strips of patchy, separated housing that often leads to a wasteful use of land resources, energy and infrastructure, environmental pollution, congestion and many other external impacts.
 ```
 
-Regarding similarities and differences with European suburbs, suburbanisation in the Netherlands, France, Germany and the Nordic countries accelerated with the launch of national housing programmes in the 1960s and continued throughout the 1970s and 1980s ([Bruegmann 2008](#Bruegmann2008)). In Mediterranean countries, suburbanisation became the dominant urbanisation process a few decades later, in the 1980s, as a result of the developmental advantages provided by urban centres. By the 1990s, the development of urban areas in Western and Central Europe had reached the post-suburban stage that prompted a search for a new key solution for the development of stagnated suburbs ([Phelphs ja Wood 2011](#Phelps2011)). Architects and designers following the trend of new suburbanisation emphasised the importance of aesthetics and the densification of urban space, prioritising pedestrians and public transport over car traffic, as well as ecological, sustainable solutions that also accentuated rurality ([Randolph 2012](#Randolph2012)). Post-suburban developments, urban design and urban organisation all mimic the characteristics and processes of an urban centre, both in the diversification of the urban environment and its uses, and in the densification of housing, but they continue to do so in dimensions and forms that are suburban. In addition, the legislature has established strict quotas that limit construction on greenfield sites, while supporting secondary land use on brownfield sites in areas outside cities and towns.
+Regarding similarities and differences with European suburbs, suburbanisation in the Netherlands, France, Germany and the Nordic countries accelerated with the launch of national housing programmes in the 1960s and continued throughout the 1970s and 1980s ([Bruegmann 2008](#Bruegmann2008)). In Mediterranean countries, suburbanisation became the dominant urbanisation process a few decades later, in the 1980s, as a result of the developmental advantages provided by urban centres. By the 1990s, the development of urban areas in Western and Central Europe had reached the post-suburban stage that prompted a search for a new key solution for the development of stagnated suburbs ([Phelps and Wood 2011](#Phelps2011)). Architects and designers following the trend of new suburbanisation emphasised the importance of aesthetics and the densification of urban space, prioritising pedestrians and public transport over car traffic, as well as ecological, sustainable solutions that also accentuated rurality ([Randolph 2012](#Randolph2012)). Post-suburban developments, urban design and urban organisation all mimic the characteristics and processes of an urban centre, both in the diversification of the urban environment and its uses, and in the densification of housing, but they continue to do so in dimensions and forms that are suburban. In addition, the legislature has established strict quotas that limit construction on greenfield sites, while supporting secondary land use on brownfield sites in areas outside cities and towns.
 
 ```{block, type='blockquote-left'}
 As in Estonia, the suburbs elsewhere in Eastern and Central Europe have emerged, through the fragmentation of land use, as single-purpose residential areas and commercial logistics parks.
 ```
-Suburbanisation – both its supply and demand – reached the cities of Central and Eastern Europe only by the late 1990s, with the maturation of market forces, after which the rate of suburbanisation has developed in line with economic growth, being an expression of the development of the welfare state ([Phelphs 2017](#Phelps2017)). As in Estonia, the suburbs elsewhere in Eastern and Central Europe have emerged, through the fragmentation of land use, as single-purpose residential areas and commercial logistics parks, along with some large shopping centres and European Union co-financed infrastructure projects to meet the needs of the car-centric consumer society ([Leetmaa et al. 2014](#Leetmaa2014)). The urbanisation of Estonia continues in the modernist stage and even Greater Tallinn has not yet reached late modernism, not to mention reurbanisation or polycentric urban regionalisation.
+Suburbanisation – both its supply and demand – reached the cities of Central and Eastern Europe only by the late 1990s, with the maturation of market forces, after which the rate of suburbanisation has developed in line with economic growth, being an expression of the development of the welfare state ([Phelps 2017](#Phelps2017)). As in Estonia, the suburbs elsewhere in Eastern and Central Europe have emerged, through the fragmentation of land use, as single-purpose residential areas and commercial logistics parks, along with some large shopping centres and European Union co-financed infrastructure projects to meet the needs of the car-centric consumer society ([Leetmaa et al. 2014](#Leetmaa2014)). The urbanisation of Estonia continues in the modernist stage and even Greater Tallinn has not yet reached late modernism, not to mention reurbanisation or polycentric urban regionalisation.
 
 ### One-tenth of Estonians live in the suburbs {-.chapter1_section}
 
@@ -69,8 +69,8 @@ library("plotly")
   )
 
 ggplotly(fig131_plot + fig_theme_general + fig131_theme, tooltip = c("text") ) %>%
-config(displayModeBar = F, collaborate = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F, collaborate = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -175,8 +175,8 @@ fig133_data_clean$area_eng <- factor (fig133_data_clean$area_eng, levels = c("Ta
   )
 
   ggplotly(fig133_plot + fig_theme_general + fig133_theme, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F, collaborate = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -220,7 +220,7 @@ knitr::include_graphics("../figures/1-chapter/fig134_eng.jpg")
 
 County spatial plans accentuate existing settlement structures and seek to place new housing either tightly within high-density neighbourhoods or in their immediate vicinity. This would make it possible to create a spatial model for the development of integrated housing and urban infrastructure, as well as the preconditions for efficient urban management. Comprehensive plans follow the same spatial policy. Currently, it is common for suburbanised space to be created on the basis of individual detailed spatial plans that largely disrupt the strategy of developing an integrated and cohesive settlement through local government comprehensive plans. Two methodological approaches have developed during the preparation of county spatial plans. For Tallinn, the development of the settlements in the vicinity of the city was conveyed in the form of vague areas, while in the case of Tartu, it was the actual situation that formed the basis for the county plan, with both planned and potential suburban neighbourhoods noted down, based on adopted detailed plans, coherent land use and realistic needs ([Figure 1.3.5](#figure135)).
 
-<p class="caption" id="figure135"><span class="figure-number">Figure 1.3.5.</span> County spatial plan with vague vs strict boundaries – Harjumaa vs Tartumaa.</p>
+<p class="caption" id="figure135"><span class="figure-number">Figure 1.3.5.</span> County spatial plan with vague vs strict boundaries – Harjumaa vs Tartumaa</p>
 
 ```{r, figure135, out.width='100%', fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
@@ -229,7 +229,7 @@ knitr::include_graphics("../figures/1-chapter/fig135.png")
 ```
 
 ```{block, type='imgsource'}
-<span class="imgsource-source">Soure:</span> 2030+ Harjumaa county spatial plan (2018); 2030+ Tartumaa county spatial plan (2019).
+<span class="imgsource-source">Source:</span> 2030+ Harjumaa county spatial plan (2018); 2030+ Tartumaa county spatial plan (2019).
 ```
 
 ```{block, type='blockquote-right'}
@@ -239,7 +239,7 @@ Secondly, county spatial plans seek polycentric urban development. However, the 
 
 In reality, the development of suburban settlements is determined by fragmented, small-scale detailed spatial plans prepared and adopted separately and in random chronological order, as illustrated by the spatial planning map of the rural municipalities of Rae and Raasiku ([Figure 1.3.6](#figure136)).
 
-<p class="caption" id="figure136"><span class="figure-number">Figure 1.3.6.</span> Fragmented new suburban settlement: the detailed planning areas of the rural municipalities of Rae and Raasiku from 1999.</p>
+<p class="caption" id="figure136"><span class="figure-number">Figure 1.3.6.</span> Fragmented new suburban settlement: the detailed planning areas of the rural municipalities of Rae and Raasiku from 1999</p>
 
 ```{r, figure136, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
@@ -281,7 +281,7 @@ In a competitive situation, home buyers can choose between a home in the city or
 
 <p class="caption" id="figure138"><span class="figure-number">Figure 1.3.8.</span> A place-marketing perspective on the small town of Jüri by the real estate company Laam Kinnisvara</p>
 
-*‘Apartments at Väljaku 5 – a comfortable living environment for the young and active / A childhood full of opportunities / A home near the city in Jüri / The population of the town is growing thanks to a functioning infrastructure system, the rural municipality’s successful efforts in providing a healthy living environment, as well as constantly improving opportunities for leisure and recreation’*
+*‘Apartments at Väljaku 5 – a comfortable living environment for the young and active / A childhood full of opportunities / A home near the city in Jüri / The population of the town is growing thanks to a functioning infrastructure system, the rural municipality’s successful efforts in providing a healthy living environment, as well as constantly improving opportunities for leisure and recreation.’*
 
 ```{r, figure138, out.width='100%',, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
@@ -289,7 +289,7 @@ knitr::include_graphics("../figures/1-chapter/fig138.png")
 ```
 
 ```{block, type='imgsource'}
-<span class="imgsource-source">Soure:</span> Laam Kinnisvara.
+<span class="imgsource-source">Source:</span> Laam Kinnisvara.
 ```
 
 Local governments, as the bodies adopting comprehensive and detailed spatial plans, have undivided authority in the final decisions regarding suburban development. On the one hand, there is a legal mandate granting the extensive, limitless discretion regarding areas without restrictions in public law, and on the other hand, there is the practical administrative capacity and planning practices of the local government. How can we turn down a developer? As the right of discretion is still subject to a compliance regime set out in the Administrative Procedure Act, which requires local governments to have the capacity to make planning decisions based on substantive, technical and legal circumstances, controversial cases lead to matters being taken to court. Still, judicial review and state supervision of planning decisions are limited due to the high level of planning authority among local governments, with most disputes being settled out of court between the local government, the developer and third parties. In suburban development, the temporal dimension is as important as location. For example, until 2015, detailed spatial plans for projects in the suburbs outside Tartu took an average of 12 months to process, while a detailed plan for a project within the city took twice that time.
@@ -330,7 +330,7 @@ The modern petrol station not only offers fuel but, in the absence of a better a
 ```
 There is a growing demand for playgrounds ([Figure 1.3.9](#figure139)) in new suburbs. Developers and local governments have taken note and focused more on playgrounds when designing the areas between new apartment buildings, whereas children from families living in detached houses play in their own yards. Ball courts have also been added to playgrounds, with the intention of offering young people the opportunity to play court games. New residential areas have also seen tennis courts built; however, the use of these is limited and club-based. Public car parks can also be considered public spaces, in the strict sense of the word. Detailed spatial plans generally take public and communal interests into consideration, but acting on these during construction is another question, particularly when residential areas are being developed in stages. However, one issue that has become a matter of life and death are pedestrian and cycle crossings in the context of increasingly heavy suburban traffic flows. The placement of bus stops in new neighbourhoods has also become a contentious issue, since nobody wants additional traffic noise and people gathering on their doorstep.
 
-<p class="caption" id="figure139"><span class="figure-number">Figure 1.3.9.</span> A playground like any other – a jungle gym, a slide and a swing.</p>
+<p class="caption" id="figure139"><span class="figure-number">Figure 1.3.9.</span> A playground like any other – a jungle gym, a slide and a swing</p>
 
 ```{r, figure139, out.width='90%', fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 knitr::include_graphics("../figures/1-chapter/fig139.png")
@@ -346,7 +346,7 @@ Shopping centres provide plenty of public space in suburban zones, but their pub
 
 In light of the nature of Estonia’s suburbanisation in recent decades, characterised by private ownership and planning freedom, suburban development should be viewed from the American perspective of urban growth and growth management, and not as the normatively strict European-style of urban planning. While the type of suburbanisation happening in Estonia is indeed American, there are some basic urban differences compared to new suburbs in the USA – new suburbs in Estonia are small, not too far from the urban centre and they are not uniform as a result of mass development. Unlike the urbanisation process in the USA and partly also in Western Europe, suburban growth in Estonia has not been the direct consequence of the degeneration, decline or negative circumstances of the urban centre.
 
-The suburban growth machine is currently running at full speed, inseparable from the metropolitanisation and urban social development of Estonia. Suburbanisation affects an area up to 20 kilometres wide around Tallinn and areas within a 5-kilometre radius of Tartu and Pärnu. The suburban lifestyle is based on the model of a nuclear family with a house and a car.
+The suburban growth machine is currently running at full speed, inseparable from the metropolisation and urban social development of Estonia. Suburbanisation affects an area up to 20 kilometres wide around Tallinn and areas within a 5-kilometre radius of Tartu and Pärnu. The suburban lifestyle is based on the model of a nuclear family with a house and a car.
 
 A completely new type of suburban settlement has developed in the immediate zone around Tallinn, Tartu and Pärnu. The new suburbs in Estonia are characterised by a low population density, usually 50–200 inhabitants per square kilometre, reaching up to 1,000 inhabitants per square kilometre in small towns on the outskirts, and a fragmented and car-centric environment for leisure, services and mobility. In conclusion, we can estimate there to be 70,000 new suburban residents who, while having made the choice of the location for their homes individually, collectively affect the functioning of the entire urban area.
 
@@ -361,7 +361,7 @@ As people’s mobility between the urban centre and the suburbs increase, everyd
 
 <p id="Bruegmann2008">Bruegmann, R. 2008. Sprawl: A Compact History. Chicago: University of Chicago Press.</p>
 
-<p id="Leetmaa2014">Leetmaa, K., Kährik, A., Nuga, M., Tammaru, T. 2014. Suburbanization in the Tallinn metropolitan area – Stanilov, K., Sýkora, L. (eds.), Confronting Suburbanization: Urban Decentralization in Postsocialist Central and Eastern Europe. Oxford: Wiley-Blackwell, 192–224.</p>
+<p id="Leetmaa2014">Leetmaa, K., Kährik, A., Nuga, M., Tammaru, T. 2014. Suburbanization in the Tallinn metropolitan area. – Stanilov, K., Sýkora, L. (eds.), Confronting Suburbanization: Urban Decentralization in Postsocialist Central and Eastern Europe. Oxford: Wiley-Blackwell, 192–224.</p>
 
 <p id="Phelps2017">Phelps, N. A. (ed.) 2017. Old Europe, New Suburbanization? Governance, Land, and Infrastructure in European Suburbanization. Toronto: University of Toronto Press.</p>
 
@@ -369,10 +369,10 @@ As people’s mobility between the urban centre and the suburbs increase, everyd
 
 <p id="Randolph2012">Randolph, J. 2012. Environmental Land Use Planning and Management. Washington: Island Press.</p>
 
-<p id="Roose2015">Roose, A., Noorkõiv, R., Gauk, M. 2015. Tartu eeslinnastumine – Eesti Statistika Kvartalikiri, 1, 80−109.</p>
+<p id="Roose2015">Roose, A., Noorkõiv, R., Gauk, M. 2015. Tartu eeslinnastumine. – Eesti Statistika Kvartalikiri, 1, 80−109.</p>
 
-<p id="Tammaru2004">Tammaru, T., Kulu, H., Kask, I. 2004. Urbanization, Suburbanization, and Counterurbanization in Estonia – Eurasian Geography and Economics, 45 (3), 159–176.</p>
+<p id="Tammaru2004">Tammaru, T., Kulu, H., Kask, I. 2004. Urbanization, Suburbanization, and Counterurbanization in Estonia. – Eurasian Geography and Economics, 45 (3), 159–176.</p>
 
-<p id="Tammaru2009">Tammaru, T., Leetmaa, K., Silm, S., Ahas, R. 2009. Temporal and Spatial Dynamics of the New Residential Areas around Tallinn – European Planning Studies, 17 (3), 423−439.</p>
+<p id="Tammaru2009">Tammaru, T., Leetmaa, K., Silm, S., Ahas, R. 2009. Temporal and Spatial Dynamics of the New Residential Areas around Tallinn. – European Planning Studies, 17 (3), 423−439.</p>
 
-<p id="van-Dijk2009">van Dijk, T. 2009. Who is in charge of the urban fringe? Neoliberalism, open space preservation and growth control – Planning Practice and Research, 24, 343–361.</p>
+<p id="van-Dijk2009">van Dijk, T. 2009. Who is in charge of the urban fringe? Neoliberalism, open space preservation and growth control. – Planning Practice and Research, 24, 343–361.</p>
