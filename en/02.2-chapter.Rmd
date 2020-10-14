@@ -1,7 +1,7 @@
 ## Built heritage and spatial quality {.chapter_section .chapter2_section}
 
 ```{block, type='authors authors_eng'}
-<div class="author-links">**[Triin Talk](#triin-talk) ja [Siim Raie](#siim-raie)**</div>
+<div class="author-links">**[Triin Talk](#triin-talk) and [Siim Raie](#siim-raie)**</div>
 <div><a class="print-btn" href="../ehituspärand-ja-ruumikvaliteet.html">EE</a></div>
 ```
 
@@ -32,7 +32,7 @@ Architect Rem Koolhaas ([2014](#Koolhaas2014)) has said that heritage conservati
 
 Estonians have a relatively high interest in cultural heritage: according to a Eurobarometer survey (2017), 71% of Estonians had visited a historical monument or site within the past year, while the European Union average was 61% ([Figure 2.2.1](#figure221)).
 
-<p class="caption" id="figure221"><span class="figure-number">Figure 2.2.1.</span> Estonians visit historical monuments and sites more often than the average European.</p>
+<p class="caption" id="figure221"><span class="figure-number">Figure 2.2.1.</span> Estonians visit historical monuments and sites more often than the average European</p>
 
 
 ```{r, figure221, out.width='90%',fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
@@ -124,7 +124,7 @@ The conservation of architectural heritage is not aimed at maintaining unity of 
 
 Advances in the maintenance and continued use of existing buildings are also increasingly relevant in the context of energy efficiency and climate change. Around 20% of the energy balance of a building’s life cycle is spent on heating, with the remaining 80% consumed by the production and construction of materials. Existing buildings are therefore a resource, the continued use and reuse of which is fully sustainable – once building materials have been placed into a building, the renovation and continued use of that building generally has a lower environmental footprint than erecting a new house, even if the new house is more energy-efficient. ‘The greenest building is … one that is already built’ ([Elefante 2007](#Elefante2007)) is a recognition that also considers the life cycle of the materials used in the construction of buildings, and not just the cost of heating. Using, repairing and upgrading the same building for 500 years is more sustainable than demolishing and rebuilding every 50 years.
 
-There are 12 heritage conservation areas and over 5,000 listed structures in Estonia (the latter are mainly historic buildings, but may also include structures such as roads and bridges, parks and military facilities). Listed buildings account for about 0.7% of the buildings in the Register of Buildings, and even with the inclusion of the buildings located in the heritage conservation areas, built heritage under state protection only accounts for about one percent of all buildings. Comparing the number of buildings under state protection with those of other countries is difficult and must be done while recognising that the list of Estonian heritage sites mirrors the technical possibilities and land fragmentation of the 1990s: complexes considered as single heritage sites in many countries have been listed as dozens of separate buildings in Estonia. The meaning of state protection can also vary greatly. In the US, for example, there are over 100,000 monuments and a thousand more are added to the list each year. Yet designation as a monument under state protection does not even involve a ban on demolition – building regulations can only be implemented by local authorities ([Page 2016](#Page2016)). In the UK, there are over 9,800 heritage protection areas and 375,588listed buildings, excluding historic parks and gardens, which in Estonia are included among listed places. In Latvia, there are 8,584 cultural monuments, 5,183 of which are of national importance and 3,401 of local importance – 40% of them are architectural monuments. Finland has a very small number of monuments – 280 buildings or groups of buildings – but additionally, all churches built before 1917 are automatically granted protection, and the same goes for approximately 800 historic buildings once owned by the state and 1,258 nationally significant cultural environments. Heritage conservation through planning has been used in Finland since the 1980s; instead of being listed as monuments, most of built heritage is protected by planning documents – an estimated 15–20,000 buildings or groups of buildings.
+There are 12 heritage conservation areas and over 5,000 listed structures in Estonia (the latter are mainly historic buildings, but may also include structures such as roads and bridges, parks and military facilities). Listed buildings account for about 0.7% of the buildings in the Register of Buildings, and even with the inclusion of the buildings located in the heritage conservation areas, built heritage under state protection only accounts for about one percent of all buildings. Comparing the number of buildings under state protection with those of other countries is difficult and must be done while recognising that the list of Estonian heritage sites mirrors the technical possibilities and land fragmentation of the 1990s: complexes considered as single heritage sites in many countries have been listed as dozens of separate buildings in Estonia. The meaning of state protection can also vary greatly. In the US, for example, there are over 100,000 monuments and a thousand more are added to the list each year. Yet designation as a monument under state protection does not even involve a ban on demolition – building regulations can only be implemented by local authorities ([Page 2016](#Page2016)). In the UK, there are over 9,800 heritage protection areas and 375,588 listed buildings, excluding historic parks and gardens, which in Estonia are included among listed places. In Latvia, there are 8,584 cultural monuments, 5,183 of which are of national importance and 3,401 of local importance – 40% of them are architectural monuments. Finland has a very small number of monuments – 280 buildings or groups of buildings – but additionally, all churches built before 1917 are automatically granted protection, and the same goes for approximately 800 historic buildings once owned by the state and 1,258 nationally significant cultural environments. Heritage conservation through planning has been used in Finland since the 1980s; instead of being listed as monuments, most of built heritage is protected by planning documents – an estimated 15–20,000 buildings or groups of buildings.
 
 <div class="casebox">
 <h3>Industrial heritage</h3>
@@ -236,7 +236,7 @@ library("tidyverse")
  fig225_data$type_eng[grepl("Taotluste maht", fig225_data$type)]<-"Applied for"
   fig225_data$type_eng[grepl("Toetused", fig225_data$type)]<-"Granted"
 
- 
+
   fig225_plot <- ggplot() +
     geom_bar(data = fig225_data, mapping = aes(x=type_eng, y=sum, fill=type), width=0.4, stat="identity") +
     scale_fill_manual(values=c("#369b9e","#a18bbb")) +
@@ -290,12 +290,12 @@ fig226_data$type_eng <- factor (fig226_data$type_eng, levels = c("Total applicat
    fig226_theme <- theme(
      panel.grid.minor.x = element_blank(),
       text = element_text(size = 12, family="Montserrat"),
-     
+
   )
 
 ggplotly(fig226_plot + fig_theme_general + fig226_theme, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F, collaborate = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -348,8 +348,8 @@ fig227_data$type_eng[grepl("Riigieelarve kulud", fig227_data$type)]<-"State budg
   )
 
   ggplotly(fig227_plot + fig_theme_general + fig227_theme, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F, collaborate = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -426,12 +426,12 @@ Inside **Estonia**
 <div><a class="data-btn" href="../data/22_fig8_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
-In addition to restoration grants, the state’s contribution to cultural heritage is reflected in the management of state-owned built heritage. Nearly 60% of the private owners of monuments feel that the state and local governments are not setting a good example with their management of the monuments, as they often prefer constructing a new building to restoring an old one ([Tafel-Viia et al.t 2014](#Tafel2014)).
+In addition to restoration grants, the state’s contribution to cultural heritage is reflected in the management of state-owned built heritage. Nearly 60% of the private owners of monuments feel that the state and local governments are not setting a good example with their management of the monuments, as they often prefer constructing a new building to restoring an old one ([Tafel-Viia et al. 2014](#Tafel2014)).
 
 A recent study on the management of state-owned built cultural heritage ([Mändel et al. 2016](#Mändel2016)) concluded that the state’s property policy needs broader goals than keeping management costs as low as possible. Like the State Forest Management Centre (RMK) aims to increase the appreciation of the forest by building hiking trails and cabins for free public use alongside its profit-orientated activities, the articles of association of Riigi Kinnisvara AS (the manager of state-owned property) should also include objectives relating to the management and displaying of cultural heritage. Today, relying solely on business logic and individual political decisions would be unthinkable in the management of the state’s natural resources, yet it is still common in the case of its built heritage.
 
 <div class="casebox">
-<h3>Liberty The case of Liberty Manor</h3>
+<h3>The case of Liberty Manor</h3>
 
 More than 350,000 euros have been used on the planning of a presidential residence at Liberty Manor, most of it to cover design costs. This would be about half of the annual restoration grants from the state budget.
 The buildings were acquired from the Estonian Open Air Museum in 2014, the construction documents were completed in 2015. In 2017, however, President Kersti Kaljulaid decided against establishing the residence, and as of early 2019, no decision has been made on what to do next. The museum would like to use the buildings, yet these have not been returned. The manor complex is closed to the public and its condition is deteriorating.
@@ -447,7 +447,7 @@ knitr::include_graphics("../figures/2-chapter/fig229.png")
 </div>
 
 ```{block, type='imgsource'}
-<span class="imgsource-source">Source:</span> The National Register of Cultural Monuments, Timo Aava 2015.
+<span class="imgsource-source">Source:</span> National Register of Cultural Monuments, Timo Aava 2015.
 ```
 
 ### Summary {-.chapter2_section #summary-22}
