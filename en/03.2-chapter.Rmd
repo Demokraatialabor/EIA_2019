@@ -74,7 +74,7 @@ This methodology has already been implemented in Estonia; for example, when anal
 
 Health benefits or health damage measured like this can also be calculated in monetary terms. For example, it has been calculated that the green spaces in London city centre reduce health damage and costs to the United Kingdom’s health insurance fund by an estimated 1.82 million pounds (<a href="https://www.gov.uk/government/organisations/natural-england">Natural England</a>). Netherlands by 10% from the current 13.9% of the country’s territory would help prevent approximately 84,000 visits to the family doctor and save the health insurance fund 65 million euros per year (<a href="https://home.kpmg/nl/nl/home.html">www.kpmg.nl</a>).
 
-<p class="caption" id="figure323"><span class="figure-number">Figure 3.2.3.</span> Tallinn’s annual average concentration (μg/m3) of particulate matter (PM10) and noise levels (dB(A)) during the day (Ld 7.00– 23.00)</p>
+<p class="caption" id="figure323"><span class="figure-number">Figure 3.2.3.</span> Tallinn’s annual average concentration (μg/m3) of particulate matter (PM10) and noise levels (dB(A)) during the day (Ld 7.00–23.00)</p>
 
 ```{r, figure323, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
 
