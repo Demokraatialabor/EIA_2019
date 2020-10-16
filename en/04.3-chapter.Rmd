@@ -24,11 +24,11 @@ library("tidyverse")
  fig431_data$position_eng[grepl("14. koht",   fig431_data$position)]<-"14th place"
  fig431_data$position_eng[grepl("24. koht",   fig431_data$position)]<-"24th place"
  fig431_data$position_eng[grepl("50. koht",   fig431_data$position)]<-"50th place"
- 
+
  fig431_data$country_eng[grepl("Eesti",   fig431_data$country)]<-"Estonia"
  fig431_data$country_eng[grepl("Läti",   fig431_data$country)]<-"Latvia"
  fig431_data$country_eng[grepl("Soome",   fig431_data$country)]<-"Finland"
- 
+
 fig431_data$country_eng <- factor(fig431_data$country_eng, levels = c("Finland","Estonia","Latvia"))
 
 
@@ -46,8 +46,8 @@ fig431_data$country_eng <- factor(fig431_data$country_eng, levels = c("Finland",
   )
 
 ggplotly(fig431_plot + fig_theme_general + fig431_theme, tooltip = "text") %>%
-config(displayModeBar = F, collaborate = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F, collaborate = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -70,7 +70,7 @@ layout(yaxis = list(fixedrange = TRUE))
 Diverse, inclusive and reasoned debate is a prerequisite for a democratic society and a guarantee of its continuation – the basic principles and rules of our common life and the best way of reacting to the challenges of a changing world are debated in our public deliberative space.
 
 ```{block, type='blockquote-left'}
-Diverse, inclusive and reasoned debate is a prerequisite for a democratic society and a guarantee of its continuation
+Diverse, inclusive and reasoned debate is a prerequisite for a democratic society and a guarantee of its continuation.
 ```
 
 The primary position of this article is that the opportunities for the press to shape the public sphere have declined and the role and responsibility of other actors (e.g. the audience, specific interest groups and technology controlled by large global corporations) has increased. Studies of the content of the Estonian-language press, its editorial processes and media reception over the past decade indicate these changes. In this article, I have synthesised the results of smaller qualitative and quantitative studies conducted at the University of Tartu, and also included observations from international studies regarding the situation in Estonia and Europe. I answer the following questions in the article:
@@ -127,12 +127,12 @@ library("tidyverse")
   fig433_data$variable_eng[grepl("poliitik", fig433_data$variable)]<-"Politicians"
   fig433_data$variable_eng[grepl("ajakirjanik", fig433_data$variable)]<-"Journalists"
   fig433_data$variable_eng[grepl("teadlane, ekspert", fig433_data$variable)]<-"Scientists, experts"
-  
+
   fig433_data$group_eng[grepl("Postimees", fig433_data$group)]<-"Postimees"
   fig433_data$group_eng[grepl("Eesti Päevaleht", fig433_data$group)]<-"Eesti Päevaleht"
   fig433_data$group_eng[grepl("Kokku", fig433_data$group)]<-"All"
-  
-  
+
+
 fig433_data$group_eng <- factor(fig433_data$group_eng, levels = c("Postimees","Eesti Päevaleht","All"))
 fig433_data$variable_eng <- factor(fig433_data$variable_eng, levels = c("Entrepreneurs", "Public servants","Cultural figures","Citizens","Politicians","Journalists","Scientists, experts"))
 
@@ -152,8 +152,8 @@ fig433_data$variable_eng <- factor(fig433_data$variable_eng, levels = c("Entrepr
   )
 
 ggplotly(fig433_plot + fig_theme_general + fig433_theme, tooltip = "text") %>%
-config(displayModeBar = F, collaborate = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F, collaborate = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -201,12 +201,12 @@ In 1999, Estonian press publications opened the door to the involvement of reade
 Today, when an abundance of information exists, and the online editorial boards of larger publications produce and distribute up to 500 text units per day in Estonia; different texts have different meanings for different editorial boards. And the opinion genre is more valued by online editors than the news genre. Interviews with opinion editors revealed that, if they try to spread the news out equally time-wise, then op-ed articles are usually posted during the peak reading time ([Klaassen 2018](#Klaassen2018)).
 
 ```{block, type='blockquote-right'}
-By posting comments sections, the online editorial boards have accepted the responsibility of ensuring that good communication practices are followed.
+By posting comments sections, online editorial boards have accepted the responsibility to ensure that good communication practices are followed.
 ```
 
 Without editorial intervention, the comments section can become a place where online hate escalates and uncivilised and impolite comments start to predominate. Currently, all the online publications with open comment sections moderate the comments with the help of algorithms, as well as human moderators and the readers themselves. Also, in the case of some topics (e.g. catastrophes, immigration topics), a conscious decision is made by the editorial board not to open the topic for comment.
 
-Having an online opinion environment that is open to everyone empowers the audience – gives it voice and visibility. Although, in the early years, the online comments section was meant to create a place for self-regulatory debate, this was clearly an overly optimistic wish. In order to avoid the proliferation of slander and hate speech, online journalism has been forced to limit audience agency. By posting comments sections, the online editorial boards have accepted the responsibility of ensuring that good communication practices are followed – the indispensability of this principle was confirmed by the judgement of the European Court of Human Rights in the Delfi case (see the summary of the case, [Ministry of Foreign Affair 2015](#Välisministeerium2015)).
+Having an online opinion environment that is open to everyone empowers the audience – gives it a voice and visibility. Although, in the early years, the online comments section was meant to create a place for self-regulatory debate, this was clearly wishful thinking. In order to avoid the proliferation of slander and hate speech, online journalism has been forced to limit audience agency. By posting comments sections, online editorial boards have accepted the responsibility to ensure that good communication practices are followed – the indispensability of this principle was confirmed by the judgement of the European Court of Human Rights in the Delfi case (for a summary of the case, see [Ministry of Foreign Affair 2015](#Välisministeerium2015)).
 
 ### The contradictory potential of social media {-.chapter4_section}
 
@@ -230,7 +230,7 @@ knitr::include_graphics("../figures/4-chapter/fig434_eng.jpg")
 
 Postimees.ee readers can initiate a discussion within their own circle of friends when sharing a story link on their own social media channel, but usually, the discussion dies down on that same ‘wall’. The stories circulated by opinion authors in this way also die down in social media sub-environments.
 
-However, social media is not the best environment for stimulating public debate because there are many psychological barriers that restrict participation. Being a platform with a low barrier of access, people can join the discussion who do not adhere to the basic rules of courtesy when participating in discussions, and therefore any attempt to discuss something in social media may result in an unpleasant communication experience. For this reason, a large percentage of social media users are not actively involved in the development of their opinion space, but represent a noteworthy circle who just follow the debate ([Kõuts-Klemm et al. 2017, p. 296](#Kõuts-Klemm2017)). Social media activity can, for fear of social isolation, be reduced to merely liking some postings – this is the maximum reaction elicited from a large number of social media users ([Hermida et al. 2012](#Hermida2012)). Another problem is that authors can easily lose control of their messages on social media – once it is posted the message starts to live a life of its own because its subsequent trajectory is determined by technological factors, such as social media algorithms. And yet, despite these drawbacks, social media is currently one of the most convenient ways for the audience to participate in the public opinion space.
+However, social media is not the best environment for stimulating public debate because there are many psychological barriers that restrict participation. Being a platform with a low barrier of access, people can join the discussion who do not adhere to the basic rules of courtesy when participating in discussions, and therefore any attempt to discuss something in social media may result in an unpleasant communication experience. For this reason, a large percentage of social media users are not actively involved in the development of their opinion space, but represent a noteworthy circle who just follow the debate ([Kõuts-Klemm et al. 2017](#Kõuts-Klemm2017), p. 296). Social media activity can, for fear of social isolation, be reduced to merely liking some postings – this is the maximum reaction elicited from a large number of social media users ([Hermida et al. 2012](#Hermida2012)). Another problem is that authors can easily lose control of their messages on social media – once it is posted the message starts to live a life of its own because its subsequent trajectory is determined by technological factors, such as social media algorithms. And yet, despite these drawbacks, social media is currently one of the most convenient ways for the audience to participate in the public opinion space.
 
 ### Summary {-.chapter4_section #summary-43}
 
@@ -242,7 +242,7 @@ Therefore, the quality of the public deliberative space is dependent on both tec
 
 <p id="Conçalves2018">Conçalves, J. 2018. ‘My opponent is a …’. Determinants of incivility and relevance in news comments to election coverage. Paper presented at the 7th European Communication Conference ‘Centres and Peripheries: Communication, Research, Tradition’, 31 October – 3 November 2018, Lugano, Switzerland.</p>
 
-<p id="Hermida2012">Hermida, A., Fletcher, F., Korell, D., Logan, D. 2012. Share, like, recommend. Decoding the social media news consumer – Journalism Studies, 13 (5–6), 815–824.</p>
+<p id="Hermida2012">Hermida, A., Fletcher, F., Korell, D., Logan, D. 2012. Share, like, recommend. Decoding the social media news consumer. – Journalism Studies, 13 (5–6), 815–824.</p>
 
 <p id="Järvet2007">Järvet, A. 2007. Euroopa Liidu käsitlemine Postimehes aastatel 2000–2004 ja avalik avamus Euroopa Liiduga liitumise suhtes. BA thesis. University of Tartu.</p>
 
@@ -252,22 +252,22 @@ Therefore, the quality of the public deliberative space is dependent on both tec
 
 <p id="Kõuts-Klemm2015">Kõuts-Klemm, R. (ed.) 2015. Kultuuriajakirjanduse sisu ja vormi statistiline monitooring. Lepingulise uurimistöö „Meediasotsioloogiline uuring „Kultuuriajakirjanduse sisu ja kasutajaskond““ vahearuande I osa.</p>
 
-<p id="Kõuts-Klemm2017">Kõuts-Klemm, R., Pruulmann-Vengerfeldt, P., Siibak, A., Lauristin, M. 2017. Internetikasutus ja sotsiaalmeedia kasutus – Vihalemm, P., Lauristin, M., Kalmus, V., Vihalemm, T. (eds.). Eesti ühiskond kiirenevas ajas. Uuringu „Mina. Maailm. Meedia“ 2002–2014 tulemused. Tartu: Tartu Ülikooli Kirjastus, 279–298.</p>
+<p id="Kõuts-Klemm2017">Kõuts-Klemm, R., Pruulmann-Vengerfeldt, P., Siibak, A., Lauristin, M. 2017. Internetikasutus ja sotsiaalmeedia kasutus. – Vihalemm, P., Lauristin, M., Kalmus, V., Vihalemm, T. (eds.). Eesti ühiskond kiirenevas ajas. Uuringu „Mina. Maailm. Meedia“ 2002–2014 tulemused. Tartu: Tartu Ülikooli Kirjastus, 279–298.</p>
 
 <p id="Laev2010">Laev, S. 2010. Keerulise teema kajastus päevalehtede arvamuskülgedel Nord Streami gaasijuhtme näitel. MA thesis. University of Tartu.</p>
 
-<p id="Välisministeerium2015">Ministry of Foreign Affairs 2015. Inimõiguste kohus kuulutas välja Delfi vs Eesti otsuse ja leidis, et Eesti ei ole rikkunud konventsiooni artiklit 10, st sõnavabadust – Ministry of Foreign Affairs website, 16 June.</p>
+<p id="Välisministeerium2015">Ministry of Foreign Affairs 2015. Inimõiguste kohus kuulutas välja Delfi vs Eesti otsuse ja leidis, et Eesti ei ole rikkunud konventsiooni artiklit 10, st sõnavabadust. – Ministry of Foreign Affairs website, 16 June.</p>
 
-<p id="Avatud-Eesti-Fond2013">Open Estonia Foundation 2013. Uuring: online-kommentaaride mõjusfääris elab pool miljonit Eesti inimest – Open Estonia Foundation website, 12 September.</p>
+<p id="Avatud-Eesti-Fond2013">Open Estonia Foundation 2013. Uuring: online-kommentaaride mõjusfääris elab pool miljonit Eesti inimest. – Open Estonia Foundation website, 12 September.</p>
 
 <p id="Reporters-without-Borders2018">Reporters without Borders 2018. Press Freedom Index 2018. https://rsf.org/en/ranking.</p>
 
-<p id="Rämmer2018">Rämmer, A. 2018. Alternatiivmeediat usaldavad rohkem need, kes on ühiskonnaelust võõrdunud – ERR Novaator Ühiskond, 18 July.</p>
+<p id="Rämmer2018">Rämmer, A. 2018. Alternatiivmeediat usaldavad rohkem need, kes on ühiskonnaelust võõrdunud. – ERR Novaator Ühiskond, 18 July.</p>
 
 <p id="Saavik2017">Saavik, S. 2017. Eesti alternatiivmeedia kanalite Nihilist, Vanglaplaneet ja Uued uudised toimimine ning funktsioonid. BA thesis. University of Tartu.</p>
 
 <p id="Talvari2009">Talvari, M. 2009. Avalik-õigusliku telekanali (Eesti Televisioon) roll avaliku diskussiooni foorumina saate „Vabariigi kodanikud“ näitel. BA thesis. University of Tartu.</p>
 
-<p id="Toepfl2018">Toepfl, F., Litvinenko, A. 2018. Transferring control from the backend to the frontend: a comparison of the discourse architectures of comment sections on news websites across the post-Soviet world – New Media & Society, 20 (8), 2844–2861.</p>
+<p id="Toepfl2018">Toepfl, F., Litvinenko, A. 2018. Transferring control from the backend to the frontend: a comparison of the discourse architectures of comment sections on news websites across the post-Soviet world. – New Media & Society, 20 (8), 2844–2861.</p>
 
 <p id="Vihalemm2013">Vihalemm, P. 2013. Infokeskkond ja meediavabadus – Heidmets, M. (ed.). Eesti inimarengu aruanne 2012/2013. Eesti maailmas. Tallinn: Eesti Koostöö Kogu, 70–74.</p>
