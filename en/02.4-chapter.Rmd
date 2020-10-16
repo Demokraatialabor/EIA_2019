@@ -1,7 +1,7 @@
 ## Data-driven spatial planning {.chapter_section .chapter2_section}
 
 ```{block, type='authors authors_eng'}
-<div class="author-links">**[Renee Puusepp](#renee-puusepp) ja [Raul Kalvo](#raul-kalvo)**</div>
+<div class="author-links">**[Renee Puusepp](#renee-puusepp) and [Raul Kalvo](#raul-kalvo)**</div>
 <div><a class="print-btn" href="../andmepõhine-ruumiloome.html">EE</a></div>
 ```
 
@@ -91,7 +91,7 @@ In the coming years, Estonia will be undergoing an important change in the captu
 
 Nevertheless, a positive shift towards more data-driven management decisions is already visible in Estonia. A recent example is the cooperation agreement between the Ministry of Economic Affairs and Communications and Statistics Estonia on the adoption of data-driven decision-making mechanisms in the public sector ([Ministry of Economic Affairs and Communications 2018](#Economic2018)). It sets the ambitious target of introducing real-time management decisions. In addition, the ministry has appointed a chief data officer (CDO) with the task of establishing a uniform national data strategy. Change is also visible in the launch of the Tallinn public platform for gathering ideas (AvaLinn), created in the course of the Baltic Urban Lab project. The analysis of the existing public transport network in Tartu and the data-driven modelling of the new transport network (website of Tartu City 2018) is also a good example. The Road Administration has also taken data-driven decisions on changes to dangerous roads and junctions based of accident statistics and made plans to install noise barriers based on a computational noise map.
 
-<p class="caption" id="figure242"><span class="figure-number">Figure 2.4.2.</span> The potential of the Tallinn bicycle path network based on residential locations.</p>
+<p class="caption" id="figure242"><span class="figure-number">Figure 2.4.2.</span> The potential of the Tallinn bicycle path network based on residential locations</p>
 ```{r, figure242, out.width='100%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 knitr::include_graphics("../figures/2-chapter/fig242_eng.jpg")
@@ -101,7 +101,7 @@ knitr::include_graphics("../figures/2-chapter/fig242_eng.jpg")
 <span class="imgsource-source">Source:</span> Tallinn Bicycle Strategy 2018–2027.
 ```
 
-Tallinn Bicycle Strategy 2018–2027 (Jüssi et al. 2017) compared the potential locations for bicycle path. One of the methods used was the comparison of the calculated number of potential users within a 500-metre radius. The objective of the exercise was to determine a location for the core network, as close as possible to the largest number of residents. [Figure 2.4.2](#figure242) is a data-based visualisation of one of the scenarios with the colour of the tracks indicating the proximity to potential users.
+Tallinn Bicycle Strategy 2018–2027 ([Jüssi et al. 2017](#Jüssi2017)) compared the potential locations for bicycle path. One of the methods used was the comparison of the calculated number of potential users within a 500-metre radius. The objective of the exercise was to determine a location for the core network, as close as possible to the largest number of residents. [Figure 2.4.2](#figure242) is a data-based visualisation of one of the scenarios with the colour of the tracks indicating the proximity to potential users.
 
 ### From follower to leader {-.chapter2_section}
 
@@ -128,7 +128,7 @@ Better progress towards the wider use of open data, transparent spatial design a
 
 A recent study of pedestrian mobility in central Tallinn ([Puusepp et al. 2017](#Puusepp2017)) is an example of comparative data-driven planning. The study compared the existing situation (left) with new versions of the main street of Tallinn (right). The comparison was based on a computer simulation created using the data-driven pedestrian mobility study of the area. The image is a visualisation of simulated pedestrian flows for two different spatial scenarios.
 
-<p class="caption" id="figure243"><span class="figure-number">Figure 2.4.3.</span> Computer-simulated pedestrian routes in central Tallinn.</p>
+<p class="caption" id="figure243"><span class="figure-number">Figure 2.4.3.</span> Computer-simulated pedestrian routes in central Tallinn</p>
 ```{r, figure243, out.width='100%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("../figures/2-chapter/fig243.png")
 ```
@@ -151,7 +151,7 @@ The public sector’s main tasks in the use of open-access spatial data include 
 
 ### References {-.subreferences #references-24}
 
-<p id="Ahas2004">Ahas, R., Aunap, R., Aasa, A. 2004. Sotsiaalse positsioneerimise meetod inimeste tegevusruumide uurimisel – Mander, Ü., Kurs, O. (eds.). Geograafilisi uurimusi aastatuhande vahetusel. Üllitatud Tartu Ülikooli Geograafia Instituudi 85. aastapäevaks. Publicationes Instituti Geographici Universitatis Tartuensis, 89. Tartu: Tartu Ülikooli Kirjastus, 63–73.</p>
+<p id="Ahas2004">Ahas, R., Aunap, R., Aasa, A. 2004. Sotsiaalse positsioneerimise meetod inimeste tegevusruumide uurimisel. – Mander, Ü., Kurs, O. (eds.). Geograafilisi uurimusi aastatuhande vahetusel. Üllitatud Tartu Ülikooli Geograafia Instituudi 85. aastapäevaks. Publicationes Instituti Geographici Universitatis Tartuensis, 89. Tartu: Tartu Ülikooli Kirjastus, 63–73.</p>
 <p id="Batty2016">Batty, M. 2016. Big data and the city. – Built Environment, 42 (3), 321–337.</p>
 <p id="Bettencourt2014">Bettencourt, L. M. A. 2014. The Uses of Big Data in Cities. – Big Data, 2 (1), 12–22.</p>
 <p id="Carrara2017">Carrara, W., Radu, C., Vollers, H. 2017. Open Data Maturity in Europe 2017: Open Data for a European Data economy. European Data Portal. European Commission Directorate General for Communications Networks, Content and Technology.</p>
@@ -160,7 +160,7 @@ The public sector’s main tasks in the use of open-access spatial data include 
 <p id="Gehl2018">Gehl Institute 2018. Copenhagen Counts Everything. https://gehlinstitute.org/story/copenhagen-counts-everything.</p>
 <p id="Hansson2015">Hansson, K., Ekenberg, L. 2015. Open government and democracy: a research review. – Social Science Computer Review, 33 (5), 540–555.</p>
 <p id="Harvey2008">Harvey, D. 2008. The Right to the City. – New Left Review, 53, 1–16.</p>
-<p id="Jüssi2018">Jüssi, M., Kalvo, R., Rannala, M., Savi, T. 2017. Tallinna Rattastrateegia 2018–2027. Tallinn: Tallinna Kommunaalamet.</p>
+<p id="Jüssi2017">Jüssi, M., Kalvo, R., Rannala, M., Savi, T. 2017. Tallinna Rattastrateegia 2018–2027. Tallinn: Tallinna Kommunaalamet.</p>
 <p id="Kučera2017">Kučera, J. 2017. Analysis of barriers to publishing and re-use of open government data. – P. Doucek, G. Chroust, V. Oškrdal (eds.). IDIMT 2017: Digitalization in Management, Society and Economy – 25th Interdisciplinary Information Management Talks, 305–314.</p>
 <p id="Economic2018">Ministry of Economic Affairs and Communications 2018. Tammist: lähme riigis üle andmepõhistele juhtimisotsustele.</p>
 <p id="Poom2016">Poom, A., Ahas, R. 2016. How does the environmental load of household consumption depend on residential location? – Sustainability, 8 (9), 799.</p>
