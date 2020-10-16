@@ -16,7 +16,7 @@ According to Estonian custom, both urban and agricultural or forest landscapes m
 ```{block, type='blockquote-right'}
 Landscape – the natural and human-made environment surrounding us as we perceive it.
 ```
-Land use changes may be analysed using direct spatial data ([e.g. the CORINE Land Cover data](#CORINE)) or data reflecting the use of space indirectly (e.g. the open access data provided by Statistics Estonia). CORINE is a European project which maps the land cover in different countries using standardised methods. In Estonia, CORINE has been used to map land cover in 1990, 2000, 2006, 2012 and 2018; the data is open access. Land cover means the biological or non-biological cover of the Earth’s surface, including artificial materials, agricultural plants, forests, (semi)natural areas, wetlands and waterbodies. Land cover largely reflects the impact of land use on how the Earth’s surface appears – its landscape. The CORINE data is general and does not reflect small-scale changes in land cover. Another resource for monitoring changes in land use is the data produced by Statistics Estonia. For example, the data from the last two censuses (2000 and 2011) has been presented on the basis of regular cells of one square kilometre in rural areas and one hectare in cities. To some extent, changes in land zoning are also reflected in the open access data in the Estonian Topographic Database managed by the Land Board. Land zoning changes in protected areas are reflected in the Estonian Nature Information System. The following is an attempt to analyse and explain this data.
+Land use changes may be analysed using direct spatial data (e.g. the [CORINE Land Cover data](#CORINE)) or data reflecting the use of space indirectly (e.g. the open access data provided by Statistics Estonia). CORINE is a European project which maps the land cover in different countries using standardised methods. In Estonia, CORINE has been used to map land cover in 1990, 2000, 2006, 2012 and 2018; the data is open access. Land cover means the biological or non-biological cover of the Earth’s surface, including artificial materials, agricultural plants, forests, (semi)natural areas, wetlands and waterbodies. Land cover largely reflects the impact of land use on how the Earth’s surface appears – its landscape. The CORINE data is general and does not reflect small-scale changes in land cover. Another resource for monitoring changes in land use is the data produced by Statistics Estonia. For example, the data from the last two censuses (2000 and 2011) has been presented on the basis of regular cells of one square kilometre in rural areas and one hectare in cities. To some extent, changes in land zoning are also reflected in the open access data in the Estonian Topographic Database managed by the Land Board. Land zoning changes in protected areas are reflected in the Estonian Nature Information System. The following is an attempt to analyse and explain this data.
 
 ### Population decline and migration to urban regions affect landscapes {-.chapter1_section}
 
@@ -42,11 +42,11 @@ The third factor is the change in the meaning of a rural lifestyle. According to
 Most of the new residential areas replaced previous agricultural lands (12.2%). It is important to point out that the majority of residential areas (including districts of residential blocks like Mustamäe and Lasnamäe in Tallinn or Annelinn in Tartu) qualify as discontinuous urban fabric according to CORINE; all the new residential areas and areas with industrial or commercial buildings definitely form a discontinuous urban fabric. Adding other built-up areas, the total increase in artificial surfaces (as defined in CORINE) reaches 23 sq. km ([Oja 2009](#Oja2009); [2014](#Oja2014)). Between 2006 and 2012, 11 sq. km of discontinuous urban fabric was added and about the same area of industrial or commercial units. About 7.5 sq. km of it replaced agricultural land. So the increase in built-up areas was similar to the previous period.
 
 ```{block, type='blockquote-left'}
-Lands with buildings on them or nearby cannot be turned back into agricultural land
+Lands with buildings on them or nearby cannot be turned back into agricultural land.
 ```
 Between 2012 and 2018, the addition of built-up areas somewhat slowed. Residential areas increased by 3.65 sq. km (2.5 sq. km of which was previously agricultural land) and industrial/commercial areas increased by 5.83 sq. km (4.39 sq. km of which was previously agricultural land). The disappearance and appearance of construction sites is more or less the same, which indicates not much change in building activities.
 
-The growth of built-up areas since the beginning of the century is not very large – approximately 1.3‰ of land area – but unlike several other changes, this process is not reversible. Lands with buildings on them or nearby cannot be turned back into agricultural land. Regionally, most of the new residential areas are located in Harjumaa, Tartumaa and Pärnumaa counties ([Figure 1.1.2](#figure112)). This is confirmed by the population data from Statistics Estonia ([see Figure 1.1.1](#figure111)).
+The growth of built-up areas since the beginning of the century is not very large – approximately 1.3‰ of land area – but unlike several other changes, this process is not reversible. Lands with buildings on them or nearby cannot be turned back into agricultural land. Regionally, most of the new residential areas are located in Harjumaa, Tartumaa and Pärnumaa counties ([Figure 1.1.2](#figure112)). This is confirmed by the population data from Statistics Estonia (see [Figure 1.1.1](#figure111)).
 
 <p class="caption" id="figure112"><span class="figure-number">Figure 1.1.2.</span> Addition of new residential areas</p>
 
@@ -132,7 +132,7 @@ New opportunities to extend the town resulted from the nationalisation of the ma
 ```{block, type='blockquote-left'}
 The comprehensive plans of the municipalities around cities have favoured urban sprawl, envisaging the continuation of urban land use beyond the city limits.
 ```
-The comprehensive plans of the municipalities around cities have favoured urban sprawl, envisaging the continuation of urban land use beyond the city limits. Previous agricultural lands have been built on with residential housing, industrial buildings and other similar infrastructure. In many places, suburban districts have merged with the city. Together with people, services have also moved. This is confirmed by the calculations performed by Statistics Estonia to estimate the area of high-density neighbourhoods outside the city limits based on census data (the census methodology ignored administrative borders ([see Figure 1.1.3](#figure113)). Urban sprawl can also be seen when comparing the data from the two censuses of 2000 and 2011. Population density has grown faster outside the city than inside.
+The comprehensive plans of the municipalities around cities have favoured urban sprawl, envisaging the continuation of urban land use beyond the city limits. Previous agricultural lands have been built on with residential housing, industrial buildings and other similar infrastructure. In many places, suburban districts have merged with the city. Together with people, services have also moved. This is confirmed by the calculations performed by Statistics Estonia to estimate the area of high-density neighbourhoods outside the city limits based on census data (the census methodology ignored administrative borders; see [Figure 1.1.3](#figure113)). Urban sprawl can also be seen when comparing the data from the two censuses of 2000 and 2011. Population density has grown faster outside the city than inside.
 
 <p class="caption" id="figure113"><span class="figure-number">Figure 1.1.3.</span> Changes in population density between two censuses (2000 and 2011) demonstrate how the intensity of the use of space in the city and its hinterland has become more similar</p>
 
@@ -220,9 +220,9 @@ The preservation of landscapes is also supported by the existence of conservatio
   </tr>
 
   <tr>
-    <td>8,8</td>
-    <td>11,1</td>
-    <td>14,1 (45,5*)</td>
+    <td>8.8</td>
+    <td>11.1</td>
+    <td>14.1 (45.5*)</td>
     <td>14.9 (53.2*)</td>
     <td>15.7</td>
     <td>16.1</td>
@@ -247,7 +247,7 @@ The preservation of landscapes is also supported by the existence of conservatio
 <span class="imgsource-source">Source:</span> Estonian Nature Information System 2019; Land Board 2019.
 ```
 
-The total size of conservation areas reported in the Estonian Nature Information System is more than four times greater than that of the cadastral units with ‘protected area’ marked as their intended purpose. This is because, in the Nature Information System , conservation areas include large national parks, NATURA nature and bird areas and other similar areas; while subject to conservation restrictions, the majority of these areas have an intended purpose other than ‘protected area’. The conservation restrictions often include restrictions on construction or changes to land use. Conservation areas are a protective measure against landscape changes; for example, the protective purpose of the Otepää nature park is to ‘protect, maintain, restore [...] natural and heritage landscapes’. Activities that change the landscape are allowed only if approved by the governor of the conservation area and usually activities that disrupt the protection function are not approved.
+The total size of conservation areas reported in the Estonian Nature Information System is more than four times greater than that of the cadastral units with ‘protected area’ marked as their intended purpose. This is because, in the Nature Information System, conservation areas include large national parks, NATURA nature and bird areas and other similar areas; while subject to conservation restrictions, the majority of these areas have an intended purpose other than ‘protected area’. The conservation restrictions often include restrictions on construction or changes to land use. Conservation areas are a protective measure against landscape changes; for example, the protective purpose of the Otepää nature park is to ‘protect, maintain, restore [...] natural and heritage landscapes’. Activities that change the landscape are allowed only if approved by the governor of the conservation area and usually activities that disrupt the protection function are not approved.
 
 ### Summary {-.chapter1_section}
 
@@ -258,7 +258,7 @@ Convergence is also happening in peripheral rural landscapes, albeit in differen
 Over the past three decades, we have lost 250 sq. km of agricultural land and 239 sq. km of grasslands. Part of this land has been built on, and an even larger part has grown into forest. Landscapes are converging in different parts of the settlement system: near the cities, land that was previously agricultural or forested has been built on; in more remote areas, arable lands and grasslands have overgrown with scrub. Due to an unbalanced approach to forest felling, landscape diversity is decreasing.
 
 ```{block, type='blockquote-right'}
-The persistence of valuable agricultural land is important both for national security and the preservation of our traditional activities and culture. The changing age structure of our forests also decreases our biodiversity
+The persistence of valuable agricultural land is important both for national security and the preservation of our traditional activities and culture. The changing age structure of our forests also decreases our biodiversity.
 ```
 
 Landscapes are always changing. Some of these changes are not reversible. Therefore, the current loss of agricultural land cannot practically be reversed within a reasonable time frame. However, domestic food is becoming more and more valuable. Recent decades have shown that so is agricultural land. The persistence of valuable agricultural land is important both for national security and the preservation of our traditional activities and culture. The changing age structure of our forests also decreases our biodiversity. One of the values of Estonia’s settlement system has so far been that people can choose between rural and urban environments for living. The convergence of landscapes, caused by suburbanisation and emergence of peripheral areas, narrows these options.

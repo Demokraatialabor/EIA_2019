@@ -1,7 +1,7 @@
 ## Accessibility changes in motorised Estonia {.chapter_section .chapter1_section}
 
 ```{block, type='authors authors_eng'}
-<div class="author-links">**[Tauri Tuvikene](#tauri-tuvikene), [Merlin Rehema](#merlin-rehema), [Dago Antov](#dago-antov)**</div>
+<div class="author-links">**[Tauri Tuvikene](#tauri-tuvikene), [Merlin Rehema](#merlin-rehema) and [Dago Antov](#dago-antov)**</div>
 <div><a class="print-btn" href="../ligipääsetavuse-muutused-autostunud-eestis.html">EE</a></div>
 ```
 
@@ -21,7 +21,7 @@ Mobility is a person’s ability to move from one place to another to meet their
 
 ### The rapid motorisation of the 1990s is stabilising {-.chapter1_section}
 
-Rapid motorisation in Estonia is similar to that occurring in other Eastern Bloc countries. After World War II, the levels of motorisation measured as the number of cars per 1,000 inhabitants did not differ significantly in Eastern and Western Europe. Just a decade later, the difference was huge. By the early 1990s, motorisation was near a historical peak or had considerably slowed in European Union countries as well as the US, while compensation for the lag that had occurred in Eastern Bloc countries in the previous decades was only beginning. For example, West Germany reached its current level of motorisation in the 1980s, but East Germany reached the same level by the 2000s after German reunification ([Pucher ja Buehler 2005](#Pucher2005)). In Estonia, the limited availability of private cars during the Soviet period was replaced by an enthusiasm for car ownership in the 1990s. Since then, Estonia has gradually caught up with the level of car use in Western European countries ([Figure 1.5.1](#figure151)). Although motorisation continued in Western Europe, the pace of motorisation has been slower there. In terms of the number of registered cars per 1,000 inhabitants, Estonia is currently behind only the most motorised countries of the EU, such as Italy, Luxembourg, Malta and Finland, but has surpassed most of the Western European EU member states.
+Rapid motorisation in Estonia is similar to that occurring in other Eastern Bloc countries. After World War II, the levels of motorisation measured as the number of cars per 1,000 inhabitants did not differ significantly in Eastern and Western Europe. Just a decade later, the difference was huge. By the early 1990s, motorisation was near a historical peak or had considerably slowed in European Union countries as well as the US, while compensation for the lag that had occurred in Eastern Bloc countries in the previous decades was only beginning. For example, West Germany reached its current level of motorisation in the 1980s, but East Germany reached the same level by the 2000s after German reunification ([Pucher and Buehler 2005](#Pucher2005)). In Estonia, the limited availability of private cars during the Soviet period was replaced by an enthusiasm for car ownership in the 1990s. Since then, Estonia has gradually caught up with the level of car use in Western European countries ([Figure 1.5.1](#figure151)). Although motorisation continued in Western Europe, the pace of motorisation has been slower there. In terms of the number of registered cars per 1,000 inhabitants, Estonia is currently behind only the most motorised countries of the EU, such as Italy, Luxembourg, Malta and Finland, but has surpassed most of the Western European EU member states.
 
 <p class="caption" id="figure151"><span class="figure-number">Figure 1.5.1.</span> Change in motorisation in Western (EU 15) and Eastern European countries (countries that have joined the EU since 2004, except Cyprus and Malta)</p>
 <div class="desktop-plot">
@@ -51,8 +51,8 @@ fig151_data$area_eng[grepl("Lääs",fig151_data$area)]<-"Western Europe"
   )
 
 ggplotly(fig151_plot + fig_theme_general + fig151_theme, tooltip = "text" ) %>%
-config(displayModeBar = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -77,7 +77,7 @@ Therefore, the rapid motorisation of Eastern Europe, including Estonia, in the 1
 
 ### Motorisation affects the environment, people’s health, mobility and access to services {-.chapter1_section}
 
-Motorisation has an environmental impact in terms of energy and land use; it also changes social life and the economic functioning of societies. According to 2017 data from the International Energy Agency, half of the world’s oil output is used for urban and road transport, and the transport sector accounts for over one-quarter of global carbon dioxide emissions. Further to fuel consumption, the environmental impact of motorisation comes from the manufacture and use of cars, traffic hazards, as well as the use of the urban space. As people exercise less when moving around by car, the negative impact of motorisation is also expressed in health conditions, such as obesity and cardiovascular diseases ([Bassett jt 2008](#Bassett2008)). In addition to noise, vibration and pollution via airborne particulate matter in heavy-traffic streets, fewer opportunities for socialising presents another problem for people. Due to motorisation, city streets become ‘traffic pipes’ for cars, which reduce the possibilities available to all other participants in the traffic. The quality of streets as public space has therefore deteriorated.
+Motorisation has an environmental impact in terms of energy and land use; it also changes social life and the economic functioning of societies. According to 2017 data from the International Energy Agency, half of the world’s oil output is used for urban and road transport, and the transport sector accounts for over one-quarter of global carbon dioxide emissions. Further to fuel consumption, the environmental impact of motorisation comes from the manufacture and use of cars, traffic hazards, as well as the use of the urban space. As people exercise less when moving around by car, the negative impact of motorisation is also expressed in health conditions, such as obesity and cardiovascular diseases ([Bassett et al. 2008](#Bassett2008)). In addition to noise, vibration and pollution via airborne particulate matter in heavy-traffic streets, fewer opportunities for socialising presents another problem for people. Due to motorisation, city streets become ‘traffic pipes’ for cars, which reduce the possibilities available to all other participants in the traffic. The quality of streets as public space has therefore deteriorated.
 
 ```{block, type='blockquote-right'}
 Accessibility means the opportunities for people to participate in usual social activities.
@@ -132,10 +132,10 @@ Maanteed <- subset (Maanteed, TYYP != c("Ramp või ühendustee"), select=c(NIMET
 
 Maanteed$TYYP <- "Main and support roads"
 
-fig_153_plot <- tm_shape(Asutusüksused) + 
+fig_153_plot <- tm_shape(Asutusüksused) +
     tm_fill("Residents with good access (%)", title="Residents with good access to public transport (%)", popup.vars="Residents with good access (%)",id="NIMI", breaks=c(0,1,25,50,75,100), palette = c("#E6E3DA", "#DAD4E6","#B6A8CD", "#917DB5","#482683")) +
     tm_borders(col="white", alpha=0) +
-  
+
     tm_layout(
       outer.margins=0, inner.margins=c(.02, .1, .02, .02),asp=1920/1080,
       legend.outside = FALSE,
@@ -143,7 +143,7 @@ fig_153_plot <- tm_shape(Asutusüksused) +
       frame = FALSE) +
 
     tm_shape(Maanteed) + tm_lines(col = "TYYP", legend.col.show = TRUE,palette = c("#3A404A", "#3A404A"), title.col="",popup.vars=NULL) +
-  
+
       tm_view (
         set.zoom.limits = c(7, 16),
         view.legend.position = c("left","bottom"),
@@ -152,7 +152,7 @@ fig_153_plot <- tm_shape(Asutusüksused) +
 
 tmap_mode("view")
 fig_153_plot
-  
+
 #tmap_save(tm = fig_153_plot, filename = "figure153.png")
 #tmap_save(tm = fig_153_plot, filename = "figure153.pdf")
 
@@ -163,7 +163,7 @@ fig_153_plot
 ```
 
 ```{block, type='imgsource'}
-<div><span class="imgsource-source">Source:</span> Statistics Estonia 2018, Nõmm 2018.</div>
+<div><span class="imgsource-source">Source:</span> Statistics Estonia 2018; Nõmm 2018.</div>
 <div><a class="data-btn" href="../data/15_fig3_data.zip"><i class="fa fa-download" aria-hidden="true"></i>Download data</a></div>
 ```
 
@@ -176,7 +176,7 @@ Intensifying car traffic reduces the number of travellers using public transport
 library("tidyverse")
 
  fig154_data <- read.csv ("../data/15_fig4_data.csv", header=TRUE, fileEncoding="utf-8", sep=";")
- 
+
  fig154_data$variable_eng[grepl("Läbisõit",fig154_data$variable)]<-"Distance travelled (million km)"
 fig154_data$variable_eng[grepl("Sõitjate arv",fig154_data$variable)]<-"Number of passengers (million)"
 
@@ -196,8 +196,8 @@ fig154_data$variable_eng[grepl("Sõitjate arv",fig154_data$variable)]<-"Number o
   )
 
 ggplotly(fig154_plot + fig_theme_general + fig154_theme, tooltip = "text" ) %>%
-config(displayModeBar = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -245,13 +245,13 @@ library(grid)
 
   fig155_line <- data.frame(x=c(0, 5),
                 y=c(100, 100))
-  
+
   fig155_data1$number_of_cars_eng[grepl("1 auto",fig155_data1$number_of_cars)]<-"1 car"
   fig155_data1$number_of_cars_eng[grepl("2 või enam autot",fig155_data1$number_of_cars)]<-"2 or more cars"
   fig155_data1$number_of_cars_eng[grepl("Pole autot",fig155_data1$number_of_cars)]<-"No car"
-    
+
   fig155_data1$number_of_cars_eng <- factor (  fig155_data1$number_of_cars_eng, levels = c("No car", "1 car", "2 or more cars"))
-  
+
   fig155_data2$growth_of_population_eng[grepl("Viimsi vald",fig155_data2$growth_of_population)]<-"Viimsi\n municipality"
   fig155_data2$growth_of_population_eng[grepl("Harku vald",fig155_data2$growth_of_population)]<-"Harku\n municipality"
   fig155_data2$growth_of_population_eng[grepl("Rae vald",fig155_data2$growth_of_population)]<-"Rae\n municipality"
@@ -285,7 +285,7 @@ library(grid)
           panel.grid.minor.x = element_blank(),
           legend.position = "none",
            text = element_text(size = 10)
-      
+
     )
 
 grid.arrange(fig155_plot1 + fig_theme_general + fig155_theme1, fig155_plot2  + fig_theme_general + fig155_theme2, ncol = 2)
@@ -317,11 +317,11 @@ library("plotly")
  fig156_data <- read.csv ("../data/15_fig6_data.csv", header=TRUE, fileEncoding="utf-8")
 
  fig156_data$value=as.numeric(levels(fig156_data$value))[fig156_data$value]
- 
+
   fig156_data$variable_eng[grepl("Jalgsi",fig156_data$variable)]<-"On foot"
   fig156_data$variable_eng[grepl("Sõiduautoga",fig156_data$variable)]<-"By car"
   fig156_data$variable_eng[grepl("Ühissõidukiga",fig156_data$variable)]<-"By public transport"
-  
+
   fig156_data$variable_eng <- factor (fig156_data$variable_eng, levels = c("On foot", "By car", "By public transport"))
 
   fig156_plot <- ggplot(subset(fig156_data, variable_eng %in% c("On foot", "By car", "By public transport"))) +
@@ -341,8 +341,8 @@ library("plotly")
   )
 
 ggplotly(fig156_plot + fig_theme_general + fig156_theme, tooltip = "text" ) %>%
-config(displayModeBar = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -382,15 +382,15 @@ fig157_data1$variable_eng[grepl("Isikliku autoga",fig157_data1$variable)]<-"Priv
 fig157_data1$variable_eng[grepl("Jalgratta, mopeedi, mootorrattaga",fig157_data1$variable)]<-"Bicycle, moped, motorcycle"
 
 fig157_data1$variable_eng <- factor ( fig157_data1$variable_eng, levels = c("Works at home, works and lives in the same place","Public transport", "Take-home vehicle","Private car","Bicycle, moped, motorcycle","On foot"))
-  
+
  fig157_data2 <- read.csv ("../data/15_fig7_data2.csv", header=TRUE, fileEncoding="utf-8")
 
 fig157_data2$variable_eng[grepl("Keskmine põhitöökohale jõudmise aeg",fig157_data2$variable)]<-"Average time of travel to main job (min)"
 fig157_data2$variable_eng[grepl("Põhitöökoha keskmine kaugus elukohast",fig157_data2$variable)]<-"Average distance from place of residence to main job (km)"
 
 fig157_data2$variable_eng <- factor ( fig157_data2$variable_eng, levels = c("Average time of travel to main job (min)","Average distance from place of residence to main job (km)"))
- 
- 
+
+
   fig157_plot1 <- ggplot() +
     geom_bar(data = fig157_data1, mapping = aes(x=year, y=value, fill=variable_eng, text = paste("", variable_eng,
                          "<br>", year,
@@ -427,15 +427,15 @@ fig157_data2$variable_eng <- factor ( fig157_data2$variable_eng, levels = c("Ave
   )
 
 ggplotly(fig157_plot1 + fig_theme_general + fig157_theme1, tooltip = "text" ) %>%
-config(displayModeBar = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
 
 ggplotly(fig157_plot2 + fig_theme_general + fig157_theme2, tooltip = "text" ) %>%
-config(displayModeBar = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -487,7 +487,7 @@ Not enough competitive and attractive alternatives to car traffic have been offe
 library("tidyverse")
 
  fig158_data <- read.csv ("../data/15_fig8_data.csv", header=TRUE, fileEncoding="utf-8", sep = ";")
- 
+
  fig158_data$liikumisviis_eng[grepl("Autoga", fig158_data$liikumisviis)]<-"By car"
  fig158_data$liikumisviis_eng[grepl("Jala", fig158_data$liikumisviis)]<-"On foot"
 fig158_data$liikumisviis_eng[grepl("Jalgrattaga", fig158_data$liikumisviis)]<-"By bicycle"
@@ -543,7 +543,7 @@ The functioning of easily accessible urban regions requires a preference for mul
 ```{block, type='blockquote-left'}
 Combining modes of mobility in urban centres and suburbs would maintain the advantages of living in a low-density area while facilitating the use of public transport instead of cars.
 ```
-Sustainable planning in an urban environment requires also paying attention to those members of society that have no opportunity to use a car. In an ageing society, it is important that all groups of society can access good public space and services. An urban centre can counter the impacts of urban sprawl if it is planned for pedestrians; that is, has convenient footpaths, safe and convenient pedestrian crossings, and a pleasant street front supporting social activities. By developing an inclusive physical urban space, we ultimately favour all groups in society.
+Sustainable planning in an urban environment also requires paying attention to those members of society that have no opportunity to use a car. In an ageing society, it is important that all groups of society can access good public space and services. An urban centre can counter the impacts of urban sprawl if it is planned for pedestrians; that is, has convenient footpaths, safe and convenient pedestrian crossings, and a pleasant street front supporting social activities. By developing an inclusive physical urban space, we ultimately favour all groups in society.
 
 It is true that the car enables mobility in certain situations and certainly for some senior citizens and people with mobility difficulties. Motorisation has also helped to bring the various Estonian regions closer to each other and made it possible to live in remote areas of the country. However, excessive dependence on cars is detrimental to the functioning of society. It makes accessibility a privilege only enjoyed by part of society, thus reducing social contact. Ensuring accessibility and good public space across Estonia requires specific intervention into the design of urban public space as well as offering creative solutions for low-density areas.
 
@@ -553,9 +553,9 @@ It is true that the car enables mobility in certain situations and certainly for
 
 ### References {-.subreferences #references-15}
 
-<p id="Banister2008">Banister, D. 2008. The sustainable mobility paradigm – Transport Policy, 15 (2), 73–80.</p>
+<p id="Banister2008">Banister, D. 2008. The sustainable mobility paradigm. – Transport Policy, 15 (2), 73–80.</p>
 
-<p id="Bassett2008">Bassett, D. R., Pucher, J., Buehler, R., Thompson, D. L., Crouter., S. E. 2008. Walking, cycling, and obesity rates in Europe, North America, and Australia – Journal of Physical Activity and Health, 5 (6), 795–814.</p>
+<p id="Bassett2008">Bassett, D. R., Pucher, J., Buehler, R., Thompson, D. L., Crouter., S. E. 2008. Walking, cycling, and obesity rates in Europe, North America, and Australia. – Journal of Physical Activity and Health, 5 (6), 795–814.</p>
 
 <p id="Discovering2010">Discovering Urbanism 2010. From a mobility to an accessibility orientation. http://discoveringurbanism.blogspot.com/2010/02/from-mobility-to-accessibility.html.</p>
 
@@ -575,7 +575,7 @@ It is true that the car enables mobility in certain situations and certainly for
 
 <p id="Maanteeamet2017">Estonian Road Administration 2017. Autopargi läbisõit 2017. https://www.mnt.ee/sites/default/files/survey/labisoit_2017.pdf.</p>
 
-<p id="McCarthy2017">McCarthy, L., Delbosc, A., Currie, G., Molloy, A. 2017. Factors influencing travel mode choice among families with young children (aged 0–4): a review of the literature – Transport Reviews, 37 (6), 767–781.</p>
+<p id="McCarthy2017">McCarthy, L., Delbosc, A., Currie, G., Molloy, A. 2017. Factors influencing travel mode choice among families with young children (aged 0–4): a review of the literature. – Transport Reviews, 37 (6), 767–781.</p>
 
 <p id="Nõmm2018">Nõmm, T. 2018. Kolmel inimesel neljast on ühistransport hästi kättesaadav nii linnas kui ka maal. https://blog.stat.ee/tag/uhistransport.</p>
 

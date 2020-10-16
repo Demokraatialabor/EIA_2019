@@ -1,7 +1,7 @@
 ## Modern living conditions – whose privilege? {.chapter_section .chapter1_section}
 
 ```{block, type='authors authors_eng'}
-<div class="author-links">**[Anneli Kährik](#anneli-kährik) ja [Annika Väiko](#annika-väiko)**</div>
+<div class="author-links">**[Anneli Kährik](#anneli-kährik) and [Annika Väiko](#annika-väiko)**</div>
 <div><a class="print-btn" href="../nüüdisaegsed-elamistingimused-kelle-privileeg.html">EE</a></div>
 ```
 
@@ -38,7 +38,7 @@ library("scales")
 
 
  fig141_data <- read.csv ("../data/14_fig1_data.csv", header=TRUE, fileEncoding="utf-8")
-  
+
 fig141_data$area_eng[grepl("Tallinn",fig141_data$area)]<-"Tallinn"
 fig141_data$area_eng[grepl("Maapiirkonnad",fig141_data$area)]<-"Rural areas (excl. Harjumaa)"
 
@@ -78,7 +78,7 @@ fig141_data$percent=percent((fig141_data$value/100), 1)
 ```{block, type='blockquote-right'}
 The living conditions for the majority of the Estonian population have been improved by renovating their current housing.
 ```
-The majority of the Estonian housing stock dates back to the Soviet period ([Figure 1.4.2](#figure142)). The construction of the mass produced apartment buildings peaked between 1960 and 1990, when approximately 13,000 new dwellings were built in Estonia every year. This period coincides with the rapid growth of the industrial sector and the introduction of a foreign workforce. Large apartment buildings were mainly erected in cities, where whole new districts were formed. Such industrial and economically efficient construction of small apartments also reached rural areas. Smaller, two- and three-storey buildings were erected there. Modern apartments with all conveniences were a desired dwelling for many, considering the lack of housing in the Soviet period. At that time, private houses were usually built without any government funding, and it was the only way of improving living conditions for anyone who did not get an apartment from the government or through their job. However, for some people building their own house was an opportunity for self-realisation, or a way to live in a more spacious home ([Kõre et al. 1996](#Kõre1996)). In Soviet Estonia, few investments were made towards the maintenance of nationalised pre-war dwellings. Historical residential areas in cities turned into slums, and new standard apartments were generally preferred even in rural areas ([ibid.](#Kõre1996)).
+The majority of the Estonian housing stock dates back to the Soviet period ([Figure 1.4.2](#figure142)). The construction of the mass-produced apartment buildings peaked between 1960 and 1990, when approximately 13,000 new dwellings were built in Estonia every year. This period coincides with the rapid growth of the industrial sector and the introduction of a foreign workforce. Large apartment buildings were mainly erected in cities, where whole new districts were formed. Such industrial and economically efficient construction of small apartments also reached rural areas. Smaller, two- and three-storey buildings were erected there. Modern apartments with all conveniences were a desired dwelling for many, considering the lack of housing in the Soviet period. At that time, private houses were usually built without any government funding, and it was the only way of improving living conditions for anyone who did not get an apartment from the government or through their job. However, for some people building their own house was an opportunity for self-realisation, or a way to live in a more spacious home ([Kõre et al. 1996](#Kõre1996)). In Soviet Estonia, few investments were made towards the maintenance of nationalised pre-war dwellings. Historical residential areas in cities turned into slums, and new standard apartments were generally preferred even in rural areas ([ibid.](#Kõre1996)).
 
 The construction of new housing gained major impetus after 2000, as the overall living standards and credit opportunities improved. In Tallinn and Harjumaa county, construction activity has been faster than elsewhere in Estonia ([Figure 1.4.2](#figure142)). In Tallinn, one in five families live in housing built after 1991, and outside of Tallinn, as many as one in three families live in such housing in Harjumaa. Elsewhere in Estonia, residential construction activity has been significantly lower. In general, the improvement of the living conditions for the majority of the people in Estonia has only been possible by renovating their old homes.
 
@@ -114,8 +114,8 @@ fig142_data$area_eng <- factor(fig142_data$area_eng, levels = c("Tallinn","Harju
 
 
 ggplotly(fig142_plot + fig_theme_general + fig142_theme, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F, collaborate = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -237,14 +237,14 @@ fig144_data2$type_of_residence_eng[grepl("Eramaja",fig144_data2$type_of_residenc
                  )
 
   ggplotly(fig144_plot1 + fig144_theme + fig_theme_general, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.25)) %>% 
+config(displayModeBar = F, collaborate = F)   %>%
+layout(legend = list(orientation = "h",y = 1.25)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
-  
+
 ggplotly(fig144_plot2 + fig144_theme + fig_theme_general, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F, collaborate = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -335,7 +335,7 @@ print(fig147_plot + fig_theme_general +   fig147_theme)
 ```
 
 ``` {block, type='imgsource'}
-<div><span class="imgsource-source">Source:</span> Estonian Social Survey 2017 (Statistics Estonia)..</div>
+<div><span class="imgsource-source">Source:</span> Estonian Social Survey 2017 (Statistics Estonia).</div>
 <div><a class="data-btn" href="../data/14_fig7_data.csv"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
@@ -344,7 +344,7 @@ For low-income families, the amount spent on housing constitutes a large part of
 ```
 As expected, there are more households in Tallinn and Harjumaa county that are better off. Consequently, the residents of the capital region have more opportunities for improving the quality of their housing. However, the differences between the settlement types remain valid even when comparing the living conditions of similar-income households. People assess the condition of the dwellings in the capital to be better even when the household’s own resources are not particularly extensive ([Figure 1.4.8](#figure148)). On average, 70% of the people in the capital city live in renovated or well-maintained housing. Here, the younger average age of the Tallinn housing stock may play a role, but the success factor might also be related to greater social diversity in the capital’s apartment buildings and districts: if a residential building houses low-income inhabitants as well as those who are financially better off, the overall effect is positive for everyone.
 
-<p class="caption" id="figure148"><span class="figure-number">Figure 1.4.8.</span> People’s assessment of the condition of their dwellings by income and settlement type (‘regional centres’ means county towns); on the left: 20% of the people with the lowest income; on the right: 20% of the people with the highest income</p>
+<p class="caption" id="figure148"><span class="figure-number">Figure 1.4.8.</span> People’s assessment of the condition of their dwellings by income and settlement type. On the left: 20% of the people with the lowest income; on the right: 20% of the people with the highest income (‘regional centres’ means county towns)</p>
 <div class="desktop-plot">
 ```{r, figure148, out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
@@ -362,7 +362,7 @@ fig148_data$income_eng[grepl("Suur sissetulek",fig148_data$income)]<-"High incom
 fig148_data$income_eng[grepl("Väike sissetulek",fig148_data$income)]<-"Low income"
 
 fig148_data$area_eng <- factor(fig148_data$area_eng, levels = c("Small towns and rural areas (excl. Harjumaa)","Regional centres (excl. Tallinn)","Harjumaa (excl. Tallinn)","Tallinn"))
- 
+
   fig148_plot <- ggplot(data = fig148_data) +
     geom_bar(mapping = aes(x=area_eng, y=value, fill=condition_eng ,text = paste("", condition_eng,
                          "<br>", area_eng,
@@ -384,8 +384,8 @@ fig148_data$area_eng <- factor(fig148_data$area_eng, levels = c("Small towns and
                  )
 
 ggplotly(fig148_plot + fig148_theme + fig_theme_general, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.25)) %>% 
+config(displayModeBar = F, collaborate = F)   %>%
+layout(legend = list(orientation = "h",y = 1.25)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 #ggsave(path="../exported_figures/PDF/chapter1",filename="fig148.pdf", height=140, width=200, units="mm")
@@ -409,13 +409,13 @@ print(fig148_plot + fig148_theme + fig_theme_general)
 
 After 1991, the housing policy underwent major restructuring. The privatisation of the housing stock became a national priority, as did the government’s withdrawal from housing maintenance and renovation issues. Between 1994 and 2002, the amount of publicly-owned housing stock fell from 64% (72% in cities) to 4%. There were few tools left for the authorities to support households experiencing financial difficulties in purchasing or renovating their homes. The three pillars of the 1990s reforms were:
 
-1) mass privatisation – 98% of the dwellings in Soviet-era apartment buildings were privatised via privatisation vouchers (erastamisväärtpaber, EVP);
+1) mass privatisation – 98% of the dwellings in Soviet-era apartment buildings were privatised via privatisation vouchers (*erastamisväärtpaber*, EVP);
 2) returning dwellings to their rightful owners – the so-called involuntary tenants were compensated for the injustice inflicted on them, either financially or by providing them with another dwelling;
 3) creating the necessary conditions for the emergence of a liberal housing market by abolishing national rent restrictions.
 
 The rental market developed gradually, mainly on the basis of privatised apartments which the owners had left vacant for various reasons. The initiative of real estate developers to build rental apartments was modest. By 2011, the private rental sector accounted for about 15% of the market, while the owner-occupied sector amounted to as much as 83% ([Figure 1.4.9](#figure149)). In EU countries, the latter accounts for 69%, the proportion of dwellings with preferential rent rates is mostly higher than in Estonia. The total share of tenants is the highest in the capital (approximately 22%), which also has the highest number of rental apartments offered by the public sector. A typical private-sector tenant is a young person living alone or as a couple; there are few larger households and middle-aged or older people who rent.
 
-<p class="caption" id="figure149"><span class="figure-number">Figure 1.4.9.</span> Overview by ownership relations (on the left: entire Estonia; on the right: by settlement type), ‘regional centres’ means county towns</p>
+<p class="caption" id="figure149"><span class="figure-number">Figure 1.4.9.</span> Overview by ownership relations. On the left: entire Estonia; on the right: by settlement type ()‘regional centres’ means county towns)</p>
 
 ```{r, figure149, out.width='100%', fig.align='center', echo=FALSE, message=FALSE}
 
@@ -488,7 +488,7 @@ grid.arrange(fig149_plot1 + fig_theme_general + fig149_theme1, fig149_plot2 + fi
 ```
 
 ``` {block, type='imgsource'}
-<div><span class="imgsource-source">Source:</span> EEstonian Social Survey 2017 (Statistics Estonia).</div>
+<div><span class="imgsource-source">Source:</span> Estonian Social Survey 2017 (Statistics Estonia).</div>
 <div><a class="data-btn" href="../data/14_fig9_data.zip"><i class="fa fa-download" aria-hidden="true"></i></i>Download data</a></div>
 ```
 
@@ -589,11 +589,13 @@ State funding is intended to improve the quality of the housing stock. KredEx is
 
 ### Reconstruction grants help to improve living conditions, but unevenly across regions {-.chapter1_section}
 
-The owners of dwellings located in Estonian counties and in different types of settlements have used the reconstruction grants issued by KredEx to a greater or lesser degree. Grants are most likely to have reached three counties: in addition to Harjumaa and Tartumaa, also Lääne-Virumaa. However, such grants have rarely been awarded to Ida-Virumaa, Võrumaa, Hiiumaa and Läänemaa counties; or in other words, the most remote peripheral areas in Estonia ([Figure 1.4.11](#figure1411)). The more prosperous the region, the more grants are used; regions that are lagging behind do not use grants as actively ([see also Lihtmaa et al. 2018](#Lihtmaajt2018)). With regard to reconstruction grants for small residential buildings, the economic development of the region and the use of the grants are slightly less interconnected, but here too, Ida-Virumaa and southeast Estonia have a weaker position. Compared to more universal types of grants, the outcomes from the distribution of housing renovation grants (‘Home support’) aimed at large families varies. This grant has also reached the more remote counties, but households in Ida-Virumaa county also use this grant less.
+The owners of dwellings located in Estonian counties and in different types of settlements have used the reconstruction grants issued by KredEx to a greater or lesser degree. Grants are most likely to have reached three counties: in addition to Harjumaa and Tartumaa, also Lääne-Virumaa. However, such grants have rarely been awarded to Ida-Virumaa, Võrumaa, Hiiumaa and Läänemaa counties; or in other words, the most remote peripheral areas in Estonia ([Figure 1.4.11](#figure1411)). The more prosperous the region, the more grants are used; regions that are lagging behind do not use grants as actively (see also [Lihtmaa et al. 2018](#Lihtmaajt2018)). With regard to reconstruction grants for small residential buildings, the economic development of the region and the use of the grants are slightly less interconnected, but here too, Ida-Virumaa and southeast Estonia have a weaker position. Compared to more universal types of grants, the outcomes from the distribution of housing renovation grants (‘home support’) aimed at large families varies. This grant has also reached the more remote counties, but households in Ida-Virumaa county also use this grant less.
 
 <p class="caption" id="figure1411"><span class="figure-number">Figure 1.4.11.</span> Regional distribution of KredEx measures</p>
 
-Note: Details of the disbursement of support throughout the disbursement period.
+``` {block, type='figure-comment'}
+<span class="figure-comment-start">Note:</span> Details of the disbursement of support throughout the disbursement period.
+```
 
 ```{r, figure1411, out.width='100%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE}
 
@@ -619,7 +621,7 @@ There is currently no credible alternative to owning a home in Estonia. The rent
 A larger rental market with differentiated prices and a regulatory framework that provides a sense of security would provide more options and help stabilise the housing market. It is important to take into consideration regional characteristics, household needs and the diversity of living environments when implementing new rental programmes. As there are many types of people who need rental properties, there is a need for different types of rental housing at different price and quality levels, for people ranging from those with special needs who require assisted living services, to the elderly, and families with children.
 
 ```{block, type='blockquote-right'}
-Supporting only the owner-occupant sector at the national level makes the housing market vulnerable to economic cycles
+Supporting only the owner-occupant sector at the national level makes the housing market vulnerable to economic cycles.
 ```
 In several countries, subsidised rental housing is made available in partnership with the private sector. Such projects are implemented with the support of public subsidies and incentive packages, such as direct subsidies for the construction of rental housing, or the implementation of land policy measures (infrastructure development, preferential land supply), the provision of public loan guarantees for construction (e.g. in Finland) and various tax benefits. With the support of the public sector, it is possible to differentiate rent levels by target group. In many European countries (e.g. the United Kingdom, the Netherlands and Finland), housing estates are often established with diverse forms of ownership: in addition to owner-occupied housing, new residential areas must also include rental dwellings available at market and discount rates. The rule stipulating the percentage of discount rental accommodation in new housing developments is also known as the ‘minimum percentage law’.
 
@@ -636,9 +638,9 @@ The inequality of living conditions exacerbates overall regional inequality in E
 
 <p id="Kährik2019">Kährik, A. 2019. Kuidas ohjata kasvavat ebavõrdsust eluasemeturul? – Müürileht, 14 April, https://www.muurileht.ee/kuidas-ohjata-kasvavat-ebavordsust-eluasemeturul/.</p>
 
-<p id="Kõre1996">Kõre, J., Ainsaar, M., Hendrikson, M. 1996. Eluasemepoliitika Eestis 1918–1995 – Akadeemia, 10, 2133–2163.</p>
+<p id="Kõre1996">Kõre, J., Ainsaar, M., Hendrikson, M. 1996. Eluasemepoliitika Eestis 1918–1995. – Akadeemia, 10, 2133–2163.</p>
 
-<p id="Lihtmaajt2018">Lihtmaa, L., Hess, D. B., Leetmaa, K. 2018. Intersection of the global climate agenda with regional development: Unequal distribution of energy efficiency-based renovation subsidies for apartment buildings – Energy Policy, 119, 327–338.</p>
+<p id="Lihtmaajt2018">Lihtmaa, L., Hess, D. B., Leetmaa, K. 2018. Intersection of the global climate agenda with regional development: Unequal distribution of energy efficiency-based renovation subsidies for apartment buildings. – Energy Policy, 119, 327–338.</p>
 
 <p id="MKM2013">Ministry of Economic Affairs and Communications 2013. Üürieluaseme kättesaadavus ja vajadus. Üliõpilaste hinnangute analüüs. Uuringuraport. Tallinn: Tallinna Tehnikaülikooli linna- ja eluasemesotsioloogia uurimisgrupp.</p>
 
