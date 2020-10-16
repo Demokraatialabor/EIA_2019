@@ -1,7 +1,7 @@
 ## The impact of natural areas on people’s well-being {.chapter_section .chapter3_section}
 
 ```{block, type='authors authors_eng'}
-<div class="author-links">**[Kati Orru](#kati-orru), [Mait Lang](#mait-lang) ja [Hans Orru](#hans-orru)**</div>
+<div class="author-links">**[Kati Orru](#kati-orru), [Mait Lang](#mait-lang) and [Hans Orru](#hans-orru)**</div>
 <div><a class="print-btn" href="../loodusalade-mõju-inimeste-heaolule.html">EE</a></div>
 ```
 
@@ -49,7 +49,7 @@ knitr::include_graphics("../figures/3-chapter/fig321_eng.jpg")
 ### The health benefits of natural areas are not sufficiently taken into account during planning {-.chapter3_section}
 
 ```{block, type='blockquote-left'}
-The benefits associated with natural areas are measured by the number of premature deaths, cases of illness and hospitalisations prevented and the amount of unspent budget by the health insurance fund.
+The benefits associated with natural areas are measured by the number of premature deaths, cases of illness and hospitalisations prevented, and the amount of unspent budget by the health insurance fund.
 ```
 
 The benefits associated with natural areas are measured by the number of premature deaths, cases of illness and hospitalisations prevented and the amount of unspent budget by the health insurance fund. These outcomes are shaped by how natural areas affect people in the form of ecosystem services or benefits: such as the absorption and purification of flood waters, movement corridors within settlements or opportunities to interact with local nature ([Figure 3.2.2](#figure322)). The impact of natural areas is in turn defined by the characteristics of the ecosystem. For example, green spaces with broadleaved trees are particularly valuable for alleviating the urban heat island effect, while coniferous trees, trees with more complex leaf structures or combinations of species on green walls are better at capturing air pollution ([Chiabai et al. 2018](#Chiabai2018)).
@@ -70,11 +70,11 @@ Ensuring ecosystem functions is most challenging in densely populated areas wher
 
 The health benefits of spatial planning are assessed using a methodology where the change in health effects is projected on the basis of the relationship between current and future exposure to environmental factors and their health effects (dose–response relationship), and the change in exposure or physical activity. To this end, levels of air pollution, noise or other such environmental factors are measured or modelled (current situation), followed by the creation of various models of future scenarios. Then, current levels of morbidity or mortality are used as a basis for projecting any change in future levels of morbidity or mortality among the population using the dose–response relationship (e.g. what is the change in mortality per microgram of a pollutant unit).
 
-This methodology has already been implemented in Estonia; for example, when analysing the best solution in the 2016 architectural design competition for Tallinn’s Main Street project, where the extent to which increasing green spaces and limiting traffic in the city centre of Tallinn would reduce noise and improve air quality was assessed ([FIgure 3.2.3](#figure323)). Currently, air pollution and noise in this area cause an estimated 30 premature deaths per year. If there were just one lane in each direction along with a bus lane at the top of Pärnu maantee and Narva maantee, the number of premature deaths in the city centre of Tallinn would drop by approximately 4% per year, largely due to a reduction in the amount of exhaust fumes, but also of road dust and noise ([Orru et al. 2016a](#Orru2016)). Reduced levels of noise and pollution make people more willing to spend time on the streets, which in turn has a positive effect on the physical activity levels of the population. A pedestrian count along with an interpretation of Google Street View images showed that there were approximately 6,000 pedestrians per day on the Main Street, with an average physically active time of 15 minutes. This kind of activity level prevents an average of three premature deaths per year.
+This methodology has already been implemented in Estonia; for example, when analysing the best solution in the 2016 architectural design competition for Tallinn’s Main Street project, where the extent to which increasing green spaces and limiting traffic in the city centre of Tallinn would reduce noise and improve air quality was assessed ([Figure 3.2.3](#figure323)). Currently, air pollution and noise in this area cause an estimated 30 premature deaths per year. If there were just one lane in each direction along with a bus lane at the top of Pärnu maantee and Narva maantee, the number of premature deaths in the city centre of Tallinn would drop by approximately 4% per year, largely due to a reduction in the amount of exhaust fumes, but also of road dust and noise ([Orru et al. 2016a](#Orru2016)). Reduced levels of noise and pollution make people more willing to spend time on the streets, which in turn has a positive effect on the physical activity levels of the population. A pedestrian count along with an interpretation of Google Street View images showed that there were approximately 6,000 pedestrians per day on the Main Street, with an average physically active time of 15 minutes. This kind of activity level prevents an average of three premature deaths per year.
 
 Health benefits or health damage measured like this can also be calculated in monetary terms. For example, it has been calculated that the green spaces in London city centre reduce health damage and costs to the United Kingdom’s health insurance fund by an estimated 1.82 million pounds (<a href="https://www.gov.uk/government/organisations/natural-england">Natural England</a>). Netherlands by 10% from the current 13.9% of the country’s territory would help prevent approximately 84,000 visits to the family doctor and save the health insurance fund 65 million euros per year (<a href="https://home.kpmg/nl/nl/home.html">www.kpmg.nl</a>).
 
-<p class="caption" id="figure323"><span class="figure-number">Figure 3.2.3.</span> Tallinn’s annual average concentration (μg/m3) of particulate matter (PM10) and noise levels (dB(A)) during the day (Ld 7.00– 23.00)</p>
+<p class="caption" id="figure323"><span class="figure-number">Figure 3.2.3.</span> Tallinn’s annual average concentration (μg/m3) of particulate matter (PM10) and noise levels (dB(A)) during the day (Ld 7.00–23.00)</p>
 
 ```{r, figure323, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -116,7 +116,7 @@ Although urbanisation is limiting people’s exposure to the natural environment
 
 <p id="Barton2016">Barton, J., Bragg, R., Wood, C., Pretty, J. 2016. Green Exercise: Linking Nature, Health and Well-Being. London: Routledge.</p>
 
-<p id="Barton2017">Barton, J., Rogerson, M. 2017. The importance of greenspace for mental  health. – The British Journal of Psychiatry, 14 (4), 79–81.</p>
+<p id="Barton2017">Barton, J., Rogerson, M. 2017. The importance of greenspace for mental health. – The British Journal of Psychiatry, 14 (4), 79–81.</p>
 
 <p id="Chiabai2018">Chiabai, A., Quigora, S., Martinez-Juarez, P., Higgins, S., Taylor, T. 2018. The nexus between climate change, ecosystem services and human health: towards a conceptual framework. – Science of the Total Environment, 635, 1191−1204.</p>
 

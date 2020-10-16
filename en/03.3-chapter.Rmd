@@ -1,7 +1,7 @@
 ## Shaping natural areas for public use {.chapter_section .chapter3_section}
 
 ```{block, type='authors authors_eng'}
-<div class="author-links">**[Age Poom](#age-poom) ja [Kalev Sepp](#kalev-sepp)**</div>
+<div class="author-links">**[Age Poom](#age-poom) and [Kalev Sepp](#kalev-sepp)**</div>
 <div><a class="print-btn" href="../loodusalade-kujundamine-avalikuks-kasutuseks.html">EE</a></div>
 ```
 
@@ -34,18 +34,18 @@ knitr::include_graphics("../figures/3-chapter/fig331_eng.jpg")
 
 Spatial planning grew out of urban and regional planning; the term was first used by the ministers in charge of European regional planning in 1983 in the European Regional/Spatial Planning Charter, also known as the Torremolinos Charter. The charter was driven by the desire to ensure a healthy environment for Europeans and a high quality of life. The charter was the first document to formulate the principles of spatial planning, which are also reflected in the Estonian Planning Act. In 2013, the European Council of Spatial Planners, of which the Estonian Association of Spatial Planners is a member, approved the Charter of European Planning ([ECTP-CEU 2013](#ECTP-CEU2013)). This European spatial vision highlights the need to ensure ecological functioning, access to cultural and natural heritage for all, and the role of landscapes and urban green spaces as elements of the quality of life when planning the artificial environment.
 
-The spatial planning charter is a value-based agreement pointing the way forward. It sees planning as a means of cooperation and coordination between spatial decision-making levels. Every level – from international cooperation for attaining sustainable development to local development and land use plans – should take into account the goals and activities of at least the levels immediately above and below it. The European Union lacks common planning law: the system of spatial planning is hierarchical and the legal framework is established by each member state itself. In Estonia, hierarchy is primarily one-way: the strategic documents of a larger spatial unit direct the content of lower -level spatial plans ([Irbis Konsultatsioonid et al. 2017](#Irbis2017)).
+The spatial planning charter is a value-based agreement pointing the way forward. It sees planning as a means of cooperation and coordination between spatial decision-making levels. Every level – from international cooperation for attaining sustainable development to local development and land use plans – should take into account the goals and activities of at least the levels immediately above and below it. The European Union lacks common planning law: the system of spatial planning is hierarchical and the legal framework is established by each member state itself. In Estonia, hierarchy is primarily one-way: the strategic documents of a larger spatial unit direct the content of lower-level spatial plans ([Irbis Konsultatsioonid et al. 2017](#Irbis2017)).
 
 ```{block, type='blockquote-left'}
-In Estonia, hierarchy is primarily one-way: the strategic documents of a larger spatial unit direct the content of lower -level spatial plans.
+In Estonia, hierarchy is primarily one-way: the strategic documents of a larger spatial unit direct the content of lower-level spatial plans.
 ```
-However, spatial planning is based on the key principle of subsidiarity: development decisions concerning local affairs are, as a rule, made as close to the inhabitants as possible; that is, at the lowest feasible level of the administration. The value of spatial plans in shaping the future, living environment and public space of a region and their agreement with the community’s interests depend on the ability of the processor to use the knowledge of residents and involve them in preparing and implementing the plan ([Levald 2018](#Levald2018); [Nuga et al. 2015](#Nuga2015); [Vahtrus et al., this report](#public-participation-in-decisions-on-the-use-of-natural-areas)). The Estonian administrative reform of 2017 that reduced the number of municipalities nearly three-fold aimed at increasing that very capacity in the region. Furthermore, planning quality has been improved through the participation of Estonian officials and experts in continuing professional education programmes and international networks such as Vision and Strategies Around the Baltic Sea (VASAB) and the European Spatial Planning Observation Network (ESPON)  ([Adams et al. 2014](#Adams2014)).
+However, spatial planning is based on the key principle of subsidiarity: development decisions concerning local affairs are, as a rule, made as close to the inhabitants as possible; that is, at the lowest feasible level of the administration. The value of spatial plans in shaping the future, living environment and public space of a region and their agreement with the community’s interests depend on the ability of the processor to use the knowledge of residents and involve them in preparing and implementing the plan ([Levald 2018](#Levald2018); [Nuga et al. 2015](#Nuga2015); [Vahtrus et al., this report](#public-participation-in-decisions-on-the-use-of-natural-areas)). The Estonian administrative reform of 2017 that reduced the number of municipalities nearly three-fold aimed at increasing that very capacity in the region. Furthermore, planning quality has been improved through the participation of Estonian officials and experts in continuing professional education programmes and international networks such as Vision and Strategies Around the Baltic Sea (VASAB) and the European Spatial Planning Observation Network (ESPON) ([Adams et al. 2014](#Adams2014)).
 
 Spatial planning as a public procedure was introduced in Estonia with the Planning and Building Act of 1995. The Spatial Planning Department of the Ministry of Finance has been responsible for spatial planning since 2015. Spatial development at the national level is guided by the national spatial plan and county spatial plans and elaborated through thematic plans. Local decisions on spatial development and land use are made by the local government when preparing comprehensive spatial plans and detailed spatial plans. National designated spatial plans and local government designated spatial plans are two new types of plans defined in the 2015 Planning Act that stand out against the hierarchical system; under these plans, objects of significant spatial impact can be established outside the usual planning procedure. The practice of designated spatial plans is only evolving in Estonia and their impact on natural areas is not clear.
 
 From the viewpoint of shaping public space, county spatial plans and comprehensive plans are the most important planning levels. They take into account the national strategic guidelines while being sufficiently context-sensitive and engaging the local community. The thematic spatial plan ‘Environmental conditions guiding settlement and land use’, which was nationally initiated in all counties in 1999, is regarded as the spatial plan that has had the greatest impact on Estonia’s settlement structure; it provides for green spaces and regulates the expansion of housing construction ([Irbis Konsultatsioonid et al. 2017](#Irbis2017)). A comprehensive plan defines land use on the territory of a municipality in line with the principles of the county-level plan. A comprehensive plan formulates the conditions of use that ensure the preservation of recreational areas, public waterbodies and green networks, valuable landscapes and biological communities.
 
-### International development objectives and national policies influence the status of natural areas  {-.chapter3_section}
+### International development objectives and national policies influence the status of natural areas {-.chapter3_section}
 
 ```{block, type='blockquote-right'}
 Estonia has joined international treaties supporting the preservation of a coherent and functioning green network and public access to natural areas.
@@ -61,7 +61,7 @@ knitr::include_graphics("../figures/3-chapter/fig332_eng.jpg")
 ```
 
 ``` {block, type='figure-comment'}
-<span class="figure-comment-start">Note:</span> Types of spatial plans are highlighted that, among other things, pertain to the protection of natural areas and their use for designated purposes. The Figure does not cover EU directives, Estonian laws or strategic development documents of other sectors, which can also impact the public use of natural areas.
+<span class="figure-comment-start">Note:</span> Types of spatial plans are highlighted that, among other things, pertain to the protection of natural areas and their use for designated purposes. Figure 3.3.2 does not cover EU directives, Estonian laws or strategic development documents of other sectors, which can also impact the public use of natural areas.
 ```
 
 ``` {block, type='imgsource'}
@@ -76,7 +76,7 @@ According to the spatial design expert group set up at the Government Office, Es
 
 ### Natural areas have different access options and restrictions on use {-.chapter3_section}
 
-The bases for planning natural areas in Estonia and the related legal and administrative arrangements are complex (Figures [3.3.3](#figure333) ja [3.3.4](#figure334)). An area may be subject to multiple protection procedures or restrictions on use; for example, if an area is part of a limited management zone in a landscape protection area, a waterfront protection zone, and a core area of the green network. Restrictions also concern the public use of natural areas, including staying in these areas.
+The bases for planning natural areas in Estonia and the related legal and administrative arrangements are complex ([Figures 3.3.3](#figure333) and [3.3.4](#figure334)). An area may be subject to multiple protection procedures or restrictions on use; for example, if an area is part of a limited management zone in a landscape protection area, a waterfront protection zone, and a core area of the green network. Restrictions also concern the public use of natural areas, including staying in these areas.
 
 <p class="caption" id="figure333"><span class="figure-number">Figure 3.3.3.</span> Estonian natural areas may be subject to multiple protection procedures depending on the natural value of the area</p>
 
@@ -86,7 +86,7 @@ knitr::include_graphics("../figures/3-chapter/fig333_eng.jpg")
 
 ```
 ``` {block, type='figure-comment'}
-<span class="figure-comment-start">*</span> An area in a forest with a high probability of the presence of narrowly adapted, threatened, vulnerable or rare species.
+<span class="figure-comment-start">*</span> Areas in a forest with a high probability of the presence of narrowly adapted, threatened, vulnerable or rare species.
 ```
 
 ``` {block, type='imgsource'}
@@ -121,7 +121,7 @@ knitr::include_graphics("../figures/3-chapter/fig334_eng.jpg")
 <span class="imgsource-source">Source:</span> Figure by the authors.
 ```
 
-In settlements, the inhabitants are provided with primary contact with natural areas in terms of forests, urban woodlands, parks and cemeteries. Urban woodlands and forested parks have been managed in Estonia since at least the mid-19th century, as the recreational value of forests was already highly appreciated then. An important indicator of the use of recreational areas within and near urban areas is their proximity to people’s homes ([Sepp ja Lõhmus, this report](#how-do-people-use-the-natural-environment-in-estonia);[Orru et al., this report](#The-impact-of-natural-areas-on-peoples-well-being)).
+In settlements, the inhabitants are provided with primary contact with natural areas in terms of forests, urban woodlands, parks and cemeteries. Urban woodlands and forested parks have been managed in Estonia since at least the mid-19th century, as the recreational value of forests was already highly appreciated then. An important indicator of the use of recreational areas within and near urban areas is their proximity to people’s homes ([Sepp and Lõhmus, this report](#how-do-people-use-the-natural-environment-in-estonia);[Orru et al., this report](#The-impact-of-natural-areas-on-peoples-well-being)).
 
 The sea constitutes a special natural area in terms of public access and usability. Historical uses of maritime areas, such as for fishing or travelling, are being supplemented by new uses such as recreation and energy production. The recreational value of maritime areas is also reflected in sea views, while new uses may compete with the preservation of sea views. A spatial plan covering Estonia’s entire maritime area (36,500 sq. km including the shore area) is being prepared, in the course of which interests and areas suitable for various uses are being identified, the combined impact of the uses is assessed and a long-term agreement on the use of the sea made between the parties to the plan. Spatial planning for maritime areas is a new practice for the entire European Union (the obligation of maritime spatial planning was only established in 2014). Before the Estonian maritime spatial plan was initiated, county spatial plans for the maritime areas of Hiiumaa and Pärnumaa were adopted in 2016 and 2017, respectively.
 
@@ -130,7 +130,7 @@ Protection of natural values on inland waterbodies and regulating their public u
 ### The green network connects natural areas, but its function as a whole is not guaranteed {-.chapter3_section}
 
 ```{block, type='blockquote-right'}
-The most extensive protection against land-use changes in natural areas relates to the green network, which covers 55% of Estonia’s land area
+The most extensive protection against land-use changes in natural areas relates to the green network, which covers 55% of Estonia’s land area.
 ```
 
 The most extensive protection against land-use changes in natural areas relates to the green network, which covers 55% of Estonia’s land area. Its purpose is to coherently link various types of natural or semi-natural land and water areas to ensure their ecological functioning and the preservation of landscapes. The green network consists of core areas of various levels of importance (at national, county and local levels) and the green corridors connecting them. Of the total land area of protected zones in Estonia, 88% is covered by the green network and this constitutes about one-third of the total size of the green network. Protected zones and the green network overlap most in Läänemaa and least in Põlvamaa (with 51% and 18% of the green network protected in these counties, respectively). The protected areas not covered by the green network are largest in Hiiumaa (29%), Valgamaa (28%) and Saaremaa (27%) ([Figure 3.3.5](#figure335)).
@@ -171,8 +171,8 @@ fig335_data$objects_eng <- factor(fig335_data$objects_eng, levels = c("Green net
                  )
 
 ggplotly(fig335_plot + fig335_theme + fig_theme_general, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F, collaborate = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -213,7 +213,7 @@ In more than half of the plans, major deviations from the methodology for defini
 
 Changes in the green network at the level of CORINE 2006, 2012 and 2018 land cover classes were analysed for Harjumaa. Between 2006 and 2012, the land cover changed on a total of 12,010 hectares in the Harjumaa green network, of which most were shifts from one natural land cover class to another. On about 300 hectares, areas with a natural land cover were turned into artificial areas, mostly for residential development and quarries. There were 25 interruptions to green corridors (turning part of the natural land cover of the corridor into an artificial area) in the surroundings of Tallinn and near major highways ([Figure 3.3.6](#figure336)). Between 2012 and 2018, land cover changes occurred on a total of 10,509 hectares of green network land, of which 224 hectares of natural land cover were turned into artificial areas. By virtue of these changes, former green network areas were removed from public use and lost their designated function as natural areas.
 
-It was concluded from the analysis that the Estonian legal framework will be sufficient to ensure the protection of the green network once laws and regulations are applied with the aim of preserving the green network. Development pressure results in fragmentation of the green network. The quality and accessibility of the network is maintained in areas where the population decreases and development pressure is lower. Improving the technical level of planning procedures, including the definition of target levels for the green network, using digital standards for spatial information and linking the planning solution to databases would help guarantee the preservation and all-round functioning of green networks.
+It was concluded from the analysis that the Estonian legal framework will be sufficient to ensure the protection of the green network once laws and regulations are applied with the aim of preserving the green network. Development pressure results in the fragmentation of the green network. The quality and accessibility of the network is maintained in areas where the population decreases and development pressure is lower. Improving the technical level of planning procedures, including the definition of target levels for the green network, using digital standards for spatial information and linking the planning solution to databases would help guarantee the preservation and all-round functioning of green networks.
 
 ```
 
@@ -232,7 +232,7 @@ knitr::include_graphics("../figures/3-chapter/fig336_eng.jpg")
 ### Summary {-.chapter3_section #summary-33}
 
 ```{block, type='blockquote-right'}
-Development pressure results in fragmentation of the green network. The quality and accessibility of the network is maintained in areas where the population decreases and development pressure is lower.
+Development pressure results in the fragmentation of the green network. The quality and accessibility of the network is maintained in areas where the population decreases and development pressure is lower.
 ```
 Spatial planning and nature conservation requirements are in place in Estonia which support the preservation of natural areas, their condition and public accessibility. Over half of Estonia’s land area is covered by the green network agreed upon during the spatial planning process. At the same time, the proportion of protected areas is smaller in Estonia than elsewhere in Europe – 20% and 26%, respectively ([EEA 2019](#European2019)). The current spatial planning and nature conservation measures are not enough to guarantee good living environment, open space and the preservation of the benefits of natural areas. The reasons for this are the lack of a carefully designed cross-sectoral spatial policy and the legal possibility of not complying with the conditions agreed upon in the preparation of strategic development documents and when processing development plans, as well as with the analysis of combined spatial impacts. Alongside resolving these issues, it is important for the implementation of a coherent spatial policy to improve the technical level of plans and ensure the accessibility of information in line with the standards of the digital age.
 
@@ -254,7 +254,7 @@ Spatial planning and nature conservation requirements are in place in Estonia wh
 
 <p id="Linder2017">Linder, M., Kakuver, K. (eds.) 2017. Looduskaitse. Eesti looduse kaitse aastal 2015. Eesti looduse mitmekesisus 5. Tallinn: Keskkonnaagentuur.</p>
 
-<p id="Mander2018">Mander, Ü., Kull, A., Uuemaa, E., Mõisja, K., Külvik, M., Kikas, T., Raet, J., Tournebize, J., Sepp, K. 2018. Green and brown infrastructures support a landscape-level implementation of ecological engineering – Ecological Engineering, 120, 23–35.</p>
+<p id="Mander2018">Mander, Ü., Kull, A., Uuemaa, E., Mõisja, K., Külvik, M., Kikas, T., Raet, J., Tournebize, J., Sepp, K. 2018. Green and brown infrastructures support a landscape-level implementation of ecological engineering. – Ecological Engineering, 120, 23–35.</p>
 
 <p id="Ministry2019">Ministry of Finance 2019. Ruumilise planeerimise rohelise raamatu eelnõu 26.07.2019. https://planeerimine.ee/prr.</p>
 

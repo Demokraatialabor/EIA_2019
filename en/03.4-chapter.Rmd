@@ -1,7 +1,7 @@
 ## Public participation in decisions on the use of natural areas {.chapter_section .chapter3_section}
 
 ```{block, type='authors authors_eng'}
-<div class="author-links">**[Siim Vahtrus](#siim-vahtrus), [Liina Remm](#liina-remm), [Kärt Vaarmari](#kärt-vaarmari)**</div>
+<div class="author-links">**[Siim Vahtrus](#siim-vahtrus), [Liina Remm](#liina-remm) and [Kärt Vaarmari](#kärt-vaarmari)**</div>
 <div><a class="print-btn" href="../kaasarääkimise-võimalused-loodusalade-kasutamisel.html">EE</a></div>
 ```
 
@@ -65,22 +65,22 @@ Participation rights also depend on the level of decision-making ([Table 3.4.1](
 ```{block, type='blockquote-right'}
 The reviewing of environmental decisions is ineffective, as the authority in charge of making the original decision is often also in charge of the review process.
 ```
-Regarding project-level decision-making at the local level, participation opportunities are lacking for mining and forestry activities. After clear-felling, a forest may take an entire lifetime to be restored to its former state; mining limits access to natural areas and as a result completely changes the landscape. Despite substantial and long-lasting impacts from these decisions, spatial planning, and therefore public debate over the optimal location for mines and clear-felled areas is missing in the legal framework and practice. Thus, unlike, for example, the planning of new buildings in the urban environment, there is no coherence in the planning or analysis of the cumulative environmental impact in these areas.
+Regarding project-level decision-making at the local level, participation opportunities are lacking in respect of mining and forestry activities. After clear-felling, a forest may take an entire lifetime to be restored to its former state; mining limits access to natural areas and as a result completely changes the landscape. Despite substantial and long-lasting impacts from these decisions, spatial planning, and therefore public debate over the optimal location for mines and clear-felled areas is missing in the legal framework and practice. Thus, unlike, for example, the planning of new buildings in the urban environment, there is no coherence in the planning or analysis of the cumulative environmental impact in these areas.
 
-Participatory planning for mining and clear-felling of forested areas would be reasonable. In Austria and Denmark, for example, spatial planning is applied to the use of mineral resources, and according to experts, this is a good way to resolve conflicts between mining companies and local communities ([MinPol 2017](#MinPol2017)). In Estonia, spatial planning could provide a satisfactory answer to the question of which deposits should be exploited as a priority to minimise the impact on the environment and people – at the moment, mining companies have a decisive role in choosing which deposits are mined and in which order. Regarding forest management, at the moment even the owners of neighbouring plots of land do not have a say in deciding over clear felling and other activities – only the landowner and the Environmental Board are involved in the decision-making. Starting from 2017, the State Forest Management Centre (RMK) has involved communities in planning forestry operations in areas with high public interest ([see Poom and Sepp, this report](#shaping-natural-areas-for-public-use)); however, there is relatively little practice, and therefore no conclusions about the impact of this voluntary measure can be made. A 2018 environmental awareness study ([Turu-uuringute AS 2018](#4Turu-uuringute2018)) confirms society’s expectations of greater scrutiny on forestry activities and limitations on landowners’ rights.
+Participatory planning for mining and clear-felling of forested areas would be reasonable. In Austria and Denmark, for example, spatial planning is applied to the use of mineral resources, and according to experts, this is a good way to resolve conflicts between mining companies and local communities ([MinPol 2017](#MinPol2017)). In Estonia, spatial planning could provide a satisfactory answer to the question of which deposits should be exploited as a priority to minimise the impact on the environment and people – at the moment, mining companies have a decisive role in choosing which deposits are mined and in which order. Regarding forest management, at the moment even the owners of neighbouring plots of land do not have a say in deciding over clear felling and other activities – only the landowner and the Environmental Board are involved in the decision-making. Starting from 2017, the State Forest Management Centre (RMK) has involved communities in planning forestry operations in areas with high public interest (see [Poom and Sepp, this report](#shaping-natural-areas-for-public-use)); however, there is relatively little practice, and therefore no conclusions about the impact of this voluntary measure can be made. A 2018 environmental awareness study ([Turu-uuringute AS 2018](#4Turu-uuringute2018)) confirms society’s expectations of greater scrutiny on forestry activities and limitations on landowners’ rights.
 
 ```{block, type='blockquote-left'}
-Regarding project-level decision-making at the local level, participation opportunities are lacking for mining and forestry activities.
+Regarding project-level decision-making at the local level, participation opportunities are lacking in respect of mining and forestry activities.
 ```
 The opportunities for individuals to be involved in policy-making affecting natural areas is also limited, although its impact on the public use of natural areas is often direct, especially in the case of policy-making and planning of transport infrastructure, forestry and mineral resources. Drafts of development plans and other strategic decisions are often written with the involvement of working groups, where only representatives of certain stakeholders (companies, scientists, environmental NGOs) are included. When a strategic environmental impact assessment is carried out as part of the decision-making process, individuals may participate, but can only do so after strategic choices have already been made. The lack of the direct participation of individuals has been somewhat compensated by the fact that in most cases environmental NGOs, who also represent the interests of citizens, have been included.
 
 
 ```{block, type='blockquote-right'}
-The main problem with strategic projects that affect national interests, but also impact natural areas, is that public participation is offered only after strategic decisions have already been made.
+The main problem with strategic projects that affect national interests and also impact natural areas is that public participation is offered only after strategic decisions have already been made.
 ```
 The main problem with strategic projects that affect national interests, but also impact natural areas, is that public participation is offered only after strategic decisions have already been made. Once strategic choices have been made, the public’s influence on the project is mainly reduced to arguing over technical details. This is why the Aarhus Convention requires that the public must be offered participation opportunities at an early stage, before making any decisions. In the planning procedures for the Est-For wood processing plant, which caught the attention of the public in 2017–2018, for example, it was decided that a national designated spatial plan would be prepared to find a location for the plant within the basin of the Emajõgi River before public discussions even began ([Kõnnussaar and Lõhmus 2018](#Konnusaar2018)). The Supreme Court ruled (in Case No 3-17-2132) that narrowing the geographical scope of a national designated spatial plan at the start of the procedures does not necessarily preclude considering alternative locations outside the original boundaries at later stages. Due to the early termination of the planning procedures, however, we do not know whether the authorities would have been prepared to follow this ruling in practice.
 
-<p class="caption" id="table341"><span class="figure-number">Figure 3.4.1.</span> The system of environmental decision-making in Estonia based on the level and nature of decision-making as well as individuals’ rights to participate</p>
+<p class="caption" id="table341"><span class="figure-number">Figure 3.4.1.</span> The system of environmental decision-making in Estonia based on the level and nature of decision-making as well as individuals’ right to participate</p>
 
 <div style="overflow-x:auto;">
 <table id="table_341" style="width:100%">
@@ -104,7 +104,7 @@ The main problem with strategic projects that affect national interests, but als
 • for special use of water<br>
 • for mining<br>
 • for forestry activities<br>
-• for construction of buildings
+• for construction of buildings<br>
 Detailed spatial plans</td>
 
   <td>Comprehensive plans</td>
@@ -136,7 +136,7 @@ Detailed spatial plans</td>
 
   <td>National spatial plan</td>
   <td class="table341_purple">National development plans and strategies, e.g.:<br>
-•&nbsp;framework strategy for mineral resources<br>
+• framework strategy for mineral resources<br>
 • development plan for nature conservation<br>
 • development plan for forestry</td>
 </tr>
@@ -145,7 +145,7 @@ Detailed spatial plans</td>
 </div>
 
 ``` {block, type='figure-comment'}
-<span class="figure-comment-start">Note:</span> cells with violet highlighting refer to types of decisions where (in some cases) public participation opportunities are limited.
+<span class="figure-comment-start">Note:</span> The cells with violet highlighting refer to types of decisions where (in some cases) public participation opportunities are limited.
 ```
 
 ```{block, type='imgsource'}
@@ -168,7 +168,7 @@ The main reasons for this pessimistic attitude have been addressed in several st
 
 ### Stakeholders expect more effective methods of participation {-.chapter3_section}
 
-The effectiveness and efficiency of public participation is largely determined by the methods applied. The main components of public participation are informing stakeholders, consulting them, and including them in the decision-making process ([see Figure 3.4.2](#figure342)). The legal framework provides mostly for the first two components – informing and consulting. Both in the case of spatial plans and environmental permits, the basic requirements include the public display of the planned decision (which includes the opportunity to review the materials and make written statements) and public hearings, where statements can be made orally.
+The effectiveness and efficiency of public participation is largely determined by the methods applied. The main components of public participation are informing stakeholders, consulting them, and including them in the decision-making process (see [Figure 3.4.2](#figure342)). The legal framework provides mostly for the first two components – informing and consulting. Both in the case of spatial plans and environmental permits, the basic requirements include the public display of the planned decision (which includes the opportunity to review the materials and make written statements) and public hearings, where statements can be made orally.
 
 Elements of the third component (inclusion) can be, to a certain degree, found in the requirements of spatial planning. The Planning Act, for example, includes a requirement to cooperate with people interested in the spatial plan as well as environmental NGOs; in the case of a comprehensive plan, cooperation with local citizens’ groups is also required. Procedural rules for environmental permits (e.g. mining permits, felling notices) only require informing and consulting the public.
 
@@ -218,7 +218,7 @@ knitr::include_graphics("../figures/3-chapter/fig343_eng.jpg")
 ```
 
 ```{block, type='blockquote-left'}
-Estonia ranks high (14th) on the accessibility of environmental information in a global environmental democracy study
+Estonia ranks high (14th) on the accessibility of environmental information in a global environmental democracy study.
 ```
 
 A survey among the users of the environmental registry demonstrated that searching for information from publicly accessible web applications is preferred to official requests for information ([Environmental Agency 2017](#Environmentalagency2017)). The independent use of data sources encourages deeper thinking and reduces the administrative burden of the public sector. At the moment, however, efficient queries in databases are hampered by a lack of connectivity between databases and the lack of a common web portal. Users would like to have access to all data related to an area on an online map. The geoinformation application presented by the Land Board does give a thorough overview of protected natural sites as well as other restrictions on land use, but at the same time, the entries to the nature observation database, felling notices, monitoring data, air pollution sources and environmental permits are found in separate databases, with only the first two in this list linked to a map application.
@@ -282,8 +282,8 @@ fig344_data$variable_eng <- factor(fig344_data$variable_eng, levels = c("Number 
   )
 
 ggplotly(fig344_plot + fig_theme_general + fig344_theme, tooltip = "text" ) %>%
-config(displayModeBar = F, collaborate = F)   %>% 
-layout(legend = list(orientation = "h",y = 1.15)) %>% 
+config(displayModeBar = F, collaborate = F)   %>%
+layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
@@ -336,13 +336,13 @@ Existing databases for environmental information need to be brought together so 
 
 <p id="Estonia2016">Estonian Research Centre – Eesti Uuringukeskus 2016. Tartlane ja keskkond 2016. Survey report.</p>
 
-<p id="Harm2019">Härm, B. 2019. Keskkonnaregistri täiendamise analüüs Eesti Loodusvaatluste andmebaasi (LVA) näitel. BA thesis. Estonian University of Life Sciences..</p>
+<p id="Harm2019">Härm, B. 2019. Keskkonnaregistri täiendamise analüüs Eesti Loodusvaatluste andmebaasi (LVA) näitel. BA thesis. Estonian University of Life Sciences.</p>
 
 <p id="Environmentalagency2017">Environmental Agency (Keskkonnaagentuur) 2017. Keskkonnaregistri avaliku teenuse kasutajauuring. Kokkuvõte ja analüüs.</p>
 
-<p id="Kiisel2005">Kiisel, M. 2005. Keskkonnateadvuse kujunemine Eestis 1980ndatest 2005ni. MA thesis. University of Tartu..</p>
+<p id="Kiisel2005">Kiisel, M. 2005. Keskkonnateadvuse kujunemine Eestis 1980ndatest 2005ni. MA thesis. University of Tartu.</p>
 
-<p id="Konnusaar2018">Kõnnussaar, T., Lõhmus, A. 2018. Tselluloositehase eriplaneeringu juhtum: mida on Eesti ühiskonnal sellest õppida? –  Mõõt või meelevald.. Eesti Rooma Klubi Aastaraamat. Tallinn: Eesti Rooma Klubi, 215–223.</p>
+<p id="Konnusaar2018">Kõnnussaar, T., Lõhmus, A. 2018. Tselluloositehase eriplaneeringu juhtum: mida on Eesti ühiskonnal sellest õppida? –  Mõõt või meelevald. Eesti Rooma Klubi Aastaraamat. Tallinn: Eesti Rooma Klubi, 215–223.</p>
 
 <p id="Lauristin1988">Lauristin, M. 1988. Fosforiidisündroom ja avalikkuse areng. – Eesti Loodus, 7–8, 424–430, 494–498.</p>
 
