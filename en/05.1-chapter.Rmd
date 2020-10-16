@@ -1,7 +1,7 @@
 ## Estonia 2050 scenarios {-.chapter_section .chapter5_section }
 
 ```{block, type='authors authors_eng'}
-<div class="author-links">**[Kristi Grišakov](#kristi-grišakov) ja [Mihkel Kaevats](#mihkel-kaevats)** (scenario stories)</div>
+<div class="author-links">**[Kristi Grišakov](#kristi-grišakov) and [Mihkel Kaevats](#mihkel-kaevats)** (scenario stories)</div>
 <div><a class="print-btn" href="../eesti-2050-stsenaariumid.html">EE</a></div>
 ```
 

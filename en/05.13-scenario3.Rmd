@@ -34,7 +34,7 @@ knitr::include_graphics("../figures/5-chapter/kaart-3.png")
 
 <tr>
 <td align="left" class="future-table-black">Good public space:</td>
-<td align="right" class="future-table-red">privileged, shared or non-existent, according to the capacity of the local government</td>
+<td align="right" class="future-table-red">privileged, shared or non-existent, according to the capacity of local governments</td>
 </tr>
 
 <tr>
@@ -54,7 +54,7 @@ knitr::include_graphics("../figures/5-chapter/kaart-3.png")
 
 <tr>
 <td align="left" class="future-table-black">Sustainable development goals:</td>
-<td align="right" class="future-table-red">some of the smaller municipalities have met the goals, the overall picture is poor</td>
+<td align="right" class="future-table-red">some of the smaller municipalities have met the goals; the overall picture is poor</td>
 </tr>
 </tbody></table>
 
