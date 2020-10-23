@@ -15,7 +15,7 @@
 
 Changes in the living environment are related to changes in the world and our ability to adapt to them. Factors influencing the development of our living environment include climate change, international corporations and politics, new technologies and services, as well as the ageing population and urbanisation. In reshaping our living environment, we must bear in mind that we cannot reverse what is already done as this would take decades, be costly and complicated. Therefore, choices affecting the living environment must rest on an understanding of the long-term impact on the quality of the living environment.
 
-* Estonia faces a spatial choice: either to continue developing a liberal living environment with amenities only for those who are financially unburdened, or a more inclusive living environment that focuses on improving well-being for all.
+* Estonia faces a spatial choice: either to continue developing a liberal living environment with amenities only for those who are financially unburdened or to develop a more inclusive living environment that focuses on improving well-being for all.
 
 To aid in this choice, four scenarios are presented in this chapter that illustrate the changes taking place in the world and in Estonia, along with their consequences. The scenarios are narratives that help us envision the future and provide a common basis for discussing it. With the help of these scenarios, we invite the reader to think about the kind of living environment we wish to inhabit in the future, and the kinds of futures we want to avoid.
 ```
@@ -131,13 +131,13 @@ Brutotulu$palk <- fig52_data$Väärtus
 
 names(Brutotulu)[names(Brutotulu) == "palk"] <- "Average gross income (euros)"
 
-fig_52_plot <- tm_shape(Brutotulu) + 
+fig_52_plot <- tm_shape(Brutotulu) +
     tm_fill("Average gross income (euros)",title="Average gross income (euros)", palette = c("#E6E3DA","#d7bf74","#a01b17"), breaks=c(925,1043,1075,1107,1144,1209,1349,1711), popup.vars="Average gross income (euros)", id="NIMI") +
-  
+
   tm_borders(col="white") +
-  
+
   tm_text (col="black", text="NIMI",xmod=0) +
-  
+
     tm_layout(
       outer.margins=0, inner.margins=c(.02, .1, .02, .02),asp=1920/1080,
       legend.outside = FALSE,
@@ -149,7 +149,7 @@ fig_52_plot <- tm_shape(Brutotulu) +
         set.bounds = c(23.6397953631, 58.9745283067, 26.1316992531,59.8110903998),
         view.legend.position = c("right","bottom"),
       )
-   
+
 tmap_mode("view")
 fig_52_plot
 
@@ -208,15 +208,15 @@ The International Air Transport Association ([IATA 2019](#IATA2019)) predicts th
 In Tallinn city centre, the total land area taken up by parking spaces is equal to that taken up by residential buildings and larger than that taken up by office buildings.
 ```
 
-An increasing need for mobility, long distances and the convenience of services are driving the development of new MaaS solutions (e.g. car sharing, short-term car and scooter rental). New MaaS solutions such as car sharing are starting to compete with public transport, mainly due to their greater ease of use. Ride-sharing as a service is not significantly different from a taxi service, but its platform-based and algorithm-driven management means shorter waiting times and often also lower prices. The use of ride-sharing services is growing rapidly: by 4% in two years (from 19% to 23%), according to a recent survey ([Gartner Research 2017](#GartnerResearch2017)). The same survey states that 50% of respondents are willing to give up their private car if they save at least 50% on the cost of owning a car and the ride-sharing car arrives in less than ten minutes. In 2015, the average cost of a private car in Tallinn was 259 euros a month ([TNS Emor, 2015](#TNSEmor2015)) and the Tallinn parking survey ([Cerrone et al. 2019](#Cerrone2019)) shows that Bolt’s ride-sharing service is used in those areas of the city centre with very good public transport connections. The MaaS solution Whim, which operates in Finland, combines different travel options (city bike, public transport, short-term car rental) within one monthly package that is cheaper than the cost of a private car. Part of the issue is the cost of parking: the higher the real estate prices in Tallinn, and especially the city centre ([Land Board 2015](#Maa-amet2015); [Noorkõiv 2015](#Noorkõiv2015)), the more profitable it is to use valuable land – a significant part of which is currently used as car parks – purposefully; that is, for the development of housing. In Tallinn city centre, the total land area taken up by parking spaces is equal to that taken up by residential buildings and larger than that taken up by office buildings ([Cerrone et al. 2019](#Cerrone2019)). The value of the land covered by parking spaces, estimated as the ratio of the number of open air parking spaces (source: Europark) to the value of the last purchase of the land (source: Land Board), varies from an average of 128 euros per parking space in Mustamäe up to 10,789 euros per parking space in the city centre (ibid.). Due to this, the number of parking spaces will decrease and parking fees will rise. Parking as an amenity service will become more and more expensive, especially in the city centre, and lead people to opt for public transport and MaaS solutions to get to the city centre. The first self-driving cars are likely to be geared towards car-sharing services, as this is seen as their main application. It is projected that by 2030, these vehicles could already account for 40% of the annual private use mileage in Europe ([PwC 2018](#PWC2018)). The use of self-driving cars in car-sharing services helps save on labour costs and lower the price of the service even further. This means that public transport services will struggle even more to compete with cars (including car sharing) in terms of ease of use. The advent of self-driving vehicles will also change the use of space; for example, multi-storey car parks will be repurposed and former outdoor car parks developed as housing or converted into public space.
+An increasing need for mobility, long distances and the convenience of services are driving the development of new MaaS solutions (e.g. car sharing, short-term car and scooter rental). New MaaS solutions such as car sharing are starting to compete with public transport, mainly due to their greater ease of use. Ride-sharing as a service is not significantly different from a taxi service, but its platform-based and algorithm-driven management means shorter waiting times and often also lower prices. The use of ride-sharing services is growing rapidly: by 4% in two years (from 19% to 23%), according to a recent survey ([Gartner Research 2017](#GartnerResearch2017)). The same survey states that 50% of respondents are willing to give up their private car if they save at least 50% on the cost of owning a car and the ride-sharing car arrives in less than ten minutes. In 2015, the average cost of a private car in Tallinn was 259 euros a month ([TNS Emor, 2015](#TNSEmor2015)) and the Tallinn parking survey ([Cerrone et al. 2019](#Cerrone2019)) shows that Bolt’s ride-sharing service is used in those areas of the city centre with very good public transport connections. The MaaS solution Whim, which operates in Finland, combines different travel options (city bike, public transport, short-term car rental) within one monthly package that is cheaper than the cost of a private car. Part of the issue is the cost of parking: the higher the real estate prices in Tallinn, and especially the city centre ([Land Board 2015](#Maa-amet2015); [Noorkõiv 2015](#Noorkõiv2015)), the more profitable it is to use valuable land – a significant part of which is currently used as car parks – purposefully; that is, for the development of housing. In Tallinn city centre, the total land area taken up by parking spaces is equal to that taken up by residential buildings and larger than that taken up by office buildings ([Cerrone et al. 2019](#Cerrone2019)). The value of the land covered by parking spaces, estimated as the ratio of the number of open-air parking spaces (source: Europark) to the value of the last purchase of the land (source: Land Board), varies from an average of 128 euros per parking space in Mustamäe up to 10,789 euros per parking space in the city centre (ibid.). Due to this, the number of parking spaces will decrease and parking fees will rise. Parking as an amenity service will become more and more expensive, especially in the city centre, and lead people to opt for public transport and MaaS solutions to get to the city centre. The first self-driving cars are likely to be geared towards car-sharing services, as this is seen as their main application. It is projected that by 2030, these vehicles could already account for 40% of the annual private use mileage in Europe ([PwC 2018](#PWC2018)). The use of self-driving cars in car-sharing services helps save on labour costs and lower the price of the service even further. This means that public transport services will struggle even more to compete with cars (including car sharing) in terms of ease of use. The advent of self-driving vehicles will also change the use of space; for example, multi-storey car parks will be repurposed and former outdoor car parks developed as housing or converted into public space.
 
 <span class="bullet-heading">**Employment relationships will change and remote work will become an important way of working, offering the opportunity to live in a low-density area ([Foresight Centre 2019](#AreguseireKeskus2019)).**</span>
 
 ```{block, type='blockquote-right'}
-Tallinn competes with Stockholm, Helsinki and Riga in terms of the attractiveness of the living and working environment
+Tallinn competes with Stockholm, Helsinki and Riga in terms of the attractiveness of the living and working environment.
 ```
 
-In the European Union, 5% of the working-age population regularly works remotely. The share of remote workers in the Netherlands (13.7%) and Finland (12.7%) is more than twice as high as in Estonia (6%). In Denmark and Sweden, more than half of the employees can use flexible working hours ([Foresight Centre  2018](#AreguseireKeskus2018)). In 2015, 20% of employees in Estonia had worked remotely and the number of those who wished to work remotely increased to 34% ([Ministry of Social Affairs 2017](#Sotsiaalministeerium2017)). In terms of flexible working hours and employee autonomy (30%), Estonia ranks ninth in the European Union. The increasing share of remote work has an impact on the mobility of the population and the use of space. It is therefore not necessary to reside in the vicinity of the workplace, as regular attendance is not expected. The distance between home and work may thus continue to increase. New technologies can further reduce the need to be present at the workplace and remote work will allow for a more flexible and efficient use of office spaces. Working – in terms of working hours, ways of working and working conditions – is becoming more in line with people’s individual needs ([Demos Helsinki 2018](#DemosHelsinki2018)). Due to economic and technological preconditions, the opportunity for part-time remote work is available primarily to the middle class in more affluent societies and regions ([Foresight Centre 2019](#AreguseireKeskus2019)). Jobs are increasingly following the talent – both to vibrant city centres and peaceful, scenic areas ([Demos Helsinki 2018](#DemosHelsinki2018)). Sixty-four per cent of global knowledge economy workers choose their workplace based on location, rather than on organisation ([Pärna 2016](#Pärna2016)). Jobbatical, which facilitates labour migration, and Teleport, which can be used to compare cities suitable for living and working, are new companies with Estonian beginnings that provide an idea of the mobility of working life. Tallinn competes with Stockholm, Helsinki and Riga in terms of the attractiveness of the living and working environment ([ibid.](#Pärna2016)). Remote work opportunities and the following of talent may give Estonia’s low-density remote areas a development advantage over large centres, but gains for specific settlements and regions depend on the quality of the living environment they are able to provide ([Foresight Centre 2019](#AreguseireKeskus2019)).
+In the European Union, 5% of the working-age population regularly works remotely. The share of remote workers in the Netherlands (13.7%) and Finland (12.7%) is more than twice as high as in Estonia (6%). In Denmark and Sweden, more than half of the employees can use flexible working hours ([Foresight Centre 2018](#AreguseireKeskus2018)). In 2015, 20% of employees in Estonia had worked remotely and the number of those who wished to work remotely increased to 34% ([Ministry of Social Affairs 2017](#Sotsiaalministeerium2017)). In terms of flexible working hours and employee autonomy (30%), Estonia ranks ninth in the European Union. The increasing share of remote work has an impact on the mobility of the population and the use of space. It is therefore not necessary to reside in the vicinity of the workplace, as regular attendance is not expected. The distance between home and work may thus continue to increase. New technologies can further reduce the need to be present at the workplace and remote work will allow for a more flexible and efficient use of office spaces. Working – in terms of working hours, ways of working and working conditions – is becoming more in line with people’s individual needs ([Demos Helsinki 2018](#DemosHelsinki2018)). Due to economic and technological preconditions, the opportunity for part-time remote work is available primarily to the middle class in more affluent societies and regions ([Foresight Centre 2019](#AreguseireKeskus2019)). Jobs are increasingly following the talent – both to vibrant city centres and peaceful, scenic areas ([Demos Helsinki 2018](#DemosHelsinki2018)). Sixty-four per cent of global knowledge economy workers choose their workplace based on location, rather than on organisation ([Pärna 2016](#Pärna2016)). Jobbatical, which facilitates labour migration, and Teleport, which can be used to compare cities suitable for living and working, are new companies with Estonian beginnings that provide an idea of the mobility of working life. Tallinn competes with Stockholm, Helsinki and Riga in terms of the attractiveness of the living and working environment ([ibid.](#Pärna2016)). Remote work opportunities and the following of talent may give Estonia’s low-density remote areas a development advantage over large centres, but gains for specific settlements and regions depend on the quality of the living environment they are able to provide ([Foresight Centre 2019](#AreguseireKeskus2019)).
 
 <span class="bullet-heading">**Our mobility is increasingly being monitored and guided by technology.**</span>
 
@@ -231,10 +231,10 @@ Three-quarters of the new generation (especially millennials, aged 18–34) want
 <span class="bullet-heading">**The Estonian living environment is shaped by a liberal approach to space, according to which the primary role of public space is to be an arena for consumption and private motorised travel, governed by individual benefits.**</span>
 
 ```{block, type='blockquote-left'}
-Fifty per cent of the area of well-functioning settlements should be used as public space, but few settlements meet this target.
+Half of the area of well-functioning settlements should be used as public space, but few settlements meet this target.
 ```
 
-As of 2016, the leasable floorspace per capita of shopping centres was 2.2 sq. m in the USA, 1.5 sq. m in Canada and 1.0 sq. m in Australia ([Rapp and Helimer 2016](#Rapp2016)). Tallinn has nearly twice as much shopping centre floorspace per capita as the capital cities of the other Baltic countries: 0.8sq. m in Tallinn, 0.5 sq. m in Vilnius and 0.4sq. m in Riga ([Figure 5.3](#figure53); [Cushman & Wakefield 2015](#Cushman2015)). As of the end of 2019, the total commercial floorspace in Tallinn was 1.64 sq. m per capita. In a recent survey of parking in Tallinn ([Cerrone et al. 2019](#Cerrone2019)), the total area occupied by parking spaces, roads and pedestrian space (including footpaths) in various districts of the city was calculated. The total area designated for parking and car traffic is more than twice that reserved for pedestrians. Furthermore, the total area of parking spaces and roads is twice that occupied by residential buildings in most city districts ([Figure 5.4](#figure54)). In the rapidly growing suburbs, even less public space has been planned to be available outside the residential plots ([Leetmaa, this report](#introduction-1)). According to a UN-Habitat study ([2015](#UN-Habitat2015)), 50% of the area of well-functioning settlements should be public space, but few settlements meet this target.
+As of 2016, the leasable floorspace per capita of shopping centres was 2.2 sq. m in the USA, 1.5 sq. m in Canada and 1.0 sq. m in Australia ([Rapp and Helimer 2016](#Rapp2016)). Tallinn has nearly twice as much shopping centre floorspace per capita as the capital cities of the other Baltic countries: 0.8 sq. m in Tallinn, 0.5 sq. m in Vilnius and 0.4sq. m in Riga ([Figure 5.3](#figure53); [Cushman & Wakefield 2015](#Cushman2015)). As of the end of 2019, the total commercial floorspace in Tallinn was 1.64 sq. m per capita. In a recent survey of parking in Tallinn ([Cerrone et al. 2019](#Cerrone2019)), the total area occupied by parking spaces, roads and pedestrian space (including footpaths) in various districts of the city was calculated. The total area designated for parking and car traffic is more than twice that reserved for pedestrians. Furthermore, the total area of parking spaces and roads is twice that occupied by residential buildings in most city districts ([Figure 5.4](#figure54)). In the rapidly growing suburbs, even less public space has been planned to be available outside the residential plots ([Leetmaa, this report](#introduction-1)). According to a UN-Habitat study ([2015](#UN-Habitat2015)), 50% of the area of well-functioning settlements should be public space, but few settlements meet this target.
 
 <p class="caption" id="figure53"><span class="figure-number">Figure 5.3.</span> Floorspace of shopping centres in Tallinn compared to other European cities</p>
 
@@ -248,7 +248,7 @@ knitr::include_graphics("../figures/5-chapter/fig53_eng.jpg")
 <span class="imgsource-source">Source:</span> Cushman & Wakefield 2015.
 ```
 
-Drawing a parallel with social media, public space can be described as a giant platform (e.g. like  Facebook). The traditional societal role of public space has been to bring together stakeholders and allow us to meet those who are different from us ([de Waal 2014](#Waal2014)). Just as the fragmentation of online media is a problem when different groups do not want to engage in social dialogue ([Ibrus, this report](#introduction-4)), there is a problem with the democratic functioning of physical space when there is no public space where we can interact with people from different backgrounds and with different views. Therefore, the quality of public space, the ability to offer activities for different age groups and bring people together for common rituals are becoming increasingly important ([Demos Helsinki 2018](#DemosHelsinki2018)).
+Drawing a parallel with social media, public space can be described as a giant platform (e.g. Facebook). The traditional societal role of public space has been to bring together stakeholders and allow us to meet those who are different from us ([de Waal 2014](#Waal2014)). Just as the fragmentation of online media is a problem when different groups do not want to engage in social dialogue ([Ibrus, this report](#introduction-4)), there is a problem with the democratic functioning of physical space when there is no public space where we can interact with people from different backgrounds and with different views. Therefore, the quality of public space, the ability to offer activities for different age groups and bring people together for common rituals are becoming increasingly important ([Demos Helsinki 2018](#DemosHelsinki2018)).
 
 <p class="caption" id="figure54"><span class="figure-number">Figure 5.4.</span> Use of space in Tallinn</p>
 
@@ -263,7 +263,7 @@ fig54_data <- melt(fig54_data, id=c("Linnaosa"))
 
 #fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohtade pindala (20m²/pk)","Parkimiskohtade pindala (25m²/pk)","Parkimiskohtade pindala (30m²/pk)","Parkimiskohtade pindala (40m²/pk)","Tänavavõrgu pindala (m²)","Jalakäija ruumi pindala (m²)","Eluruumide pindala (m²)","Bürooruumide pindala (m²)","Kaubandus- ja teeninduruumide pindala (m²)","Meelelahutus-, haridus- tervishoiu- ja muude avalike ruumide pindala (m²)","Tööstus- ja laoruumide pindala (m²)"))
 
-fig54_data$variable_eng[grepl("Parkimiskohad", fig54_data$variable)]<-"Parking spaces (25m²/pk)"
+fig54_data$variable_eng[grepl("Parkimiskohad", fig54_data$variable)]<-"Parking spaces (25 sq. m)"
 fig54_data$variable_eng[grepl("Tööstus- ja laoruumid", fig54_data$variable)]<-"Industrial and storage facilities"
 fig54_data$variable_eng[grepl("Meelelahutus-, haridus-, tervishoiu- ja muud avalikud ruumid", fig54_data$variable)]<-"Public spaces (entertainment, education, health, etc.)"
 fig54_data$variable_eng[grepl("Kaubandus- ja teenindusruumid", fig54_data$variable)]<-"Commercial and service spaces"
@@ -272,13 +272,13 @@ fig54_data$variable_eng[grepl("Eluruumid", fig54_data$variable)]<-"Dwellings"
 fig54_data$variable_eng[grepl("Jalakäijate ruum", fig54_data$variable)]<-"Pedestrian space"
 fig54_data$variable_eng[grepl("Tänavavõrk", fig54_data$variable)]<-"Street network"
 
-fig54_data$variable_eng <- factor(fig54_data$variable_eng, levels = c("Parking spaces (25m²/pk)","Street network","Pedestrian space","Dwellings","Office spaces","Commercial and service spaces","Public spaces (entertainment, education, health, etc.)","Industrial and storage facilities"))
+fig54_data$variable_eng <- factor(fig54_data$variable_eng, levels = c("Parking spaces (25 sq. m)","Street network","Pedestrian space","Dwellings","Office spaces","Commercial and service spaces","Public spaces (entertainment, education, health, etc.)","Industrial and storage facilities"))
 
   fig54_plot <- ggplot(data = fig54_data) +
     geom_col(mapping = aes(x=variable_eng, y = as.numeric(as.character(value)), fill=variable_eng), size=0.7) +
     facet_wrap(~Linnaosa, nrow=8, strip.position="right") +
     coord_flip() +
-    labs(y="m²", x="") +
+    labs(y="sq. m", x="") +
     scale_y_continuous(labels=function(x) format(x, big.mark = " ", scientific = FALSE), limits=c(0,3000000), breaks=c(0, 1250000,2500000)) +
     scale_fill_manual(values=c("#500e0c", "#a01b17", "#ce2e26", "#da702d","#3c2754","#664a92", "#548ea4", "#bfd3d8"),guide = guide_legend(reverse = TRUE)) +
       guides(fill=guide_legend(nrow=4,byrow=TRUE))
@@ -305,10 +305,10 @@ fig54_data$variable_eng <- factor(fig54_data$variable_eng, levels = c("Parking s
 ```
 
 ```{block, type='blockquote-left'}
-Public space is a place where a shared identity can be amplified and recreated through various shared rituals
+Public space is a place where a shared identity can be amplified and recreated through various shared rituals.
 ```
 
-The factors shaping the future of space (including public space) can be divided into two general categories – communal and liberal. The predominance of commercial areas, parking and roads is considered to be one of the symptoms of the dominance of liberal spatial planning  ([de Waal 2014](#Waal2014)). The liberal approach to space is characterised by a high degree of freedom of choice for citizens, while citizens are seen primarily as consumers of various services. According to this approach to space, it is socially acceptable for a citizen to move only in the private sphere (i.e. in a car, not on public transport) or to isolate themselves behind tall fences. The concept of the smart city of the future is also associated mainly with a liberal approach to space, where citizens ‘trade’ their data in return for the opportunity to use space or services ([Rogan 2019](#Rogan2019)). In contrast to the liberal approach to space, community public space can be defined through symbols such as the Song Festival Grounds, as well as the central squares of cities and neighbourhood festivals. The communal approach to space emphasises the shared identity of citizens, not their individual characteristics. Public space is a place where a shared identity can be amplified and recreated through various shared rituals. A communal approach to space is supported, for example, by the Republic of Estonia 100 Good Public Space programme for the renovation of town squares and main streets, and campaign culture, such as the Let’s Do It campaign days, the public hiking trail network, community gardens, as well as municipal participatory budgeting, through which various public space projects have been carried out. The future of public space depends on whether and how a balance is struck between these two ideals – enough freedom and individuality on the one hand and connection to one’s community and culture on the other.
+The factors shaping the future of space (including public space) can be divided into two general categories – communal and liberal. The predominance of commercial areas, parking and roads is considered to be one of the symptoms of the dominance of liberal spatial planning ([de Waal 2014](#Waal2014)). The liberal approach to space is characterised by a high degree of freedom of choice for citizens, while citizens are seen primarily as consumers of various services. According to this approach to space, it is socially acceptable for a citizen to move only in the private sphere (i.e. in a car, not on public transport) or to isolate themselves behind tall fences. The concept of the smart city of the future is also associated mainly with a liberal approach to space, where citizens ‘trade’ their data in return for the opportunity to use space or services ([Rogan 2019](#Rogan2019)). In contrast to the liberal approach to space, community public space can be defined through symbols such as the Song Festival Grounds, as well as the central squares of cities and neighbourhood festivals. The communal approach to space emphasises the shared identity of citizens, not their individual characteristics. Public space is a place where a shared identity can be amplified and recreated through various shared rituals. A communal approach to space is supported, for example, by the Republic of Estonia 100 Good Public Space programme for the renovation of town squares and main streets, and campaign culture, such as the Let’s Do It campaign days, the public hiking trail network, community gardens, as well as municipal participatory budgeting, through which various public space projects have been carried out. The future of public space depends on whether and how a balance is struck between these two ideals – enough freedom and individuality on the one hand and connection to one’s community and culture on the other.
 
 ### *Acknowledgements* {-.chapter5_section #acknowledgements-5}
 
@@ -328,9 +328,9 @@ The factors shaping the future of space (including public space) can be divided 
 
 <p id="Luhamaa2014">Luhamaa, A., Kallis, A., Mändla, K., Männik, A., Pedusaar, T., Rosin, K. 2014. Eesti tuleviku kliimastsenaariumid aastani 2100. Tallinn: Keskkonnaagentuur.</p>
 
-<p id="Statistikaamet2019">Statistics Estonia 2019. Rahvastikuprognoos aastani 2080..</p>
+<p id="Statistikaamet2019">Statistics Estonia 2019. Rahvastikuprognoos aastani 2080.</p>
 
-<p id="ÜRO2019a">UN – United Nations 2019a. Revision of World Population Prospects.</p>
+<p id="ÜRO2019a">United Nations 2019a. Revision of World Population Prospects.</p>
 
 ### References {-.subreferences #references-5}
 
@@ -368,7 +368,7 @@ The factors shaping the future of space (including public space) can be divided 
 
 <p id="IATA2019">IATA 2019. 20 Year Passenger Forecast.</p>
 
-<p id="Ibrus2019b">Ibrus, I. 2019. Ostes pileteid eesti eludesse – ERR Arvamus, 17 October.</p>
+<p id="Ibrus2019b">Ibrus, I. 2019. Ostes pileteid eesti eludesse. – ERR Arvamus, 17 October.</p>
 
 <p id="Laakso2018">Laakso, S., Loikkainen H. A. 2018. Kaupungistuminen – viimeaikainen ilmiö vai pitkään jatkunut kehityskulku? – Kvartti, 11 May.</p>
 
@@ -386,7 +386,7 @@ The factors shaping the future of space (including public space) can be divided 
 
 <p id="Mällo2019">Mällo, T. 2019. Pärast kino läheme õhtust sööma. Kes seda tegelikult otsustab? – Eesti Päevaleht, 26 November.</p>
 
-<p id="Noorkõiv2015">Noorkõiv, R. 2015. Korteriturg regionaalarengu taseme mõõdikuna – Servinski, M., Kivilaid, M., Tischler, G. (eds.). Eesti piirkondlik areng 2015. Tallinn: Statistikaamet, 170–176, 177–181.</p>
+<p id="Noorkõiv2015">Noorkõiv, R. 2015. Korteriturg regionaalarengu taseme mõõdikuna. – Servinski, M., Kivilaid, M., Tischler, G. (eds.). Eesti piirkondlik areng 2015. Tallinn: Statistikaamet, 170–176, 177–181.</p>
 
 <p id="Pärna2016">Pärna, O. (ed.) 2016. Töö ja oskused 2025. Tööjõuvajaduse seire- ja prognoosisüsteem OSKA – OSKuste Arendamise koordinatsioonisüsteemi loomine. Ülevaade olulisematest trendidest ja nende mõjust Eesti tööturule kümne aasta vaates. Tallinn: Sihtasutus Kutsekoda.</p>
 
@@ -420,11 +420,11 @@ The factors shaping the future of space (including public space) can be divided 
 
 <p id="TNSEmor2015">TNS Emor 2015. Tallinna elanike liikumisviiside uuring elektrisõidukite lühirendi ja säästva transpordi kasutamise arendamiseks.</p>
 
-<p id="ÜRO2017">UN – United Nations Population Division 2017. Population Facts 2017.</p>
+<p id="ÜRO2017">United Nations Population Division 2017. Population Facts 2017.</p>
 
 <p id="ÜRO2018">United Nations Population Division 2018. The World’s Cities in 2018. Data Booklet.</p>
 
-<p id="ÜRO2019b">UN – United Nations 2019b. Digital Economy Report 2019. Value Creation and Capture: Implications for Developing Countries.</p>
+<p id="ÜRO2019b">United Nations 2019b. Digital Economy Report 2019. Value Creation and Capture: Implications for Developing Countries.</p>
 <p id="UN-Habitat2015">UN-Habitat 2015. United Nations Human Settlements Programme (UN-Habitat). Global Public Space Toolkit: From Global Principles to Local Policies and Practice.</p>
 
 <p id="Wright2013">Wright, G., Cairns, G., Bradfield, R. 2013. Scenario methodology: new developments in theory and practice. Introduction to the Special Issue. – Technological Forecasting and Social Change, 80 (4), 561–565.</p>

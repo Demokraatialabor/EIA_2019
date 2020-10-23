@@ -15,7 +15,7 @@ knitr::include_graphics('../figures/6-authors/HelenSoovali-Sepping.png')
 
 <div>
 #### Helen Sooväli-Sepping {-.head-editor-name}
-is the Vice-Rector of Sustainable Development, Professor of Environmental Studies and Senior Researcher of Cultural Geography at Tallinn University. She is responsible for the master’s programmes in environmental studies and urban planning at the university. Her main research topics are spatial and landscape planning. Currently, she is most interested in cultural and community aspects, as well as sustainable development and resilience in urban and rural areas, environmental policy and civic studies.
+is the Vice-Rector of Sustainable Development, Professor of Environmental Studies and Senior Researcher of Cultural Geography at Tallinn University. She is responsible for the master’s programmes in environmental studies and urban planning at the university. Her main research topics are spatial and landscape planning. Currently, she is most interested in cultural and community aspects, as well as sustainable development and resilience in urban and rural areas, environmental policy, and civic studies.
 
 </div>
 </div>
@@ -150,7 +150,7 @@ knitr::include_graphics('../figures/6-authors/RaulKalvo.png')
 
 <div>
 #### Raul Kalvo {-.author-name}
-is an architect, founder of the company inphysica technology, and a lecturer of Digital Geometry at the Estonian Academy of Arts. His main interest is decision-making related to spatial data, and the resulting software development. The most wide-spread of these is the Urban Network Analysis toolbox for Rhino. He is involved in several mobility research and strategy projects in Estonia and environmental health impact assessments in Finland. In addition to research, he is involved in projects ranging from interior architecture to urban development.
+is an architect, founder of the company inphysica technology, and Lecturer of Digital Geometry at the Estonian Academy of Arts. His main interest is decision-making related to spatial data, and the resulting software development. The most wide-spread of these is the Urban Network Analysis toolbox for Rhino. He is involved in several mobility research and strategy projects in Estonia and environmental health impact assessments in Finland. In addition to research, he is involved in projects ranging from interior architecture to urban development.
 
 </div>
 </div>
@@ -290,7 +290,7 @@ knitr::include_graphics('../figures/6-authors/ArkoOlesk.png')
 
 <div>
 #### Arko Olesk {-.author-name}
-is a research journalist and a lecturer of Research Communication at the Baltic Film, Media, Arts and Communication School, Tallinn University. His main research topic is researcher interaction with the press; he is also interested in innovation communication and environmental communication. He hosts the popular science programme Puust ja punaseks on Raadio 2.
+is a research journalist and Lecturer of Research Communication at the Baltic Film, Media, Arts and Communication School, Tallinn University. His main research topic is researcher interaction with the press; he is also interested in innovation communication and environmental communication. He hosts the popular science programme *Puust ja punaseks* on Raadio 2.
 
 </div>
 </div>
@@ -374,7 +374,7 @@ knitr::include_graphics('../figures/6-authors/BiankaPluschke-Altof.png')
 
 <div>
 #### Bianka Plüschke-Altof {-.author-name}
-is a Researcher in Environmental Sociology at Tallinn University. She has studied and worked at Humboldt-Universität zu Berlin, the University of Warsaw, the Slovak University of Technology and the University of Tartu. Her research focuses on socio-spatial inequality and the practices and discourses of space creation. Her doctoral thesis discussed territorial stigmatisation in Estonian rural areas. She is also a part of the Tallinn University research group 'Human-nature interactions in an urbanising world' investigating urban environment issues.
+is a Researcher in Environmental Sociology at Tallinn University. She has studied and worked at Humboldt-Universität zu Berlin, the University of Warsaw, the Slovak University of Technology and the University of Tartu. Her research focuses on socio-spatial inequality and the practices and discourses of space creation. Her doctoral thesis discussed territorial stigmatisation in Estonian rural areas. She is also a member of the Tallinn University research group 'Human-nature interactions in an urbanising world' investigating urban environment issues.
 
 </div>
 </div>
@@ -388,7 +388,7 @@ knitr::include_graphics('../figures/6-authors/AgePoom.png')
 
 <div>
 #### Age Poom {-.author-name}
-is a post-doctoral researcher at the University of Helsinki and a lecturer of Environmental Protection at the University of Tartu. She studies the interrelationship between human mobility, activity spaces and the environment, including exposure to green spaces and environmental risks. She is interested in sustainable mobility and consumption, as well as the smart and sustainable city. As a member of the Mobility Lab at the University of Tartu, she is involved with the development of the infrastructure for spatial research based on mobile positioning data, and external collaboration projects.
+is a post-doctoral researcher at the University of Helsinki and Lecturer of Environmental Protection at the University of Tartu. She studies the interrelationship between human mobility, activity spaces and the environment, including exposure to green spaces and environmental risks. She is interested in sustainable mobility and consumption, as well as the smart and sustainable city. As a member of the Mobility Lab at the University of Tartu, she is involved with the development of the infrastructure for spatial research based on mobile positioning data, and external collaboration projects.
 
 </div>
 </div>
@@ -458,7 +458,7 @@ knitr::include_graphics('../figures/6-authors/AnttiRoose.png')
 
 <div>
 #### Antti Roose {-.author-name}
-is the Head of Climate and Energy Projects at the Tartu Regional Energy Agency. His research on urbanisation has focused on suburbs, energy use, planning and adaptation to climate change. He was an editor of the textbook Peatükke planeerimisest (Chapters on Planning, 2013). He has compiled spatial development documents both at the EU level and at the level of small municipalities. Roose is an expert on European Territorial Co-operation.
+is the Head of Climate and Energy Projects at the Tartu Regional Energy Agency. His research on urbanisation has focused on suburbs, energy use, planning and adaptation to climate change. He was an editor of the textbook *Peatükke planeerimisest* (*Chapters on Planning*, 2013). He has compiled spatial development documents both at the EU level and at the level of small municipalities. Roose is an expert on European Territorial Co-operation.
 
 </div>
 </div>
@@ -472,7 +472,7 @@ knitr::include_graphics('../figures/6-authors/KalevSepp.png')
 
 <div>
 #### Kalev Sepp {-.author-name}
-is a Professor of Environmental Protection and Landscape Management at the Estonian University of Life Sciences, and the Head of the Chair of the same name. His broad research interests include changes in land use and their impact on biodiversity, landscape planning, the sustainability of protected areas, the impact of nature conservation on regional development, the assessment and mapping of natural assets, and landscape monitoring using remote sensing. He has been involved as an expert in the preparation of many national methodologies and strategy papers. He is an expert at the International Union for the Conservation of Nature and Natural Resources.
+is a Professor of Environmental Protection and Landscape Management at the Estonian University of Life Sciences, and the head of the chair of the same name. His broad research interests include changes in land use and their impact on biodiversity, landscape planning, the sustainability of protected areas, the impact of nature conservation on regional development, the assessment and mapping of natural assets, and landscape monitoring using remote sensing. He has been involved as an expert in the preparation of many national methodologies and strategy papers. He is an expert at the International Union for the Conservation of Nature and Natural Resources.
 
 </div>
 </div>
@@ -514,7 +514,7 @@ knitr::include_graphics('../figures/6-authors/TauriTuvikene.png')
 
 <div>
 #### Tauri Tuvikene {-.author-name}
-is an urban geographer working as a Senior Researcher at the Centre for Landscape and Culture at the Tallinn University School of Humanities. His research interests include mobility cultures and post-socialist urban studies. He has published scientific articles on these topics in distinguished journals such as Current Sociology and IJURR. He was a co-editor of the book Post-Socialist Urban Infrastructures (Routledge, 2019). Since 2019, he has been in charge of an international project on public transport as public space, by the network Humanities in the European Research Area (HERA).
+is an urban geographer working as a Senior Researcher at the Centre for Landscape and Culture at the Tallinn University School of Humanities. His research interests include mobility cultures and post-socialist urban studies. He has published scientific articles on these topics in distinguished journals such as *Current Sociology* and *IJURR*. He was a co-editor of the book *Post-Socialist Urban Infrastructures* (Routledge, 2019). Since 2019, he has been in charge of an international project on public transport as public space, by the network Humanities in the European Research Area (HERA).
 
 </div>
 </div>
@@ -528,7 +528,7 @@ knitr::include_graphics('../figures/6-authors/KartVaarmari.png')
 
 <div>
 #### Kärt Vaarmari {-.author-name}
-is Development Manager and Member of the Executive Committee of the Estonian Fund for Nature. She has previously worked as an environmental lawyer, and she was a co-founders of the Estonian Environmental Law Center. In environmental law, she has focused on environmental rights, public participation in environmental decision-making, and the role of NGOs in representing the public interest in environmental issues. She was the editor and co-author of the executive summary of the General Part of the Environmental Code Act (2015) and has published articles in journals such as the Journal for European Environmental and Planning Law and Juridica.
+is the Development Manager and Member of the Executive Committee of the Estonian Fund for Nature. She has previously worked as an environmental lawyer and was a co-founder of the Estonian Environmental Law Center. In environmental law, she has focused on environmental rights, public participation in environmental decision-making, and the role of NGOs in representing the public interest in environmental issues. She was the editor and co-author of the executive summary of the General Part of the Environmental Code Act (2015) and has published articles in the *Journal for European Environmental and Planning Law*, *Juridica* and other journals.
 
 </div>
 </div>
@@ -542,7 +542,7 @@ knitr::include_graphics('../figures/6-authors/SiimVahtrus.png')
 
 <div>
 #### Siim Vahtrus {-.author-name}
-works at the Estonian Environmental Law Center. He has compiled guidelines for environmental impact assessment, public involvement and spatial planning. He was a co-author of the executive summary of the General Part of the Environmental Code Act (2015) and Keskkonnamõju strateegilise hindamise käsiraamat (Handbook of Strategic Environmental Assessment, 2017) He has published articles in international journals such as Juridica International, European Energy, the Environmental Law Review, and Impact Assessment and Project Appraisal.
+works at the Estonian Environmental Law Center. He has compiled guidelines for environmental impact assessment, public involvement and spatial planning. He was a co-author of the executive summary of the General Part of the Environmental Code Act (2015) and *Keskkonnamõju strateegilise hindamise käsiraamat* (*Handbook of Strategic Environmental Assessment*, 2017) He has published articles in international journals such as *Juridica International*, *European Energy*, the *Environmental Law Review*, and *Impact Assessment and Project Appraisal*.
 
 </div>
 </div>
@@ -556,7 +556,7 @@ knitr::include_graphics('../figures/6-authors/AndreasVentsel.png')
 
 <div>
 #### Andreas Ventsel {-.author-name}
-is a Senior Researcher of Semiotics at the University of Tartu. His main research topics are political semiotics, visual semiotics, strategic narratives in information warfare, and influence activities in online environments. He has been involved in more than a dozen research projects. He has collaborated with the Estonian Military Academy and is currently in charge of a research project dedicated on military communications deception.
+is a Senior Researcher of Semiotics at the University of Tartu. His main research topics are political semiotics, visual semiotics, strategic narratives in information warfare and influence activities in online environments. He has been involved in more than a dozen research projects. He has collaborated with the Estonian Military Academy and is currently in charge of a research project dedicated to military communications deception.
 
 </div>
 </div>
