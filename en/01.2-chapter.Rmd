@@ -32,7 +32,7 @@ library(svglite)
 Maakonnad <- st_read(dsn ="../data/12_fig1_data/maakond_20200101.shp")
 head(as.data.frame(Maakonnad))
 Maakonnad <- Maakonnad[order(Maakonnad$MNIMI),]
-Maakonnad$MNIMI <- c("Harju county", "Hiiu county", "Ida-Viru county", "Järva county", "Jõgeva county", "Lääne county", "Lääne-Viru county", "Pärnu county", "Põlva county", "Rapla county", "Saare county", "Tartu county", "Valga county", "Viljandi county", "Võru county")
+Maakonnad$MNIMI <- c("Harjumaa county", "Hiiumaa county", "Ida-Virumaa county", "Järvamaa county", "Jõgevamaa county", "Läänemaa county", "Lääne-Virumaa county", "Pärnumaa county", "Põlvamaa county", "Raplamaa county", "Saaremaa county", "Tartumaa county", "Valgamaa county", "Viljandimaa county", "Võrumaa county")
 
 fig_data <- read.csv("../data/12_fig1_data/fig_121_data.csv", header=TRUE, sep=";")
 fig_data <- fig_data[order(fig_data$county_est),]
@@ -107,6 +107,7 @@ Even though the main changes in agricultural employment occurred already in the 
 
 library("tidyverse")
 library("svglite")
+library("scales")
 
   fig122_data <- read.csv ("../data/12_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
 
@@ -114,6 +115,7 @@ library("svglite")
   geom_col(mapping = aes(x=county, y=value, fill=location_est), width=0.7) +
   facet_wrap(~year, nrow=1) +
   labs(y="Number of jobs", x="", fill="Location of jobs") +
+  scale_y_continuous(labels = comma) +
   scale_fill_manual(values=c("#482683", "#917db5", "#369B9E"), labels = c("In county of residence", "Elsewhere in Estonia", "Outside Estonia"))
 
  fig122_theme <- theme(

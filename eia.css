@@ -577,6 +577,7 @@ p.caption {
 }
 
 #cover-hero h1 {
+  padding-top:48px;
   display:block;
   font-size:1.5em;
   font-weight:bold;
@@ -586,6 +587,11 @@ p.caption {
   font-size:5em !important;
   font-weight:bold;
   margin-top:75px !important;
+}
+
+.lang-btn{
+  color:#e9e8e1 !important;
+  float:right;
 }
 
 @media only screen and (max-width: 576px) {
@@ -1659,5 +1665,9 @@ margin-top:50px !important;
 
 .chapter7_section a {
 	color: #a8aca6 !important;
+}
+
+.kogu-logo{
+  margin-top:100px;
 }
 

@@ -109,10 +109,11 @@ fig312_plot_palette <- c("#b8ddea","#44a1b1","#388085","#8d76ad","#79AC2C","#5B8
   fig312_plot2 <- ggplot(data = fig312_data2) +
     geom_bar(mapping = aes(x=park_eng, y=visitors, fill=year, text = paste("", park_eng,
                          "<br>", year,
-                         "<br>", visitors)), width=0.7, stat="identity", position="dodge") +
+                         "<br>", scales::comma(visitors))), width=0.7, stat="identity", position="dodge") +
     scale_fill_manual(values=fig312_plot_palette) +
     labs(y="Number of visits", x="") +
-    scale_x_discrete(labels=fig312_plot2_labels)
+    scale_x_discrete(labels=fig312_plot2_labels) +
+    scale_y_continuous(labels=comma) 
 
   fig312_theme <- theme(
       text = element_text(color = "#292b2c", family="Montserrat"),
@@ -177,7 +178,7 @@ library("reshape")
 
  fig313_data_melt <- melt (fig313_data, id=c("vanus"))
 
-fig313_data_melt$vanus <- factor(fig313_data_melt$vanus, levels = c("75+","60-74","50-59","40-49","30-39","20-29","15-19"))
+fig313_data_melt$vanus <- factor(fig313_data_melt$vanus, levels = c("75+","60–74","50–59","40–49","30–39","20–29","15–19"))
 
 fig313_data_melt$variable_eng[grepl("Looduspuhkus 2010", fig313_data_melt$variable)]<-"Nature visits 2010"
 fig313_data_melt$variable_eng[grepl("Looduspuhkus 2015", fig313_data_melt$variable)]<-"Nature visits 2015"

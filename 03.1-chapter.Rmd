@@ -172,7 +172,7 @@ library("reshape")
 
  fig313_data_melt <- melt (fig313_data, id=c("vanus"))
 
-fig313_data_melt$vanus <- factor(fig313_data_melt$vanus, levels = c("75+","60-74","50-59","40-49","30-39","20-29","15-19"))
+fig313_data_melt$vanus <- factor(fig313_data_melt$vanus, levels = c("75+","60–74","50–59","40–49","30–39","20–29","15–19"))
 fig313_data_melt$variable <- factor(fig313_data_melt$variable, levels = c("Tallinna pargikülastajad","Jahimehed","Marjulised-seenelised","Välisturistid 2015","Looduspuhkus 2015","Looduspuhkus 2010"))
 
   fig313_plot <- ggplot(data = fig313_data_melt) +

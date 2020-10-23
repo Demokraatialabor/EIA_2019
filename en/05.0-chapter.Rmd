@@ -81,7 +81,7 @@ fig51_data$scenario_eng[grepl("Stsenaarium 4", fig51_data$scenario)]<-"Scenario 
     scale_colour_manual(values=c("#500e0c", "#a01b17", "#a4d0cd", "#ec6823"))+
     labs(y="Population", x="") +
     scale_x_continuous(breaks=c(2019,2030,2040,2050,2060,2070,2080), expand = c(0, 0), limits=c(2019,2082))+
-    scale_y_continuous(breaks=c(200000,400000,600000,800000,1000000,1200000,1400000), labels = number, expand = c(0, 0), limits=c(0,1400000))+
+    scale_y_continuous(breaks=c(200000,400000,600000,800000,1000000,1200000,1400000), labels = comma, expand = c(0, 0), limits=c(0,1400000))+
     expand_limits (y=0)+
       guides(colour=guide_legend(nrow=4,byrow=TRUE))
 
@@ -279,7 +279,7 @@ fig54_data$variable_eng <- factor(fig54_data$variable_eng, levels = c("Parking s
     facet_wrap(~Linnaosa, nrow=8, strip.position="right") +
     coord_flip() +
     labs(y="sq. m", x="") +
-    scale_y_continuous(labels=function(x) format(x, big.mark = " ", scientific = FALSE), limits=c(0,3000000), breaks=c(0, 1250000,2500000)) +
+    scale_y_continuous(labels=function(x) format(x, big.mark = ",", scientific = FALSE), limits=c(0,3000000), breaks=c(0, 1250000,2500000)) +
     scale_fill_manual(values=c("#500e0c", "#a01b17", "#ce2e26", "#da702d","#3c2754","#664a92", "#548ea4", "#bfd3d8"),guide = guide_legend(reverse = TRUE)) +
       guides(fill=guide_legend(nrow=4,byrow=TRUE))
 

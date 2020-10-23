@@ -88,7 +88,7 @@ names(fig442_data_cleaned)[names(fig442_data_cleaned) == "Freq"] <- "Frequency"
 
   fig442_plot <- ggplot(data = fig442_data_cleaned) +
     geom_line(mapping = aes(x=date, y=Frequency),group="date", size=.75, colour="#BC9417") +
-    scale_x_date(date_breaks="2 months",date_labels =  "%d.%m.%y") +
+    scale_x_date(date_breaks="2 months",date_labels =  "%d.%m.%Y") +
     labs(y="Frequency", x="")
 
     fig442_theme <- theme(

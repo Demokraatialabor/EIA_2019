@@ -13,6 +13,7 @@ lang: et
 
 <div class="cover-container">
 <div id="cover-hero">
+<div><a class="lang-btn" href="en/index.html">in English</a></div>
 <h1>Eesti inimarengu aruanne 2019/2020</h1>
 <h2>Linnastunud ühiskonna ruumilised valikud</h2>
 

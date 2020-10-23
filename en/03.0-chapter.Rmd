@@ -116,7 +116,7 @@ library("tidyverse")
 ```
 </div>
 ``` {block, type='figure-comment'}
-<span class="figure-comment-start">Note:</span> The correlation is based on data from the UN Development Programme (http://hdr.undp.org/en/data) for the human development index (HDI) and data from Wendling et al. (2018) for ecosystem vitality (ECO). In the case of ECO, the average start year (2005; source data 2001–2007) and end year (2014; source data 2010–2017) have been calculated as the weighted mean of the components of the index; the HDI (2014) has been correlated with the end year. The line indicates the ECO level in the Estonian Human Development Report 2014/2015 ([Terasmaa and Pajula 2015](#Terasmaa2015)); the level has not been adjusted retrospectively and the year for which this level is valid was unspecified.
+<span class="figure-comment-start">Note:</span> The correlation is based on data from the [UN Development Programme](http://hdr.undp.org/en/data) for the human development index (HDI) and data from Wendling et al. (2018) for ecosystem vitality (ECO). In the case of ECO, the average start year (2005; source data 2001–2007) and end year (2014; source data 2010–2017) have been calculated as the weighted mean of the components of the index; the HDI (2014) has been correlated with the end year. The line indicates the ECO level in the Estonian Human Development Report 2014/2015 ([Terasmaa and Pajula 2015](#Terasmaa2015)); the level has not been adjusted retrospectively and the year for which this level is valid was unspecified.
 ```
 
 ``` {block, type='imgsource'}

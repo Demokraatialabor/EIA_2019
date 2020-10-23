@@ -115,24 +115,24 @@ library(raster)      # classes and functions for raster data
 library(tmap)
 library(svglite)
 
-Asutusüksused <- st_read(dsn ="../data/15_fig3_data/EKSPORT_3301-N0RqvBQsFGT19Q0M-t7.shp")
-head(as.data.frame(Asutusüksused))
+Settlements <- st_read(dsn ="../data/15_fig3_data/EKSPORT_3301-N0RqvBQsFGT19Q0M-t7.shp")
+head(as.data.frame(Settlements))
 
-Asutusüksused$VAARTUS <- as.numeric(as.factor(Asutusüksused$VAARTUS)) -1
+Settlements$VAARTUS <- as.numeric(as.factor(Settlements$VAARTUS)) -1
 
-names(Asutusüksused)[names(Asutusüksused) == "VAARTUS"] <- "Residents with good access (%)"
+names(Settlements)[names(Settlements) == "VAARTUS"] <- "Residents with good access (%)"
 
-Maanteed <- st_read(dsn ="../data/15_fig3_data/tee.shp")
-head(as.data.frame(Maanteed))
+Roads <- st_read(dsn ="../data/15_fig3_data/tee.shp")
+head(as.data.frame(Roads))
 
-Maanteed <- subset (Maanteed, TYYP != c("Tänav"), select=c(NIMETUS,TYYP, geometry))
-Maanteed <- subset (Maanteed, TYYP != c("Kõrvalmaantee"), select=c(NIMETUS,TYYP, geometry))
-Maanteed <- subset (Maanteed, TYYP != c("Muu tee"), select=c(NIMETUS,TYYP, geometry))
-Maanteed <- subset (Maanteed, TYYP != c("Ramp või ühendustee"), select=c(NIMETUS,TYYP, geometry))
+Roads <- subset (Roads, TYYP != c("Tänav"), select=c(NIMETUS,TYYP, geometry))
+Roads <- subset (Roads, TYYP != c("Kõrvalmaantee"), select=c(NIMETUS,TYYP, geometry))
+Roads <- subset (Roads, TYYP != c("Muu tee"), select=c(NIMETUS,TYYP, geometry))
+Roads <- subset (Roads, TYYP != c("Ramp või ühendustee"), select=c(NIMETUS,TYYP, geometry))
 
-Maanteed$TYYP <- "Main and support roads"
+Roads$TYYP <- "Main and support roads"
 
-fig_153_plot <- tm_shape(Asutusüksused) +
+fig_153_plot <- tm_shape(Settlements) +
     tm_fill("Residents with good access (%)", title="Residents with good access to public transport (%)", popup.vars="Residents with good access (%)",id="NIMI", breaks=c(0,1,25,50,75,100), palette = c("#E6E3DA", "#DAD4E6","#B6A8CD", "#917DB5","#482683")) +
     tm_borders(col="white", alpha=0) +
 
@@ -142,7 +142,7 @@ fig_153_plot <- tm_shape(Asutusüksused) +
       legend.format=list(text.separator="..."),
       frame = FALSE) +
 
-    tm_shape(Maanteed) + tm_lines(col = "TYYP", legend.col.show = TRUE,palette = c("#3A404A", "#3A404A"), title.col="",popup.vars=NULL) +
+    tm_shape(Roads) + tm_lines(col = "TYYP", legend.col.show = TRUE,palette = c("#3A404A", "#3A404A"), title.col="",popup.vars=NULL) +
 
       tm_view (
         set.zoom.limits = c(7, 16),
@@ -408,7 +408,7 @@ fig157_data2$variable_eng <- factor ( fig157_data2$variable_eng, levels = c("Ave
                          "<br>", value,
                          "<br>", year)), size=0.75) +
     scale_colour_manual(values=c("#369B9E","#482683")) +
-    labs(y="", x="aasta") +
+    labs(y="", x="") +
     scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017), expand = c(0, 0), limits=c(1997,2017.5)) +
     scale_y_continuous(breaks=c(5, 10,15,20,25), expand = c(0, 0), limits=c(0,25)) +
     expand_limits (y=0)

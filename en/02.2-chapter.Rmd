@@ -241,7 +241,7 @@ library("tidyverse")
     geom_bar(data = fig225_data, mapping = aes(x=type_eng, y=sum, fill=type), width=0.4, stat="identity") +
     scale_fill_manual(values=c("#369b9e","#a18bbb")) +
     labs(y="", x="")+
-    scale_y_continuous(labels = number)
+    scale_y_continuous(labels = comma)
 
   fig225_theme <- theme(
     legend.position=0,
@@ -252,7 +252,7 @@ library("tidyverse")
 
   print(fig225_plot + fig_theme_general + fig225_theme)
 
-  ggsave(path="../exported_figures/PDF/chapter2",filename="fig225.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
+  #ggsave(path="../exported_figures/PDF/chapter2",filename="fig225.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
 
 ``` {block, type='imgsource'}
@@ -280,11 +280,11 @@ fig226_data$type_eng <- factor (fig226_data$type_eng, levels = c("Total applicat
   fig226_plot <- ggplot(data = fig226_data) +
     geom_line(mapping = aes(x=year, y = value, colour=type_eng, group=type_eng, text = paste("", type_eng,
                          "<br>", year,
-                         "<br>", value,"€")), size=0.75) +
+                         "<br>", scales::comma(value),"€")), size=0.75) +
     scale_colour_manual(values=c("#a18bbb","#369b9e"))+
     labs(y="", x="") +
     scale_x_continuous(breaks = c(2004,2006,2008,2010,2012,2014,2016,2018), expand = c(0, 0), limits=c(2004,2018.5))+
-    scale_y_continuous(breaks = c(0,1000000,2000000,3000000,4000000,5000000), labels = number, expand = c(0, 0), limits=c(0,5500000))+
+    scale_y_continuous(breaks = c(0,1000000,2000000,3000000,4000000,5000000), labels = comma, expand = c(0, 0), limits=c(0,5500000))+
     expand_limits (y=0)
 
    fig226_theme <- theme(
@@ -299,7 +299,7 @@ layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
-  ggsave(path="../exported_figures/PDF/chapter2",filename="fig226.pdf", height=90, width=160, units="mm",encoding = "ISOLatin9.enc")
+#ggsave(path="../exported_figures/PDF/chapter2",filename="fig226.pdf", height=90, width=160, units="mm",encoding = "ISOLatin9.enc")
 ```
 </div>
 
@@ -326,6 +326,7 @@ The state’s support for built heritage under its protection is far from suffic
 ```{r, figure227, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
+library("scales")
 
  fig227_data <- read.csv ("../data/22_fig7_data.csv", header=TRUE, fileEncoding="utf-8")
 
@@ -335,11 +336,11 @@ fig227_data$type_eng[grepl("Riigieelarve kulud", fig227_data$type)]<-"State budg
   fig227_plot <- ggplot(data = fig227_data) +
     geom_line(mapping = aes(x=year, y = value, colour=type_eng, group=type_eng, text = paste("", type_eng,
                          "<br>", year,
-                         "<br>", value)), size=0.75) +
+                         "<br>", scales::comma(value))), size=0.75) +
     scale_colour_manual(values=c("#a18bbb","#369b9e"))+
-    labs(y="", x="aasta") +
+    labs(y="", x="") +
     scale_x_continuous(breaks = c(2006,2008,2010,2012,2014,2016,2018), expand = c(0, 0), limits=c(2005,2018.5))+
-    scale_y_continuous(breaks = c(0,2000000,4000000,6000000,8000000,10000000),labels = number, expand = c(0, 0), limits=c(0,11500000)) +
+    scale_y_continuous(breaks = c(0,2000000,4000000,6000000,8000000,10000000),labels = comma, expand = c(0, 0), limits=c(0,11500000)) +
     expand_limits (y=0)
 
    fig227_theme <- theme(

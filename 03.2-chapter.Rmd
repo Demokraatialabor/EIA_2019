@@ -74,7 +74,7 @@ Seda metoodikat on Eestis rakendatud näiteks Tallinna Peatänava 2016. aasta ar
 
 Niimoodi mõõdetud tervisekasu või -kahju on võimalik ümber arvestada ka rahasse. Näiteks on välja arvutatud, et Londoni kesklinna rohealad vähendavad tervisekahju ja kulutusi Suurbritannia haigekassale hinnanguliselt 1,82 miljoni naela väärtuses (<a href="https://www.gov.uk/government/organisations/natural-england">Natural England</a>). Hollandi loodusalade suurendamine praeguselt 13,9%-lt territooriumist 10% võrra aitaks aastas ära hoida ligikaudu 84 000 perearsti poole pöördumist ja säästa 65 miljonit eurot haigekassa kulutustelt (<a href="https://home.kpmg/nl/nl/home.html">www.kpmg.nl</a>).
 
-<p class="caption" id="figure323"><span class="figure-number">Joonis 3.2.3.</span> Tallinna kesklinna peenosakeste (PM10) aasta keskmine sisaldus (μg/m3) ja müratase (dB(A)) päeval (Ld 7.00–23.00)</p>
+<p class="caption" id="figure323"><span class="figure-number">Joonis 3.2.3.</span> Tallinna kesklinna peenosakeste (PM10) aasta keskmine sisaldus (μg/m<sup>3</sup>) ja müratase (dB(A)) päeval (Ld 7.00–23.00)</p>
 
 ```{r, figure323, fig.align='center', out.width='90%', echo=FALSE, message=FALSE, warning=FALSE}
 

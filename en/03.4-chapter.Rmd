@@ -266,12 +266,13 @@ fig344_data$variable_eng <- factor(fig344_data$variable_eng, levels = c("Number 
 
   fig344_plot <- ggplot() +
     geom_line(data = fig344_data, mapping = aes(x=year, y=as.numeric(value), group=variable_eng, colour=variable_eng, text = paste("", year,
-                         "<br>", value)), size=0.75) +
+                         "<br>", scales::comma(value))), size=0.75) +
     labs(y="", x="") +
     expand_limits (y=0) +
     scale_x_continuous(expand = c(0, 0), limits=c(2008,2017.5), breaks=c(2009,2011,2013,2015,2017)) +
     facet_wrap(~variable_eng, nrow=4, strip.position="left", scales = "free_y") +
-    scale_colour_manual(values=c("#79ac2c", "#5b8121", "#79ac2c", "#5b8121"),guide = guide_legend(reverse = TRUE))
+    scale_colour_manual(values=c("#79ac2c", "#5b8121", "#79ac2c", "#5b8121"),guide = guide_legend(reverse = TRUE)) +
+    scale_y_continuous(labels = comma)
 
   fig344_theme <- theme (
     legend.position="none",

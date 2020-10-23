@@ -230,7 +230,7 @@ Parima eksperditeadmise nähtavale toomine ja sellele kasutusse aitamine on pide
 
 <p id="Open2011">Open Government Declaration. 2011. https://www.opengovpartnership.org/process/joining-ogp/open-government-declaration/</p>
 
-<p id="Saarts2018">Saarts, T. 2018. Hüvasti, postikommunistlik Eesti! – Sirp, 14.12.2018.</p>
+<p id="Saarts2018">Saarts, T. 2018. Hüvasti, postkommunistlik Eesti! – Sirp, 14.12.2018.</p>
 
 <p id="Saastev2005">Säästev Eesti 21. Tallinn: Eesti Keskkonnaministeerium, 2005.</p>
 

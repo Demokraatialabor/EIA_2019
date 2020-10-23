@@ -13,6 +13,7 @@ lang: en
 
 <div class="cover-container">
 <div id="cover-hero">
+<div><a class="lang-btn" href="../index.html">eesti keeles</a></div>
 <h1>Estonian Human Development Report 2019/2020</h1>
 <h2>Spatial Choices for an Urbanised Society</h2>
 
@@ -1342,7 +1343,7 @@ library(svglite)
 Maakonnad <- st_read(dsn ="../data/12_fig1_data/maakond_20200101.shp")
 head(as.data.frame(Maakonnad))
 Maakonnad <- Maakonnad[order(Maakonnad$MNIMI),]
-Maakonnad$MNIMI <- c("Harju county", "Hiiu county", "Ida-Viru county", "Järva county", "Jõgeva county", "Lääne county", "Lääne-Viru county", "Pärnu county", "Põlva county", "Rapla county", "Saare county", "Tartu county", "Valga county", "Viljandi county", "Võru county")
+Maakonnad$MNIMI <- c("Harjumaa county", "Hiiumaa county", "Ida-Virumaa county", "Järvamaa county", "Jõgevamaa county", "Läänemaa county", "Lääne-Virumaa county", "Pärnumaa county", "Põlvamaa county", "Raplamaa county", "Saaremaa county", "Tartumaa county", "Valgamaa county", "Viljandimaa county", "Võrumaa county")
 
 fig_data <- read.csv("../data/12_fig1_data/fig_121_data.csv", header=TRUE, sep=";")
 fig_data <- fig_data[order(fig_data$county_est),]
@@ -1417,6 +1418,7 @@ Even though the main changes in agricultural employment occurred already in the 
 
 library("tidyverse")
 library("svglite")
+library("scales")
 
   fig122_data <- read.csv ("../data/12_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
 
@@ -1424,6 +1426,7 @@ library("svglite")
   geom_col(mapping = aes(x=county, y=value, fill=location_est), width=0.7) +
   facet_wrap(~year, nrow=1) +
   labs(y="Number of jobs", x="", fill="Location of jobs") +
+  scale_y_continuous(labels = comma) +
   scale_fill_manual(values=c("#482683", "#917db5", "#369B9E"), labels = c("In county of residence", "Elsewhere in Estonia", "Outside Estonia"))
 
  fig122_theme <- theme(
@@ -1689,12 +1692,12 @@ library("plotly")
 
 
   fig131_plot <- ggplot(subset(fig131_data, area_eng %in% c("Tallinn suburbs", "Tartu suburbs", "Pärnu suburbs"))) +
-    geom_line(mapping = aes(colour=area_eng, x=year, y = value, group = area_eng, text = paste("", value,
+    geom_line(mapping = aes(colour=area_eng, x=year, y = value, group = area_eng, text = paste("", scales::comma(value),
                          "<br>", area_eng,
                          "<br>", year)), size=1) +
     #geom_text(mapping = aes(x=year, y=as.numeric(value), label=value), stat="identity", vjust=-1, size=2) +
     scale_colour_manual(values=c("#3A404A","#482683","#369B9E")) +
-    scale_y_continuous(expand = c(0, 0), limits=c(0,100000)) +
+    scale_y_continuous(expand = c(0, 0), limits=c(0,100000), labels = comma) +
     scale_x_continuous(breaks=c(2001,2006,2011,2015,2016,2017,2018),expand = c(0, 0), limits=c(2000,2018.5)) +
     labs(y="Number of suburban residents", x="")
     expand_limits (y=0)
@@ -1740,6 +1743,7 @@ In addition to changes in places of residence, suburban commuting has also been 
 ```{r, figure132, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warnings=FALSE}
 
 library("tidyverse")
+library("scales")
 
  fig132_data <- read.csv ("../data/13_fig2_data.csv", header=TRUE, fileEncoding="utf-8")
 
@@ -1747,10 +1751,11 @@ fig132_data$area_eng <- factor(fig132_data$area_eng, levels = c("Tallinn","Talli
 
   fig132_plot <- ggplot(data = fig132_data) +
     geom_col(mapping = aes(x=area_eng, y=value, fill=area_eng), width=0.7) +
-    geom_text(aes(label = value, x=area_eng, y=value), nudge_x = 0, nudge_y = 2500, color="#777777") +
+    geom_text(aes(label = scales::comma(value), x=area_eng, y=value), nudge_x = 0, nudge_y = 2500, color="#777777") +
     labs(y="%", x="") +
     labs(y="", x="", fill="") +
-    scale_fill_manual(values=c("#482683", "#482683", "#917db5","#917db5","#369B9E","#369B9E", "#abd9d6"))
+    scale_fill_manual(values=c("#482683", "#482683", "#917db5","#917db5","#369B9E","#369B9E", "#abd9d6")) +
+    scale_y_continuous(labels = comma)
 
 
    fig132_theme <- theme(
@@ -1798,12 +1803,13 @@ fig133_data_clean$area_eng <- factor (fig133_data_clean$area_eng, levels = c("Ta
   fig133_plot <- ggplot(fig133_data_clean) +
     geom_line(mapping = aes(x=year, y = as.numeric(value), colour=area_eng, group=area_eng, text = paste("", area_eng,
                          "<br>", year,
-                         "<br>", value)), size=1) +
+                         "<br>", scales::comma(value))), size=1) +
     #scale_x_continuous(expand = c(0, 0), limits=c(2002,2018)) +
     scale_y_continuous (expand = c(0, 0), limits=c(0,3200)) +
     labs(y="Number of new dwellings", x="") +
     expand_limits (y=0) +
-    scale_colour_manual(values=c("#482683", "#917db5","#369B9E", "#abd9d6","#03bdf2","#b1e0f9"), labels=c("Tallinn","Tallinn suburbs", "Tartu","Tartu suburbs","Pärnu","Pärnu suburbs"))
+    scale_colour_manual(values=c("#482683", "#917db5","#369B9E", "#abd9d6","#03bdf2","#b1e0f9"), labels=c("Tallinn","Tallinn suburbs", "Tartu","Tartu suburbs","Pärnu","Pärnu suburbs")) +
+    scale_y_continuous(labels = comma)
 
    fig133_theme <- theme(
         axis.text.x = element_text(angle=45, margin = margin(t = 7, r = 0, b = 0, l = 0), hjust=1.1),
@@ -2782,24 +2788,24 @@ library(raster)      # classes and functions for raster data
 library(tmap)
 library(svglite)
 
-Asutusüksused <- st_read(dsn ="../data/15_fig3_data/EKSPORT_3301-N0RqvBQsFGT19Q0M-t7.shp")
-head(as.data.frame(Asutusüksused))
+Settlements <- st_read(dsn ="../data/15_fig3_data/EKSPORT_3301-N0RqvBQsFGT19Q0M-t7.shp")
+head(as.data.frame(Settlements))
 
-Asutusüksused$VAARTUS <- as.numeric(as.factor(Asutusüksused$VAARTUS)) -1
+Settlements$VAARTUS <- as.numeric(as.factor(Settlements$VAARTUS)) -1
 
-names(Asutusüksused)[names(Asutusüksused) == "VAARTUS"] <- "Residents with good access (%)"
+names(Settlements)[names(Settlements) == "VAARTUS"] <- "Residents with good access (%)"
 
-Maanteed <- st_read(dsn ="../data/15_fig3_data/tee.shp")
-head(as.data.frame(Maanteed))
+Roads <- st_read(dsn ="../data/15_fig3_data/tee.shp")
+head(as.data.frame(Roads))
 
-Maanteed <- subset (Maanteed, TYYP != c("Tänav"), select=c(NIMETUS,TYYP, geometry))
-Maanteed <- subset (Maanteed, TYYP != c("Kõrvalmaantee"), select=c(NIMETUS,TYYP, geometry))
-Maanteed <- subset (Maanteed, TYYP != c("Muu tee"), select=c(NIMETUS,TYYP, geometry))
-Maanteed <- subset (Maanteed, TYYP != c("Ramp või ühendustee"), select=c(NIMETUS,TYYP, geometry))
+Roads <- subset (Roads, TYYP != c("Tänav"), select=c(NIMETUS,TYYP, geometry))
+Roads <- subset (Roads, TYYP != c("Kõrvalmaantee"), select=c(NIMETUS,TYYP, geometry))
+Roads <- subset (Roads, TYYP != c("Muu tee"), select=c(NIMETUS,TYYP, geometry))
+Roads <- subset (Roads, TYYP != c("Ramp või ühendustee"), select=c(NIMETUS,TYYP, geometry))
 
-Maanteed$TYYP <- "Main and support roads"
+Roads$TYYP <- "Main and support roads"
 
-fig_153_plot <- tm_shape(Asutusüksused) +
+fig_153_plot <- tm_shape(Settlements) +
     tm_fill("Residents with good access (%)", title="Residents with good access to public transport (%)", popup.vars="Residents with good access (%)",id="NIMI", breaks=c(0,1,25,50,75,100), palette = c("#E6E3DA", "#DAD4E6","#B6A8CD", "#917DB5","#482683")) +
     tm_borders(col="white", alpha=0) +
 
@@ -2809,7 +2815,7 @@ fig_153_plot <- tm_shape(Asutusüksused) +
       legend.format=list(text.separator="..."),
       frame = FALSE) +
 
-    tm_shape(Maanteed) + tm_lines(col = "TYYP", legend.col.show = TRUE,palette = c("#3A404A", "#3A404A"), title.col="",popup.vars=NULL) +
+    tm_shape(Roads) + tm_lines(col = "TYYP", legend.col.show = TRUE,palette = c("#3A404A", "#3A404A"), title.col="",popup.vars=NULL) +
 
       tm_view (
         set.zoom.limits = c(7, 16),
@@ -3075,7 +3081,7 @@ fig157_data2$variable_eng <- factor ( fig157_data2$variable_eng, levels = c("Ave
                          "<br>", value,
                          "<br>", year)), size=0.75) +
     scale_colour_manual(values=c("#369B9E","#482683")) +
-    labs(y="", x="aasta") +
+    labs(y="", x="") +
     scale_x_continuous(breaks=c(1997, 1999,2001,2003,2005,2007,2009,2011,2013,2015,2017), expand = c(0, 0), limits=c(1997,2017.5)) +
     scale_y_continuous(breaks=c(5, 10,15,20,25), expand = c(0, 0), limits=c(0,25)) +
     expand_limits (y=0)
@@ -3845,7 +3851,7 @@ library("tidyverse")
     geom_bar(data = fig225_data, mapping = aes(x=type_eng, y=sum, fill=type), width=0.4, stat="identity") +
     scale_fill_manual(values=c("#369b9e","#a18bbb")) +
     labs(y="", x="")+
-    scale_y_continuous(labels = number)
+    scale_y_continuous(labels = comma)
 
   fig225_theme <- theme(
     legend.position=0,
@@ -3856,7 +3862,7 @@ library("tidyverse")
 
   print(fig225_plot + fig_theme_general + fig225_theme)
 
-  ggsave(path="../exported_figures/PDF/chapter2",filename="fig225.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
+  #ggsave(path="../exported_figures/PDF/chapter2",filename="fig225.pdf", height=120, width=200, units="mm",encoding = "ISOLatin9.enc")
 ```
 
 ``` {block, type='imgsource'}
@@ -3884,11 +3890,11 @@ fig226_data$type_eng <- factor (fig226_data$type_eng, levels = c("Total applicat
   fig226_plot <- ggplot(data = fig226_data) +
     geom_line(mapping = aes(x=year, y = value, colour=type_eng, group=type_eng, text = paste("", type_eng,
                          "<br>", year,
-                         "<br>", value,"€")), size=0.75) +
+                         "<br>", scales::comma(value),"€")), size=0.75) +
     scale_colour_manual(values=c("#a18bbb","#369b9e"))+
     labs(y="", x="") +
     scale_x_continuous(breaks = c(2004,2006,2008,2010,2012,2014,2016,2018), expand = c(0, 0), limits=c(2004,2018.5))+
-    scale_y_continuous(breaks = c(0,1000000,2000000,3000000,4000000,5000000), labels = number, expand = c(0, 0), limits=c(0,5500000))+
+    scale_y_continuous(breaks = c(0,1000000,2000000,3000000,4000000,5000000), labels = comma, expand = c(0, 0), limits=c(0,5500000))+
     expand_limits (y=0)
 
    fig226_theme <- theme(
@@ -3903,7 +3909,7 @@ layout(legend = list(orientation = "h",y = 1.15)) %>%
 layout(xaxis = list(fixedrange = TRUE)) %>%
 layout(yaxis = list(fixedrange = TRUE))
 
-  ggsave(path="../exported_figures/PDF/chapter2",filename="fig226.pdf", height=90, width=160, units="mm",encoding = "ISOLatin9.enc")
+#ggsave(path="../exported_figures/PDF/chapter2",filename="fig226.pdf", height=90, width=160, units="mm",encoding = "ISOLatin9.enc")
 ```
 </div>
 
@@ -3930,6 +3936,7 @@ The state’s support for built heritage under its protection is far from suffic
 ```{r, figure227, fig.asp=.75, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 
 library("tidyverse")
+library("scales")
 
  fig227_data <- read.csv ("../data/22_fig7_data.csv", header=TRUE, fileEncoding="utf-8")
 
@@ -3939,11 +3946,11 @@ fig227_data$type_eng[grepl("Riigieelarve kulud", fig227_data$type)]<-"State budg
   fig227_plot <- ggplot(data = fig227_data) +
     geom_line(mapping = aes(x=year, y = value, colour=type_eng, group=type_eng, text = paste("", type_eng,
                          "<br>", year,
-                         "<br>", value)), size=0.75) +
+                         "<br>", scales::comma(value))), size=0.75) +
     scale_colour_manual(values=c("#a18bbb","#369b9e"))+
-    labs(y="", x="aasta") +
+    labs(y="", x="") +
     scale_x_continuous(breaks = c(2006,2008,2010,2012,2014,2016,2018), expand = c(0, 0), limits=c(2005,2018.5))+
-    scale_y_continuous(breaks = c(0,2000000,4000000,6000000,8000000,10000000),labels = number, expand = c(0, 0), limits=c(0,11500000)) +
+    scale_y_continuous(breaks = c(0,2000000,4000000,6000000,8000000,10000000),labels = comma, expand = c(0, 0), limits=c(0,11500000)) +
     expand_limits (y=0)
 
    fig227_theme <- theme(
@@ -4532,7 +4539,7 @@ library("tidyverse")
 ```
 </div>
 ``` {block, type='figure-comment'}
-<span class="figure-comment-start">Note:</span> The correlation is based on data from the UN Development Programme (http://hdr.undp.org/en/data) for the human development index (HDI) and data from Wendling et al. (2018) for ecosystem vitality (ECO). In the case of ECO, the average start year (2005; source data 2001–2007) and end year (2014; source data 2010–2017) have been calculated as the weighted mean of the components of the index; the HDI (2014) has been correlated with the end year. The line indicates the ECO level in the Estonian Human Development Report 2014/2015 ([Terasmaa and Pajula 2015](#Terasmaa2015)); the level has not been adjusted retrospectively and the year for which this level is valid was unspecified.
+<span class="figure-comment-start">Note:</span> The correlation is based on data from the [UN Development Programme](http://hdr.undp.org/en/data) for the human development index (HDI) and data from Wendling et al. (2018) for ecosystem vitality (ECO). In the case of ECO, the average start year (2005; source data 2001–2007) and end year (2014; source data 2010–2017) have been calculated as the weighted mean of the components of the index; the HDI (2014) has been correlated with the end year. The line indicates the ECO level in the Estonian Human Development Report 2014/2015 ([Terasmaa and Pajula 2015](#Terasmaa2015)); the level has not been adjusted retrospectively and the year for which this level is valid was unspecified.
 ```
 
 ``` {block, type='imgsource'}
@@ -4787,10 +4794,11 @@ fig312_plot_palette <- c("#b8ddea","#44a1b1","#388085","#8d76ad","#79AC2C","#5B8
   fig312_plot2 <- ggplot(data = fig312_data2) +
     geom_bar(mapping = aes(x=park_eng, y=visitors, fill=year, text = paste("", park_eng,
                          "<br>", year,
-                         "<br>", visitors)), width=0.7, stat="identity", position="dodge") +
+                         "<br>", scales::comma(visitors))), width=0.7, stat="identity", position="dodge") +
     scale_fill_manual(values=fig312_plot_palette) +
     labs(y="Number of visits", x="") +
-    scale_x_discrete(labels=fig312_plot2_labels)
+    scale_x_discrete(labels=fig312_plot2_labels) +
+    scale_y_continuous(labels=comma) 
 
   fig312_theme <- theme(
       text = element_text(color = "#292b2c", family="Montserrat"),
@@ -4855,7 +4863,7 @@ library("reshape")
 
  fig313_data_melt <- melt (fig313_data, id=c("vanus"))
 
-fig313_data_melt$vanus <- factor(fig313_data_melt$vanus, levels = c("75+","60-74","50-59","40-49","30-39","20-29","15-19"))
+fig313_data_melt$vanus <- factor(fig313_data_melt$vanus, levels = c("75+","60–74","50–59","40–49","30–39","20–29","15–19"))
 
 fig313_data_melt$variable_eng[grepl("Looduspuhkus 2010", fig313_data_melt$variable)]<-"Nature visits 2010"
 fig313_data_melt$variable_eng[grepl("Looduspuhkus 2015", fig313_data_melt$variable)]<-"Nature visits 2015"
@@ -5791,12 +5799,13 @@ fig344_data$variable_eng <- factor(fig344_data$variable_eng, levels = c("Number 
 
   fig344_plot <- ggplot() +
     geom_line(data = fig344_data, mapping = aes(x=year, y=as.numeric(value), group=variable_eng, colour=variable_eng, text = paste("", year,
-                         "<br>", value)), size=0.75) +
+                         "<br>", scales::comma(value))), size=0.75) +
     labs(y="", x="") +
     expand_limits (y=0) +
     scale_x_continuous(expand = c(0, 0), limits=c(2008,2017.5), breaks=c(2009,2011,2013,2015,2017)) +
     facet_wrap(~variable_eng, nrow=4, strip.position="left", scales = "free_y") +
-    scale_colour_manual(values=c("#79ac2c", "#5b8121", "#79ac2c", "#5b8121"),guide = guide_legend(reverse = TRUE))
+    scale_colour_manual(values=c("#79ac2c", "#5b8121", "#79ac2c", "#5b8121"),guide = guide_legend(reverse = TRUE)) +
+    scale_y_continuous(labels = comma)
 
   fig344_theme <- theme (
     legend.position="none",
@@ -6828,7 +6837,7 @@ names(fig442_data_cleaned)[names(fig442_data_cleaned) == "Freq"] <- "Frequency"
 
   fig442_plot <- ggplot(data = fig442_data_cleaned) +
     geom_line(mapping = aes(x=date, y=Frequency),group="date", size=.75, colour="#BC9417") +
-    scale_x_date(date_breaks="2 months",date_labels =  "%d.%m.%y") +
+    scale_x_date(date_breaks="2 months",date_labels =  "%d.%m.%Y") +
     labs(y="Frequency", x="")
 
     fig442_theme <- theme(
@@ -6990,7 +6999,7 @@ Presenting the best expert knowledge and facilitating its use is a constant chal
 
 Changes in the living environment are related to changes in the world and our ability to adapt to them. Factors influencing the development of our living environment include climate change, international corporations and politics, new technologies and services, as well as the ageing population and urbanisation. In reshaping our living environment, we must bear in mind that we cannot reverse what is already done as this would take decades, be costly and complicated. Therefore, choices affecting the living environment must rest on an understanding of the long-term impact on the quality of the living environment.
 
-* Estonia faces a spatial choice: either to continue developing a liberal living environment with amenities only for those who are financially unburdened, or a more inclusive living environment that focuses on improving well-being for all.
+* Estonia faces a spatial choice: either to continue developing a liberal living environment with amenities only for those who are financially unburdened or to develop a more inclusive living environment that focuses on improving well-being for all.
 
 To aid in this choice, four scenarios are presented in this chapter that illustrate the changes taking place in the world and in Estonia, along with their consequences. The scenarios are narratives that help us envision the future and provide a common basis for discussing it. With the help of these scenarios, we invite the reader to think about the kind of living environment we wish to inhabit in the future, and the kinds of futures we want to avoid.
 ```
@@ -7056,7 +7065,7 @@ fig51_data$scenario_eng[grepl("Stsenaarium 4", fig51_data$scenario)]<-"Scenario 
     scale_colour_manual(values=c("#500e0c", "#a01b17", "#a4d0cd", "#ec6823"))+
     labs(y="Population", x="") +
     scale_x_continuous(breaks=c(2019,2030,2040,2050,2060,2070,2080), expand = c(0, 0), limits=c(2019,2082))+
-    scale_y_continuous(breaks=c(200000,400000,600000,800000,1000000,1200000,1400000), labels = number, expand = c(0, 0), limits=c(0,1400000))+
+    scale_y_continuous(breaks=c(200000,400000,600000,800000,1000000,1200000,1400000), labels = comma, expand = c(0, 0), limits=c(0,1400000))+
     expand_limits (y=0)+
       guides(colour=guide_legend(nrow=4,byrow=TRUE))
 
@@ -7106,13 +7115,13 @@ Brutotulu$palk <- fig52_data$Väärtus
 
 names(Brutotulu)[names(Brutotulu) == "palk"] <- "Average gross income (euros)"
 
-fig_52_plot <- tm_shape(Brutotulu) + 
+fig_52_plot <- tm_shape(Brutotulu) +
     tm_fill("Average gross income (euros)",title="Average gross income (euros)", palette = c("#E6E3DA","#d7bf74","#a01b17"), breaks=c(925,1043,1075,1107,1144,1209,1349,1711), popup.vars="Average gross income (euros)", id="NIMI") +
-  
+
   tm_borders(col="white") +
-  
+
   tm_text (col="black", text="NIMI",xmod=0) +
-  
+
     tm_layout(
       outer.margins=0, inner.margins=c(.02, .1, .02, .02),asp=1920/1080,
       legend.outside = FALSE,
@@ -7124,7 +7133,7 @@ fig_52_plot <- tm_shape(Brutotulu) +
         set.bounds = c(23.6397953631, 58.9745283067, 26.1316992531,59.8110903998),
         view.legend.position = c("right","bottom"),
       )
-   
+
 tmap_mode("view")
 fig_52_plot
 
@@ -7183,15 +7192,15 @@ The International Air Transport Association ([IATA 2019](#IATA2019)) predicts th
 In Tallinn city centre, the total land area taken up by parking spaces is equal to that taken up by residential buildings and larger than that taken up by office buildings.
 ```
 
-An increasing need for mobility, long distances and the convenience of services are driving the development of new MaaS solutions (e.g. car sharing, short-term car and scooter rental). New MaaS solutions such as car sharing are starting to compete with public transport, mainly due to their greater ease of use. Ride-sharing as a service is not significantly different from a taxi service, but its platform-based and algorithm-driven management means shorter waiting times and often also lower prices. The use of ride-sharing services is growing rapidly: by 4% in two years (from 19% to 23%), according to a recent survey ([Gartner Research 2017](#GartnerResearch2017)). The same survey states that 50% of respondents are willing to give up their private car if they save at least 50% on the cost of owning a car and the ride-sharing car arrives in less than ten minutes. In 2015, the average cost of a private car in Tallinn was 259 euros a month ([TNS Emor, 2015](#TNSEmor2015)) and the Tallinn parking survey ([Cerrone et al. 2019](#Cerrone2019)) shows that Bolt’s ride-sharing service is used in those areas of the city centre with very good public transport connections. The MaaS solution Whim, which operates in Finland, combines different travel options (city bike, public transport, short-term car rental) within one monthly package that is cheaper than the cost of a private car. Part of the issue is the cost of parking: the higher the real estate prices in Tallinn, and especially the city centre ([Land Board 2015](#Maa-amet2015); [Noorkõiv 2015](#Noorkõiv2015)), the more profitable it is to use valuable land – a significant part of which is currently used as car parks – purposefully; that is, for the development of housing. In Tallinn city centre, the total land area taken up by parking spaces is equal to that taken up by residential buildings and larger than that taken up by office buildings ([Cerrone et al. 2019](#Cerrone2019)). The value of the land covered by parking spaces, estimated as the ratio of the number of open air parking spaces (source: Europark) to the value of the last purchase of the land (source: Land Board), varies from an average of 128 euros per parking space in Mustamäe up to 10,789 euros per parking space in the city centre (ibid.). Due to this, the number of parking spaces will decrease and parking fees will rise. Parking as an amenity service will become more and more expensive, especially in the city centre, and lead people to opt for public transport and MaaS solutions to get to the city centre. The first self-driving cars are likely to be geared towards car-sharing services, as this is seen as their main application. It is projected that by 2030, these vehicles could already account for 40% of the annual private use mileage in Europe ([PwC 2018](#PWC2018)). The use of self-driving cars in car-sharing services helps save on labour costs and lower the price of the service even further. This means that public transport services will struggle even more to compete with cars (including car sharing) in terms of ease of use. The advent of self-driving vehicles will also change the use of space; for example, multi-storey car parks will be repurposed and former outdoor car parks developed as housing or converted into public space.
+An increasing need for mobility, long distances and the convenience of services are driving the development of new MaaS solutions (e.g. car sharing, short-term car and scooter rental). New MaaS solutions such as car sharing are starting to compete with public transport, mainly due to their greater ease of use. Ride-sharing as a service is not significantly different from a taxi service, but its platform-based and algorithm-driven management means shorter waiting times and often also lower prices. The use of ride-sharing services is growing rapidly: by 4% in two years (from 19% to 23%), according to a recent survey ([Gartner Research 2017](#GartnerResearch2017)). The same survey states that 50% of respondents are willing to give up their private car if they save at least 50% on the cost of owning a car and the ride-sharing car arrives in less than ten minutes. In 2015, the average cost of a private car in Tallinn was 259 euros a month ([TNS Emor, 2015](#TNSEmor2015)) and the Tallinn parking survey ([Cerrone et al. 2019](#Cerrone2019)) shows that Bolt’s ride-sharing service is used in those areas of the city centre with very good public transport connections. The MaaS solution Whim, which operates in Finland, combines different travel options (city bike, public transport, short-term car rental) within one monthly package that is cheaper than the cost of a private car. Part of the issue is the cost of parking: the higher the real estate prices in Tallinn, and especially the city centre ([Land Board 2015](#Maa-amet2015); [Noorkõiv 2015](#Noorkõiv2015)), the more profitable it is to use valuable land – a significant part of which is currently used as car parks – purposefully; that is, for the development of housing. In Tallinn city centre, the total land area taken up by parking spaces is equal to that taken up by residential buildings and larger than that taken up by office buildings ([Cerrone et al. 2019](#Cerrone2019)). The value of the land covered by parking spaces, estimated as the ratio of the number of open-air parking spaces (source: Europark) to the value of the last purchase of the land (source: Land Board), varies from an average of 128 euros per parking space in Mustamäe up to 10,789 euros per parking space in the city centre (ibid.). Due to this, the number of parking spaces will decrease and parking fees will rise. Parking as an amenity service will become more and more expensive, especially in the city centre, and lead people to opt for public transport and MaaS solutions to get to the city centre. The first self-driving cars are likely to be geared towards car-sharing services, as this is seen as their main application. It is projected that by 2030, these vehicles could already account for 40% of the annual private use mileage in Europe ([PwC 2018](#PWC2018)). The use of self-driving cars in car-sharing services helps save on labour costs and lower the price of the service even further. This means that public transport services will struggle even more to compete with cars (including car sharing) in terms of ease of use. The advent of self-driving vehicles will also change the use of space; for example, multi-storey car parks will be repurposed and former outdoor car parks developed as housing or converted into public space.
 
 <span class="bullet-heading">**Employment relationships will change and remote work will become an important way of working, offering the opportunity to live in a low-density area ([Foresight Centre 2019](#AreguseireKeskus2019)).**</span>
 
 ```{block, type='blockquote-right'}
-Tallinn competes with Stockholm, Helsinki and Riga in terms of the attractiveness of the living and working environment
+Tallinn competes with Stockholm, Helsinki and Riga in terms of the attractiveness of the living and working environment.
 ```
 
-In the European Union, 5% of the working-age population regularly works remotely. The share of remote workers in the Netherlands (13.7%) and Finland (12.7%) is more than twice as high as in Estonia (6%). In Denmark and Sweden, more than half of the employees can use flexible working hours ([Foresight Centre  2018](#AreguseireKeskus2018)). In 2015, 20% of employees in Estonia had worked remotely and the number of those who wished to work remotely increased to 34% ([Ministry of Social Affairs 2017](#Sotsiaalministeerium2017)). In terms of flexible working hours and employee autonomy (30%), Estonia ranks ninth in the European Union. The increasing share of remote work has an impact on the mobility of the population and the use of space. It is therefore not necessary to reside in the vicinity of the workplace, as regular attendance is not expected. The distance between home and work may thus continue to increase. New technologies can further reduce the need to be present at the workplace and remote work will allow for a more flexible and efficient use of office spaces. Working – in terms of working hours, ways of working and working conditions – is becoming more in line with people’s individual needs ([Demos Helsinki 2018](#DemosHelsinki2018)). Due to economic and technological preconditions, the opportunity for part-time remote work is available primarily to the middle class in more affluent societies and regions ([Foresight Centre 2019](#AreguseireKeskus2019)). Jobs are increasingly following the talent – both to vibrant city centres and peaceful, scenic areas ([Demos Helsinki 2018](#DemosHelsinki2018)). Sixty-four per cent of global knowledge economy workers choose their workplace based on location, rather than on organisation ([Pärna 2016](#Pärna2016)). Jobbatical, which facilitates labour migration, and Teleport, which can be used to compare cities suitable for living and working, are new companies with Estonian beginnings that provide an idea of the mobility of working life. Tallinn competes with Stockholm, Helsinki and Riga in terms of the attractiveness of the living and working environment ([ibid.](#Pärna2016)). Remote work opportunities and the following of talent may give Estonia’s low-density remote areas a development advantage over large centres, but gains for specific settlements and regions depend on the quality of the living environment they are able to provide ([Foresight Centre 2019](#AreguseireKeskus2019)).
+In the European Union, 5% of the working-age population regularly works remotely. The share of remote workers in the Netherlands (13.7%) and Finland (12.7%) is more than twice as high as in Estonia (6%). In Denmark and Sweden, more than half of the employees can use flexible working hours ([Foresight Centre 2018](#AreguseireKeskus2018)). In 2015, 20% of employees in Estonia had worked remotely and the number of those who wished to work remotely increased to 34% ([Ministry of Social Affairs 2017](#Sotsiaalministeerium2017)). In terms of flexible working hours and employee autonomy (30%), Estonia ranks ninth in the European Union. The increasing share of remote work has an impact on the mobility of the population and the use of space. It is therefore not necessary to reside in the vicinity of the workplace, as regular attendance is not expected. The distance between home and work may thus continue to increase. New technologies can further reduce the need to be present at the workplace and remote work will allow for a more flexible and efficient use of office spaces. Working – in terms of working hours, ways of working and working conditions – is becoming more in line with people’s individual needs ([Demos Helsinki 2018](#DemosHelsinki2018)). Due to economic and technological preconditions, the opportunity for part-time remote work is available primarily to the middle class in more affluent societies and regions ([Foresight Centre 2019](#AreguseireKeskus2019)). Jobs are increasingly following the talent – both to vibrant city centres and peaceful, scenic areas ([Demos Helsinki 2018](#DemosHelsinki2018)). Sixty-four per cent of global knowledge economy workers choose their workplace based on location, rather than on organisation ([Pärna 2016](#Pärna2016)). Jobbatical, which facilitates labour migration, and Teleport, which can be used to compare cities suitable for living and working, are new companies with Estonian beginnings that provide an idea of the mobility of working life. Tallinn competes with Stockholm, Helsinki and Riga in terms of the attractiveness of the living and working environment ([ibid.](#Pärna2016)). Remote work opportunities and the following of talent may give Estonia’s low-density remote areas a development advantage over large centres, but gains for specific settlements and regions depend on the quality of the living environment they are able to provide ([Foresight Centre 2019](#AreguseireKeskus2019)).
 
 <span class="bullet-heading">**Our mobility is increasingly being monitored and guided by technology.**</span>
 
@@ -7206,10 +7215,10 @@ Three-quarters of the new generation (especially millennials, aged 18–34) want
 <span class="bullet-heading">**The Estonian living environment is shaped by a liberal approach to space, according to which the primary role of public space is to be an arena for consumption and private motorised travel, governed by individual benefits.**</span>
 
 ```{block, type='blockquote-left'}
-Fifty per cent of the area of well-functioning settlements should be used as public space, but few settlements meet this target.
+Half of the area of well-functioning settlements should be used as public space, but few settlements meet this target.
 ```
 
-As of 2016, the leasable floorspace per capita of shopping centres was 2.2 sq. m in the USA, 1.5 sq. m in Canada and 1.0 sq. m in Australia ([Rapp and Helimer 2016](#Rapp2016)). Tallinn has nearly twice as much shopping centre floorspace per capita as the capital cities of the other Baltic countries: 0.8sq. m in Tallinn, 0.5 sq. m in Vilnius and 0.4sq. m in Riga ([Figure 5.3](#figure53); [Cushman & Wakefield 2015](#Cushman2015)). As of the end of 2019, the total commercial floorspace in Tallinn was 1.64 sq. m per capita. In a recent survey of parking in Tallinn ([Cerrone et al. 2019](#Cerrone2019)), the total area occupied by parking spaces, roads and pedestrian space (including footpaths) in various districts of the city was calculated. The total area designated for parking and car traffic is more than twice that reserved for pedestrians. Furthermore, the total area of parking spaces and roads is twice that occupied by residential buildings in most city districts ([Figure 5.4](#figure54)). In the rapidly growing suburbs, even less public space has been planned to be available outside the residential plots ([Leetmaa, this report](#introduction-1)). According to a UN-Habitat study ([2015](#UN-Habitat2015)), 50% of the area of well-functioning settlements should be public space, but few settlements meet this target.
+As of 2016, the leasable floorspace per capita of shopping centres was 2.2 sq. m in the USA, 1.5 sq. m in Canada and 1.0 sq. m in Australia ([Rapp and Helimer 2016](#Rapp2016)). Tallinn has nearly twice as much shopping centre floorspace per capita as the capital cities of the other Baltic countries: 0.8 sq. m in Tallinn, 0.5 sq. m in Vilnius and 0.4sq. m in Riga ([Figure 5.3](#figure53); [Cushman & Wakefield 2015](#Cushman2015)). As of the end of 2019, the total commercial floorspace in Tallinn was 1.64 sq. m per capita. In a recent survey of parking in Tallinn ([Cerrone et al. 2019](#Cerrone2019)), the total area occupied by parking spaces, roads and pedestrian space (including footpaths) in various districts of the city was calculated. The total area designated for parking and car traffic is more than twice that reserved for pedestrians. Furthermore, the total area of parking spaces and roads is twice that occupied by residential buildings in most city districts ([Figure 5.4](#figure54)). In the rapidly growing suburbs, even less public space has been planned to be available outside the residential plots ([Leetmaa, this report](#introduction-1)). According to a UN-Habitat study ([2015](#UN-Habitat2015)), 50% of the area of well-functioning settlements should be public space, but few settlements meet this target.
 
 <p class="caption" id="figure53"><span class="figure-number">Figure 5.3.</span> Floorspace of shopping centres in Tallinn compared to other European cities</p>
 
@@ -7223,7 +7232,7 @@ knitr::include_graphics("../figures/5-chapter/fig53_eng.jpg")
 <span class="imgsource-source">Source:</span> Cushman & Wakefield 2015.
 ```
 
-Drawing a parallel with social media, public space can be described as a giant platform (e.g. like  Facebook). The traditional societal role of public space has been to bring together stakeholders and allow us to meet those who are different from us ([de Waal 2014](#Waal2014)). Just as the fragmentation of online media is a problem when different groups do not want to engage in social dialogue ([Ibrus, this report](#introduction-4)), there is a problem with the democratic functioning of physical space when there is no public space where we can interact with people from different backgrounds and with different views. Therefore, the quality of public space, the ability to offer activities for different age groups and bring people together for common rituals are becoming increasingly important ([Demos Helsinki 2018](#DemosHelsinki2018)).
+Drawing a parallel with social media, public space can be described as a giant platform (e.g. Facebook). The traditional societal role of public space has been to bring together stakeholders and allow us to meet those who are different from us ([de Waal 2014](#Waal2014)). Just as the fragmentation of online media is a problem when different groups do not want to engage in social dialogue ([Ibrus, this report](#introduction-4)), there is a problem with the democratic functioning of physical space when there is no public space where we can interact with people from different backgrounds and with different views. Therefore, the quality of public space, the ability to offer activities for different age groups and bring people together for common rituals are becoming increasingly important ([Demos Helsinki 2018](#DemosHelsinki2018)).
 
 <p class="caption" id="figure54"><span class="figure-number">Figure 5.4.</span> Use of space in Tallinn</p>
 
@@ -7238,7 +7247,7 @@ fig54_data <- melt(fig54_data, id=c("Linnaosa"))
 
 #fig54_data$variable <- factor(fig54_data$variable, levels = c("Parkimiskohtade pindala (20m²/pk)","Parkimiskohtade pindala (25m²/pk)","Parkimiskohtade pindala (30m²/pk)","Parkimiskohtade pindala (40m²/pk)","Tänavavõrgu pindala (m²)","Jalakäija ruumi pindala (m²)","Eluruumide pindala (m²)","Bürooruumide pindala (m²)","Kaubandus- ja teeninduruumide pindala (m²)","Meelelahutus-, haridus- tervishoiu- ja muude avalike ruumide pindala (m²)","Tööstus- ja laoruumide pindala (m²)"))
 
-fig54_data$variable_eng[grepl("Parkimiskohad", fig54_data$variable)]<-"Parking spaces (25m²/pk)"
+fig54_data$variable_eng[grepl("Parkimiskohad", fig54_data$variable)]<-"Parking spaces (25 sq. m)"
 fig54_data$variable_eng[grepl("Tööstus- ja laoruumid", fig54_data$variable)]<-"Industrial and storage facilities"
 fig54_data$variable_eng[grepl("Meelelahutus-, haridus-, tervishoiu- ja muud avalikud ruumid", fig54_data$variable)]<-"Public spaces (entertainment, education, health, etc.)"
 fig54_data$variable_eng[grepl("Kaubandus- ja teenindusruumid", fig54_data$variable)]<-"Commercial and service spaces"
@@ -7247,14 +7256,14 @@ fig54_data$variable_eng[grepl("Eluruumid", fig54_data$variable)]<-"Dwellings"
 fig54_data$variable_eng[grepl("Jalakäijate ruum", fig54_data$variable)]<-"Pedestrian space"
 fig54_data$variable_eng[grepl("Tänavavõrk", fig54_data$variable)]<-"Street network"
 
-fig54_data$variable_eng <- factor(fig54_data$variable_eng, levels = c("Parking spaces (25m²/pk)","Street network","Pedestrian space","Dwellings","Office spaces","Commercial and service spaces","Public spaces (entertainment, education, health, etc.)","Industrial and storage facilities"))
+fig54_data$variable_eng <- factor(fig54_data$variable_eng, levels = c("Parking spaces (25 sq. m)","Street network","Pedestrian space","Dwellings","Office spaces","Commercial and service spaces","Public spaces (entertainment, education, health, etc.)","Industrial and storage facilities"))
 
   fig54_plot <- ggplot(data = fig54_data) +
     geom_col(mapping = aes(x=variable_eng, y = as.numeric(as.character(value)), fill=variable_eng), size=0.7) +
     facet_wrap(~Linnaosa, nrow=8, strip.position="right") +
     coord_flip() +
-    labs(y="m²", x="") +
-    scale_y_continuous(labels=function(x) format(x, big.mark = " ", scientific = FALSE), limits=c(0,3000000), breaks=c(0, 1250000,2500000)) +
+    labs(y="sq. m", x="") +
+    scale_y_continuous(labels=function(x) format(x, big.mark = ",", scientific = FALSE), limits=c(0,3000000), breaks=c(0, 1250000,2500000)) +
     scale_fill_manual(values=c("#500e0c", "#a01b17", "#ce2e26", "#da702d","#3c2754","#664a92", "#548ea4", "#bfd3d8"),guide = guide_legend(reverse = TRUE)) +
       guides(fill=guide_legend(nrow=4,byrow=TRUE))
 
@@ -7280,10 +7289,10 @@ fig54_data$variable_eng <- factor(fig54_data$variable_eng, levels = c("Parking s
 ```
 
 ```{block, type='blockquote-left'}
-Public space is a place where a shared identity can be amplified and recreated through various shared rituals
+Public space is a place where a shared identity can be amplified and recreated through various shared rituals.
 ```
 
-The factors shaping the future of space (including public space) can be divided into two general categories – communal and liberal. The predominance of commercial areas, parking and roads is considered to be one of the symptoms of the dominance of liberal spatial planning  ([de Waal 2014](#Waal2014)). The liberal approach to space is characterised by a high degree of freedom of choice for citizens, while citizens are seen primarily as consumers of various services. According to this approach to space, it is socially acceptable for a citizen to move only in the private sphere (i.e. in a car, not on public transport) or to isolate themselves behind tall fences. The concept of the smart city of the future is also associated mainly with a liberal approach to space, where citizens ‘trade’ their data in return for the opportunity to use space or services ([Rogan 2019](#Rogan2019)). In contrast to the liberal approach to space, community public space can be defined through symbols such as the Song Festival Grounds, as well as the central squares of cities and neighbourhood festivals. The communal approach to space emphasises the shared identity of citizens, not their individual characteristics. Public space is a place where a shared identity can be amplified and recreated through various shared rituals. A communal approach to space is supported, for example, by the Republic of Estonia 100 Good Public Space programme for the renovation of town squares and main streets, and campaign culture, such as the Let’s Do It campaign days, the public hiking trail network, community gardens, as well as municipal participatory budgeting, through which various public space projects have been carried out. The future of public space depends on whether and how a balance is struck between these two ideals – enough freedom and individuality on the one hand and connection to one’s community and culture on the other.
+The factors shaping the future of space (including public space) can be divided into two general categories – communal and liberal. The predominance of commercial areas, parking and roads is considered to be one of the symptoms of the dominance of liberal spatial planning ([de Waal 2014](#Waal2014)). The liberal approach to space is characterised by a high degree of freedom of choice for citizens, while citizens are seen primarily as consumers of various services. According to this approach to space, it is socially acceptable for a citizen to move only in the private sphere (i.e. in a car, not on public transport) or to isolate themselves behind tall fences. The concept of the smart city of the future is also associated mainly with a liberal approach to space, where citizens ‘trade’ their data in return for the opportunity to use space or services ([Rogan 2019](#Rogan2019)). In contrast to the liberal approach to space, community public space can be defined through symbols such as the Song Festival Grounds, as well as the central squares of cities and neighbourhood festivals. The communal approach to space emphasises the shared identity of citizens, not their individual characteristics. Public space is a place where a shared identity can be amplified and recreated through various shared rituals. A communal approach to space is supported, for example, by the Republic of Estonia 100 Good Public Space programme for the renovation of town squares and main streets, and campaign culture, such as the Let’s Do It campaign days, the public hiking trail network, community gardens, as well as municipal participatory budgeting, through which various public space projects have been carried out. The future of public space depends on whether and how a balance is struck between these two ideals – enough freedom and individuality on the one hand and connection to one’s community and culture on the other.
 
 ### *Acknowledgements* {-.chapter5_section #acknowledgements-5}
 
@@ -7303,9 +7312,9 @@ The factors shaping the future of space (including public space) can be divided 
 
 <p id="Luhamaa2014">Luhamaa, A., Kallis, A., Mändla, K., Männik, A., Pedusaar, T., Rosin, K. 2014. Eesti tuleviku kliimastsenaariumid aastani 2100. Tallinn: Keskkonnaagentuur.</p>
 
-<p id="Statistikaamet2019">Statistics Estonia 2019. Rahvastikuprognoos aastani 2080..</p>
+<p id="Statistikaamet2019">Statistics Estonia 2019. Rahvastikuprognoos aastani 2080.</p>
 
-<p id="ÜRO2019a">UN – United Nations 2019a. Revision of World Population Prospects.</p>
+<p id="ÜRO2019a">United Nations 2019a. Revision of World Population Prospects.</p>
 
 ### References {-.subreferences #references-5}
 
@@ -7343,7 +7352,7 @@ The factors shaping the future of space (including public space) can be divided 
 
 <p id="IATA2019">IATA 2019. 20 Year Passenger Forecast.</p>
 
-<p id="Ibrus2019b">Ibrus, I. 2019. Ostes pileteid eesti eludesse – ERR Arvamus, 17 October.</p>
+<p id="Ibrus2019b">Ibrus, I. 2019. Ostes pileteid eesti eludesse. – ERR Arvamus, 17 October.</p>
 
 <p id="Laakso2018">Laakso, S., Loikkainen H. A. 2018. Kaupungistuminen – viimeaikainen ilmiö vai pitkään jatkunut kehityskulku? – Kvartti, 11 May.</p>
 
@@ -7361,7 +7370,7 @@ The factors shaping the future of space (including public space) can be divided 
 
 <p id="Mällo2019">Mällo, T. 2019. Pärast kino läheme õhtust sööma. Kes seda tegelikult otsustab? – Eesti Päevaleht, 26 November.</p>
 
-<p id="Noorkõiv2015">Noorkõiv, R. 2015. Korteriturg regionaalarengu taseme mõõdikuna – Servinski, M., Kivilaid, M., Tischler, G. (eds.). Eesti piirkondlik areng 2015. Tallinn: Statistikaamet, 170–176, 177–181.</p>
+<p id="Noorkõiv2015">Noorkõiv, R. 2015. Korteriturg regionaalarengu taseme mõõdikuna. – Servinski, M., Kivilaid, M., Tischler, G. (eds.). Eesti piirkondlik areng 2015. Tallinn: Statistikaamet, 170–176, 177–181.</p>
 
 <p id="Pärna2016">Pärna, O. (ed.) 2016. Töö ja oskused 2025. Tööjõuvajaduse seire- ja prognoosisüsteem OSKA – OSKuste Arendamise koordinatsioonisüsteemi loomine. Ülevaade olulisematest trendidest ja nende mõjust Eesti tööturule kümne aasta vaates. Tallinn: Sihtasutus Kutsekoda.</p>
 
@@ -7395,11 +7404,11 @@ The factors shaping the future of space (including public space) can be divided 
 
 <p id="TNSEmor2015">TNS Emor 2015. Tallinna elanike liikumisviiside uuring elektrisõidukite lühirendi ja säästva transpordi kasutamise arendamiseks.</p>
 
-<p id="ÜRO2017">UN – United Nations Population Division 2017. Population Facts 2017.</p>
+<p id="ÜRO2017">United Nations Population Division 2017. Population Facts 2017.</p>
 
 <p id="ÜRO2018">United Nations Population Division 2018. The World’s Cities in 2018. Data Booklet.</p>
 
-<p id="ÜRO2019b">UN – United Nations 2019b. Digital Economy Report 2019. Value Creation and Capture: Implications for Developing Countries.</p>
+<p id="ÜRO2019b">United Nations 2019b. Digital Economy Report 2019. Value Creation and Capture: Implications for Developing Countries.</p>
 <p id="UN-Habitat2015">UN-Habitat 2015. United Nations Human Settlements Programme (UN-Habitat). Global Public Space Toolkit: From Global Principles to Local Policies and Practice.</p>
 
 <p id="Wright2013">Wright, G., Cairns, G., Bradfield, R. 2013. Scenario methodology: new developments in theory and practice. Introduction to the Special Issue. – Technological Forecasting and Social Change, 80 (4), 561–565.</p>
@@ -7409,7 +7418,7 @@ The factors shaping the future of space (including public space) can be divided 
 ## Estonia 2050 scenarios {-.chapter_section .chapter5_section }
 
 ```{block, type='authors authors_eng'}
-<div class="author-links">**[Kristi Grišakov](#kristi-grišakov) ja [Mihkel Kaevats](#mihkel-kaevats)** (scenario stories)</div>
+<div class="author-links">**[Kristi Grišakov](#kristi-grišakov) and [Mihkel Kaevats](#mihkel-kaevats)** (scenario stories)</div>
 <div><a class="print-btn" href="../eesti-2050-stsenaariumid.html">EE</a></div>
 ```
 
@@ -7625,7 +7634,7 @@ knitr::include_graphics("../figures/5-chapter/kaart-3.png")
 
 <tr>
 <td align="left" class="future-table-black">Good public space:</td>
-<td align="right" class="future-table-red">privileged, shared or non-existent, according to the capacity of the local government</td>
+<td align="right" class="future-table-red">privileged, shared or non-existent, according to the capacity of local governments</td>
 </tr>
 
 <tr>
@@ -7645,7 +7654,7 @@ knitr::include_graphics("../figures/5-chapter/kaart-3.png")
 
 <tr>
 <td align="left" class="future-table-black">Sustainable development goals:</td>
-<td align="right" class="future-table-red">some of the smaller municipalities have met the goals, the overall picture is poor</td>
+<td align="right" class="future-table-red">some of the smaller municipalities have met the goals; the overall picture is poor</td>
 </tr>
 </tbody></table>
 
@@ -7750,7 +7759,7 @@ knitr::include_graphics('../figures/6-authors/HelenSoovali-Sepping.png')
 
 <div>
 #### Helen Sooväli-Sepping {-.head-editor-name}
-is the Vice-Rector of Sustainable Development, Professor of Environmental Studies and Senior Researcher of Cultural Geography at Tallinn University. She is responsible for the master’s programmes in environmental studies and urban planning at the university. Her main research topics are spatial and landscape planning. Currently, she is most interested in cultural and community aspects, as well as sustainable development and resilience in urban and rural areas, environmental policy and civic studies.
+is the Vice-Rector of Sustainable Development, Professor of Environmental Studies and Senior Researcher of Cultural Geography at Tallinn University. She is responsible for the master’s programmes in environmental studies and urban planning at the university. Her main research topics are spatial and landscape planning. Currently, she is most interested in cultural and community aspects, as well as sustainable development and resilience in urban and rural areas, environmental policy, and civic studies.
 
 </div>
 </div>
@@ -7885,7 +7894,7 @@ knitr::include_graphics('../figures/6-authors/RaulKalvo.png')
 
 <div>
 #### Raul Kalvo {-.author-name}
-is an architect, founder of the company inphysica technology, and a lecturer of Digital Geometry at the Estonian Academy of Arts. His main interest is decision-making related to spatial data, and the resulting software development. The most wide-spread of these is the Urban Network Analysis toolbox for Rhino. He is involved in several mobility research and strategy projects in Estonia and environmental health impact assessments in Finland. In addition to research, he is involved in projects ranging from interior architecture to urban development.
+is an architect, founder of the company inphysica technology, and Lecturer of Digital Geometry at the Estonian Academy of Arts. His main interest is decision-making related to spatial data, and the resulting software development. The most wide-spread of these is the Urban Network Analysis toolbox for Rhino. He is involved in several mobility research and strategy projects in Estonia and environmental health impact assessments in Finland. In addition to research, he is involved in projects ranging from interior architecture to urban development.
 
 </div>
 </div>
@@ -8025,7 +8034,7 @@ knitr::include_graphics('../figures/6-authors/ArkoOlesk.png')
 
 <div>
 #### Arko Olesk {-.author-name}
-is a research journalist and a lecturer of Research Communication at the Baltic Film, Media, Arts and Communication School, Tallinn University. His main research topic is researcher interaction with the press; he is also interested in innovation communication and environmental communication. He hosts the popular science programme Puust ja punaseks on Raadio 2.
+is a research journalist and Lecturer of Research Communication at the Baltic Film, Media, Arts and Communication School, Tallinn University. His main research topic is researcher interaction with the press; he is also interested in innovation communication and environmental communication. He hosts the popular science programme *Puust ja punaseks* on Raadio 2.
 
 </div>
 </div>
@@ -8109,7 +8118,7 @@ knitr::include_graphics('../figures/6-authors/BiankaPluschke-Altof.png')
 
 <div>
 #### Bianka Plüschke-Altof {-.author-name}
-is a Researcher in Environmental Sociology at Tallinn University. She has studied and worked at Humboldt-Universität zu Berlin, the University of Warsaw, the Slovak University of Technology and the University of Tartu. Her research focuses on socio-spatial inequality and the practices and discourses of space creation. Her doctoral thesis discussed territorial stigmatisation in Estonian rural areas. She is also a part of the Tallinn University research group 'Human-nature interactions in an urbanising world' investigating urban environment issues.
+is a Researcher in Environmental Sociology at Tallinn University. She has studied and worked at Humboldt-Universität zu Berlin, the University of Warsaw, the Slovak University of Technology and the University of Tartu. Her research focuses on socio-spatial inequality and the practices and discourses of space creation. Her doctoral thesis discussed territorial stigmatisation in Estonian rural areas. She is also a member of the Tallinn University research group 'Human-nature interactions in an urbanising world' investigating urban environment issues.
 
 </div>
 </div>
@@ -8123,7 +8132,7 @@ knitr::include_graphics('../figures/6-authors/AgePoom.png')
 
 <div>
 #### Age Poom {-.author-name}
-is a post-doctoral researcher at the University of Helsinki and a lecturer of Environmental Protection at the University of Tartu. She studies the interrelationship between human mobility, activity spaces and the environment, including exposure to green spaces and environmental risks. She is interested in sustainable mobility and consumption, as well as the smart and sustainable city. As a member of the Mobility Lab at the University of Tartu, she is involved with the development of the infrastructure for spatial research based on mobile positioning data, and external collaboration projects.
+is a post-doctoral researcher at the University of Helsinki and Lecturer of Environmental Protection at the University of Tartu. She studies the interrelationship between human mobility, activity spaces and the environment, including exposure to green spaces and environmental risks. She is interested in sustainable mobility and consumption, as well as the smart and sustainable city. As a member of the Mobility Lab at the University of Tartu, she is involved with the development of the infrastructure for spatial research based on mobile positioning data, and external collaboration projects.
 
 </div>
 </div>
@@ -8193,7 +8202,7 @@ knitr::include_graphics('../figures/6-authors/AnttiRoose.png')
 
 <div>
 #### Antti Roose {-.author-name}
-is the Head of Climate and Energy Projects at the Tartu Regional Energy Agency. His research on urbanisation has focused on suburbs, energy use, planning and adaptation to climate change. He was an editor of the textbook Peatükke planeerimisest (Chapters on Planning, 2013). He has compiled spatial development documents both at the EU level and at the level of small municipalities. Roose is an expert on European Territorial Co-operation.
+is the Head of Climate and Energy Projects at the Tartu Regional Energy Agency. His research on urbanisation has focused on suburbs, energy use, planning and adaptation to climate change. He was an editor of the textbook *Peatükke planeerimisest* (*Chapters on Planning*, 2013). He has compiled spatial development documents both at the EU level and at the level of small municipalities. Roose is an expert on European Territorial Co-operation.
 
 </div>
 </div>
@@ -8207,7 +8216,7 @@ knitr::include_graphics('../figures/6-authors/KalevSepp.png')
 
 <div>
 #### Kalev Sepp {-.author-name}
-is a Professor of Environmental Protection and Landscape Management at the Estonian University of Life Sciences, and the Head of the Chair of the same name. His broad research interests include changes in land use and their impact on biodiversity, landscape planning, the sustainability of protected areas, the impact of nature conservation on regional development, the assessment and mapping of natural assets, and landscape monitoring using remote sensing. He has been involved as an expert in the preparation of many national methodologies and strategy papers. He is an expert at the International Union for the Conservation of Nature and Natural Resources.
+is a Professor of Environmental Protection and Landscape Management at the Estonian University of Life Sciences, and the head of the chair of the same name. His broad research interests include changes in land use and their impact on biodiversity, landscape planning, the sustainability of protected areas, the impact of nature conservation on regional development, the assessment and mapping of natural assets, and landscape monitoring using remote sensing. He has been involved as an expert in the preparation of many national methodologies and strategy papers. He is an expert at the International Union for the Conservation of Nature and Natural Resources.
 
 </div>
 </div>
@@ -8249,7 +8258,7 @@ knitr::include_graphics('../figures/6-authors/TauriTuvikene.png')
 
 <div>
 #### Tauri Tuvikene {-.author-name}
-is an urban geographer working as a Senior Researcher at the Centre for Landscape and Culture at the Tallinn University School of Humanities. His research interests include mobility cultures and post-socialist urban studies. He has published scientific articles on these topics in distinguished journals such as Current Sociology and IJURR. He was a co-editor of the book Post-Socialist Urban Infrastructures (Routledge, 2019). Since 2019, he has been in charge of an international project on public transport as public space, by the network Humanities in the European Research Area (HERA).
+is an urban geographer working as a Senior Researcher at the Centre for Landscape and Culture at the Tallinn University School of Humanities. His research interests include mobility cultures and post-socialist urban studies. He has published scientific articles on these topics in distinguished journals such as *Current Sociology* and *IJURR*. He was a co-editor of the book *Post-Socialist Urban Infrastructures* (Routledge, 2019). Since 2019, he has been in charge of an international project on public transport as public space, by the network Humanities in the European Research Area (HERA).
 
 </div>
 </div>
@@ -8263,7 +8272,7 @@ knitr::include_graphics('../figures/6-authors/KartVaarmari.png')
 
 <div>
 #### Kärt Vaarmari {-.author-name}
-is Development Manager and Member of the Executive Committee of the Estonian Fund for Nature. She has previously worked as an environmental lawyer, and she was a co-founders of the Estonian Environmental Law Center. In environmental law, she has focused on environmental rights, public participation in environmental decision-making, and the role of NGOs in representing the public interest in environmental issues. She was the editor and co-author of the executive summary of the General Part of the Environmental Code Act (2015) and has published articles in journals such as the Journal for European Environmental and Planning Law and Juridica.
+is the Development Manager and Member of the Executive Committee of the Estonian Fund for Nature. She has previously worked as an environmental lawyer and was a co-founder of the Estonian Environmental Law Center. In environmental law, she has focused on environmental rights, public participation in environmental decision-making, and the role of NGOs in representing the public interest in environmental issues. She was the editor and co-author of the executive summary of the General Part of the Environmental Code Act (2015) and has published articles in the *Journal for European Environmental and Planning Law*, *Juridica* and other journals.
 
 </div>
 </div>
@@ -8277,7 +8286,7 @@ knitr::include_graphics('../figures/6-authors/SiimVahtrus.png')
 
 <div>
 #### Siim Vahtrus {-.author-name}
-works at the Estonian Environmental Law Center. He has compiled guidelines for environmental impact assessment, public involvement and spatial planning. He was a co-author of the executive summary of the General Part of the Environmental Code Act (2015) and Keskkonnamõju strateegilise hindamise käsiraamat (Handbook of Strategic Environmental Assessment, 2017) He has published articles in international journals such as Juridica International, European Energy, the Environmental Law Review, and Impact Assessment and Project Appraisal.
+works at the Estonian Environmental Law Center. He has compiled guidelines for environmental impact assessment, public involvement and spatial planning. He was a co-author of the executive summary of the General Part of the Environmental Code Act (2015) and *Keskkonnamõju strateegilise hindamise käsiraamat* (*Handbook of Strategic Environmental Assessment*, 2017) He has published articles in international journals such as *Juridica International*, *European Energy*, the *Environmental Law Review*, and *Impact Assessment and Project Appraisal*.
 
 </div>
 </div>
@@ -8291,7 +8300,7 @@ knitr::include_graphics('../figures/6-authors/AndreasVentsel.png')
 
 <div>
 #### Andreas Ventsel {-.author-name}
-is a Senior Researcher of Semiotics at the University of Tartu. His main research topics are political semiotics, visual semiotics, strategic narratives in information warfare, and influence activities in online environments. He has been involved in more than a dozen research projects. He has collaborated with the Estonian Military Academy and is currently in charge of a research project dedicated on military communications deception.
+is a Senior Researcher of Semiotics at the University of Tartu. His main research topics are political semiotics, visual semiotics, strategic narratives in information warfare and influence activities in online environments. He has been involved in more than a dozen research projects. He has collaborated with the Estonian Military Academy and is currently in charge of a research project dedicated to military communications deception.
 
 </div>
 </div>
@@ -8323,11 +8332,18 @@ Design: Disainikorp<br>
 Graphics: Karel Korp<br>
 Photos: Annika Haas, Kaupo Kalda<br>
 
-Digital report: Taavet Kutsar<br>
+Digital report: Taavet Kutsar, Maarja-Leena Saar<br>
 The source code for the digital version of the report is available at: https://github.com/Demokraatialabor/EIA_2019<br>
+
+
+Media coverage (in Estonian):
+https://www.kogu.ee/tegevus/olemus-ja-roll/eesti-inimarengu-aruanne/eesti-inimarengu-aruanne-2018-2019/
 
 Publisher: Estonian Cooperation Assembly<br>
 Copyright: authors and Estonian Cooperation Assembly, 2020<br>
+
+
+<div class="kogu-logo"><a href="https://www.kogu.ee"><img src="../figures/KOGU_logo_peamine.png" alt="Estonian Cooperation Assembly logo" width="300"></a></div>
 
 <!--chapter:end:07.0-info.Rmd-->
 

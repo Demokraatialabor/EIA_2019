@@ -9,8 +9,15 @@ Design: Disainikorp<br>
 Graphics: Karel Korp<br>
 Photos: Annika Haas, Kaupo Kalda<br>
 
-Digital report: Taavet Kutsar<br>
+Digital report: Taavet Kutsar, Maarja-Leena Saar<br>
 The source code for the digital version of the report is available at: https://github.com/Demokraatialabor/EIA_2019<br>
+
+
+Media coverage (in Estonian):
+https://www.kogu.ee/tegevus/olemus-ja-roll/eesti-inimarengu-aruanne/eesti-inimarengu-aruanne-2018-2019/
 
 Publisher: Estonian Cooperation Assembly<br>
 Copyright: authors and Estonian Cooperation Assembly, 2020<br>
+
+
+<div class="kogu-logo"><a href="https://www.kogu.ee"><img src="../figures/KOGU_logo_peamine.png" alt="Estonian Cooperation Assembly logo" width="300"></a></div>
