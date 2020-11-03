@@ -8,6 +8,8 @@
 <div><a class="print-btn" href="../sissejuhatus.html">EE</a></div>
 ```
 
+### Key messages {-.chapter0_section #key-messages-0}
+
 ```{block, type='points'}
 * Estonia has advanced to 30th position in the world in terms of human development, but has since stalled.
 

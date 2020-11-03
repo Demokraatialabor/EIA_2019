@@ -12,6 +12,8 @@
 <div><a class="print-btn" href="../sissejuhatus-1.html">EE</a></div>
 ```
 
+### Key messages {-.chapter1_section #key-messages-1}
+
 ```{block, type='points'}
 * A minimal network of local and regional centres should be agreed and maintained in Estonia to enable living anywhere in the country, including in peripheral regions.
 

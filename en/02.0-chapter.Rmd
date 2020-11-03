@@ -9,6 +9,8 @@
 <div><a class="print-btn" href="../sissejuhatus-2.html">EE</a></div>
 ```
 
+### Key messages {-.chapter2_section #key-messages-2}
+
 ```{block, type='points'}
 * In Estonia, the creation of public space has been unsystematic and fragmented between spatial plans with different focal points.
 

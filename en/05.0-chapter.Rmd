@@ -10,6 +10,9 @@
 <div><a class="print-btn" href="../sissejuhatus-5.html">EE</a></div>
 ```
 
+
+### Key messages {-.chapter5_section #key-messages-5}
+
 ```{block, type='points'}
 * Future changes will affect the physical space – both the natural and built environment – and redistribute it based on new uses.
 

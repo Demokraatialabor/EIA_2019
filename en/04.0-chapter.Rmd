@@ -11,6 +11,9 @@
 <div><a class="print-btn" href="../sissejuhatus-4.html">EE</a></div>
 ```
 
+
+### Key messages {-.chapter4_section #key-messages-4}
+
 ```{block, type='points'}
 * The editorially unsupervised Estonian deliberative space is affective.
 

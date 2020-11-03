@@ -97,6 +97,8 @@ knitr::include_graphics('../figures/0-intro/Kersti_Kaljulaid_ametlik_2019.jpg')
 <div><a class="print-btn" href="../sissejuhatus.html">EE</a></div>
 ```
 
+### Key messages {-.chapter0_section #key-messages-0}
+
 ```{block, type='points'}
 * Estonia has advanced to 30th position in the world in terms of human development, but has since stalled.
 
@@ -812,6 +814,8 @@ By the time this report is complete, we are in the grip of a global health crisi
 <div class="author-links">**[Kadri Leetmaa](#kadri-leetmaa)**</div>
 <div><a class="print-btn" href="../sissejuhatus-1.html">EE</a></div>
 ```
+
+### Key messages {-.chapter1_section #key-messages-1}
 
 ```{block, type='points'}
 * A minimal network of local and regional centres should be agreed and maintained in Estonia to enable living anywhere in the country, including in peripheral regions.
@@ -3275,6 +3279,8 @@ It is true that the car enables mobility in certain situations and certainly for
 <div><a class="print-btn" href="../sissejuhatus-2.html">EE</a></div>
 ```
 
+### Key messages {-.chapter2_section #key-messages-2}
+
 ```{block, type='points'}
 * In Estonia, the creation of public space has been unsystematic and fragmented between spatial plans with different focal points.
 
@@ -4431,6 +4437,8 @@ The public sector’s main tasks in the use of open-access spatial data include 
 <div class="author-links">**[Asko Lõhmus](#asko-lõhmus)**</div>
 <div><a class="print-btn" href="../sissejuhatus-3.html">EE</a></div>
 ```
+
+### Key messages {-.chapter3_section #key-messages-3}
 
 ```{block, type='points'}
 * Public use of the natural environment promotes democracy through environmental justice and a shared experience of nature.
@@ -5919,6 +5927,9 @@ Existing databases for environmental information need to be brought together so 
 <div><a class="print-btn" href="../sissejuhatus-4.html">EE</a></div>
 ```
 
+
+### Key messages {-.chapter4_section #key-messages-4}
+
 ```{block, type='points'}
 * The editorially unsupervised Estonian deliberative space is affective.
 
@@ -6993,6 +7004,9 @@ Presenting the best expert knowledge and facilitating its use is a constant chal
 <div class="author-links">**[Kristi Grišakov](#kristi-grišakov)**</div>
 <div><a class="print-btn" href="../sissejuhatus-5.html">EE</a></div>
 ```
+
+
+### Key messages {-.chapter5_section #key-messages-5}
 
 ```{block, type='points'}
 * Future changes will affect the physical space – both the natural and built environment – and redistribute it based on new uses.

@@ -9,6 +9,8 @@
 <div><a class="print-btn" href="../sissejuhatus-3.html">EE</a></div>
 ```
 
+### Key messages {-.chapter3_section #key-messages-3}
+
 ```{block, type='points'}
 * Public use of the natural environment promotes democracy through environmental justice and a shared experience of nature.
 
