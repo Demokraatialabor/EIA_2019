@@ -1,6 +1,6 @@
 # Info {.chapter7 .chapter7_section .chapter_section}
 
-<div><a class="print-btn EE-btn" href="en/info.html">EN</a></div>
+<div id="info-lang-btn"><a class="print-btn" href="en/info.html">EN</a></div>
 
 Avalehel on pärijate loal Jaan Krossi luuletus värssromaanist „Tiit Pagu“, LR 2020/1-3, lk 10 ning autori loal Hando Runneli luuletust kogust „Sinamu“. Tartu: Ilmamaa, 2005, lk 70.<br>
 

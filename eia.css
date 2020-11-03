@@ -1656,6 +1656,19 @@ margin-top:50px !important;
 }
 }
   
+.chapter7_section a.print-btn {
+  color: #e6e3da !important;
+  text-decoration:none !important;
+}
+
+.chapter7_section a.print-btn:hover {
+  border: solid 2px #a8aca6;
+  color: #a8aca6 !important;
+}
+
+#info-lang-btn {
+  margin-bottom:20px;
+}
 
 .chapter7_section h2,
 .chapter7_section h3

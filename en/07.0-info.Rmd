@@ -1,5 +1,7 @@
 # Info {.chapter7 .chapter7_section .chapter_section}
 
+<div id="info-lang-btn"><a class="print-btn" href="../info.html">EE</a></div>
+
 Editor-in-chief: Helen Sooväli-Sepping<br>
 Reviewer: Mikko Lagerspetz<br>
 Coordinator and assistant: Anni Müüripeal<br>
