@@ -28,4 +28,8 @@ Väljaandja: SA Eesti Koostöö Kogu<br>
 Autoriõigused: autorid ja SA Eesti Koostöö Kogu, 2020<br>
 
 
-<div class="kogu-logo"><a href="https://www.kogu.ee"><img src="figures/KOGU_logo_peamine.png" alt="Estonian Cooperation Assembly logo" width="300"></a></div>
+<div class="kogu-logo">
+
+<a href="https://www.kogu.ee"><img src="figures/KOGU_logo_peamine.png" alt="Estonian Cooperation Assembly logo" width="300"></a>
+<img src="figures/selge_sonumi_logo.gif" alt="Selge sõnumi logo" width="150" style="margin-left:50px;">
+</div>
